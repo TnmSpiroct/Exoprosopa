@@ -2,3 +2,4 @@ show: false
 research: 11k-01-core-apex
 name: Units
 description: Contains all units and unit related blocks available in Frostnova.
+alwaysUnlocked: true

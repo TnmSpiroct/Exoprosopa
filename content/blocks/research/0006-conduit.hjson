@@ -2,3 +2,4 @@ show: false
 research: 11k-01-core-apex
 name: Liquid Logistics
 description: Contains all liquid logistics block available in Frostnova.
+alwaysUnlocked: true

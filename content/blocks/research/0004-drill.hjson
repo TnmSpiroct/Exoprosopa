@@ -2,3 +2,4 @@ show: false
 research: 11k-01-core-apex
 name: Production
 description: Contains all production blocks available in Frostnova.
+alwaysUnlocked: true
