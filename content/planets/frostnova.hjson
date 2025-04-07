@@ -98,7 +98,7 @@ orbitRadius: 78
 orbitOffset: 102
 minZoom: 0.8
 allowLaunchSchematics: false
-allowLaunchToNumbered: true
+allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 
