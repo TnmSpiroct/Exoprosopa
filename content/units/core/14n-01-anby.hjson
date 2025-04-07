@@ -60,4 +60,12 @@ engines: [
       }
     }
 ]
-research: 0016-unit
+research: {
+  parent: 0016-unit
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-01-newgrounds
+    }
+  ]
+}
