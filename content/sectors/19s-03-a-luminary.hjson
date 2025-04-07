@@ -1,7 +1,7 @@
-captureWave: 12
+captureWave: 13
 difficulty: 3
 planet: frostnova
-sector: 4
+sector: 22
 research: {
   parent: 19s-02-mountain-ridge
   objectives: [
