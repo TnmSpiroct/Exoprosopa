@@ -3,6 +3,5 @@ hardness: 1
 lowPriority: true
 cost: 0.3
 research: 01a-01-item-cobalt
-alwaysUnlocked: true
 hiddenOnPlanets: [serpulo, erekir]
 buildable: false
