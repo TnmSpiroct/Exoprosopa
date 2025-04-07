@@ -8,7 +8,7 @@ mesh: [
     planet: frostnova
     divisions: 6
     seed: 84
-    radius: 1.150
+    radius: 1.164
     color1: 38ac9a
     color2: 2a7667
     octaves: 4
@@ -20,7 +20,7 @@ mesh: [
     planet: frostnova
     divisions: 5
     seed: 89
-    radius: 1.115
+    radius: 1.120
     color1: 252d40
     color2: 384d6c
     octaves: 3
@@ -33,20 +33,20 @@ mesh: [
     type: NoiseMesh
     planet: frostnova
     divisions: 6
-    seed: 12
-    radius: 1.150
+    seed: 79
+    radius: 1.1775
     color1: 6f4f8c
     color2: 4d3366
-    octaves: 4
-    persistence: 0.9
+    octaves: 6
+    persistence: 1.1
     }
     {
     //tantrabiome
     type: NoiseMesh
     planet: frostnova
     divisions: 5
-    seed: 50
-    radius: 1.115
+    seed: 52
+    radius: 1.122
     color1: 505e7f
     color2: 303c58
     octaves: 3
@@ -57,32 +57,32 @@ mesh: [
     type: NoiseMesh
     planet: frostnova
     divisions: 5
-    seed: 28
-    radius: 1.130
+    seed: 34
+    radius: 1.1642
     color1: 703134
     color2: 561f22
     octaves: 3
-    persistence: 0.8
+    persistence: 0.9
     }
 ]
 cloudMesh: [
    {
    type: HexSkyMesh
    planet: frostnova
-   speed: 1.11
+   speed: 1.1
    radius: 0.194
    divisions: 6
    color: e2effc60
    octaves: 3
    persistence: 0.3
-   scl: 0.8
+   scl: 0.9
    thresh: 0.45
    }
    {
    type: HexSkyMesh
    planet: frostnova
-   speed: 1.11
-   radius: 0.194
+   speed: 1.1
+   radius: 0.195
    divisions: 6
    color: e2effc60
    octaves: 3
@@ -98,7 +98,7 @@ orbitRadius: 78
 orbitOffset: 102
 minZoom: 0.8
 allowLaunchSchematics: false
-allowLaunchToNumbered: false
+allowLaunchToNumbered: true
 allowLaunchLoadout: false
 allowSectorInvasion: false
 
