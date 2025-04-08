@@ -1,6 +1,6 @@
-colorFrom: B979BD
-colorTo: A865B4
-color: B979BD
+colorFrom: b979bd
+colorTo: a865b4
+color: b979bd
 heatCapacity: 0.35
 temperature: 0.7
 viscosity: 0.95
@@ -11,3 +11,4 @@ blockReactive: false
 gasColor: d9e1e6E6
 type: cellLiquid
 effect: exoprosopa-13m-06-contaminated
+alwaysUnlocked: false

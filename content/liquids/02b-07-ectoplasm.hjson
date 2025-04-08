@@ -12,3 +12,4 @@ blockReactive: false
 colorFrom: FFFFFF
 colorTo: 869CBE
 color: FFFFFF
+alwaysUnlocked: false
