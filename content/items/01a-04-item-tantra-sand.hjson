@@ -6,10 +6,11 @@ color: 6793D0
 hiddenOnPlanets: [serpulo, erekir]
 research: {
    parent: 01a-03-item-anthracite,
+   planet: exoprosopa-frostnova
    objectives: [
      04d-04-a-wall-extractor,
      {
-       type: OnSector
+       type: OnComplete
        preset: 19s-02-mountain-ridge
      }
    ]
