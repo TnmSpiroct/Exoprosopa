@@ -87,3 +87,4 @@ weapons: [
   }
 ]
 research: 0016-unit
+alwaysUnlocked: false
