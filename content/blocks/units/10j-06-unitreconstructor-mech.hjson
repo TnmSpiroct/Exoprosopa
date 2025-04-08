@@ -27,7 +27,7 @@ consumes: {
   ]
 }
 research: {
-  parent: 10j-03-unitconstructor-mech
+  parent: 10j-05-unitreconstructor-ship
   objectives: [
     {
       type: OnSector
