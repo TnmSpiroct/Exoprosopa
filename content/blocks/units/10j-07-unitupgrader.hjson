@@ -35,5 +35,5 @@ consumes: {
   01a-08-item-petal/80
   ]
 }
-research: 10j-06-unitreconstructor-mech
+research: 10j-04-unitreconstructor-tank
 researchCostMultiplier: 0.5
