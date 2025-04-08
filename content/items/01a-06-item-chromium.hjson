@@ -4,3 +4,4 @@ cost: 0.9
 charge: 0.1
 research: 01a-02-item-nickel
 hiddenOnPlanets: [serpulo, erekir]
+alwaysUnlocked: false

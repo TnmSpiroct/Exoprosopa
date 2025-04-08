@@ -6,3 +6,4 @@ flammability: 0.15
 radioactivity: 0.8
 research: 01a-06-item-chromium
 hiddenOnPlanets: [serpulo, erekir]
+alwaysUnlocked: false

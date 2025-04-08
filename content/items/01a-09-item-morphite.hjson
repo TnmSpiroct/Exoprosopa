@@ -5,3 +5,4 @@ color: 51C59C
 charge: 2
 explosiveness: 0.25
 hiddenOnPlanets: [serpulo, erekir]
+alwaysUnlocked: false

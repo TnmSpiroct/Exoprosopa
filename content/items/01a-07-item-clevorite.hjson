@@ -5,3 +5,4 @@ charge: 0.4
 explosiveness: 0.4
 research: 01a-05-item-aluminium
 hiddenOnPlanets: [serpulo, erekir]
+alwaysUnlocked: false

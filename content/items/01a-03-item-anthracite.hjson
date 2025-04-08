@@ -6,3 +6,4 @@ flammability: 1.2
 research: 01a-01-item-cobalt
 hiddenOnPlanets: [serpulo, erekir]
 buildable: false
+alwaysUnlocked: false

@@ -3,3 +3,4 @@ cost: 0.8
 research: 01a-03-item-anthracite
 color: 729AAF
 hiddenOnPlanets: [serpulo, erekir]
+alwaysUnlocked: false

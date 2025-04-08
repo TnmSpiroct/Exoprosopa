@@ -5,3 +5,4 @@ color: B4AF45
 charge: 0.25
 radioactivity: 1
 hiddenOnPlanets: [serpulo, erekir]
+alwaysUnlocked: false
