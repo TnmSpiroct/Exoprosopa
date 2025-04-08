@@ -25,5 +25,5 @@ consumes: {
   01a-06-item-chromium/40
   ]
 }
-research: 10j-02-unitconstructor-ship
+research: 10j-01-unitconstructor-tank
 researchCostMultiplier: 0.5
