@@ -1,5 +1,13 @@
 boilPoint: 0.5
-color: D488EA
+color: d488ea
 heatCapacity: 0.3
-research: 0002-liquid
-alwaysUnlocked: false
+research: {
+   parent: 0002-liquid
+   objectives: [
+     04d-02-elixir-collector,
+     {
+       type: OnComplete
+       preset: 19s-01-newgrounds
+     }
+   ]
+ }
