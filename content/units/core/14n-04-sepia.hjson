@@ -87,3 +87,4 @@ weapons: [
   }
 ]
 research: 14n-04-coronis
+alwaysUnlocked: false
