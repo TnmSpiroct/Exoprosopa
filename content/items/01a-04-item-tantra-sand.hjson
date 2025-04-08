@@ -2,6 +2,15 @@ hardness: 2
 cost: 0.2
 buildable: false
 lowPriority: true
-research: 01a-03-item-anthracite
 color: 6793D0
 hiddenOnPlanets: [serpulo, erekir]
+research: {
+   parent: 01a-03-item-anthracite,
+   objectives: [
+     04d-04-a-wall-extractor,
+     {
+       type: OnSector
+       preset: 19s-02-mountain-ridge
+     }
+   ]
+ }
