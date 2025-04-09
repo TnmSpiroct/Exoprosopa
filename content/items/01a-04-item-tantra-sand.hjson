@@ -11,7 +11,7 @@ research: {
       preset: 19s-02-mountain-ridge
     }
   ]
-  alwaysUnlocked: true
 }
+alwaysUnlocked: true
 color: 6793d0
 hiddenOnPlanets: [serpulo, erekir]
