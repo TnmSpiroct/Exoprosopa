@@ -1,12 +1,3 @@
 color: 76C9E5
 gasColor: d9e1e6E6
-research: {
-  parent: 02b-01-bioliquid
-  objectives: [
-    09i-02-elixir-converter,
-    {
-      type: OnSector
-      preset: 19s-02-mountain-ridge
-    }
-  ]
-}
+research: 02b-01-bioliquid
