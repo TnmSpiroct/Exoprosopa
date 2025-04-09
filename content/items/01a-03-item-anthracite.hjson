@@ -14,4 +14,4 @@ research: {
   ]
 }
 buildable: false
-hiddenOnPlanets: [serpulo, erekir]7
+hiddenOnPlanets: [serpulo, erekir]
