@@ -6,4 +6,3 @@ charge: 1
 explosiveness: 0.1
 radioactivity: 1
 hiddenOnPlanets: [serpulo, erekir]
-alwaysUnlocked: false
