@@ -2,4 +2,4 @@ boilPoint: 2
 color: ebcf73
 heatCapacity: 0.3
 gasColor: d9e1e6E6
-alwaysUnlocked: false
+hidden: true

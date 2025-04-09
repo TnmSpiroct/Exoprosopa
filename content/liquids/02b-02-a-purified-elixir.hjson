@@ -1,4 +1,3 @@
 color: 76C9E5
 gasColor: d9e1e6E6
-research: 02b-01-bioliquid
-alwaysUnlocked: false
+parent: 02b-01-bioliquid

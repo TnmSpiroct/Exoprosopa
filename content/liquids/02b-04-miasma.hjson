@@ -11,4 +11,4 @@ blockReactive: false
 gasColor: d9e1e6E6
 type: cellLiquid
 effect: exoprosopa-13m-06-contaminated
-alwaysUnlocked: false
+parent: 02b-01-bioliquid
