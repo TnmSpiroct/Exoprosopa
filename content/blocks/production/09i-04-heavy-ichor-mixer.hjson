@@ -5,7 +5,7 @@ health: 850
 size: 3
 hasLiquids: true
 category: crafting
-research: 09i-03-hydrogen-sieve
+hidden: true
 consumes: {
   items: [
     01a-03-item-anthracite/3
