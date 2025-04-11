@@ -2,12 +2,12 @@ boilPoint: 0.5
 color: d488ea
 heatCapacity: 0.3
 research: {
-   parent: 0002-liquid
-   objectives: [
-     04d-02-elixir-collector,
-     {
-       type: OnComplete
-       preset: 19s-01-newgrounds
-     }
-   ]
- }
+  parent: 0002-liquid
+  objectives: [
+    04d-02-elixir-collector,
+    {
+      type: OnComplete
+      preset: 19s-01-newgrounds
+    }
+  ]
+}
