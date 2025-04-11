@@ -1,11 +1,11 @@
 color: 76C9E5
 gasColor: d9e1e6E6
 research: {
-   parent: 02b-01-bioliquid
-   objectives: [
-     {
-       type: OnComplete
-       preset: 19s-02-mountain-ridge
-     }
-   ]
- }
+  parent: 02b-01-bioliquid
+  objectives: [
+    {
+      type: OnComplete
+      preset: 19s-02-mountain-ridge
+    }
+  ]
+}
