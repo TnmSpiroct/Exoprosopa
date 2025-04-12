@@ -1,9 +1,10 @@
 difficulty: 3
-planet: nova
-sector: 15
+planet: frostnova
+sector: 27
 research: {
   parent: 19s-03-a-luminary
   objectives: [
+    07g-03-burner-generator,
     {
       type: SectorComplete
       preset: 19s-03-a-luminary

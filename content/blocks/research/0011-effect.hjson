@@ -2,3 +2,4 @@ show: false
 research: 11k-01-core-apex
 name: Effect
 description: Contains all effect blocks available in Frostnova.
+alwaysUnlocked: true

@@ -14,14 +14,10 @@ description:
   [accent[]]Thankyou for playing this mod! 
   You can contributes maps or gives suggestions by join Exoprosopa Server! 
   Check it on my profile. My username is TnmSpiroct.
-  
-  V0.6
 '''
 version: "6.0"
 minGameVersion: "146"
-subtitle:'''
-[[]#93E2EE]Always check for updates!
-'''
-repo: "ShigureSimper/Exoprosopa"
+subtitle: "[#93e2ee[]]V0.6 Campaign Maps Update!"
+
 
 # [[]#93E2EE]Exoprosopa[[]] is waiting to be colonized again after nuclear retaliation across the supercontinent.

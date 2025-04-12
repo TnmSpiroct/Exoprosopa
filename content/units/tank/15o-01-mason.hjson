@@ -8,17 +8,17 @@ faceTarget: false
 health: 840
 armor: 4
 template: TankUnitType
-speed: 1.1
-rotateSpeed: 4.5
+speed: 0.95
+rotateSpeed: 2.2
 itemCapacity: 0
 outlineColor: 26262F
-treadPullOffset: 5
+treadFrames: 12
 treadRects: [
   {
-    x: 6
-    y: -24
+    x: 5
+    y: -25
     width: 13
-    height: 48
+    height: 52
   }
 ]
 weapons: [
@@ -26,7 +26,7 @@ weapons: [
     x: 0
     y: 0
     name: mason-weapon
-    reload: 75
+    reload: 72.5
     mirror: false
     rotate: true
     rotateSpeed: 2
@@ -38,7 +38,7 @@ weapons: [
       sprite: shell
       speed: 2.6
       lifetime: 60
-      splashDamage: 55
+      splashDamage: 60
       splashDamageRadius: 20
       width: 15
       height: 15

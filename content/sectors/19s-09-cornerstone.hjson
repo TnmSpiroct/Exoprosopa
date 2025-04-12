@@ -1,0 +1,13 @@
+difficulty: 7
+planet: frostnova
+sector: 17
+research: {
+  parent: 19s-07-cliffside
+  objectives: [
+    10j-01-unitconstructor-tank,
+    {
+      type: SectorComplete
+      preset: 19s-07-cliffside
+    }
+  ]
+}

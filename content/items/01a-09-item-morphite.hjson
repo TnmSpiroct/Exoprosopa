@@ -1,7 +1,7 @@
 hardness: 4
 cost: 1.3
 research: 01a-08-item-petal
-color: 51C59C
+color: 51c59c
 charge: 2
 explosiveness: 0.25
 hiddenOnPlanets: [serpulo, erekir]

@@ -18,4 +18,4 @@ squareSprite: false
 itemCapacity: 2500
 unitCapModifier: 15
 research: 11k-01-core-apex
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.8

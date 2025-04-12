@@ -22,10 +22,9 @@ groundLayer: 40
 shadowElevation: 0.1
 rotateSpeed: 10
 itemCapacity: 50
-alwaysUnlocked: true
-outlineColor: 26262F
+outlineColor: 26262f
 waveTrailY: -3.0
-trailColor: D8F18C
+trailColor: d8f18c
 trailLength: 12
 fogRadius: 0
 engines: [
@@ -41,7 +40,7 @@ engines: [
   widthSinMag: 0.1
     x: 0
     y: 5
-    laserColor: D8F18C
+    laserColor: d8f18c
     mirror: false
     type: RepairBeamWeapon
     rotate: false
@@ -61,4 +60,12 @@ engines: [
       }
     }
 ]
-research: 0016-unit
+research: {
+  parent: 0016-unit
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-01-newgrounds
+    }
+  ]
+}

@@ -9,7 +9,7 @@ liquidOutputDirections: [0]
 rotate: true
 quickRotate: true
 rotateDraw: false
-craftTime: 120
+craftTime: 60
 liquidCapacity: 60
 hasLiquids: true
 drawer: [
@@ -39,10 +39,10 @@ drawer: [
 ]
 consumes: {
   items: [
-  01a-04-item-tantra-sand/3
+  01a-04-item-tantra-sand/1
   ]
   liquids: [
-    02b-01-bioliquid/0.5
+    02b-01-bioliquid/0.3333333333333
   ]
   power: 0.5
 }

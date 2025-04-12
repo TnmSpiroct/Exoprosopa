@@ -1,20 +1,20 @@
 type: Radar
-name: Signal Transmitter
-description: Illuminating terrain within range, requires power.
-size: 3
-health: 650
+name: Signal Navigator
+description: Uncover fog and illuminating terrain in range, requires power.
+size: 2
+health: 450
 squareSprite: false
 requirements: [
   01a-01-item-cobalt/50
-  01a-02-item-nickel/70
-  01a-05-item-aluminium/80
+  01a-02-item-nickel/75
+  01a-05-item-aluminium/40
 ]
 consumes: {
-  power: 1.5
+  power: 1.25
 }
 category: effect
 outlineColor: 2C2A36
-fogRadius: 50
+fogRadius: 40
 ambientSound: radar-pulsing
 ambientSoundVolume: 0.5
 research: {
@@ -27,7 +27,7 @@ research: {
   ]
 }
 researchCost: [
-  01a-01-item-cobalt/150
-  01a-02-item-nickel/180
-  01a-05-item-aluminium/200
+  01a-01-item-cobalt/100
+  01a-02-item-nickel/150
+  01a-05-item-aluminium/80
 ]

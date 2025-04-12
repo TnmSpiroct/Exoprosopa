@@ -1,6 +1,8 @@
 boilPoint: 0.7
-color: 60C9AD
+color: 60c9ad
 heatCapacity: 0.5
 gasColor: d9e1e6E6
-research: 02b-02-a-purified-elixir
+research: {
+   parent: 02b-02-a-purified-elixir
+}
 temperature: 1.3

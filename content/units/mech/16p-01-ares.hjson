@@ -1,6 +1,6 @@
 type: legs
 name: Ares
-description: Fires laser at enemies. Can walk on almost all terrain
+description: Fires continous laser at enemies. Can walk on almost all terrain.
 legCount: 4
 lockLegBase: true
 legExtension: -2
@@ -20,6 +20,7 @@ health: 760
 armor: 3
 allowLegStep: true
 speed: 0.75
+rotateSpeed: 3
 hitSize: 8
 drag: 0.1
 itemCapacity: 20
@@ -31,7 +32,7 @@ weapons: [
   {
     x: 0
     y: 0
-    reload: 60
+    reload: 15
     mirror: false
     name: ares-weapon
     ejectEffect: none
@@ -39,7 +40,7 @@ weapons: [
     alwaysContinuous: true
     shootSound: firewall
     shootStatus: slow
-    shootStatusDuration: 61
+    shootStatusDuration: 16
     shootY: -3.5
     bullet: {
       type: ContinuousFlameBulletType

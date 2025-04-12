@@ -1,5 +1,4 @@
 type: StaticWall
-name: Cobalt Wall
 description: "Contains traces of cobalt."
 attributes: {
   cobalt: 1

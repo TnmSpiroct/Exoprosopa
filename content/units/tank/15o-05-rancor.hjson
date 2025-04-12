@@ -1,25 +1,31 @@
 type: tank
 name: Rancor
 description: Fires powerful cluster shell at enemies.
-hitSize: 50
+hitSize: 35
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 54000
-crushDamage: 30
-armor: 60
+health: 42000
+crushDamage: 6
+armor: 40
 template: TankUnitType
 speed: 0.35
-rotateSpeed: 0.7
+rotateSpeed: 0.6
 itemCapacity: 110
 outlineColor: 26262F
-treadPullOffset: 5
+treadFrames: 32
 treadRects: [
   {
-    x: 6
-    y: -24
-    width: 13
-    height: 48
+    x: 24
+    y: -78
+    width: 37
+    height: 171
+  }
+  {
+    x: 0
+    y: -83
+    width: 16
+    height: 40
   }
 ]
 weapons: [

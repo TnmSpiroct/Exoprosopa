@@ -1,0 +1,20 @@
+type: Radar
+name: Survey Buoy
+description: Uncover fog and illuminating terrain in smaller range, can be placed on water.
+size: 2
+health: 450
+squareSprite: false
+requirements: [
+  01a-01-item-cobalt/75
+  01a-02-item-nickel/100
+  01a-05-item-aluminium/60
+  01a-06-item-chromium/40
+]
+placeableLiquid: true
+category: effect
+outlineColor: 2C2A36
+fogRadius: 20
+ambientSound: radar-pulsing
+ambientSoundVolume: 0.2
+research: 11k-06-illuminator
+researchCostMultiplier: 0.5

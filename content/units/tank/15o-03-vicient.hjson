@@ -1,24 +1,24 @@
 type: tank
 name: Vicient
 description: Fires piercing cluster flares over a long distance at enemies.
-hitSize: 26
+hitSize: 22
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 4400
+health: 4500
 armor: 10
 template: TankUnitType
 speed: 0.65
-rotateSpeed: 2.2
-itemCapacity: 0
+rotateSpeed: 1.4
+itemCapacity: 40
 outlineColor: 26262F
-treadPullOffset: 5
+treadFrames: 12
 treadRects: [
   {
-    x: 6
-    y: -24
-    width: 13
-    height: 48
+    x: 14
+    y: -56
+    width: 20
+    height: 109
   }
 ]
 weapons: [
@@ -44,8 +44,8 @@ weapons: [
         waveStroke: 4
         waveRad: 40
         }
-      speed: 7.5
-      lifetime: 28
+      speed: 6
+      lifetime: 35
       damage: 85
       splashDamage: 35
       splashDamageRadius: 25

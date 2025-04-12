@@ -2,7 +2,7 @@ type: Floor
 name: Deep Aqua Water
 speedMultiplier: 0.5
 variants: 4
-drownTime: 600
+drownTime: 135
 liquidDrop: 02b-05-hydrowater
 liquidMultiplier: 2.5
 isLiquid: true

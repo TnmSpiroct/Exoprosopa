@@ -65,6 +65,7 @@ weapons: [
     rotate: true
     mirror: false
     shootSound: electric-discharge
+    rotateSpeed: 2.5
     bullet: {
     type: LightningBulletType
         lightningLength: 12

@@ -2,3 +2,4 @@ show: false
 research: 11k-01-core-apex
 name: Liquid Collection
 description: Contains all liquid avaiable in Frostnova.
+alwaysUnlocked: true

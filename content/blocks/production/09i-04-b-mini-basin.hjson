@@ -76,7 +76,7 @@ drawer: {
       padding: 8
     }
     {
-      type: DrawCrucibleFlame
+      type: DrawFlame
     }
     {
       type: DrawDefault

@@ -1,0 +1,16 @@
+type: BeamNode
+name: Powerbeam
+description: Transmits power to other blocks orthogonally, has more range than normal powerline.
+health: 100
+fogRadius: 3
+range: 12
+size: 1
+squareSprite: false
+category: power
+research: 0007-power
+requirements: [
+  01a-01-item-cobalt/8
+  01a-06-item-chromium/4
+]
+laserColor1: CEADEEFF
+laserColor2: 6A4291FF

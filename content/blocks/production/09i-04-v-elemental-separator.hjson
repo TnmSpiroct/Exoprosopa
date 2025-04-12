@@ -56,5 +56,5 @@ drawer: {
 ambientSound: smelter
 ambientSoundVolume: 0.6
 squareSprite: false
-research: 09i-04-u-aquafilter
+hidden: true
 researchCostMultiplier: 0.5

@@ -4,6 +4,14 @@ lowPriority: true
 cost: 0.3
 flammability: 1.2
 research: 01a-01-item-cobalt
-alwaysUnlocked: true
-hiddenOnPlanets: [serpulo, erekir]
+research: {
+  parent: 01a-01-item-cobalt
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-01-newgrounds
+    }
+  ]
+}
 buildable: false
+hiddenOnPlanets: [serpulo, erekir]

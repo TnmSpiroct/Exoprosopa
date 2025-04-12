@@ -10,7 +10,15 @@ liquidCapacity: 120
 hasLiquids: true
 health: 650
 category: crafting
-research: 09i-02-elixir-converter
+research: {
+  parent: 09i-02-elixir-converter
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-10-escarpment
+    }
+  ]
+}
 itemCapacity: 20
 researchCost: [
   01a-02-item-nickel/600
@@ -25,7 +33,7 @@ requirements: [
 craftTime: 120
 craftEffect: none
 outputItems: [
-  01a-04-item-tantra-sand/10
+  01a-04-item-tantra-sand/12
 ]
 outputLiquids: [
   02b-01-bioliquid/0.5

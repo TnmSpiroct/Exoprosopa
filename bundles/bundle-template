@@ -4,6 +4,9 @@ mod.exoprosopa.author =
 mod.exoprosopa.description = 
 mod.exoprosopa.subtitle = 
 
+# Planet
+planet.exoprosopa-frostnova.name = 
+
 # Infection Team
 team.blue.name = 
 
@@ -39,6 +42,7 @@ sector.exoprosopa-19s-10-escarpment.name =
 sector.exoprosopa-19s-10-escarpment.description = 
 
 # Resources - Items
+block.exoprosopa-bethinecobalt.name = 
 item.exoprosopa-01a-01-item-cobalt.name = 
 item.exoprosopa-01a-01-item-cobalt.description = 
 
@@ -108,6 +112,564 @@ liquid.exoprosopa-02b-07-ectoplasm.description =
 
 liquid.exoprosopa-02b-08-bethinix-liquid.name = 
 liquid.exoprosopa-02b-08-bethinix-liquid.description = 
+
+# Distribution Blocks
+block.exoprosopa-05e-01-transport-pipe.name = 
+block.exoprosopa-05e-01-transport-pipe.description = 
+
+block.exoprosopa-05e-02-a-aluminium-pipe.name = 
+block.exoprosopa-05e-02-a-aluminium-pipe.description = 
+
+block.exoprosopa-05e-02-chromium-pipe.name = 
+block.exoprosopa-05e-02-chromium-pipe.description = 
+
+block.exoprosopa-05e-03-morphite-conveyor.name = 
+block.exoprosopa-05e-03-morphite-conveyor.description = 
+
+block.exoprosopa-05e-04-a-morphite-router.name = 
+block.exoprosopa-05e-04-a-morphite-router.description = 
+
+block.exoprosopa-05e-05-crossblock.name = 
+block.exoprosopa-05e-05-crossblock.description = 
+
+block.exoprosopa-05e-06-splitter.name = 
+block.exoprosopa-05e-06-splitter.description = 
+
+block.exoprosopa-05e-07-mechanical-bridge.name = 
+block.exoprosopa-05e-07-mechanical-bridge.description = 
+
+block.exoprosopa-05e-08-pipeline-sorter.name = 
+block.exoprosopa-05e-08-pipeline-sorter.description = 
+
+block.exoprosopa-05e-10-pipeline-overflow.name = 
+block.exoprosopa-05e-10-pipeline-overflow.description = 
+
+block.exoprosopa-05e-11-morph-bridge.name = 
+block.exoprosopa-05e-11-morph-bridge.description = 
+
+block.exoprosopa-05e-13-a-surge-driver.name = 
+block.exoprosopa-05e-13-a-surge-driver.description = 
+
+block.exoprosopa-05e-13-cargobay.name = 
+block.exoprosopa-05e-13-cargobay.description = 
+
+block.exoprosopa-05e-14-cargodepot.name = 
+block.exoprosopa-05e-14-cargodepot.description = 
+
+block.exoprosopa-05e-15-pipeline-unloader.name = 
+block.exoprosopa-05e-15-pipeline-unloader.description = 
+
+# Drills Blocks
+block.exoprosopa-04d-01-pressure-generator.name = 
+block.exoprosopa-04d-01-pressure-generator.description = 
+
+block.exoprosopa-04d-02-elixir-collector.name = 
+block.exoprosopa-04d-02-elixir-collector.description = 
+
+block.exoprosopa-04d-03-ore-extractor.name = 
+block.exoprosopa-04d-03-ore-extractor.description = 
+
+block.exoprosopa-04d-03-r-ore-blaster.name = 
+block.exoprosopa-04d-03-r-ore-blaster.description = 
+
+block.exoprosopa-04d-04-a-wall-extractor.name = 
+block.exoprosopa-04d-04-a-wall-extractor.description = 
+
+block.exoprosopa-04d-04-a-wall-shifter.name = 
+block.exoprosopa-04d-04-a-wall-shifter.description = 
+
+block.exoprosopa-04d-04-b-aqua-dregder.name = 
+block.exoprosopa-04d-04-b-aqua-dregder.description = 
+
+block.exoprosopa-04d-04-b-aqua-extrator.name = 
+block.exoprosopa-04d-04-b-aqua-extrator.description = 
+
+block.exoprosopa-04d-04-bore-jet.name = 
+block.exoprosopa-04d-04-bore-jet.description = 
+
+block.exoprosopa-04d-05-ichor-rig.name = 
+block.exoprosopa-04d-05-ichor-rig.description = 
+
+block.exoprosopa-04d-06-neutralizer.name = 
+block.exoprosopa-04d-06-neutralizer.description = 
+
+# Liquid Blocks
+block.exoprosopa-06f-01-a-sea-conduit.name = 
+block.exoprosopa-06f-01-a-sea-conduit.description = 
+
+block.exoprosopa-06f-02-seaduct-junction.name = 
+block.exoprosopa-06f-02-seaduct-junction.description = 
+
+block.exoprosopa-06f-03-seaduct-router.name = 
+block.exoprosopa-06f-03-seaduct-router.description = 
+
+block.exoprosopa-06f-04-liquidbridge.name = 
+block.exoprosopa-06f-04-liquidbridge.description = 
+
+block.exoprosopa-06f-04-m-clevoritebridge.name = 
+block.exoprosopa-06f-04-m-clevoritebridge.description = 
+
+block.exoprosopa-06f-05-a-morph-liquidbridge.name = 
+block.exoprosopa-06f-05-a-morph-liquidbridge.description = 
+
+block.exoprosopa-06f-05-jet-pump.name = 
+block.exoprosopa-06f-05-jet-pump.description = 
+
+block.exoprosopa-06f-06-aqua-container.name = 
+block.exoprosopa-06f-06-aqua-container.description = 
+
+block.exoprosopa-06f-07-large-aqua-container.name = 
+block.exoprosopa-06f-07-large-aqua-container.description = 
+
+block.exoprosopa-06f-08-mfu.name = 
+block.exoprosopa-06f-08-mfu.description = 
+
+block.exoprosopa-06f-09-nullifier.name = 
+block.exoprosopa-06f-09-nullifier.description = 
+
+# Logic - Music - Trophy
+block.exoprosopa-12l-001-message-chip.name = 
+block.exoprosopa-12l-001-message-chip.description = 
+
+block.exoprosopa-12l-01-aa-music-disc1.name = 
+block.exoprosopa-12l-01-aa-music-disc1.description = 
+
+block.exoprosopa-12l-01-absolutan-trophy.name = 
+block.exoprosopa-12l-01-absolutan-trophy.description = 
+
+block.exoprosopa-12l-02-sh1penfire-trophy.name = 
+block.exoprosopa-12l-02-sh1penfire-trophy.description = 
+
+block.exoprosopa-12l-03-nameless-trophy.name = 
+block.exoprosopa-12l-03-nameless-trophy.description = 
+
+block.exoprosopa-12l-04-twcash-trophy.name
+block.exoprosopa-12l-04-twcash-trophy.description = 
+
+block.exoprosopa-12l-05-catana-trophy.name = 
+block.exoprosopa-12l-05-catana-trophy.description = 
+
+block.exoprosopa-12l-06-axoxium-trophy.name = 
+block.exoprosopa-12l-06-axoxium-trophy.description = 
+
+# Power Blocks
+block.exoprosopa-07g-01-powerline.name = 
+block.exoprosopa-07g-01-powerline.description = 
+
+block.exoprosopa-07g-01-q-powerbeam.name = 
+block.exoprosopa-07g-01-q-powerbeam.description = 
+
+block.exoprosopa-07g-02-large-powerline.name = 
+block.exoprosopa-07g-02-large-powerline.description = 
+
+block.exoprosopa-07g-02-las-morphite-node.name = 
+block.exoprosopa-07g-02-las-morphite-node.description = 
+
+block.exoprosopa-07g-02-lb-supernode.name = 
+block.exoprosopa-07g-02-lb-supernode.description = 
+
+block.exoprosopa-07g-02-m-small-powerbank.name = 
+block.exoprosopa-07g-02-m-small-powerbank.description = 
+
+block.exoprosopa-07g-03-a-powerbank.name = 
+block.exoprosopa-07g-03-a-powerbank.description = 
+
+block.exoprosopa-07g-03-b-power-director.name = 
+block.exoprosopa-07g-03-b-power-director.description = 
+
+block.exoprosopa-07g-03-burner-generator.name = 
+block.exoprosopa-07g-03-burner-generator.description = 
+
+block.exoprosopa-07g-04-burner-reactor.name = 
+block.exoprosopa-07g-04-burner-reactor.description = 
+
+block.exoprosopa-07g-05-a-geogenerator.name = 
+block.exoprosopa-07g-05-a-geogenerator.description = 
+
+block.exoprosopa-07g-05-morphite-solarpanel.name = 
+block.exoprosopa-07g-05-morphite-solarpanel.description = 
+
+block.exoprosopa-07g-05-tokamak-reactor.name = 
+block.exoprosopa-07g-05-tokamak-reactor.description = 
+
+# Production - Blocks
+block.exoprosopa-09i-01-aluminium-furnace.name = 
+block.exoprosopa-09i-01-aluminium-furnace.description = 
+
+block.exoprosopa-09i-02-a-aluminium-refinery-forge.name = 
+block.exoprosopa-09i-02-a-aluminium-refinery-forge.description = 
+
+block.exoprosopa-09i-02-elixir-converter.name = 
+block.exoprosopa-09i-02-elixir-converter.description = 
+
+block.exoprosopa-09i-02-f-elixir-autofreezer.name = 
+block.exoprosopa-09i-02-f-elixir-autofreezer.description = 
+
+block.exoprosopa-09i-04-a-terra-basin.name = 
+block.exoprosopa-09i-04-a-terra-basin.description = 
+
+block.exoprosopa-09i-04-b-mini-basin.name = 
+block.exoprosopa-09i-04-b-mini-basin.description = 
+
+block.exoprosopa-09i-04-clevorite-disassembler.name = 
+block.exoprosopa-09i-04-clevorite-disassembler.description = 
+
+block.exoprosopa-09i-04-heavy-ichor-mixer.name = 
+block.exoprosopa-09i-04-heavy-ichor-mixer.description = 
+
+block.exoprosopa-09i-04-tantraformer.name = 
+block.exoprosopa-09i-04-tantraformer.description = 
+
+block.exoprosopa-09i-04-u-aquafilter.name = 
+block.exoprosopa-09i-04-u-aquafilter.description = 
+
+block.exoprosopa-09i-04-v-elemental-separator.name = 
+block.exoprosopa-09i-04-v-elemental-separator.description = 
+
+block.exoprosopa-09i-11-morphifier-crystallizer.name = 
+block.exoprosopa-09i-11-morphifier-crystallizer.description = 
+
+block.exoprosopa-09i-11-n-morphite-liquidfier.name = 
+block.exoprosopa-09i-11-n-morphite-liquidfier.description = 
+
+block.exoprosopa-09i-12-bethine-solidfier.name = 
+block.exoprosopa-09i-12-bethine-solidfier.description = 
+
+block.exoprosopa-09i-15-pyroforge.name = 
+block.exoprosopa-09i-15-pyroforge.description = 
+
+block.exoprosopa-09i-90-pipeline-incerinator.name = 
+block.exoprosopa-09i-90-pipeline-incerinator.description = 
+
+# Tech Tree - Research
+block.exoprosopa-0001-item.name = 
+block.exoprosopa-0001-item.description = 
+
+block.exoprosopa-0002-liquid.name = 
+block.exoprosopa-0002-liquid.description = 
+
+block.exoprosopa-0003-turret.name = 
+block.exoprosopa-0003-turret.description = 
+
+block.exoprosopa-0004-drill.name = 
+block.exoprosopa-0004-drill.description = 
+
+block.exoprosopa-0005-transport.name = 
+block.exoprosopa-0005-transport.description = 
+
+block.exoprosopa-0006-conduit.name = 
+block.exoprosopa-0006-conduit.description = 
+
+block.exoprosopa-0007-power.name = 
+block.exoprosopa-0007-power.description = 
+
+block.exoprosopa-0008-defence.name = 
+block.exoprosopa-0008-defence.description = 
+
+block.exoprosopa-0009-factory.name = 
+block.exoprosopa-0009-factory.description = 
+
+block.exoprosopa-0010-fabricator.name = 
+block.exoprosopa-0010-fabricator.description = 
+
+block.exoprosopa-0011-effect.name = 
+block.exoprosopa-0011-effect.description = 
+
+block.exoprosopa-0012-music.name = 
+block.exoprosopa-0012-music.description = 
+
+block.exoprosopa-0013-trophy.name = 
+block.exoprosopa-.description = 
+
+block.exoprosopa-0014-sector.name = 
+block.exoprosopa-.description = 
+
+block.exoprosopa-0016-unit.name = 
+block.exoprosopa-0016-unit.description = 
+
+# Storage - Cores - Effects
+block.exoprosopa-11k-00-core-suzuran-kit.name = 
+block.exoprosopa-11k-00-core-suzuran-kit.description = 
+
+block.exoprosopa-11k-01-core-apex.name = 
+block.exoprosopa-11k-01-core-apex.description = 
+
+block.exoprosopa-11k-02-core-empower.name = 
+block.exoprosopa-11k-02-core-empower.description = 
+
+block.exoprosopa-11k-03-core-apeirogon.name = 
+block.exoprosopa-11k-03-core-apeirogon.description = 
+
+block.exoprosopa-11k-04-a-core-crest.name = 
+block.exoprosopa-11k-04-a-core-crest.description = 
+
+block.exoprosopa-11k-04-b-core-boundless.name = 
+block.exoprosopa-11k-04-b-core-boundless.description = 
+
+block.exoprosopa-11k-04-clip.name = 
+block.exoprosopa-11k-04-clip.description = 
+
+block.exoprosopa-11k-05-a-healer.name = 
+block.exoprosopa-11k-05-a-healer.description = 
+
+block.exoprosopa-11k-05-holoshield.name = 
+block.exoprosopa-11k-05-holoshield.description = 
+
+block.exoprosopa-11k-06-illuminator.name = 
+block.exoprosopa-11k-06-illuminator.description = 
+
+block.exoprosopa-11k-07-buoy.name = 
+block.exoprosopa-11k-07-buoy.description = 
+
+block.exoprosopa-91z-00-core-accelerator.name = 
+block.exoprosopa-91z-00-core-accelerator.description = 
+
+# Turrets Blocks
+block.exoprosopa-03c-01-impale.name = 
+block.exoprosopa-03c-01-impale.description = 
+
+block.exoprosopa-03c-02-calamity.name = 
+block.exoprosopa-03c-02-calamity.description = 
+
+block.exoprosopa-03c-02-earthquake.name = 
+block.exoprosopa-03c-02-earthquake.description = 
+
+block.exoprosopa-03c-03-a-spewer.name = 
+block.exoprosopa-03c-03-a-spewer.description = 
+
+block.exoprosopa-03c-03-vulcan.name = 
+block.exoprosopa-03c-03-vulcan.description = 
+
+block.exoprosopa-03c-04-a-canace.name = 
+block.exoprosopa-03c-04-a-canace.description = 
+
+block.exoprosopa-03c-04-b-subsonic.name = 
+block.exoprosopa-03c-04-b-subsonic.description = 
+
+block.exoprosopa-03c-04-preject.name = 
+block.exoprosopa-03c-04-preject.description = 
+
+block.exoprosopa-03c-05-equinox.name = 
+block.exoprosopa-03c-05-equinox.description = 
+
+block.exoprosopa-03c-06-continuum.name = 
+block.exoprosopa-03c-06-continuum.description = 
+
+block.exoprosopa-03c-07-phalanx.name = 
+block.exoprosopa-03c-07-phalanx.description = 
+
+block.exoprosopa-03c-08-webber.name = 
+block.exoprosopa-03c-08-webber.description = 
+
+block.exoprosopa-03c-09-identity.name = 
+block.exoprosopa-03c-09-identity.description = 
+
+block.exoprosopa-03c-10-supernova.name = 
+block.exoprosopa-03c-10-supernova.description = 
+
+# Unit Blocks
+block.exoprosopa-10j-01-unitconstructor-tank.name = 
+block.exoprosopa-10j-01-unitconstructor-tank.description = 
+
+block.exoprosopa-10j-02-unitconstructor-ship.name = 
+block.exoprosopa-10j-02-unitconstructor-ship.description = 
+
+block.exoprosopa-10j-03-unitconstructor-mech.name = 
+block.exoprosopa-10j-03-unitconstructor-mech.description = 
+
+block.exoprosopa-10j-04-unitreconstructor-tank.name = 
+block.exoprosopa-10j-04-unitreconstructor-tank.description = 
+
+block.exoprosopa-10j-05-unitreconstructor-ship.name = 
+block.exoprosopa-10j-05-unitreconstructor-ship.description = 
+
+block.exoprosopa-10j-06-unitreconstructor-mech.name = 
+block.exoprosopa-10j-06-unitreconstructor-mech.description = 
+
+block.exoprosopa-10j-07-unitupgrader.name = 
+block.exoprosopa-10j-07-unitupgrader.description = 
+
+block.exoprosopa-10j-08-unitassembler-tank.name = 
+block.exoprosopa-10j-08-unitassembler-tank.description = 
+
+block.exoprosopa-10j-09-unitassembler-ship.name = 
+block.exoprosopa-10j-09-unitassembler-ship.description = 
+
+block.exoprosopa-10j-10-unitassembler-mech.name = 
+block.exoprosopa-10j-10-unitassembler-mech.description = 
+
+block.exoprosopa-10j-11-advanced-module-a.name = 
+block.exoprosopa-10j-11-advanced-module-a.description = 
+
+block.exoprosopa-10j-12-regenerator.name = 
+block.exoprosopa-10j-12-regenerator.description = 
+
+block.exoprosopa-10j-14-payload-conveyor.name = 
+block.exoprosopa-10j-14-payload-conveyor.description = 
+
+block.exoprosopa-10j-15-payload-router.name = 
+block.exoprosopa-10j-15-payload-router.description = 
+
+block.exoprosopa-10j-15-surge-launcher.name = 
+block.exoprosopa-10j-15-surge-launcher.description = 
+
+block.exoprosopa-10j-16-block-fabricator.name = 
+block.exoprosopa-10j-16-block-fabricator.description = 
+
+block.exoprosopa-10j-17-unitpart-fabricator.name = 
+block.exoprosopa-10j-17-unitpart-fabricator.description = 
+
+block.exoprosopa-10j-18-block-deconstructor.name = 
+block.exoprosopa-10j-18-block-deconstructor.description = 
+
+block.exoprosopa-90z-01-heavy-armored-treads.name = 
+block.exoprosopa-90z-01-heavy-armored-treads.description = 
+
+block.exoprosopa-90z-02-hyperspace-engine.name = 
+block.exoprosopa-90z-02-hyperspace-engine.description = 
+
+block.exoprosopa-90z-03-geopowered-mechlegs.name = 
+block.exoprosopa-90z-03-geopowered-mechlegs.description = 
+
+# Walls
+block.exoprosopa-08h-01-cobalt-wall-small.name = 
+block.exoprosopa-08h-01-cobalt-wall-small.description = 
+
+block.exoprosopa-08h-02-cobalt-wall-large.name = 
+block.exoprosopa-08h-02-cobalt-wall-large.description = 
+
+block.exoprosopa-08h-03-chromium-wall-small.name = 
+block.exoprosopa-08h-03-chromium-wall-small.description = 
+
+block.exoprosopa-08h-04-chromium-wall-large.name = 
+block.exoprosopa-08h-04-chromium-wall-large.description = 
+
+block.exoprosopa-08h-05-a-aluminium-gate.name = 
+block.exoprosopa-08h-05-a-aluminium-gate.description = 
+
+block.exoprosopa-08h-05-clevorite-wall-small.name = 
+block.exoprosopa-08h-05-clevorite-wall-small.description = 
+
+block.exoprosopa-08h-06-clevorite-wall-large.name = 
+block.exoprosopa-08h-06-clevorite-wall-large.description = 
+
+block.exoprosopa-08h-07-morphite-wall-small.name = 
+block.exoprosopa-08h-07-morphite-wall-small.description = 
+
+block.exoprosopa-08h-08-morphite-wall-large.name = 
+block.exoprosopa-08h-08-morphite-wall-large.description = 
+
+block.exoprosopa-08h-11-petal-wall-small.name = 
+block.exoprosopa-08h-11-petal-wall-small.description = 
+
+block.exoprosopa-08h-12-petal-wall-large.name = 
+block.exoprosopa-08h-12-petal-wall-large.description = 
+
+block.exoprosopa-08h-13-bethine-wall-small.name = 
+block.exoprosopa-08h-13-bethine-wall-small.description = 
+
+block.exoprosopa-08h-14-bethine-wall-large.name = 
+block.exoprosopa-08h-14-bethine-wall-large.description = 
+
+block.exoprosopa-08h-15-pyroxene-wall-small.name = 
+block.exoprosopa-08h-15-pyroxene-wall-small.description = 
+
+block.exoprosopa-08h-16-pyroxene-wall-large.name = 
+block.exoprosopa-08h-16-pyroxene-wall-large.description = 
+
+block.exoprosopa-08h-17-pyroxene-gate.name = 
+block.exoprosopa-08h-17-pyroxene-gate.description = 
+
+# Core Units
+unit.exoprosopa-14n-01-anby.name = 
+unit.exoprosopa-14n-01-anby.description = 
+
+unit.exoprosopa-14n-02-nicole.name = 
+unit.exoprosopa-14n-02-nicole.description = 
+
+unit.exoprosopa-14n-03-axthrasis.name = 
+unit.exoprosopa-14n-03-axthrasis.description = 
+
+unit.exoprosopa-14n-04-coronis.name = 
+unit.exoprosopa-14n-04-coronis.description = 
+
+unit.exoprosopa-14n-04-sepia.name = 
+unit.exoprosopa-14n-04-sepia.description = 
+
+unit.exoprosopa-14n-04-suzuran.name = 
+unit.exoprosopa-14n-04-suzuran.description = 
+
+# Hover Units
+unit.exoprosopa-17q-01-codex.name = 
+unit.exoprosopa-17q-01-codex.description = 
+
+unit.exoprosopa-17q-02-calaust.name = 
+unit.exoprosopa-17q-02-calaust.description = 
+
+unit.exoprosopa-17q-03-syntaxe.name = 
+unit.exoprosopa-17q-03-syntaxe.description = 
+
+unit.exoprosopa-17q-04-noya.name = 
+unit.exoprosopa-17q-04-noya.description = 
+
+unit.exoprosopa-17q-05-archangel.name = 
+unit.exoprosopa-17q-05-archangel.description = 
+
+# Mech Units
+unit.exoprosopa-16p-01-ares.name = 
+unit.exoprosopa-16p-01-ares.description = 
+
+unit.exoprosopa-16p-02-rhitle.name = 
+unit.exoprosopa-16p-02-rhitle.description = 
+
+unit.exoprosopa-16p-03-sender.name = 
+unit.exoprosopa-16p-03-sender.description = 
+
+unit.exoprosopa-16p-04-carragher.name = 
+unit.exoprosopa-16p-04-carragher.description = 
+
+unit.exoprosopa-16p-05-xenoct.name = 
+unit.exoprosopa-16p-05-xenoct.description = 
+
+# Ship Units
+unit.exoprosopa-17q-05-bulbhead.name = 
+unit.exoprosopa-17q-05-bulbhead.description = 
+
+unit.exoprosopa-17q-06-shark.name = 
+unit.exoprosopa-17q-06-shark.description = 
+
+unit.exoprosopa-17q-07-narhwal.name = 
+unit.exoprosopa-17q-07-narhwal.description = 
+
+unit.exoprosopa-17q-08-freesia.name = 
+unit.exoprosopa-17q-08-freesia.description = 
+
+# Tank Units
+unit.exoprosopa-15o-01-mason.name = 
+unit.exoprosopa-15o-01-mason.description = 
+
+unit.exoprosopa-15o-02-oktarav.name = 
+unit.exoprosopa-15o-02-oktarav.description = 
+
+unit.exoprosopa-15o-03-vicient.name = 
+unit.exoprosopa-15o-03-vicient.description = 
+
+unit.exoprosopa-15o-04-siphon.name = 
+unit.exoprosopa-15o-04-siphon.description = 
+
+unit.exoprosopa-15o-05-rancor.name = 
+unit.exoprosopa-15o-05-rancor.description = 
+
+# Others Units
+unit.exoprosopa-18r-01-amber.name = 
+unit.exoprosopa-18r-02-amber.description = 
+
+unit.exoprosopa-18r-02-iris.name = 
+unit.exoprosopa-18r-02-iris.description = 
+
+# Weather
+weather.exoprosopa-.name = 
+weather.exoprosopa-.description = 
 
 # Status Effects
 status.exoprosopa-13m-01-breached.name = 

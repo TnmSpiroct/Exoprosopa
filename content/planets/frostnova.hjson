@@ -1,0 +1,139 @@
+generator: "PlanetGenerator"
+localizedName: Frostnova
+description: The stony planet, slowly dying from nuke retaillation.
+mesh: [
+    {
+    //aquabiome
+    type: NoiseMesh
+    planet: frostnova
+    divisions: 6
+    seed: 84
+    radius: 1.164
+    color1: 38ac9a
+    color2: 2a7667
+    octaves: 4
+    persistence: 0.9
+    }
+    {
+    //cobaltbiome
+    type: NoiseMesh
+    planet: frostnova
+    divisions: 5
+    seed: 89
+    radius: 1.120
+    color1: 252d40
+    color2: 384d6c
+    octaves: 3
+    persistence: 1.1
+    mag: 1.8
+    scl: 7
+    }
+    {
+    //obsidianbiome
+    type: NoiseMesh
+    planet: frostnova
+    divisions: 6
+    seed: 79
+    radius: 1.1775
+    color1: 6f4f8c
+    color2: 4d3366
+    octaves: 6
+    persistence: 1.1
+    }
+    {
+    //tantrabiome
+    type: NoiseMesh
+    planet: frostnova
+    divisions: 5
+    seed: 52
+    radius: 1.122
+    color1: 505e7f
+    color2: 303c58
+    octaves: 3
+    persistence: 1.1
+    }
+    {
+    //fleshbiome
+    type: NoiseMesh
+    planet: frostnova
+    divisions: 5
+    seed: 34
+    radius: 1.1642
+    color1: 703134
+    color2: 561f22
+    octaves: 3
+    persistence: 0.9
+    }
+]
+cloudMesh: [
+   {
+   type: HexSkyMesh
+   planet: frostnova
+   speed: 1.1
+   radius: 0.194
+   divisions: 6
+   color: e2effc60
+   octaves: 3
+   persistence: 0.3
+   scl: 0.9
+   thresh: 0.45
+   }
+   {
+   type: HexSkyMesh
+   planet: frostnova
+   speed: 1.1
+   radius: 0.195
+   divisions: 6
+   color: e2effc60
+   octaves: 3
+   persistence: 0.4
+   scl: 0.8
+   thresh: 0.45
+   }
+]
+radius: 1.2
+startSector: 0
+sectorSize: 2
+orbitRadius: 78
+orbitOffset: 102
+minZoom: 0.8
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+
+hasAtmosphere: true
+iconColor: 98c1f5
+
+accessible: true
+visible: true
+alwaysUnlocked: true
+
+updateLighting: false
+bloom: false
+
+clearSectorOnLose: true
+prebuildBase: true
+defaultCore: 11k-01-core-apex
+coreDestroyClear: true
+parent: sun
+solarSystem: sun
+tidalLock: true
+orbitSpacing: 1
+
+enemyBuildSpeedMultiplier: 0.6
+
+launchCandidates: []
+itemWhitelist: [
+  "01a-01-item-cobalt",
+  "01a-02-item-nickel",
+  "01a-03-item-anthracite",
+  "01a-04-item-tantra-sand",
+  "01a-05-item-aluminium",
+  "01a-06-item-chromium",
+  "01a-07-item-clevorite",
+  "01a-08-item-petal",
+  "01a-09-item-morphite",
+  "01a-10-item-bethine",
+  "01a-11-item-pyroxene",
+]

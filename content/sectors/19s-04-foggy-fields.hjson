@@ -1,6 +1,6 @@
 difficulty: 6
-planet: nova
-sector: 41
+planet: frostnova
+sector: 20
 research: {
   parent: 19s-03-hostile-outpost
   objectives: [

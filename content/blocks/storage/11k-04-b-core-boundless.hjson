@@ -2,7 +2,7 @@ type: CoreBlock
 name: Core: Boundless
 description: Core of the base. Lightly armored and stores medium amount of items.
 size: 5
-health: 32500
+health: 27500
 armor: 15
 unitType: 14n-04-sepia
 requirements: [
@@ -16,7 +16,7 @@ requiresCoreZone: true
 incinerateNonBuildable: true
 category: effect
 squareSprite: false
-itemCapacity: 4500
+itemCapacity: 5500
 unitCapModifier: 15
 research: 11k-04-a-core-crest
-researchCostMultiplier: 1.5
+researchCostMultiplier: 1.2

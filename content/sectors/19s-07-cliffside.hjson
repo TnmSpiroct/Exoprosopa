@@ -1,13 +1,15 @@
 captureWave: 12
-difficulty: 3
-planet: nova
-sector: 38
+difficulty: 6
+planet: frostnova
+sector: 4
 research: {
-  parent: 19s-06-crest
+  parent: 19s-04-foggy-fields
   objectives: [
+    03c-02-earthquake,
+    04d-04-bore-jet
     {
       type: SectorComplete
-      preset: 19s-06-crest
+      preset: 19s-04-foggy-fields
     }
   ]
 }

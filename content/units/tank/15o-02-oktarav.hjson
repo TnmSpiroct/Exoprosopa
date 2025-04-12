@@ -1,24 +1,24 @@
 type: tank
 name: Oktarav
 description: Fires piercing bullets at high firerate at enemies.
-hitSize: 20
+hitSize: 17
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 1990
+health: 2000
 armor: 7
 template: TankUnitType
-speed: 0.85
-rotateSpeed: 2.4
+speed: 0.825
+rotateSpeed: 1.75
 itemCapacity: 0
 outlineColor: 26262F
-treadPullOffset: 5
+treadFrames: 12
 treadRects: [
   {
-    x: 6
-    y: -24
-    width: 13
-    height: 48
+    x: 8
+    y: -39
+    width: 19
+    height: 73
   }
 ]
 weapons: [

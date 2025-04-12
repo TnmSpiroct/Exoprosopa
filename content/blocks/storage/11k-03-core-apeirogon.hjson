@@ -2,7 +2,7 @@ type: CoreBlock
 name: Core: Apeirogon
 description: Core of the base. Heavily armored and stores large amount of items.
 size: 6
-health: 80000
+health: 72500
 armor: 35
 unitType: 14n-03-axthrasis
 requirements: [
@@ -18,7 +18,7 @@ requiresCoreZone: true
 incinerateNonBuildable: true
 category: effect
 squareSprite: false
-itemCapacity: 5000
+itemCapacity: 7000
 unitCapModifier: 15
 research: 11k-02-core-empower
-researchCostMultiplier: 2
+researchCostMultiplier: 1.5

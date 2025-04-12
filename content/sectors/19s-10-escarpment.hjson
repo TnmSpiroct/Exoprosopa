@@ -1,0 +1,13 @@
+difficulty: 8
+planet: frostnova
+sector: 18
+research: {
+  parent: 19s-09-cornerstone
+  objectives: [
+    01a-04-item-tantra-sand,
+    {
+      type: SectorComplete
+      preset: 19s-09-cornerstone
+    }
+  ]
+}

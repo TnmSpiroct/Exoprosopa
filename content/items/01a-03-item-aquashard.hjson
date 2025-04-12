@@ -1,8 +1,8 @@
 color: 72CCBD
 hardness: 1
 lowPriority: true
+alwaysUnlocked: false
+buildable: false
 cost: 0.3
 research: 01a-01-item-cobalt
-alwaysUnlocked: true
 hiddenOnPlanets: [serpulo, erekir]
-buildable: false

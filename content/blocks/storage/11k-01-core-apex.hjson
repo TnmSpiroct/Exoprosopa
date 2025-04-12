@@ -19,7 +19,7 @@ alwaysUnlocked: true
 itemCapacity: 2500
 unitCapModifier: 15
 research: {
-  planet: nova
+  planet: frostnova
   root: true
   name: Frostnova
   requiresUnlock: false

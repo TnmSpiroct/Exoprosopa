@@ -2,5 +2,14 @@ color: 9D7F7F
 hardness: 2
 cost: 0.9
 charge: 0.1
-research: 01a-02-item-nickel
+research: {
+  parent: 01a-02-item-nickel
+  objectives: [
+    04d-04-bore-jet,
+    {
+      type: OnSector
+      preset: 19s-07-cliffside
+    }
+  ]
+}
 hiddenOnPlanets: [serpulo, erekir]

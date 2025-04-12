@@ -1,0 +1,45 @@
+type: AttributeCrafter
+name: Aquanite Extractor
+description: Slowly extracts aquanite from aqua tiles, requires hydriyte to operate.
+size: 2
+attribute: aquanite
+baseEfficiency: 0
+minEfficiency: 1
+liquidCapacity: 60
+hasLiquids: true
+health: 450
+category: production
+research: 04d-04-b-aqua-dregder
+itemCapacity: 10
+researchCostMultiplier: 0.5
+requirements: [
+  01a-02-item-nickel/60
+  01a-05-item-aluminium/45
+  01a-06-item-chromium/25
+]
+craftTime: 60
+craftEffect: none
+outputItems: [
+  01a-03-item-aquashard/1
+]
+consumes: {
+  liquids: [
+    02b-05-hydrowater/0.083333333
+  ]
+  power: 0.5
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
+squareSprite: false

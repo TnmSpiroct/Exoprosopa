@@ -1,15 +1,15 @@
 type: SolarGenerator
 name: Exosphere Panel
-description: Produces small amounts of power passively.
+description: Produces small amount of power passively.
 size: 4
 health: 1000
 category: power
 research: 0007-power
 requirements: [
-  01a-02-item-nickel/100
-  01a-05-item-aluminium/80
+  01a-02-item-nickel/180
+  01a-05-item-aluminium/100
   01a-09-item-morphite/40
 ]
-powerProduction: 3
+powerProduction: 2
 generateEffect: none
 researchCostMultiplier: 0.5

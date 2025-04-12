@@ -4,10 +4,10 @@ speedMultiplier: 0.35
 variants: 0
 isLiquid: true
 liquidDrop: 02b-04-miasma
-cacheLayer: water
+cacheLayer: tar
 supportsOverlay: true
 liquidMultiplier: 0.8333333333
-drownTime: 180
+drownTime: 90
 emitLight: true
 lightRadius: 30
 lightColor: EBB2E2AA
