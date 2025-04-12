@@ -42,6 +42,7 @@ sector.exoprosopa-19s-10-escarpment.name =
 sector.exoprosopa-19s-10-escarpment.description = 
 
 # Resources - Items
+block.exoprosopa-tech-ore.name = 
 block.exoprosopa-bethinecobalt.name = 
 item.exoprosopa-01a-01-item-cobalt.name = 
 item.exoprosopa-01a-01-item-cobalt.description = 
