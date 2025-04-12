@@ -1,0 +1,5 @@
+show: false
+research: 11k-01-core-apex
+name: Logic
+description: Contains all logic blocks available in Frostnova.
+alwaysUnlocked: true
