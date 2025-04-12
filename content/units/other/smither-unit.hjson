@@ -1,0 +1,64 @@
+type: missile
+lifetime: 180
+
+speed: 0
+flying: true
+engineSize: 0
+shadowElevation: 0
+createWreck: false
+drawBody: false
+isEnemy: false
+useUnitCap: false
+createWreck: false
+allowedInPayloads: false
+physics: false
+bounded: false
+hidden: true
+playerControllable: false
+hoverable: false
+targetable: false
+drawMinimap: false
+fogRadius: 0
+deathSound: release
+deathExplosionEffect: none
+drawCell: false
+drawBody: false
+abilities: [
+	{
+		type: StatusFieldAbility
+		range: 300
+		reload: 180
+		effect: 13m-02-immunity
+		duration: -1
+		activeEffect: {
+			type: MultiEffect
+			effects: [
+				{
+					type: WaveEffect
+					lifetime: 360
+					sizeFrom: 0
+					sizeTo: 300
+					strokeFrom: 3
+					strokeTo: 0
+					colorFrom: e5aed7
+					colorTo: e5aed7
+					lightScl: 1
+					clip: 300
+				}
+				{
+					type: WaveEffect
+					lifetime: 360
+					sizeFrom: 300
+					sizeTo: 300
+					strokeFrom: 3
+					strokeTo: 0
+					colorFrom: e5aed7
+					colorTo: e5aed700
+					lightScl: 1
+					interp: pow5In
+					clip: 300
+				}
+			]
+		}
+	}
+]

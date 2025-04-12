@@ -1,7 +1,7 @@
-captureWave: 12
+captureWave: 16
 difficulty: 6
 planet: frostnova
-sector: 4
+sector: 38
 research: {
   parent: 19s-04-foggy-fields
   objectives: [

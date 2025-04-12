@@ -86,5 +86,6 @@ weapons: [
     }
   }
 ]
-research: 14n-04-coronis
-alwaysUnlocked: false
+research: {
+  parent: 14n-04-coronis
+}

@@ -5,7 +5,7 @@ hitSize: 9
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 840
+health: 850
 armor: 4
 template: TankUnitType
 speed: 0.95
@@ -21,6 +21,8 @@ treadRects: [
     height: 52
   }
 ]
+research: 10j-01-unitconstructor-tank
+researchCostMultiplier: 1
 weapons: [
   {
     x: 0

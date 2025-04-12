@@ -61,3 +61,5 @@ weapons: [
     }
   }
 ]
+researchCostMultiplier: 1
+research: 10j-04-unitreconstructor-tank

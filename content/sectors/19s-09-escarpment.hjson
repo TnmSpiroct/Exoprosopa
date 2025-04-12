@@ -1,0 +1,13 @@
+captureWave: 30
+difficulty: 5
+planet: frostnova
+sector: 18
+research: {
+  parent: 19s-08-botanical-garden
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-08-botanical-garden
+    }
+  ]
+}

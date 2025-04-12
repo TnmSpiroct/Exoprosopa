@@ -86,5 +86,6 @@ weapons: [
     }
   }
 ]
-research: 0016-unit
-alwaysUnlocked: false
+research: {
+  parent: 0016-unit
+}

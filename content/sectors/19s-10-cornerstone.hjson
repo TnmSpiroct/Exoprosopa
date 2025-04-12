@@ -1,0 +1,12 @@
+difficulty: 6
+planet: frostnova
+sector: 17
+research: {
+  parent: 19s-09-escarpment
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-09-escarpment
+    }
+  ]
+}

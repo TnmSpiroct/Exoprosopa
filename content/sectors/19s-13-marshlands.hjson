@@ -1,0 +1,13 @@
+captureWave: 30
+difficulty: 8
+planet: frostnova
+sector: 56
+research: {
+  parent: 19s-12-hazardous-wasteland
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-12-hazardous-wasteland
+    }
+  ]
+}

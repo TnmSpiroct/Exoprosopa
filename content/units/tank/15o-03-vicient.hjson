@@ -46,8 +46,8 @@ weapons: [
         }
       speed: 6
       lifetime: 35
-      damage: 85
-      splashDamage: 35
+      damage: 75.25
+      splashDamage: 30.25
       splashDamageRadius: 25
       width: 15
       height: 15
@@ -58,7 +58,7 @@ weapons: [
       trailWidth: 1.5
       pierceCap: 4
       fragSpread: 15
-      fragBullets: 4
+      fragBullets: 3
       fragBullet: {
         type: BasicBulletType
         sprite: missile-large
@@ -66,9 +66,9 @@ weapons: [
         lifetime: 4
         height: 15
         width: 15
-        damage: 35
-        splashDamage: 35
-        splashDamageRadius: 25
+        damage: 30.25
+        splashDamage: 30.25
+        splashDamageRadius: 10
         pierceCap: 3
       }
     }

@@ -1,0 +1,13 @@
+captureWave: 25
+difficulty: 8
+planet: frostnova
+sector: 39
+research: {
+  parent: 19s-10-cornerstone
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-10-cornerstone
+    }
+  ]
+}

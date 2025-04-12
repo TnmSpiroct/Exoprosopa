@@ -19,7 +19,7 @@ groundLayer: 60
 health: 3400
 armor: 8
 allowLegStep: true
-speed: 0.7
+speed: 0.675
 hitSize: 15
 drag: 0.1
 rotateSpeed: 1.8
@@ -59,12 +59,12 @@ weapons: [
       homingDelay: 30
       homingRange: 120
       speed: 4
-      lifetime: 55
+      lifetime: 60
       hitEffect: blastExplosion
       despawnHit: true
-      damage: 25
+      damage: 22.75
       splashDamage: 20
-      splashDamageRadius: 24
+      splashDamageRadius: 20
       fragBullets: 1
       fragBullet: {
         type: MissileBulletType
@@ -99,8 +99,8 @@ weapons: [
       shootSound: lasershoot
       shootEffect: sparkShoot
       hitEffect: pointHit
-      maxRange: 135
-      damage: 42
+      maxRange: 100
+      damage: 40
     }
   }
 ]
