@@ -1,0 +1,6 @@
+color: 6B6881
+hardness: 1
+cost: 1
+buildable: false
+research: 0001-item
+hiddenOnPlanets: [serpulo, erekir]

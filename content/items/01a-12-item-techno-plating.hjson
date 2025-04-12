@@ -1,0 +1,5 @@
+color: 418EA7
+hardness: 2
+cost: 1.5
+research: 01a-11-item-technoscrap
+hiddenOnPlanets: [serpulo, erekir]

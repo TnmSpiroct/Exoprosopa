@@ -2,6 +2,7 @@ hardness: 2
 cost: 0.2
 buildable: false
 lowPriority: true
+alwaysUnlocked: true
 research: {
   parent: 01a-03-item-anthracite
   objectives: [
@@ -11,6 +12,5 @@ research: {
     }
   ]
 }
-alwaysUnlocked: true
 color: 6793d0
 hiddenOnPlanets: [serpulo, erekir]
