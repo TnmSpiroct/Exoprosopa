@@ -31,7 +31,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-09-cornerstone
+      preset: 19s-10-cornerstone
     }
   ]
 }

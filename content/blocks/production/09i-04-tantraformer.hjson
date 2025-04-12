@@ -15,7 +15,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-10-escarpment
+      preset: 19s-09-escarpment
     }
   ]
 }
