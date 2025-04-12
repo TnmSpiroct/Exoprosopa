@@ -14,4 +14,7 @@ solid: false
 underBullets: true
 regionRotated1: 1
 allowCoreUnload: false
-researchCostMultiplier: 0.5
+researchCost: [
+  01a-05-item-aluminium/100
+  01a-06-item-chromium/200
+]
