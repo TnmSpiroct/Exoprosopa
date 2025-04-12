@@ -10,5 +10,8 @@ spreadTarget: 02b-01-bioliquid
 blockReactive: false
 gasColor: d9e1e6E6
 type: cellLiquid
+alwaysUnlocked: false
 effect: exoprosopa-13m-06-contaminated
-research: 02b-01-bioliquid
+research: {
+  parent: 02b-01-bioliquid
+}
