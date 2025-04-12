@@ -6,7 +6,7 @@ range: 7
 tier: 3
 size: 4
 optionalBoostIntensity: 1.5
-drillTime: 80
+drillTime: 60
 ambientSound: drill
 ambientSoundVolume: 0.08
 hasLiquids: true

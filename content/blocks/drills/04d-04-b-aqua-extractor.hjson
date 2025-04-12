@@ -9,7 +9,15 @@ liquidCapacity: 60
 hasLiquids: true
 health: 450
 category: production
-research: 04d-04-b-aqua-dregder
+research: {
+  parent: 04d-04-b-aqua-dregder
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-11-creek
+    }
+  ]
+}
 itemCapacity: 10
 researchCostMultiplier: 0.5
 requirements: [
