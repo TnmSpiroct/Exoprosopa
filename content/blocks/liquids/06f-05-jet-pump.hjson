@@ -5,7 +5,6 @@ health: 450
 size: 2
 category: liquid
 squareSprite: false
-research: 06f-01-a-sea-conduit
 requirements: [
   01a-01-item-cobalt/30
   01a-02-item-nickel/60
@@ -18,4 +17,18 @@ consumes: {
     02b-02-a-purified-elixir/0.08333333333
   ]
 }
-researchCostMultiplier: 0.5
+researchCost: [
+  01a-01-item-cobalt/1000
+  01a-02-item-nickel/2000
+  01a-05-item-aluminium/1500
+  01a-06-item-chromium/750
+]
+research: {
+  parent: 06f-01-a-sea-conduit
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-09-escarpment
+    }
+  ]
+}
