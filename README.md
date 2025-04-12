@@ -1,4 +1,4 @@
-# Exoprosopa : Early Access
+# Exoprosopa V0.6 Map Update.
 
 <p align="center"><img src="banner.png" alt="banner" width="800"></p>
 
@@ -7,15 +7,10 @@
 </p>
 
   Exoprosopa adds frostnova planet into the game alongside with its own unique techtree and environment.<br><br>
-  Exoprosopa is waiting to be colonized again after nuclear retaliation across the supercontinent.<br>
-  Conquer this planet with over 18 campaign maps avaiable on this mod.<br>
+  Conquer this planet with over 18 campaign maps available on this mod.<br>
   Including challenge maps!<br><br>
   With over 13 items to be discovered, 124 blocks to be researched. and 17 different units to build!<br>
-  Harvest the planet with your technology before Astral Infection recovering their presence and taken the entire planet<br><br>
+
   Thankyou for playing this mod!<br>
-  You can contributes maps or gives suggestions by join Exoprosopa Server!<br>
-  Check it on my profile. My username is TnmSpiroct<br><br>
-  Also, Try Ark of Rebirth and Mindustry Expansion as well!<br>
-  Special thanks for CY4NIDE, ItzMarzu, Zouranartemwing, Mythril, Aureus, Jamuu.<br><br>
-  Sh1penFire My Beloved ♡<br><br><br>
-### Still in early access, expect some broken turrets and units.
+  You can contributes maps or give suggestions on Exoprosopa Server!<br><br>
+  V0.6 TnmSpiroct

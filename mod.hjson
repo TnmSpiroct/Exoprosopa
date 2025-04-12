@@ -1,22 +1,27 @@
-# If you want to use any assets in this mod (except names), please credit me properly in your project.
+# If you want to use assets from this mod, please credit me properly in your project when you sharing it to the public.
 name: "exoprosopa"
 displayName: "[#93e2ee[]]Exoprosopa"
 author: "TnmSpiroct"
 description:
 '''
-  [#93e2ee[]]Exoprosopa[[]] adds frostnova planet into the game alongside with its own unique techtree and environment.
+  [#93e2ee[]]Exoprosopa[[]] adds Frostnova as a third planet into the game alongside with its own unique techtree and environment.
 
-  [#93e2ee[]]Exoprosopa[[]] is waiting to be colonized again after nuclear retaliation across the supercontinent.
-  Conquer this planet with over 18 campaign maps avaiable on this mod. Including challenge maps!
+  Capture and conquer with over 18 campaign maps avaiable on this mod. (now with challenge maps!)
 
   With over 13 items to be discovered, 124 blocks to be researched. and 17 different units to build!
-  Harvest the planet with your technology before Astral Infection recovering their presence and taken the entire planet.
+  Harvest the planet with your technology before Astral Infection awaken and conquer the entire planet.[[]]
 
   [accent[]]Thankyou for playing this mod! 
   You can contributes maps or gives suggestions by join Exoprosopa Server! 
   Check it on my profile. My username is TnmSpiroct.
+  
+  V0.6
 '''
-version: "2.0"
+version: "6.0"
 minGameVersion: "146"
-subtitle: "[#93e2ee[]]Always reinstall for new updates!"
+subtitle:'''
+[[]#93E2EE]Always check for updates!
+'''
 repo: "ShigureSimper/Exoprosopa"
+
+# [[]#93E2EE]Exoprosopa[[]] is waiting to be colonized again after nuclear retaliation across the supercontinent.

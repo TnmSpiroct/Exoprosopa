@@ -14,14 +14,12 @@ early deprive and calamity concept by cy4nide
 gameplay concept and turrets helped by sh1penfire
 halo exclusive for tanks by willoizcitron
 early code and sprite concept by marzu, artemwing, noone
-playtested by sambuyya and producer+
+playtested by sambuyya and producer+++
 english grammar fix by vire
 id translation by kevin vilyan
 
 special thanks: 
-jab005 for updating this mod to github, now he is gone, the account gets deleted. He doesn't want to comeback and leave indonesian community, thanks jab for taking care of indonesian mindustry server, i always love you. I hope you will comeback.
-
-Thank you for all exoprosopa contributors.
+jab005 for updating this mod to github, now he is gone, the account gets deleted. He wouldn't comeback and he has left indonesian community, thanks jab for taking care of indonesian mindustry server, i always love you. I hope you will comeback.
 
 # Credits [ Audio Experience / Assets ]
 
@@ -51,3 +49,4 @@ SoundEffect: plasma-shot
 Author: Carrion
 
 Other than said above, the sound is free to use or unknown author.
+Thank you for all exoprosopa contributor.
