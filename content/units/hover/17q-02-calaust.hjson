@@ -17,6 +17,7 @@ groundLayer: 60
 health: 1180
 armor: 3
 hitSize: 15
+canDrown: false
 researchCostMultiplier: 1.5
 research: 10j-05-unitreconstructor-ship
 engines: [

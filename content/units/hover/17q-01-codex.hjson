@@ -20,6 +20,7 @@ hitSize: 8
 itemCapacity: 0
 useEngineElevation: false
 lowAltitude: false
+canDrown: false
 parts: [
   {
     type: HoverPart
