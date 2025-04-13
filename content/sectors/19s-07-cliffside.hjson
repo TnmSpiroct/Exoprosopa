@@ -6,7 +6,7 @@ research: {
   parent: 19s-04-foggy-fields
   objectives: [
     03c-02-earthquake,
-    04d-04-bore-jet
+    04d-04-bore-jet,
     {
       type: SectorComplete
       preset: 19s-04-foggy-fields
