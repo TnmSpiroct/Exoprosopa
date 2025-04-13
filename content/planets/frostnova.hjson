@@ -108,7 +108,9 @@ iconColor: 98c1f5
 accessible: true
 visible: true
 alwaysUnlocked: true
-
+campaignRuleDefaults.fog = true
+campaignRuleDefaults.showSpawns = true
+campaignRuleDefaults.rtsAI = true
 updateLighting: false
 bloom: false
 
