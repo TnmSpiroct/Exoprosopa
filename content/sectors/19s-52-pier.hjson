@@ -1,0 +1,13 @@
+captureWave: 20
+difficulty: 10
+planet: frostnova
+sector: 76
+research: {
+  parent: 19s-13-marshlands
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-13-marshlands
+    }
+  ]
+}

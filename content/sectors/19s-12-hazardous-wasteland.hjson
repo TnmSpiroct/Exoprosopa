@@ -1,0 +1,12 @@
+difficulty: 6
+planet: frostnova
+sector: 16
+research: {
+  parent: 19s-11-creek
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-11-creek
+    }
+  ]
+}
