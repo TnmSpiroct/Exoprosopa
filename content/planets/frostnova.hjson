@@ -111,7 +111,7 @@ alwaysUnlocked: true
 campaignRuleDefaults.fog: true
 campaignRuleDefaults.showSpawns: true
 campaignRuleDefaults.rtsAI: true
-updateLighting: false
+updateLighting: true
 bloom: false
 
 clearSectorOnLose: true

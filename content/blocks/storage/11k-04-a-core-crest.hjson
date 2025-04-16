@@ -17,5 +17,13 @@ isFirstTier: true
 squareSprite: false
 itemCapacity: 2500
 unitCapModifier: 15
-research: 11k-01-core-apex
+research: {
+  parent: 11k-01-core-apex
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-06-crest
+    }
+  ]
+}
 researchCostMultiplier: 0.8
