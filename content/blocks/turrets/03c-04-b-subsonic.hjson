@@ -1,5 +1,5 @@
 type: PowerTurret
-name: Subsonic
+name: Influx
 description: Charges up to and discharge pure power to electrifies enemies.
 size: 3
 health: 3000
@@ -7,23 +7,29 @@ armor: 5
 reload: 115
 shoot: {
   firstShotDelay: 115
-  shots: 12
+  shots: 9
   shotDelay: 0
 }
 rotateSpeed: 1.35
 recoil: 2.5
-range: 290
+range: 230
 minWarmup: 0.4
 moveWhileCharging: false
 outlineColor: 00000000
 shootSound: taser
 chargeSound: laser-charge
-researchCostMultiplier: 0.5
+researchCost: [
+  01a-01-item-cobalt/6000
+  01a-02-item-nickel/8000
+  01a-06-item-chromium/5000
+  01a-07-item-clevorite/1000
+  01a-09-item-morphite/750
+]
 shootType: {
   type: LightningBulletType
   hitSound: electric-discharge
-  damage: 110
-  lightningLength: 35
+  damage: 100
+  lightningLength: 28
   lightningLengthRand: 7
   lightningColor: 51C59C
   status: 13m-03-hsos6
@@ -37,12 +43,12 @@ research: 03c-03-vulcan
 requirements: [
   01a-01-item-cobalt/200
   01a-02-item-nickel/400
-  01a-06-item-chromium/150
-  01a-07-item-clevorite/80
+  01a-06-item-chromium/175
+  01a-07-item-clevorite/150
   01a-09-item-morphite/60
 ]
 consumes: {
-  power: 12
+  power: 11
 }
 drawer: {
   type: DrawTurret

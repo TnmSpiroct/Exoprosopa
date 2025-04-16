@@ -21,8 +21,8 @@ requirements: [
 ]
 research: 05e-01-transport-pipe
 researchCost: [
-  01a-01-item-cobalt/350
-  01a-05-item-aluminium/500
-  01a-06-item-chromium/300
-  01a-09-item-morphite/40
+  01a-01-item-cobalt/4000
+  01a-05-item-aluminium/5000
+  01a-06-item-chromium/3000
+  01a-09-item-morphite/250
 ]

@@ -13,8 +13,16 @@ requirements: [
   01a-07-item-clevorite/200
   01a-09-item-morphite/100
 ]
+researchCost: [
+  01a-01-item-cobalt/8000
+  01a-05-item-aluminium/5000
+  01a-06-item-chromium/3500
+  01a-07-item-clevorite/1000
+  01a-09-item-morphite/750
+]
+research: 03c-01-impale
 consumes: {
-  power: 7
+  power: 5
 }
 category: turret
 recoil: 1.5
@@ -50,7 +58,7 @@ ammoTypes: {
     sprite: large-orb
     buildingDamageMultiplier: 0.25
     hitColor: 6EEFC0
-    damage: 120
+    damage: 125
     width: 8
     height: 14
     hitSize: 6
@@ -70,7 +78,7 @@ ammoTypes: {
     intervalBullet: {
       type: LightningBulletType
       hitSound: electric-discharge
-      damage: 25
+      damage: 20
       lightningLength: 2
       lightningLengthRand: 4
       lightningColor: 6EEFC0

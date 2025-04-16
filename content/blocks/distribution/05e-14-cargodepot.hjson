@@ -13,8 +13,8 @@ requirements: [
   01a-09-item-morphite/10
 ]
 researchCost: [
-  01a-01-item-cobalt/200
-  01a-05-item-aluminium/150
-  01a-06-item-chromium/100
-  01a-09-item-morphite/40
+  01a-01-item-cobalt/3000
+  01a-05-item-aluminium/2500
+  01a-06-item-chromium/2000
+  01a-09-item-morphite/100
 ]

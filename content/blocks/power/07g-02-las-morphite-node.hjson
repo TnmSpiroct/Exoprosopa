@@ -12,7 +12,11 @@ laserScale: 0.6
 laserColor1: CEADEEFF
 laserColor2: 6A4291FF
 research: 07g-02-large-powerline
-researchCostMultiplier: 0.5
+researchCost: [
+  01a-02-item-nickel/1000
+  01a-07-item-clevorite/500
+  01a-09-item-morphite/150
+]
 requirements: [
   01a-02-item-nickel/30
   01a-07-item-clevorite/10

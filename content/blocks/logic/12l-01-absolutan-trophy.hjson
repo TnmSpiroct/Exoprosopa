@@ -3,15 +3,24 @@ name: Trophy : Absolute
 description: Trophy for Absolutan on discord
 size: 3
 squareSprite: false
-health: 3000
-details: Thanks for absolutan contributing this game!
+health: 2250
+details: Thanks for absolutan to contributing in Exoprosopa!
 requirements: [
-  01a-07-item-clevorite/1500
+  01a-07-item-clevorite/250
+  01a-09-item-morphite/100
+]
+research: {
+  parent: 0013-trophy
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-99-ending
+    }
+  ]
+}
+researchCost: [
+  01a-07-item-clevorite/1000
   01a-09-item-morphite/500
 ]
-research: 0013-trophy
-researchCost: [
-  01a-01-item-cobalt/20
-]
 category: logic
-buildVisibility: editorOnly
+buildVisibility: campaignOnly

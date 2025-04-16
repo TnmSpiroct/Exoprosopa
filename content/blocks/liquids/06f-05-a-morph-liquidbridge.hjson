@@ -20,5 +20,6 @@ category: liquid
 squareSprite: false
 research: 06f-04-liquidbridge
 researchCost: [
+  01a-05-item-aluminium/750
   01a-09-item-morphite/50
 ]

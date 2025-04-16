@@ -8,7 +8,12 @@ health: 850
 category: crafting
 research: 09i-11-morphite-crystallizer
 itemCapacity: 10
-researchCostMultiplier: 0.5
+researchCost: [
+  01a-05-item-aluminium/4000
+  01a-06-item-chromium/3000
+  01a-07-item-clevorite/1000
+  01a-09-item-morphite/250
+]
 requirements: [
   01a-05-item-aluminium/200
   01a-06-item-chromium/150

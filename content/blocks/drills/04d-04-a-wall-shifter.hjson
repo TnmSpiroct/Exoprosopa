@@ -6,7 +6,7 @@ size: 3
 category: production
 research: 04d-04-a-wall-extractor
 consumes: {
-  power: 0.75
+  power: 1
 }
 requirements: [
   01a-01-item-cobalt/80
@@ -14,7 +14,12 @@ requirements: [
   01a-05-item-aluminium/100
   01a-09-item-morphite/40
 ]
-researchCostMultiplier: 0.5
+researchCost: [
+  01a-01-item-cobalt/3000
+  01a-02-item-nickel/4500
+  01a-05-item-aluminium/3500
+  01a-09-item-morphite/500
+]
 drillTime: 30
 output: 01a-04-item-tantra-sand
 attribute: tantra

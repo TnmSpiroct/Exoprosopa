@@ -3,15 +3,24 @@ name: Trophy : Axoxium
 description: Trophy for mod-Axoxium
 size: 4
 squareSprite: false
-health: 5000
+health: 4600
 details: Thanks for 555okboi as a partner back then.
 requirements: [
-  01a-07-item-clevorite/1500
+  01a-07-item-clevorite/500
+  01a-09-item-morphite/250
+]
+research: {
+  parent: 0013-trophy
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-99-ending
+    }
+  ]
+}
+researchCost: [
+  01a-07-item-clevorite/1000
   01a-09-item-morphite/500
 ]
-research: 12l-03-nameless-trophy
-researchCost: [
-  01a-08-item-petal/20
-]
 category: logic
-buildVisibility: editorOnly
+buildVisibility: campaignOnly

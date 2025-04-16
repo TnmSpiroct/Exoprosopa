@@ -12,4 +12,8 @@ requirements: [
 ]
 powerProduction: 2
 generateEffect: none
-researchCostMultiplier: 0.5
+researchCost: [
+  01a-02-item-nickel/6000
+  01a-05-item-aluminium/4000
+  01a-09-item-morphite/750
+]

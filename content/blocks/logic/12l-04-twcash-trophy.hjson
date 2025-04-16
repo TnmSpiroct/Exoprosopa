@@ -6,12 +6,21 @@ squareSprite: false
 health: 3000
 details: Thanks for twcash01 for all of the sprite references!
 requirements: [
-  01a-07-item-clevorite/1500
+  01a-07-item-clevorite/250
+  01a-09-item-morphite/100
+]
+research: {
+  parent: 0013-trophy
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-99-ending
+    }
+  ]
+}
+researchCost: [
+  01a-07-item-clevorite/1000
   01a-09-item-morphite/500
 ]
-research: 12l-03-nameless-trophy
-researchCost: [
-  01a-06-item-chromium/20
-]
 category: logic
-buildVisibility: editorOnly
+buildVisibility: campaignOnly
