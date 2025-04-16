@@ -88,4 +88,10 @@ weapons: [
 ]
 research: {
   parent: 0016-unit
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-08-botanical-garden
+    }
+  ]
 }
