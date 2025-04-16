@@ -8,7 +8,6 @@ faceTarget: false
 health: 42000
 crushDamage: 6
 armor: 40
-template: TankUnitType
 speed: 0.35
 rotateSpeed: 0.6
 itemCapacity: 110
@@ -82,3 +81,5 @@ weapons: [
     }
   }
 ]
+researchCostMultiplier: 2.5
+research: 15o-04-siphon

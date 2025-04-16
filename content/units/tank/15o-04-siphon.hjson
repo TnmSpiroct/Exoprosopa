@@ -8,7 +8,6 @@ faceTarget: false
 health: 12500
 crushDamage: 3
 armor: 19
-template: TankUnitType
 speed: 0.45
 rotateSpeed: 0.9
 itemCapacity: 70
@@ -88,3 +87,5 @@ weapons: [
     }
   }
 ]
+researchCostMultiplier: 1.5
+research: 10j-08-unitassembler-tank

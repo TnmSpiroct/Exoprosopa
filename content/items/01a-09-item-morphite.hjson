@@ -1,6 +1,8 @@
+name: Morphite
+description: Morphed chromium, contains high energy inside the material. Used in various generator and ammunition.
 hardness: 4
 cost: 1.3
-research: 01a-08-item-petal
+research: 01a-06-item-chromium
 color: 51c59c
 charge: 2
 explosiveness: 0.25
