@@ -14,4 +14,3 @@ research: {
 }
 buildable: false
 hiddenOnPlanets: [serpulo, erekir]
-alwaysUnlocked: true

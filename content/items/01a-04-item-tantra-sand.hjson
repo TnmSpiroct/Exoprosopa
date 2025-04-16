@@ -3,14 +3,7 @@ cost: 0.2
 buildable: false
 lowPriority: true
 alwaysUnlocked: true
-research: {
-  parent: 01a-03-item-anthracite
-  objectives: [
-    {
-      type: OnSector
-      preset: 19s-02-mountain-ridge
-    }
-  ]
-}
+research: 01a-03-item-anthracite
+
 color: 6793d0
 hiddenOnPlanets: [serpulo, erekir]
