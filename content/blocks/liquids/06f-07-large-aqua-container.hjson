@@ -10,6 +10,14 @@ requirements: [
   01a-01-item-cobalt/70
   01a-06-item-chromium/50
 ]
-research: 06f-06-aqua-container
+research: {
+  parent: 06f-06-aqua-container
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-16-crest
+    }
+  ]
+}
 liquidPadding: 1.8
 researchCostMultiplier: 0.5

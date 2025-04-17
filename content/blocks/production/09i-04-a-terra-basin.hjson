@@ -11,7 +11,15 @@ liquidCapacity: 180
 hasLiquids: true
 health: 1000
 category: crafting
-research: 09i-02-elixir-converter
+research: {
+  parent: 09i-02-elixir-converter
+  objectives: [
+    {
+      type: OnSector
+      preset:19s-12-hazardous-wasteland
+    }
+  ]
+}
 itemCapacity: 30
 researchCost: [
   01a-01-item-cobalt/900

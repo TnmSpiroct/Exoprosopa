@@ -28,7 +28,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-09-escarpment
+      preset: 19s-12-hazardous-wasteland
     }
   ]
 }

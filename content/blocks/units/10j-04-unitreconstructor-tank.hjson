@@ -26,5 +26,13 @@ consumes: {
   01a-06-item-chromium/40
   ]
 }
-research: 10j-06-unitreconstructor-mech
+research: {
+  parent: 10j-06-unitreconstructor-mech
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-12-hazardous-wasteland
+    }
+  ]
+}
 researchCostMultiplier: 0.5

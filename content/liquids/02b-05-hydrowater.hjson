@@ -1,4 +1,12 @@
 boilPoint: 0.5
 color: 53a999
 heatCapacity: 0.15
-parent: 02b-01-bioliquid
+research: {
+  parent: 02b-01-bioliquid
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-11-creek
+    }
+  ]
+}

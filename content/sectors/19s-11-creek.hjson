@@ -5,6 +5,7 @@ sector: 39
 research: {
   parent: 19s-10-cornerstone
   objectives: [
+    11k-07-buoy,
     {
       type: SectorComplete
       preset: 19s-10-cornerstone

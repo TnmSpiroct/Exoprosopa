@@ -14,4 +14,10 @@ alwaysUnlocked: false
 effect: exoprosopa-13m-06-contaminated
 research: {
   parent: 02b-01-bioliquid
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-12-hazardous-wasteland
+    }
+  ]
 }

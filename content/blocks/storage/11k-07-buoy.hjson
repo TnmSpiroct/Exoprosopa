@@ -16,5 +16,13 @@ outlineColor: 2C2A36
 fogRadius: 20
 ambientSound: radar-pulsing
 ambientSoundVolume: 0.2
-research: 11k-06-illuminator
+research: {
+  parent: 11k-06-illuminator
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-09-escarpment
+    }
+  ]
+}
 researchCostMultiplier: 0.5
