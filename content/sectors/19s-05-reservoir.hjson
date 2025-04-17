@@ -8,7 +8,7 @@ research: {
     11k-06-illuminator,
     {
       type: SectorComplete
-      preset: 19s-01-newgrounds
+      preset: 19s-02-mountain-ridge
     }
   ]
 }

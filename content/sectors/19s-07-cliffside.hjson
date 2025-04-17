@@ -3,12 +3,13 @@ difficulty: 6
 planet: frostnova
 sector: 38
 research: {
-  parent: 19s-04-foggy-fields
+  parent: 19s-06-crest
   objectives: [
     04d-04-bore-jet,
+	02b-02-a-purified-elixir,
     {
       type: SectorComplete
-      preset: 19s-04-foggy-fields
+      preset: 19s-06-crest
     }
   ]
 }
