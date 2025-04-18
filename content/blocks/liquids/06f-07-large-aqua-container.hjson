@@ -15,7 +15,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-16-crest
+      preset: 19s-05-reservoir
     }
   ]
 }
