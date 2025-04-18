@@ -2,5 +2,5 @@ color: 6B6881
 hardness: 1
 cost: 1
 buildable: false
-research: 0001-item
+research: 01a-01-item-cobalt
 hiddenOnPlanets: [serpulo, erekir]
