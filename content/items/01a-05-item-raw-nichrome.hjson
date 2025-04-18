@@ -3,5 +3,5 @@ hardness: 1
 lowPriority: true
 buildable: false
 cost: 0.3
-research: 01a-04-item-tantra-sand
+research: 01a-05-item-raw-nichrome
 hiddenOnPlanets: [serpulo, erekir]
