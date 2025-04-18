@@ -3,5 +3,5 @@ hardness: 1
 lowPriority: true
 buildable: false
 cost: 0.3
-research: 01a-05-item-raw-nichrome
+research: 01a-03-item-aquashard
 hiddenOnPlanets: [serpulo, erekir]
