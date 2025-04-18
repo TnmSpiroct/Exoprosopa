@@ -7,7 +7,7 @@ research: {
   objectives: [
     {
       type: Produce
-      preset: 01a-04-item-tantra
+      preset: 01a-04-item-tantra-sand
     }
   ]
 }
