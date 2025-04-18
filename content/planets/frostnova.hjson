@@ -108,12 +108,13 @@ iconColor: 98c1f5
 accessible: true
 visible: true
 alwaysUnlocked: true
+
+updateLighting: false
+bloom: false
 campaignRuleDefaults.fog: true
 campaignRuleDefaults.showSpawns: true
 campaignRuleDefaults.rtsAI: true
-updateLighting: true
-bloom: false
-
+fog: true
 clearSectorOnLose: true
 prebuildBase: true
 defaultCore: 11k-01-core-apex
