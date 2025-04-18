@@ -1,4 +1,5 @@
 color: 7a94d1
 hardness: 1
 cost: 0.5
+hidden: true
 hiddenOnPlanets: [serpulo, erekir]

@@ -2,8 +2,14 @@ hardness: 2
 cost: 0.2
 buildable: false
 lowPriority: true
-alwaysUnlocked: true
-research: 01a-03-item-anthracite
-
+research: {
+  parent: 01a-01-item-cobalt
+  objectives: [
+    {
+      type: Produce
+      preset: 01a-04-item-tantra
+    }
+  ]
+}
 color: 6793d0
 hiddenOnPlanets: [serpulo, erekir]
