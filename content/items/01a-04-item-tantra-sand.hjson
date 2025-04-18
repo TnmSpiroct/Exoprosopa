@@ -6,8 +6,8 @@ research: {
   parent: 01a-01-item-cobalt
   objectives: [
     {
-      type: Produce
-      preset: 01a-04-item-tantra-sand
+      type: SectorComplete
+      preset: 19s-02-mountain-ridge
     }
   ]
 }
