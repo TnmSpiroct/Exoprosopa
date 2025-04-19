@@ -102,9 +102,12 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 
-campaignRuleDefaults.fog: true
-campaignRuleDefaults.showSpawns: true
-campaignRuleDefaults.rtsAI: true
+#campaignRuleDefaults.fog: true
+#campaignRuleDefaults.showSpawns: true
+#campaignRuleDefaults.rtsAI: true
+
+showSpawns: true
+fog: true
 
 hasAtmosphere: true
 iconColor: 98c1f5
