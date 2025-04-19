@@ -30,7 +30,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-04-foggy-fields
+      preset: exoprosopa-19s-04-foggy-fields
     }
   ]
 }
