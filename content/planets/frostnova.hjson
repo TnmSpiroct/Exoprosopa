@@ -102,10 +102,6 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 
-#campaignRuleDefaults.fog: true
-#campaignRuleDefaults.showSpawns: true
-#campaignRuleDefaults.rtsAI: true
-
 showSpawns: true
 fog: true
 
