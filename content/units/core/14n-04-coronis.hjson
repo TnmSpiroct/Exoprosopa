@@ -91,7 +91,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: exoprosopa-19s-08-botanical-garden
+      preset: 19s-08-botanical-garden
     }
   ]
 }

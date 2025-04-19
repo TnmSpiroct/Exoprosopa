@@ -4,8 +4,8 @@ research: {
   parent: 02b-01-bioliquid
   objectives: [
     {
-      type: SectorComplete
-      preset: exoprosopa-19s-02-mountain-ridge
+      type: OnComplete
+      preset: 19s-02-mountain-ridge
     }
   ]
 }

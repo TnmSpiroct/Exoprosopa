@@ -6,7 +6,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: exoprosopa-19s-11-creek
+      preset: 19s-11-creek
     }
   ]
 }

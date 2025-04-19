@@ -17,7 +17,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: exoprosopa-19s-12-hazardous-wasteland
+      preset: 19s-12-hazardous-wasteland
     }
   ]
 }

@@ -6,8 +6,8 @@ research: {
   objectives: [
     04d-02-elixir-collector,
     {
-      type: SectorComplete
-      preset: exoprosopa-19s-01-newgrounds
+      type: OnComplete
+      preset: 19s-01-newgrounds
     }
   ]
 }
