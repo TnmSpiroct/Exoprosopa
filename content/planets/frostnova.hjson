@@ -112,7 +112,7 @@ iconColor: 98c1f5
 accessible: true
 visible: true
 alwaysUnlocked: true
-updateLighting: true
+updateLighting: false
 bloom: false
 
 clearSectorOnLose: true
