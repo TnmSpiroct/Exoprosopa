@@ -1,0 +1,12 @@
+difficulty: 8
+planet: frostnova
+sector: 87
+research: {
+  parent: 19s-13-marshlands
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-13-marshlands
+    }
+  ]
+}
