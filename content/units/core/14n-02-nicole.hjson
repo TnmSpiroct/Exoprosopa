@@ -63,4 +63,10 @@ engines: [
 ]
 research: {
   parent: 14n-01-anby
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-12-hazardous-wasteland
+    }
+  ]
 }

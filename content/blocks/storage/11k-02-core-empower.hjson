@@ -18,7 +18,15 @@ category: effect
 squareSprite: false
 itemCapacity: 5500
 unitCapModifier: 15
-research: 11k-04-a-core-crest
+research: {
+  parent: 11k-04-a-core-crest
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-12-hazardous-wasteland
+    }
+  ]
+}
 researchCost: [
  01a-01-item-cobalt/20000
  01a-02-item-nickel/17500

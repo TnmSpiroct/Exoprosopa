@@ -4,6 +4,7 @@ sector: 31
 research: {
   parent: 19s-12-hazardous-wasteland
   objectives: [
+    11k-02-core-empower,
     {
       type: SectorComplete
       preset: 19s-12-hazardous-wasteland
