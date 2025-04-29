@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Nullifier
-description: Use cryogenics and miasma to transform nickel into clevorite, have better effeciency but doesn't produce elixir.
+description: Nullifies ectoplasm into miasma using inchor.
 size: 3
 liquidCapacity: 240
 hasLiquids: true
