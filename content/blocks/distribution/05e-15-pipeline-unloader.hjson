@@ -4,7 +4,7 @@ description: A directional unloader that cannot unload cores.
 size: 1
 health: 100
 category: distribution
-research: 11k-04-clip
+research: 05e-10-pipeline-overflow
 requirements: [
   01a-05-item-aluminium/20
   01a-06-item-chromium/40
