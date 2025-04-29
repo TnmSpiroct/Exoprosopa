@@ -10,7 +10,7 @@ requirements: [
   01a-09-item-morphite/100
 ]
 research: {
-  parent: 0013-trophy
+  parent: 0017-trophy
   objectives: [
     {
       type: OnSector
