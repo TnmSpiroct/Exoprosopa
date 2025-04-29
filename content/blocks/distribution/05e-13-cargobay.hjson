@@ -19,7 +19,7 @@ requirements: [
   01a-06-item-chromium/70
   01a-09-item-morphite/60
 ]
-research: 05e-01-transport-pipe
+research: 05e-13-a-surge-driver
 researchCost: [
   01a-01-item-cobalt/4000
   01a-05-item-aluminium/5000
