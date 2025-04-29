@@ -12,7 +12,15 @@ cooldownLiquid: 1.2
 cooldownBrokenBase: 1.25
 category: effect
 squareSprite: false
-research: 0011-effect
+research: {
+  parent: 0011-effect
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-13-marshlands
+    }
+  ]
+}
 requirements: [
   01a-01-item-cobalt/300
   01a-02-item-nickel/80
