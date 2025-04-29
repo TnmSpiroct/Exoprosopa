@@ -5,7 +5,7 @@ size: 2
 health: 450
 itemCapacity: 150
 category: effect
-research: 05e-06-splitter
+research: 05e-10-pipeline-overflow
 requirements: [
   01a-01-item-cobalt/30
   01a-06-item-chromium/70
