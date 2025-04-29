@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Nullifier
-description: Nullifies ectoplasm into miasma using inchor.
+description: Mixes ichor with ectoplasm to synthesize miasma.
 size: 3
 liquidCapacity: 240
 hasLiquids: true
