@@ -1,6 +1,6 @@
 type: Pump
 name: Jet Pump
-description: Pumps liquids from liquid tiles. Requires elixir to operate.
+description: Pumps liquids from liquid tiles. Requires cryogenics to operate.
 health: 450
 size: 2
 category: liquid
