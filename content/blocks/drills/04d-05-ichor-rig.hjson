@@ -11,15 +11,7 @@ liquidCapacity: 120
 hasLiquids: true
 health: 1000
 category: production
-research: {
-  parent: 04d-02-elixir-collector
-  objectives: [
-    {
-      type: OnSector
-      preset: 19s-99-ending
-    }
-  ]
-}
+buildVisibility: sandboxOnly
 itemCapacity: 20
 researchCost: [
   01a-01-item-cobalt/5000
