@@ -17,7 +17,7 @@ requirements: [
 solid: false
 category: distribution
 squareSprite: false
-research: 05e-06-splitter
+research: 05e-03-morphite-conveyor
 researchCost: [
   01a-05-item-aluminium/600
   01a-09-item-morphite/80
