@@ -6,7 +6,7 @@ consumes: {
 }
 health: 650
 category: units
-research: 05e-13-a-surge-driver
+research: 10j-14-payload-conveyor
 requirements: [
   01a-01-item-cobalt/100
   01a-02-item-nickel/200
