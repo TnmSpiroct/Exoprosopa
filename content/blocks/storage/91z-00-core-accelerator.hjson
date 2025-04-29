@@ -16,7 +16,7 @@ requirements: [
   01a-11-item-pyroxene/2500
 ]
 category: effect
-research: 11k-03-core-apeirogon
+research: 11k-01-core-apex
 researchCostMultiplier: 0.5
 powerBufferRequirement: 1000000
 hasPower: true
