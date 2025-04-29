@@ -13,7 +13,7 @@ cooldownBrokenBase: 1.25
 category: effect
 squareSprite: false
 research: {
-  parent: 0011-effect
+  parent: 11k-05-a-healer
   objectives: [
     {
       type: OnSector
