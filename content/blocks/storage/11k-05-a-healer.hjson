@@ -16,7 +16,7 @@ requirements: [
 ]
 squareSprite: false
 category: effect
-research: 11k-05-holoshield
+research: 0011-effect
 drawer: {
   type: DrawMulti
   drawers: [
