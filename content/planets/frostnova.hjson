@@ -125,7 +125,7 @@ solarSystem: sun
 tidalLock: true
 orbitSpacing: 1
 
-enemyBuildSpeedMultiplier: 0.6
+enemyBuildSpeedMultiplier: 0.7
 
 launchCandidates: []
 itemWhitelist: [
@@ -140,4 +140,6 @@ itemWhitelist: [
   "01a-09-item-morphite",
   "01a-10-item-bethine",
   "01a-11-item-pyroxene",
+  "01a-11-item-technoscrap",
+  "01a-12-item-techno-plating",
 ]
