@@ -1,7 +1,15 @@
 boilPoint: 0.85
 heatCapacity: 0.8
 gasColor: d9e1e6E6
-parent: 02b-03-necroplasm
+research: {
+  parent: 02b-04-miasma
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-52-pier
+    }
+  ]
+}
 temperature: 1.6
 explosiveness: 5
 viscosity: 0.9
