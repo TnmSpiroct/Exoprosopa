@@ -3,4 +3,12 @@ color: 51c59c
 heatCapacity: 0.3
 gasColor: d9e1e6E6
 explosiveness: 5
-hidden: true
+research: {
+  parent: 02b-02-ichor
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-51-ridgeline
+    }
+  ]
+}
