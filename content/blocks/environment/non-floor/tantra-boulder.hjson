@@ -1,5 +1,5 @@
 type: Prop
 name: Tantra Boulder
 variants: 3
-breakSound: rock-crush
+breakSound: rockBreak
 customShadow: true
