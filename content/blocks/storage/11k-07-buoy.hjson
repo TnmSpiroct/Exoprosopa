@@ -5,15 +5,14 @@ size: 2
 health: 450
 squareSprite: false
 requirements: [
-  01a-01-item-cobalt/75
-  01a-02-item-nickel/100
-  01a-05-item-aluminium/60
-  01a-06-item-chromium/40
+  01a-02-item-nickel/75
+  01a-05-item-aluminium/75
+  01a-06-item-chromium/50
 ]
 placeableLiquid: true
 category: effect
 outlineColor: 2C2A36
-fogRadius: 20
+fogRadius: 30
 ambientSound: radar-pulsing
 ambientSoundVolume: 0.2
 research: {
@@ -26,3 +25,6 @@ research: {
   ]
 }
 researchCostMultiplier: 0.5
+consume: {
+ power: 0.25
+}
