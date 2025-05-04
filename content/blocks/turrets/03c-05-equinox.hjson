@@ -11,7 +11,7 @@ requirements: [
   01a-05-item-aluminium/300
   01a-06-item-chromium/200
   01a-07-item-clevorite/200
-  01a-09-item-morphite/100
+  01a-09-item-morphite/150
 ]
 researchCost: [
   01a-01-item-cobalt/8000
@@ -22,7 +22,7 @@ researchCost: [
 ]
 research: 03c-01-impale
 consumes: {
-  power: 5
+  power: 6
 }
 category: turret
 recoil: 1.5
@@ -58,7 +58,7 @@ ammoTypes: {
     sprite: large-orb
     buildingDamageMultiplier: 0.25
     hitColor: 6EEFC0
-    damage: 125
+    damage: 120
     width: 8
     height: 14
     hitSize: 6
