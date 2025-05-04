@@ -1,4 +1,4 @@
-# Exoprosopa V0.6 Map Update.
+# Exoprosopa V0.61 Map Update.
 
 <p align="center"><img src="banner.png" alt="banner" width="800"></p>
 
@@ -15,3 +15,13 @@
   You can contributes maps or give suggestions on Exoprosopa Server!<br><br>
 
   V0.6 TnmSpiroct
+
+  - Boulder Sound
+  - Ox Turret
+  - Map Balancing
+  - Auto Junction on Transport Pipe
+  - Equinox and Influx Nerf
+  - Crest Icon Sector Fix
+  - Survey Buoy Balancing
+  - Several Balancing
+  - Minor Bug Fix
