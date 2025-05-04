@@ -6,7 +6,7 @@ health: 100
 speed: 4
 requirements: [
   01a-06-item-chromium/1
-  01a-01-item-cobalt/2
+  01a-01-item-cobalt/1
 ]
 research: 05e-02-a-aluminium-pipe
 researchCost: [
