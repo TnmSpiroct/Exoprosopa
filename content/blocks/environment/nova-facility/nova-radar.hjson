@@ -1,0 +1,5 @@
+type: TallBlock
+name: Derelict Radar
+variants: 0
+clipSize: 96
+costumShadow: true

@@ -1,0 +1,5 @@
+name: Nova Nuclear Silo
+type: SteamVent
+variants: 0
+blendGroup: nova-floor
+parent: nova-floor
