@@ -1,19 +1,23 @@
 # Credits [ Visual Experience / Assets ]
 
-cobalt sprite by miyotize
-morphite resprite by stabu
-cargo bay by twcash01
-almost all code are modified asthosus code by catser
-marshlands and precipice map by absolutan
-luminary, sealed outpost, and foggy fields map by mrapple
-cliffside map by itzcraft
-ridgeline map by noone
-deprive and calamity turret visual by cy4nide
-gameplay concept and turrets helped by sh1penfire
-halo exclusive for mechs and tanks by willoizcitron, requires archivedustry
-early code and sprite concept by itzmarzu, zoaranartemwing, noone
-english bundle improvement by vire
-ID bundles and github manager by kenny
+Cobalt Resprite by miyotize
+Morphite Resprite by stabu
+Cargo Bay Revamp by twcash01
+Almost all code are modified asthosus code by Catser
+Marshlands and Precipice map by absolutan
+Luminary, Sealed Outpost, and Foggy Fields map by mrapple
+Cliffside map by itzcraft
+Ridgeline map by noone
+Deprive and Calamity turret visual by Cy4nide (Hyperion)
+Deprive name by thruster
+Gameplay and turrets concept helped by Sh1penfire
+Halo exclusive for Mechs and Tanks by willoizcitron, Requires Archivedustry Mod
+Early Code and Sprite concept by ItzMarzu, Zoaranartemwing, noone
+English bundle Improvement by vire
+ID bundles and Github Manager by Kevin
+Minor fix bug helped by InxieRatZey
+Ox Turrets Firing Concept from Rapi, NIKKE
+Ox Turrets Name from The Ox, Balatro
 jab005 the honored one, inspired me making this mod
 
 # Credits [ Audio Experience / Assets ]
