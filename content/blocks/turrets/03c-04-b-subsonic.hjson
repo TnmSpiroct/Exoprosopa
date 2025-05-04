@@ -28,7 +28,7 @@ researchCost: [
 shootType: {
   type: LightningBulletType
   hitSound: electric-discharge
-  damage: 100
+  damage: 90
   lightningLength: 28
   lightningLengthRand: 7
   lightningColor: 51C59C
@@ -48,7 +48,7 @@ requirements: [
   01a-09-item-morphite/60
 ]
 consumes: {
-  power: 11
+  power: 10
 }
 drawer: {
   type: DrawTurret
