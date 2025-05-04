@@ -1,4 +1,4 @@
 type: Prop
 name: Obsidian Boulder
 variants: 2
-breakSound: rock-crush
+breakSound: rockBreak
