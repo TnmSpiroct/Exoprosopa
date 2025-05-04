@@ -15,3 +15,4 @@ researchCost: [
 ]
 category: distribution
 bridgeReplacement: 05e-07-mechanical-bridge
+junctionReplacement: 05e-05-crossblock
