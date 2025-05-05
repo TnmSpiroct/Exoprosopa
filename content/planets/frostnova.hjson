@@ -19,7 +19,7 @@ mesh: [
     type: NoiseMesh
     planet: frostnova
     divisions: 5
-    seed: 89
+    seed: 90
     radius: 1.120
     color1: 252d40
     color2: 384d6c
@@ -102,7 +102,9 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 
-fog: true
+rules.fog: true
+rules.showSpawns: true
+rules.rtsAI: true
 campaignRuleDefaults.fog: true
 campaignRuleDefaults.showSpawns: true
 campaignRuleDefaults.rtsAI: true
