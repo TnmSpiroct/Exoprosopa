@@ -18,6 +18,7 @@ ID bundles and Github Manager by Kevin
 Minor fix bug helped by InxieRatZey
 Ox Turrets Firing Concept from Rapi, NIKKE
 Ox Turrets Name from The Ox, Balatro
+Chinese Translation by LaoHuaJi
 jab005 the honored one, inspired me making this mod
 
 # Credits [ Audio Experience / Assets ]
