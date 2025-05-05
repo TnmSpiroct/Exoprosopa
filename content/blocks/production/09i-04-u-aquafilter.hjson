@@ -6,7 +6,15 @@ liquidCapacity: 119.5
 hasLiquids: true
 health: 1000
 category: crafting
-research: 09i-02-elixir-converter
+research: {
+  parent: 09i-02-elixir-converter
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-11-creek
+    }
+  ]
+}
 itemCapacity: 40
 researchCostMultiplier: 0.5
 requirements: [
