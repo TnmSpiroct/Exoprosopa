@@ -19,7 +19,7 @@ mesh: [
     type: NoiseMesh
     planet: frostnova
     divisions: 5
-    seed: 90
+    seed: 89
     radius: 1.120
     color1: 252d40
     color2: 384d6c
@@ -45,7 +45,7 @@ mesh: [
     type: NoiseMesh
     planet: frostnova
     divisions: 5
-    seed: 52
+    seed: 53
     radius: 1.122
     color1: 505e7f
     color2: 303c58
@@ -101,17 +101,8 @@ allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
-
-rules.fog: true
-rules.showSpawns: true
-rules.rtsAI: true
-campaignRuleDefaults.fog: true
-campaignRuleDefaults.showSpawns: true
-campaignRuleDefaults.rtsAI: true
-
 hasAtmosphere: true
 iconColor: 98c1f5
-
 accessible: true
 visible: true
 alwaysUnlocked: true
@@ -121,13 +112,19 @@ bloom: false
 clearSectorOnLose: true
 prebuildBase: true
 defaultCore: 11k-01-core-apex
-coreDestroyClear: true
 parent: sun
 solarSystem: sun
 tidalLock: true
 orbitSpacing: 1
 
 enemyBuildSpeedMultiplier: 0.7
+rules.fog: true
+rules.showSpawns: true
+rules.rtsAI: true
+campaignRuleDefaults.fog: true
+campaignRuleDefaults.showSpawns: true
+campaignRuleDefaults.rtsAI: true
+coreDestroyClear: true
 
 launchCandidates: []
 itemWhitelist: [
