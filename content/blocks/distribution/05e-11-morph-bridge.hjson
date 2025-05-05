@@ -1,0 +1,21 @@
+type: ItemBridge
+name: Morph Bridge
+description: Transport items very fast over blocks and buildings, requires power.
+size: 1
+health: 300
+range: 10
+pulse: true
+transportTime: 2
+arrowPeriod: 0.9
+arrowTimeScl: 2.75
+requirements: [
+  01a-05-item-aluminium/15
+  01a-09-item-morphite/4
+]
+category: distribution
+squareSprite: false
+research: 05e-07-mechanical-bridge
+researchCost: [
+  01a-05-item-aluminium/750
+  01a-09-item-morphite/50
+]
