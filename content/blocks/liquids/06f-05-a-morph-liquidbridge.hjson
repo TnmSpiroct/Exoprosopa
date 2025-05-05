@@ -1,0 +1,22 @@
+type: LiquidBridge
+name: Sea Morph Bridge
+description: Transfer liquids very fast over blocks and buildings.
+size: 1
+health: 300
+canOverdrive: false
+range: 10
+pulse: true
+transportTime: 2
+arrowPeriod: 0.9
+arrowTimeScl: 2.75
+requirements: [
+  01a-05-item-aluminium/10
+  01a-09-item-morphite/6
+]
+category: liquid
+squareSprite: false
+research: 06f-04-liquidbridge
+researchCost: [
+  01a-05-item-aluminium/750
+  01a-09-item-morphite/50
+]
