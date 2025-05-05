@@ -56,5 +56,13 @@ drawer: {
 ambientSound: smelter
 ambientSoundVolume: 0.6
 squareSprite: false
-hidden: true
+research: {
+  parent: 09i-04-u-aquanite-filter
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-11-creek
+    }
+  ]
+}
 researchCostMultiplier: 0.5
