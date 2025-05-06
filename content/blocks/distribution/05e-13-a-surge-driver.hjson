@@ -25,7 +25,7 @@ researchCost: [
   01a-06-item-chromium/100
 ]
 research: {
-  parent: 0005-transport
+  parent: 05e-07-mechanical-bridge
   objectives: [
     {
       type: OnSector
