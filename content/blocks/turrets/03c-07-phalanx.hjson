@@ -82,7 +82,7 @@ drawer: {
   type: DrawTurret
   basePrefix: phalanx-
 }
-research: 03c-01-impale
+research: 03c-06-continuum
 researchCost: [
   01a-01-item-cobalt/7000
   01a-02-item-nickel/5000

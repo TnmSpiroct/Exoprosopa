@@ -20,7 +20,7 @@ researchCost: [
   01a-07-item-clevorite/1000
   01a-09-item-morphite/750
 ]
-research: 03c-01-impale
+research: 03c-04-b-subsonic
 consumes: {
   power: 6
 }

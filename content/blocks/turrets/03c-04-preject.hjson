@@ -146,7 +146,7 @@ drawer: {
     }
   ]
 }
-research: 03c-02-calamity
+research: 03c-04-ox
 researchCost: [
   01a-05-item-aluminium/8000
   01a-06-item-chromium/4000
