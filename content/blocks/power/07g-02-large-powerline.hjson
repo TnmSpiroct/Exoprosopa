@@ -9,7 +9,7 @@ size: 3
 squareSprite: false
 researchCostMultiplier: 0.5
 category: power
-research: 07g-01-powerline
+research: 07g-01-q-powerbeam
 requirements: [
   01a-02-item-nickel/80
   01a-07-item-clevorite/40

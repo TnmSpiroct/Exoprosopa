@@ -76,7 +76,7 @@ drawer: {
   ]
 }
 category: power
-research: 04d-01-pressure-generator
+research: 07g-04-burner-reactor
 requirements: [
   01a-02-item-nickel/160
   01a-05-item-aluminium/110

@@ -34,7 +34,7 @@ drawer: {
   ]
 }
 research: {
-  parent: 0007-power
+  parent: 04d-01-pressure-generator
   objectives: [
     {
       type: OnSector
