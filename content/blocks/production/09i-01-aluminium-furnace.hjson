@@ -39,7 +39,7 @@ drawer: {
 ambientSound: smelter
 ambientSoundVolume: 0.6
 squareSprite: false
-research: 0009-factory
+research: 0003-factory
 researchCost: [
   01a-01-item-cobalt/30
   01a-02-item-nickel/15
