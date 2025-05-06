@@ -10,7 +10,7 @@ requirements: [
 ]
 category: distribution
 squareSprite: false
-research: 05e-07-mechanical-bridge
+research: 05e-06-splitter
 researchCost: [
   01a-01-item-cobalt/80
   01a-02-item-nickel/40

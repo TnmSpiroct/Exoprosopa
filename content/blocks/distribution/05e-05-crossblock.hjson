@@ -9,7 +9,7 @@ requirements: [
 ]
 squareSprite: false
 category: distribution
-research: 05e-06-splitter
+research: 05e-01-transport-pipe
 researchCost: [
   01a-01-item-cobalt/6
 ]
