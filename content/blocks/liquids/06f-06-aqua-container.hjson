@@ -13,6 +13,7 @@ requirements: [
 research: {
   parent: 06f-03-seaduct-router
   objectives: [
+    02b-02-a-purified-elixir,
     {
       type: OnSector
       preset: 19s-02-mountain-ridge

@@ -3,7 +3,15 @@ name: Large Splitter
 description: Distributes inputted payload to up to three output directions.
 health: 450
 category: units
-research: 10j-14-payload-conveyor
+research: {
+  parent: 10j-14-payload-conveyor
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-03-hostile-outpost
+    }
+  ]
+}
 requirements: [
   01a-01-item-cobalt/30
   01a-05-item-aluminium/30

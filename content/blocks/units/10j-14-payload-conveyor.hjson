@@ -3,7 +3,15 @@ name: Large Transporter
 description: Transports units and blocks.
 health: 450
 category: units
-research: 0005-transport
+research: {
+  parent: 0005-transport
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-03-hostile-outpost
+    }
+  ]
+}
 requirements: [
   01a-01-item-cobalt/30
   01a-05-item-aluminium/15

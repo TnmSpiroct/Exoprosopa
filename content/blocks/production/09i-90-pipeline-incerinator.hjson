@@ -11,6 +11,7 @@ category: crafting
 research: {
   parent: 05e-06-splitter
   objectives: [
+    01a-04-item-tantra-sand,
     {
       type: OnSector
       preset: 19s-02-mountain-ridge
