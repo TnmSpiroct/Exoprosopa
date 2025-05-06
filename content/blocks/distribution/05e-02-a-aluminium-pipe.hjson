@@ -10,7 +10,7 @@ requirements: [
   01a-01-item-cobalt/2
 ]
 research: {
-  parent: 05e-01-transport-pipe
+  parent: 05e-07-mechanical-bridge
   objectives: [
     {
       type: OnSector

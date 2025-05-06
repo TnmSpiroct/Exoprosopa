@@ -9,7 +9,7 @@ hasPower: true
 consumesPower: true
 conductivePower: true
 category: distribution
-research: 05e-01-transport-pipe
+research: 05e-02-chromium-pipe
 requirements: [
   01a-05-item-aluminium/2
   01a-09-item-morphite/1
