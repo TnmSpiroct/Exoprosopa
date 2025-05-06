@@ -11,7 +11,7 @@ liquidCapacity: 60
 outlineColor: 2C2A36
 recoil: 0.5
 category: turret
-research: 03c-01-impale
+research: 03c-02-earthquake
 researchCostMultiplier: 0.5
 range: 175
 requirements: [
