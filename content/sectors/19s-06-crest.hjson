@@ -2,13 +2,13 @@ difficulty: 3
 planet: frostnova
 sector: 5
 research: {
-  parent: 19s-04-foggy-fields
+  parent: 19s-03-hostile-outpost
   objectives: [
     07g-01-powerline,
     11k-06-illuminator,
     {
       type: SectorComplete
-      preset: 19s-04-foggy-fields
+      preset: 19s-03-hostile-outpost
     }
   ]
 }
