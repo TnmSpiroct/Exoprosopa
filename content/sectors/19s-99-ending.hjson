@@ -3,11 +3,11 @@ difficulty: 1
 planet: frostnova
 sector: 88
 research: {
-  parent: 19s-13-marshlands
+  parent: 19s-52-pier
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-13-marshlands
+      preset: 19s-52-pier
     }
   ]
 }
