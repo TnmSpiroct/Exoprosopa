@@ -1,4 +1,4 @@
-# Exoprosopa V0.611: Map Update
+# Exoprosopa V0.615: Map Update
 
 <p align="center"><img src="banner.png" alt="banner" width="800"></p>
 
