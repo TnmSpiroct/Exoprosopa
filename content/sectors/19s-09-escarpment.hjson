@@ -1,13 +1,13 @@
 captureWave: 30
-difficulty: 5
+difficulty: 6
 planet: frostnova
 sector: 18
 research: {
-  parent: 19s-08-botanical-garden
+  parent: 19s-07-cliffside
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-08-botanical-garden
+      preset: 19s-07-cliffside
     }
   ]
 }
