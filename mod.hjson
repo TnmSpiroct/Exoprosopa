@@ -14,8 +14,13 @@ description:
   [accent[]]Thankyou for playing this mod! 
   You can contributes maps or gives suggestions by join Exoprosopa Server! 
   Check it on my profile. My username is TnmSpiroct.
+
+  Version 0.615
+  - Several Bug Fixing
+  - Smoother Progression
+  - Terraformic Basin Nerf
 '''
-version: "0.6"
+version: "0.615"
 minGameVersion: "146"
 subtitle: "[#93e2ee[]]V0.6 Campaign Maps Update!"
 repo: "TnmSpiroct/Exoprosopa"
