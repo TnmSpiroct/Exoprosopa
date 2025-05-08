@@ -40,7 +40,7 @@ outputItems: [
   01a-01-item-cobalt/2
 ]
 outputLiquids: [
-  02b-01-bioliquid/0.5
+  02b-01-bioliquid/0.25
 ]
 consumes: {
   items: [
