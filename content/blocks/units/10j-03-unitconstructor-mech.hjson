@@ -26,11 +26,15 @@ consumes: {
   liquid: 02b-01-bioliquid/0.75
 }
 research: {
-  parent: 10j-02-unitconstructor-ship
+  parent: 0010-fabricator
   objectives: [
     {
       type: OnSector
       preset: 19s-03-hostile-outpost
+    }
+    {
+      type: Research
+      content: 10j-02-unitconstructor-ship
     }
   ]
 }
