@@ -87,5 +87,13 @@ weapons: [
     }
   }
 ]
-researchCostMultiplier: 1.5
-research: 10j-08-unitassembler-tank
+researchCostMultiplier: 2.5
+research: {
+  parent: 15o-03-vicient
+  objectives: [
+    {
+      type: Research
+      content: 10j-11-advanced-module-a
+    }
+  ]
+}
