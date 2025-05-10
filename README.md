@@ -1,4 +1,4 @@
-# Exoprosopa V0.615: Map Update
+# Exoprosopa V0.62: Map Update
 
 <p align="center"><img src="banner.png" alt="banner" width="800"></p>
 
@@ -14,7 +14,6 @@
   Thankyou for playing this mod!<br>
   You can contributes maps or give suggestions on Exoprosopa Server!<br><br>
 
-  V0.615 TnmSpiroct
+  V0.62 TnmSpiroct
 
-  - Smoother Progression
-  - Terraformic Basin Nerf
+  - Tech Tree Unit Rework
