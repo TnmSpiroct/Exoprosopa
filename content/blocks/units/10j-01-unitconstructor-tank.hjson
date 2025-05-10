@@ -34,7 +34,7 @@ research: {
     }
     {
       type: Research
-      content: 10j-03-unit-constructor-mech
+      content: 10j-03-unitconstructor-mech
     }
   ]
 }
