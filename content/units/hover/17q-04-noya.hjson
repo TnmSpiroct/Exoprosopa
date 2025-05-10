@@ -14,7 +14,15 @@ health: 8000
 armor: 9
 hitSize: 28
 researchCostMultiplier: 1.5
-research: 10j-07-unitupgrader
+research: {
+  parent: 17q-03-syntaxe
+  objectives: [
+    {
+      type: Research
+      content: 10j-11-advanced-module-a
+    }
+  ]
+}
 engines: [
   {
     x: 0
@@ -61,7 +69,7 @@ weapons: [
     shake: 5
     bullet: {
     type: BasicBulletType
-        damage: 650
+        damage: 625
         recoil: 1.5
         splashDamage: 80.75
         splashDamageRadius: 30
