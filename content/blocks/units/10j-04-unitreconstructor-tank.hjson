@@ -27,7 +27,7 @@ consumes: {
   ]
 }
 research: {
-  parent: 10j-06-unitreconstructor-mech
+  parent: 10j-01-unitconstructor-tank
   objectives: [
     {
       type: OnSector
