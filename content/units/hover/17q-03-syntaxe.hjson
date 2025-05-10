@@ -10,11 +10,19 @@ outlineColor: 26262F
 speed: 1.55
 rotateSpeed: 2.1
 accel: 0.1
-health: 2050
+health: 2100
 armor: 6
 hitSize: 25
-researchCostMultiplier: 1.5
-research: 10j-07-unitupgrader
+researchCostMultiplier: 2
+research: {
+  parent: 17q-02-calaust
+  objectives: [
+    {
+      type: Research
+      content: 10j-09-unitassembler-ship
+    }
+  ]
+}
 engines: [
   {
     x: 0
