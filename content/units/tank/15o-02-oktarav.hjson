@@ -5,11 +5,11 @@ hitSize: 17
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 2000
+health: 2050
 armor: 7
 template: TankUnitType
 speed: 0.825
-rotateSpeed: 1.75
+rotateSpeed: 1.7
 itemCapacity: 0
 outlineColor: 26262F
 treadFrames: 12
@@ -37,10 +37,10 @@ weapons: [
       sprite: missile-large
       width: 6
       splashDamageRadius: 20
-      splashDamage: 15.25
+      splashDamage: 14.75
       pierceCap: 1
       lifetime: 32
-      damage: 39.75
+      damage: 38.75
       speed: 6.5
       smokeEffect: colorSpark
       trailColor: 93E2EE
@@ -62,4 +62,12 @@ weapons: [
   }
 ]
 researchCostMultiplier: 1
-research: 10j-04-unitreconstructor-tank
+research: {
+  parent: 0010-fabricator
+  objectives: [
+    {
+      type: Research
+      content: 10j-04-unitreconstructor-tank
+    }
+  ]
+}
