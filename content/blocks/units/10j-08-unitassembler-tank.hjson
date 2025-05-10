@@ -5,7 +5,7 @@ size: 5
 health: 1500
 category: units
 droneType: 18r-01-amber
-areaSize: 7
+areaSize: 9
 research: 10j-04-unitreconstructor-tank
 requirements: [
   01a-01-item-cobalt/250
@@ -32,11 +32,11 @@ plans: [
       exoprosopa-15o-01-mason/4
       exoprosopa-90z-01-heavy-armored-treads/3
     ]
-    time: 4200
+    time: 3600
   }
 ]
 squareSprite: false
 consumes: {
-  power: 5
+  power: 4
 }
 researchCostMultiplier: 0.5
