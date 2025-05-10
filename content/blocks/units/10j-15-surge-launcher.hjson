@@ -6,13 +6,11 @@ consumes: {
 }
 health: 650
 category: units
-research: 10j-14-payload-conveyor
+research: 0010-fabricator
 requirements: [
-  01a-01-item-cobalt/100
-  01a-02-item-nickel/200
-  01a-05-item-aluminium/150
+  01a-02-item-nickel/150
+  01a-05-item-aluminium/200
   01a-06-item-chromium/120
-  01a-07-item-clevorite/40
 ]
 reload: 120
 chargeTime: 90
