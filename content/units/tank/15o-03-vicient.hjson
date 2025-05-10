@@ -75,7 +75,7 @@ weapons: [
 ]
 researchCostMultiplier: 2
 research: {
-  parent: 0010-fabricator
+  parent: 15o-02-oktarav
   objectives: [
     {
       type: Research
