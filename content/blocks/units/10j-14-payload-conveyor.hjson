@@ -4,7 +4,7 @@ description: Transports units and blocks.
 health: 450
 category: units
 research: {
-  parent: 0005-transport
+  parent: 0010-fabricator
   objectives: [
     {
       type: OnSector

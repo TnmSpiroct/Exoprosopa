@@ -6,7 +6,7 @@ consumes: {
 }
 health: 650
 category: units
-research: 0010-fabricator
+research: 10j-15-payload-router
 requirements: [
   01a-02-item-nickel/150
   01a-05-item-aluminium/200
