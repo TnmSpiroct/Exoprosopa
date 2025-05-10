@@ -14,7 +14,7 @@ legSplashDamage: 150
 legSplashRange: 60
 legPairOffset: 4
 research: 16p-04-carragher
-researchCostMultiplier: 1.5
+researchCostMultiplier: 3
 drownTimeMultiplier: 2
 hovering: true
 groundLayer: 60
