@@ -26,11 +26,15 @@ consumes: {
   liquid: 02b-01-bioliquid/0.75
 }
 research: {
-  parent: 10j-03-unitconstructor-mech
+  parent: 0010-factory
   objectives: [
     {
       type: OnSector
       preset: 19s-04-foggy-fields
+    }
+    {
+      type: Research
+      content: 10j-03-unit-constructor-mech
     }
   ]
 }
