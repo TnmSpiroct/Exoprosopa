@@ -81,5 +81,5 @@ weapons: [
     }
   }
 ]
-researchCostMultiplier: 2.5
+researchCostMultiplier: 3
 research: 15o-04-siphon
