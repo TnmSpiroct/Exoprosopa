@@ -79,5 +79,13 @@ weapons: [
 ]
 trailColor: D8F18C
 trailLength: 12
-research: 10j-02-unitconstructor-ship
+research: {
+  parent: 0010-fabricator
+  objectives: [
+    {
+      type: Research
+      content: 10j-02-unitconstructor-ship
+    }
+  ]
+}
 researchCostMultiplier: 0.2
