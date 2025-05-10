@@ -5,37 +5,36 @@ size: 5
 health: 1000
 category: units
 droneType: 18r-01-amber
+areaSize: 8
 research: 10j-07-unitupgrader
 requirements: [
-  01a-01-item-cobalt/150
-  01a-05-item-aluminium/400
+  01a-01-item-cobalt/350
+  01a-05-item-aluminium/500
   01a-06-item-chromium/350
-  01a-08-item-petal/250
-  01a-10-item-bethine/125
+  01a-07-item-clevorite/200
+  01a-08-item-petal/350
 ]
 plans: [
   {
     type: AssemblerUnitPlan
-    unit: 17q-04-noya
+    unit: 17q-03-syntaxe
     requirements: [
-      exoprosopa-08h-04-chromium-wall-large/8
-      exoprosopa-08h-05-clevorite-wall-small/6
-      exoprosopa-17q-01-codex/3
-      exoprosopa-90z-02-hyperspace-engine/3
+      exoprosopa-08h-12-petal-wall-large/4
+      exoprosopa-08h-05-a-aluminium-gate/2
+      exoprosopa-17q-01-codex/2
     ]
-    time: 3600
+    time: 3300
   }
   {
     type: AssemblerUnitPlan
-    unit: 17q-05-archangel
+    unit: 17q-04-noya
     requirements: [
-      exoprosopa-08h-06-clevorite-wall-large/12
-      exoprosopa-08h-14-bethine-wall-large/8
-      exoprosopa-08h-16-pyroxene-wall-large/8
-      exoprosopa-17q-02-calaust/4
-      exoprosopa-90z-02-hyperspace-engine/5
+      exoprosopa-08h-05-a-aluminium-gate/4
+      exoprosopa-08h-02-cobalt-wall-large/4
+      exoprosopa-17q-01-codex/4
+      exoprosopa-90z-02-hyperspace-engine/3
     ]
-    time: 21600
+    time: 4800
   }
 ]
 squareSprite: false
