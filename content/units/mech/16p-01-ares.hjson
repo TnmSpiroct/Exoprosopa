@@ -25,7 +25,15 @@ hitSize: 8
 drag: 0.1
 itemCapacity: 20
 outlineColor: 26262F
-research: 10j-03-unitconstructor-mech
+research: {
+  parent: 0010-fabricator
+  objectives: [
+    {
+      type: Research
+      content: 10j-03-unitconstructor-mech
+    }
+  ]
+}
 researchCostMultiplier: 0.5
 controller: HugAI
 weapons: [

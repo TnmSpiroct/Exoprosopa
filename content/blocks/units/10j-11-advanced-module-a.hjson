@@ -1,5 +1,5 @@
 type: UnitAssemblerModule
-name: Missilis Module
+name: Misillis Module
 description: Increases an assemblers' tier by 1 when placed next to its bounding box. Can be used as an additional payload input.
 size: 5
 health: 1500

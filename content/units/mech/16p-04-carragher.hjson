@@ -16,7 +16,7 @@ legPhysicsLayer: false
 legStraightness: 0.3
 hovering: true
 groundLayer: 60
-health: 9000
+health: 9800
 armor: 14
 allowLegStep: true
 legSplashDamage: 30
@@ -26,8 +26,16 @@ hitSize: 20
 drag: 0.1
 itemCapacity: 20
 outlineColor: 26262F
-research: 10j-10-unitassembler-mech
-researchCostMultiplier: 1
+research: {
+  parent: 16p-03-sender
+  objectives: [
+    {
+      type: Research
+      content: 10j-11-advanced-module-a
+    }
+  ]
+}
+researchCostMultiplier: 2.5
 abilities: [
   {
     type: MoveEffectAbility

@@ -19,7 +19,15 @@ armor: 3
 hitSize: 15
 canDrown: false
 researchCostMultiplier: 1.5
-research: 10j-05-unitreconstructor-ship
+research: {
+  parent: 17q-01-codex
+  objectives: [
+    {
+      type: Research
+      content: 10j-05-unitreconstructor-ship
+    }
+  ]
+}
 engines: [
   {
     x: 0
@@ -87,7 +95,7 @@ weapons: [
             sideWidth: 1.4
             pierce: true
             pierceCap: 1
-            damage: 15
+            damage: 16
             despawnSound: spark
             hitSound: spark
             fragBullets: 1
@@ -95,7 +103,7 @@ weapons: [
             fragBullet: {
                     type: LightningBulletType
                     lightningLength: 8
-                    damage: 10
+                    damage: 12
                     pierce: false
                     pierceBuilding: false
                     lightningColor: e9c574

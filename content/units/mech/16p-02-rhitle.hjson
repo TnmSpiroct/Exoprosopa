@@ -24,8 +24,16 @@ hitSize: 15
 drag: 0.1
 itemCapacity: 20
 outlineColor: 26262F
-research: 10j-06-unitreconstructor-mech
-researchCostMultiplier: 0.5
+research: {
+  parent: 16p-01-ares
+  objectives: [
+    {
+      type: Research
+      content: 10j-06-unitreconstructor-mech
+    }
+  ]
+}
+researchCostMultiplier: 1.5
 weapons: [
   {
     x: 5

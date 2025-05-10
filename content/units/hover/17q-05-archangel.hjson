@@ -15,7 +15,7 @@ accel: 0.1
 health: 35000
 armor: 25
 hitSize: 35
-researchCostMultiplier: 1.5
+researchCostMultiplier: 3
 research: 17q-04-noya
 engines: [{
     x: 0
