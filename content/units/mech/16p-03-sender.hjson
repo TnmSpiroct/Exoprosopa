@@ -25,8 +25,16 @@ drag: 0.1
 rotateSpeed: 1.8
 itemCapacity: 20
 outlineColor: 26262F
-research: 10j-07-unitupgrader
-researchCostMultiplier: 1
+research: {
+  parent: 16p-02-rhitle
+  objectives: [
+    {
+      type: Research
+      content: 10j-10-unitassembler-mech
+    }
+  ]
+}
+researchCostMultiplier: 2
 weapons: [
   {
     x: 0
