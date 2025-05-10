@@ -61,9 +61,9 @@ weapons: [
     }
   }
 ]
-researchCostMultiplier: 1
+researchCostMultiplier: 1.5
 research: {
-  parent: 0010-fabricator
+  parent: 15o-01-mason
   objectives: [
     {
       type: Research
