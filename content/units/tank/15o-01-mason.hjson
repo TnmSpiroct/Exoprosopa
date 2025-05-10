@@ -5,7 +5,7 @@ hitSize: 9
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 850
+health: 860
 armor: 4
 template: TankUnitType
 speed: 0.95
@@ -21,7 +21,15 @@ treadRects: [
     height: 52
   }
 ]
-research: 10j-01-unitconstructor-tank
+research: {
+  parent: 0010-fabricator
+  objectives: [
+    {
+      type: Research
+      content: 10j-01-unitconstructor-tank
+    }
+  ]
+}
 researchCostMultiplier: 1
 weapons: [
   {
@@ -40,7 +48,7 @@ weapons: [
       sprite: shell
       speed: 2.6
       lifetime: 60
-      splashDamage: 60
+      splashDamage: 55
       splashDamageRadius: 20
       width: 15
       height: 15
