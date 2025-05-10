@@ -5,13 +5,13 @@ size: 3
 health: 450
 category: units
 requirements: [
-  01a-02-item-nickel/90
-  01a-05-item-aluminium/80
-  01a-06-item-chromium/60
+  01a-02-item-nickel/200
+  01a-05-item-aluminium/150
+  01a-06-item-chromium/80
 ] 
 hasPower: true
 consumes: {
-  power: 1
+  power: 1.5
 }
 buildSpeed: 1
 filter: [
@@ -25,7 +25,7 @@ filter: [
   08h-11-petal-wall-small, 
   08h-12-petal-wall-large
 ]
-research: 10j-15-surge-launcher
+research: 0010-fabricator
 squareSprite: false
 maxBlockSize: 2
 researchCostMultiplier: 0.5
