@@ -13,7 +13,7 @@ accel: 0.1
 health: 8000
 armor: 9
 hitSize: 28
-researchCostMultiplier: 1.5
+researchCostMultiplier: 2.5
 research: {
   parent: 17q-03-syntaxe
   objectives: [
