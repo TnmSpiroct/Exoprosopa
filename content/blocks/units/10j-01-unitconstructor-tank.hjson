@@ -26,7 +26,7 @@ consumes: {
   liquid: 02b-01-bioliquid/0.75
 }
 research: {
-  parent: 0010-factory
+  parent: 0010-fabricator
   objectives: [
     {
       type: OnSector
