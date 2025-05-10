@@ -15,12 +15,10 @@ description:
   You can contributes maps or gives suggestions by join Exoprosopa Server! 
   Check it on my profile. My username is TnmSpiroct.
 
-  Version 0.615
-  - Several Bug Fixing
-  - Smoother Progression
-  - Terraformic Basin Nerf
+  Version 0.62
+  - Tech Tree Unit Rework
 '''
-version: "0.615"
+version: "0.62"
 minGameVersion: "146"
 subtitle: "[#93e2ee[]]V0.6 Campaign Maps Update!"
 repo: "TnmSpiroct/Exoprosopa"
