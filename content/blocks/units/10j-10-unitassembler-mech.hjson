@@ -5,40 +5,39 @@ size: 5
 health: 1000
 category: units
 droneType: 18r-01-amber
-research: 10j-09-unitassembler-ship
+areaSize: 8
+research: 10j-06-unitreconstructor-mech
 requirements: [
-  01a-01-item-cobalt/150
-  01a-05-item-aluminium/400
+  01a-02-item-nickel/450
+  01a-05-item-aluminium/500
   01a-06-item-chromium/350
-  01a-08-item-petal/250
-  01a-10-item-bethine/125
+  01a-07-item-clevorite/200
+  01a-08-item-petal/350
 ]
 plans: [
   {
     type: AssemblerUnitPlan
-    unit: 16p-04-carragher
+    unit: 15o-04-siphon
     requirements: [
-      exoprosopa-08h-04-chromium-wall-large/12
-      exoprosopa-16p-01-ares/3
-      exoprosopa-90z-03-geopowered-mechlegs/6
+      exoprosopa-08h-12-petal-wall-large/4
+      exoprosopa-08h-03-chromium-wall-small/4
+      exoprosopa-16p-01-ares/2
     ]
-    time: 3600
+    time: 3300
   }
   {
     type: AssemblerUnitPlan
-    unit: 16p-05-xenoct
+    unit: 16p-04-carragher
     requirements: [
-      exoprosopa-08h-16-pyroxene-wall-large/8
-      exoprosopa-08h-08-morphite-wall-large/8
-      exoprosopa-16p-02-rhitle/4
-      exoprosopa-90z-03-geopowered-mechlegs/8
+      exoprosopa-08h-02-cobalt-wall-large/12
+      exoprosopa-16p-01-ares/4
+      exoprosopa-90z-03-geopowered-mechlegs/6
     ]
-    time: 21600
+    time: 4800
   }
 ]
 squareSprite: false
 consumes: {
   power: 5
 }
-areaSize: 13
 researchCostMultiplier: 0.5
