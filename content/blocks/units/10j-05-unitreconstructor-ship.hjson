@@ -9,7 +9,7 @@ requirements: [
   01a-05-item-aluminium/200
   01a-06-item-chromium/150
 ]
-constructTime: 2400
+constructTime: 2700
 category: units
 upgrades: [
     [
@@ -26,7 +26,7 @@ consumes: {
   ]
 }
 research: {
-  parent: 10j-01-unitconstructor-tank
+  parent: 10j-02-unitconstructor-ship
   objectives: [
     {
       type: OnSector
