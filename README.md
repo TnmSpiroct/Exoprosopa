@@ -1,4 +1,4 @@
-# Exoprosopa V0.62: Map Update
+# Exoprosopa V0.621: Map Update
 
 <p align="center"><img src="banner.png" alt="banner" width="800"></p>
 
@@ -14,6 +14,9 @@
   Thankyou for playing this mod!<br>
   You can contributes maps or give suggestions on Exoprosopa Server!<br><br>
 
-  V0.62 TnmSpiroct
-
-  - Tech Tree Unit Rework
+  V0.621, TnmSpiroct
+  
+  - Balancing
+  - Frontier Ost
+  - Global Radar
+  - Fog Blocks
