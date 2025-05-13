@@ -6,10 +6,10 @@ size: 4
 category: power
 squareSprite: false
 requirements: [
-  01a-01-item-cobalt/140
-  01a-02-item-nickel/90
-  01a-05-item-aluminium/100
-  01a-06-item-chromium/120
+  01a-01-item-cobalt/150
+  01a-02-item-nickel/350
+  01a-05-item-aluminium/200
+  01a-06-item-chromium/250
 ]
 consumes: {
   itemFlammable: {}
@@ -18,7 +18,7 @@ consumes: {
   ]
   liquid: 02b-02-a-purified-elixir/0.5
 }
-powerProduction: 18
+powerProduction: 15
 itemDuration: 180
 generateEffect: generatespark
 ambientSound: smelter
