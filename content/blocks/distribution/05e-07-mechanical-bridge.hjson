@@ -3,7 +3,7 @@ name: Bridge Pipe
 description: Transports items over terrain or buildings.
 size: 1
 health: 65
-speed: 6
+speed: 4
 range: 4
 requirements: [
   01a-01-item-cobalt/15
