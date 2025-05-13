@@ -2,8 +2,7 @@ type: Radar
 name: Frontier Soundtrack
 description: Plays frontier ost on spesific sector, use this in editor mode.
 size: 1
-health: 1000000
-armor: 1000000
+health: 100000000
 squareSprite: false
 category: logic
 ambientSound: frontier
@@ -11,6 +10,6 @@ ambientSoundVolume: 1
 buildVisibility: editorOnly
 forceDark: true
 targetable: false
-breakable: false
+destructible: false
 outlineColor: 00000000
 fogRadius: 0
