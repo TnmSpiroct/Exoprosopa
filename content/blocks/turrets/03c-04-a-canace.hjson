@@ -7,8 +7,8 @@ health: 2300
 armor: 5
 shootSound: mediumCannon
 requirements: [
-  01a-01-item-cobalt/350
-  01a-02-item-nickel/200
+  01a-01-item-cobalt/150
+  01a-02-item-nickel/350
   01a-06-item-chromium/300
   01a-07-item-clevorite/100
 ]
@@ -24,7 +24,7 @@ outlineColor: 2C2A36
 targetAir: false
 targetGround: true
 rotateSpeed: 1.5
-reload: 135
+reload: 130
 range: 260
 shootY: 7
 ammoTypes: {
@@ -47,7 +47,7 @@ ammoTypes: {
     ammoMultiplier: 1
     fragBullet: {
       speed: 3.5
-      damage: 35
+      damage: 50
       lifetime: 12
       width: 11
       height: 14
@@ -64,13 +64,62 @@ ammoTypes: {
         liquid: slag
         status: melting
         statusDuration: 300
-        damage: 40
-        puddleSize: 48
+        damage: 50
+        puddleSize: 45
         despawnHit: true
         despawnSound: splash
         speed: 0
         lifetime: 0
         splashDamage: 60
+        splashDamageRadius: 3.5
+        hitEffect: none
+        collidesAir: false
+      }
+    }
+  }
+01a-09-item-morphite: {
+    type: ArtilleryBulletType
+    damage: 350
+    lifetime: 65
+    speed: 4
+    width: 18
+    height: 23
+    fragLifeMin: 0.4
+    fragVelocityMin: 0.5
+    fragBullets: 15
+    hitEffect: blastExplosion
+    hitShake: 1.5
+    collidesGround: true
+    collidesAir: false
+    collidesTiles: true
+    collides: true
+    ammoMultiplier: 2
+    fragBullet: {
+      speed: 3
+      damage: 50
+      lifetime: 10
+      width: 11
+      height: 14
+      splashDamage: 25
+      splashDamageRadius: 15
+      hitEffect: none
+      collidesAir: false
+      shrinkY: 0
+      hitEffect: explosion
+      hitSound: explosion
+      fragBullets: 1
+      fragBullet: {
+        type: LiquidBulletType
+        liquid: 02b-06-morphitix-plasma
+        status: 13m-03-hsos6
+        statusDuration: 180
+        damage: 75
+        puddleSize: 40
+        despawnHit: true
+        despawnSound: splash
+        speed: 0
+        lifetime: 0
+        splashDamage: 75
         splashDamageRadius: 3.5
         hitEffect: none
         collidesAir: false
