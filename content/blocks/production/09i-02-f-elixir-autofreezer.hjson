@@ -12,8 +12,8 @@ hasLiquids: true
 category: crafting
 consumes: {
   items :[
-  01a-04-item-tantra-sand/18
-  01a-01-item-cobalt/4
+  01a-04-item-tantra-sand/6
+  01a-01-item-cobalt/1
   ]
   liquid: 02b-01-bioliquid/1.5
   power: 2
@@ -21,12 +21,12 @@ consumes: {
 outputLiquid: 02b-02-a-purified-elixir/1
 liquidCapacity: 180
 requirements: [
-  01a-01-item-cobalt/120
-  01a-02-item-nickel/90
+  01a-01-item-cobalt/100
+  01a-02-item-nickel/50
   01a-05-item-aluminium/100
   01a-06-item-chromium/80
 ]
-craftTime: 180
+craftTime: 60
 craftEffect: none
 drawer: {
   type: DrawMulti
@@ -59,4 +59,4 @@ drawer: {
 squareSprite: false
 research: 09i-02-elixir-converter
 researchCostMultiplier: 0.5
-itemCapacity: 36
+itemCapacity: 20
