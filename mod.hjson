@@ -15,8 +15,11 @@ description:
   You can contributes maps or gives suggestions by join Exoprosopa Server! 
   Check it on my profile. My username is TnmSpiroct.
 
-  Version 0.62
-  - Tech Tree Unit Rework
+  Version 0.621
+  - Balancing
+  - Frontier Ost
+  - Global Radar
+  - Fog Blocks
 '''
 version: "0.62"
 minGameVersion: "146"
