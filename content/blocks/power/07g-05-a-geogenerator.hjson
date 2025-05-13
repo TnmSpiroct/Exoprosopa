@@ -3,7 +3,7 @@ name: Geothermal Generator
 description: Using miasma and purified elixir to generate heat from ground to generate power.
 health: 650
 size: 3
-powerProduction: 10
+powerProduction: 12
 squareSprite: false
 researchCostMultiplier: 0.5
 consumes: {
@@ -78,8 +78,8 @@ drawer: {
 category: power
 research: 07g-04-burner-reactor
 requirements: [
-  01a-02-item-nickel/160
-  01a-05-item-aluminium/110
-  01a-06-item-chromium/100
-  01a-07-item-clevorite/60
+  01a-02-item-nickel/150
+  01a-05-item-aluminium/90
+  01a-06-item-chromium/90
+  01a-07-item-clevorite/50
 ]
