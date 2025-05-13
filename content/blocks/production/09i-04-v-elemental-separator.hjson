@@ -1,31 +1,27 @@
 type: GenericCrafter
 name: Elemental Separator
-description: Separate nichrome using tantra sand and elixir.
+description: Separate nichrome using tantra sand.
 size: 3
 health: 650
 category: crafting
 itemCapacity: 20
 requirements: [
-  01a-01-item-cobalt/65
-  01a-02-item-nickel/45
+  01a-02-item-nickel/50
   01a-05-item-aluminium/80
-  01a-06-item-chromium/50
+  01a-06-item-chromium/40
 ]
 craftTime: 60
 craftEffect: none
 outputItems: [
-  01a-06-item-chromium/1
+  01a-06-item-chromium/2
   01a-02-item-nickel/3
 ]
 consumes: {
   items: [
     01a-05-item-raw-nichrome/4
-    01a-04-item-tantra-sand/1
+    01a-04-item-tantra-sand/2
   ]
-  liquids: [
-  02b-01-bioliquid/0.25
-  ]
-  power: 2
+  power: 1
 }
 drawer: {
   type: DrawMulti
