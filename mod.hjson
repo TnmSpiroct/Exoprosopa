@@ -15,13 +15,12 @@ description:
   You can contributes maps or gives suggestions by join Exoprosopa Server! 
   Check it on my profile. My username is TnmSpiroct.
 
-  Version 0.621
-  - Balancing
-  - Frontier Ost
-  - Global Radar
-  - Fog Blocks
+  Version 0.622
+  - Fixes Crash on Elemental Separator and Aquanite Filter
+  - Buff Elixir Autofreezer
+  - New Weather
 '''
-version: "0.62"
+version: "0.622"
 minGameVersion: "146"
 subtitle: "[#93e2ee[]]V0.6 Campaign Maps Update!"
 repo: "TnmSpiroct/Exoprosopa"
