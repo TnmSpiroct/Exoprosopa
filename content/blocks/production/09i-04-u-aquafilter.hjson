@@ -1,0 +1,59 @@
+type: GenericCrafter
+name: Aquanite Filter
+description: Use hydriyte to filter aquanite into cobalt and raw nichrome.
+size: 4
+liquidCapacity: 120
+hasLiquids: true
+health: 1000
+category: crafting
+research: {
+  parent: 09i-02-elixir-converter
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-11-creek
+    }
+  ]
+}
+itemCapacity: 40
+researchCostMultiplier: 0.5
+requirements: [
+  01a-02-item-nickel/75
+  01a-05-item-aluminium/125
+  01a-06-item-chromium/100
+]
+craftTime: 60
+craftEffect: none
+outputItems: [
+  01a-05-item-raw-nichrome/4
+  01a-01-item-cobalt/3
+]
+consumes: {
+  items: [
+    01a-03-item-aquashard/6
+  ]
+  liquids: [
+    02b-05-hydrowater/1.33333333333
+  ]
+  power: 2
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-05-hydrowater
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
+squareSprite: false
