@@ -14,9 +14,8 @@
   Thankyou for playing this mod!<br>
   You can contributes maps or give suggestions on Exoprosopa Server!<br><br>
 
-  V0.621, TnmSpiroct
+  V0.622, TnmSpiroct
   
-  - Balancing
-  - Frontier Ost
-  - Global Radar
-  - Fog Blocks
+  - Fixes Crash
+  - Buff Elixir Autofreezer
+  - New Weather
