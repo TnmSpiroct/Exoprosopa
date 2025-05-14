@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Influx
-description: Charges up to and discharge pure power to electrifies enemies.
+description: Charges up and discharge pure power to electrifies enemies.
 size: 3
 health: 3000
 armor: 5
@@ -28,7 +28,7 @@ researchCost: [
 shootType: {
   type: LightningBulletType
   hitSound: electric-discharge
-  damage: 90
+  damage: 85
   lightningLength: 28
   lightningLengthRand: 7
   lightningColor: 51C59C
@@ -45,7 +45,7 @@ requirements: [
   01a-02-item-nickel/400
   01a-06-item-chromium/175
   01a-07-item-clevorite/150
-  01a-09-item-morphite/60
+  01a-09-item-morphite/85
 ]
 consumes: {
   power: 10
