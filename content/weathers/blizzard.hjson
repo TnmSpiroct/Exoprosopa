@@ -1,0 +1,14 @@
+type: ParticleWeather
+name: Blizzard
+color: D8E0FD
+noiseColor: D8E0FD
+drawNoise: true
+particleRegion: particle
+useWindVector: true
+sizeMax: 8
+sizeMin: 5
+baseSpeed: 6
+density: 850
+opacityMultiplier: 0.5
+sound: windhowl
+soundVol: 0.3
