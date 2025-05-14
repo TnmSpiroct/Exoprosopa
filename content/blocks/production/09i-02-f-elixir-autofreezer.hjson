@@ -12,7 +12,7 @@ hasLiquids: true
 category: crafting
 consumes: {
   items :[
-  01a-04-item-tantra-sand/6
+  01a-04-item-tantra-sand/5
   01a-01-item-cobalt/1
   ]
   liquid: 02b-01-bioliquid/1.5
