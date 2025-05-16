@@ -5,6 +5,7 @@ hitSize: 9
 singleTarget: false
 omniMovement: false
 faceTarget: false
+targetAir: false
 health: 860
 armor: 4
 template: TankUnitType
@@ -60,5 +61,5 @@ weapons: [
       trailLength: 0.5
       trailWidth: 0.25
       }
-  }
+   }
 ]
