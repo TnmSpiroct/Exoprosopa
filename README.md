@@ -1,4 +1,4 @@
-# Exoprosopa V0.621: Map Update
+# Exoprosopa V0.7: Map Update
 
 <p align="center"><img src="banner.png" alt="banner" width="800"></p>
 
@@ -14,7 +14,7 @@
   Thankyou for playing this mod!<br>
   You can contributes maps or give suggestions on Exoprosopa Server!<br><br>
 
-  V0.622, TnmSpiroct
+  V0.7, TnmSpiroct
   
   - Fixes Crash
   - Buff Elixir Autofreezer
