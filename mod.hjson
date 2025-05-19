@@ -15,12 +15,13 @@ description:
   You can contributes maps or gives suggestions by join Exoprosopa Server! 
   Check it on my profile. My username is TnmSpiroct.
 
-  Version 0.622
+  Version 0.7
   - Fixes Crash on Elemental Separator and Aquanite Filter
   - Buff Elixir Autofreezer
   - New Weather
+  - Fixes Related Bugs in some Campaign Maps with the Game Mechanics
 '''
-version: "0.622"
+version: "0.7"
 minGameVersion: "146"
 subtitle: "[#93e2ee[]]V0.6 Campaign Maps Update!"
 repo: "TnmSpiroct/Exoprosopa"
