@@ -1,4 +1,4 @@
-# Exoprosopa V0.7: Map Update
+# Exoprosopa V0.7: Campaign Update
 
 <p align="center"><img src="banner.png" alt="banner" width="800"></p>
 
@@ -7,7 +7,7 @@
 </p>
 
   Exoprosopa adds frostnova planet into the game alongside with its own unique techtree and environment.<br><br>
-  Conquer this planet with over 18 campaign maps available on this mod.<br>
+  Conquer this planet with over 20 campaign maps available on this mod.<br>
   Including challenge maps!<br><br>
   With over 13 items to be discovered, 124 blocks to be researched. and 17 different units to build!<br>
 
@@ -16,6 +16,5 @@
 
   V0.7, TnmSpiroct
   
-  - Fixes Crash
-  - Buff Elixir Autofreezer
-  - New Weather
+  - Biome and unit resprite thing
+  - my wife is angy
