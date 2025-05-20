@@ -15,14 +15,15 @@ description:
   You can contributes maps or gives suggestions by join Exoprosopa Server! 
   Check it on my profile. My username is TnmSpiroct.
 
+  This mod requires newest mindustry build to be played (Beta 149)
+  
   Version 0.7
-  - Fixes Crash on Elemental Separator and Aquanite Filter
-  - Buff Elixir Autofreezer
-  - New Weather
-  - Fixes Related Bugs in some Campaign Maps with the Game Mechanics
+  - Resprited Syntaxe
+  - Frost Biome
+  - Petal Flower
 '''
 version: "0.7"
 minGameVersion: "146"
-subtitle: "[#93e2ee[]]V0.6 Campaign Maps Update!"
+subtitle: "[#93e2ee[]]V0.7 Campaign Update!"
 repo: "TnmSpiroct/Exoprosopa"
 # [[]#93E2EE]Exoprosopa[[]] is waiting to be colonized again after nuclear retaliation across the supercontinent.
