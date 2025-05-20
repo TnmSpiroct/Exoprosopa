@@ -1,0 +1,6 @@
+type: TreeBlock
+name: Flower White Small
+variants: 0
+emitLight: true
+lightColor: FFFFFFA3
+lightRadius: 20
