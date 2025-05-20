@@ -1,18 +1,18 @@
 type: flying
 name: Syntaxe
-description: Fires high piercing velocity bullets at enemies.
+description: Fires high piercing electric bullet at enemies.
 flying: true
 faceTarget: true
 groundLayer: 40
 shadowElevation: 0.1
 drag: 0.07
 outlineColor: 26262F
-speed: 1.55
+speed: 1.85
 rotateSpeed: 2.1
 accel: 0.1
-health: 2100
+health: 2250
 armor: 6
-hitSize: 25
+hitSize: 21
 researchCostMultiplier: 2
 research: {
   parent: 17q-02-calaust
@@ -26,53 +26,67 @@ research: {
 engines: [
   {
     x: 0
-    y: -15
+    y: -13
     radius: 4
     rotation: -90
   }
   {
-    x: 8
-    y: -12
+    x: 8.5
+    y: -8.5
     radius: 2.5
     rotation: -90
   }
   {
-    x: -8
-    y: -12
+    x: -8.5
+    y: -8.5
     radius: 2.5
     rotation: -90
   }
 ]
-itemCapacity: 60
+itemCapacity: 30
 lowAltitude: false
 weapons: [
   {
     x: 0
     y: 1
-    reload: 120
+    reload: 115
     rotate: false
     mirror: false
+    shootY: -1
     shoot: {
-      shots: 3
-      shotDelay: 8
+      type: ShootHelix
+      mag: 1
+      scl: 3
     }
-    shootSound: normal-shot
-    recoil: 2
+    shootSound: shockBlast
     bullet: {
     type: BasicBulletType
-        damage: 70.25
+        damage: 75.5
+        recoil: 0.5
+        width: 14
+        height: 19
+        hitSize: 7
         speed: 8
+        shootEffect: shootSmokeTitan
+        smokeEffect: shootBigSmoke
         lifetime: 25
         pierce: false
         pierceCap: 2
         pierceBuilding: false
+        hitColor: D8F18C
         trailColor: D8F18C
-        trailChance: -1
-        trailEffect: fluxVapor
-        trailInterval: 2
-        trailRotation: true
-        trailLength: 8
+        backColor: D8F18C
+        frontColor: FFFFFF
+        trailLength: 11
         trailWidth: 3
+        fragBullets: 1
+        fragBullet: {
+          type: LightningBulletType
+          damage: 35
+          lightningLength: 2
+          lightningLengthRand: 4
+          lightningColor: D8F18C
         }
+     }
   }
 ]
