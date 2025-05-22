@@ -23,4 +23,12 @@ researchCost: [
   01a-05-item-aluminium/1500
   01a-06-item-chromium/750
 ]
-research: 06f-01-a-sea-conduit
+research: {
+  parent: 06f-06-a-sea-conduit
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-09-escarpment
+    }
+  ]
+}
