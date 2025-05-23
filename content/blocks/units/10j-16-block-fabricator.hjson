@@ -25,7 +25,7 @@ filter: [
   08h-11-petal-wall-small, 
   08h-12-petal-wall-large
 ]
-research: 0010-fabricator
+research: 10j-15-surge-launcher
 squareSprite: false
 maxBlockSize: 2
 researchCostMultiplier: 0.5
