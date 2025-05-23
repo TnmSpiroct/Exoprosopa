@@ -86,6 +86,3 @@ weapons: [
     }
   }
 ]
-research: {
-  parent: 14n-04-coronis
-}
