@@ -20,7 +20,7 @@ requirements: [
 consumes: {
   power: 0.1
 }
-research: 08h-08-morphite-wall-large
+research: 08h-17-pyroxene-gate
 researchCostMultiplier: 0.5
 category: defense
 destroyBullet: {

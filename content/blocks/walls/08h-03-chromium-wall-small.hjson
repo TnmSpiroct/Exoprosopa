@@ -7,6 +7,6 @@ armor: 6
 requirements: [
   01a-06-item-chromium/6
 ]
-research: 08h-02-cobalt-wall-large
+research: 08h-01-cobalt-wall-small
 researchCostMultiplier: 0.5
 category: defense

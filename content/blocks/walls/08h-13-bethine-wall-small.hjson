@@ -17,6 +17,6 @@ requirements: [
 consumes: {
   power: 0.05
 }
-research: 08h-08-morphite-wall-large
+research: 08h-12-petal-wall-large
 researchCostMultiplier: 0.5
 category: defense
