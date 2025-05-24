@@ -1,0 +1,12 @@
+type: SwitchBlock
+name: Switch Chip
+description: Enables or disables terminator chip.
+size: 1
+health: 80
+category: logic
+research: 0015-logic
+requirements: [
+  01a-01-item-cobalt/10
+  01a-02-item-nickel/10
+]
+researchCostMultiplier: 0.5
