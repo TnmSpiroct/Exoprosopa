@@ -9,4 +9,4 @@ requirements: [
   01a-01-item-cobalt/10
   01a-02-item-nickel/10
 ]
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.1
