@@ -1,5 +1,5 @@
 type: LogicBlock
-name: Terminator Chip
+name: Terminal Chip
 description: Runs logic instructions. Able to control units and buildings.
 category: logic
 research: 0015-logic
@@ -11,4 +11,8 @@ requirements: [
 instructionsPerTick: 10
 size: 2
 health: 100
-researchCostMultiplier: 0.3
+researchCost: [
+  01a-01-item-cobalt/100
+  01a-02-item-nickel/120
+  01a-05-item-aluminium/60
+]
