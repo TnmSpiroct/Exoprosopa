@@ -2,7 +2,7 @@ type: SwitchBlock
 name: Switch Chip
 description: Enables or disables terminal chip.
 size: 1
-health: 80
+health: 60
 category: logic
 research: 0015-logic
 requirements: [
