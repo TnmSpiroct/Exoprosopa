@@ -9,6 +9,6 @@ requirements: [
   01a-02-item-nickel/40
 ]
 squareSprite: false
-size: 1
-health: 40
-researchCostMultiplier: 0.2
+size: 2
+health: 70
+researchCostMultiplier: 0.1
