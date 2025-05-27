@@ -1,6 +1,6 @@
 type: SwitchBlock
 name: Switch Chip
-description: Enables or disables terminator chip.
+description: Enables or disables terminal chip.
 size: 1
 health: 80
 category: logic
