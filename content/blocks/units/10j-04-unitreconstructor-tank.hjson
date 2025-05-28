@@ -8,7 +8,7 @@ requirements: [
   01a-01-item-cobalt/300
   01a-05-item-aluminium/200
   01a-06-item-chromium/140
-  01a-07-item-clevorite/30
+  01a-07-item-clevorite/40
 ]
 constructTime: 2400
 category: units
@@ -35,4 +35,4 @@ research: {
     }
   ]
 }
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.4
