@@ -8,8 +8,8 @@ lightningChance: 0.25
 lightningDamage: 25
 lightningColor: cf9991
 requirements: [
-  01a-09-item-morphite/24
   01a-01-item-cobalt/12
+  01a-09-item-morphite/24
 ]
 research: 08h-07-morphite-wall-small
 researchCostMultiplier: 0.5
