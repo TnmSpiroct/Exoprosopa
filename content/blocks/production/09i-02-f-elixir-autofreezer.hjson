@@ -3,7 +3,6 @@ name: Elixir Autofreezer
 description: Purifies elixir faster than the elixir purifier. Additionally utilizes cobalt for higher efficiency.
 size: 3
 health: 650
-placeableLiquid: true
 liquidOutputDirections: [0]
 rotate: true
 quickRotate: true
