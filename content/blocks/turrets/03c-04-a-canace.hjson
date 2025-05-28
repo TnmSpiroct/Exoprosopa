@@ -31,6 +31,7 @@ ammoTypes: {
   01a-07-item-clevorite: {
     type: ArtilleryBulletType
     damage: 200
+    buildingDamageMultiplier: 0.25
     lifetime: 65
     speed: 4
     width: 18
@@ -48,6 +49,7 @@ ammoTypes: {
     fragBullet: {
       speed: 3.5
       damage: 50
+      buildingDamageMultiplier: 0.25
       lifetime: 12
       width: 11
       height: 14
@@ -65,6 +67,7 @@ ammoTypes: {
         status: melting
         statusDuration: 300
         damage: 50
+        buildingDamageMultiplier: 0.25
         puddleSize: 45
         despawnHit: true
         despawnSound: splash
@@ -80,6 +83,7 @@ ammoTypes: {
 01a-09-item-morphite: {
     type: ArtilleryBulletType
     damage: 350
+    buildingDamageMultiplier: 0.25
     lifetime: 65
     speed: 4
     width: 18
@@ -97,6 +101,7 @@ ammoTypes: {
     fragBullet: {
       speed: 3
       damage: 50
+      buildingDamageMultiplier: 0.25
       lifetime: 10
       width: 11
       height: 14
@@ -114,6 +119,7 @@ ammoTypes: {
         status: 13m-03-hsos6
         statusDuration: 180
         damage: 75
+        buildingDamageMultiplier: 0.25
         puddleSize: 40
         despawnHit: true
         despawnSound: splash
