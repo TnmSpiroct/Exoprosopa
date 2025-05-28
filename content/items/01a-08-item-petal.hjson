@@ -1,8 +1,6 @@
 color: ff91b3
-hardness: 4
+hardness: 3
 cost: 1.2
-explosiveness: 0.6
-flammability: 0.15
-radioactivity: 0.8
+charge: 0.95
 research: 01a-06-item-chromium
 hiddenOnPlanets: [serpulo, erekir]

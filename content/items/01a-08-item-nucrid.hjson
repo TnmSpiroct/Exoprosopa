@@ -1,0 +1,8 @@
+color: FFD5E2
+name: Nucrid
+description: Strong material from nucrid wall, can be strengthen more with petal fragment.
+hardness: 3
+cost: 0.5
+charge: 0.75
+research: 01a-06-item-chromium
+hiddenOnPlanets: [serpulo, erekir]
