@@ -1,5 +1,5 @@
 type: TreeBlock
-name: Small Flower
+name: Unique Flower
 variants: 0
 itemDrop: 01a-08-item-petal
 emitLight: true
