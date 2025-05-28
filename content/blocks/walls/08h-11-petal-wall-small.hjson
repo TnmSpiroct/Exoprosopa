@@ -1,5 +1,5 @@
 type: Wall
-name: Petal Fragment Wall
+name: Bionucrium Wall
 description: Protects structures from enemy projectiles, lightly armored. Deals damage to enemies when destroyed.
 size: 1
 health: 950
@@ -7,7 +7,7 @@ armor: 8
 requirements: [
   01a-08-item-petal/6
 ]
-research: 08h-06-clevorite-wall-large
+research: 08h-02-cobalt-wall-large
 researchCostMultiplier: 0.5
 category: defense
 destroyBullet: {
