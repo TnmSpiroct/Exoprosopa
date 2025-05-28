@@ -4,7 +4,7 @@ description: Enables or disables terminal chip.
 size: 1
 health: 60
 category: logic
-research: 12l-003-terminator
+research: 0015-logic
 requirements: [
   01a-01-item-cobalt/10
   01a-02-item-nickel/10
