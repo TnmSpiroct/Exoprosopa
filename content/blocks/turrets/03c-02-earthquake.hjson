@@ -33,7 +33,7 @@ ammoTypes: {
     instantDisappear: true
     splashDamage: 25
     splashDamageRadius: 150
-    status: 13m-07-shock
+    status: 13m-01-breached
     statusDuration: 300
     despawnEffect: none
     hitEffect: none
