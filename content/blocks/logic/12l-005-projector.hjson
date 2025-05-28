@@ -1,10 +1,10 @@
 type: LogicDisplay
 name: Projector Chip
 description: Outputs logic data graphically.
-size: 3
+size: 4
 displaySize: 80
 category: logic
-research: 12l-002-switch
+research: 12l-004-cell-data
 requirements: [
   01a-01-item-cobalt/90
   01a-05-item-aluminium/60
