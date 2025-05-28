@@ -6,7 +6,15 @@ consumes: {
 }
 health: 650
 category: units
-research: 10j-15-payload-router
+research: {
+  parent: 10j-15-payload-router
+  objectives: [
+    {
+      type: SectorCompleted
+      preset: 19s-08-botanical-garden
+    }
+  ]
+}
 requirements: [
   01a-02-item-nickel/150
   01a-05-item-aluminium/200
