@@ -1,6 +1,0 @@
-type: Floor
-name: Wasteland Ichor
-variants: 4
-attributes: {
-   ichor: 1
-}
