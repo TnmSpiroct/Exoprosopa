@@ -7,7 +7,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-07-cliffside
+      preset: 19s-03-a-luminary
     }
   ]
 }
