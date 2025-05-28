@@ -13,7 +13,7 @@ type: cellLiquid
 alwaysUnlocked: false
 effect: exoprosopa-13m-06-contaminated
 research: {
-  parent: 02b-01-bioliquid
+  parent: 02b-02-a-purified-elixir
   objectives: [
     {
       type: SectorComplete
