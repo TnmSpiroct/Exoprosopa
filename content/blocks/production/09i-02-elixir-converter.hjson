@@ -4,7 +4,6 @@ description: Purifies elixir using tantra sand as a filter.
 size: 2
 // code by shipenfire
 health: 450
-placeableLiquid: true
 liquidOutputDirections: [0]
 rotate: true
 quickRotate: true
