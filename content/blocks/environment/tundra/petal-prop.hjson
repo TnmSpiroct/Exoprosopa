@@ -1,0 +1,4 @@
+type: Prop
+name: Petal
+variants: 2
+breakSound: rockBreak

@@ -1,0 +1,4 @@
+type: Prop
+name: Frost Boulder
+variants: 2
+breakSound: rockBreak

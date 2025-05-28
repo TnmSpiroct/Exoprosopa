@@ -1,0 +1,11 @@
+type: Floor
+name: Nucriogen Pool
+speedMultiplier: 0.3
+variants: 5
+drownTime: 95
+liquidDrop: 02b-08-nucliogen
+liquidMultiplier: 0.625
+isLiquid: true
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true
