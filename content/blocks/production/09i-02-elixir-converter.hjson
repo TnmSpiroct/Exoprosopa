@@ -54,7 +54,7 @@ requirements: [
 ]
 squareSprite: false
 research: {
-  parent: 09i-01-aluminium-furnace
+  parent: 0003-factory
   objectives: [
     {
       type: OnSector
