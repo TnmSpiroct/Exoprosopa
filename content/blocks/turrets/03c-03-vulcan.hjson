@@ -30,6 +30,7 @@ ammoTypes: {
   type: ContinuousLaserBulletType
   length: 190
   damage: 30
+  buildingDamageMultiplier: 0.25
   width: 2.5
   incendChance: 0
   incendAmount: 0
@@ -57,6 +58,7 @@ ammoTypes: {
   rangeChange: 110
   // 190
   damage: 70
+  buildingDamageMultiplier: 0.25
   width: 3.25
   incendChance: 0
   incendAmount: 0
