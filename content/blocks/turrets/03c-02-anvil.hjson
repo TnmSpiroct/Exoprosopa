@@ -15,7 +15,15 @@ researchCost: [
   01a-02-item-nickel/2000
   01a-05-item-aluminium/1500
 ]
-research: 03c-01-impale
+research: {
+  parent: 03c-01-impale
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-02-mountain-ridge
+    }
+  ]
+}
 coolant: {
   type: ConsumeLiquid
   liquid: 02b-02-a-purified-elixir
