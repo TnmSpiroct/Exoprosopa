@@ -1,3 +1,6 @@
 type: StaticWall
 name: Nucrid Wall
 description: "Home of the tree creatures."
+attributes: {
+  nucrid: 1
+}
