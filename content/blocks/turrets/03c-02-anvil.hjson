@@ -20,7 +20,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-02-mountain-ridge
+      preset: 19s-03-a-luminary
     }
   ]
 }
