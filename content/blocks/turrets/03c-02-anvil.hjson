@@ -20,7 +20,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-03-a-luminary
+      preset: 19s-03-hostile-outpost
     }
   ]
 }
