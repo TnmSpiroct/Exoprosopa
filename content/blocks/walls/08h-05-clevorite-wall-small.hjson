@@ -6,9 +6,9 @@ health: 680
 armor: 6
 absorbLasers: true
 requirements: [
-  01a-02-item-nickel/3
+  01a-02-item-nickel/4
   01a-07-item-clevorite/6
 ]
-research: 08h-02-cobalt-wall-large
+research: 08h-04-chromium-wall-large
 researchCostMultiplier: 0.5
 category: defense
