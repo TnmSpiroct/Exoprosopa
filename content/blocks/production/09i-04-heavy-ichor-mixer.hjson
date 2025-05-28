@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Holyforge
-description: Purifies cryogenics even more with tantra sand to create ichor. 
+description: Purifies cryogenics with tantra sand to create ichor.
 health: 850
 size: 3
 hasLiquids: true
