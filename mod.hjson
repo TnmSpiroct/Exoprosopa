@@ -27,7 +27,7 @@ description:
   - Nucrid Crusher
 '''
 version: "0.71"
-minGameVersion: "146"
+minGameVersion: "149"
 subtitle: "[#93e2ee[]]V0.71 Biome Update!"
 repo: "TnmSpiroct/Exoprosopa"
 # [[]#93E2EE]Exoprosopa[[]] is waiting to be colonized again after nuclear retaliation across the supercontinent.
