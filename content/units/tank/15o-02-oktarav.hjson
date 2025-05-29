@@ -5,7 +5,7 @@ hitSize: 17
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 2050
+health: 2000
 armor: 7
 template: TankUnitType
 speed: 0.825
@@ -37,10 +37,10 @@ weapons: [
       sprite: missile-large
       width: 6
       splashDamageRadius: 20
-      splashDamage: 14.75
+      splashDamage: 14.25
       pierceCap: 1
       lifetime: 32
-      damage: 38.75
+      damage: 37.5
       speed: 6.5
       smokeEffect: colorSpark
       trailColor: 93E2EE
