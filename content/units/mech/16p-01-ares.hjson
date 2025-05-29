@@ -16,14 +16,14 @@ legPhysicsLayer: false
 legStraightness: 0.3
 hovering: true
 groundLayer: 60
-health: 760
+health: 780
 armor: 3
 allowLegStep: true
-speed: 0.75
+speed: 0.775
 rotateSpeed: 3
 hitSize: 8
 drag: 0.1
-itemCapacity: 20
+itemCapacity: 0
 outlineColor: 26262F
 research: {
   parent: 0010-fabricator
