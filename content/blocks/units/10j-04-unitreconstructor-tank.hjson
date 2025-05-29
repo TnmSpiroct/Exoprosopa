@@ -8,7 +8,6 @@ requirements: [
   01a-01-item-cobalt/300
   01a-05-item-aluminium/200
   01a-06-item-chromium/150
-  01a-07-item-clevorite/50
 ]
 constructTime: 2400
 category: units
@@ -31,7 +30,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-12-hazardous-wasteland
+      preset: 19s-10-cornerstone
     }
   ]
 }
