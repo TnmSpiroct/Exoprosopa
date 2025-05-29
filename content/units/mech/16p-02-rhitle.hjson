@@ -16,13 +16,13 @@ legPhysicsLayer: false
 legStraightness: 0.3
 hovering: true
 groundLayer: 60
-health: 1360
-armor: 4
+health: 1450
+armor: 5
 allowLegStep: true
-speed: 1
+speed: 0.105
 hitSize: 15
 drag: 0.1
-itemCapacity: 20
+itemCapacity: 5
 outlineColor: 26262F
 research: {
   parent: 16p-01-ares
