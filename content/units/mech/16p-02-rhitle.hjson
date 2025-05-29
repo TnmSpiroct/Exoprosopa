@@ -19,7 +19,7 @@ groundLayer: 60
 health: 1450
 armor: 5
 allowLegStep: true
-speed: 0.105
+speed: 1.05
 hitSize: 15
 drag: 0.1
 itemCapacity: 5
