@@ -36,7 +36,7 @@ craftTime: 120
 craftEffect: none
 outputItems: [
   01a-07-item-clevorite/4
-  01a-01-item-cobalt/0.5
+  01a-01-item-cobalt/1.5555555555
 ]
 outputLiquids: [
   02b-01-bioliquid/0.25
