@@ -19,7 +19,7 @@ requirements: [
 craftTime: 240
 craftEffect: none
 outputItems: [
-  01a-07-item-clevorite/2
+  01a-07-item-clevorite/6
 ]
 consumes: {
   items: [
