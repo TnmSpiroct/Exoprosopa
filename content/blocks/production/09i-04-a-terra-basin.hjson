@@ -35,15 +35,15 @@ requirements: [
 craftTime: 120
 craftEffect: none
 outputItems: [
-  01a-07-item-clevorite/5
-  01a-01-item-cobalt/1.555
+  01a-07-item-clevorite/4
+  01a-01-item-cobalt/0.5
 ]
 outputLiquids: [
   02b-01-bioliquid/0.25
 ]
 consumes: {
   items: [
-    01a-02-item-nickel/6
+    01a-02-item-nickel/5
   ]
   liquids: [
     02b-02-a-purified-elixir/0.3333333333
