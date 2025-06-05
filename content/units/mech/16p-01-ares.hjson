@@ -16,7 +16,7 @@ legPhysicsLayer: false
 legStraightness: 0.3
 hovering: true
 groundLayer: 60
-health: 780
+health: 750
 armor: 3
 allowLegStep: true
 speed: 0.775
@@ -55,7 +55,7 @@ weapons: [
       flareLength: 0
       length: 70
       width: 1.6
-      damage: 7
+      damage: 7.5
       pierceCap: 2
       hitEffect: none
       despawnEffect: none

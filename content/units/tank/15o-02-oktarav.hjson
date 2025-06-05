@@ -36,12 +36,12 @@ weapons: [
       type: BasicBulletType
       sprite: missile-large
       width: 6
-      splashDamageRadius: 20
-      splashDamage: 14.25
+      splashDamageRadius: 15.5
+      splashDamage: 10
       pierceCap: 1
       lifetime: 32
-      damage: 37.5
-      speed: 6.5
+      damage: 52.5
+      speed: 6
       smokeEffect: colorSpark
       trailColor: 93E2EE
       trailWidth: 1.5

@@ -6,7 +6,7 @@ singleTarget: false
 omniMovement: false
 faceTarget: false
 targetAir: false
-health: 860
+health: 850
 armor: 4
 template: TankUnitType
 speed: 0.95
@@ -37,7 +37,7 @@ weapons: [
     x: 0
     y: 0
     name: mason-weapon
-    reload: 72.5
+    reload: 70.5
     mirror: false
     rotate: true
     rotateSpeed: 2
@@ -47,7 +47,7 @@ weapons: [
       frontColor: 6BBDCB
       backColor: 377A86
       sprite: shell
-      speed: 2.6
+      speed: 2.5
       lifetime: 60
       splashDamage: 55
       splashDamageRadius: 20

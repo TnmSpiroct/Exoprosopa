@@ -14,7 +14,7 @@ speed: 2.25
 rotateSpeed: 5.5
 accel: 0.11
 groundLayer: 60
-health: 1180
+health: 1200
 armor: 3
 hitSize: 15
 canDrown: false
