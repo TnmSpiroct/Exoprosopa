@@ -76,7 +76,15 @@ drawer: {
   ]
 }
 category: power
-research: 07g-04-burner-reactor
+research: {
+  parent: 07g-04-burner-reactor
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-12-hazardous-wasteland
+    }
+  ]
+}
 requirements: [
   01a-02-item-nickel/150
   01a-05-item-aluminium/90
