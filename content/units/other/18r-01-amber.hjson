@@ -1,5 +1,4 @@
 type: tether
-name: Amber Drone
 description: Mounts units from Assembly Bays.
 flying: true
 drag: 0.06

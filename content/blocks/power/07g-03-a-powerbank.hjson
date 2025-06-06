@@ -1,6 +1,4 @@
 type: Battery
-name: Powerbank
-description: A battery capable of storing massive amounts of power.
 size: 3
 health: 450
 squareSprite: false

@@ -1,6 +1,4 @@
 type: Wall
-name: Large Cobalt Wall
-description: Protects structures from enemy projectiles, lightly armored.
 size: 2
 armor: 6
 health: 1920

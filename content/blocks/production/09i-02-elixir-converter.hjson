@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Elixir Purifier
-description: Purifies elixir using tantra sand as a filter.
 size: 2
 // code by shipenfire
 health: 450

@@ -1,6 +1,4 @@
 type: flying
-name: Querba
-description: Protects the Empower Core, can build and retrieve resources. Can heal blocks.
 flying: true
 controller: BuilderAI
 faceTarget: true

@@ -1,6 +1,4 @@
 type: UnitFactory
-name: Mechbay
-description: Used to producing first tier of mech unit.
 size: 3
 health: 450
 configurable: false

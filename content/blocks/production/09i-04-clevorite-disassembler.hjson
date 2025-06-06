@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Nichrome Disassembler
-description: Crafts clevorite with raw nichrome and cryogenics. Produce aluminium and chromium as a byproduct.
 size: 4
 liquidCapacity: 30
 hasLiquids: true

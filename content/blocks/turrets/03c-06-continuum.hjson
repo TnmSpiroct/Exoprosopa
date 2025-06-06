@@ -1,6 +1,4 @@
 type: ContinuousTurret
-name: Continuum
-description: Fires a slow-moving single-target laser at enemy targets.
 size: 4
 health: 4000
 armor: 10

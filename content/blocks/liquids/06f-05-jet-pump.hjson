@@ -1,6 +1,4 @@
 type: Pump
-name: Jet Pump
-description: Pumps and outputs liquids. Requires cryogenics.
 health: 450
 size: 2
 category: liquid

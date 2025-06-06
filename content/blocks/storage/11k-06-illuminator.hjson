@@ -1,6 +1,4 @@
 type: Radar
-name: Signal Navigator
-description: Uncover fog and illuminating terrain in range, requires power.
 size: 2
 health: 450
 squareSprite: false

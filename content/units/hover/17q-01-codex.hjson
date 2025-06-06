@@ -1,6 +1,5 @@
 type: mech
 name: Codex
-description: Fires electric lighting at enemies. Able to float over bodies of liquid.
 hovering: true
 hoverable: true
 faceTarget: false

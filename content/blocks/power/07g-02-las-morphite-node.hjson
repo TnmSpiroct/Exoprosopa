@@ -1,6 +1,4 @@
 type: PowerNode
-name: Morphite Node
-description: Transmits power to other blocks in medium distance, can connect to multiple blocks.
 fogRadius: 2
 size: 2
 health: 250

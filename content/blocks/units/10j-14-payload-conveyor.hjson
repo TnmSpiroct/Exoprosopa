@@ -1,6 +1,4 @@
 type: PayloadConveyor
-name: Large Transporter
-description: Transports units and blocks.
 health: 450
 category: units
 research: {

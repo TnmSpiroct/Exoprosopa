@@ -1,6 +1,4 @@
 type: tank
-name: Rancor
-description: Fires powerful cluster shell at enemies.
 hitSize: 35
 singleTarget: false
 omniMovement: false

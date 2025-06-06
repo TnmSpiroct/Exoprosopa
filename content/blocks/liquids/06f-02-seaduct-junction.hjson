@@ -1,6 +1,4 @@
 type: LiquidJunction
-name: Seaduct Junction
-description: Used for crossing two conduits.
 size: 1
 solid: false
 underBullets: true

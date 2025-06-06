@@ -1,6 +1,4 @@
 type: ShieldWall
-name: Bethine Wall
-description: Protects structures from enemy projectiles, well armored. Able to deflect bullets and creating shield when powered.
 size: 1
 health: 900
 armor: 12

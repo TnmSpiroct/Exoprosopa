@@ -1,6 +1,4 @@
 type: LiquidBridge
-name: Sea Morph Bridge
-description: Transfer liquids very fast over blocks and buildings.
 size: 1
 health: 300
 canOverdrive: false

@@ -1,6 +1,4 @@
 type: CoreBlock
-name: Core: Apeirogon
-description: Core of the base. Heavily armored and stores large amount of items.
 size: 6
 health: 72500
 armor: 35

@@ -1,6 +1,4 @@
 type: Incinerator
-name: Pipeline Incerinator
-description: Uses power to burn inputted items.
 size: 1
 health: 65
 squareSprite: false

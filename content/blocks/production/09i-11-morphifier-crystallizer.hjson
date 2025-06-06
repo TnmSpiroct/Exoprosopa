@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Morphite Accelerator
-description: Accelerates chromium in great speeds using cryogenics to create morphite. Produce ectoplasm as a byproduct.
 size: 4
 health: 1000
 category: crafting

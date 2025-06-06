@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Earthquake
-description: Slams down to generate a shockwave that damages enemies and slows them down, increases enemy damage and reload speed as a side effect.
 size: 3
 squareSprite: false
 health: 1800

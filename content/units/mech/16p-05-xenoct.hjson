@@ -1,6 +1,4 @@
 type: legs
-name: Xenoct
-description: Fires piercing shotgun at enemies, equipped with point defense turret and debuffer. This debuffer will debuffs enemy in range, lowering stats of units. Can walk on almost all terrain.
 legCount: 8
 legExtension: -20
 legBaseOffset: 8

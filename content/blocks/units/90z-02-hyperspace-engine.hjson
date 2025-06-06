@@ -1,6 +1,4 @@
 type: Junction
-name: Hyperspace Engine
-description: High tech engine used on ship unit production.
 size: 3
 customShadow: true
 placeablePlayer: false

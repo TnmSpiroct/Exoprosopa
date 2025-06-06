@@ -1,6 +1,4 @@
 type: Junction
-name: Geopowered Mechlegs
-description: Geopowered Mechlegs used on mech unit production.
 size: 3
 customShadow: true
 placeablePlayer: false

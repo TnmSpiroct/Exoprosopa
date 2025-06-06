@@ -1,6 +1,4 @@
 type: BuildTurret
-name: Build Outpost
-description: Automatically rebuilds structures in range and assists other units in construction.
 size: 3
 health: 1000
 squareSprite: false
@@ -19,7 +17,7 @@ buildSpeed: 2
 range: 175
 category: effect
 outlineColor: 2C2A36
-research: 0011-effect
+research: 11k-05-holoshield
 researchCost: [
   01a-05-item-aluminium/4000
   01a-06-item-chromium/3000

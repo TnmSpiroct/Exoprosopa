@@ -1,6 +1,4 @@
 type: RegenProjector
-name: Pyroxene Wall
-description: Protects structures from enemy projectiles, heavily armored. Able to absorb lasers. Regenerates over time when powered. Deals damage to enemies when destroyed.
 size: 1
 health: 1400
 armor: 20

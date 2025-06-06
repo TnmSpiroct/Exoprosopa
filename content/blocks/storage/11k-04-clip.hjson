@@ -1,6 +1,4 @@
 type: StorageBlock
-name: Clip
-description: Stores small amount of items.
 size: 2
 health: 450
 itemCapacity: 150

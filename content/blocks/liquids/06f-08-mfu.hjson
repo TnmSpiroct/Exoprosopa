@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Miasma Filtration Unit
-description: Filtralize miasma into elixir using tantra sand and aquanite. Warning! leaked conduit can cause miasma to infect elixir!
 size: 3
 liquidCapacity: 240
 hasLiquids: true

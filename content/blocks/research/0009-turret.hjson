@@ -1,5 +1,3 @@
 show: false
 research: 11k-01-core-apex
-name: Turrets
-description: Contains all turrets available in Frostnova.
 alwaysUnlocked: true

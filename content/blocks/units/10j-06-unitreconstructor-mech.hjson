@@ -1,6 +1,4 @@
 type: Reconstructor
-name: Mechbay Upgrade Facility
-description: Upgrades inputted mech unit to the second tier.
 size: 3
 health: 650
 configurable: false

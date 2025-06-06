@@ -1,6 +1,4 @@
 type: RegenProjector
-name: Auto Repairer
-description: Automatically repairs blocks in range, requires cryogenics and power.
 size: 3
 range: 30
 healPercent: 0.04

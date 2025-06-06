@@ -1,6 +1,4 @@
 type: Conduit
-name: Sea Conduit
-description: Transfer liquids and fluids forward.
 category: liquid
 requirements: [
   01a-01-item-cobalt/2

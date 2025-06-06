@@ -1,6 +1,4 @@
 type: UnitAssembler
-name: Mech Assembly Bay
-description: Creates advanced mech units using payloads.
 size: 5
 health: 1500
 category: units

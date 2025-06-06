@@ -1,6 +1,4 @@
 type: Radar
-name: Global Radar
-description: Instantly uncover fog and illuminating terrain.
 size: 2
 health: 450
 squareSprite: false

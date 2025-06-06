@@ -1,6 +1,4 @@
 type: flying
-name: Axthrasis
-description: Protects the Apeirogon Core, can build and retrieve resources. can heal blocks very fast.
 flying: true
 controller: BuilderAI
 faceTarget: true

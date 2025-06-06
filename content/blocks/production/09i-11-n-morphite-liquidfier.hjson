@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Morphite Discharger
-description: Heats and discharge morphite to create morphitix plasma, requires miasma to heats and ichor to discharge morphite.
 size: 3
 liquidCapacity: 120
 hasLiquids: true

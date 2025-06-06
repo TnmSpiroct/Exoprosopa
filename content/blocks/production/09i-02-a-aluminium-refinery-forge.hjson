@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Aluminium Refinery Forge
-description: Heats Nickel and Cobalt using anthracite in a large amount, this process allows to more bulked aluminium production.
 size: 4
 health: 1000
 category: crafting

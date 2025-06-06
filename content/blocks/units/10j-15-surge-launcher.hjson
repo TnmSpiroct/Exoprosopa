@@ -1,6 +1,4 @@
 type: PayloadMassDriver
-name: Surge Launcher
-description: Launches payloads to another connected Surge Launcher in range.
 consumes: {
   power: 2
 }

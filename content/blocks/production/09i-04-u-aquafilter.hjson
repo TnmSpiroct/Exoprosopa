@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Aquanite Filter
-description: Use hydriyte to filter aquanite into cobalt and raw nichrome.
 size: 4
 liquidCapacity: 120
 hasLiquids: true

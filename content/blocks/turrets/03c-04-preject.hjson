@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Deprive
-description: Fires barrages of bullets at enemy targets over long distance, dealing massive AoE damage.
 size: 4
 health: 3400
 armor: 10

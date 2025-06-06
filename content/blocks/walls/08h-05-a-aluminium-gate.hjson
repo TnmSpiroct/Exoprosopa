@@ -1,6 +1,4 @@
 type: AutoDoor
-name: Automatic Gate
-description: Protects structures from enemy projectiles, lightly armored. Function as a gate for ally units.
 size: 2
 armor: 6
 health: 2000

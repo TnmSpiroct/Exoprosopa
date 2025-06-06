@@ -1,6 +1,4 @@
 type: Constructor
-name: Advanced Unitpart Fabricator
-description: Crafts unit part for unit assembly, requires power and necroplasm.
 size: 4
 health: 850
 category: units

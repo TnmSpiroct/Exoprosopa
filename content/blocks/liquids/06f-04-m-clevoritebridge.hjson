@@ -1,6 +1,4 @@
 type: DirectionLiquidBridge
-name: Reinforced Sea Bridge
-description: Transfer liquids over blocks and buildings, has more range than sea bridge.
 size: 1
 health: 100
 range: 5

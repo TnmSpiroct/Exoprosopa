@@ -1,6 +1,4 @@
 type: Radar
-name: Survey Buoy
-description: Uncover fog and illuminating terrain in smaller range, can be placed on water.
 size: 2
 health: 450
 squareSprite: false

@@ -1,6 +1,4 @@
 type: mech
-name: Calaust
-description: Fires electric lighting at enemies, able to float over bodies of liquid.
 hovering: true
 hoverable: true
 faceTarget: false

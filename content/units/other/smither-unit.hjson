@@ -1,6 +1,5 @@
 type: missile
 lifetime: 180
-
 speed: 0
 flying: true
 engineSize: 0

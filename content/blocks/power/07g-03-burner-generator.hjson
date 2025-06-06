@@ -1,6 +1,4 @@
 type: ConsumeGenerator
-name: Burner Generator
-description: Burns flammable materials using elixir to generate power.
 size: 2
 health: 450
 category: power

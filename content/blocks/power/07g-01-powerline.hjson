@@ -1,6 +1,4 @@
 type: BeamNode
-name: Powerline
-description: Transmits power to other blocks orthogonally.
 health: 65
 fogRadius: 2
 range: 8

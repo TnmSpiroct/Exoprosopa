@@ -1,6 +1,4 @@
 type: legs
-name: Carragher
-description: Fires piercing laser shotgun at enemies. Can walk on almost all terrain.
 legCount: 6
 lockLegBase: true
 legExtension: -2

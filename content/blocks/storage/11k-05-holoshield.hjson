@@ -1,6 +1,4 @@
 type: ForceProjector
-name: Holoshield
-description: Creates square shield that blocks enemy projectile, requires cryogenics and power.
 size: 3
 health: 1500
 sides: 4

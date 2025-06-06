@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Calamity
-description: Launches exploding shells towards enemies.
 minWarmup: 0.99
 warmupMaintainTime: 90
 shootWarmupSpeed: 0.1

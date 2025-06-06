@@ -1,6 +1,4 @@
 type: Wall
-name: Clevorite Wall
-description: Protects structures from enemy projectiles, lightly armored. Able to absorb lasers.
 size: 1
 health: 680
 armor: 6

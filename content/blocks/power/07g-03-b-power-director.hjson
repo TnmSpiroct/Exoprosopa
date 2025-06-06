@@ -1,6 +1,4 @@
 type: PowerDiode
-name: Power Redirector
-description: Moves battery power in a single direction only if the other side has less power stored.
 health: 65
 requirements: [
   01a-02-item-nickel/30

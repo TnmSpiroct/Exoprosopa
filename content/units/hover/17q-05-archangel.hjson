@@ -1,6 +1,4 @@
 type: flying
-name: Archangel
-description: Charges up and fires electromagnetic piercing bullet that inflict discharge overload and continuous laser at enemies, Equipped with forcefield on surroundings.
 immunities: [burning, shocked
 ]
 flying: true

@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Aluminium Furnace
-description: Heats cobalt into aluminium using anthracite as a fuel.
 size: 3
 health: 650
 category: crafting

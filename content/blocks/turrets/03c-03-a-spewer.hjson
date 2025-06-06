@@ -1,6 +1,4 @@
 type: LiquidTurret
-name: Spewer
-description: Rapidly fires drops of liquid at enemies. Capable of extinguishing fires.
 health: 1800
 armor: 3
 size: 3

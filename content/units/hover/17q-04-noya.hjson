@@ -1,6 +1,4 @@
 type: flying
-name: Noya
-description: Charges and fires high piercing  bullet and lasers at enemies.
 flying: true
 faceTarget: true
 groundLayer: 40

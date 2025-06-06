@@ -1,6 +1,4 @@
 type: ContinuousTurret
-name: Supernova
-description: Cooldown and fires Exolaser continously, pierce through armor and enemies on range, WIP.
 size: 5
 shootCone: 25
 health: 10500

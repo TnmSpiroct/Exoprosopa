@@ -1,6 +1,4 @@
 type: flying
-name: Syntaxe
-description: Fires high piercing electric bullet at enemies.
 flying: true
 faceTarget: true
 groundLayer: 40

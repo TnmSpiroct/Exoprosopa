@@ -1,6 +1,4 @@
 type: flying
-name: Suzuran
-description: Used for insta-heal blocks and scout, sandbox only.
 flying: true
 controller: BuilderAI
 faceTarget: true

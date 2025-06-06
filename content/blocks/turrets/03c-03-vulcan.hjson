@@ -1,6 +1,4 @@
 type: ContinuousLiquidTurret
-name: Vulcan
-description: Shoots a laser that pushes enemies away.
 size: 3
 health: 2000
 armor: 5

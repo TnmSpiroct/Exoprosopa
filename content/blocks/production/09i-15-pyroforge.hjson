@@ -1,7 +1,5 @@
 type: HeatCrafter
 heatRequirement: 60
-name: Pyroforge
-description: Forge and restructure inputted material using different liquid.
 size: 4
 health: 1250
 category: crafting

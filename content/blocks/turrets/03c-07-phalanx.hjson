@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Phalanx
-description: Fires plasma bullets at enemy aircraft.
 size: 4
 health: 3000
 shootSound: machinegun-shot

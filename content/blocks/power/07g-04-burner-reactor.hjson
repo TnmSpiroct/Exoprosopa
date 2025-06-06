@@ -1,6 +1,4 @@
 type: ConsumeGenerator
-name: Burner Reactor
-description: Burns flammable materials to generate power, requires cryogenics and chromium to function.
 health: 850
 size: 4
 category: power

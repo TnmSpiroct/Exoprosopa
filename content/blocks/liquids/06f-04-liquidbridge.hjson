@@ -1,6 +1,4 @@
 type: DirectionLiquidBridge
-name: Sea Bridge
-description: Transfer liquids over blocks and buildings.
 size: 1
 health: 65
 range: 2

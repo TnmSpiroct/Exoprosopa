@@ -1,6 +1,4 @@
 type: legs
-name: Sender
-description: Fires barrages of missiles at enemies. Can walk on almost all terrain.
 legCount: 6
 lockLegBase: true
 legExtension: -3

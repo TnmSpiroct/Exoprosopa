@@ -1,6 +1,4 @@
 type: UnitAssembler
-name: Ship Assembly Bay
-description: Creates advanced ship units using payloads.
 size: 5
 health: 1500
 category: units

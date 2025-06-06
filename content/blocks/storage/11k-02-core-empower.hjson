@@ -1,6 +1,4 @@
 type: CoreBlock
-name: Core: Empower
-description: Core of the base. Armored and stores medium amount of items.
 size: 5
 health: 28500
 armor: 15

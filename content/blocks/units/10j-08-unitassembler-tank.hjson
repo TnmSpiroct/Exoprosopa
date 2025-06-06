@@ -1,6 +1,4 @@
 type: UnitAssembler
-name: Tank Assembly Bay
-description: Creates advanced tank units using payloads.
 size: 5
 health: 1500
 category: units

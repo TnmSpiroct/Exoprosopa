@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Impale
-description: Fires a piercing compound shell.
 size: 3
 squareSprite: false
 health: 1580

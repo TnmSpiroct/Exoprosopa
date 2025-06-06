@@ -1,5 +1,4 @@
 type: ParticleWeather
-name: Blizzard
 color: D8E0FD
 noiseColor: D8E0FD
 drawNoise: true

@@ -1,6 +1,4 @@
 type: legs
-name: Coronis
-description: Protects the Crest Core, can build and retrieve resources faster. Can attack enemy units.
 controller: BuilderAI
 legCount: 4
 lockLegBase: true

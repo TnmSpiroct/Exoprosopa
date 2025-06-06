@@ -1,6 +1,4 @@
 type: Junction
-name: Heavy Armored Treads
-description: Strong treads used on tank unit production
 size: 3
 customShadow: true
 placeablePlayer: false

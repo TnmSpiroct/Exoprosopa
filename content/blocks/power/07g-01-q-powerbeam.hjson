@@ -1,6 +1,4 @@
 type: BeamNode
-name: Powerbeam
-description: Transmits power to other blocks orthogonally, has more range than normal powerline.
 health: 100
 fogRadius: 3
 range: 12

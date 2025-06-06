@@ -1,6 +1,4 @@
 type: Reconstructor
-name: Tankbay Upgrade Facility
-description: Upgrades inputted tank unit to the second tier.
 size: 3
 health: 650
 configurable: false

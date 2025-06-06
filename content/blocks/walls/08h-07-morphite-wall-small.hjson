@@ -1,6 +1,4 @@
 type: Wall
-name: Morphite Wall
-description: Protects structures from enemy projectiles, lightly armored. Creates lighting sparks when damaged.
 size: 1
 health: 850
 armor: 8

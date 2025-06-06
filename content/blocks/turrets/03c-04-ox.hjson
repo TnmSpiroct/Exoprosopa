@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Ox
-description: Fires piercing bullets at high rate at enemies.
 size: 3
 health: 3000
 armor: 5

@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Elemental Separator
-description: Separate nichrome using tantra sand and hydryite.
 size: 3
 health: 650
 category: crafting

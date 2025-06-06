@@ -1,6 +1,4 @@
 type: LogicBlock
-name: Terminal Chip
-description: Runs logic instructions. Able to control units and buildings.
 category: logic
 research: 0015-logic
 requirements: [

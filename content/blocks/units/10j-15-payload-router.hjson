@@ -1,6 +1,4 @@
 type: PayloadRouter
-name: Large Splitter
-description: Distributes inputted payload to up to three output directions.
 health: 450
 category: units
 research: {

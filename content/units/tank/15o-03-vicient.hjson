@@ -1,6 +1,4 @@
 type: tank
-name: Vicient
-description: Fires piercing cluster flares over a long distance at enemies.
 hitSize: 22
 singleTarget: false
 omniMovement: false

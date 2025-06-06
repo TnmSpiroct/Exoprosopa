@@ -1,6 +1,4 @@
 type: LiquidRouter
-name: Aqua Container
-description: Stores a sizeable amount of fluids.
 health: 450
 size: 2
 hasLiquids: true

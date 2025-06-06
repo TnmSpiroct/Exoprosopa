@@ -1,6 +1,4 @@
 type: LogicDisplay
-name: Projector Chip
-description: Outputs logic data graphically.
 size: 4
 health: 155
 displaySize: 110

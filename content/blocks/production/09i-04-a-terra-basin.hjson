@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Terraformic Basin
-description: Use cryogenics to transform nickel, exposing high charge clevorite mineral. Outputs cobalt and elixir as a byproduct.
 size: 4
 liquidOutputDirections: [0]
 rotate: true

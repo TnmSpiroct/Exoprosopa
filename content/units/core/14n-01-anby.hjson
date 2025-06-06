@@ -1,6 +1,4 @@
 type: flying
-name: Anby
-description: Protects the Apex Core, can build and retrieve resources. can heal blocks.
 flying: true
 controller: BuilderAI
 faceTarget: true

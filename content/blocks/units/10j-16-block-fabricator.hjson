@@ -1,6 +1,4 @@
 type: Constructor
-name: Block Fabricator
-description: Crafts walls for unit assembly, requires power.
 size: 3
 health: 450
 category: units

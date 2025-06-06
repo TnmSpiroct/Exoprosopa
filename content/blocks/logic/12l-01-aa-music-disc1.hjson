@@ -1,6 +1,4 @@
 type: ConsumeGenerator
-name: Music Disc: Rest Awhile
-description: Plays Tsukishiro Yanagi EP Rest Awhile by Zenless Zone Zero as a ambient sound, resets when paused
 size: 3
 health: 1000
 squareSprite: false

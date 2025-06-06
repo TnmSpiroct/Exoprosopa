@@ -1,6 +1,4 @@
 type: RepairTower
-name: Regenerator
-description: Constantly repairs all units in its range. Requires power.
 size: 2
 health: 450
 squareSprite: false

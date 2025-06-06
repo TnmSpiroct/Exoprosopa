@@ -1,6 +1,4 @@
 type: NuclearReactor
-name: Tokamak Reactor
-description: Uses petal fragments and miasma to generate large amounts of power. Will explode violently if no miasma is supplied.
 size: 4
 health: 1000
 category: power

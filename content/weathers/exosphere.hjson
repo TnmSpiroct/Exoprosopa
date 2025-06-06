@@ -1,5 +1,4 @@
 type: ParticleWeather
-name: Exosphere Storm
 color: 7D96CD
 noiseColor: 7D96CD
 drawNoise: true

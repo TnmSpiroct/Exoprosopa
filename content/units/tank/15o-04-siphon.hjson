@@ -1,6 +1,4 @@
 type: tank
-name: Siphon
-description: Fires powerful cluster shell at enemies.
 hitSize: 28
 singleTarget: false
 omniMovement: false

@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Canace
-description: Fires explosive cluster grenades that scatter into puddles of slag and inflict melting effect. Deals more damage with a direct hit.
 size: 3
 squareSprite: false
 health: 2300

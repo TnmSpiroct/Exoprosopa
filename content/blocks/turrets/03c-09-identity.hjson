@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Identity
-description: Reconstruct Tachyon energy to fires piercing railgun at enemies, WIP.
 size: 5
 health: 9000
 armor: 20

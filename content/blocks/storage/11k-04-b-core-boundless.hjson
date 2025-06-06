@@ -1,6 +1,4 @@
 type: CoreBlock
-name: Core: Boundless
-description: Core of the base. Lightly armored and stores medium amount of items.
 size: 5
 health: 28500
 armor: 15

@@ -1,6 +1,4 @@
 type: PowerNode
-name: Testing Node
-description: Connect non-powered blocks, useful while checking enemy bases on editor playtesting.
 size: 2
 health: 250
 squareSprite: false

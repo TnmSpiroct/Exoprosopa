@@ -1,6 +1,4 @@
 type: Wall
-name: Large Clevorite Wall
-description: Protects structures from enemy projectiles, lightly armored. Able to absorb lasers.
 size: 2
 health: 2720
 armor: 10

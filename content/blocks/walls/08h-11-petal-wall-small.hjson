@@ -1,6 +1,4 @@
 type: Wall
-name: Bionucrium Wall
-description: Protects structures from enemy projectiles, lightly armored. Deals damage to enemies when destroyed.
 size: 1
 health: 950
 armor: 8

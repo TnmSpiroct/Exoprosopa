@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Terrafilter
-description: Use cryogenics and miasma to transform nickel into clevorite, have better effeciency but doesn't produce elixir.
 size: 3
 liquidCapacity: 60
 hasLiquids: true

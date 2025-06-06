@@ -1,6 +1,4 @@
 type: CoreBlock
-name: Core: Crest
-description: Core of the base. Lightly armored and stores decent amount of items.
 size: 4
 health: 5500
 armor: 5

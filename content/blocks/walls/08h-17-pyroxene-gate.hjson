@@ -1,6 +1,4 @@
 type: AutoDoor
-name: Pyroxene Gate
-description: Protects structures from enemy projectiles, heavily armored. Able to absorb lasers and deals damage to enemies when destroyed. Function as a gate for ally units.
 size: 2
 health: 4400
 armor: 15

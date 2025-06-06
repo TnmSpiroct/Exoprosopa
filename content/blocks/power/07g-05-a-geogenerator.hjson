@@ -1,6 +1,4 @@
 type: ConsumeGenerator
-name: Geothermal Generator
-description: Using miasma and purified elixir to generate heat from ground to generate power.
 health: 650
 size: 3
 powerProduction: 12

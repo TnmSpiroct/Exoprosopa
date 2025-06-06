@@ -1,6 +1,4 @@
 type: PayloadDeconstructor
-name: Surge Disassembler
-description: disassemble blocks and units to 100% output of their materials.
 itemCapacity: 100
 health: 650
 size: 3

@@ -1,6 +1,4 @@
 type: MemoryBlock
-name: Data Cell Chip
-description: Stores logic instructions and values. 
 memoryCapacity: 64
 category: logic
 research: 12l-003-terminator

@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Fusillade
-description: Fires bursts of shrapnel at enemy targets. Does huge knockback.(WIP)
 size: 3
 health: 3000
 armor: 10

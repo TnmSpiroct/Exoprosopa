@@ -1,6 +1,4 @@
 type: Reconstructor
-name: Shipbay Upgrade Facility
-description: Upgrades inputted ship unit to the second tier.
 size: 3
 health: 650
 configurable: false

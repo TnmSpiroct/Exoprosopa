@@ -1,6 +1,4 @@
 type: HeatCrafter
-name: Bethine Solidfier
-description: Solidfies and heats bionucrium using anthracite and necroplasm.
 details: WIP! this block might be get a revamp.
 heatRequirement: 90
 health: 650

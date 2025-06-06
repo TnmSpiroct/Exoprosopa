@@ -1,6 +1,4 @@
 type: Wall
-name: Chromium Wall
-description: Protects structures from enemy projectiles, lightly armored.
 size: 1
 health: 550
 armor: 6

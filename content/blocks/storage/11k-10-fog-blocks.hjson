@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Fog Maker
-description: Additional fog border in aqua biome, editor only.
 destructible: false
 targetable: false
 category: effect

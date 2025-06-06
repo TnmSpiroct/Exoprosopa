@@ -1,6 +1,4 @@
 type: SolarGenerator
-name: Exosphere Panel
-description: Produces small amount of power passively.
 size: 4
 health: 1000
 category: power

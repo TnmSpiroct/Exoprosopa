@@ -1,6 +1,4 @@
 type: PowerNode
-name: Large Powerline
-description: Transmits power to other blocks over a long distance, only capable of forming a single connection.
 fogRadius: 2
 laserRange: 50
 health: 250

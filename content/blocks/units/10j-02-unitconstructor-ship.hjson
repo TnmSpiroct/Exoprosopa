@@ -1,6 +1,4 @@
 type: UnitFactory
-name: Shipbay
-description: Used to producing first tier of ship unit.
 size: 3
 health: 450
 configurable: false

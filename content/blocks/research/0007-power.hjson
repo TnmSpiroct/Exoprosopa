@@ -1,5 +1,3 @@
 show: false
 research: 11k-01-core-apex
-name: Power
-description: Contains all power blocks available in Frostnova.
 alwaysUnlocked: true

@@ -1,6 +1,4 @@
 type: CoreBlock
-name: Suzuran Kit Core
-description: Core of the Suzuran, sandbox only.
 size: 2
 health: 2000
 armor: 1

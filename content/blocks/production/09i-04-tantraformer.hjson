@@ -1,6 +1,4 @@
 type: AttributeCrafter
-name: Tantraformer
-description: Grinds nickel and anthracite into tantra sand. Requires elixir to start the process, don't forget to output elixir.
 size: 3
 attribute: steam
 baseEfficiency: 0

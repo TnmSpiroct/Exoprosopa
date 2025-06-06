@@ -1,6 +1,4 @@
 type: tank
-name: Oktarav
-description: Fires piercing bullets at high firerate at enemies.
 hitSize: 17
 singleTarget: false
 omniMovement: false

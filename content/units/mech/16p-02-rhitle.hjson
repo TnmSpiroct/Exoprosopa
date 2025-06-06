@@ -1,6 +1,4 @@
 type: legs
-name: Rhitle
-description: Fires missile. Can walk on almost all terrain.
 legCount: 4
 lockLegBase: true
 legExtension: -2

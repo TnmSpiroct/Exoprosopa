@@ -1,6 +1,4 @@
 type: tank
-name: Mason
-description: Launches exploding shells towards enemies.
 hitSize: 9
 singleTarget: false
 omniMovement: false
