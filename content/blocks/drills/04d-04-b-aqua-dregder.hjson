@@ -1,6 +1,4 @@
 type: WallCrafter
-name: Aqua Dredger
-description: Filters and extracts aqua wall to produce aquanite.
 health: 450
 size: 2
 category: production

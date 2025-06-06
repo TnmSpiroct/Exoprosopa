@@ -1,6 +1,4 @@
 type: WallCrafter
-name: Tantrium Extractinator
-description: Mines tantra dust from tantrium blocks, faster than a tantrium crusher.
 health: 1000
 size: 3
 category: production

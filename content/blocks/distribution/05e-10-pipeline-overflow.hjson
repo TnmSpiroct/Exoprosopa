@@ -1,6 +1,4 @@
 type: OverflowGate
-name: Overflow Gate Pipe
-description: Only outputs items to the sides if the front path is blocked.
 size: 1
 health: 65
 requirements: [

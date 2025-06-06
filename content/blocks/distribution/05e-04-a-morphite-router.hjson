@@ -1,6 +1,4 @@
 type: StackRouter
-name: Morphite Splitter
-description: Distributes items on stack conveyor into three outputs. Faster when powered.
 size: 1
 health: 200
 speed: 6

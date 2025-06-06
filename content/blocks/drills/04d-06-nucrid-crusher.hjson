@@ -1,6 +1,4 @@
 type: WallCrafter
-name: Nucrid Crusher
-description: Extracts nucrid from nucrid wall.
 health: 650
 size: 2
 category: production

@@ -1,7 +1,5 @@
 type: AttributeCrafter
 attribute: steam
-name: Elixir Collector
-description: Extract elixir from vents.
 size: 3
 hasLiquids: true
 squareSprite: false

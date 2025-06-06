@@ -1,6 +1,4 @@
 type: ThermalGenerator
-name: Pressure Generator
-description: Generates power using pressure from vents.
 size: 3
 health: 450
 fogRadius: 2

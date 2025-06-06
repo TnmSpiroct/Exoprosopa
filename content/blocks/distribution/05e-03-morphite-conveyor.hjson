@@ -1,6 +1,4 @@
 type: StackConveyor
-name: Morphite Belt
-description: Packages stacks of items before sending them off, faster when powered.
 speed: 0.075
 itemCapacity: 15
 health: 200

@@ -1,6 +1,4 @@
 type: Junction
-name: Junction Pipe
-description: Allows for crossing of two pipelines. 
 health: 65
 size: 1
 speed: 22

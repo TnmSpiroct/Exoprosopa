@@ -1,6 +1,4 @@
 type: Duct
-name: Chromium Pipe
-description: Moves items forward. Faster than standard pipe. Only capable of storing a single item.
 size: 1
 health: 100
 speed: 4

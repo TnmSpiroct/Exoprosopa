@@ -1,6 +1,4 @@
 type: BurstDrill
-name: Bore Jet
-description: Uses a high-pressure jet of elixir to mine ground ores.
 size: 4
 health: 650
 hardnessDrillMultiplier: 200

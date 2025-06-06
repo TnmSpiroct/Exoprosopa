@@ -1,6 +1,4 @@
 type: AttributeCrafter
-name: Aquanite Extractor
-description: Slowly extracts aquanite from aqua tiles, requires hydriyte to operate.
 size: 2
 attribute: aquanite
 baseEfficiency: 0

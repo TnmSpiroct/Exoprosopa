@@ -1,6 +1,4 @@
 type: UnitCargoUnloadPoint
-name: Cargo Depot
-description: Accepts items dropped by an Iris cargo drone.
 health: 450
 itemCapacity: 100
 size: 2

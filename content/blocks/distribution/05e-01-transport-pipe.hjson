@@ -1,6 +1,4 @@
 type: Duct
-name: Transport Pipe
-description: Moves items forward. Only capable of storing a single item.
 size: 1
 health: 65
 speed: 10

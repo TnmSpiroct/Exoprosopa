@@ -1,6 +1,4 @@
 type: beamDrill
-name: Ore Blaster
-description: A better ore extractor, requires cryogenics to function.
 health: 1000
 range: 7
 tier: 3

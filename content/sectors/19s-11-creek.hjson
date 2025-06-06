@@ -1,7 +1,7 @@
 captureWave: 25
 difficulty: 8
 planet: frostnova
-sector: 39
+sector: 7
 research: {
   parent: 19s-10-cornerstone
   objectives: [

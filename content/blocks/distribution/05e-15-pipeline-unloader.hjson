@@ -1,6 +1,4 @@
 type: DirectionalUnloader
-name: Unloader Pipe
-description: A directional unloader that cannot unload cores. 
 size: 1
 health: 100
 category: distribution

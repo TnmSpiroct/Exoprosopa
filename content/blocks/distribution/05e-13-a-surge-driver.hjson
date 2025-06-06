@@ -1,6 +1,4 @@
 type: MassDriver
-name: Surge Driver
-description: Transport items in batches to another surge driver in range.
 size: 3
 health: 650
 squareSprite: false

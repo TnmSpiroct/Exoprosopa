@@ -1,6 +1,4 @@
 type: Duct
-name: Aluminium Pipe
-description: Moves items forward. Only capable of storing a single item, does not accept non-ducts inputs from the sides.
 size: 1
 health: 250
 armored: true

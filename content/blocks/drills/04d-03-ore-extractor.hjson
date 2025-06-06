@@ -1,6 +1,4 @@
 type: beamDrill
-name: Ore Extractor
-description: Extract ore slowly using a laser, requires elixir and power to operate.
 health: 450
 range: 5
 tier: 2

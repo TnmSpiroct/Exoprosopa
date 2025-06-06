@@ -1,6 +1,4 @@
 type: WallCrafter
-name: Tantrium Crusher
-description: Mines tantra dust from tantrium blocks.
 health: 250
 size: 2
 category: production

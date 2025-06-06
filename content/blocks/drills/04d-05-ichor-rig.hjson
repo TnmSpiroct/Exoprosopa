@@ -1,7 +1,4 @@
 type: AttributeCrafter
-name: Ichor Rig
-description: Slowly extracts ichor from wasteland ichor tiles, requires large amounts elixir to operate.
-details: Ichor tiles will be added soon, you can research this but it has no use
 size: 4
 attribute: ichor
 baseEfficiency: 0

@@ -1,7 +1,5 @@
 type: DuctRouter
-name: Sorter Pipe
 regionRotated1: 1
-description: Can be used as a directional router and sorter.
 size: 1
 health: 65
 requirements: [
