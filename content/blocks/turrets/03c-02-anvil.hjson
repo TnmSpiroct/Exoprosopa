@@ -39,7 +39,7 @@ shootY: 1
 shoot: {
   type: ShootSpread
   shots: 5
-  spread: 17
+  spread: 16
 }
 ammoTypes: {
   01a-02-item-nickel: {
