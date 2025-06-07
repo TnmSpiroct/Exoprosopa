@@ -38,7 +38,7 @@ weapons: [
       splashDamage: 10
       pierceCap: 1
       lifetime: 32
-      damage: 50.5
+      damage: 42.5
       speed: 6
       smokeEffect: colorSpark
       trailColor: 93E2EE
