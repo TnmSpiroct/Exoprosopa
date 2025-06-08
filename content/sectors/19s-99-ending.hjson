@@ -1,7 +1,7 @@
 captureWave: 2
 difficulty: 1
 planet: frostnova
-sector: 88
+sector: 1
 research: {
   parent: 19s-52-pier
   objectives: [
