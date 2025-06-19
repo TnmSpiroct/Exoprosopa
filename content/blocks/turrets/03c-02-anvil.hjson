@@ -1,11 +1,13 @@
 type: ItemTurret
+name: Anvil
+description: Fires five homing bullets at enemies.
 size: 3
 squareSprite: false
 health: 1650
 shootSound: shootAltLong
 requirements: [
   01a-01-item-cobalt/125
-  01a-02-item-nickel/250
+  01a-02-item-nickel/275
   01a-05-item-aluminium/225
 ]
 researchCost: [
@@ -39,7 +41,7 @@ shootY: 1
 shoot: {
   type: ShootSpread
   shots: 5
-  spread: 16
+  spread: 17
 }
 ammoTypes: {
   01a-02-item-nickel: {
@@ -49,7 +51,7 @@ ammoTypes: {
     hitColor: F6B08A
     frontColor: F6B08A
     backColor: F6B08A
-    damage: 45
+    damage: 32.5
     width: 8
     height: 14
     hitSize: 6
@@ -71,7 +73,7 @@ ammoTypes: {
     hitColor: BCA49F
     frontColor: BCA49F
     backColor: BCA49F
-    damage: 60
+    damage: 52.5
     width: 8
     height: 14
     hitSize: 6
