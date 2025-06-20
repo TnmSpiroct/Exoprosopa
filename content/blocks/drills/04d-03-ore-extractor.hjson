@@ -1,7 +1,7 @@
 type: beamDrill
 health: 450
 range: 5
-tier: 2
+tier: 1
 size: 3
 optionalBoostIntensity: 2.5
 drillTime: 180
