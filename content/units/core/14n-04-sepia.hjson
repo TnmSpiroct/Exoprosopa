@@ -19,9 +19,9 @@ health: 450
 armor: 3
 speed: 1.3
 mineWalls: true
-mineSpeed: 9
+mineSpeed: 17.5
 mineTier: 1
-buildSpeed: 1.7
+buildSpeed: 2.25
 accel: 0.09
 drag: 0.08
 groundLayer: 60
