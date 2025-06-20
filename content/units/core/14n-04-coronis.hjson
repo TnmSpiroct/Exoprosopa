@@ -21,7 +21,7 @@ speed: 1.15
 mineWalls: true
 mineSpeed: 15
 mineTier: 1
-buildSpeed: 1.4
+buildSpeed: 1.9
 accel: 0.09
 drag: 0.08
 groundLayer: 60
