@@ -28,7 +28,7 @@ outputItems: [
 consumes: {
   items: [
     01a-08-item-petal-flower/3
-    01a-08-item-nucrid/6
+    01a-08-item-nucrid/5
   ]
   liquids: [
     02b-08-nucliogen/0.125
