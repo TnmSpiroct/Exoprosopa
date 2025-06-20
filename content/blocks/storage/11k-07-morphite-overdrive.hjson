@@ -1,0 +1,21 @@
+type: OverdriveProjector
+name: Morphite Overdrive
+description: Overdrives all blocks in range.
+size: 2
+health: 850
+category: effect
+research: 0011-effect
+researchCostMultiplier: 1
+requirements: [
+  01a-02-item-nickel/275
+  01a-05-item-aluminium/175
+  01a-06-item-chromium/150
+  01a-09-item-morphite/75
+]
+consumes: {
+  power: 5
+}
+hasBoost: false
+range: 100
+speedBoost: 1.75
+squareSprite: false
