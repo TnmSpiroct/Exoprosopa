@@ -7,12 +7,12 @@ consumes: {
   power: 0.25
 }
 requirements: [
-  01a-01-item-cobalt/75
-  01a-05-item-aluminium/40
-  01a-07-item-clevorite/20
+  01a-05-item-aluminium/50
+  01a-06-item-chromium/30
+  01a-07-item-clevorite/15
 ]
 researchCostMultiplier: 0.5
-drillTime: 45
+drillTime: 70
 output: 01a-08-item-nucrid
 attribute: nucrid
 ambientSound: drill
