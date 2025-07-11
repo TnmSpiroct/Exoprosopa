@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Enchanting Basin
-description: Use petal fragment to strengthen nucrid. requires nucliogen and power.
 size: 3
 liquidCapacity: 120
 hasLiquids: true

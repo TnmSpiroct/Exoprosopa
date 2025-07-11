@@ -1,6 +1,4 @@
 type: OverdriveProjector
-name: Morphite Overdrive
-description: Overdrives all blocks in range.
 size: 2
 health: 850
 category: effect
