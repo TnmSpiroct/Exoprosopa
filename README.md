@@ -1,4 +1,4 @@
-# Exoprosopa V0.71: Biome Update
+# Exoprosopa V0.7: Biome Update
 
 <p align="center"><img src="banner.png" alt="banner" width="800"></p>
 
@@ -14,12 +14,4 @@
   Thankyou for playing this mod!<br>
   You can contributes maps or give suggestions on Exoprosopa Server!<br><br>
 
-  V0.71, TnmSpiroct
-  
-  - Codex Resprite
-  - More Biomes
-  - 2 New Items (Experimental)
-  - Removed Some Biomes
-  - New Turret, Anvil
-  - Fixes some blocks can be placed on deep water
-  - Nucrid Crusher
+  V0.7 - TnmSpiroct
