@@ -8,11 +8,11 @@ mesh: [
     planet: frostnova
     divisions: 6
     seed: 84
-    radius: 1.162
+    radius: 1.152
     color1: 38ac9a
     color2: 2a7667
     octaves: 4
-    persistence: 0.9
+    persistence: 0.8
     }
     {
     //cobaltbiome
@@ -34,11 +34,11 @@ mesh: [
     planet: frostnova
     divisions: 6
     seed: 79
-    radius: 1.1745
+    radius: 1.1662
     color1: 6f4f8c
     color2: 4d3366
-    octaves: 5
-    persistence: 1.1
+    octaves: 4
+    persistence: 1.2
     }
     {
     //tantrabiome
