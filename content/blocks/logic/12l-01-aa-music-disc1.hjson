@@ -17,15 +17,7 @@ outlineColor: 2C2A36
 ambientSound: tsukishiro-yanagi-ep-rest-awhile-zzz
 ambientSoundVolume: 1
 powerProduction: 0.016666666668
-research: {
-  parent: 0012-music
-  objectives: [
-    {
-      type: SectorComplete
-      preset: 19s-51-ridgeline
-    }
-  ]
-}
+research: 0012-music
 researchCost: [
   01a-01-item-cobalt/1000
   01a-02-item-nickel/1000

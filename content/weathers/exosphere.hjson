@@ -1,6 +1,6 @@
 type: ParticleWeather
-color: 7D96CD
-noiseColor: 7D96CD
+color: 3f62ab
+noiseColor: 3f62ab
 drawNoise: true
 particleRegion: particle
 useWindVector: true

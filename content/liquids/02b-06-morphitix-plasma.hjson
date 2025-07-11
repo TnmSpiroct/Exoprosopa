@@ -8,7 +8,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-51-ridgeline
+      preset: 19s-99-ending
     }
   ]
 }
