@@ -8,7 +8,7 @@ mesh: [
     planet: frostnova
     divisions: 6
     seed: 84
-    radius: 1.164
+    radius: 1.162
     color1: 38ac9a
     color2: 2a7667
     octaves: 4
@@ -20,13 +20,13 @@ mesh: [
     planet: frostnova
     divisions: 5
     seed: 89
-    radius: 1.120
+    radius: 1.122
     color1: 252d40
     color2: 384d6c
-    octaves: 3.1
+    octaves: 3
     persistence: 1.1
-    mag: 1.7
-    scl: 7
+    mag: 1.4
+    scl: 5
     }
     {
     //obsidianbiome
@@ -34,10 +34,10 @@ mesh: [
     planet: frostnova
     divisions: 6
     seed: 79
-    radius: 1.1775
+    radius: 1.1745
     color1: 6f4f8c
     color2: 4d3366
-    octaves: 6
+    octaves: 5
     persistence: 1.1
     }
     {
@@ -45,24 +45,12 @@ mesh: [
     type: NoiseMesh
     planet: frostnova
     divisions: 5
-    seed: 53
+    seed: 52
     radius: 1.122
     color1: 505e7f
     color2: 303c58
     octaves: 3
     persistence: 1.1
-    }
-    {
-    //fleshbiome
-    type: NoiseMesh
-    planet: frostnova
-    divisions: 5
-    seed: 34
-    radius: 1.1642
-    color1: 703134
-    color2: 561f22
-    octaves: 3
-    persistence: 0.9
     }
 ]
 cloudMesh: [
@@ -101,6 +89,7 @@ allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
+allowCampaignRules: true
 hasAtmosphere: true
 iconColor: 98c1f5
 accessible: true
@@ -118,9 +107,9 @@ tidalLock: true
 orbitSpacing: 1
 
 enemyBuildSpeedMultiplier: 0.7
-rules.fog: true
-rules.showSpawns: true
-rules.rtsAI: true
+campaignRules.fog: true
+campaignRules.showSpawns: true
+campaignRules.rtsAI: true
 campaignRuleDefaults.fog: true
 campaignRuleDefaults.showSpawns: true
 campaignRuleDefaults.rtsAI: true
