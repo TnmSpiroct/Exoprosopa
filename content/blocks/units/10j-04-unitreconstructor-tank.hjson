@@ -28,7 +28,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-12-hazardous-wasteland
+      preset: 19s-10-cornerstone
     }
   ]
 }
