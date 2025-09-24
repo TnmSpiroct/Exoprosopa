@@ -63,7 +63,7 @@ cloudMesh: [
    color: e2effc60
    octaves: 3
    persistence: 0.3
-   scl: 1.1
+   scl: 1
    thresh: 0.45
    }
    {
@@ -75,7 +75,7 @@ cloudMesh: [
    color: e2effc60
    octaves: 3
    persistence: 0.4
-   scl: 1.2
+   scl: 1
    thresh: 0.45
    }
 ]
