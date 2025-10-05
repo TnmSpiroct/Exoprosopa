@@ -15,10 +15,10 @@ description:
   You can contributes maps or gives suggestions by join Exoprosopa Server! 
   Check it on my profile. My username is TnmSpiroct.
 
-  [salmon[]]This mod requires newest mindustry build to be played (Beta 149)
+  [salmon[]]This mod requires newest mindustry build to be played (Beta 152.2)
 '''
 version: "0.7"
-minGameVersion: "149"
+minGameVersion: "152"
 subtitle: "[#93e2ee[]]V0.71 Biome Update!"
 repo: "TnmSpiroct/Exoprosopa"
 
