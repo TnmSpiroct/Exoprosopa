@@ -1,0 +1,27 @@
+type: Reconstructor
+size: 3
+health: 650
+configurable: false
+requirements: [
+  01a-01-item-cobalt/350
+  01a-05-item-aluminium/250
+  01a-06-item-chromium/150
+]
+constructTime: 2400
+category: units
+upgrades: [
+    [
+    18r-01-byte,
+    18r-02-syntax
+    ]
+  ]
+consumes: {
+  power: 3
+  liquid: 02b-02-a-purified-elixir/0.333333333333333
+  items: [
+  01a-05-item-aluminium/60
+  01a-06-item-chromium/40
+  ]
+}
+research: 10j-03-v-unitconstructor-legs
+researchCostMultiplier: 0.5

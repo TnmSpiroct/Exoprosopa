@@ -3,10 +3,10 @@ fogRadius: 2
 size: 2
 health: 250
 squareSprite: false
-laserRange: 10
-maxNodes: 10
+laserRange: 12
+maxNodes: 15
 category: power
-laserScale: 0.6
+laserScale: 0.4
 laserColor1: CEADEEFF
 laserColor2: 6A4291FF
 research: 07g-02-large-powerline

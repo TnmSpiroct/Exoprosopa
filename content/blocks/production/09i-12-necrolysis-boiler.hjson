@@ -1,0 +1,72 @@
+type: HeatCrafter
+heatRequirement: 6
+maxEfficiency: 4
+size: 3
+liquidCapacity: 90
+hasLiquids: true
+health: 1000
+category: crafting
+research: 09i-12-enchanting-basin
+itemCapacity: 30
+researchCost: [
+  01a-02-item-nickel/8000
+  01a-06-item-chromium/4000
+  01a-07-item-clevorite/1000
+  01a-10-item-bethine/25
+]
+requirements: [
+  01a-02-item-nickel/400
+  01a-06-item-chromium/225
+  01a-07-item-clevorite/75
+  01a-10-item-bethine/45
+]
+craftTime: 60
+craftEffect: none
+outputLiquids: [
+  02b-03-necroplasm/0.25
+]
+consumes: {
+  items: [
+    01a-03-item-anthracite/1
+  ]
+  liquids: [
+    02b-04-miasma/0.5
+  ]
+  power: 4
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-04-miasma
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-03-necroplasm
+    }
+    {
+      type: DrawParticles
+      color: FFFFFF
+      alpha: 0.8
+      particleSize: 4
+      particles: 9
+      particleRad: 14
+      particleLife: 20
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatInput
+      suffix: -heat
+    }
+  ]
+}
+ambientSound: necroplasm-reactor
+ambientSoundVolume: 0.6
+squareSprite: false

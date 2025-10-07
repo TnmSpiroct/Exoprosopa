@@ -1,0 +1,5 @@
+show: false
+name: Sniper Tactics
+description: Focused on high-tech long-ranged units and turrets. Unlocks Anis and Exoframe.
+research: 000062-marksman
+alwaysUnlocked: true

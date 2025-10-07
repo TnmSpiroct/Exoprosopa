@@ -1,0 +1,61 @@
+type: HeatCrafter
+heatRequirement: 10
+maxEfficiency: 3
+size: 4
+liquidCapacity: 60
+hasLiquids: true
+health: 1250
+category: crafting
+research: 09i-12-enchanting-basin
+itemCapacity: 30
+researchCost: [
+  01a-05-item-aluminium/5000
+  01a-06-item-chromium/3000
+  01a-07-item-clevorite/1000
+  01a-08-item-petal/750
+]
+requirements: [
+  01a-05-item-aluminium/150
+  01a-06-item-chromium/135
+  01a-07-item-clevorite/85
+  01a-08-item-petal/75
+]
+craftTime: 240
+craftEffect: none
+outputItems: [
+  01a-10-item-bethine/3
+]
+consumes: {
+  items: [
+    01a-05-item-aluminium/4
+    01a-08-item-petal/6
+  ]
+  liquids: [
+    02b-02-ichor/0.25
+  ]
+  power: 8
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatInput
+      suffix: -heat
+    }
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
+squareSprite: false

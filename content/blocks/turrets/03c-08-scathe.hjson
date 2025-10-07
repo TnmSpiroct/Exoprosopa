@@ -1,0 +1,68 @@
+type: ItemTurret
+name: Snow White
+description: Fires missile over vast distance, cannot damages air units.
+size: 4
+squareSprite: false
+health: 4500
+armor: 10
+coolant: {
+  type: ConsumeLiquid
+  liquid: 02b-02-a-purified-elixir
+  amount: 0.5
+}
+coolantMultiplier: 2.4
+fogRadiusMultiplier: 0.6
+shootSound: missileLaunch
+requirements: [
+  01a-05-item-aluminium/425
+  01a-06-item-chromium/500
+  01a-07-item-clevorite/185
+  01a-10-item-bethine/220
+]
+researchCostMultiplier: 0.5
+research: 03c-04-b-subsonic
+category: turret
+recoil: 1.5
+outlineColor: 2C2A36
+targetAir: false
+targetUnderBlocks: false
+targetGround: true
+shootCone: 1
+rotateSpeed: 0.75
+minWarmup: 0.95
+newTargetInterval: 40
+unitSort: strongest
+shootWarmupSpeed: 0.03
+reload: 720
+range: 1365
+shootY: -1
+shake: 6
+ammoPerShot: 15
+maxAmmo: 45
+ammoTypes: {
+  01a-10-item-bethine: {
+    instantDisappear: true
+    spawnUnit: exoprosopa-scathe-rudal
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: scathe-
+    parts: [
+    {
+      type: RegionPart
+      suffix: -body
+      progress: warmup
+      moveY: 0
+      under: true
+    }
+    {
+      type: RegionPart
+      suffix: -arm
+      mirror: true
+      progress: warmup
+      moveY: -3
+      moveRot: -10
+    }
+  ]
+}

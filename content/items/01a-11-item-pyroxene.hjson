@@ -6,3 +6,5 @@ charge: 1
 explosiveness: 0.1
 radioactivity: 1
 hiddenOnPlanets: [serpulo, erekir]
+frames: 14
+frameTime: 5

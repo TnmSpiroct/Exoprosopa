@@ -1,0 +1,35 @@
+type: HeatConductor
+health: 250
+size: 2
+category: crafting
+research: 09i-11-p-heat-redirector
+requirements: [
+  01a-05-item-aluminium/25
+  01a-06-item-chromium/40
+]
+regionRotated1: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+      rotOffset: -1
+    }
+    {
+      type: DrawHeatOutput
+    }
+    {
+      type: DrawHeatOutput
+      rotOffset: 1
+    }
+    {
+      type: DrawHeatInput
+      suffix: -heat
+    }
+  ]
+}
+group: heat
+splitHeat: true

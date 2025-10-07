@@ -1,4 +1,5 @@
 type: ItemTurret
+hasLiquids: true
 minWarmup: 0.99
 warmupMaintainTime: 90
 shootWarmupSpeed: 0.1

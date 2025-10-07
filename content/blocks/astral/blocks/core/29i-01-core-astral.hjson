@@ -1,0 +1,25 @@
+type: CoreBlock
+name: Core: Astral
+description: Core of the base, lightly armored. Astral exclusive blocks.
+size: 3
+health: 1750
+armor: 2
+unitType: 31k-01-beth
+requirements: [
+ 01a-21-item-gryphic/750
+ 01a-02-item-nickel/500
+]
+requiresCoreZone: true
+incinerateNonBuildable: true
+category: effect
+isFirstTier: true
+squareSprite: false
+alwaysUnlocked: true
+itemCapacity: 750
+unitCapModifier: 25
+research: {
+  planet: teresa
+  root: true
+  name: Astral-Research Tree
+  requiresUnlock: false
+}

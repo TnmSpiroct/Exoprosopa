@@ -1,0 +1,5 @@
+show: false
+name: Aquatism
+description: Focused on aquatic creature. Unlocks Raychi and Boomchi.
+research: 00001-liquid
+alwaysUnlocked: true

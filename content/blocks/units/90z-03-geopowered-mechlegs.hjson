@@ -3,8 +3,8 @@ size: 3
 customShadow: true
 placeablePlayer: false
 requirements: [
-  01a-05-item-aluminium/8
-  01a-06-item-chromium/6
+  01a-05-item-aluminium/15
+  01a-06-item-chromium/10
 ]
 research: 10j-17-unitpart-fabricator
 researchCostMultiplier: 1

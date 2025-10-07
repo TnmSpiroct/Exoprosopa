@@ -3,9 +3,8 @@ size: 4
 health: 3000
 shootSound: machinegun-shot
 requirements: [
-  01a-01-item-cobalt/300
-  01a-02-item-nickel/200
-  01a-05-item-aluminium/400
+  01a-01-item-cobalt/450
+  01a-05-item-aluminium/250
   01a-07-item-clevorite/80
   01a-08-item-petal/150
 ]
@@ -42,9 +41,7 @@ ammoTypes: {
     lifetime: 40
     pierce: true
     pierceCap: 3
-    damage: 48
-    splashDamage: 48
-    splashDamageRadius: 10
+    damage: 52.5
     ammoMultiplier: 2
     trailColor: D8F18C
     trailChance: -1
@@ -70,9 +67,7 @@ ammoTypes: {
       height: 8
       pierce: true
       pierceCap: 1
-      damage: 5
-      splashDamage: 7
-      splashDamageRadius: 4
+      damage: 17.5
     }
   }
 }

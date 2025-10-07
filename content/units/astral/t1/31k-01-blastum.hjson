@@ -1,0 +1,57 @@
+type: legs
+name: Blastum
+description: Explode violently damaging enemies in area.
+legCount: 4
+lockLegBase: true
+legExtension: -2
+legBaseOffset: 3
+legLength: 9
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.25
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
+hovering: true
+groundLayer: 60
+health: 150
+armor: 1
+allowLegStep: true
+speed: 1.25
+rotateSpeed: 3.5
+hitSize: 7
+drag: 0.1
+itemCapacity: 10
+outlineColor: 26262F
+research: 00004-metamorphosis
+researchCostMultiplier: 0.5
+controller: HugAI
+weapons: [
+  {
+    shootOnDeath: true
+    targetUnderBlocks: false
+    reload: 24
+    shootCone: 180
+    ejectEffect: none
+    shootSound: explosion
+    x: 0
+    y: 0
+    shootY: 0
+    mirror: false
+    bullet: {
+      type: BasicBulletType
+      collidesTiles: false
+      collides: false
+      hitSound: explosion
+      speed: 0
+      splashDamageRadius: 50
+      splashDamage: 225
+      instantDisappear: true
+      killShooter: true
+      hittable: false
+      collidesAir: true
+    }
+  }
+]

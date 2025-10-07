@@ -1,0 +1,16 @@
+type: UnitAssemblerModule
+size: 3
+health: 1000
+category: units
+research: 0010-fabricator
+requirements: [
+  01a-02-item-nickel/1000
+  01a-05-item-aluminium/750
+  01a-08-item-petal/350
+  01a-10-item-bethine/85
+]
+consumes: {
+  power: 4
+}
+tier: 1
+researchCostMultiplier: 0.5

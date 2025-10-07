@@ -4,7 +4,7 @@ health: 650
 configurable: false
 requirements: [
   01a-01-item-cobalt/350
-  01a-05-item-aluminium/200
+  01a-05-item-aluminium/250
   01a-06-item-chromium/150
 ]
 constructTime: 2700
@@ -17,7 +17,7 @@ upgrades: [
   ]
 consumes: {
   power: 2.5
-  liquid: 02b-02-a-purified-elixir/0.333333333333333
+  liquid: 02b-02-a-purified-elixir/0.5
   items: [
   01a-05-item-aluminium/60
   01a-06-item-chromium/40

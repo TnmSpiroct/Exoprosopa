@@ -1,0 +1,5 @@
+show: false
+name: Pyrotechnic
+description: Focused on pyrotech weaponry. Unlocks Scorcher and Blastum.
+research: 00003-elemental
+alwaysUnlocked: true

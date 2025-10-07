@@ -1,0 +1,44 @@
+type: HeatProducer
+size: 2
+heatOutput: 6
+health: 450
+craftTime: 60
+squareSprite: false
+researchCostMultiplier: 0.5
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-04-miasma
+      padding: 1
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+  ]
+}
+consumes: {
+  liquids: [
+    02b-04-miasma/0.25
+  ]
+}
+ambientSound: hum
+ambientSoundVolume: 0.08
+category: crafting
+research: 09i-11-o-anthracite-heater
+requirements: [
+  01a-05-item-aluminium/75
+  01a-06-item-chromium/50
+  01a-07-item-clevorite/30
+]

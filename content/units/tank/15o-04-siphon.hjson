@@ -6,7 +6,7 @@ faceTarget: false
 health: 12500
 crushDamage: 3
 armor: 19
-speed: 0.45
+speed: 0.615
 rotateSpeed: 0.9
 itemCapacity: 70
 outlineColor: 26262F

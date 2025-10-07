@@ -1,0 +1,12 @@
+type: Wall
+name: Aquamarine Barrier
+description: Protects structures from enemy projectiles. Low health, insanely armored.
+size: 1
+armor: 50
+health: 240
+requirements: [
+  01a-03-item-aquashard/8
+]
+research: 00021-defence
+researchCostMultiplier: 0.5
+category: defense

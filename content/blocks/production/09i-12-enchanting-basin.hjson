@@ -13,15 +13,15 @@ researchCost: [
   01a-07-item-clevorite/750
 ]
 requirements: [
-  01a-02-item-nickel/225
-  01a-05-item-aluminium/175
-  01a-06-item-chromium/150
+  01a-02-item-nickel/200
+  01a-05-item-aluminium/150
+  01a-06-item-chromium/125
   01a-07-item-clevorite/75
 ]
 craftTime: 120
 craftEffect: none
 outputItems: [
-  01a-08-item-petal/5
+  01a-08-item-petal/4
 ]
 consumes: {
   items: [
@@ -29,7 +29,7 @@ consumes: {
     01a-08-item-nucrid/5
   ]
   liquids: [
-    02b-08-nucliogen/0.125
+    02b-08-nucliogen/0.25
   ]
   power: 3.5
 }

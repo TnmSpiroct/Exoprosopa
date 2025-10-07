@@ -1,0 +1,5 @@
+show: false
+name: Breaching Ability
+description: Focused on breaching-ability technic and units. Unlocks Bready.
+research: 000042-corrosion
+alwaysUnlocked: true

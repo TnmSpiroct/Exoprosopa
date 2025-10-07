@@ -19,7 +19,7 @@ lowAltitude: false
 groundLayer: 40
 shadowElevation: 0.1
 rotateSpeed: 11
-itemCapacity: 75
+itemCapacity: 85
 outlineColor: 26262f
 waveTrailY: -3.0
 trailColor: d8f18c
@@ -55,7 +55,7 @@ engines: [
     fractionRepairSpeed: 0.06
     bullet: {
       type: BulletType
-      maxRange: 67.5
+      maxRange: 60
       }
     }
 ]
@@ -64,7 +64,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-99-ending
+      preset: 19s-51-ridgeline
     }
   ]
 }

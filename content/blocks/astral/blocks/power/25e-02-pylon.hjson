@@ -1,0 +1,16 @@
+type: BeamNode
+name: Power Nylon
+description: Transmits power to other blocks orthogonally.
+health: 100
+fogRadius: 5
+range: 10
+size: 1
+squareSprite: false
+category: power
+research: 00003-elemental
+requirements: [
+  01a-21-item-gryphic/10
+]
+researchCost: [
+  01a-21-item-gryphic/5
+]

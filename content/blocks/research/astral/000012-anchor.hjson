@@ -1,0 +1,5 @@
+show: false
+name: Anchoring
+description: Focused on aquatic blocks and aquatic control. Unlocks Bulbhead.
+research: 00001-liquid
+alwaysUnlocked: true

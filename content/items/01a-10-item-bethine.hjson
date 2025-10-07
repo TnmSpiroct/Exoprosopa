@@ -1,7 +1,6 @@
 hardness: 4
 cost: 1.3
 research: 01a-08-item-petal
-color: b4af45
-charge: 0.25
-radioactivity: 1
+color: BF97D6
+charge: 1.25
 hiddenOnPlanets: [serpulo, erekir]

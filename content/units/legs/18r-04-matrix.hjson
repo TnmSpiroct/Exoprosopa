@@ -1,0 +1,72 @@
+type: mech
+name: Matrix
+description: Fires pulsing bullets at enemies, creates strong energy shields to nearby units. Inflict stunned effect to enemies, damages nearby units when destroyed.
+flying: false
+hitSize: 18
+health: 12000
+armor: 18
+speed: 0.35
+rotateSpeed: 2.1
+itemCapacity: 75
+outlineColor: 26262F
+mechLegColor: 26262F
+research: 18r-02-syntax
+researchCostMultiplier: 1
+abilities: [
+  {
+    type: ShieldRegenFieldAbility
+    reload: 2500
+    range: 35
+    amount: 15
+    max: 2450
+  }
+]
+weapons: [
+  {
+    x: 14
+    y: 0
+    name: matrix
+    reload: 45
+    mirror: true
+    alternate: true
+    rotate: false
+    shootCone: 5
+    shootSound: matrix-shoot
+    shootSoundVolume: 0.2
+    shake: 1
+    shoot: {
+    firstShotDelay: 35
+    shotDelay: 12
+    shots: 2
+      }
+    bullet: {
+      type: BasicBulletType
+      damage: 225
+      splashDamage: 80.75
+      splashDamageRadius: 30
+      width: 12
+      height: 12
+      speed: 8
+      lifetime: 50
+      pierce: true
+      pierceCap: 2
+      trailChance: -1
+      trailRotation: true
+      trailLength: 4
+      trailWidth: 3
+    }
+  }
+]
+destroyBulletSameTeam: true
+destroyBullet: {
+	instantDisappear: true
+	absorbable: false
+	collides: false
+	hittable: false
+	hitEffect: false
+	despawnEffect: false
+	fragBullets: 3
+	fragBullet: {
+		spawnUnit: 18r-03-mine-bomb
+	}
+}

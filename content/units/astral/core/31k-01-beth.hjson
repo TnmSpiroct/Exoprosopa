@@ -1,0 +1,84 @@
+type: flying
+name: Beth
+description: Protects the Astral core, can mine and build. Astral exclusive units.
+flying: true
+controller: BuilderAI
+faceTarget: true
+health: 175
+armor: 1
+speed: 2.5
+mineWalls: true
+mineSpeed: 7.5
+mineTier: 1
+buildSpeed: 1.5
+accel: 0.09
+drag: 0.08
+lowAltitude: false
+groundLayer: 40
+shadowElevation: 0.1
+rotateSpeed: 10
+itemCapacity: 50
+outlineColor: 26262f
+fogRadius: 50
+engines: [
+   {
+    x: 0
+    y: -6
+    radius: 3.5
+    rotation: -90
+   }
+ ]
+weapons: [
+  {
+    x: -3.5
+    y: 6.5
+    name: beth-weapon
+    reload: 25
+    recoil: 1.5
+    mirror: true
+    rotate: false
+    alternate: false
+    shootSound: blaster
+    layerOffset: -0.002
+      bullet: { 
+      type: BasicBulletType
+      width: 4
+      splashDamageRadius: 20
+      splashDamage: 45
+      lifetime: 30
+      speed: 4.5
+      smokeEffect:shootSmokeSquare
+      trailColor: D8F18C
+      trailWidth: 2
+      trailLength: 3
+      trailParam: 1.6
+      trailInterval: 6
+      trailEffect: missileTrail
+      backColor: 60C9AD
+      hitColor: 60C9AD
+      buildingDamageMultiplier: 0.01
+      collidesTeam: true
+      healPercent: 1
+    }
+  }
+]
+research: 29i-01-core-astral
+abilities: [
+  {
+    type: EnergyFieldAbility
+    blinkSize: 0.0001
+    damage: 5
+    reload: 80
+    healPercent: 1.2
+    hitUnits: true
+    hitBuildings: true
+    layer: 1
+    maxTargets: 8
+    range: 80
+    shootSound: spark
+    useAmmo: false
+    x: 0
+    y: 0
+    effectRadius: 0
+  }
+]

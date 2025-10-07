@@ -1,0 +1,5 @@
+show: false
+name: Poisonic
+description: Focused on poison-ability tactics and units. Unlocks Pestic and Mune.
+research: 00004-metamorphosis
+alwaysUnlocked: true

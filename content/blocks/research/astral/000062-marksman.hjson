@@ -1,0 +1,5 @@
+show: false
+name: Marksman Tactics
+description: Focused on long-ranged units and turrets. Unlocks Vesti and Rapi.
+research: 00006-tactical
+alwaysUnlocked: true

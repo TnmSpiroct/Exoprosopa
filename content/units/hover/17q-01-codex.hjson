@@ -1,5 +1,4 @@
 type: mech
-name: Codex
 hovering: true
 hoverable: true
 faceTarget: false
@@ -87,4 +86,4 @@ research: {
     }
   ]
 }
-researchCostMultiplier: 0.2
+researchCostMultiplier: 1

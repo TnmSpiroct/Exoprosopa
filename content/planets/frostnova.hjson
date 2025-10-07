@@ -1,77 +1,30 @@
 generator: "PlanetGenerator"
 localizedName: Frostnova
-description: The stony planet, slowly dying from nuke retaillation.
+description: The rampant, filled with dangerous natives.
 mesh: [
-    {
-    //aquabiome
-    type: NoiseMesh
-    planet: frostnova
-    divisions: 6
-    seed: 84
-    radius: 1.152
-    color1: 38ac9a
-    color2: 2a7667
-    octaves: 4
-    persistence: 0.8
-    }
     {
     //cobaltbiome
     type: NoiseMesh
     planet: frostnova
     divisions: 5
     seed: 89
-    radius: 1.122
+    radius: 1.120
     color1: 252d40
     color2: 384d6c
-    octaves: 3
+    octaves: 3.1
     persistence: 1.1
-    mag: 1.4
-    scl: 5
-    }
-    {
-    //obsidianbiome
-    type: NoiseMesh
-    planet: frostnova
-    divisions: 6
-    seed: 79
-    radius: 1.1662
-    color1: 6f4f8c
-    color2: 4d3366
-    octaves: 4
-    persistence: 1.2
-    }
-    {
-    //tantrabiome
-    type: NoiseMesh
-    planet: frostnova
-    divisions: 5
-    seed: 52
-    radius: 1.122
-    color1: 505e7f
-    color2: 303c58
-    octaves: 3
-    persistence: 1.1
+    mag: 1.7
+    scl: 7
     }
 ]
 cloudMesh: [
    {
    type: HexSkyMesh
    planet: frostnova
-   speed: 1.1
-   radius: 0.194
-   divisions: 6
-   color: e2effc60
-   octaves: 3
-   persistence: 0.3
-   scl: 1
-   thresh: 0.45
-   }
-   {
-   type: HexSkyMesh
-   planet: frostnova
-   speed: 1.1
-   radius: 0.195
-   divisions: 6
+   seed: 3
+   speed: 0.45
+   radius: 0.15
+   divisions: 5
    color: e2effc60
    octaves: 3
    persistence: 0.4
@@ -81,35 +34,40 @@ cloudMesh: [
 ]
 radius: 1.2
 startSector: 0
-sectorSize: 2
+sectorSize: 3
+
 orbitRadius: 78
 orbitOffset: 102
+orbitTime: 3000
+orbitSpacing: 3.5
 minZoom: 0.8
+
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
-allowCampaignRules: true
+
 hasAtmosphere: true
 iconColor: 98c1f5
 accessible: true
 visible: true
 alwaysUnlocked: true
+
 updateLighting: false
 bloom: false
+icon: command-rally
 
 clearSectorOnLose: true
 prebuildBase: true
 defaultCore: 11k-01-core-apex
-parent: sun
-solarSystem: sun
+parent: proxima
+solarSystem: proxima
 tidalLock: true
-orbitSpacing: 1
 
 enemyBuildSpeedMultiplier: 0.7
-campaignRules.fog: true
-campaignRules.showSpawns: true
-campaignRules.rtsAI: true
+rules.fog: true
+rules.showSpawns: true
+rules.rtsAI: true
 campaignRuleDefaults.fog: true
 campaignRuleDefaults.showSpawns: true
 campaignRuleDefaults.rtsAI: true
@@ -124,7 +82,9 @@ itemWhitelist: [
   "01a-05-item-aluminium",
   "01a-06-item-chromium",
   "01a-07-item-clevorite",
-  "01a-08-item-petal",
+  "01a-08-item-nucrid",
+  "01a-08-item-petal"
+  "01a-08-item-petal-flower",
   "01a-09-item-morphite",
   "01a-10-item-bethine",
   "01a-11-item-pyroxene",

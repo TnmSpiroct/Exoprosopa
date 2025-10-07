@@ -1,34 +1,33 @@
 type: NuclearReactor
 size: 4
-health: 1000
+health: 2000
 category: power
 squareSprite: false
 requirements: [
-  01a-01-item-cobalt/90
-  01a-02-item-nickel/300
-  01a-05-item-aluminium/180
-  01a-06-item-chromium/120
-  01a-07-item-clevorite/100
-  01a-08-item-petal/150
+  01a-01-item-cobalt/750
+  01a-05-item-aluminium/550
+  01a-06-item-chromium/350
+  01a-07-item-clevorite/135
+  01a-08-item-petal/235
 ]
 consumes: {
   liquids: [
-  02b-04-miasma/3
+  02b-04-miasma/1.66666666666666
   ]
   items: [
-  01a-08-item-petal/4
+  01a-08-item-petal/2
   ]
 }
 explodeSound: reactor-explosion
 explosionShake: 8
 explosionMinWarmup: 0.5
-explosionRadius: 80
-explosionDamage: 3000
+explosionRadius: 35
+explosionDamage: 1200
 smokeThreshold: 0.4
 flashThreshold: 0.6
 fuelItem: 01a-08-item-petal
 // 15 seconds
-powerProduction: 36
+powerProduction: 56
 itemDuration: 360
 generateEffect: generatespark
 ambientSound: onsen

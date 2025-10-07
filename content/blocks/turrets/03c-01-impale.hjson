@@ -4,8 +4,8 @@ squareSprite: false
 health: 1580
 shootSound: exoripple
 requirements: [
-  01a-01-item-cobalt/150
-  01a-02-item-nickel/250
+  01a-01-item-cobalt/125
+  01a-02-item-nickel/150
   01a-05-item-aluminium/100
 ]
 category: turret
@@ -26,86 +26,196 @@ shootY: 1
 ammoTypes: {
   01a-01-item-cobalt: {
     type: BasicBulletType
-    buildingDamageMultiplier: 0.25
+    sprite: exoprosopa-impale-arrow
+    width: 16
+    height: 16
+    buildingDamageMultiplier: 0.5
     hitColor: A3BBEB
+    backColor: A3BBEB
+    frontColor: A3BBEB
+    lightColor: A3BBEB
     damage: 55
-    width: 0
-    height: 0
-    speed: 4
-    lifetime: 52
-    despawnEffect: [massiveExplosion
+    speed: 6.4
+    lifetime: 32.5
+    despawnEffect: [
+    colorSpark,
+    {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 12
+        sizeFrom: 0
+        sizeTo: 12
+        colorFrom: A3BBEB
+        colorTo: A3BBEB
+    }
     ]
     pierceCap: 3
     pierce: true
     pierceBuilding: true  
     trailColor: A3BBEB
-    trailSinScl: 2
-    trailSinMag: 0.5
     trailInterval: 3
     trailRotation: true
-    trailLength: 0.22
-    trailWidth: 2
-    trailEffect: shootSmokeTitan
+    trailLength: 18
+    trailWidth: 2.2
+    trailEffect: colorSpark
     shootEffect: shootSmokeTitan
     shrinkX: 0
     shrinkY: 0
   }
   01a-05-item-aluminium: {
     type: BasicBulletType
-    buildingDamageMultiplier: 0.25
+    sprite: exoprosopa-impale-arrow
+    width: 16
+    height: 16
+    buildingDamageMultiplier: 0.5
     hitColor: B1CBD8
-    damage: 70
+    backColor: B1CBD8
+    frontColor: B1CBD8
+    lightColor: B1CBD8
+    damage: 70.5
     splashDamage: 10
-    splashDamageRadius: 20
-    width: 0
-    height: 0
-    speed: 4
-    lifetime: 52
-    despawnEffect: [massiveExplosion
+    splashDamageRadius: 18
+    speed: 6.4
+    lifetime: 32.5
+    despawnEffect: [
+    colorSpark,
+    {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 12
+        sizeFrom: 0
+        sizeTo: 12
+        colorFrom: B1CBD8
+        colorTo: B1CBD8
+    }
     ]
-    pierceCap: 4
+    pierceCap: 5
     pierce: true
     pierceBuilding: true  
     trailColor: B1CBD8
-    trailSinScl: 2
-    trailSinMag: 0.5
     trailInterval: 3
     trailRotation: true
-    trailLength: 0.22
-    trailWidth: 2
-    trailEffect: shootSmokeTitan
+    trailLength: 18
+    trailWidth: 2.2
+    trailEffect: colorSpark
     shootEffect: shootSmokeTitan
     shrinkX: 0
     shrinkY: 0
   }
   01a-06-item-chromium: {
     type: BasicBulletType
-    buildingDamageMultiplier: 0.25
-    hitColor: B1CBD8
-    damage: 85
-    splashDamage: 15
-    splashDamageRadius: 20
-    width: 0
-    height: 0
-    speed: 4.5
-    lifetime: 55.55555555
-    despawnEffect: [massiveExplosion
+    buildingDamageMultiplier: 0.5
+    sprite: exoprosopa-impale-arrow
+    width: 16
+    height: 16
+    hitColor: BCA49F
+    backColor: BCA49F
+    frontColor: BCA49F
+    lightColor: BCA49F
+    damage: 85.5
+    splashDamage: 10
+    splashDamageRadius: 28
+    speed: 8
+    lifetime: 31.25
+    despawnEffect: [
+    colorSpark,
+    {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 12
+        sizeFrom: 0
+        sizeTo: 12
+        colorFrom: BCA49F
+        colorTo: BCA49F
+    }
     ]
-    pierceCap: 4
+    pierceCap: 6
     pierce: true
     pierceBuilding: true  
     trailColor: BCA49F
-    trailSinScl: 2
-    trailSinMag: 0.5
     trailInterval: 3
     trailRotation: true
-    trailLength: 0.22
-    trailWidth: 2
-    trailEffect: shootSmokeTitan
+    trailLength: 18
+    trailWidth: 2.2
+    trailEffect: colorSpark
     shootEffect: shootSmokeTitan
     shrinkX: 0
     shrinkY: 0
     rangeChange: 42
+  }
+  01a-09-item-morphite: {
+    type: BasicBulletType
+    buildingDamageMultiplier: 0.75
+    sprite: exoprosopa-impale-arrow
+    width: 16
+    height: 16
+    hitColor: 51c59c
+    backColor: 51c59c
+    frontColor: 51c59c
+    lightColor: 51c59c
+    damage: 145
+    speed: 9.5
+    lifetime: 40
+    despawnEffect: [
+    colorSpark,
+    {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        lifetime: 12
+        sizeFrom: 0
+        sizeTo: 12
+        colorFrom: 51c59c
+        colorTo: 51c59c
+    }
+    ]
+    pierceCap: 8
+    pierce: true
+    pierceBuilding: true  
+    trailColor: 51c59c
+    trailInterval: 3
+    trailRotation: true
+    trailLength: 18
+    trailWidth: 2.2
+    trailEffect: colorSpark
+    shootEffect: shootSmokeTitan
+    shrinkX: 0
+    shrinkY: 0
+    rangeChange: 172
+    status: shocked
+    fragRandomSpread: 0
+    fragSpread: 120
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullets: 3
+    fragBullet: {
+      type: ArtilleryBulletType
+      hitColor: 51c59c
+      backColor: 51c59c
+      frontColor: 51c59c
+      lightColor: 51c59c
+      width: 3
+      height: 3
+      speed: 1
+      lifetime: 6
+      damage: 7.5
+      fragBullets: 1
+      hitSound: none
+      fragBullet: {
+        type: LightningBulletType
+        hitSound: electric-discharge
+        damage: 17.5
+        lightningLength: 3
+        lightningLengthRand: 3
+        lightningColor: 51c59c
+        status: shocked
+      }
+    }
   }
 }
 drawer: {

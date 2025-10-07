@@ -1,0 +1,5 @@
+show: false
+name: Offensive
+description: Focused on offensive-ability tactics and units. Unlocks Hexapod.
+research: 29i-01-core-astral
+alwaysUnlocked: true

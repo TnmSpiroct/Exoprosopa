@@ -14,7 +14,7 @@ legPhysicsLayer: false
 legStraightness: 0.3
 hovering: true
 groundLayer: 60
-health: 750
+health: 740
 armor: 3
 allowLegStep: true
 speed: 0.775
@@ -32,7 +32,7 @@ research: {
     }
   ]
 }
-researchCostMultiplier: 0.5
+researchCostMultiplier: 1
 controller: HugAI
 weapons: [
   {

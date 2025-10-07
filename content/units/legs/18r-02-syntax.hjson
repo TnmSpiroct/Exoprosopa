@@ -1,0 +1,44 @@
+type: mech
+name: Syntax
+description: Fires electric orbs at enemies, inflict stunned effect to enemies.
+flying: false
+hitSize: 8
+health: 1970
+armor: 6
+speed: 0.475
+rotateSpeed: 3
+itemCapacity: 45
+outlineColor: 26262F
+mechLegColor: 26262F
+research: 18r-01-byte
+researchCostMultiplier: 1
+weapons: [
+  {
+    x: 10
+    y: 0
+    name: syntax
+    reload: 55
+    mirror: true
+    alternate: true
+    rotate: false
+    bullet: {
+      type: BasicBulletType
+      sprite: large-orb
+      speed: 1.7
+      lifetime: 110
+      damage: 95
+      width: 16
+      height: 16
+      shootEffect: colorSpark
+      bulletInterval: 6
+      intervalBullet: {
+        type: LightningBulletType
+        damage: 17.5
+        lightningLength: 1.5
+        lightningLengthRand: 3
+        status: 13m-07-stunned
+        statusDuration: 15
+      }
+    }
+  }
+]

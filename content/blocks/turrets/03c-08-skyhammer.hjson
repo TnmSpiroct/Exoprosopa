@@ -1,0 +1,143 @@
+type: PowerTurret
+name: Skyhammer
+description: Fires explosive artillery at enemies.
+size: 4
+squareSprite: false
+health: 6500
+armor: 15
+shootSound: laser
+requirements: [
+  01a-01-item-cobalt/950
+  01a-05-item-aluminium/600
+  01a-08-item-petal/350
+  01a-10-item-bethine/90
+  01a-11-item-pyroxene/65
+]
+category: turret
+consumes: {
+  power: 12
+}
+minWarmup: 0.999
+warmupMaintainTime: 90
+shootWarmupSpeed: 0.05
+heatRequirement: 12
+maxEffeciency: 3
+recoil: 2.5
+outlineColor: 2C2A36
+targetAir: true
+targetGround: true
+rotateSpeed: 1.5
+reload: 145
+range: 435
+shootY: 6
+shootType: {
+  type: ArtilleryBulletType
+  collidesAir: true
+  width: 16
+  height: 16
+  sprite: large-orb
+  frontColor: edc66c
+  backColor: baa164
+  trailColor: baa164
+  trailWidth: 6
+  trailLength: 32
+  trailRotation: true
+  trailEffect: [
+  colorSpark
+  ]
+  spin: 0
+  shrinkY: 0
+  shrinkX: 0
+  trailInterval: 3
+  speed: 6
+  lifetime: 72.5
+  damage: 850
+  despawnSound: plasmaboom
+  despawnEffect: greenBomb
+  hitEffect: massiveExplosion
+  splashDamage: 3150
+  splashDamageRadius: 60
+  fragOnHit: true
+  fragBullets: 8
+  fragRandomSpread: 0
+  fragLifeMin: 1
+  fragLifeMax: 1
+  fragVelocityMin: 1
+  fragVelocityMax: 1
+  fragSpread: 45
+  fragAngle: 45
+  fragOnAbsorb: true
+  fragBullet: {
+    type: ArtilleryBulletType
+    width: 0
+    height: 0
+    speed: 2
+    lifetime: 10
+    pierceCap: 2
+    damage: 175
+    splashDamage: 525
+    splashDamageRadius: 25
+    pierce: true
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: skyhammer-
+  parts: [
+     {
+      type: RegionPart
+      suffix: -main
+      progress: warmup
+      under: true
+    }
+    {
+      type: RegionPart
+      suffix: -arm
+      mirror: true
+      progress: warmup
+      heatProgress: warmup
+      moveX: 0.75
+      heatColor: FFD27E82
+    }
+    {
+      type: ShapePart
+      y: -3.5
+      radius: 0
+      radiusTo: 4
+      stroke: 0
+      strokeTo: 1
+      layer: 110
+      circle: true
+      hollow: true
+      color: FFD27E
+    }
+    {
+      type: ShapePart
+      y: -3.5
+      radius: 0
+      radiusTo: 6
+      stroke: 0
+      strokeTo: 1
+      layer: 110
+      circle: true
+      hollow: true
+      color: FFD27E
+    }
+    {
+      type: HaloPart
+      layer: 110
+      color: FFD27E
+      y: -3.5
+      sides: 3
+      shapes: 2
+      haloRotateSpeed: 0.5
+      haloRadius: 2
+      haloRadiusTo: 7.85
+      radius: 0
+      radiusTo: 3.5
+      hollow: false
+    }
+  ]
+}
+research: 03c-04-ox
+researchCostMultiplier: 0.5

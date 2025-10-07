@@ -1,0 +1,46 @@
+type: HeatProducer
+size: 3
+heatOutput: 10
+health: 650
+craftTime: 180
+researchCostMultiplier: 0.5
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-08-nucliogen
+      padding: 1
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+  ]
+}
+consumes: {
+  items: [
+    01a-07-item-clevorite/1
+  ]
+  liquids: [
+    02b-08-nucliogen/0.125
+  ]
+}
+ambientSound: hum
+ambientSoundVolume: 0.08
+category: crafting
+research: 09i-11-o-anthracite-heater
+requirements: [
+  01a-06-item-chromium/85
+  01a-07-item-clevorite/75
+  01a-08-item-petal/50
+]
