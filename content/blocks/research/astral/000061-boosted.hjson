@@ -1,0 +1,5 @@
+show: false
+name: Boost Tactics
+description: Focused on boosted units and blocks. Unlocks Fizzy.
+research: 00006-tactical
+alwaysUnlocked: true

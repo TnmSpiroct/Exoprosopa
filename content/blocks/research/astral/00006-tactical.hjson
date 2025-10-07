@@ -1,0 +1,5 @@
+show: false
+name: Tactical
+description: Focused on tactics-based units. Unlocks Hoodrick.
+research: 29i-01-core-astral
+alwaysUnlocked: true

@@ -1,0 +1,156 @@
+type: ItemTurret
+name: Phantasm
+description: Rapidly blasts bullets at enemies. Specialized at dealing with single enemies, head-on. Less efficient against swarms.
+size: 4
+squareSprite: false
+health: 4500
+armor: 10
+shootSound: machinegun-shot
+requirements: [
+  01a-06-item-chromium/175
+  01a-07-item-clevorite/75
+  01a-08-item-petal/325
+  01a-10-item-bethine/85
+]
+minWarmup: 0.999
+warmupMaintainTime: 6
+shootWarmupSpeed: 0.05
+researchCostMultiplier: 0.5
+research: 03c-04-b-subsonic
+category: turret
+recoil: 1.5
+outlineColor: 2C2A36
+targetAir: true
+targetGround: true
+rotateSpeed: 1.4
+reload: 3.25
+range: 280
+shootY: 9
+shake: 2
+shoot: {
+  type: ShootAlternate
+  spread: 12
+  shotDelay: 3
+}
+ammoTypes: {
+  01a-06-item-chromium: {
+    pierceArmor: true
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    speed: 4
+    width: 11
+    height: 14
+    lifetime: 70
+    pierce: false
+    damage: 24
+    splashDamage: 12
+    splashDamageRadius: 16
+    ammoMultiplier: 8
+    weaveScale: 4
+    weaveMag: 4
+  }
+  01a-09-item-morphite: {
+    pierceArmor: true
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    speed: 4
+    width: 11
+    height: 14
+    lifetime: 70
+    pierce: false
+    damage: 48
+    status: shocked
+    splashDamage: 24
+    splashDamageRadius: 16
+    ammoMultiplier: 8
+    weaveScale: 4
+    weaveMag: 4
+    homingPower: 0.015
+  }
+  01a-08-item-petal: {
+    pierceArmor: true
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    speed: 4.5
+    width: 11
+    height: 14
+    lifetime: 70
+    pierce: false
+    damage: 52
+    splashDamage: 24
+    splashDamageRadius: 16
+    ammoMultiplier: 8
+    weaveScale: 4
+    weaveMag: 4
+    homingPower: 0.015
+    fragBullets: 6
+    fragVelocityMin: 0.4
+    fragLifeMin: 0.45
+    fragBullet: {
+      type: BasicBulletType
+      pierceArmor: true
+      speed: 2
+      lifetime: 30
+      width: 6
+      height: 9
+      pierce: true
+      pierceCap: 1
+      damage: 14
+      splashDamage: 17.5
+      splashDamageRadius: 4
+    }
+  }
+  01a-10-item-bethine: {
+    pierceArmor: true
+    hitEffect: flakExplosion
+    type: BasicBulletType
+    speed: 5
+    width: 11
+    height: 14
+    lifetime: 70
+    pierce: false
+    damage: 72
+    splashDamage: 42
+    splashDamageRadius: 16
+    ammoMultiplier: 12
+    weaveScale: 4
+    weaveMag: 4
+    homingPower: 0.015
+    fragBullets: 6
+    fragVelocityMin: 0.4
+    fragLifeMin: 0.45
+    fragBullet: {
+      type: BasicBulletType
+      pierceArmor: true
+      speed: 2
+      lifetime: 30
+      width: 6
+      height: 9
+      pierce: true
+      pierceCap: 1
+      damage: 24
+      splashDamage: 20
+      splashDamageRadius: 4
+    }
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: shigure-
+    parts: [
+    {
+      type: RegionPart
+      suffix: -body
+      progress: warmup
+      moveY: 0
+      under: true
+    }
+    {
+      type: RegionPart
+      suffix: -arm
+      mirror: true
+      progress: warmup
+      moveY: -6
+    }
+  ]
+}

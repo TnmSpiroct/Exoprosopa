@@ -1,0 +1,25 @@
+type: BurstDrill
+name: Exodrill
+size: 5
+health: 1750
+hardnessDrillMultiplier: 200
+category: production
+research: 04d-04-bore-jet
+hasLiquids: true
+drillTime: 120
+tier: 3
+shake: 4
+squareSprite: false
+itemCapacity: 80
+researchCostMultiplier: 0.5
+consumes: {
+  power: 1.5
+  liquid: 02b-02-ichor/0.25
+}
+requirements: [
+  01a-01-item-cobalt/350
+  01a-05-item-aluminium/125
+  01a-06-item-chromium/100
+  01a-08-item-petal/125
+  01a-10-item-bethine/25
+]

@@ -1,0 +1,5 @@
+show: false
+name: Corrosion
+description: Focused on high-damage technic and units. Unlocks Trident.
+research: 00004-metamorphosis
+alwaysUnlocked: true

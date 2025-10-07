@@ -4,9 +4,9 @@ health: 1000
 category: power
 research: 0007-power
 requirements: [
-  01a-02-item-nickel/180
-  01a-05-item-aluminium/100
-  01a-09-item-morphite/40
+  01a-02-item-nickel/125
+  01a-05-item-aluminium/75
+  01a-09-item-morphite/35
 ]
 powerProduction: 2
 generateEffect: none

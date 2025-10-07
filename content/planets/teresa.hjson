@@ -1,0 +1,72 @@
+generator: "PlanetGenerator"
+localizedName: Teresa
+hidden: true
+mesh: []
+cloudMesh: [
+   {
+   type: HexSkyMesh
+   planet: teresa
+   speed: 1.1
+   radius: 0.194
+   divisions: 6
+   color: e2effc60
+   octaves: 3
+   persistence: 0.3
+   scl: 0.9
+   thresh: 0.45
+   }
+]
+radius: 0.6
+startSector: 0
+sectorSize: 1
+orbitRadius: 144
+orbitOffset: 2
+minZoom: 0.8
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+hasAtmosphere: true
+iconColor: 98c1f5
+accessible: false
+visible: false
+alwaysUnlocked: true
+updateLighting: false
+bloom: false
+
+clearSectorOnLose: true
+prebuildBase: true
+defaultCore: 29i-01-core-astral
+parent: sun
+solarSystem: sun
+tidalLock: true
+orbitSpacing: 0.9
+
+enemyBuildSpeedMultiplier: 0.75
+rules.fog: true
+rules.showSpawns: true
+rules.rtsAI: true
+campaignRuleDefaults.fog: true
+campaignRuleDefaults.showSpawns: true
+campaignRuleDefaults.rtsAI: true
+coreDestroyClear: true
+
+launchCandidates: []
+itemWhitelist: [
+  "01a-01-item-cobalt",
+  "01a-02-item-nickel",
+  "01a-03-item-anthracite",
+  "01a-04-item-tantra-sand",
+  "01a-05-item-aluminium",
+  "01a-06-item-chromium",
+  "01a-07-item-clevorite",
+  "01a-08-item-petal",
+  "01a-09-item-morphite",
+  "01a-10-item-bethine",
+  "01a-11-item-pyroxene",
+  "01a-11-item-technoscrap",
+  "01a-12-item-techno-plating",
+  "01a-21-item-gryphic",
+  "01a-22-item-crystallic-geode",
+  "01a-31-item-morphitix-crystal",
+]

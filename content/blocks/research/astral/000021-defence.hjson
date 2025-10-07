@@ -1,0 +1,5 @@
+show: false
+name: Strategy
+description: Focused on defensive blocks and units. Unlocks Kiton.
+research: 00002-logistic
+alwaysUnlocked: true

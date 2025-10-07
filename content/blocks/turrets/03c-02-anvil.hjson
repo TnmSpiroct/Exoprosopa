@@ -1,4 +1,6 @@
 type: ItemTurret
+name: Anvil
+description: Fires five homing bullets at enemies.
 size: 3
 squareSprite: false
 health: 1650

@@ -1,19 +1,22 @@
 type: ContinuousTurret
+name: Supernova
+description: Fires powerful laser at enemies, requires extensive amount of heats.
 size: 5
 shootCone: 25
-health: 10500
-warmupMaintainTime: 0.001
+health: 16500
+armor: 20
+warmupMaintainTime: 25
 shootWarmupSpeed: 0.05
 minWarmup: 0.999
-heatRequirement: 300
+heatRequirement: 30
 shootSound: continuum-shot
 loopSound: continuum-shot
 requirements: [
-  01a-01-item-cobalt/3000
-  01a-05-item-aluminium/1000
-  01a-08-item-petal/2000
-  01a-10-item-bethine/1000
-  01a-11-item-pyroxene/500
+  01a-05-item-aluminium/1200
+  01a-07-item-clevorite/750
+  01a-08-item-petal/1000
+  01a-10-item-bethine/500
+  01a-11-item-pyroxene/350
 ]
 category: turret
 recoil: 1
@@ -23,15 +26,15 @@ targetGround: true
 rotateSpeed: 0.8
 aimChangeSpeed: 0.3
 reload: 8
-range: 360
-shootY: 0
+range: 395
+shootY: 19
 consumes: {
-  power: 10
+  power: 24
 }
 shootType: {
   type: ContinuousLaserBulletType
-  length: 360
-  damage: 350
+  length: 395
+  damage: 720
   width: 8
   incendChance: 0
   incendAmount: 0
@@ -49,20 +52,140 @@ shootType: {
     homingDelay: 18
     homingRange: 60
     speed: 6
-    lifetime: 60
+    lifetime: 65
     hitEffect: blastExplosion
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     despawnHit: true
-    damage: 85
-    splashDamage: 4
+    damage: 225
+    splashDamage: 65
     splashDamageRadius: 9
-    status: shocked
-    lightning: 5
-    lightningDamage: 20
   }
 }
 drawer: {
   type: DrawTurret
   basePrefix: supernova-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -plasm
+      heatProgress: warmup
+      progress: warmup
+      moveY: -5
+      turretHeatLayer: 49.9
+      under: true
+      outline: false
+      layerOffset: -0.3
+    }
+    {
+      type: RegionPart
+      suffix: -side
+      progress: warmup
+      moveY: -2
+      moveX: 2.5
+      moveRot: 9
+      mirror: true
+    }
+    {
+      type: RegionPart
+      suffix: -arm
+      heatProgress: warmup
+      progress: warmup
+      moveY: -2
+      moveX: 2.5
+      moveRot: -12
+      mirror: true
+    }
+    {
+      type: RegionPart
+      suffix: -body
+      progress: warmup
+      heatProgress: warmup
+      moveY: -3
+      moveX: 2.5
+      mirror: true
+    }
+    {
+      type: ShapePart
+      y: -13.5
+      radius: 6.5
+      stroke: 0
+      strokeTo: 1
+      layer: 110
+      circle: true
+      hollow: true
+      color: FFD8BE
+    }
+    {
+      type: ShapePart
+      y: -13.5
+      radius: 10
+      stroke: 0
+      strokeTo: 1.5
+      layer: 110
+      circle: true
+      hollow: true
+      color: FFD8BE
+    }
+    {
+      type: HaloPart
+      layer: 110
+      color: FFD8BE
+      y: -13.5
+      haloRotateSpeed: 0.55
+      sides: 3
+      haloRadius: 10
+      radius: 4.5
+      hollow: false
+      tri: true
+      triLength: 0
+      triLengthTo: 9
+    }
+    {
+      type: HaloPart
+      layer: 110
+      color: FFD8BE
+      y: -13.5
+      haloRotateSpeed: 0.55
+      sides: 3
+      haloRadius: 10
+      radius: 4.5
+      hollow: false
+      tri: true
+      triLength: 0
+      triLengthTo: 3.5
+      shapeRotation: 180
+    }
+    {
+      type: HaloPart
+      layer: 110
+      color: FFD8BE
+      y: -13.5
+      haloRotateSpeed: 0.55
+      haloRotation: 60
+      sides: 3
+      haloRadius: 10
+      radius: 7
+      hollow: false
+      tri: true
+      triLength: 0
+      triLengthTo: 18
+    }
+    {
+      type: HaloPart
+      layer: 110
+      color: FFD8BE
+      y: -13.5
+      haloRotateSpeed: 0.55
+      haloRotation: 60
+      sides: 3
+      haloRadius: 10
+      radius: 7
+      hollow: false
+      tri: true
+      triLength: 0
+      triLengthTo: 5
+      shapeRotation: 180
+    }
+  ]
 }

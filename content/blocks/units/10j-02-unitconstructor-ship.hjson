@@ -16,7 +16,7 @@ plans: [
       01a-02-item-nickel/50
       01a-05-item-aluminium/45
     ]
-    time: 1800
+    time: 2100
   }
 ]
 consumes: {

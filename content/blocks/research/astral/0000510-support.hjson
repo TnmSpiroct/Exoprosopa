@@ -1,0 +1,5 @@
+show: false
+name: Support
+description: Focused on high-tech support blocks and units. Unlocks Amplifier and Khitlid.
+research: 000051-necrosis
+alwaysUnlocked: true

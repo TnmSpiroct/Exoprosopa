@@ -1,0 +1,39 @@
+type: ConsumeGenerator
+name: Necrogenerator
+description: Generates power using necroplasm. Astral exclusive blocks.
+size: 3
+health: 500
+powerProduction: 4
+squareSprite: false
+category: power
+research: 00003-elemental
+itemDuration: 60
+consumes: {
+  liquids: [
+    02b-03-necroplasm/0.16666666667
+  ]
+}
+requirements: [
+  01a-21-item-gryphic/75
+  01a-03-item-aquashard/50
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-03-necroplasm
+      padding: 2
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: extractLoop
+ambientSoundVolume: 0.01
+researchCostMultiplier: 0.5

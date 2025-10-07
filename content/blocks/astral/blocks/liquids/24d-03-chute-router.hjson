@@ -1,0 +1,18 @@
+type: LiquidRouter
+name: Chute Router
+description: Distributes and intakes liquids from all sides equally.
+size: 1
+solid: false
+underBullets: true
+health: 75
+liquidPadding: 2
+liquidCapacity: 10
+category: liquid
+squareSprite: false
+research: 24d-01-chute
+requirements: [
+  01a-21-item-gryphic/5
+]
+researchCost: [
+  01a-21-item-gryphic/20
+]

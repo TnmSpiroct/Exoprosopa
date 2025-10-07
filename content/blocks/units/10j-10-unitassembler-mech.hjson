@@ -3,7 +3,7 @@ size: 5
 health: 1500
 category: units
 droneType: 18r-01-amber
-areaSize: 9
+areaSize: 11
 research: 10j-06-unitreconstructor-mech
 requirements: [
   01a-02-item-nickel/450
@@ -33,9 +33,21 @@ plans: [
     ]
     time: 3900
   }
+  {
+    type: AssemblerUnitPlan
+    unit: 16p-05-xenoct
+    requirements: [
+      exoprosopa-08h-14-bethine-wall-large/12
+      exoprosopa-08h-16-pyroxene-wall-large/6
+      exoprosopa-16p-02-rhitle/4
+      exoprosopa-90z-03-geopowered-mechlegs/6
+    ]
+    time: 15000
+  }
 ]
 squareSprite: false
 consumes: {
   power: 4
+  liquid: 02b-02-ichor/0.5
 }
 researchCostMultiplier: 0.5

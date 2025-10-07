@@ -1,0 +1,5 @@
+name: Stunned
+description: Disarm and stuns units in place.
+speedMultiplier: 0
+dragMultiplier: 0.25
+disarm: true

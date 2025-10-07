@@ -1,0 +1,66 @@
+type: ItemTurret
+name: Havoc
+description: Fires barrages of grenades at enemies. Spawns blastee when destroyed.
+size: 2
+squareSprite: false
+health: 800
+armor: 10
+shootSound: exoripple
+requirements: [
+  01a-21-item-gryphic/65
+  01a-02-item-nickel/25
+  01a-03-item-aquashard/25
+]
+category: turret
+recoil: 3.5
+outlineColor: 2C2A36
+targetAir: false
+targetGround: true
+rotateSpeed: 1.5
+reload: 85
+range: 185
+shootY: 4
+ammoTypes: {
+  01a-21-item-gryphic: {
+  type: BasicBulletType
+  damage: 15
+  splashDamage: 60
+  splashDamageRadius: 35
+  speed: 5
+  drag: 0.05
+  lifetime: 160
+  homingPower: 0.05
+  sprite: exoprosopa-grenade
+  frontColor: 5CC5A9
+  backColor: 5CC5A9
+  spin: 60
+  width: 12
+  height: 12
+  pierce: true
+  shrinkX: 0
+  shrinkY: 0
+  status: burning
+  statusDuration: 75
+  hitEffect: none
+  despawnEffect: none
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: astral-
+}
+research: 00021-defence
+researchCostMultiplier: 0.5
+destroyBulletSameTeam: true
+destroyBullet: {
+	instantDisappear: true
+	absorbable: false
+	collides: false
+	hittable: false
+	hitEffect: false
+	despawnEffect: false
+	fragBullets: 3
+	fragBullet: {
+		spawnUnit: 16p-01-ares
+	}
+}

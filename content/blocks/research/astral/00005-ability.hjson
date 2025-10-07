@@ -1,0 +1,5 @@
+show: false
+name: Ability
+description: Focused on ability-based units and blocks. Unlocks Liter.
+research: 29i-01-core-astral
+alwaysUnlocked: true

@@ -1,0 +1,41 @@
+type: ShockwaveTower
+name: Enforcer
+description: Creates shockwaves that damages enemy projectiles. Requires necroplasm
+size: 3
+range: 220
+reload: 75
+health: 1600
+armor: 5
+requirements: [
+  01a-05-item-aluminium/125
+  01a-06-item-chromium/80
+  01a-08-item-petal/75
+  01a-09-item-morphite/40
+]
+squareSprite: false
+category: effect
+research: 11k-05-a-enforcer
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-03-necroplasm
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+liquidCapacity: 60
+consumes: {
+  power: 2.5
+  liquids: [
+    02b-03-necroplasm/0.25
+  ]
+}

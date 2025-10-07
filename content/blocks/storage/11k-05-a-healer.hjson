@@ -1,7 +1,7 @@
 type: RegenProjector
 size: 3
 range: 30
-healPercent: 0.04
+healPercent: 0.035
 health: 850
 baseColor: f9e1f3
 hasPower: false

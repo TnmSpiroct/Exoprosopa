@@ -1,0 +1,4 @@
+name: Doom
+description: Slows units and slowly damaging them, applies to several astral units.
+damage: 0.1
+speedMultiplier: 0.15

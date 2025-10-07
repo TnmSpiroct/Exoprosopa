@@ -1,0 +1,24 @@
+type: RepairTower
+name: Artificial Mycellium
+description: Constantly repairs all units in its range, requires power. Astral exclusive blocks.
+size: 3
+health: 750
+squareSprite: false
+category: effect
+requirements: [
+  01a-21-item-gryphic/175
+  01a-02-item-nickel/75
+  01a-08-item-petal-flower/125
+]
+research: 00005-ability
+range: 175
+healAmount: 1.15
+consumes: {
+  power: 1.5
+  liquid: 02b-03-necroplasm/0.1666666667
+}
+researchCost: [
+  01a-21-item-gryphic/250
+  01a-02-item-nickel/150
+  01a-08-item-petal-flower/200
+]

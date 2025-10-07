@@ -3,7 +3,7 @@ hitSize: 22
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 4800
+health: 4750
 armor: 10
 speed: 0.65
 rotateSpeed: 1.4
@@ -23,50 +23,104 @@ weapons: [
     x: 0
     y: 0
     name: vicient-weapon
-    reload: 85
+    reload: 110
     mirror: false
     rotate: true
     rotateSpeed: 1.8
     shootSound: bulk-shot
+    shootY: 5
     bullet: {
       type: BasicBulletType
       frontColor: 6BBDCB
       backColor: 377A86
       sprite: missile-large
-      despawnEffect: {
-        type: ExplosionEffect
-        smokeColor: 454545
-        sparkColor: 665c9f
-        waveColor: 93E2EE
-        waveStroke: 4
-        waveRad: 40
-        }
-      speed: 6
-      lifetime: 35
-      damage: 75.25
-      splashDamage: 30.25
-      splashDamageRadius: 25
-      width: 15
-      height: 15
+      speed: 5.75
+      drag: 0.018
+      lifetime: 40
+      damage: 85
+      splashDamage: 57.5
+      splashDamageRadius: 20
+      width: 0
+      height: 0
       trailChance: -1
       trailColor: 93E2EE
-      shootEffect: shootSmall
-      trailLength: 6.5
-      trailWidth: 1.5
-      pierceCap: 4
-      fragSpread: 15
-      fragBullets: 3
-      fragBullet: {
+      trailEffect: colorSpark
+      trailLength: 16
+      trailWidth: 3
+      pierceCap: 3
+      shootEffect: {
+        type: ExplosionEffect
+        lifetime: 25
+        waveStroke: 3
+        waveColor: 6BBDCB
+        sparkColor: 6BBDCB
+        trailColor: 6BBDCB
+        smokeColor: 6BBDCB
+        waveRad: 15
+        smokesSize: 6
+        smokes: 7
+        smokeSizeBase: 0
+        sparks: 4
+        sparkRad: 15
+        sparkLen: 3
+        sparkStroke: 1.5
+      }
+      despawnEffect: {
+        type: ExplosionEffect
+        lifetime: 25
+        waveStroke: 3
+        waveColor: 6BBDCB
+        sparkColor: 6BBDCB
+        trailColor: 6BBDCB
+        smokeColor: 6BBDCB
+        waveRad: 12
+        smokesSize: 5
+        smokes: 4
+        smokeSizeBase: 0
+        sparks: 3
+        sparkRad: 15
+        sparkLen: 3
+        sparkStroke: 1.5
+      }
+      bulletInterval: 8
+      intervalRandomSpread: 0
+      intervalBullets: 2
+      intervalSpread: 35
+      intervalBullet: {
         type: BasicBulletType
-        sprite: missile-large
-        speed: 6
-        lifetime: 4
-        height: 15
-        width: 15
-        damage: 30.25
-        splashDamage: 30.25
-        splashDamageRadius: 10
-        pierceCap: 3
+        frontColor: 6BBDCB
+        backColor: 377A86
+        speed: 2.5
+        drag: 0.01
+        lifetime: 15
+        splashDamage: 25
+        splashDamageRadius: 15
+        width: 6
+        height: 6
+        trailChance: -1
+        trailColor: 93E2EE
+        trailLength: 7
+        trailWidth: 2
+        weaveScale: 2
+        weaveMag: 3
+        pierceBuilding: true
+        despawnEffect: {
+          type: ExplosionEffect
+          lifetime: 15
+          waveStroke: 2.5
+          waveColor: 6BBDCB
+          sparkColor: 6BBDCB
+          trailColor: 6BBDCB
+          smokeColor: 6BBDCB
+          waveRad: 8
+          smokesSize: 3
+          smokes: 2
+          smokeSizeBase: 0
+          sparks: 2
+          sparkRad: 10
+          sparkLen: 2
+          sparkStroke: 1
+        }
       }
     }
   }

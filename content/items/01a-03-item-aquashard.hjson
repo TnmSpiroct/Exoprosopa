@@ -1,7 +1,6 @@
 color: 72ccbd
 hardness: 1
 lowPriority: true
-buildable: false
 cost: 0.3
 research: 01a-04-item-tantra-sand
 hiddenOnPlanets: [serpulo, erekir]

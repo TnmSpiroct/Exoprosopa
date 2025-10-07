@@ -75,7 +75,6 @@ ammoTypes: {
     trailWidth: 2
     intervalBullet: {
       type: LightningBulletType
-      hitSound: electric-discharge
       damage: 20
       lightningLength: 2
       lightningLengthRand: 4

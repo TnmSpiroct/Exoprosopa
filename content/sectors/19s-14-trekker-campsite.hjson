@@ -1,6 +1,6 @@
 difficulty: 8
 planet: frostnova
-sector: 60
+sector: 12
 research: {
   parent: 19s-13-marshlands
   objectives: [

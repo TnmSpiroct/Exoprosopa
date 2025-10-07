@@ -1,0 +1,61 @@
+type: mech
+name: Byte
+description: Fires bullets at enemies, shields itself when attacking.
+flying: false
+hitSize: 8
+health: 750
+armor: 3
+speed: 0.65
+rotateSpeed: 4.75
+itemCapacity: 25
+outlineColor: 26262F
+mechLegColor: 26262F
+research: {
+  parent: 0010-fabricator
+  objectives: [
+    {
+      type: Research
+      content: 10j-02-unitconstructor-ship
+    }
+  ]
+}
+researchCostMultiplier: 1
+abilities: [
+    {
+    type: ShieldArcAbility
+    radius: 8
+    angle: 110
+    width: 2
+    y: 2
+    cooldown: 750
+    regen: 0.5
+    max: 120
+}
+]
+weapons: [
+  {
+    x: 7
+    y: 0
+    name: byte
+    reload: 12
+    mirror: true
+    alternate: true
+    rotate: false
+    bullet: {
+      type: BasicBulletType
+      speed: 2.5
+      lifetime: 55
+      damage: 17.5
+      width: 8
+      height: 8
+      shootEffect: shootSmall
+      bulletInterval: 12
+      intervalBullet: {
+        type: LightningBulletType
+        damage: 2
+        lightningLength: 1.25
+        lightningLengthRand: 3
+      }
+    }
+  }
+]

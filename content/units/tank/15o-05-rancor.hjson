@@ -3,10 +3,10 @@ hitSize: 35
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 42000
+health: 38550
 crushDamage: 6
-armor: 40
-speed: 0.35
+armor: 36
+speed: 0.475
 rotateSpeed: 0.6
 itemCapacity: 110
 outlineColor: 26262F
@@ -30,51 +30,144 @@ weapons: [
     x: 0
     y: 0
     name: rancor-weapon
-    reload: 180
+    reload: 125
     mirror: false
-    shake: 10
+    shake: 6
     rotate: true
-    rotateSpeed: 1
-    shootSound: exoripple
+    rotateSpeed: 0.75
+    shootSound: rancor-shoot
+    parts: [
+      {
+        y: -12
+        type: HaloPart
+        color: 93E2EE
+        layer: 110
+        radius: 4
+        shapes: 6
+        sides: 4
+        stroke: 0.75
+        haloRadius: 0
+        haloRadiusTo: 6.5
+        haloRotateSpeed: 0.5
+        followRotation: true
+      }
+    ]
     bullet: {
       type: ArtilleryBulletType
-      frontColor: 6BBDCB
-      backColor: 377A86
-      sprite: missile-large
-      speed: 2
-      lifetime: 180
-      splashDamage: 280
-      splashDamageRadius: 35
-      width: 20
-      height: 26
-      trailChance: -1
+      collidesAir: true
+      collidesTiles: true
+      collides: true
+      width: 16
+      height: 16
+      sprite: large-orb
+      frontColor: 93E2EE
+      backColor: 93E2EE
+      trailColor: 93E2EE
+      hitColor: 93E2EE
+      trailWidth: 6
+      trailLength: 32
+      trailRotation: true
+      trailEffect: colorSpark
+      spin: 0
+      shrinkY: 0
+      shrinkX: 0
       trailInterval: 3
-      trailEffect: artilleryTrail
-      trailColor: 7FC4DA
-      shootEffect: shootSmall
-      trailLength: 0.5
-      trailWidth: 0.25
-      fragBullets: 10
-      fragRandomSpread: 120
-      fragVelocityMin: 1
-      fragVelocityMax: 1
+      speed: 5
+      lifetime: 57.5
+      damage: 155
+      hitEffect: [
+        titanExplosionSmall,
+        titanSmokeSmall
+      ]
+      shootEffect: {
+        type: ExplosionEffect
+        lifetime: 60
+        waveStroke: 4
+        waveColor: 6BBDCB
+        sparkColor: 6BBDCB
+        trailColor: 6BBDCB
+        smokeColor: 6BBDCB
+        waveRad: 25
+        smokesSize: 9
+        smokes: 10
+        smokeSizeBase: 0
+        sparks: 7
+        sparkRad: 25
+        sparkLen: 4
+        sparkStroke: 2
+      }
+      despawnSound: plasmaboom
+      despawnShake: 6
+      despawnEffect: [
+        titanExplosionSmall,
+        titanSmokeSmall
+      ]
+      hitEffect: massiveExplosion
+      splashDamage: 775
+      splashDamageRadius: 50
+      hitSound: titanExplosion
+      fragOnHit: true
+      fragBullets: 8
+      fragRandomSpread: 0
       fragLifeMin: 1
       fragLifeMax: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragSpread: 45
+      fragAngle: 45
+      fragOnAbsorb: true
       fragBullet: {
-        type: BasicBulletType
-        frontColor: 6BBDCB
-        backColor: 377A86
-        width: 12
-        height: 16
-        sprite: shell
-        despawnSound: dull-explosion
-        speed: 2
-        lifetime: 60
+        type: ArtilleryBulletType
+        frontColor: 93E2EE
+        backColor: 93E2EE
+        hitColor: 93E2EE
+        width: 0
+        height: 0
+        speed: 0.3
+        lifetime: 40
+        pierceCap: 2
+        splashDamage: 165
+        splashDamageRadius: 25
+        despawnShake: 2
+        despawnEffect: hitBulletColor
+        hitEffect: titanExplosionFrag
         pierce: true
-        pierceBuilding: true
-        damage: 120
-        splashDamage: 130
-        splashDamageRadius: 20
+        pierceArmor: true
+      }
+    }
+  }
+  {
+  x: 18.25
+  y: 0
+  name: rancor-minigun
+  reload: 6
+  mirror: true
+  rotate: true
+  rotateSpeed: 1.5
+  shootSound: normal-shot
+  bullet: {
+    type: BasicBulletType
+    speed: 8
+    backColor: 93E2EE
+    frontColor: 93E2EE
+    hitColor: 93E2EE
+    width: 10
+    height: 14
+    lifetime: 20
+    damage: 55
+    trailColor: 93E2EE
+    trailLength: 4
+    trailWidth: 1.25
+    shootEffect: colorSpark
+    despawnEffect: {
+      type: WaveEffect
+      rotWithParent: true
+      followParent: true
+      lifetime: 9
+      sizeFrom: 0
+      sizeTo: 20
+      colorFrom: ffffff
+      colorTo: feb380
       }
     }
   }

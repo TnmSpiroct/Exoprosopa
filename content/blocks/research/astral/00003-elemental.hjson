@@ -1,0 +1,5 @@
+show: false
+name: Elemental
+description: Focused on element-based blocks and units. Unlocks Wis.
+research: 29i-01-core-astral
+alwaysUnlocked: true

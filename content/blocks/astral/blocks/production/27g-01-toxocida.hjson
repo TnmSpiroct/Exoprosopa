@@ -1,0 +1,56 @@
+type: GenericCrafter
+name: Toxocida
+description: Convert hydryite into necroplasm, requires power. Astral exclusive blocks.
+size: 3
+liquidCapacity: 60
+hasLiquids: true
+health: 500
+category: crafting
+research: 00001-liquid
+itemCapacity: 30
+researchCost: [
+  01a-21-item-gryphic/50
+  01a-02-item-nickel/25
+  01a-22-item-crystallic-geode/25
+]
+requirements: [
+  01a-21-item-gryphic/150
+  01a-02-item-nickel/75
+  01a-22-item-crystallic-geode/75
+]
+craftTime: 30
+craftEffect: none
+outputLiquids: [
+  02b-03-necroplasm/0.5
+]
+consumes: {
+  liquids: [
+    02b-05-hydrowater/0.6666666666666
+  ]
+  power: 2
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-05-hydrowater
+      padding: 3
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-03-necroplasm
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
+squareSprite: false

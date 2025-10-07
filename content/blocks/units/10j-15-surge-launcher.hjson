@@ -24,3 +24,4 @@ range: 490
 maxPayloadSize: 3
 size: 3
 researchCostMultiplier: 0.5
+outlineColor: 2C2A36

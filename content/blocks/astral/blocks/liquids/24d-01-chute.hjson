@@ -1,0 +1,16 @@
+type: Conduit
+name: Chute
+description: Transfers liquids and fluids forward.
+category: liquid
+requirements: [
+  01a-21-item-gryphic/2
+]
+health: 75
+junctionReplacement: 24d-02-chute-junction
+rotBridgeReplacement: 24d-03-chute-router
+solid: false
+research: 00001-liquid
+researchCost: [
+  01a-21-item-gryphic/75
+]
+armored: true

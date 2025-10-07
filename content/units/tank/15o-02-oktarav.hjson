@@ -55,7 +55,7 @@ weapons: [
         sizeTo: 20
         colorFrom: ffffff
         colorTo: feb380
-    }
+      }
     }
   }
 ]

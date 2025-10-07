@@ -1,0 +1,13 @@
+type: StorageBlock
+size: 3
+health: 1000
+itemCapacity: 500
+category: effect
+research: 11k-04-clip
+requirements: [
+  01a-05-item-aluminium/100
+  01a-06-item-chromium/150
+  01a-08-item-petal/125
+]
+squareSprite: false
+researchCostMultiplier: 0.5

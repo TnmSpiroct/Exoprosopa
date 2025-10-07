@@ -1,0 +1,31 @@
+type: HeatProducer
+size: 2
+heatOutput: 3
+health: 250
+craftTime: 90
+researchCostMultiplier: 0.5
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+  ]
+}
+consumes: {
+  items: [
+    01a-03-item-anthracite/1
+  ]
+}
+ambientSound: hum
+ambientSoundVolume: 0.08
+category: crafting
+research: 09i-04-a-terra-basin
+requirements: [
+  01a-06-item-chromium/30
+  01a-07-item-clevorite/20
+]
+group: heat

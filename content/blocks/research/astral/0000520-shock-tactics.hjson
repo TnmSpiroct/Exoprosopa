@@ -1,0 +1,5 @@
+show: false
+name: Shock Tactics
+description: Focused on ramming-based units and suprise attacks. Unlocks Core: Tether and Doomux.
+research: 000052-parasitism
+alwaysUnlocked: true

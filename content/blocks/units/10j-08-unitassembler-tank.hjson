@@ -32,9 +32,21 @@ plans: [
     ]
     time: 3600
   }
+  {
+    type: AssemblerUnitPlan
+    unit: 15o-05-rancor
+    requirements: [
+      exoprosopa-08h-14-bethine-wall-large/12
+      exoprosopa-08h-16-pyroxene-wall-large/6
+      exoprosopa-15o-02-oktarav/4
+      exoprosopa-90z-01-heavy-armored-treads/3
+    ]
+    time: 14400
+  }
 ]
 squareSprite: false
 consumes: {
   power: 4
+  liquid: 02b-02-ichor/0.5
 }
 researchCostMultiplier: 0.5

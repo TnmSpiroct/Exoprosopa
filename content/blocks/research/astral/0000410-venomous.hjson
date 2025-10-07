@@ -1,0 +1,5 @@
+show: false
+name: Venomic
+description: Focused on venom-ability tactics and units, much deadlier. Unlocks Indivilla.
+research: 000041-poisonous
+alwaysUnlocked: true

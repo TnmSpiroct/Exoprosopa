@@ -54,7 +54,7 @@ engines: [
     fractionRepairSpeed: 0.06
     bullet: {
       type: BulletType
-      maxRange: 60
+      maxRange: 40
       }
     }
 ]

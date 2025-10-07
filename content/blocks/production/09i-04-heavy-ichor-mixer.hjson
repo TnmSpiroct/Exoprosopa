@@ -3,7 +3,6 @@ health: 850
 size: 3
 hasLiquids: true
 category: crafting
-buildVisibility: sandboxOnly
 consumes: {
   items: [
     01a-04-item-tantra-sand/3

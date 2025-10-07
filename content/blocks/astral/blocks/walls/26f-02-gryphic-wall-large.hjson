@@ -1,0 +1,12 @@
+type: Wall
+name: Large Gryphic Barrier
+description: Protects structures from enemy projectiles. Low health, heavily armored.
+size: 2
+armor: 30
+health: 880
+requirements: [
+  01a-21-item-gryphic/32
+]
+research: 26f-01-gryphic-wall-small
+researchCostMultiplier: 0.5
+category: defense

@@ -19,7 +19,7 @@ lowAltitude: false
 groundLayer: 40
 shadowElevation: 0.1
 rotateSpeed: 12
-itemCapacity: 100
+itemCapacity: 125
 outlineColor: 26262f
 waveTrailY: -3.0
 trailColor: d8f18c
@@ -48,7 +48,7 @@ engines: [
  ]
  weapons: [
   {
-  widthSinMag: 0.1
+    widthSinMag: 0.1
     x: 0
     y: 5
     laserColor: d8f18c
@@ -67,7 +67,7 @@ engines: [
     fractionRepairSpeed: 0.06
     bullet: {
       type: BulletType
-      maxRange: 75
-      }
+      maxRange: 80
     }
+  }
 ]

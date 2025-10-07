@@ -2,7 +2,6 @@ type: ItemTurret
 size: 3
 health: 3000
 armor: 5
-shootSound: normal-shot
 requirements: [
   01a-02-item-nickel/400
   01a-05-item-aluminium/200
@@ -21,24 +20,29 @@ outlineColor: 2C2A36
 targetAir: true
 targetGround: true
 rotateSpeed: 1.95
-reload: 6
-range: 320
+reload: 135
+range: 250
 shootY: 10
+shoot: {
+    firstShotDelay: 35
+    shotDelay: 5
+    shots: 12
+}
 ammoTypes: {
   01a-08-item-petal: {
       type: BasicBulletType
-      sprite: missile-large
-      width: 4
+      width: 12
+      height: 12
       pierceCap: 3
       lifetime: 40
       damage: 63.25
-      speed: 8
+      speed: 7
       ammoMultiplier: 3
       shootEffect: colorSpark
       smokeEffect: colorSpark
       trailColor: FF91B3
       trailWidth: 1.5
-      trailLength: 10
+      trailLength: 6
       backColor: FF91B3
       hitColor: FF91B3
       despawnEffect: {
@@ -54,12 +58,12 @@ ammoTypes: {
   }
   01a-09-item-morphite: {
       type: BasicBulletType
-      sprite: missile-large
-      width: 6
-      pierceCap: 5
+      width: 12
+      height: 12
+      pierceCap: 7
       lifetime: 39
       damage: 52.5
-      speed: 9
+      speed: 8
       ammoMultiplier: 4
       shootEffect: colorSpark
       smokeEffect: colorSpark

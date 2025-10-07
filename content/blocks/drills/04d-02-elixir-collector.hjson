@@ -8,7 +8,6 @@ displayEfficiencyScale: 1
 baseEfficiency: 0
 squareSprite: false
 minEfficiency: 9
-researchCostMultiplier: 0.5
 category: production
 consumes: {
   power: 0.25
@@ -27,6 +26,11 @@ drawer: {
     {
       type: DrawRegion
       suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-01-bioliquid
+      padding: 2
     }
     {
       type: DrawRegion

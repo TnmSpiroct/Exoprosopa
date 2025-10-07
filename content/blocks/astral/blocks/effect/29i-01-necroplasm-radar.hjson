@@ -1,0 +1,21 @@
+type: Radar
+name: Necroplasm Navigator
+description: Illuminates nearby area within range using necroplasm light source.
+size: 2
+health: 225
+squareSprite: false
+requirements: [
+  01a-21-item-gryphic/25
+  01a-02-item-nickel/75
+  01a-08-item-petal-flower/85
+]
+consumes: {
+  liquid: 02b-03-necroplasm/0.1666666667
+}
+category: effect
+outlineColor: 092648
+fogRadius: 35
+ambientSound: radar-pulsing
+ambientSoundVolume: 0.5
+research: 00005-ability
+researchCostMultiplier: 0.5

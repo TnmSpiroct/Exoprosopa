@@ -27,16 +27,28 @@ plans: [
     type: AssemblerUnitPlan
     unit: 17q-04-noya
     requirements: [
-      exoprosopa-08h-05-a-aluminium-gate/4
+      exoprosopa-08h-05-a-aluminium-gate/5
       exoprosopa-08h-02-cobalt-wall-large/4
       exoprosopa-17q-01-codex/4
       exoprosopa-90z-02-hyperspace-engine/3
     ]
     time: 4200
   }
+  {
+    type: AssemblerUnitPlan
+    unit: 17q-05-archangel
+    requirements: [
+      exoprosopa-08h-14-bethine-wall-large/12
+      exoprosopa-08h-16-pyroxene-wall-large/6
+      exoprosopa-17q-02-calaust/4
+      exoprosopa-90z-02-hyperspace-engine/3
+    ]
+    time: 15600
+  }
 ]
 squareSprite: false
 consumes: {
   power: 5
+  liquid: 02b-02-ichor/0.5
 }
 researchCostMultiplier: 0.5

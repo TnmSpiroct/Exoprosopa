@@ -5,7 +5,6 @@ armored: true
 speed: 10
 requirements: [
   01a-05-item-aluminium/1
-  01a-01-item-cobalt/2
 ]
 research: {
   parent: 05e-07-mechanical-bridge
@@ -17,8 +16,7 @@ research: {
   ]
 }
 researchCost: [
-  01a-01-item-cobalt/100
-  01a-05-item-aluminium/10
+  01a-05-item-aluminium/50
 ]
 category: distribution
 bridgeReplacement: 05e-07-mechanical-bridge

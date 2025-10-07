@@ -1,0 +1,50 @@
+type: crawl
+name: Scorcher
+description: Fires flames at enemies.
+speed: 0.95
+health: 260
+armor: 4
+drag: 0.08
+accel: 0.15
+range: 30
+hitSize: 10
+rotateSpeed: 8
+faceTarget: true
+segments: 3
+segmentMag: 0.5
+drawCell: false
+drawBody: false
+controller: HugAI
+outlineColor: 26262F
+weapons: [
+  {
+    x: 0
+    y: 0
+    reload: 15
+    mirror: false
+    ejectEffect: none
+    continuous: true
+    alwaysContinuous: true
+    shootSound: firewall
+    shootStatus: 13m-08-doom
+    shootStatusDuration: 16
+    shootY: 4
+    bullet: {
+      type: ContinuousFlameBulletType
+      flareLength: 0
+      length: 30
+      width: 1.7
+      damage: 9
+      hitEffect: none
+      despawnEffect: none
+      hitColor: E67676
+      colors: [
+               D45050,
+               E67676,
+               EEAAAA,
+               FFC7C7
+              ]
+      lightColor: D45050
+    }
+  }
+]
