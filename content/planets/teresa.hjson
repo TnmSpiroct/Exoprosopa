@@ -30,7 +30,7 @@ hasAtmosphere: true
 iconColor: 98c1f5
 accessible: false
 visible: false
-alwaysUnlocked: true
+alwaysUnlocked: false
 updateLighting: false
 bloom: false
 
