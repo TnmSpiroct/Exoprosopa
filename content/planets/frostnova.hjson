@@ -60,8 +60,8 @@ icon: command-rally
 clearSectorOnLose: true
 prebuildBase: true
 defaultCore: 11k-01-core-apex
-parent: proxima
-solarSystem: proxima
+parent: sun
+solarSystem: sun
 tidalLock: true
 
 enemyBuildSpeedMultiplier: 0.7
