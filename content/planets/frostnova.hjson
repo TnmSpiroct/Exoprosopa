@@ -7,14 +7,26 @@ mesh: [
     type: NoiseMesh
     planet: frostnova
     divisions: 5
-    seed: 89
+    seed: 78
     radius: 1.120
     color1: 252d40
     color2: 384d6c
-    octaves: 3.1
+    octaves: 3
     persistence: 1.1
-    mag: 1.7
-    scl: 7
+    mag: 1.6
+    scl: 5
+    }
+    {
+    //tantrabiome
+    type: NoiseMesh
+    planet: frostnova
+    divisions: 5
+    seed: 52
+    radius: 1.100
+    color1: 505e7f
+    color2: 303c58
+    octaves: 3
+    persistence: 1.1
     }
 ]
 cloudMesh: [
@@ -27,7 +39,7 @@ cloudMesh: [
    divisions: 5
    color: e2effc60
    octaves: 3
-   persistence: 0.4
+   persistence: 0.3
    scl: 1
    thresh: 0.45
    }
@@ -40,12 +52,13 @@ orbitRadius: 78
 orbitOffset: 102
 orbitTime: 3000
 orbitSpacing: 3.5
-minZoom: 0.8
+minZoom: 1
 
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
+allowCampaignRules: true
 
 hasAtmosphere: true
 iconColor: 98c1f5
@@ -65,9 +78,9 @@ solarSystem: sun
 tidalLock: true
 
 enemyBuildSpeedMultiplier: 0.7
-rules.fog: true
-rules.showSpawns: true
-rules.rtsAI: true
+campaignRules.fog: true
+campaignRules.showSpawns: true
+campaignRules.rtsAI: true
 campaignRuleDefaults.fog: true
 campaignRuleDefaults.showSpawns: true
 campaignRuleDefaults.rtsAI: true
