@@ -1,6 +1,4 @@
 type: ConsumeGenerator
-name: Necrogenerator
-description: Generates power using necroplasm. Astral exclusive blocks.
 size: 3
 health: 500
 powerProduction: 4

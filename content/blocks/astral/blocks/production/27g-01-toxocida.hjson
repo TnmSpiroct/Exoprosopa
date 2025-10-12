@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Toxocida
-description: Convert hydryite into necroplasm, requires power. Astral exclusive blocks.
 size: 3
 liquidCapacity: 60
 hasLiquids: true

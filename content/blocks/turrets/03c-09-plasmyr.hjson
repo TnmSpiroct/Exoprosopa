@@ -1,10 +1,6 @@
 # Turret type
 # Item turret uses multiple items as a ammo to shoot.
 type: ItemTurret
-# Turret name
-name: Plasmyr
-# Turret description
-description: launches high-energy projectiles at enemies, pierces through armored enemies.
 # Turret sizes
 size: 5
 # Is the sprite square/fully touching all of the edge?

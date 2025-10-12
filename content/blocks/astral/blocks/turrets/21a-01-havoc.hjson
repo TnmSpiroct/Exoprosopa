@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Havoc
-description: Fires barrages of grenades at enemies. Spawns blastee when destroyed.
 size: 2
 squareSprite: false
 health: 800

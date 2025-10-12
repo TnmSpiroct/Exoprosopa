@@ -1,6 +1,4 @@
 type: ShockwaveTower
-name: Enforcer
-description: Creates shockwaves that damages enemy projectiles. Requires necroplasm
 size: 3
 range: 220
 reload: 75

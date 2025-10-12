@@ -1,6 +1,4 @@
 type: ContinuousTurret
-name: Supernova
-description: Fires powerful laser at enemies, requires extensive amount of heats.
 size: 5
 shootCone: 25
 health: 16500

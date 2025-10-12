@@ -1,6 +1,4 @@
 type: AttributeCrafter
-name: Necroplasm Extractor
-description: Extracts necroplasm from vents.
 attribute: steam
 size: 3
 health: 225

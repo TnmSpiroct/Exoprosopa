@@ -1,6 +1,4 @@
 type: Wall
-name: Gryphic Barrier
-description: Protects structures from enemy projectiles. Low health, heavily armored.
 size: 1
 armor: 30
 health: 220

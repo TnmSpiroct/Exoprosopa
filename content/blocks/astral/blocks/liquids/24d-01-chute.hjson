@@ -1,6 +1,4 @@
 type: Conduit
-name: Chute
-description: Transfers liquids and fluids forward.
 category: liquid
 requirements: [
   01a-21-item-gryphic/2

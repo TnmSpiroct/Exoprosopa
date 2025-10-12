@@ -1,6 +1,4 @@
 type: CoreBlock
-name: Core: Astral
-description: Core of the base, lightly armored. Astral exclusive blocks.
 size: 3
 health: 1750
 armor: 2
@@ -20,6 +18,6 @@ unitCapModifier: 25
 research: {
   planet: teresa
   root: true
-  name: Astral-Research Tree
+  name: Astral
   requiresUnlock: false
 }

@@ -1,6 +1,4 @@
 type: BeamNode
-name: Power Nylon
-description: Transmits power to other blocks orthogonally.
 health: 100
 fogRadius: 5
 range: 10

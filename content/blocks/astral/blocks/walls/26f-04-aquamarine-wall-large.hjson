@@ -1,6 +1,4 @@
 type: Wall
-name: Large Aquamarine Barrier
-description: Protects structures from enemy projectiles. Low health, insanely armored.
 size: 2
 armor: 50
 health: 960

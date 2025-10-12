@@ -1,6 +1,4 @@
 type: RepairTower
-name: Artificial Mycellium
-description: Constantly repairs all units in its range, requires power. Astral exclusive blocks.
 size: 3
 health: 750
 squareSprite: false

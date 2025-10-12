@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Phantasm
-description: Rapidly blasts bullets at enemies. Specialized at dealing with single enemies, head-on. Less efficient against swarms.
 size: 4
 squareSprite: false
 health: 4500

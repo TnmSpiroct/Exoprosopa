@@ -1,6 +1,4 @@
 type: Radar
-name: Necroplasm Navigator
-description: Illuminates nearby area within range using necroplasm light source.
 size: 2
 health: 225
 squareSprite: false

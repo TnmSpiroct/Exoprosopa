@@ -1,6 +1,4 @@
 type: LiquidJunction
-name: Chute Crosspipe
-description: Used to cross two separate liquid pipes.
 size: 1
 solid: false
 underBullets: true

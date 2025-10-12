@@ -1,6 +1,4 @@
 type: PowerTurret
-name: Skyhammer
-description: Fires explosive artillery at enemies.
 size: 4
 squareSprite: false
 health: 6500
