@@ -1,10 +1,16 @@
 type: Wall
+# Size of blocks
 size: 1
+# Armor and health point
 armor: 4
 health: 480
+# Build cost
 requirements: [
   01a-01-item-cobalt/6
 ]
+# Research ...... first to unlocking
 research: 0008-defence
+# Research cost
 researchCostMultiplier: 0.5
+# Tab category
 category: defense

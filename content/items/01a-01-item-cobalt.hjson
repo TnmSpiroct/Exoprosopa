@@ -1,5 +1,9 @@
 color: 647CC2
+# Hardness of the item, better drill is required for higher hardness. WARNING, hardness can make gameplay quite different when playing with mixtech
 hardness: 1
+# More cost = more build time
 cost: 0.5
+# Research tree
 research: 0001-item
+# Must apply on campaign mod
 hiddenOnPlanets: [serpulo, erekir]

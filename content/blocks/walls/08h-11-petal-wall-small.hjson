@@ -8,22 +8,3 @@ requirements: [
 research: 08h-02-cobalt-wall-large
 researchCostMultiplier: 0.5
 category: defense
-destroyBullet: {
-  instantDisappear: true
-  damage: 0
-  speed: 0
-  fragBullets: 5
-  fragBullet: {
-    type: BasicBulletType
-    speed: 4
-    lifetime: 30
-    pierce: true
-    width: 6
-    height: 7
-    pierceCap: 1
-    homingPower: 0.1
-    damage: 15
-    mixColorFrom: 594e6b
-    mixColorTo: 2e293a
-  }
-}

@@ -1,0 +1,15 @@
+type: LiquidRouter
+health: 7500
+armor: 10
+size: 4
+hasLiquids: true
+liquidCapacity: 10000
+category: liquid
+requirements: [
+  01a-01-item-cobalt/250
+  01a-06-item-chromium/100
+  01a-10-item-bethine/25
+]
+research: 06f-07-large-aqua-container
+liquidPadding: 1.8
+researchCostMultiplier: 1

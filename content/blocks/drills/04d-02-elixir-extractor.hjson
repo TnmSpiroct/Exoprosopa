@@ -1,0 +1,50 @@
+type: AttributeCrafter
+attribute: steam
+size: 3
+health: 750
+hasLiquids: true
+squareSprite: false
+outputLiquid: 02b-01-bioliquid/3
+displayEfficiencyScale: 1
+baseEfficiency: 0
+squareSprite: false
+minEfficiency: 9
+category: production
+consumes: {
+  power: 1.25
+}
+liquidCapacity: 300
+research: 04d-02-elixir-collector
+requirements: [
+  01a-01-item-cobalt/85
+  01a-05-item-aluminium/60
+  01a-08-item-petal/40
+]
+researchCostMultiplier: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-01-bioliquid
+      padding: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 1.25
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+buildCostMultiplier: 1.5
+ambientSound: elixir
+ambientSoundVolume: 0.05
+group: liquids

@@ -1,0 +1,30 @@
+type: Wall
+size: 1
+health: 750
+armor: 6
+requirements: [
+  01a-03-item-lamine/4
+]
+research: 08h-06-clevorite-wall-large
+researchCostMultiplier: 0.5
+buildCostMultiplier: 1.5
+category: defense
+destroyBullet: {
+  instantDisappear: true
+  damage: 0
+  speed: 0
+  fragBullets: 8
+  fragBullet: {
+    type: BasicBulletType
+    speed: 4
+    lifetime: 30
+    pierce: true
+    width: 6
+    height: 7
+    pierceCap: 1
+    homingPower: 0.1
+    damage: 45
+    mixColorFrom: 594e6b
+    mixColorTo: 2e293a
+  }
+}

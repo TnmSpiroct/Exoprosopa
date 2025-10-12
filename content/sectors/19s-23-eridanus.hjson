@@ -1,0 +1,13 @@
+captureWave: 50
+difficulty: 8
+planet: frostnova
+sector: 77
+research: {
+  parent: 19s-01-newgrounds
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-01-newgrounds
+    }
+  ]
+}

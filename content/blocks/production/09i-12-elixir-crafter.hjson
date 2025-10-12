@@ -1,0 +1,52 @@
+type: AttributeCrafter
+name: Biocrafter
+description: Breaks down nucliogen into basic bio-elixir. Works better on nucrid surface.
+health: 850
+size: 3
+research: 09i-12-enchanting-basin
+researchCostMultiplier: 0.5
+requirements: [
+  01a-06-item-chromium/95
+  01a-07-item-clevorite/50
+  01a-08-item-petal/40
+]
+craftTime: 60
+craftEffect: smeltsmoke
+attribute: nucridfl
+baseEffeciency: 0
+minEffeciency: 0.5
+maxBoost: 1.5
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-08-nucliogen
+      padding: 3
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-01-bioliquid
+      padding: 3
+    }
+    {
+      type: DrawMultiWeave
+    }
+    {
+      type: DrawRegion
+    }
+  ]
+}
+consumes: {
+  liquids: [ 
+    02b-08-nucliogen/0.3333333333
+  ]
+  power: 3
+}
+outputLiquid: 02b-01-bioliquid/0.5
+squareSprite: false
+category: crafting

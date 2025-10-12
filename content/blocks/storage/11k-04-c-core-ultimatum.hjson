@@ -2,7 +2,7 @@ type: CoreBlock
 size: 6
 health: 72500
 armor: 35
-unitType: 14n-04-sepia
+unitType: 14n-04-t-evernight
 requirements: [
  01a-01-item-cobalt/3500
  01a-02-item-nickel/3500

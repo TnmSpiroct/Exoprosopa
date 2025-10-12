@@ -1,0 +1,97 @@
+type: legs
+name: Locust
+description: Protects the Ultimatum Core, can build and retrieve resources faster. Equipped with additional mount weapon.
+controller: BuilderAI
+legCount: 6
+lockLegBase: true
+legExtension: -3
+legBaseOffset: 3
+legLength: 22
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.14
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
+hovering: true
+faceTarget: true
+health: 600
+armor: 4
+speed: 1.7
+mineWalls: true
+mineSpeed: 14.5
+mineTier: 2
+buildSpeed: 2.75
+accel: 0.1
+drag: 0.075
+groundLayer: 60
+shadowElevation: 0.1
+rotateSpeed: 5.75
+itemCapacity: 25
+outlineColor: 26262F
+fogRadius: 20
+range: 175
+abilities: [
+  {
+    type: ShieldRegenFieldAbility
+    reload: 540
+    range: 85
+    amount: 15
+    max: 850
+  }
+]
+weapons: [
+  {
+    x: -9
+    y: 7.75
+    name: evernight-blade
+    reload: 17.5
+    recoil: 1.5
+    mirror: true
+    rotate: false
+    alternate: false
+    shootSound: blaster
+    layerOffset: -0.002
+      bullet: { 
+      type: BasicBulletType
+      width: 5
+      splashDamageRadius: 15
+      splashDamage: 105
+      lifetime: 35
+      speed: 5
+      smokeEffect:shootSmokeSquare
+      trailColor: D8F18C
+      trailWidth: 3
+      trailLength: 4
+      trailParam: 1.75
+      trailInterval: 6
+      trailEffect: missileTrail
+      backColor: D8F18C
+      hitColor: D8F18C
+      buildingDamageMultiplier: 0.01
+      collidesTeam: true
+      healPercent: 2.25
+    }
+  }
+  {
+    x: 0
+    y: -4.5
+    name: evernight-mount
+    reload: 52.5
+    rotate: true
+    mirror: false
+    shootSound: electric-discharge
+    rotateSpeed: 3.15
+    bullet: {
+    type: LightningBulletType
+        lightningLength: 16
+        damage: 37.5
+        pierce: false
+        pierceBuilding: false
+        lightningColor: D8F18C
+        }
+  }
+]
+research: 14n-04-sepia

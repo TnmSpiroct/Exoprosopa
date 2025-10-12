@@ -2,7 +2,7 @@ type: CoreBlock
 size: 2
 health: 2000
 armor: 1
-unitType: 14n-04-suzuran
+unitType: 14n-04-uzuran
 incinerateNonBuildable: true
 category: effect
 squareSprite: false

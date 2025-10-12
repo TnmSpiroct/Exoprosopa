@@ -29,7 +29,7 @@ drawer: {
 }
 consumes: {
   items: [
-    01a-07-item-clevorite/1
+    01a-03-item-lamine/1
   ]
   liquids: [
     02b-08-nucliogen/0.125

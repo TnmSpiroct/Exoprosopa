@@ -1,11 +1,17 @@
+# Statistic
 boilPoint: 0.5
-color: d488ea
 heatCapacity: 0.3
+# Color
+color: d488ea
+# Research tree
 research: {
+  # position in the techtree
   parent: 0002-liquid
   objectives: [
+    # research .... first to unlock this liquid.
     04d-02-elixir-collector,
     {
+        # complete sector .... first to unlock this liquid.
       type: OnComplete
       preset: 19s-01-newgrounds
     }

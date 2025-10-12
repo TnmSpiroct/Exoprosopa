@@ -1,17 +1,26 @@
+# Type of crafter
 type: GenericCrafter
+# Size of blocks
 size: 3
+# Health point
 health: 650
+# Tab category
 category: crafting
+# Maximum item capacity
 itemCapacity: 20
+# Build cost
 requirements: [
   01a-01-item-cobalt/110
   01a-02-item-nickel/60
 ]
+# Crafting time
+# This blocks has a craftTime of 100 ticks, that means it will produces 5 aluminium every 1.66 seconds.
 craftTime: 100
 craftEffect: none
 outputItems: [
   01a-05-item-aluminium/5
 ]
+# Crafting requirements
 consumes: {
   items: [
     01a-03-item-anthracite/2
@@ -19,25 +28,34 @@ consumes: {
   ]
   power: 3
 }
+# Drawers
+# I usually uses drawMulti because most of my blocks includes liquids which mostly use bottom sprites.
 drawer: {
   type: DrawMulti
   drawers: [
+    # Start from the bottom one, i use -bottom sprite for a base
     {
       type: DrawRegion
       suffix: -bottom
     }
+    # You can add effect on your blocks to prevent repetitive looking factory.
     {
       type: DrawCrucibleFlame
     }
+    # Then add the main sprites on top, overlapping the -bottom sprite
     {
       type: DrawDefault
     }
   ]
 }
+# Sound when operated
 ambientSound: smelter
 ambientSoundVolume: 0.6
+# Is the sprite touching all of the edges?
 squareSprite: false
+# Research tree
 research: 0003-factory
+# Research cost
 researchCost: [
   01a-01-item-cobalt/30
   01a-02-item-nickel/15

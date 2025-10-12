@@ -1,0 +1,30 @@
+type: Wall
+size: 2
+health: 3000
+armor: 10
+requirements: [
+  01a-03-item-lamine/16
+]
+research: 08h-06-lamine-wall-small
+researchCostMultiplier: 0.5
+buildCostMultiplier: 1.5
+category: defense
+destroyBullet: {
+  instantDisappear: true
+  damage: 0
+  speed: 0
+  fragBullets: 12
+  fragBullet: {
+    type: BasicBulletType
+    speed: 4
+    lifetime: 40
+    pierce: true
+    width: 6
+    height: 7
+    pierceCap: 1
+    homingPower: 0.1
+    damage: 55
+    mixColorFrom: 594e6b
+    mixColorTo: 2e293a
+  }
+}

@@ -19,7 +19,7 @@ health: 450
 armor: 3
 speed: 1.3
 mineWalls: true
-mineSpeed: 17.5
+mineSpeed: 13.5
 mineTier: 1
 buildSpeed: 2.25
 accel: 0.09
@@ -84,3 +84,4 @@ weapons: [
     }
   }
 ]
+research: 14n-04-coronis

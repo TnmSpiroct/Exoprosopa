@@ -1,0 +1,54 @@
+type: GenericCrafter
+name: Blast Chamber
+description: Blasts clevorite into lamine in large amount, requires ichor and high amount of power.
+size: 4
+liquidCapacity: 180
+hasLiquids: true
+health: 1000
+category: crafting
+research: 09i-04-laminator
+itemCapacity: 20
+researchCostMultiplier: 1
+requirements: [
+  01a-02-item-nickel/120
+  01a-05-item-aluminium/100
+  01a-06-item-chromium/80
+  01a-03-item-lamine/35
+]
+craftTime: 120
+craftEffect: none
+outputItems: [
+  01a-03-item-lamine/3
+]
+consumes: {
+  items: [
+    01a-07-item-clevorite/1
+  ]
+  liquids: [
+    02b-02-ichor/0.25
+  ]
+  power: 8.3333333333333
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padding: 3
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawRegion
+    }
+  ]
+}
+ambientSound: smelter
+ambientSoundVolume: 0.6
+squareSprite: false
