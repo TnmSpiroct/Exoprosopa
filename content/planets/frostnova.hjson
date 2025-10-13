@@ -58,7 +58,7 @@ orbitTime: 3000
 orbitSpacing: 3.5
 
 allowLaunchSchematics: false
-allowLaunchToNumbered: true
+allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 allowSelfSectorLaunch: true
