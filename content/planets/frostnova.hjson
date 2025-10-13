@@ -1,6 +1,9 @@
 generator: "PlanetGenerator"
 localizedName: Frostnova
 description: The rampant, filled with dangerous natives.
+accessible: true
+visible: true
+alwaysUnlocked: true
 mesh: [
     {
     //cobaltbiome
@@ -47,28 +50,26 @@ cloudMesh: [
 radius: 1.2
 startSector: 0
 sectorSize: 3
+minZoom: 0.8
 
-orbitRadius: 78
-orbitOffset: 102
+orbitRadius: 80
+orbitOffset: 100
 orbitTime: 3000
 orbitSpacing: 3.5
-minZoom: 1
 
 allowLaunchSchematics: false
-allowLaunchToNumbered: false
+allowLaunchToNumbered: true
 allowLaunchLoadout: false
 allowSectorInvasion: false
+allowSelfSectorLaunch: true
 allowCampaignRules: true
 
 hasAtmosphere: true
 iconColor: 98c1f5
-accessible: true
-visible: true
-alwaysUnlocked: true
-
+landCloudColor: e2effc60
 updateLighting: false
 bloom: false
-icon: command-rally
+icon: commandRally
 
 clearSectorOnLose: true
 prebuildBase: true
@@ -78,13 +79,15 @@ solarSystem: sun
 tidalLock: true
 
 enemyBuildSpeedMultiplier: 0.7
-campaignRules.fog: true
-campaignRules.showSpawns: true
-campaignRules.rtsAI: true
+coreDestroyClear: true
+attributes: exosphere
+fog: true
+showSpawns: true
+rtsAI: true
+
 campaignRuleDefaults.fog: true
 campaignRuleDefaults.showSpawns: true
 campaignRuleDefaults.rtsAI: true
-coreDestroyClear: true
 
 launchCandidates: []
 itemWhitelist: [
