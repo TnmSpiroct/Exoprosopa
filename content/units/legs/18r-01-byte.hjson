@@ -15,7 +15,7 @@ research: {
   objectives: [
     {
       type: Research
-      content: 10j-02-unitconstructor-ship
+      content: 10j-03-v-unitconstructor-legs
     }
   ]
 }
