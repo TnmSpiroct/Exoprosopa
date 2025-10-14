@@ -4,7 +4,7 @@ liquidCapacity: 60
 hasLiquids: true
 health: 850
 category: crafting
-research: 09i-04-a-terra-basin
+research: 0003-factory
 itemCapacity: 20
 researchCostMultiplier: 0.75
 requirements: [
