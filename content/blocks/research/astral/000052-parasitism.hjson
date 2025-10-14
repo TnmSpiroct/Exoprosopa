@@ -1,5 +1,3 @@
 show: false
-name: Parasitism
-description: Focused on ramming-based units. Unlocks Reemux.
 research: 00005-ability
 alwaysUnlocked: true

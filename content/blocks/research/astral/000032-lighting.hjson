@@ -1,5 +1,3 @@
 show: false
-name: Electrology
-description: Focused on electric weaponry and generator. Unlocks Dashik and Thunder.
 research: 00003-elemental
 alwaysUnlocked: true

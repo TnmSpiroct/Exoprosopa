@@ -1,5 +1,3 @@
 show: false
-name: Oceanology
-description: Focused on aquatic technology and military. Unlocks Nautilus.
 research: 000012-anchor
 alwaysUnlocked: true

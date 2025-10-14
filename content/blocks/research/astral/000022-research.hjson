@@ -1,5 +1,3 @@
 show: false
-name: Observatory
-description: Focused on high-tech production blocks. Unlocks Core: Exia
 research: 00002-logistic
 alwaysUnlocked: true

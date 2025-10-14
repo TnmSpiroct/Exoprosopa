@@ -1,5 +1,3 @@
 show: false
-name: Electrolysis
-description: Focused on energy-type blocks and units. Unlocks Thanatos.
 research: 000032-lighting
 alwaysUnlocked: true

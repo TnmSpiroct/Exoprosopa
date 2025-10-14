@@ -1,5 +1,3 @@
 show: false
-name: Fortification
-description: Focused on crowd-control ability. Unlocks Xacia and Beetle.
 research: 000021-defence
 alwaysUnlocked: true

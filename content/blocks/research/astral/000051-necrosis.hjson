@@ -1,5 +1,3 @@
 show: false
-name: Regeneration
-description: Focused on regeneration ability and units. Unlocks Core: Destiny and Cromax.
 research: 00005-ability
 alwaysUnlocked: true

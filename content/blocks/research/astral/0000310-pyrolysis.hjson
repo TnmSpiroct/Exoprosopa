@@ -1,5 +1,3 @@
 show: false
-name: Pyrolisis
-description: Focused on pyrotech tactics and units. Unlocks Phoenix.
 research: 000031-flame
 alwaysUnlocked: true
