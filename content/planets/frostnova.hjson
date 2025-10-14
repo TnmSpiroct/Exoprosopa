@@ -58,7 +58,7 @@ orbitTime: 3000
 orbitSpacing: 3.5
 
 allowLaunchSchematics: false
-allowLaunchToNumbered: true
+allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 allowSelfSectorLaunch: true
@@ -69,7 +69,6 @@ iconColor: 98c1f5
 landCloudColor: e2effc60
 updateLighting: false
 bloom: false
-icon: commandRally
 lighting: true
 
 clearSectorOnLose: true
