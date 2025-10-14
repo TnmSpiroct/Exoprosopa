@@ -50,7 +50,7 @@ cloudMesh: [
 radius: 1.2
 startSector: 0
 sectorSize: 3
-minZoom: 0.8
+minZoom: 0.5
 
 orbitRadius: 80
 orbitOffset: 100
@@ -58,7 +58,7 @@ orbitTime: 3000
 orbitSpacing: 3.5
 
 allowLaunchSchematics: false
-allowLaunchToNumbered: false
+allowLaunchToNumbered: true
 allowLaunchLoadout: false
 allowSectorInvasion: false
 allowSelfSectorLaunch: true
@@ -70,6 +70,7 @@ landCloudColor: e2effc60
 updateLighting: false
 bloom: false
 icon: commandRally
+lighting: true
 
 clearSectorOnLose: true
 prebuildBase: true
@@ -80,7 +81,6 @@ tidalLock: true
 
 enemyBuildSpeedMultiplier: 0.7
 coreDestroyClear: true
-attributes: exosphere
 fog: true
 showSpawns: true
 rtsAI: true
