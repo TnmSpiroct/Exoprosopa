@@ -3,12 +3,12 @@ difficulty: 6
 planet: frostnova
 sector: 54
 research: {
-  parent: 19s-06-crest
+  parent: 19s-03-hostile-outpost
   objectives: [
     04d-04-bore-jet,
     {
       type: SectorComplete
-      preset: 19s-06-crest
+      preset: 19s-03-hostile-outpost
     }
   ]
 }

@@ -5,7 +5,7 @@ hasLiquids: true
 health: 1000
 category: crafting
 research: {
-  parent: 09i-02-elixir-converter
+  parent: 0003-factory
   objectives: [
     {
       type: OnSector
