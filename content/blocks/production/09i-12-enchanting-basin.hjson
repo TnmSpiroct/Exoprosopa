@@ -4,7 +4,7 @@ liquidCapacity: 120
 hasLiquids: true
 health: 1000
 category: crafting
-research: 09i-04-a-terra-basin
+research: 0003-factory
 itemCapacity: 20
 researchCost: [
   01a-02-item-nickel/7500

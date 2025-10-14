@@ -4,7 +4,7 @@ liquidCapacity: 120
 hasLiquids: true
 health: 850
 category: crafting
-research: 09i-11-morphite-crystallizer
+research: 09i-11-morphifier-crystallizer
 itemCapacity: 10
 researchCost: [
   01a-05-item-aluminium/4000

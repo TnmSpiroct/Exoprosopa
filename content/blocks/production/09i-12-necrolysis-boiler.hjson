@@ -6,7 +6,7 @@ liquidCapacity: 90
 hasLiquids: true
 health: 1000
 category: crafting
-research: 09i-12-enchanting-basin
+research: 09i-12-gravitix-chamber-core
 itemCapacity: 30
 researchCost: [
   01a-02-item-nickel/8000

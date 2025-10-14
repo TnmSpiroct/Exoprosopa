@@ -4,7 +4,7 @@ liquidCapacity: 30
 hasLiquids: true
 health: 1250
 category: crafting
-research: 09i-04-a-terra-basin
+research: 09i-04-u-aquafilter
 itemCapacity: 30
 researchCostMultiplier: 0.4
 requirements: [
