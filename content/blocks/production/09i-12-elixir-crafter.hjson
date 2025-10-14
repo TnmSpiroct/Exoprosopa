@@ -1,6 +1,4 @@
 type: AttributeCrafter
-name: Biocrafter
-description: Breaks down nucliogen into basic bio-elixir. Works better on nucrid surface.
 health: 850
 size: 3
 research: 09i-12-enchanting-basin

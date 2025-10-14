@@ -1,6 +1,4 @@
 type: mech
-name: Byte
-description: Fires bullets at enemies, shields itself when attacking.
 flying: false
 hitSize: 8
 health: 750

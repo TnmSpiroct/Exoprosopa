@@ -1,7 +1,5 @@
 type: GenericCrafter
 size: 3
-name: Laminator
-description: Creates lamine using anthracite and miasma, requires power.
 liquidCapacity: 60
 hasLiquids: true
 health: 850

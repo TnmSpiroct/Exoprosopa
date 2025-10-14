@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Blast Chamber
-description: Blasts clevorite into lamine in large amount, requires ichor and high amount of power.
 size: 4
 liquidCapacity: 180
 hasLiquids: true

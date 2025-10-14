@@ -1,6 +1,4 @@
 type: mech
-name: Matrix
-description: Fires pulsing bullets at enemies, creates strong energy shields to nearby units. Inflict stunned effect to enemies, damages nearby units when destroyed.
 flying: false
 hitSize: 18
 health: 12000

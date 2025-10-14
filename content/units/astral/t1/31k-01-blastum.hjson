@@ -1,6 +1,4 @@
 type: legs
-name: Blastum
-description: Explode violently damaging enemies in area.
 legCount: 4
 lockLegBase: true
 legExtension: -2

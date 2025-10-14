@@ -1,6 +1,4 @@
 type: flying
-name: Beth
-description: Protects the Astral core, can mine and build. Astral exclusive units.
 flying: true
 controller: BuilderAI
 faceTarget: true

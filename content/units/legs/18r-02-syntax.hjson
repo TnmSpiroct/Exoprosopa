@@ -1,6 +1,4 @@
 type: mech
-name: Syntax
-description: Fires electric orbs at enemies, inflict stunned effect to enemies.
 flying: false
 hitSize: 8
 health: 1970

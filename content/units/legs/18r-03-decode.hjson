@@ -1,6 +1,4 @@
 type: mech
-name: Decode
-description: Fires piercing laser at enemies, creates shield when attacking. Inflict stunned effect to enemies.
 flying: false
 hitSize: 8
 health: 4150

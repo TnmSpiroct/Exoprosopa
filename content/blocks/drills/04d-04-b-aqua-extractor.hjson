@@ -1,6 +1,4 @@
 type: AttributeCrafter
-name: Aqua Extractor
-description: Extract aquanite from floor, requires hydryite and power.
 size: 2
 attribute: aquanite
 baseEfficiency: 0

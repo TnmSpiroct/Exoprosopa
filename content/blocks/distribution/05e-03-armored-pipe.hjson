@@ -1,6 +1,4 @@
 type: Duct
-name: Bloodstone Pipe
-description: Moves items forward, does not accept non-pipes inputs from the sides. Decently armored.
 size: 1
 armored: true
 health: 500

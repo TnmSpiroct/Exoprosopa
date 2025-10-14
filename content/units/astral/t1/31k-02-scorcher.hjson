@@ -1,6 +1,4 @@
 type: crawl
-name: Scorcher
-description: Fires flames at enemies.
 speed: 0.95
 health: 260
 armor: 4

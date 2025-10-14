@@ -1,6 +1,4 @@
 type: legs
-name: Locust
-description: Protects the Ultimatum Core, can build and retrieve resources faster. Equipped with additional mount weapon.
 controller: BuilderAI
 legCount: 6
 lockLegBase: true
