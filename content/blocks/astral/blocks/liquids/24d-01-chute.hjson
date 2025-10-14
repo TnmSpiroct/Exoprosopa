@@ -7,7 +7,7 @@ health: 75
 junctionReplacement: 24d-02-chute-junction
 rotBridgeReplacement: 24d-03-chute-router
 solid: false
-research: 00001-liquid
+research: 00002-logistic
 researchCost: [
   01a-21-item-gryphic/75
 ]
