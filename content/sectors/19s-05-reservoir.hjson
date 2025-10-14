@@ -4,7 +4,7 @@ sector: 6
 research: {
   parent: 19s-01-newgrounds
   objectives: [
-    07g-01-powerline,
+    07g-03-burner-generator,
     11k-06-illuminator,
     {
       type: SectorComplete

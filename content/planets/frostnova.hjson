@@ -10,7 +10,7 @@ mesh: [
     type: NoiseMesh
     planet: frostnova
     divisions: 5
-    seed: 78
+    seed: 76
     radius: 1.120
     color1: 252d40
     color2: 384d6c
