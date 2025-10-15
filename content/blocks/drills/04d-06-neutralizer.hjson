@@ -49,4 +49,3 @@ requirements: [
 squareSprite: false
 research: 04d-05-ichor-rig
 researchCostMultiplier: 0.5
-buildVisibility: sandboxOnly

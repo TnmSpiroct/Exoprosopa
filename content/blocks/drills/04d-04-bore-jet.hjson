@@ -4,7 +4,7 @@ health: 650
 hardnessDrillMultiplier: 200
 category: production
 research: {
-  parent: 0004-drill
+  parent: 04d-03-ore-extractor
   objectives: [
     {
       type: OnSector
