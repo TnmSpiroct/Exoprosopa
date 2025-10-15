@@ -8,7 +8,7 @@ health: 500
 junctionReplacement: 06f-02-seaduct-junction
 rotBridgeReplacement: 06f-04-m-clevoritebridge
 solid: false
-research: 06f-01-a-sea-conduit
+research: 06f-03-seaduct-router
 researchCost: [
   01a-01-item-cobalt/750
   01a-07-item-clevorite/75
