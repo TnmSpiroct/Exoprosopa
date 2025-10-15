@@ -5,7 +5,7 @@ hasLiquids: true
 health: 1000
 category: crafting
 research: {
-  parent: 0003-factory
+  parent: 09i-02-f-elixir-autofreezer
   objectives: [
     {
       type: OnSector
