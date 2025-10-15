@@ -3,7 +3,7 @@ size: 2
 health: 450
 itemCapacity: 150
 category: effect
-research: 05e-10-pipeline-overflow
+research: 05e-08-pipeline-sorter
 requirements: [
   01a-01-item-cobalt/30
   01a-06-item-chromium/70
