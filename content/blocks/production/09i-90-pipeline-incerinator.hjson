@@ -7,7 +7,7 @@ consumes: {
 }
 category: crafting
 research: {
-  parent: 05e-06-splitter
+  parent: 09i-01-aluminium-furnace
   objectives: [
     01a-04-item-tantra-sand,
     {
