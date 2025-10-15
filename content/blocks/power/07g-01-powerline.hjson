@@ -8,7 +8,7 @@ researchCost: [
   01a-01-item-cobalt/3
 ]
 category: power
-research: 0007-power
+research: 04d-01-pressure-generator
 requirements: [
   01a-01-item-cobalt/6
 ]
