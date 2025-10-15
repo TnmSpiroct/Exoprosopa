@@ -5,6 +5,6 @@ health: 220
 requirements: [
   01a-21-item-gryphic/8
 ]
-research: 00021-defence
+research: 000021-defence
 researchCostMultiplier: 0.5
 category: defense

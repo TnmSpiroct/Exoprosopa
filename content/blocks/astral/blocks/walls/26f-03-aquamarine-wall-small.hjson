@@ -5,6 +5,6 @@ health: 240
 requirements: [
   01a-03-item-aquashard/8
 ]
-research: 00021-defence
+research: 000021-defence
 researchCostMultiplier: 0.5
 category: defense
