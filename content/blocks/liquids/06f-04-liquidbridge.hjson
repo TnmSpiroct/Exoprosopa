@@ -7,7 +7,7 @@ requirements: [
 ]
 category: liquid
 squareSprite: false
-research: 06f-01-a-sea-conduit
+research: 06f-02-seaduct-junction
 researchCost: [
   01a-01-item-cobalt/10
 ]
