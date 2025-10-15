@@ -2,5 +2,5 @@ color: ff91b3
 hardness: 3
 cost: 1.2
 charge: 0.95
-research: 01a-08-item-petal-flower
+research: 01a-07-item-clevorite
 hiddenOnPlanets: [serpulo, erekir]
