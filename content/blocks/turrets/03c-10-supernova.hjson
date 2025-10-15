@@ -17,6 +17,7 @@ requirements: [
   01a-11-item-pyroxene/350
 ]
 category: turret
+buildVisibility: sandboxOnly
 recoil: 1
 outlineColor: 2C2A36
 targetAir: true
