@@ -276,7 +276,7 @@ drawer: {
   type: DrawTurret
   basePrefix: calamity-
 }
-research: 03c-01-impale
+research: 03c-02-anvil
 researchCost: [
   01a-01-item-cobalt/1800
   01a-02-item-nickel/1400

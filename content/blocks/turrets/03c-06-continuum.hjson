@@ -56,7 +56,7 @@ drawer: {
     }
   ]
 }
-research: 03c-03-vulcan
+research: 03c-03-a-spewer
 researchCost: [
   01a-02-item-nickel/15000
   01a-05-item-aluminium/11000

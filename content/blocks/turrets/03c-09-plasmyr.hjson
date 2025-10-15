@@ -30,7 +30,7 @@ researchCost: [
   01a-11-item-pyroxene/250
 ]
 # Previous research
-research: 03c-04-b-subsonic
+research: 03c-08-shigure
 consumes: {
   power: 12
 }

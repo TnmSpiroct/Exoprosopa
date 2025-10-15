@@ -90,7 +90,7 @@ drawer: {
   type: DrawTurret
   basePrefix: ox-
   }
-research: 03c-02-calamity
+research: 03c-04-a-canace
 researchCost: [
   01a-02-item-nickel/8000
   01a-05-item-aluminium/5000
