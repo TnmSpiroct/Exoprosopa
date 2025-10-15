@@ -23,7 +23,7 @@ consumes: {
 ambientSound: hum
 ambientSoundVolume: 0.08
 category: crafting
-research: 09i-04-lamine-chamber
+research: 09i-11-o-radiative-heater
 requirements: [
   01a-06-item-chromium/30
   01a-07-item-clevorite/20
