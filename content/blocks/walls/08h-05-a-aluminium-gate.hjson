@@ -6,6 +6,6 @@ requirements: [
   01a-05-item-aluminium/24
   01a-06-item-chromium/12
 ]
-research: 08h-02-cobalt-wall-large
+research: 08h-03-chromium-wall-small
 researchCostMultiplier: 0.5
 category: defense
