@@ -23,7 +23,7 @@ researchCost: [
   01a-06-item-chromium/100
 ]
 research: {
-  parent: 05e-07-mechanical-bridge
+  parent: 05e-02-chromium-pipe
   objectives: [
     {
       type: OnSector
