@@ -12,7 +12,7 @@ requirements: [
 ]
 squareSprite: false
 category: effect
-research: 11k-05-a-enforcer
+research: 11k-05-holoshield
 drawer: {
   type: DrawMulti
   drawers: [

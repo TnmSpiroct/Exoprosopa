@@ -1,5 +1,4 @@
 type: tether
-description: Mounts units from Assembly Bays.
 flying: true
 drag: 0.06
 accel: 0.11

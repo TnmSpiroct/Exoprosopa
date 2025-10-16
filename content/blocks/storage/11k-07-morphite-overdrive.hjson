@@ -2,7 +2,7 @@ type: OverdriveProjector
 size: 2
 health: 850
 category: effect
-research: 0011-effect
+research: 11k-05-holoshield
 researchCostMultiplier: 1
 requirements: [
   01a-02-item-nickel/275

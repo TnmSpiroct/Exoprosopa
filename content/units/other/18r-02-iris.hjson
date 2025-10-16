@@ -1,5 +1,4 @@
 type: tether
-description: Used for moving items from a base station to a drop point.
 flying: true
 controller: CargoAI
 isEnemy: false
