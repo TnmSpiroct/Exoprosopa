@@ -28,7 +28,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      content: 19s-04-foggy-fields
+      preset: 19s-04-foggy-fields
     }
   ]
 }
