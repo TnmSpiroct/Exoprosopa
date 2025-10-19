@@ -27,8 +27,8 @@ research: {
   parent: 0010-fabricator
   objectives: [
     {
-      type: Research
-      content: 10j-03-unitconstructor-mech
+      type: OnSector
+      content: 19s-04-foggy-fields
     }
   ]
 }
