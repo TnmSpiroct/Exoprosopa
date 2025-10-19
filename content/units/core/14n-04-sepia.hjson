@@ -84,4 +84,13 @@ weapons: [
     }
   }
 ]
-research: 14n-04-coronis
+research: {
+  parent: 14n-04-coronis
+  objectives: [
+    11k-04-a-core-crest,
+    {
+      type: SectorComplete
+      preset: 19s-08-botanical-garden
+    }
+  ]
+}
