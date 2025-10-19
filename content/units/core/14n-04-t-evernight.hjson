@@ -92,4 +92,4 @@ weapons: [
         }
   }
 ]
-research: 14n-04-sepia
+parent: 14n-04-sepia
