@@ -1,7 +1,7 @@
 captureWave: 16
 difficulty: 6
 planet: frostnova
-sector: 54
+sector: 15
 research: {
   parent: 19s-03-hostile-outpost
   objectives: [

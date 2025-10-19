@@ -1,6 +1,6 @@
 difficulty: 4
 planet: frostnova
-sector: 8
+sector: 219
 research: {
   parent: 19s-07-cliffside
   objectives: [

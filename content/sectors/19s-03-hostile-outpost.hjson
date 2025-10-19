@@ -1,6 +1,6 @@
 difficulty: 3
 planet: frostnova
-sector: 27
+sector: 173
 research: {
   parent: 19s-03-a-luminary
   objectives: [

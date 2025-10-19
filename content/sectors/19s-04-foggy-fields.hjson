@@ -1,6 +1,6 @@
 difficulty: 6
 planet: frostnova
-sector: 20
+sector: 166
 research: {
   parent: 19s-05-reservoir
   objectives: [

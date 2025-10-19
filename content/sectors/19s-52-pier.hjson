@@ -1,7 +1,7 @@
 captureWave: 20
 difficulty: 10
 planet: frostnova
-sector: 3
+sector: 99
 research: {
   parent: 19s-13-marshlands
   objectives: [
