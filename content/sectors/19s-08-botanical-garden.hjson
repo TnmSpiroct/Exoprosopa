@@ -2,12 +2,12 @@ difficulty: 4
 planet: frostnova
 sector: 219
 research: {
-  parent: 19s-07-cliffside
+  parent: 19s-06-crest
   objectives: [
     11k-04-a-core-crest,
     {
       type: SectorComplete
-      preset: 19s-07-cliffside
+      preset: 19s-06-crest
     }
   ]
 }
