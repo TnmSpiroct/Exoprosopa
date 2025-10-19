@@ -33,7 +33,7 @@ This mod requires newest mindustry build to be played (Beta 152.2)
 ## Changelogs - V0.8 Endgame Udpate
 </div>
 
-- Add New Sectors:
+- Add New Sectors [WIP]:
   - Polarstation
   - Hotspring 227
   - Pilgrim Military Site
@@ -41,12 +41,12 @@ This mod requires newest mindustry build to be played (Beta 152.2)
   - Horizon's Edge
   - Alpha Frontier
 - Revamped Sectors: 
-  - Sealed Outpost > Encampment
-  - Reservoir > Abandoned Reservoir
-  - Botanical Garden >
-  - Crest > 
+  - Sealed Outpost > Encampment [Published]
+  - Reservoir > Abandoned Reservoir [onGoing]
+  - Botanical Garden [onGoing]
+  - Crest [onGoing]
 - Deleted Sector: 
-  - Ridgeline
+  - Ridgeline [noClearPurpose]
 - Added Midgame Turrets
 - 2 New Endgame Turrets
 - Cost Changes in Logic-Related Blocks
@@ -68,4 +68,5 @@ This mod requires newest mindustry build to be played (Beta 152.2)
 - Fixes Several Crash
 - Revamped Gravitix
 <br>
+
 <br>
