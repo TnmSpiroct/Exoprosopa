@@ -6,5 +6,6 @@ requirements: [
   01a-06-item-chromium/6
 ]
 research: 08h-01-cobalt-wall-small
-researchCostMultiplier: 0.5
+researchCost: [
+  01a-06-item-chromium/700
 category: defense
