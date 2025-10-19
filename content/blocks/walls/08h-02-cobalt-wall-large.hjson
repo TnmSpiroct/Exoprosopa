@@ -6,5 +6,7 @@ requirements: [
   01a-01-item-cobalt/24
 ]
 research: 08h-01-cobalt-wall-small
-researchCostMultiplier: 0.5
+researchCost: [
+  01a-01-item-cobalt/600
+]
 category: defense
