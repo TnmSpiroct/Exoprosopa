@@ -3,11 +3,11 @@ difficulty: 10
 planet: frostnova
 sector: 218
 research: {
-  parent: 19s-13-marshlands
+  parent: 19s-08-botanical-garden
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-13-marshlands
+      preset: 19s-08-botanical-garden
     }
   ]
 }

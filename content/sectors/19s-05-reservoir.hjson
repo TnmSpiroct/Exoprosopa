@@ -2,10 +2,8 @@ difficulty: 4
 planet: frostnova
 sector: 36
 research: {
-  parent: 19s-01-newgrounds
+  parent: 19s-02-mountain-ridge
   objectives: [
-    07g-03-burner-generator,
-    11k-06-illuminator,
     {
       type: SectorComplete
       preset: 19s-02-mountain-ridge

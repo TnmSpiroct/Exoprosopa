@@ -2,11 +2,11 @@ difficulty: 6
 planet: frostnova
 sector: 166
 research: {
-  parent: 19s-05-reservoir
+  parent: 19s-03-a-luminary
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-05-reservoir
+      preset: 19s-03-a-luminary
     }
   ]
 }

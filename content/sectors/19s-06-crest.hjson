@@ -2,11 +2,11 @@ difficulty: 3
 planet: frostnova
 sector: 175
 research: {
-  parent: 19s-04-foggy-fields
+  parent: 19s-07-cliffside
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-04-foggy-fields
+      preset: 19s-07-cliffside
     }
   ]
 }

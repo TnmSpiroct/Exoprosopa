@@ -3,12 +3,12 @@ difficulty: 8
 planet: frostnova
 sector: 214
 research: {
-  parent: 19s-10-cornerstone
+  parent: 19s-12-hazardous-wasteland
   objectives: [
     11k-07-buoy,
     {
       type: SectorComplete
-      preset: 19s-10-cornerstone
+      preset: 19s-12-hazardous-wasteland
     }
   ]
 }
