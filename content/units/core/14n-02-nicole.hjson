@@ -64,7 +64,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-51-ridgeline
+      preset: 19s-52-pier
     }
   ]
 }
