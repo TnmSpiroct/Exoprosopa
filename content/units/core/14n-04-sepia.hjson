@@ -90,7 +90,7 @@ research: {
     11k-04-a-core-crest,
     {
       type: SectorComplete
-      preset: 19s-08-botanical-garden
+      preset: 19s-99-ending
     }
   ]
 }
