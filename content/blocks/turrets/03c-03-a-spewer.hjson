@@ -10,7 +10,7 @@ outlineColor: 2C2A36
 recoil: 0.5
 category: turret
 research: 03c-02-earthquake
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.4
 range: 175
 requirements: [
   01a-02-item-nickel/350
