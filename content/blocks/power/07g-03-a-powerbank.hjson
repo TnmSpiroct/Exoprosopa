@@ -12,5 +12,5 @@ requirements: [
 ]
 category: power
 research: 07g-02-m-small-powerbank
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.4
 fogRadius: 1
