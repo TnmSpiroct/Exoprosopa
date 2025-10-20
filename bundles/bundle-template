@@ -42,17 +42,20 @@ sector.exoprosopa-19s-07-cliffside.description =
 sector.exoprosopa-19s-08-botanical-garden.name = 
 sector.exoprosopa-19s-08-botanical-garden.description = 
 
+sector.exoprosopa-19s-71-precipice.name = 
+sector.exoprosopa-19s-71-precipice.description = 
+
 sector.exoprosopa-19s-09-escarpment.name = 
 sector.exoprosopa-19s-09-escarpment.description = 
 
 sector.exoprosopa-19s-10-cornerstone.name = 
 sector.exoprosopa-19s-10-cornerstone.description = 
 
-sector.exoprosopa-19s-11-creek.name = 
-sector.exoprosopa-19s-11-creek.description = 
-
 sector.exoprosopa-19s-12-hazardous-wasteland.name = 
 sector.exoprosopa-19s-12-hazardous-wasteland.description = 
+
+sector.exoprosopa-19s-11-creek.name = 
+sector.exoprosopa-19s-11-creek.description = 
 
 sector.exoprosopa-19s-13-marshlands.name = 
 sector.exoprosopa-19s-13-marshlands.description = 
@@ -60,14 +63,14 @@ sector.exoprosopa-19s-13-marshlands.description =
 sector.exoprosopa-19s-14-trekker-campsite.name = 
 sector.exoprosopa-19s-14-trekker-campsite.description = 
 
-sector.exoprosopa-19s-51-ridgeline.name = 
-sector.exoprosopa-19s-51-ridgeline.description = 
-
-sector.exoprosopa-19s-71-precipice.name = 
-sector.exoprosopa-19s-71-precipice.description = 
-
 sector.exoprosopa-19s-52-pier.name = 
 sector.exoprosopa-19s-52-pier.description = 
+
+sector.exoprosopa-19s-23-eridanus.name = 
+sector.exoprosopa-19s-23-eridanus.description = 
+
+# sector.exoprosopa-19s-51-ridgeline.name = 
+# sector.exoprosopa-19s-51-ridgeline.description = 
 
 sector.exoprosopa-19s-99-ending.name = 
 sector.exoprosopa-19s-99-ending.description = 
@@ -285,6 +288,9 @@ block.exoprosopa-06f-05-a-morph-liquidbridge.description =
 
 block.exoprosopa-06f-05-jet-pump.name = 
 block.exoprosopa-06f-05-jet-pump.description = 
+
+block.exoprosopa-06f-05-pump.name = 
+block.exoprosopa-06f-05-pump.description = 
 
 block.exoprosopa-06f-06-aqua-container.name = 
 block.exoprosopa-06f-06-aqua-container.description = 
