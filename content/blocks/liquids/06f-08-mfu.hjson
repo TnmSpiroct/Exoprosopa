@@ -4,7 +4,7 @@ liquidCapacity: 240
 hasLiquids: true
 health: 850
 category: liquid
-research: 06f-01-b-aqua-conduit
+research: 06f-01-a-sea-conduit
 itemCapacity: 20
 researchCostMultiplier: 0.5
 requirements: [

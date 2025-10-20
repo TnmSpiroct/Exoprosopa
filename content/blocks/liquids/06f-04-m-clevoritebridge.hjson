@@ -8,5 +8,5 @@ requirements: [
 ]
 category: liquid
 squareSprite: false
-research: 06f-04-liquidbridge
+research: 06f-01-b-aqua-conduit
 researchCostMultiplier: 0.5
