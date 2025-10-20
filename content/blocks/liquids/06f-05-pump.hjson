@@ -1,0 +1,17 @@
+type: Pump
+health: 850
+size: 3
+category: liquid
+squareSprite: false
+requirements: [
+  01a-05-item-aluminium/80
+  01a-06-item-chromium/65
+  01a-07-item-clevorite/25
+  01a-08-item-petal/75
+]
+pumpAmount: 0.08888888889
+consumes: {
+  power: 2
+}
+researchCostMultiplier: 1
+research: 06f-05-jet-pump
