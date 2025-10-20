@@ -2,5 +2,5 @@ color: FFD5E2
 hardness: 3
 cost: 0.5
 charge: 0.75
-research: 01a-05-item-aluminium
+research: 01a-07-item-clevorite
 hiddenOnPlanets: [serpulo, erekir]

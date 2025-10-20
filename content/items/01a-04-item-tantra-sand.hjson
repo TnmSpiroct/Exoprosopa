@@ -3,7 +3,7 @@ cost: 0.2
 buildable: false
 lowPriority: true
 research: {
-  parent: 01a-01-item-cobalt
+  parent: 01a-02-item-nickel
   objectives: [
     {
       type: SectorComplete

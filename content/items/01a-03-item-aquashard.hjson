@@ -2,5 +2,5 @@ color: 72ccbd
 hardness: 1
 lowPriority: true
 cost: 0.3
-research: 01a-04-item-tantra-sand
+research: 01a-06-item-chromium
 hiddenOnPlanets: [serpulo, erekir]
