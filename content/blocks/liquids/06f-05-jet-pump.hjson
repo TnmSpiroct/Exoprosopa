@@ -22,7 +22,7 @@ researchCost: [
   01a-06-item-chromium/750
 ]
 research: {
-  parent: 06f-01-a-sea-conduit
+  parent: 06f-03-seaduct-router
   objectives: [
     {
       type: OnSector
