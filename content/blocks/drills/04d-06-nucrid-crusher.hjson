@@ -2,7 +2,7 @@ type: WallCrafter
 health: 650
 size: 2
 category: production
-research: 04d-04-a-wall-extractor
+research: 04d-03-r-ore-blaster
 consumes: {
   power: 0.25
 }

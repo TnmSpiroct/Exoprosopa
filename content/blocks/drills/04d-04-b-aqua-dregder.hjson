@@ -3,7 +3,7 @@ health: 450
 size: 2
 category: production
 research: {
-  parent: 04d-04-a-wall-extractor
+  parent: 04d-03-ore-extractor
   objectives: [
     {
       type: OnSector
