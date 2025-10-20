@@ -103,4 +103,8 @@ drawer: {
   ]
 }
 research: 03c-02-calamity
-researchCostMultiplier: 0.4
+researchCost: [
+  01a-02-item-nickel/3000
+  01a-05-item-aluminium/1600
+  01a-06-item-chromium/600
+]
