@@ -2,7 +2,7 @@ boilPoint: 0.5
 color: 53a999
 heatCapacity: 0.15
 research: {
-  parent: 02b-01-bioliquid
+  parent: 02b-02-a-purified-elixir
   objectives: [
     {
       type: SectorComplete

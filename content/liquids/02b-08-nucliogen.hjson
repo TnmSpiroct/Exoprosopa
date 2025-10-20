@@ -1,4 +1,12 @@
 boilPoint: 0.5
 color: C63B64
 heatCapacity: 0.5
-research: 02b-05-hydrowater
+research: {
+  parent: 02b-02-a-purified-elixir
+  objectives: [
+    {
+      type: OnComplete
+      preset: 19s-99-ending
+    }
+  ]
+}

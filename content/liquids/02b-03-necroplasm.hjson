@@ -2,5 +2,13 @@ boilPoint: 0.7
 color: 60c9ad
 heatCapacity: 0.5
 gasColor: d9e1e6E6
-parent: 02b-01-bioliquid
+research: {
+  parent: 02b-04-miasma
+  objectives: [
+    {
+      type: OnComplete
+      preset: 19s-52-pier
+    }
+  ]
+}
 temperature: 1.3

@@ -2,7 +2,7 @@ boilPoint: 0.85
 heatCapacity: 0.8
 gasColor: d9e1e6E6
 research: {
-  parent: 02b-04-miasma
+  parent: 02b-03-necroplasm
   objectives: [
     {
       type: SectorComplete

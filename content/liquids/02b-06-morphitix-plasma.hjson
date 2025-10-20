@@ -5,4 +5,10 @@ gasColor: d9e1e6E6
 explosiveness: 5
 research: {
   parent: 02b-02-ichor
+  objectives: [
+    {
+      type: OnComplete
+      preset: 19s-99-ending
+    }
+  ]
 }
