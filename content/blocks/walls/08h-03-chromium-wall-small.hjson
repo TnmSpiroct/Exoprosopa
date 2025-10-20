@@ -8,4 +8,5 @@ requirements: [
 research: 08h-01-cobalt-wall-small
 researchCost: [
   01a-06-item-chromium/700
+]
 category: defense

@@ -60,4 +60,8 @@ research: {
     }
   ]
 }
-researchCostMultiplier: 0.5
+researchCost: [
+  01a-01-item-cobalt/350
+  01a-01-item-nickel/500
+  01a-01-item-aluminium/400
+]
