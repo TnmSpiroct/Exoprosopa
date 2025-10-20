@@ -4,7 +4,7 @@ liquidCapacity: 240
 hasLiquids: true
 health: 850
 category: liquid
-research: 06f-03-seaduct-router
+research: 06f-05-jet-pump
 itemCapacity: 20
 researchCostMultiplier: 0.5
 requirements: [
