@@ -55,5 +55,10 @@ drawer: {
 }
 squareSprite: false
 research: 09i-02-elixir-converter
-researchCostMultiplier: 0.5
+researchCost: [
+  01a-01-item-cobalt/1400
+  01a-02-item-nickel/600
+  01a-05-item-aluminium/1600
+  01a-06-item-chromium/800
+]  
 itemCapacity: 20
