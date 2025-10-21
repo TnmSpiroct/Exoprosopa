@@ -23,5 +23,17 @@ consumes: {
   01a-06-item-chromium/40
   ]
 }
-research: 10j-03-v-unitconstructor-legs
-researchCostMultiplier: 0.5
+research: {
+  parent: 10j-03-v-unitconstructor-legs
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-10-cornerstone
+    }
+  ]
+}
+researchCost: [
+  01a-01-item-cobalt/4500
+  01a-05-item-aluminium/3500
+  01a-06-item-chromium/1500
+]
