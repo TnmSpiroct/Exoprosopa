@@ -8,8 +8,8 @@ research: {
   parent: 10j-15-payload-router
   objectives: [
     {
-      type: SectorCompleted
-      preset: 19s-08-botanical-garden
+      type: OnSector
+      preset: 19s-71-precipice
     }
   ]
 }
