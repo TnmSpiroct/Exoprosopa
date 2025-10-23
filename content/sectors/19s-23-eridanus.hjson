@@ -1,0 +1,13 @@
+captureWave: 50
+difficulty: 8
+planet: frostnova
+sector: 38
+research: {
+  parent: 19s-52-pier
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-52-pier
+    }
+  ]
+}
