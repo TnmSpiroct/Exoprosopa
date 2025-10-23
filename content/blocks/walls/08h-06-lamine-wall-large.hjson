@@ -1,9 +1,10 @@
 type: Wall
 size: 2
-health: 3000
+health: 2880
 armor: 10
 requirements: [
   01a-03-item-lamine/16
+  01a-06-item-chromium/12
 ]
 research: 08h-06-lamine-wall-small
 researchCostMultiplier: 0.5

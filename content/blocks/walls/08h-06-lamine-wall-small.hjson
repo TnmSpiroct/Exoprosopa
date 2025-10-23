@@ -1,9 +1,10 @@
 type: Wall
 size: 1
-health: 750
+health: 720
 armor: 6
 requirements: [
   01a-03-item-lamine/4
+  01a-06-item-chromium/3
 ]
 research: 08h-02-cobalt-wall-large
 researchCostMultiplier: 0.5
