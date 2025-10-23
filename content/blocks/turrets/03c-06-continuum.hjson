@@ -10,11 +10,11 @@ consumes: {
   power: 9
 }
 requirements: [
-  01a-02-item-nickel/900
-  01a-05-item-aluminium/600
-  01a-06-item-chromium/450
-  01a-07-item-clevorite/200
-  01a-10-item-bethine/50
+  01a-02-item-nickel/650
+  01a-05-item-aluminium/500
+  01a-06-item-chromium/350
+  01a-07-item-clevorite/150
+  01a-10-item-bethine/80
 ]
 category: turret
 outlineColor: 2C2A36
@@ -28,8 +28,8 @@ shootY: -0.5
 shootType: {
   type: PointLaserBulletType
   buildingDamageMultiplier: 0.5
-  damage: 225
-  hitColor: FF91B3
+  damage: 192.5
+  hitColor: DCC6C6
 }
 drawer: {
   type: DrawTurret
