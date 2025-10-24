@@ -1,12 +1,12 @@
 difficulty: 6
 planet: frostnova
-sector: 166
+sector: 37
 research: {
-  parent: 19s-03-a-luminary
+  parent: 19s-03-hostile-outpost
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-03-a-luminary
+      preset: 19s-03-hostile-outpost
     }
   ]
 }
