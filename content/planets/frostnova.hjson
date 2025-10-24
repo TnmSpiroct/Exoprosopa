@@ -78,7 +78,7 @@ parent: sun
 solarSystem: sun
 tidalLock: true
 
-enemyBuildSpeedMultiplier: 0.7
+enemyBuildSpeedMultiplier: 0.5
 coreDestroyClear: true
 fog: true
 showSpawns: true
