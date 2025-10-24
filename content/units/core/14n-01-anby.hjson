@@ -6,7 +6,7 @@ coreFleeRange: 500
 faceTarget: true
 targetPriority: -2
 targetAir: false
-commands: rebuild
+commands: [rebuild]
 health: 400
 armor: 2
 speed: 4
