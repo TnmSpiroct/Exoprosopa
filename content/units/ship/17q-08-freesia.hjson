@@ -1,8 +1,4 @@
 type: naval
-name: Freesia
-description: Fires multiple exploding bullet at enemies, can also heal ally units. Astral exclusive unit.
-details: Freesia, Guardian of the Post Haste post office. Surviving in nuclear retalliation alone. Freesia lost its master a long ago, Freesia has no communication against astral, Freesia only guarding Post Haste Facility.
-hideDetails: false
 abilities: [
 {
     type: ForceFieldAbility
@@ -113,4 +109,5 @@ weapons: [
 immunities: [
   13m-01-breached
 ]
-# research: 11k-01-core-astral
+research: 17q-07-narhwal
+researchCostMultiplier: 0.5

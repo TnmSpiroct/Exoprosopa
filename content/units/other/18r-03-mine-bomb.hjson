@@ -1,5 +1,4 @@
 type: legs
-name: Bomb
 legCount: 4
 lockLegBase: true
 legExtension: -2

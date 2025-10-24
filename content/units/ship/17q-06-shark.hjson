@@ -1,6 +1,4 @@
 type: naval
-name: Hammerhead
-description: Fires missile at enemies, Astral exclusive unit.
 speed: 0.7
 health: 2400
 armor: 5
@@ -45,4 +43,5 @@ weapons: [
 immunities: [
   13m-01-breached
 ]
-# research: 11k-01-core-astral
+research: 17q-05-bulbhead
+researchCostMultiplier: 0.5

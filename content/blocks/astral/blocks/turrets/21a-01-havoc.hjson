@@ -47,7 +47,7 @@ drawer: {
   type: DrawTurret
   basePrefix: astral-
 }
-research: 00021-defence
+research: 000021-defence
 researchCostMultiplier: 0.5
 destroyBulletSameTeam: true
 destroyBullet: {

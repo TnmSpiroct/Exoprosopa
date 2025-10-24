@@ -1,6 +1,4 @@
 type: naval
-name: Bulbhead
-description: Fires exploding bullet at enemies, Astral exclusive unit.
 speed: 0.8
 health: 950
 armor: 2
@@ -55,4 +53,5 @@ weapons: [
 immunities: [
   13m-01-breached
 ]
-# research: 11k-01-core-astral
+research: 000012-anchor
+researchCostMultiplier: 0.5

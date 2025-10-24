@@ -1,6 +1,4 @@
 type: naval
-name: Narhwal
-description: Fires electric bullets at enemies, Astral exclusive unit.
 speed: 0.6
 health: 6000
 armor: 7
@@ -68,4 +66,5 @@ weapons: [
 immunities: [
   13m-01-breached
 ]
-# research: 11k-01-core-astral
+research: 17q-06-shark
+researchCostMultiplier: 0.5
