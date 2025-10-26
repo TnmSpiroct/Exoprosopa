@@ -29,6 +29,9 @@ waveTrailY: -3.0
 trailColor: d8f18c
 trailLength: 12
 fogRadius: 0
+payloadCapacity: 2
+pickupUnits: false
+vulnerableWithPayloads: true
 hitSize: 15
 engines: [
    {
