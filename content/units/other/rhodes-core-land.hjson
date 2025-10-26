@@ -33,7 +33,7 @@ weapons: [
                 effects: [
                     {
                         type: WaveEffect
-                        sizeFrom: 60
+                        sizeFrom: 40
                         sizeTo: 0
                         strokeFrom: 6
                         strokeTo: 1
@@ -46,12 +46,12 @@ weapons: [
                     {
                         type: WaveEffect
                         sizeFrom: 0
-                        sizeTo: 4000
+                        sizeTo: 6000
                         strokeFrom: 6
                         strokeTo: 64
                         interp: exp5Out
                         startDelay: 160
-                        lifetime: 5000
+                        lifetime: 7000
                         colorFrom: 6c87fd
                         colorTo: 7c83a3
                     }
