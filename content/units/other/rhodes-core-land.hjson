@@ -7,6 +7,8 @@ drawCell: false
 health: 1000000
 speed: 0
 physics: false
+lightOpacity: 0
+lightRadius: 0
 weapons: [
     {
         shootOnDeath: true
@@ -27,6 +29,8 @@ weapons: [
             damage: 0
             instantDisappear: true
             collides: false
+            lightRadius: 0
+            lightOpacity: 0
             despawnEffect: {
             type: MultiEffect
                 lifetime: 2000
@@ -38,6 +42,8 @@ weapons: [
                         strokeFrom: 6
                         strokeTo: 1
                         interp: circleOut
+                        lightRadius: 0
+                        lightOpacity: 0
                         startDelay: 60
                         lifetime: 120
                         colorFrom: 6c87fd
@@ -50,6 +56,8 @@ weapons: [
                         strokeFrom: 6
                         strokeTo: 64
                         interp: exp5Out
+                        lightRadius: 0
+                        lightOpacity: 0
                         startDelay: 160
                         lifetime: 7000
                         colorFrom: 6c87fd
