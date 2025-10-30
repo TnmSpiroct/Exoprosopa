@@ -20,7 +20,7 @@ researchCost: [
 ]
 research: 03c-04-b-subsonic
 consumes: {
-  power: 6
+  power: 10
 }
 category: turret
 recoil: 1.5
@@ -54,7 +54,7 @@ ammoTypes: {
   01a-09-item-morphite: {
     type: BasicBulletType
     sprite: large-orb
-    buildingDamageMultiplier: 0.25
+    buildingDamageMultiplier: 0.2
     hitColor: 6EEFC0
     damage: 120
     width: 8
@@ -75,12 +75,12 @@ ammoTypes: {
     trailWidth: 2
     intervalBullet: {
       type: LightningBulletType
-      damage: 20
+      damage: 18.5
       lightningLength: 2
       lightningLengthRand: 4
       lightningColor: 6EEFC0
     }
-    bulletInterval: 4.5
+    bulletInterval: 5
   }
 }
 drawer: {

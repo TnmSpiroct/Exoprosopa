@@ -65,7 +65,7 @@ ammoTypes: {
     type: BasicBulletType
     # Bullet sprite
     sprite: exoprosopa-plasmyrbullet
-    buildingDamageMultiplier: 0.2
+    buildingDamageMultiplier: 0.075
     hitColor: D1EFFF
     # Front color of a bullet
     frontColor: D1EFFF

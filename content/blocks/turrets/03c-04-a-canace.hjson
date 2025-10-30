@@ -5,10 +5,10 @@ health: 2300
 armor: 5
 shootSound: mediumCannon
 requirements: [
-  01a-01-item-cobalt/150
-  01a-02-item-nickel/350
-  01a-06-item-chromium/300
-  01a-07-item-clevorite/100
+  01a-01-item-cobalt/170
+  01a-02-item-nickel/335
+  01a-06-item-chromium/280
+  01a-07-item-clevorite/95
 ]
 category: turret
 coolant: {
@@ -65,7 +65,7 @@ ammoTypes: {
         status: melting
         statusDuration: 300
         damage: 50
-        buildingDamageMultiplier: 0.25
+        buildingDamageMultiplier: 0.4
         puddleSize: 45
         despawnHit: true
         despawnSound: splash
@@ -81,7 +81,7 @@ ammoTypes: {
 01a-09-item-morphite: {
     type: ArtilleryBulletType
     damage: 350
-    buildingDamageMultiplier: 0.25
+    buildingDamageMultiplier: 0.15
     lifetime: 65
     speed: 4
     width: 18
@@ -99,7 +99,7 @@ ammoTypes: {
     fragBullet: {
       speed: 3
       damage: 50
-      buildingDamageMultiplier: 0.25
+      buildingDamageMultiplier: 0.4
       lifetime: 10
       width: 11
       height: 14

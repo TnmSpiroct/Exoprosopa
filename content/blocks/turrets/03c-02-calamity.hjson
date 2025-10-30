@@ -1,44 +1,69 @@
 type: ItemTurret
+# Is this turret has liquids
 hasLiquids: true
+# MinWarmup : how much warmup animation before automatically fires.
+# Example, really long recoil new horizon turret takes 20 sec to shoot, with minWarmup 0.1 you just hold the target for 2 sec and it will automatically fires in the next 18 seconds
+# While on that 18 seconds, the turret's position is locked. Just like corvus charging.
 minWarmup: 0.99
+# How much warmup time
 warmupMaintainTime: 90
+# Warmup speed
 shootWarmupSpeed: 0.1
+# Size Blocks
 size: 3
+# Health Blocks
 health: 1650
+# Shoot created when firing
 shootSound: missile-launch-a
+# Block Cost
 requirements: [
   01a-01-item-cobalt/225
   01a-02-item-nickel/175
   01a-05-item-aluminium/175
   01a-06-item-chromium/120
 ]
+# Block's tab category
 category: turret
+# Outline color for this turret, use hexadecimal
 outlineColor: 2C2A36
+# Targets, Set targetGround: false to make it anti air turrets
 targetAir: true
 targetGround: true
+# Turret rotation speed
 rotateSpeed: 1.25
+# Reload time, in ticks
 reload: 105
+# Turret range, in unit that i dont know
 range: 180
+# Position of starting bullets, doesnt affect range
 shootY: 6
+# Other consumption
 consumes: {
   liquid: 02b-01-bioliquid/0.5
 }
+# First delay
 shoot: {
   firstShotDelay: 45
 }
+# Coolant
 coolant: {
   type: ConsumeLiquid
   liquid: 02b-02-a-purified-elixir
   amount: 0.25
 }
 coolantMultiplier: 2.4
+# Charging sound
 chargeSound: target
+# Ammo types
 ammoTypes: {
+  # Name of items
   01a-05-item-aluminium: {
+    # Bullet Type, BasicBulletType creates a basic bullet like duo and salvo
     type: BasicBulletType
-    buildingDamageMultiplier: 0.25
-    chargeEffect: [
-    {
+    # Building damage mult
+    buildingDamageMultiplier: 0.5
+    # Effect created when charging
+    chargeEffect: [{
     type: WaveEffect
     rotWithParent: true
     followParent: true
@@ -49,22 +74,27 @@ ammoTypes: {
     sizeTo: 0
     colorFrom: ffffff
     colorTo: 98BFD3
-    }
-    ]
+    }]
+    # Bullet's sprite
     sprite: large-orb
+    # Bullet colors
     hitColor: feb380
-    frontColor: ffffff
+    frontColor: feb380
     backColor: feb380
     lightColor: feb380
     damage: 20
+    # Bullet size, if you want to increase hitbox use hitSize instead
     width: 12
     height: 12
+    # Speed × Lifetime bullet = Range
     speed: 6
     lifetime: 30
+    # Effect created when despawns
     despawnEffect: [
     smokePuff,
     vapor,
     ]
+    # Trail variety
     trailColor: 98BFD3
     trailChance: -1
     trailEffect: shootSmokeDisperse
@@ -72,6 +102,7 @@ ammoTypes: {
     trailRotation: true
     trailLength: 2
     trailWidth: 1.5
+    # Fragment of bullet created when the main bullet has the lifetime runs out
     fragRandomSpread: 0
     fragSpread: 45
     fragLifeMin: 1
@@ -80,10 +111,12 @@ ammoTypes: {
     fragVelocityMax: 1
     fragBullets: 8
       fragBullet: {
+        # Explosion, mostly didnt have lifetime and speed
         type: ExplosionBulletType
         splashDamageRadius: 20
         killShooter: false
         splashDamage: 16
+        buildingDamageMultiplier: 0.75
         fragRandomSpread: 0
         fragSpread: 45
         fragLifeMin: 1
@@ -92,10 +125,12 @@ ammoTypes: {
         fragVelocityMax: 1
         fragBullets: 8
         fragBullet: {
+        # A bullet that damages ground only and only damages units where it lands instead of linear
           type: ArtilleryBulletType
           speed: 2
           lifetime: 12
           damage: 6
+          buildingDamageMultiplier: 0.75
           fragRandomSpread: 0
           fragAngle: 90
           fragBullets: 1
@@ -104,16 +139,17 @@ ammoTypes: {
             splashDamageRadius: 20
             killShooter: false
             splashDamage: 16
+            # Status created when this bullet damages enemy. To increase duration, use statusDuration
             status: blasted
-            }
-          }
+            buildingDamageMultiplier: 0.5
         }
+      }
+    }
   }
   01a-06-item-chromium: {
     type: BasicBulletType
-    buildingDamageMultiplier: 0.25
-    chargeEffect: [
-    {
+    buildingDamageMultiplier: 0.65
+    chargeEffect: [{
     type: WaveEffect
     rotWithParent: true
     followParent: true
@@ -124,11 +160,10 @@ ammoTypes: {
     sizeTo: 0
     colorFrom: ffffff
     colorTo: DCC6C6
-    }
-    ]
+    }]
     sprite: large-orb
     hitColor: feb380
-    frontColor: ffffff
+    frontColor: feb380
     backColor: feb380
     lightColor: feb380
     damage: 30
@@ -160,6 +195,7 @@ ammoTypes: {
         splashDamageRadius: 20
         killShooter: false
         splashDamage: 22
+        buildingDamageMultiplier: 0.75
         fragRandomSpread: 0
         fragSpread: 45
         fragLifeMin: 1
@@ -172,6 +208,7 @@ ammoTypes: {
           speed: 2
           lifetime: 12
           damage: 6
+          buildingDamageMultiplier: 0.75
           fragRandomSpread: 0
           fragAngle: 90
           fragBullets: 1
@@ -181,15 +218,15 @@ ammoTypes: {
             killShooter: false
             splashDamage: 22
             status: blasted
-            }
-          }
+            buildingDamageMultiplier: 0.65
         }
+      }
+    }
   }
   01a-08-item-petal: {
     type: BasicBulletType
-    buildingDamageMultiplier: 0.25
-    chargeEffect: [
-    {
+    buildingDamageMultiplier: 0.75
+    chargeEffect: [{
     type: WaveEffect
     rotWithParent: true
     followParent: true
@@ -200,11 +237,10 @@ ammoTypes: {
     sizeTo: 0
     colorFrom: ffffff
     colorTo: DCC6C6
-    }
-    ]
+    }]
     sprite: large-orb
     hitColor: feb380
-    frontColor: ffffff
+    frontColor: feb380
     backColor: feb380
     lightColor: feb380
     damage: 35
@@ -237,6 +273,7 @@ ammoTypes: {
       speed: 2
       lifetime: 12
       damage: 6
+      buildingDamageMultiplier: 0.75
       fragRandomSpread: 0
       fragAngle: 90
       fragBullets: 1
@@ -245,6 +282,7 @@ ammoTypes: {
         splashDamageRadius: 20
         killShooter: false
         splashDamage: 27
+        buildingDamageMultiplier: 0.75
         fragRandomSpread: 0
         fragSpread: 45
         fragLifeMin: 1
@@ -257,6 +295,7 @@ ammoTypes: {
           speed: 2
           lifetime: 12
           damage: 6
+          buildingDamageMultiplier: 0.75
           fragRandomSpread: 0
           fragAngle: 90
           fragBullets: 1
@@ -266,12 +305,14 @@ ammoTypes: {
             killShooter: false
             splashDamage: 27
             status: blasted
-            }
+            buildingDamageMultiplier: 0.75
           }
         }
       }
+    }
   }
 }
+# A drawer to load sprites into game
 drawer: {
   type: DrawTurret
   basePrefix: calamity-

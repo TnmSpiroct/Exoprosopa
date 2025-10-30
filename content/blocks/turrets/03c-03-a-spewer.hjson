@@ -1,5 +1,5 @@
 type: LiquidTurret
-health: 1800
+health: 1740
 armor: 3
 size: 3
 reload: 1.5
@@ -29,7 +29,7 @@ ammoTypes: {
     liquid: 02b-02-a-purified-elixir
     speed: 2.5
     lifetime: 70
-    knockback: 0.7
+    knockback: 0.6
     status: wet
     statusDuration: 120
     damage: 5
@@ -39,8 +39,8 @@ ammoTypes: {
       type: LiquidBulletType
       liquid: 02b-02-a-purified-elixir
       status: wet
-      statusDuration: 120
-      damage: 3
+      statusDuration: 240
+      damage: 2
       puddleSize: 15
       despawnHit: true
       despawnSound: splash
@@ -50,7 +50,7 @@ ammoTypes: {
       splashDamageRadius: 2
       hitEffect: none
       collidesAir: false
-      }
+    }
   }
   02b-04-miasma: {
     despawnEffect: none
@@ -59,10 +59,10 @@ ammoTypes: {
     liquid: 02b-04-miasma
     speed: 3
     lifetime: 75
-    knockback: 1.4
+    knockback: 1.2
     status: 13m-06-contaminated
-    statusDuration: 90
-    damage: 6
+    statusDuration: 125
+    damage: 4
     layer: 98
     rangeChange: 45
     fragBullets: 1
@@ -71,7 +71,7 @@ ammoTypes: {
       liquid: 02b-04-miasma
       status: 13m-06-contaminated
       statusDuration: 90
-      damage: 15
+      damage: 14
       puddleSize: 15
       despawnHit: true
       despawnSound: splash

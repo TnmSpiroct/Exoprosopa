@@ -106,7 +106,7 @@ ammoTypes: {
   }
   01a-06-item-chromium: {
     type: BasicBulletType
-    buildingDamageMultiplier: 0.5
+    buildingDamageMultiplier: 0.65
     sprite: exoprosopa-impale-arrow
     width: 16
     height: 16
@@ -214,6 +214,7 @@ ammoTypes: {
         lightningLengthRand: 3
         lightningColor: 51c59c
         status: shocked
+        buildingDamageMultiplier: 0.75
       }
     }
   }

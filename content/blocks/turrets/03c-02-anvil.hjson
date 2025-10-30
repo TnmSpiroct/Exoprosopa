@@ -67,7 +67,7 @@ ammoTypes: {
   01a-06-item-chromium: {
     type: BasicBulletType
     sprite: large-orb
-    buildingDamageMultiplier: 0.25
+    buildingDamageMultiplier: 0.4
     hitColor: BCA49F
     frontColor: BCA49F
     backColor: BCA49F
@@ -101,7 +101,7 @@ drawer: {
       suffix: -cannon
       progress: recoil
       moveX: 2
-      moveRot: -30
+      moveRot: -25
       under: true
       mirror: true
       heatColor: 8DF9D1

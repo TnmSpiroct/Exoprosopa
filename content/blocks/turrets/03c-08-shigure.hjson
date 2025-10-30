@@ -11,8 +11,8 @@ requirements: [
   01a-10-item-bethine/85
 ]
 minWarmup: 0.999
-warmupMaintainTime: 6
-shootWarmupSpeed: 0.05
+warmupMaintainTime: 18
+shootWarmupSpeed: 0.04
 researchCostMultiplier: 0.5
 research: 03c-04-b-subsonic
 category: turret
@@ -32,6 +32,7 @@ shoot: {
 }
 ammoTypes: {
   01a-06-item-chromium: {
+    buildingDamageMultiplier: 0.4
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -48,6 +49,7 @@ ammoTypes: {
     weaveMag: 4
   }
   01a-09-item-morphite: {
+    buildingDamageMultiplier: 0.3
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -66,6 +68,7 @@ ammoTypes: {
     homingPower: 0.015
   }
   01a-08-item-petal: {
+    buildingDamageMultiplier: 0.25
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -86,6 +89,7 @@ ammoTypes: {
     fragLifeMin: 0.45
     fragBullet: {
       type: BasicBulletType
+      buildingDamageMultiplier: 0.25
       pierceArmor: true
       speed: 2
       lifetime: 30
@@ -99,6 +103,7 @@ ammoTypes: {
     }
   }
   01a-10-item-bethine: {
+    buildingDamageMultiplier: 0.1
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -119,6 +124,7 @@ ammoTypes: {
     fragLifeMin: 0.45
     fragBullet: {
       type: BasicBulletType
+      buildingDamageMultiplier: 0.1
       pierceArmor: true
       speed: 2
       lifetime: 30

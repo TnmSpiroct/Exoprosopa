@@ -1,13 +1,13 @@
 type: ItemTurret
 size: 4
-health: 3400
+health: 3750
 armor: 10
 shootSound: exoripple
 requirements: [
-  01a-05-item-aluminium/400
-  01a-06-item-chromium/200
-  01a-07-item-clevorite/100
-  01a-08-item-petal/150
+  01a-05-item-aluminium/450
+  01a-06-item-chromium/275
+  01a-07-item-clevorite/125
+  01a-08-item-petal/210
 ]
 category: turret
 coolant: {
@@ -16,8 +16,8 @@ coolant: {
   amount: 0.5
 }
 coolantMultiplier: 1.6
-minWarmup: 0.999
-warmupMaintainTime: 120
+minWarmup: 0.4
+warmupMaintainTime: 160
 shootWarmupSpeed: 0.05
 shoot: {
 shots: 3
@@ -29,7 +29,7 @@ outlineColor: 2C2A36
 targetAir: false
 targetGround: true
 rotateSpeed: 1.25
-reload: 145
+reload: 175
 range: 390
 shootY: 7
 ammoTypes: {
@@ -39,16 +39,16 @@ ammoTypes: {
     despawnShake: 8
     hitColor: FF91B3
     damage: 40
-    splashDamage: 140
+    splashDamage: 245
     splashDamageRadius: 65
     width: 14
     height: 12
-    speed: 10
-    lifetime: 40
+    speed: 8
+    lifetime: 50
     despawnHit: true
-    despawnEffect: [scatheExplosion, titanSmoke]
-    hitEffect: [scatheExplosion, titanSmoke]
-    pierceCap: 1
+    despawnEffect: titanSmoke
+    hitEffect: titanExplosionFrag
+    pierceCap: 2
     pierce: true
     collidesAir: false
     collidesGround: true
@@ -64,20 +64,21 @@ ammoTypes: {
   }
   01a-09-item-morphite: {
     type: BasicBulletType
-    buildingDamageMultiplier: 0.25
+    rangeChange: -80
+    buildingDamageMultiplier: 0.2
     despawnShake: 8
     hitColor: 51C59C
     damage: 30
-    splashDamage: 180
+    splashDamage: 370
     splashDamageRadius: 65
     width: 14
     height: 12
-    speed: 10
+    speed: 8
     lifetime: 40
     despawnHit: true
-    despawnEffect: [scatheExplosion, titanSmoke]
-    hitEffect: [scatheExplosion, titanSmoke]
-    pierceCap: 1
+    despawnEffect: titanSmoke
+    hitEffect: titanExplosionFrag
+    pierceCap: 5
     pierce: true
     collidesAir: false
     collidesGround: true

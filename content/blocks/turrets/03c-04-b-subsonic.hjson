@@ -26,12 +26,12 @@ researchCost: [
 shootType: {
   type: LightningBulletType
   hitSound: electric-discharge
-  damage: 85
-  lightningLength: 28
+  damage: 87
+  lightningLength: 27
   lightningLengthRand: 7
   lightningColor: 51C59C
   status: 13m-03-hsos6
-  statusDuration: 120
+  statusDuration: 145
   chargeEffect: lightningCharge
   buildingDamageMultiplier: 0.25
 }
@@ -39,14 +39,14 @@ category: turret
 squareSprite: false
 research: 03c-04-a-canace
 requirements: [
-  01a-01-item-cobalt/200
-  01a-02-item-nickel/400
-  01a-06-item-chromium/175
-  01a-07-item-clevorite/150
+  01a-01-item-cobalt/160
+  01a-02-item-nickel/475
+  01a-06-item-chromium/245
+  01a-07-item-clevorite/160
   01a-09-item-morphite/85
 ]
 consumes: {
-  power: 10
+  power: 11
 }
 drawer: {
   type: DrawTurret

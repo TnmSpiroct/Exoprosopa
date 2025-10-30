@@ -27,7 +27,7 @@ range: 350
 shootY: -0.5
 shootType: {
   type: PointLaserBulletType
-  buildingDamageMultiplier: 0.5
+  buildingDamageMultiplier: 0.15
   damage: 192.5
   hitColor: DCC6C6
 }

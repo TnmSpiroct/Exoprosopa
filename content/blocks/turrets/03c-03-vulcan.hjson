@@ -6,10 +6,10 @@ shootSound: none
 shootWarmupSpeed: 0.1
 shootCone: 360
 requirements: [
-  01a-02-item-nickel/400
-  01a-05-item-aluminium/130
-  01a-06-item-chromium/180
-  01a-07-item-clevorite/140
+  01a-02-item-nickel/450
+  01a-05-item-aluminium/180
+  01a-06-item-chromium/210
+  01a-07-item-clevorite/135
 ]
 category: turret
 recoil: 1.5
@@ -27,7 +27,7 @@ ammoTypes: {
 02b-04-miasma: {
   type: ContinuousLaserBulletType
   length: 190
-  damage: 30
+  damage: 29
   buildingDamageMultiplier: 0.25
   width: 2.5
   incendChance: 0
@@ -47,16 +47,16 @@ ammoTypes: {
     lightningLengthRand: 4
     lightningColor: ffffff
     status: 13m-03-hsos6
-    statusDuration: 60
+    statusDuration: 55
+    buildingDamageMultiplier: 0.4
     }
   }
   02b-06-morphitix-plasma: {
   type: ContinuousLaserBulletType
   length: 300
   rangeChange: 110
-  // 190
-  damage: 70
-  buildingDamageMultiplier: 0.25
+  damage: 68
+  buildingDamageMultiplier: 0.15
   width: 3.25
   incendChance: 0
   incendAmount: 0
@@ -75,7 +75,8 @@ ammoTypes: {
     lightningLengthRand: 5
     lightningColor: ffffff
     status: 13m-03-hsos6
-    statusDuration: 120
+    statusDuration: 135
+    buildingDamageMultiplier: 0.4
     }
   }
 }

@@ -30,6 +30,7 @@ range: 435
 shootY: 6
 shootType: {
   type: ArtilleryBulletType
+  buildingDamageMultiplier: 0.1
   collidesAir: true
   width: 16
   height: 16
@@ -67,6 +68,7 @@ shootType: {
   fragOnAbsorb: true
   fragBullet: {
     type: ArtilleryBulletType
+    buildingDamageMultiplier: 0.1
     width: 0
     height: 0
     speed: 2
