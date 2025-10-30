@@ -1,4 +1,4 @@
-type: Prop
+type: StaticWall
 variants: 0
 solid: true
 breakable: false
