@@ -5,21 +5,21 @@ hasLiquids: true
 health: 850
 category: crafting
 research: 09i-04-a-terra-basin
-itemCapacity: 20
+itemCapacity: 15
 researchCostMultiplier: 0.5
 requirements: [
-  01a-05-item-aluminium/100
-  01a-06-item-chromium/85
-  01a-07-item-clevorite/25
+  01a-05-item-aluminium/170
+  01a-06-item-chromium/115
+  01a-07-item-clevorite/40
 ]
 craftTime: 240
 craftEffect: none
 outputItems: [
-  01a-07-item-clevorite/6
+  01a-07-item-clevorite/5
 ]
 consumes: {
   items: [
-    01a-02-item-nickel/2
+    01a-02-item-nickel/3
   ]
   liquids: [
     02b-02-a-purified-elixir/0.0833333333
