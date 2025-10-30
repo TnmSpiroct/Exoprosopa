@@ -20,7 +20,7 @@ filter: [
   90z-02-hyperspace-engine, 
   90z-03-geopowered-mechlegs
 ]
-research: 10j-11-advanced-module-a
+research: 10j-11-a-basic-module
 squareSprite: false
 maxBlockSize: 3
 researchCostMultiplier: 0.5
