@@ -1,5 +1,4 @@
 type: flying
-name: Rhodes Core Land Effect
 hidden: false
 hittable: false
 drawBody: false  
@@ -68,3 +67,4 @@ weapons: [
         }
     }
 ]
+
