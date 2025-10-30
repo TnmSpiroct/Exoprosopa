@@ -9,7 +9,7 @@ requirements: [
   01a-05-item-aluminium/60
   01a-06-item-chromium/60
 ]
-research: 11k-05-a-healer
+research: 0011-effect
 range: 100
 healAmount: 1.5
 consumes: {
