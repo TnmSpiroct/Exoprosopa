@@ -5,10 +5,10 @@ groundLayer: 40
 shadowElevation: 0.1
 drag: 0.07
 outlineColor: 26262F
-speed: 1.85
+speed: 1.8
 rotateSpeed: 2.1
 accel: 0.1
-health: 2250
+health: 2150
 armor: 6
 hitSize: 21
 researchCostMultiplier: 2
@@ -47,7 +47,7 @@ weapons: [
   {
     x: 0
     y: 1
-    reload: 115
+    reload: 85
     rotate: false
     mirror: false
     shootY: -1
@@ -59,29 +59,29 @@ weapons: [
     shootSound: shockBlast
     bullet: {
     type: BasicBulletType
-        damage: 75.5
-        recoil: 0.5
-        width: 14
-        height: 19
-        hitSize: 7
-        speed: 8
+        damage: 52.5
+        recoil: 0.4
+        width: 10
+        height: 15
+        hitSize: 6
+        speed: 7
         shootEffect: shootSmokeTitan
         smokeEffect: shootBigSmoke
-        lifetime: 25
+        lifetime: 18
         pierce: false
         pierceCap: 2
         pierceBuilding: false
         hitColor: D8F18C
         trailColor: D8F18C
         backColor: D8F18C
-        frontColor: FFFFFF
+        frontColor: D8F18C
         trailLength: 11
         trailWidth: 3
         fragBullets: 1
         fragBullet: {
           type: LightningBulletType
-          damage: 35
-          lightningLength: 2
+          damage: 24.5
+          lightningLength: 2.5
           lightningLengthRand: 4
           lightningColor: D8F18C
         }
