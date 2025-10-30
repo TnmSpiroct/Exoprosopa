@@ -1,4 +1,6 @@
 type: ShockwaveTower
+name: Enforcer
+description: Creates shockwaves that damages enemy projectiles. Requires necroplasm
 size: 3
 range: 220
 reload: 75
@@ -12,7 +14,7 @@ requirements: [
 ]
 squareSprite: false
 category: effect
-research: 11k-05-holoshield
+research: 11k-08-build-tower
 drawer: {
   type: DrawMulti
   drawers: [

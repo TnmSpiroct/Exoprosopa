@@ -1,0 +1,27 @@
+type: ShockMine
+hasShadow: false
+health: 125
+damage: 50
+tileDamage: 18
+length: 24
+tendrils: 6
+category: effect
+research: 10j-12-regenerator
+bullet: {
+  type: LightningBulletType
+  hitSound: electric-discharge
+  damage: 30
+  lightningLength: 3
+  lightningLengthRand: 4
+  lightningColor: BC3443
+  status: 13m-03-hsos6
+  statusDuration: 90
+  killShooter: true
+}
+requirements: [
+  01a-05-item-aluminium/30
+  01a-07-item-clevorite/5
+  01a-03-item-lamine/15
+]
+researchCostMultiplier: 0.2
+buildCostMultiplier: 3

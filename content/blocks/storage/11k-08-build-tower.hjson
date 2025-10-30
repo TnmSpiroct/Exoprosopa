@@ -17,7 +17,7 @@ buildSpeed: 2
 range: 175
 category: effect
 outlineColor: 2C2A36
-research: 11k-05-holoshield
+research: 11k-05-a-healer
 researchCost: [
   01a-05-item-aluminium/4000
   01a-06-item-chromium/3000
