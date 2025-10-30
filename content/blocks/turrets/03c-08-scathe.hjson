@@ -18,7 +18,7 @@ requirements: [
   01a-10-item-bethine/220
 ]
 researchCostMultiplier: 0.5
-research: 03c-04-b-subsonic
+research: 03c-07-phalanx
 category: turret
 recoil: 1.5
 outlineColor: 2C2A36

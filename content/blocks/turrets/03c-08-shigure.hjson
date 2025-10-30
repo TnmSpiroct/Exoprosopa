@@ -14,7 +14,7 @@ minWarmup: 0.999
 warmupMaintainTime: 18
 shootWarmupSpeed: 0.04
 researchCostMultiplier: 0.5
-research: 03c-04-b-subsonic
+research: 03c-04-preject
 category: turret
 recoil: 1.5
 outlineColor: 2C2A36
