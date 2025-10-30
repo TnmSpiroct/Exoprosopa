@@ -14,7 +14,7 @@ requirements: [
 ]
 squareSprite: false
 category: effect
-research: 0011-effect
+research: 10j-12-regenerator
 drawer: {
   type: DrawMulti
   drawers: [
