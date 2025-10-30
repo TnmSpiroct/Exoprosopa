@@ -12,6 +12,7 @@
 ## Overview
 </div>
 
+- Polished content & linear campaign progression.<br>
 - Capture and conquer with over 18 campaign maps.<br>
 - Over 13 items to be discovered, 124 blocks to be researched. and 17 different units to build!<br>
 - Harvest the planet with your technology before Astral Infection awaken and conquer the entire planet.
@@ -33,40 +34,82 @@ This mod requires newest mindustry build to be played (Beta 152.2)
 ## Changelogs - V0.8 Endgame Udpate
 </div>
 
-- Add New Sectors [WIP]:
-  - Polarstation
+- Campaign Sectors [onGoing]:
+  - Sealed Outpost > Encampment ☑
+  - Reservoir - Abandoned Reservoir [Remake] ☑
+  - Botanical Garden [Remake] ☑
+  - Eridanus [Published - WIP] ☑
+  - Bioproject Core [WIP]
+  - Military Junkyard [WIP]
+  - Polarstation [WIP]
+  - Antarstar [WIP]
+  - Highlands [WIP]
+- Campaign Sectors [TODO]:
   - Hotspring 227
   - Pilgrim Military Site
   - H.S.O.S.6
   - Horizon's Edge
   - Alpha Frontier
-- Revamped Sectors: 
-  - Sealed Outpost > Encampment [Published]
-  - Reservoir > Abandoned Reservoir [onGoing]
-  - Botanical Garden [onGoing]
-  - Crest [onGoing]
-- Deleted Sector: 
+- Custom Map: 
   - Ridgeline [noClearPurpose]
-- Added Midgame Turrets
-- 2 New Endgame Turrets
-- Cost Changes in Logic-Related Blocks
-- Polished Campaign Progression
-- Resprited Almost Every Walls
-- Revamped Impale turret effect
-- Resprited Calamity turret
+  - Aeroplex Fort [???]
+- New 2 Midgame Turrets
+  - Snow White
+  - Phantasm
+- Revamp 2 Endgame Turrets
+  - Identity > Plasmyr
+  - Supernova
+- Build Cost Changes
+  - Logic Blocks
+- Resprited Walls
+- Revamped Turrets:
+  - Impale Shoot Effect
+  - Phalanx
+  - Continuum
+- Resprited Calamity Turret
 - Resprited Morphite Accelerator
-- Added New Resources - Lamine alongside with 2 New Production Blocks
-- Added & Balance Changes in Heat-Related Blocks
-- Finalized Core Units
-- Finalized Core Blocks
-- Added Enforcer (Shockwave Tower)
-- Name Changes in Mostly All Units
-- Reduced Mod Filesize
-- Polished Planet Mesh
-- Reworking Bethine And Pyroxene Crafter
-- Added Necroplasm Boiler
-- Fixes Several Crash
-- Revamped Gravitix
+- New Resource: Lamine
+  - Laminator
+  - Blast Chamber
+  - Lamine Landmine
+- New Heat Blocks
+  - Heat Conductor
+  - Heat Splitter
+  - Anthracite Heater
+  - Miasma Heater
+  - Radiative Heater
+- Finalized Cores Block & Units
+- New Effect Block: Enforcer [Shockwave Tower]
+- Name Changes on All Units
+- Resource: Bethine > Gravitix
+- Rework Pyroxene Crafter
+- New Production Block: Necrolysis Boiler
+- New Liquid Block: Hydrolic Pump
+- New Drill Block: Elixir Extractor
+- Enemy Core Landing Effect - Rhodes Core Land VFX
+- Rework Weapon of Units
+  - T5 Tank - Rancor
+  - T3 Tank - Bulwark
+- Nerfed T3 Air Unit - Strike
+- Resprited All Liquids
+- New Ichor Tiles
+- New Biome - Mesa Biome
+- Fixed Building Damage Multiplier on All Turrets
+- New Cobalt Biome Props
+- Fixed Efficiency Scale:
+  - Elixir Collector
+  - Elixir Extractor
+- Nerfed Terrafilter Build Cost & Item Input
+- Adjusted All Vents Extract Percentage
+- Replaced Turrets with Pre-Rotation Feature
+- Fixed Campaign Maps Wproc
+- Fixed Inconsistency Ambient Light Color
+- Adjusted Waves with New Walker Units
+- Adjusted Waves Timer - Friendly with Eradication Difficulty
+- Adjusted Weather in Campaign Maps
+- Fixes Unintended Behavior from Debugging Mode
+- Intended Objective: Spawn Units in-after Main Objective
 <br>
 
 <br>
+
