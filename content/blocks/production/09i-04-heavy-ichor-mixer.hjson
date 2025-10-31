@@ -3,7 +3,7 @@ health: 850
 size: 3
 hasLiquids: true
 category: crafting
-research: 09i-02-a-aluminium-refinery-forge
+research: 09i-02-f-elixir-autofreezer
 consumes: {
   items: [
     01a-04-item-tantra-sand/3

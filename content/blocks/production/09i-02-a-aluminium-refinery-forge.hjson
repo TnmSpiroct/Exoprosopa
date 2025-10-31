@@ -2,7 +2,7 @@ type: GenericCrafter
 size: 4
 health: 1000
 category: crafting
-research: 09i-01-aluminium-furnace
+research: 09i-04-u-aquafilter
 itemCapacity: 30
 researchCostMultiplier: 0.5
 requirements: [

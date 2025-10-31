@@ -1,0 +1,29 @@
+type: Incinerator
+size: 1
+health: 65
+squareSprite: false
+consumes: {
+  power: 0.33333333333
+}
+category: crafting
+research: 09i-02-f-elixir-autofreezer
+requirements: [
+  01a-02-item-nickel/25
+  01a-05-item-aluminium/50
+]
+researchCost: [
+  01a-02-item-nickel/80
+  01a-05-item-aluminium/120
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
