@@ -465,8 +465,8 @@ block.exoprosopa-09i-12-necrolysis-boiler.description =
 block.exoprosopa-09i-15-pyroforge.name = 
 block.exoprosopa-09i-15-pyroforge.description = 
 
-block.exoprosopa-09i-04-pipeline-incerinator.name = 
-block.exoprosopa-09i-04-pipeline-incerinator.description = 
+block.exoprosopa-09i-20-pipeline-incinerator.name = 
+block.exoprosopa-09i-20-pipeline-incinerator.description = 
 
 # Tech Tree - Research
 block.exoprosopa-0001-item.name = 
