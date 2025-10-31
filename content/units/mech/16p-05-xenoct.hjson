@@ -1,110 +1,70 @@
 type: legs
-legCount: 8
-legExtension: -20
-legBaseOffset: 8
-legLength: 75
-legLengthScl: 0.95
+legCount: 6
+legExtension: -11
+legBaseOffset: 6
+legLength: 55
+legLengthScl: 0.75
 legSpeed: 0.2
-legPhysicsLayer: false
-legMoveSpace: 0.8
-stepShake: 2
+legMoveSpace: 1
 legSplashDamage: 150
 legSplashRange: 60
-legPairOffset: 4
+legPairOffset: 3
+# Experimental
+legContinousMove: true
+lockLegBase: true
+legGroupSize: 3
+# ---
+stepShake: 2.5
 research: 16p-04-carragher
 researchCostMultiplier: 3
 drownTimeMultiplier: 2
 hovering: true
 groundLayer: 60
-health: 42000
-armor: 45
+health: 33700
+armor: 27
 allowLegStep: true
-speed: 0.45
+speed: 0.425
 hitSize: 35
 drag: 0.07
-itemCapacity: 20
+itemCapacity: 60
 outlineColor: 26262F
+rotateSpeed: 1.2
 weapons: [
   {
-    x: 21.5
-    y: 0
+    x: 17.25
+    y: 4.25
     mirror: true
-    alternate: true
-    reload: 30
-    shootSound: bulk-shot
-    name: xenoct-weapon-fuse
-    bullet: {
-        type: ShrapnelBulletType
-        length: 90
-        hitSound: shotgun
-        width: 18
-        serrationLenScl: 7
-        serrationSpaceOffset: 60
-        serrations: 10
-        serrationWidth: 6
-        damage: 500
-        pierce: true
-        lifetime: 60
-        fromColor: fca988
-        toColor: d77751
-        status: 13m-01-breached
-        statusDuration: 600
+    alternative: true
+    layerOffset: -0.01
+    reload: 45
+    shootSound: shotgun
+    shoot: {
+    type: ShootSpread
+      shots: 3
+      spread: 12
+    }
+    parts: [
+      {
+        type: RegionPart
+        name: "exoprosopa-xenoct-arm"
+        progress: recoil
+        moveRot: -15
+        moxeX: 2
+        moveY: -2
       }
-  }
-  {
-    x: 11.5
-    y: 0
-    mirror: true
-    alternate: true
-    reload: 90
-    shootSound: bulk-shot
-    name: xenoct-weapon-debuffer
-    shootStatus: slow
-    shootStatusDuration: 60
+    ]
     bullet: {
         type: ShrapnelBulletType
-        length: 90
+        length: 69
         hitSound: shotgun
-        width: 18
-        serrationLenScl: 7
-        serrationSpaceOffset: 60
-        serrations: 10
-        serrationWidth: 6
-        damage: 500
+        width: 13
+        damage: 260
         pierce: true
-        lifetime: 60
-        fromColor: fca988
+        pierceArmor: true
+        pierceBuilding: true
         toColor: d77751
         status: 13m-01-breached
-        statusDuration: 600
-      }
-  }
-  {
-    x: 0
-    y: 0
-    mirror: false
-    alternate: true
-    reload: 300
-    shootSound: bulk-shot
-    name: xenoct-segment
-    shootStatus: slow
-    shootStatusDuration: 60
-    bullet: {
-        type: ShrapnelBulletType
-        length: 90
-        hitSound: shotgun
-        width: 18
-        serrationLenScl: 7
-        serrationSpaceOffset: 60
-        serrations: 10
-        serrationWidth: 6
-        damage: 500
-        pierce: true
-        lifetime: 60
-        fromColor: fca988
-        toColor: d77751
-        status: 13m-01-breached
-        statusDuration: 600
+        statusDuration: 360
       }
   }
 ]
