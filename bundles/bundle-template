@@ -42,8 +42,8 @@ sector.exoprosopa-19s-07-cliffside.description =
 sector.exoprosopa-19s-08-botanical-garden.name = 
 sector.exoprosopa-19s-08-botanical-garden.description = 
 
-sector.exoprosopa-19s-71-precipice.name = 
-sector.exoprosopa-19s-71-precipice.description = 
+sector.exoprosopa-19s-08-precipice.name = 
+sector.exoprosopa-19s-08-precipice.description = 
 
 sector.exoprosopa-19s-09-escarpment.name = 
 sector.exoprosopa-19s-09-escarpment.description = 
@@ -54,8 +54,8 @@ sector.exoprosopa-19s-10-cornerstone.description =
 sector.exoprosopa-19s-12-hazardous-wasteland.name = 
 sector.exoprosopa-19s-12-hazardous-wasteland.description = 
 
-sector.exoprosopa-19s-11-creek.name = 
-sector.exoprosopa-19s-11-creek.description = 
+sector.exoprosopa-19s-12-i-creek.name = 
+sector.exoprosopa-19s-12-i-creek.description = 
 
 sector.exoprosopa-19s-13-marshlands.name = 
 sector.exoprosopa-19s-13-marshlands.description = 
@@ -63,8 +63,11 @@ sector.exoprosopa-19s-13-marshlands.description =
 sector.exoprosopa-19s-14-trekker-campsite.name = 
 sector.exoprosopa-19s-14-trekker-campsite.description = 
 
-sector.exoprosopa-19s-52-pier.name = 
-sector.exoprosopa-19s-52-pier.description = 
+sector.exoprosopa-19s-14-u-pier.name = 
+sector.exoprosopa-19s-14-u-pier.description = 
+
+sector.exoprosopa-19s-16-bioproject-core.name = 
+sector.exoprosopa-19s-16-bioproject-core.description =
 
 sector.exoprosopa-19s-23-eridanus.name = 
 sector.exoprosopa-19s-23-eridanus.description = 
@@ -557,6 +560,9 @@ block.exoprosopa-11k-06-illuminator.description =
 block.exoprosopa-11k-07-buoy.name = 
 block.exoprosopa-11k-07-buoy.description = 
 
+block.exoprosopa-11k-07-landmine.name = 
+block.exoprosopa-11k-07-landmine.description = 
+
 block.exoprosopa-11k-07-morphite-overdrive.name = 
 block.exoprosopa-11k-07-morphite-overdrive.description = 
 
@@ -605,6 +611,9 @@ block.exoprosopa-03c-04-ox.description =
 
 block.exoprosopa-03c-04-preject.name = 
 block.exoprosopa-03c-04-preject.description = 
+
+block.exoprosopa-03c-04-sprayer.name = 
+block.exoprosopa-03c-04-sprayer.description =
 
 block.exoprosopa-03c-05-equinox.name = 
 block.exoprosopa-03c-05-equinox.description = 

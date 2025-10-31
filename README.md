@@ -13,8 +13,8 @@
 </div>
 
 - Polished content & linear campaign progression.<br>
-- Capture and conquer with over 18 campaign maps.<br>
-- Over 13 items to be discovered, 124 blocks to be researched. and 17 different units to build!<br>
+- Capture and conquer with over 20 campaign maps.<br>
+- Over 21 items to be discovered, 196 blocks to be researched. and 30 different units to build!<br>
 - Harvest the planet with your technology before Astral Infection awaken and conquer the entire planet.
 
 <div align = center>
@@ -25,7 +25,7 @@ Thankyou for playing this mod!<br>
 You can contributes maps or gives suggestions by join Exoprosopa Server!<br>
 Check it on my profile. My username is TnmSpiroct.<br><br>
 
-This mod requires newest mindustry build to be played (Beta 152.2)
+This mod requires newest mindustry build to be played (Beta 153)
 <br>
 <br>
 
