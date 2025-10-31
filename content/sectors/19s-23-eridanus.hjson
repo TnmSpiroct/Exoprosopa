@@ -1,13 +1,15 @@
 captureWave: 50
 difficulty: 8
 planet: frostnova
-sector: 38
+sector: 76
 research: {
-  parent: 19s-14-u-pier
+  parent: 19s-16-bioproject-core
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-14-u-pier
+      preset: 19s-16-bioproject-core
     }
   ]
 }
+
+# Sectors-num TODO = 76 - 270 - 31
