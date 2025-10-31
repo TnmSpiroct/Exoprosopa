@@ -17,12 +17,13 @@ groundLayer: 60
 health: 740
 armor: 3
 allowLegStep: true
-speed: 0.775
-rotateSpeed: 3
+speed: 0.7732
+rotateSpeed: 3.5
 hitSize: 8
 drag: 0.1
 itemCapacity: 0
 outlineColor: 26262F
+alwaysShootWhenMoving: true
 research: {
   parent: 0010-fabricator
   objectives: [
