@@ -1,6 +1,0 @@
-type: StaticWall
-name: Dilace Wall
-description: "Contains water on small amount."
-attributes: {
-  tantra: 0.25
-}

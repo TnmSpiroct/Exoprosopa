@@ -1,0 +1,6 @@
+type: StaticWall
+name: Dilace Wall
+description: "Contains small amount of tantrium."
+attributes: {
+  tantra: 0.35
+}

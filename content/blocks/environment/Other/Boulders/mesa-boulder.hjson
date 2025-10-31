@@ -1,0 +1,4 @@
+type: Prop
+name: Mesa Boulder
+variants: 2
+breakSound: rockBreak

@@ -1,7 +1,7 @@
 name: Fleshing Vent
 type: SteamVent
-blendGroup: flesh-floor
-parent: flesh-floor
+blendGroup: mesafloor
+parent: mesafloor
 effectSpacing: 25
 effect:{
     type: MultiEffect
@@ -36,6 +36,6 @@ effect:{
     ]
 }
 attributes: {
-   steam: 1
-   flesh: 2.25
+   steam: 1.15
+   elixir: 0.10555555555556
 }

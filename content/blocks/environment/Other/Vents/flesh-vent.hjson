@@ -1,7 +1,7 @@
-name: Aqua Vent
+name: Fleshing Vent
 type: SteamVent
-blendGroup: aquafloor
-parent: aquafloor
+blendGroup: flesh-floor
+parent: flesh-floor
 effectSpacing: 25
 effect:{
     type: MultiEffect
@@ -14,8 +14,8 @@ effect:{
             baseLength: 4
             sizeFrom: 3
             sizeTo: 5
-            colorFrom: 1D777060
-            colorTo: 1D777060
+            colorFrom: 561F2260
+            colorTo: 561F2260
             layer: 61.8
             cone: 35
             baseRotation: 30
@@ -28,13 +28,16 @@ effect:{
             baseLength: 4
             sizeFrom: 2
             sizeTo: 4
-            colorFrom: 1D777060
-            colorTo: 1D777060
+            colorFrom: 561F2260
+            colorTo: 561F2260
             layer: 61.8
             baseRotation: 30
         }
     ]
 }
 attributes: {
-   steam: 1
+   steam: 0.95
+   elixir: 0.11111111111
+   # For Astrals, not for sharded.
+   flesh: 1.5
 }

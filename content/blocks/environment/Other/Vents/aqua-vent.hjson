@@ -1,27 +1,11 @@
-name: Obsidian Vent
-// from sh1penfire
+name: Aqua Vent
 type: SteamVent
-blendGroup: obsidianfloor
-parent: obsidianfloor
+blendGroup: aquafloor
+parent: aquafloor
 effectSpacing: 25
 effect:{
     type: MultiEffect
     effects: [
-        {
-            type: ParticleEffect
-            region: exoprosopa-swirl
-            lifetime: 100
-            sizeInterp: slope
-            length: 20
-            baseLength: 4
-            sizeFrom: 1
-            sizeTo: 3
-            colorFrom: 4B436B8C
-            colorTo: 4B436B8C
-            layer: 61.7
-            spin: 6
-            baseRotation: 32.5
-        }
         {
             type: ParticleEffect
             lifetime: 195
@@ -30,8 +14,8 @@ effect:{
             baseLength: 4
             sizeFrom: 3
             sizeTo: 5
-            colorFrom: 30294960
-            colorTo: 30294960
+            colorFrom: 1D777060
+            colorTo: 1D777060
             layer: 61.8
             cone: 35
             baseRotation: 30
@@ -44,8 +28,8 @@ effect:{
             baseLength: 4
             sizeFrom: 2
             sizeTo: 4
-            colorFrom: 30294960
-            colorTo: 30294960
+            colorFrom: 1D777060
+            colorTo: 1D777060
             layer: 61.8
             baseRotation: 30
         }
@@ -53,5 +37,5 @@ effect:{
 }
 attributes: {
    steam: 1
-   miasma: 1
+   elixir: 0.11111111111
 }

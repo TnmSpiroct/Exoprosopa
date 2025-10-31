@@ -37,4 +37,5 @@ effect:{
 }
 attributes: {
    steam: 1
+   elixir: 0.11111111111
 }
