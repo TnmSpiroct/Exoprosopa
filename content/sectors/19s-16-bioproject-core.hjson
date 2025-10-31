@@ -1,0 +1,13 @@
+captureWave: 25
+difficulty: 7
+planet: frostnova
+sector: 271
+research: {
+  parent: 19s-14-trekker-campsite
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-14-trekker-campsite
+    }
+  ]
+}
