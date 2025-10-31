@@ -3,7 +3,7 @@ difficulty: 8
 planet: frostnova
 sector: 38
 research: {
-  parent: 19s-52-pier
+  parent: 19s-14-u-pier
   objectives: [
     {
       type: SectorComplete

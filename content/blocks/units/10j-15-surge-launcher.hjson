@@ -9,7 +9,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-71-precipice
+      preset: 19s-08-precipice
     }
   ]
 }

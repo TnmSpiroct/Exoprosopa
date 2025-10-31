@@ -71,7 +71,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-52-pier
+      preset: 19s-23-eridanus
     }
   ]
 }

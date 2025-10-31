@@ -12,7 +12,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-11-creek
+      preset: 19s-12-i-creek
     }
   ]
 }
