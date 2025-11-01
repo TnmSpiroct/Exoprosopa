@@ -7,7 +7,7 @@ requirements: [
   01a-09-item-morphite/24
   01a-11-item-pyroxene/24
 ]
-research: 08h-05-a-aluminium-gate
+research: 08h-15-pyroxene-wall-small
 researchCostMultiplier: 0.5
 category: defense
 destroyBullet: {

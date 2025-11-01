@@ -18,7 +18,7 @@ requirements: [
 consumes: {
   power: 0.1
 }
-research: 08h-14-bethine-wall-large
+research: 08h-13-bethine-wall-small
 researchCostMultiplier: 0.5
 category: defense
 destroyBullet: {

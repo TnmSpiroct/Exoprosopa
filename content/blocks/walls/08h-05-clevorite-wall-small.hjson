@@ -7,6 +7,6 @@ requirements: [
   01a-02-item-nickel/4
   01a-07-item-clevorite/6
 ]
-research: 08h-04-chromium-wall-large
+research: 08h-03-chromium-wall-small
 researchCostMultiplier: 0.5
 category: defense

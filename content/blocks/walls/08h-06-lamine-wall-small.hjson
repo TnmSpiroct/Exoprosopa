@@ -6,7 +6,7 @@ requirements: [
   01a-03-item-lamine/4
   01a-06-item-chromium/3
 ]
-research: 08h-02-cobalt-wall-large
+research: 08h-04-chromium-wall-large
 researchCostMultiplier: 0.5
 buildCostMultiplier: 1.5
 category: defense
