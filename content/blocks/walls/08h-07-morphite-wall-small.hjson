@@ -9,6 +9,6 @@ requirements: [
   01a-01-item-cobalt/4
   01a-09-item-morphite/6
 ]
-research: 08h-05-clevorite-wall-small
+research: 08h-03-chromium-wall-small
 researchCostMultiplier: 0.5
 category: defense
