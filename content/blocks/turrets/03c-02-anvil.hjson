@@ -17,12 +17,8 @@ research: {
   parent: 03c-01-impale
   objectives: [
     {
-      type: OnSector
-      preset: 19s-03-a-luminary
-    }
-    {
-      type: OnSector
-      preset: 19s-05-reservoir
+      type: SectorComplete
+      preset: 19s-02-mountain-ridge
     }
   ]
 }
