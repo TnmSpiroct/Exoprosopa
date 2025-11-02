@@ -22,7 +22,10 @@ requirements: [
   01a-06-item-chromium/40
 ]
 buildCostMultiplier: 1.75
-researchCostMultiplier: 1.5
+researchCost: [
+  01a-05-item-aluminium/250
+  01a-06-item-chromium/200
+]
 drawer: {
   type: DrawMulti
   drawers: [
