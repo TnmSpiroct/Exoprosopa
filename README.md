@@ -61,13 +61,15 @@ This mod requires newest mindustry build to be played (Beta 153)
   - Supernova
 - Build Cost Changes
   - Logic Blocks
-- Resprited Walls
 - Revamped Turrets:
   - Impale Shoot Effect
   - Phalanx
   - Continuum
-- Resprited Calamity Turret
-- Resprited Morphite Accelerator
+- Resprited Blocks
+  - All Walls
+  - Calamity Turret
+  - Morphite Accelerator
+  - Incinerator
 - New Resource: Lamine
   - Laminator
   - Blast Chamber
@@ -112,4 +114,5 @@ This mod requires newest mindustry build to be played (Beta 153)
 <br>
 
 <br>
+
 
