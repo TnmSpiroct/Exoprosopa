@@ -18,7 +18,11 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-03-hostile-outpost
+      preset: 19s-03-a-luminary
+    }
+    {
+      type: OnSector
+      preset: 19s-05-reservoir
     }
   ]
 }
