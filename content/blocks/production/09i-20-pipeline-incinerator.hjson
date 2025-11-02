@@ -1,26 +1,35 @@
-type: Incinerator
+type: ItemIncinerator
 size: 1
-health: 65
+health: 250
 squareSprite: false
 consumes: {
-  power: 0.33333333333
+  liquids: [
+    02b-04-miasma/0.333333333333
+  ]
 }
 category: crafting
-research: 09i-02-f-elixir-autofreezer
+research: {
+  parent: 09i-02-f-elixir-autofreezer
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-09-escarpment
+    }
+  ]
+}
 requirements: [
-  01a-02-item-nickel/25
   01a-05-item-aluminium/50
+  01a-06-item-chromium/40
 ]
-researchCost: [
-  01a-02-item-nickel/80
-  01a-05-item-aluminium/120
-]
+buildCostMultiplier: 1.75
+researchCostMultiplier: 1.5
 drawer: {
   type: DrawMulti
   drawers: [
     {
-      type: DrawRegion
-      suffix: -bottom
+      type: DrawLiquidTile
+      drawLiquid: 02b-04-miasma
+      padding: 1
     }
     {
       type: DrawDefault
