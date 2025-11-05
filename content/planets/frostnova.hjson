@@ -47,46 +47,45 @@ cloudMesh: [
    thresh: 0.45
    }
 ]
-radius: 1.2
-startSector: 0
-sectorSize: 3
-minZoom: 0.5
 
-orbitRadius: 80
-orbitOffset: 100
-orbitTime: 3000
-orbitSpacing: 3.5
-
+allowCampaignRules: true
+allowLaunchLoadout: false
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
-allowLaunchLoadout: false
+allowLegacyLaunchPads: false
 allowSectorInvasion: false
-allowSelfSectorLaunch: true
-allowCampaignRules: true
+allowSelfSectorLaunch: false
+allowWaveSimulation: false
 
-hasAtmosphere: true
 iconColor: 98c1f5
 landCloudColor: e2effc60
-updateLighting: false
+hasAtmosphere: true
 bloom: false
-lighting: true
 
-clearSectorOnLose: true
-prebuildBase: true
-defaultCore: 11k-01-core-apex
+fog: true
+showSpawns: true
+campaignRuleDefaults.fog: true
+campaignRuleDefaults.showSpawns: true
+
+startSector: 0
+sectorSize: 3
 parent: sun
 solarSystem: sun
 tidalLock: true
+orbitRadius: 80
+orbitOffset: 100
+orbitTime: 3000
+orbitSpacing: 3.2
+radius: 1.2
 
-enemyBuildSpeedMultiplier: 0.5
+prebuildBase: true
+clearSectorOnLose: true
 coreDestroyClear: true
-fog: true
-showSpawns: true
-rtsAI: true
-
-campaignRuleDefaults.fog: true
-campaignRuleDefaults.showSpawns: true
-campaignRuleDefaults.rtsAI: true
+onlyDepositCore: true
+defaultCore: 11k-01-core-apex
+enemyBuildSpeedMultiplier: 0.4
+enemyCoreSpawnReplace: false
+updateLighting: false
 
 launchCandidates: []
 itemWhitelist: [

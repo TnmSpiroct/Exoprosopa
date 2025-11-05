@@ -1,5 +1,8 @@
 generator: "PlanetGenerator"
 localizedName: Teresa
+accessible: false
+visible: true
+alwaysUnlocked: false
 hidden: true
 mesh: []
 cloudMesh: [
@@ -16,40 +19,47 @@ cloudMesh: [
    thresh: 0.45
    }
 ]
-radius: 0.6
-startSector: 0
-sectorSize: 1
-orbitRadius: 144
-orbitOffset: 2
-minZoom: 0.8
+
+allowCampaignRules: true
+allowLaunchLoadout: false
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
-allowLaunchLoadout: false
+allowLegacyLaunchPads: false
 allowSectorInvasion: false
-hasAtmosphere: true
+allowSelfSectorLaunch: false
+allowWaveSimulation: false
+
 iconColor: 98c1f5
-accessible: false
-visible: false
-alwaysUnlocked: false
-updateLighting: false
+landCloudColor: e2effc60
+hasAtmosphere: true
 bloom: false
 
-clearSectorOnLose: true
-prebuildBase: true
-defaultCore: 29i-01-core-astral
-parent: sun
-solarSystem: sun
-tidalLock: true
-orbitSpacing: 0.9
-
-enemyBuildSpeedMultiplier: 0.75
-rules.fog: true
-rules.showSpawns: true
-rules.rtsAI: true
+fog: true
+showSpawns: true
 campaignRuleDefaults.fog: true
 campaignRuleDefaults.showSpawns: true
-campaignRuleDefaults.rtsAI: true
+
+startSector: 0
+sectorSize: 1
+parent: frostnova
+solarSystem: sun
+tidalLock: true
+orbitRadius: 140
+orbitOffset: 2
+orbitTime: 100
+orbitSpacing: 0.8
+radius: 0.6
+totalradius: 2.2
+minZoom: 0.8
+
+prebuildBase: true
+clearSectorOnLose: true
 coreDestroyClear: true
+onlyDepositCore: true
+defaultCore: 29i-01-core-astral
+enemyBuildSpeedMultiplier: 0.2
+enemyCoreSpawnReplace: false
+updateLighting: false
 
 launchCandidates: []
 itemWhitelist: [
