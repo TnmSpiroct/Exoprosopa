@@ -1,0 +1,17 @@
+# Check Maps Properties
+
+en:
+bio.chip2 = [accent]Miasma Capacity = [salmon]88%\n[accent]Status = [salmon]Danger
+bio.chip3 = [salmon]All defense point has bben destroyed.\nAll remaining personel units evacuate to\n[accent]Armored Warfare Facility[] immediately!
+bio.chip4 = [salmon]High Radiation Area\nOnly Nikkes Allowed
+bio.chip5 = -- - -- -- --- -- -
+bio.chip6 = - - --- - -- -- ---
+bio.chip1 = [salmon]High Radiation Area\nOnly Nikkes Allowed
+
+in_ID:
+bio.chip2 = [accent]Kapasitas Miasma = [salmon]88%\n[accent]Status = [salmon]Bahaya
+bio.chip3 = [salmon]Semua titik pertahanan telah hancur.\nSemua unit personel yang tersisa harap dievakuasi ke\n[accent]Fasilitas Peperangan berlapis Baja[] sesegera mungkin!
+bio.chip4 = [salmon]Area Radiasi Tinggi\nHanya Nikke yang Diizinkan
+bio.chip5 = -- - -- -- --- -- -
+bio.chip6 = - - --- - -- -- ---
+bio.chip1 = [salmon]Area Radiasi Tinggi\nHanya Nikke yang Diizinkan
