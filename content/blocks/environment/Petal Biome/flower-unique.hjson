@@ -1,5 +1,4 @@
 type: StaticWall
-name: Petal Flower
 variants: 0
 solid: true
 breakable: false
