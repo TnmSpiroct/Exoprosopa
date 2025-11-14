@@ -22,7 +22,7 @@
 ## Contributors
 </div>
 Thankyou for playing this mod!<br>
-You can contributes maps or gives suggestions by join Exoprosopa Server!<br>
+You can contributes maps or gives suggestions by join Exoprosopa Discord Server!<br>
 Check it on my profile. My username is TnmSpiroct.<br><br>
 
 This mod requires newest mindustry build to be played (Beta 153)
@@ -114,5 +114,6 @@ This mod requires newest mindustry build to be played (Beta 153)
 <br>
 
 <br>
+
 
 
