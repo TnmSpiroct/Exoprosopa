@@ -1,5 +1,4 @@
 type: TreeBlock
-name: Large Flower
 variants: 0
 itemDrop: 01a-08-item-petal-flower
 emitLight: true
