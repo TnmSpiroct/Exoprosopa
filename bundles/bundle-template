@@ -81,6 +81,10 @@ sector.exoprosopa-19s-99-ending.description =
 # Resources - Items
 block.exoprosopa-tech-ore.name = 
 block.exoprosopa-bethinecobalt.name = 
+block.exoprosopa-flower-unique.name = 
+block.exoprosopa-flower-small.name = 
+block.exoprosopa-flower-large.name = 
+
 item.exoprosopa-01a-01-item-cobalt.name = 
 item.exoprosopa-01a-01-item-cobalt.description = 
 

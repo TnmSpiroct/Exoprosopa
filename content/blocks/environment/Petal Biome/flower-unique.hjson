@@ -1,0 +1,6 @@
+type: StaticWall
+variants: 0
+solid: true
+breakable: false
+alwaysReplace: false
+itemDrop: 01a-08-item-petal-flower
