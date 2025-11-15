@@ -73,9 +73,8 @@ parent: sun
 solarSystem: sun
 tidalLock: true
 orbitRadius: 80
-orbitOffset: 100
 orbitTime: 3000
-orbitSpacing: 3.2
+orbitSpacing: 1
 radius: 1.2
 
 prebuildBase: true
@@ -83,7 +82,7 @@ clearSectorOnLose: true
 coreDestroyClear: true
 onlyDepositCore: true
 defaultCore: 11k-01-core-apex
-enemyBuildSpeedMultiplier: 0.4
+enemyBuildSpeedMultiplier: 0.2
 enemyCoreSpawnReplace: false
 updateLighting: false
 

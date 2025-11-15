@@ -1,22 +1,46 @@
-generator: "PlanetGenerator"
+generator: "AsteroidGenerator"
 localizedName: Teresa
 accessible: false
 visible: true
 alwaysUnlocked: false
-hidden: true
-mesh: []
+mesh: [
+    {
+    //defaultbiome
+    type: NoiseMesh
+    planet: teresa
+    divisions: 5
+    seed: 7
+    radius: 0.2225
+    color1: 3b7a69
+    color2: 376b5d
+    octaves: 3
+    persistence: 1.1
+    }
+    {
+    //cobaltbiome
+    type: NoiseMesh
+    planet: frostnova
+    divisions: 5
+    seed: 6
+    radius: 0.225
+    color1: 252d40
+    color2: 384d6c
+    octaves: 3
+    persistence: 0.2
+    }
+]
 cloudMesh: [
    {
    type: HexSkyMesh
    planet: teresa
-   speed: 1.1
-   radius: 0.194
+   speed: 0.8
+   radius: 0.075
    divisions: 6
    color: e2effc60
    octaves: 3
    persistence: 0.3
-   scl: 0.9
-   thresh: 0.45
+   scl: 0.78
+   thresh: 0.4
    }
 ]
 
@@ -29,7 +53,7 @@ allowSectorInvasion: false
 allowSelfSectorLaunch: false
 allowWaveSimulation: false
 
-iconColor: 98c1f5
+iconColor: 4fab92
 landCloudColor: e2effc60
 hasAtmosphere: true
 bloom: false
@@ -39,18 +63,15 @@ showSpawns: true
 campaignRuleDefaults.fog: true
 campaignRuleDefaults.showSpawns: true
 
-startSector: 0
-sectorSize: 1
+# startSector: 0
+# sectorSize: 1
 parent: frostnova
 solarSystem: sun
 tidalLock: true
-orbitRadius: 140
-orbitOffset: 2
-orbitTime: 100
-orbitSpacing: 0.8
-radius: 0.6
-totalradius: 2.2
-minZoom: 0.8
+drawOrbit: true
+orbitRadius: 8
+radius: 0.25
+minZoom: 1.6
 
 prebuildBase: true
 clearSectorOnLose: true
@@ -66,11 +87,16 @@ itemWhitelist: [
   "01a-01-item-cobalt",
   "01a-02-item-nickel",
   "01a-03-item-anthracite",
+  "01a-03-item-aquashard",
+  "01a-03-item-lamine",
   "01a-04-item-tantra-sand",
   "01a-05-item-aluminium",
+  "01a-05-item-raw-nichrome",
   "01a-06-item-chromium",
   "01a-07-item-clevorite",
-  "01a-08-item-petal",
+  "01a-08-item-nucrid",
+  "01a-08-item-petal"
+  "01a-08-item-petal-flower",
   "01a-09-item-morphite",
   "01a-10-item-bethine",
   "01a-11-item-pyroxene",
