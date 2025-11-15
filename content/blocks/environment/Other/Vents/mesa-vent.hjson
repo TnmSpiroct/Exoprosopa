@@ -1,4 +1,4 @@
-name: Fleshing Vent
+name: Mesa Vent
 type: SteamVent
 blendGroup: mesafloor
 parent: mesafloor
