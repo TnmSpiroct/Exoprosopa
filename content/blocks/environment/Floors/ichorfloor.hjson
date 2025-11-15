@@ -3,5 +3,5 @@ name: Ichor Floor
 variants: 3
 speedMultiplier: 0.25
 attributes: {
-  ichor: 1
+  ichor: 1.55
 }
