@@ -3,4 +3,4 @@ hardness: 1
 lowPriority: true
 cost: 0.3
 research: 01a-06-item-chromium
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [frostnova, teresa]

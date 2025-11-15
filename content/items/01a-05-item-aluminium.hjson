@@ -2,4 +2,4 @@ hardness: 3
 cost: 0.8
 research: 01a-03-item-anthracite
 color: 729aaf
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [frostnova, teresa]

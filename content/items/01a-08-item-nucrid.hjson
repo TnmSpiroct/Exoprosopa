@@ -3,4 +3,4 @@ hardness: 3
 cost: 0.5
 charge: 0.75
 research: 01a-07-item-clevorite
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [frostnova, teresa]

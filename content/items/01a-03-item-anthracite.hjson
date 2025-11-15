@@ -5,4 +5,4 @@ cost: 0.3
 flammability: 1.2
 research: 01a-01-item-cobalt
 buildable: false
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [frostnova, teresa]

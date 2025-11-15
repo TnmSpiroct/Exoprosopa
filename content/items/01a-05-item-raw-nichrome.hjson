@@ -4,4 +4,4 @@ lowPriority: true
 buildable: false
 cost: 0.3
 research: 01a-03-item-aquashard
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [frostnova, teresa]

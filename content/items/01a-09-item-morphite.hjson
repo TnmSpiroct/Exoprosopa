@@ -4,6 +4,6 @@ research: 01a-07-item-clevorite
 color: 51c59c
 charge: 2
 explosiveness: 0.25
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [frostnova, teresa]
 frames: 11
 frameTime: 7

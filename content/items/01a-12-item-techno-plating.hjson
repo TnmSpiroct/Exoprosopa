@@ -2,4 +2,4 @@ color: 418ea7
 hardness: 2
 cost: 1.5
 research: 01a-11-item-technoscrap
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [frostnova, teresa]

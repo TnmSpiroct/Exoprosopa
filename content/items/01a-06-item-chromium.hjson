@@ -8,4 +8,4 @@ research: {
     04d-04-bore-jet,
   ]
 }
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [frostnova, teresa]

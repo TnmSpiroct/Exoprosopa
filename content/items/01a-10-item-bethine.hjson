@@ -3,4 +3,4 @@ cost: 1.3
 research: 01a-08-item-petal
 color: BF97D6
 charge: 1.25
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [frostnova, teresa]

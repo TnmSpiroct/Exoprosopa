@@ -2,4 +2,4 @@ color: E1CF9A
 hardness: 1
 cost: 0.6
 research: 01a-01-item-cobalt
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [frostnova, teresa]

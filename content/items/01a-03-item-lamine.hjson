@@ -4,4 +4,4 @@ cost: 0.6
 flammability: 2.5
 explosiveness: 1
 research: 01a-03-item-anthracite
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [frostnova, teresa]

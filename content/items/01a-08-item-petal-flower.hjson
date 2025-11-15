@@ -5,4 +5,4 @@ radioactivity: 0.25
 flammability: 0.75
 research: 01a-08-item-nucrid
 buildable: false
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [frostnova, teresa]

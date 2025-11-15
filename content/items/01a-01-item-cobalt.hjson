@@ -6,4 +6,4 @@ cost: 0.5
 # Research tree
 research: 0001-item
 # Must apply on campaign mod
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [frostnova, teresa]

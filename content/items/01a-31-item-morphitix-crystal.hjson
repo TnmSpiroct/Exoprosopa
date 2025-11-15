@@ -1,4 +1,4 @@
 color: 72ccbd
 hardness: 2
 cost: 0.5
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [teresa]

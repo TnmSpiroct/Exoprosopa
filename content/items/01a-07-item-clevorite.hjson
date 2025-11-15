@@ -4,4 +4,4 @@ cost: 1.0
 charge: 0.4
 explosiveness: 0.4
 research: 01a-06-item-chromium
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [frostnova, teresa]
