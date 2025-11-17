@@ -36,7 +36,7 @@ destroyBullet: {
     pierceCap: 1
     homingPower: 0.1
     damage: 20
-    mixColorFrom: 594e6b
-    mixColorTo: 2e293a
+    mixColorFrom: 21cee5
+    mixColorTo: 9af6ff
   }
 }

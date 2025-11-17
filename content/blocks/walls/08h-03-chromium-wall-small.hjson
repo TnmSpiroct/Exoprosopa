@@ -1,7 +1,7 @@
 type: Wall
 size: 1
 health: 550
-armor: 6
+armor: 8
 requirements: [
   01a-06-item-chromium/6
 ]

@@ -1,7 +1,7 @@
 type: ShieldWall
 size: 2
 health: 3600
-armor: 15
+armor: 12
 outputsPower: false
 hasPower: true
 consumePower: true

@@ -1,7 +1,7 @@
 type: Wall
 size: 1
 health: 680
-armor: 6
+armor: 8
 absorbLasers: true
 requirements: [
   01a-02-item-nickel/4

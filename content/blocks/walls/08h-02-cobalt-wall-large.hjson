@@ -1,7 +1,7 @@
 type: Wall
 size: 2
-armor: 6
-health: 1920
+armor: 4
+health: 1820
 requirements: [
   01a-01-item-cobalt/24
 ]

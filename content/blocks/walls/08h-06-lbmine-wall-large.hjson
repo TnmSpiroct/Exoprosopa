@@ -1,7 +1,7 @@
 type: Wall
 size: 2
 health: 2880
-armor: 10
+armor: 8
 requirements: [
   01a-03-item-lamine/16
   01a-06-item-chromium/12
@@ -24,8 +24,8 @@ destroyBullet: {
     height: 7
     pierceCap: 1
     homingPower: 0.1
-    damage: 55
-    mixColorFrom: 594e6b
-    mixColorTo: 2e293a
+    damage: 65
+    mixColorFrom: de5750
+    mixColorTo: ff8167
   }
 }

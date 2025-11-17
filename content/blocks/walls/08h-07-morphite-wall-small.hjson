@@ -4,7 +4,7 @@ health: 850
 armor: 8
 lightningChance: 0.1
 lightningDamage: 15
-lightningColor: cf9991
+lightningColor: 92cfb8
 requirements: [
   01a-01-item-cobalt/4
   01a-09-item-morphite/6

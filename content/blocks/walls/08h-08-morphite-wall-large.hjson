@@ -1,10 +1,10 @@
 type: Wall
 size: 2
 health: 3400
-armor: 12
+armor: 10
 lightningChance: 0.25
 lightningDamage: 25
-lightningColor: cf9991
+lightningColor: 92cfb8
 requirements: [
   01a-01-item-cobalt/12
   01a-09-item-morphite/24

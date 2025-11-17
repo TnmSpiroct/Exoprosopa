@@ -3,7 +3,7 @@ type: Wall
 size: 1
 # Armor and health point
 armor: 4
-health: 480
+health: 450
 # Build cost
 requirements: [
   01a-01-item-cobalt/6
