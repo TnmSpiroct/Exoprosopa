@@ -69,7 +69,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: 02b-04-miasma
-      padding: 3
+      padding: 9
     }
     {
       type: DrawDefault

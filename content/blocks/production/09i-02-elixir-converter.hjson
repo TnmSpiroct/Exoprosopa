@@ -31,7 +31,7 @@ drawer: [
     recurrence: 3
     spread: 5
     radius: 1.5
-    amount: 18
+    amount: 24
   }
   {
     type: DrawRegion
