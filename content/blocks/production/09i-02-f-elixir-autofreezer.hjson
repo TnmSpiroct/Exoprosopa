@@ -38,11 +38,6 @@ drawer: {
     padding: 3
   }
   {
-    type: DrawLiquidTile
-    drawLiquid: 02b-02-a-purified-elixir
-    padding: 3
-  }
-  {
     type: DrawBubbles
     color: 8eceec
     sides: 10
@@ -50,6 +45,20 @@ drawer: {
     spread: 7
     radius: 1.5
     amount: 24
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: 02b-02-a-purified-elixir
+    padding: 3
+  }
+  {
+    type: DrawBubbles
+    color: d487ed
+    sides: 10
+    recurrence: 3
+    spread: 7
+    radius: 1.5
+    amount: 12
   }
   {
     type: DrawRegion
