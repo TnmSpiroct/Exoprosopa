@@ -25,7 +25,7 @@ destroyBullet: {
     damage: 50
     splashDamage: 1
     splashDamageRadius: 32
-    status: asthosus-13m-01-breached
+    status: exoprosopa-13m-01-breached
     statusDuration: 60
     mixColorFrom: e16896
     mixColorTo: fe97ba
