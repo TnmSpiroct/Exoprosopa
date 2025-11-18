@@ -39,13 +39,16 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: 02b-02-ichor
-      padding: 3
+      padding: 8
+    }
+    {
+      type: DrawBubbles
+      color: edc787
+      spread: 8
+      amount: 12
     }
     {
       type: DrawDefault
-    }
-    {
-      type: DrawCrucibleFlame
     }
   ]
 }

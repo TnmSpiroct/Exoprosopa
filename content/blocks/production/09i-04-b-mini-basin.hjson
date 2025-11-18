@@ -74,14 +74,17 @@ drawer: {
     {
       type: DrawBubbles
       color: b979bd
-      spread: 2.5
-      amount: 5
+      spread: 8
+      amount: 8
     }
     {
-      type: DrawBubbles
+      type: DrawParticles
       color: d8f18c
-      spread: 7
-      amount: 10
+      alpha: 0.8
+      particleSize: 1.2
+      particles: 10
+      particleRad: 12
+      particleLife: 60
     }
     {
       type: DrawBubbles
