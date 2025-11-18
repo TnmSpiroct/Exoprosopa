@@ -61,6 +61,26 @@ drawer: {
       padding: 3
     }
     {
+      type: DrawLiquidTile
+      drawLiquid: 02b-01-bioliquid
+      padLeft: 15
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-01-bioliquid
+      padRight: 15
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-01-bioliquid
+      padTop: 15
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-01-bioliquid
+      padBottom: 15
+    }
+    {
       type: DrawRegion
       suffix: -rotator
       spinSprite: true

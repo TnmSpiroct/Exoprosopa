@@ -43,7 +43,13 @@ drawer: {
     padding: 3
   }
   {
-    type: DrawCrucibleFlame
+    type: DrawBubbles
+    color: 8eceec
+    sides: 10
+    recurrence: 3
+    spread: 7
+    radius: 1.5
+    amount: 24
   }
   {
     type: DrawRegion

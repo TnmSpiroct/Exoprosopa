@@ -59,7 +59,10 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: 02b-06-morphitix-plasma
-      padding: 3
+      padRight: 1.5
+      padTop: 7
+      padBottom: 7
+      padLeft: 1.5
     }
     {
       type: DrawDefault

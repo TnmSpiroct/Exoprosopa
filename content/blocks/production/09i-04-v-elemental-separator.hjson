@@ -40,7 +40,7 @@ drawer: {
       alpha: 0.8
       particleSize: 4
       particles: 9
-      particleRad: 14
+      particleRad: 12
       particleLife: 20
     }
     {

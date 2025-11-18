@@ -13,7 +13,7 @@ requirements: [
   01a-07-item-clevorite/40
 ]
 craftTime: 240
-craftEffect: none
+craftEffect: smeltsmoke
 outputItems: [
   01a-07-item-clevorite/5
 ]
@@ -69,10 +69,7 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: 02b-04-miasma
-      padding: 8
-    }
-    {
-      type: DrawFlame
+      padding: 3
     }
     {
       type: DrawDefault

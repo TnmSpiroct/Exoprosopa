@@ -48,10 +48,10 @@ drawer: {
     {
       type: DrawBubbles
       color: FFFFFF
-      sides: 4
+      sides: 10
       recurrence: 3
       spread: 7
-      radius: 1.75
+      radius: 1.5
       amount: 28
     }
     {

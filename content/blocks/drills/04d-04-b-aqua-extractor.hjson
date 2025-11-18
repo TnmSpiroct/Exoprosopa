@@ -42,6 +42,20 @@ drawer: {
       suffix: -bottom
     }
     {
+    type: DrawLiquidTile
+    drawLiquid: 02b-05-hydrowater
+    padding: 3
+    }
+    {
+    type: DrawBubbles
+    color: 8eceec
+    sides: 10
+    recurrence: 3
+    spread: 5
+    radius: 1.5
+    amount: 18
+    }
+    {
       type: DrawDefault
     }
   ]
