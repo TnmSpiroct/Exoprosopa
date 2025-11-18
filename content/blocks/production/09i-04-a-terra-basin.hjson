@@ -63,34 +63,34 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: 02b-01-bioliquid
-      padRight: 15
+      padTop: 25
       padBottom: 1.5
-      padTop: 1.5
       padLeft: 1.5
+      padRight: 1.5
     }
     {
       type: DrawLiquidTile
       drawLiquid: 02b-01-bioliquid
-      padRight: 1.5
-      padBottom: 15
       padTop: 1.5
+      padBottom: 25
       padLeft: 1.5
+      padRight: 1.5
     }
     {
       type: DrawLiquidTile
       drawLiquid: 02b-01-bioliquid
-      padRight: 1.5
+      padTop: 1.5
       padBottom: 1.5
-      padTop: 15
       padLeft: 1.5
+      padRight: 25
     }
     {
       type: DrawLiquidTile
       drawLiquid: 02b-01-bioliquid
-      padRight: 1.5
-      padBottom: 1.5
       padTop: 1.5
-      padLeft: 15
+      padBottom: 1.5
+      padLeft: 25
+      padRight: 1.5
     }
     {
       type: DrawRegion

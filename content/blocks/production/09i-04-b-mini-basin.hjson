@@ -72,6 +72,24 @@ drawer: {
       padding: 9
     }
     {
+      type: DrawBubbles
+      color: b979bd
+      spread: 2.5
+      amount: 5
+    }
+    {
+      type: DrawBubbles
+      color: d8f18c
+      spread: 7
+      amount: 10
+    }
+    {
+      type: DrawBubbles
+      color: 6da1d2
+      spread: 2.5
+      amount: 5
+    }
+    {
       type: DrawDefault
     }
   ]

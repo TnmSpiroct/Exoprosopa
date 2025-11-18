@@ -43,7 +43,22 @@ drawer: {
       padding: 3
     }
     {
-      type: DrawCrucibleFlame
+      type: DrawParticles
+      color: e1cf9a
+      alpha: 0.85
+      particleSize: 1.5
+      particles: 12
+      particleRad: 15
+      particleLife: 60
+    }
+    {
+      type: DrawParticles
+      color: bca49f
+      alpha: 0.85
+      particleSize: 1.2
+      particles: 10
+      particleRad: 10
+      particleLife: 60
     }
     {
       type: DrawDefault
