@@ -41,6 +41,8 @@ drawer: {
     # You can add effect on your blocks to prevent repetitive looking factory.
     {
       type: DrawCrucibleFlame
+      flameRad: 0.1
+      circleSpace: 0.5
     }
     # Then add the main sprites on top, overlapping the -bottom sprite
     {
