@@ -40,7 +40,22 @@ drawer: {
       padding: 3
     }
     {
+      type: DrawBubbles
+      color: FF8167
+      sides: 10
+      recurrence: 3
+      spread: 9
+      radius: 1.5
+      amount: 42
+    }
+    {
       type: DrawCrucibleFlame
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 1.55
     }
     {
       type: DrawRegion

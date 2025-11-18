@@ -33,9 +33,9 @@ drawer: {
     suffix: -bottom
   }
   {
-    type: DrawLiquidTile
+    type: DrawLiquidRegion
+    suffix: -liquid
     drawLiquid: 02b-01-bioliquid
-    padding: 3
   }
   {
     type: DrawBubbles
@@ -47,9 +47,9 @@ drawer: {
     amount: 24
   }
   {
-    type: DrawLiquidTile
+    type: DrawLiquidRegion
+    suffix: -liquid
     drawLiquid: 02b-02-a-purified-elixir
-    padding: 3
   }
   {
     type: DrawBubbles
