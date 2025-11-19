@@ -58,12 +58,9 @@ drawer: {
       padRight: 1.5
     }
     {
-      type: DrawLiquidTile
+      type: DrawLiquidRegion
       drawLiquid: 02b-04-miasma
-      padTop: 1.5
-      padBottom: 1.5
-      padLeft: 8
-      padRight: 8
+      suffix: -liquid
     }
     {
       type: DrawCrucibleFlame
