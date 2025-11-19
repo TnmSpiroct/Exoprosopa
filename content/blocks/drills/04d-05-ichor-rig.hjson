@@ -46,6 +46,11 @@ drawer: {
       padding: 3
     }
     {
+      type: DrawLiquidRegion
+      drawLiquid: 02b-01-bioliquid
+      suffix: -liquid
+    }
+    {
       type: DrawDefault
     }
     {
