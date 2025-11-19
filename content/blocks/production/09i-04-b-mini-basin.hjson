@@ -43,14 +43,42 @@ drawer: {
       fadeMargin: 0.2
     }
     {
-      type: DrawLiquidRrgion
-      suffix: -liquid2
+      type: DrawLiquidTile
       drawLiquid: 02b-02-a-purified-elixir
+      padLeft: 15.5
+      padTop: 15.5
+      padBottom: 1.5
+      padRight: 1.5
     }
     {
-      type: DrawLiquidRegion
-      suffix: -liquid1
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-a-purified-elixir
+      padRight: 15.5
+      padTop: 15.5
+      padBottom: 1.5
+      padLeft: 1.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-a-purified-elixir
+      padLeft: 15.5
+      padBottom: 15.5
+      padTop: 1.5
+      padRight: 1.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-a-purified-elixir
+      padRight: 15.5
+      padBottom: 15.5
+      padTop: 1.5
+      padLeft: 1.5
+    }
+    {
+      type: DrawLiquidTile
       drawLiquid: 02b-04-miasma
+      padding: 9
+
     }
     {
       type: DrawBubbles
