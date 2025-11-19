@@ -4,6 +4,7 @@ size: 3
 powerProduction: 12
 squareSprite: false
 researchCostMultiplier: 0.5
+hasLiquids: true
 consumes: {
   liquids: [
     02b-04-miasma/0.33333333333
