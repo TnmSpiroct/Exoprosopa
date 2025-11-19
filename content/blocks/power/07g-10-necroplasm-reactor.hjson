@@ -40,16 +40,16 @@ drawer: {
       color: 60C9AD
       sides: 10
       recurrence: 3
-      spread: 7
+      spread: 20
       radius: 1.5
-      amount: 36
+      amount: 52
     }
     {
       type: DrawDefault
     }
   ]
 }
-research: 07g-05-tokamak-reactor
+research: 07g-05-a-geogenerator
 researchCostMultiplier: 0.75
 liquidCapacity: 80
 explosionRadius: 45

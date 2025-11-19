@@ -47,11 +47,7 @@ drawer: {
     {
       type: DrawDefault
     }
-    {
-      type: DrawHeatInput
-      heatColor: FD898C
-    }
   ]
 } 
 researchCostMultiplier: 0.5
-research: 07g-05-a-geogenerator
+parent: 07g-05-a-geogenerator
