@@ -48,6 +48,12 @@ drawer: {
       amount: 36
     }
     {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 1.25
+    }
+    {
       type: DrawDefault
     }
   ]
