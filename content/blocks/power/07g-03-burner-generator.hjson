@@ -29,6 +29,7 @@ drawer: {
       drawLiquid: 02b-01-bioliquid
       suffix: -liquid
       alpha: 0.8
+    }
     {
       type: DrawCrucibleFlame
       flameRad: 0.5
