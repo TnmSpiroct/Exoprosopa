@@ -11,6 +11,7 @@ consumes: {
   itemFlammable: {}
   liquid: 02b-01-bioliquid/0.5
 }
+hasLiquids: true
 powerProduction: 2
 itemDuration: 240
 generateEffect: generatespark
@@ -23,6 +24,11 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
+    {
+      type: DrawLiquidRegion
+      drawLiquid: 02b-01-bioliquid
+      suffix: -liquid
+      alpha: 0.8
     {
       type: DrawCrucibleFlame
       flameRad: 0.5
