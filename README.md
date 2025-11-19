@@ -39,7 +39,7 @@ This mod requires newest mindustry build to be played (Beta 153)
   - Reservoir - Abandoned Reservoir [Remake] ☑
   - Botanical Garden [Remake] ☑
   - Eridanus [Published - WIP] ☑
-  - Bioproject Core [WIP]
+  - Bioproject Core ☑
   - Military Junkyard [WIP]
   - Polarstation [WIP]
   - Antarstar [WIP]
@@ -52,15 +52,13 @@ This mod requires newest mindustry build to be played (Beta 153)
   - Alpha Frontier
 - Custom Map: 
   - Ridgeline [noClearPurpose]
-  - Aeroplex Fort [???]
+  - Aeroplex Fort
 - New 2 Midgame Turrets
   - Snow White
   - Phantasm
 - Revamp 2 Endgame Turrets
   - Identity > Plasmyr
   - Supernova
-- Build Cost Changes
-  - Logic Blocks
 - Revamped Turrets:
   - Impale Shoot Effect
   - Phalanx
@@ -82,38 +80,28 @@ This mod requires newest mindustry build to be played (Beta 153)
   - Radiative Heater
 - Finalized Cores Block & Units
 - New Effect Block: Enforcer [Shockwave Tower]
-- Name Changes on All Units
-- Resource: Bethine > Gravitix
-- Rework Pyroxene Crafter
-- New Production Block: Necrolysis Boiler
-- New Liquid Block: Hydrolic Pump
-- New Drill Block: Elixir Extractor
 - Enemy Core Landing Effect - Rhodes Core Land VFX
 - Rework Weapon of Units
   - T5 Tank - Rancor
   - T3 Tank - Bulwark
-- Nerfed T3 Air Unit - Strike
 - Resprited All Liquids
-- New Ichor Tiles
-- New Biome - Mesa Biome
+- New Ichor Tiles & Mesa Biome
 - Fixed Building Damage Multiplier on All Turrets
 - New Cobalt Biome Props
-- Fixed Efficiency Scale:
-  - Elixir Collector
-  - Elixir Extractor
-- Nerfed Terrafilter Build Cost & Item Input
 - Adjusted All Vents Extract Percentage
-- Replaced Turrets with Pre-Rotation Feature
-- Fixed Campaign Maps Wproc
+- Implement Turret Pre-Rotation Feature
+- Fixed Wproc in Campaign Maps
 - Fixed Inconsistency Ambient Light Color
-- Adjusted Waves with New Walker Units
+- Adjusted Waves with Walker Units
 - Adjusted Waves Timer - Friendly with Eradication Difficulty
 - Adjusted Weather in Campaign Maps
 - Fixes Unintended Behavior from Debugging Mode
 - Intended Objective: Spawn Units in-after Main Objective
+- Production Blocks VFX Overhaul
 <br>
 
 <br>
+
 
 
 
