@@ -48,6 +48,24 @@ drawer: {
       padding: 3
     }
     {
+    type: DrawBubbles
+    color: 72ccbd
+    sides: 10
+    recurrence: 3
+    spread: 12
+    radius: 1.5
+    amount: 46
+    }
+    {
+      type: DrawParticles
+      color: 72ccbd
+      alpha: 0.85
+      particleSize: 1.5
+      particles: 12
+      particleRad: 15
+      particleLife: 60
+    }
+    {
       type: DrawDefault
     }
   ]

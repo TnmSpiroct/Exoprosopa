@@ -44,7 +44,13 @@ drawer: {
      suffix: -top
      lightRadius: 0
      lightAlpha: 0
+     lightSinScl: 0
+     lightSinMag: 0
      flameRadius: 0
+     flameRadiusIn: 0
+     flameRadiusScl: 0
+     flameRadiusMag: 0
+     flameRadiusInMag: 0
     }
     {
       type: DrawCrucibleFlame

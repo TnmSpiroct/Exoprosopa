@@ -59,6 +59,16 @@ drawer: {
       padding: 3
     }
     {
+      type: DrawCrucibleFlame
+      flameColor: e1cf9a
+      midColor: 444343
+      flameRad: 0.5
+      circleSpace: 0.5
+      particleRad: 9.0
+      particleSize: 1.2
+      fadeMargin: 0.2
+    }
+    {
       type: DrawDefault
     }
   ]

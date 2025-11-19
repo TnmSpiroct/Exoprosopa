@@ -44,18 +44,14 @@ drawer: {
       color: FF8167
       sides: 10
       recurrence: 3
-      spread: 9
-      radius: 1.5
-      amount: 42
+      spread: 12
+      radius: 2.0
+      amount: 48
     }
     {
-      type: DrawCrucibleFlame
-    }
-    {
-      type: DrawRegion
-      suffix: -rotator
-      spinSprite: true
-      rotateSpeed: 1.55
+     type: DrawCrucibleFlame
+     flameRad: 1.0
+     circleSpace: 2.1
     }
     {
       type: DrawRegion
