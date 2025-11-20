@@ -54,9 +54,9 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawLiquidTile
+      type: DrawLiquidRegion
       drawLiquid: 02b-01-bioliquid
-      padding: 3
+      suffix: -liquid
     }
     {
       type: DrawCrucibleFlame
