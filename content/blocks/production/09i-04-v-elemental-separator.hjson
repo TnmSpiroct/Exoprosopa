@@ -51,6 +51,7 @@ drawer: {
       particles: 12
       particleRad: 12
       particleLife: 60
+      reverse: true
     }
     {
       type: DrawDefault
