@@ -36,6 +36,8 @@ drawer: {
     }
     {
       type: DrawCrucibleFlame
+      flameColor: b979bd
+      midColor: b979bd
       flameRad: 0.5
       circleSpace: 0.5
       particleRad: 8.0
@@ -83,7 +85,7 @@ drawer: {
     {
       type: DrawBubbles
       color: b979bd
-      spread: 8
+      spread: 7
       amount: 8
     }
     {
@@ -94,6 +96,7 @@ drawer: {
       particles: 12
       particleRad: 12
       particleLife: 60
+      reverse: true
     }
     {
       type: DrawDefault
