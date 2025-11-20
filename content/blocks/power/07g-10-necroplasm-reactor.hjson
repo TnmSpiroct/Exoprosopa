@@ -9,6 +9,7 @@ requirements: [
   01a-09-item-morphite/150
   01a-10-item-bethine/135
 ]
+hasLiquids: true
 consumes: {
   liquid: 02b-03-necroplasm/2
 }
@@ -31,18 +32,26 @@ drawer: {
       padding: 3
     }
     {
-      type: DrawLiquidTile
+      type: DrawLiquidRegion
       drawLiquid: 02b-07-ectoplasm
-      padding: 3
+      suffix: -liquid
     }
     {
-      type: DrawBubbles
-      color: 60C9AD
-      sides: 10
-      recurrence: 3
-      spread: 16
-      radius: 1.5
-      amount: 52
+      type: DrawParticles
+      color: 60c9ad
+      particleSize: 2
+      particleRad: 16
+      particleLife: 60
+      particles: 52
+      reverse: true
+    }
+    {
+      type: DrawCells
+      color: 60c9ad
+      particleColorFrom: ffffff
+      particleColorTo: 869cbe
+      particles: 50
+      range: 8
     }
     {
       type: DrawDefault
