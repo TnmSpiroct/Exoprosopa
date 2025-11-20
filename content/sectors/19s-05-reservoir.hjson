@@ -1,12 +1,12 @@
 difficulty: 4
 planet: frostnova
-sector: 36
+sector: 164
 research: {
-  parent: 19s-02-mountain-ridge
+  parent: 19s-04-foggy-fields
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-02-mountain-ridge
+      preset: 19s-04-foggy-fields
     }
   ]
 }
