@@ -92,7 +92,7 @@ drawer: {
       type: DrawParticles
       color: d8f18c
       alpha: 0.8
-      particleSize: 1.4
+      particleSize: 1.5
       particles: 12
       particleRad: 12
       particleLife: 60
