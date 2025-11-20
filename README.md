@@ -1,8 +1,12 @@
 # Exoprosopa V0.8: Endgame Update
 <div align = center>
-<p align="center"><img src="sprites-override/ui/logo.png" alt="logo" width="800"></p>
-<p align="center">
-  <a href="https://discord.gg/E3N63nvCSc"><img src="https://img.shields.io/badge/Discord_Community-Join-2ea44f?logo=discord&color=5865F2&style=for-the-badge"></a>
+
+<br>
+
+![Logo]
+<br> <br>
+[![Badge Commit]][Commits] <br>
+[![Badge Discord]][Discord] <br>
 </p>
 
   ### Exoprosopa adds Frostnova planet into the game alongside with its own unique techtree and environment.<br>
@@ -100,8 +104,14 @@ This mod requires newest mindustry build to be played (Beta 153)
 - Production Blocks VFX Overhaul
 <br>
 
-<br>
+![Banner]
 
+<!----------------------------------[ Badges ]--------------------------------->
 
-
-
+[Badge Discord]: https://img.shields.io/badge/Discord_Community-Join-2ea44f?logo=discord&color=5865F2&style=for-the-badge
+[Badge Commit]: https://img.shields.io/github/last-commit/TnmSpiroct/exoprosopa?color=8eceec&style=for-the-badge&label=Last%20Commit
+<!----------------------------------[ Links ]--------------------------------->
+[Logo]: sprites-override/ui/logo.png
+[Banner]: banner.png
+[Discord]: https://discord.gg/E3N63nvCSc
+[Commits]: https://github.com/TnmSpiroct/exoprosopa/commits/main
