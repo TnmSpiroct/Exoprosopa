@@ -21,7 +21,30 @@ requirements: [
   01a-10-item-bethine/45
 ]
 craftTime: 60
-craftEffect: none
+craftEffect: {
+  type: RadialEffect
+  rotationSpacing: 90
+  amount: 8
+  lengthOffset: 6
+  layer: 10
+  effect: {
+    type: ParticleEffect
+    particles: 3
+    lifetime: 160
+    sizeFrom: 2
+    useRotation: false
+    baseRotation: 45
+    sizeTo: 1
+    colorFrom: 60c9ad
+    colorTo: 60c9ad
+    length: 6
+    baseLength: 15
+    cone: 9
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 40
+  }
+}
 outputLiquids: [
   02b-03-necroplasm/0.25
 ]
@@ -46,17 +69,27 @@ drawer: {
       drawLiquid: 02b-04-miasma
     }
     {
+      type: DrawRegion
+      suffix: -mid
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-04-miasma
+      alpha: 0.8
+    }
+    {
       type: DrawLiquidTile
       drawLiquid: 02b-03-necroplasm
-      padLeft: 7
+      padRight: 17
     }
     {
       type: DrawParticles
-      color: FFFFFF
+      color: 60c9ad
+      x: 2.4
       alpha: 0.8
-      particleSize: 4
-      particles: 9
-      particleRad: 12
+      particleSize: 1.5
+      particles: 12
+      particleRad: 10
       particleLife: 20
     }
     {
@@ -65,6 +98,11 @@ drawer: {
     {
       type: DrawHeatInput
       suffix: -heat
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      color: 6e3e7a
     }
   ]
 }

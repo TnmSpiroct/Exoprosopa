@@ -42,7 +42,7 @@ drawer: {
     }
     {
       type: DrawBubbles
-      color: FF8167
+      color: ff8167
       sides: 10
       recurrence: 3
       spread: 7

@@ -54,17 +54,20 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawLiquidRegion
+      type: DrawLiquidTile
       drawLiquid: 02b-01-bioliquid
-      suffix: -liquid
+      padding: 1.5
+    }
+    {
+      type: DrawRegion
+      suffix: -mid
     }
     {
       type: DrawCrucibleFlame
-      flameRad: 0.5
-      circleSpace: 0.5
-      particleRad: 9.0
-      particleSize: 1.2
-      fadeMargin: 0.2
+      flameRad: 0.6
+      circleSpace: 0.6
+      particleRad: 10
+      particleSize: 1.8
     }
     {
       type: DrawDefault

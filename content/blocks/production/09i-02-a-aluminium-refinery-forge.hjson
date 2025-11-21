@@ -46,8 +46,8 @@ drawer: {
     }
     {
      type: DrawCrucibleFlame
-     flameRad: 1.0
-     circleSpace: 2.1
+     particleRad: 12
+     particleSize: 2.5
     }
     {
      type: DrawDefault

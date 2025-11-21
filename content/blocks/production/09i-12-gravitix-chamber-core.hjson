@@ -21,7 +21,43 @@ requirements: [
   01a-08-item-petal/75
 ]
 craftTime: 240
-craftEffect: none
+craftEffect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 40
+      lengthOffset: 10
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 45
+      lengthOffset: 10
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 50
+      lengthOffset: 10
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 90
+      rotationOffset: 55
+      lengthOffset: 10
+      effect: surgeCruciSmoke
+    }
+  ]
+}
 outputItems: [
   01a-10-item-bethine/3
 ]
@@ -48,11 +84,30 @@ drawer: {
       padding: 3
     }
     {
+      type: DrawRegion
+      suffix: -mid
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padding: 3
+      alpha: 0.8
+    }
+    {
+     type: DrawCrucibleFlame
+     particleRad: 12
+    }
+    {
       type: DrawDefault
     }
     {
       type: DrawHeatInput
       suffix: -heat
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      color: c68f57
     }
   ]
 }
