@@ -37,14 +37,25 @@ drawer: {
       padding: 2
     }
     {
+      type: DrawParticles
+      color: 60c9ad
+      particleSize: 2
+      particleRad: 18
+      particleLife: 60
+      particles: 52
+      reverse: true
+    }
+    {
+     type: DrawCrucibleFlame
+     particleRad: 12
+
+    }
+    {
       type: DrawDefault
     }
     {
-      type: DrawCrucibleFlame
-    }
-    {
       type: DrawHeatInput
-      heatColor: FD898C
+      heatColor: fd898c
     }
   ]
 }

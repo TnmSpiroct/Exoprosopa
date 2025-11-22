@@ -18,6 +18,7 @@ drawer: {
     }
     {
       type: DrawCrucibleFlame
+      particles: 25
     }
     {
       type: DrawDefault

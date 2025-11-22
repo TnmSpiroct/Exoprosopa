@@ -61,6 +61,17 @@ drawer: {
       particleLife: 60
     }
     {
+      type: DrawRegion
+      suffix: -mid
+    }
+    {
+      type: DrawCrucibleFlame
+      flameRad: 0.15
+      circleSpace: 0.15
+      particleSize: 1.2
+      particleRad: 10
+    }
+    {
       type: DrawDefault
     }
     {

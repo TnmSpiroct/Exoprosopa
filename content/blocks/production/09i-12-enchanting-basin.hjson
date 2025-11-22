@@ -63,6 +63,13 @@ drawer: {
       padding: 3
     }
     {
+      type: DrawCrucibleFlame
+      flameRad: 0.5
+      circleSpace: 0.5
+      particleRad: 12.0
+      particleSize: 1.5
+    }
+    {
       type: DrawRegion
     }
   ]

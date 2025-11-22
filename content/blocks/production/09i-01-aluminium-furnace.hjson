@@ -56,9 +56,7 @@ drawer: {
       type: DrawCrucibleFlame
       flameRad: 0.5
       circleSpace: 0.5
-      particleRad: 8.0
       particleSize: 1.2
-      fadeMargin: 0.2
     }
     # Then add the main sprites on top, overlapping the -bottom sprite
     {

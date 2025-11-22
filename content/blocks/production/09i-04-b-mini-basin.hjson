@@ -38,11 +38,10 @@ drawer: {
       type: DrawCrucibleFlame
       flameColor: b979bd
       midColor: b979bd
-      flameRad: 0.5
-      circleSpace: 0.5
-      particleRad: 8.0
+      flameRad: 0.4
+      circleSpace: 0.4
+      particleRad: 10
       particleSize: 1.2
-      fadeMargin: 0.2
     }
     {
       type: DrawLiquidTile

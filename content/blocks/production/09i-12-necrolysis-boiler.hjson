@@ -21,7 +21,28 @@ requirements: [
   01a-10-item-bethine/45
 ]
 craftTime: 60
-craftEffect: none
+craftEffect: {
+  type: RadialEffect
+  layer: 90
+  rotationSpacing: 60
+  amount: 1
+  lengthOffset: 3
+  effect: {
+    particles: 4
+    length: 40
+    lifetime: 80
+    cone: 30
+    baseRotation: 42
+    useRotation: false 
+    sizeFrom: 0.2
+    sizeTo: 6
+    colorFrom: 60c9ad66
+    colorTo: 60c9ad00
+    sizeInterp: pow2Out
+    interp: pow2Out
+    layer: 110
+  }
+}
 outputLiquids: [
   02b-03-necroplasm/0.25
 ]
@@ -46,17 +67,55 @@ drawer: {
       drawLiquid: 02b-04-miasma
     }
     {
+      type: DrawRegion
+      suffix: -mid
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-04-miasma
+      alpha: 0.8
+    }
+    {
+      type: DrawRegion
+      suffix: -center
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-04-miasma
+      alpha: 0.2
+    }
+    {
       type: DrawLiquidTile
       drawLiquid: 02b-03-necroplasm
-      padLeft: 7
+      padLeft: 1.5
+      padTop: 1.5
+      padBottom: 18
+      padRight: 1.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-03-necroplasm
+      padLeft: 1.5
+      padTop: 18
+      padBottom: 1.5
+      padRight: 1.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-03-necroplasm
+      padLeft: 1.5
+      padTop: 1.5
+      padBottom: 1.5
+      padRight: 17
     }
     {
       type: DrawParticles
-      color: FFFFFF
+      color: 60c9ad
+      x: 2.4
       alpha: 0.8
-      particleSize: 4
-      particles: 9
-      particleRad: 12
+      particleSize: 1.5
+      particles: 12
+      particleRad: 10
       particleLife: 20
     }
     {
@@ -65,6 +124,11 @@ drawer: {
     {
       type: DrawHeatInput
       suffix: -heat
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      color: 6e3e7a
     }
   ]
 }
