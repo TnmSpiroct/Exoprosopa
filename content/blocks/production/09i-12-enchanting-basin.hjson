@@ -24,17 +24,18 @@ craftEffect: {
   amount: 1
   effect: {
     type: ParticleEffect
-    particles: 4
+    particles: 6
+    lifetime: 30
     sizeFrom: 4.5
+    sizeTo: 0.5
     colorFrom: ffc2d6
     colorTo: fe97ba
     region: exoprosopa-enchanting
-    effect: smeltsmoke
-    lifetime: 40
-    length: 1.5
-    baseLength: 2.0
-    interp: pow2
-    sizeInterp: pow3In
+    strokeFrom: 3
+    strokeTo: 1.5
+    length: 6
+    interp: pow3Out
+    sizeInterp: pow2In
   }
 }
 outputItems: [
@@ -71,6 +72,11 @@ drawer: {
     }
     {
       type: DrawRegion
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      color: fe97ba
     }
   ]
 }

@@ -28,7 +28,7 @@ craftEffect: {
   amount: 1
   lengthOffset: 3
   effect: {
-    particles: 4
+    particles: 6
     length: 40
     lifetime: 80
     cone: 30
@@ -111,12 +111,12 @@ drawer: {
     {
       type: DrawParticles
       color: 60c9ad
-      x: 2.4
+      x: 2.6
       alpha: 0.8
       particleSize: 1.5
       particles: 12
       particleRad: 10
-      particleLife: 20
+      particleLife: 30
     }
     {
       type: DrawDefault
