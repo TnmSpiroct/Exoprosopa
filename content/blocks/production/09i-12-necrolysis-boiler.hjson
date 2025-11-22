@@ -23,26 +23,24 @@ requirements: [
 craftTime: 60
 craftEffect: {
   type: RadialEffect
-  rotationSpacing: 90
-  amount: 8
-  lengthOffset: 6
-  layer: 10
+  layer: 90
+  rotationSpacing: 60
+  amount: 1
+  lengthOffset: 3
   effect: {
-    type: ParticleEffect
-    particles: 3
-    lifetime: 160
-    sizeFrom: 2
-    useRotation: false
-    baseRotation: 45
-    sizeTo: 1
-    colorFrom: 60c9ad
-    colorTo: 60c9ad
-    length: 6
-    baseLength: 15
-    cone: 9
-    interp: pow2
-    sizeInterp: pow3In
-    layer: 40
+    particles: 4
+    length: 40
+    lifetime: 80
+    cone: 30
+    baseRotation: 42
+    useRotation: false 
+    sizeFrom: 0.2
+    sizeTo: 6
+    colorFrom: 60c9ad66
+    colorTo: 60c9ad00
+    sizeInterp: pow2Out
+    interp: pow2Out
+    layer: 110
   }
 }
 outputLiquids: [
@@ -78,8 +76,36 @@ drawer: {
       alpha: 0.8
     }
     {
+      type: DrawRegion
+      suffix: -center
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-04-miasma
+      alpha: 0.2
+    }
+    {
       type: DrawLiquidTile
       drawLiquid: 02b-03-necroplasm
+      padLeft: 1.5
+      padTop: 1.5
+      padBottom: 18
+      padRight: 1.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-03-necroplasm
+      padLeft: 1.5
+      padTop: 18
+      padBottom: 1.5
+      padRight: 1.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-03-necroplasm
+      padLeft: 1.5
+      padTop: 1.5
+      padBottom: 1.5
       padRight: 17
     }
     {
