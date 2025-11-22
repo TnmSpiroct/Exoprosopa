@@ -21,7 +21,6 @@ drawer: {
       type: DrawCrucibleFlame
       flameRad: 0.6
       circleSpace: 0.6
-      particleRad: 4
       particleSize: 1.8
     }
     {
