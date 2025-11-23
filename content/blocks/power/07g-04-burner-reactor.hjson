@@ -9,7 +9,6 @@ requirements: [
   01a-05-item-aluminium/200
   01a-06-item-chromium/250
 ]
-hasLiquids: true
 consumes: {
   itemFlammable: {}
   items: [
@@ -17,7 +16,6 @@ consumes: {
   ]
   liquid: 02b-02-a-purified-elixir/0.5
 }
-consumeEffect: reactorsmoke
 powerProduction: 15
 itemDuration: 180
 generateEffect: generatespark
@@ -31,18 +29,20 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawLiquidRegion
+      type: DrawLiquidTile
       drawLiquid: 02b-02-a-purified-elixir
-      suffix: -liquid
-      alpha: 0.8
+      padding: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -mid
     }
     {
       type: DrawCrucibleFlame
-      flameRad: 0.5
-      circleSpace: 0.5
-      particleRad: 8.0
-      particleSize: 1.2
-      fadeMargin: 0.2
+      flameRad: 0.8
+      circleSpace: 0.8
+      particleRad: 12
+      particleSize: 2
     }
     {
       type: DrawDefault

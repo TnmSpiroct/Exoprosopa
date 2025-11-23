@@ -20,6 +20,15 @@ drawer: {
     }
     {
       type: DrawLiquidTile
+      drawLiquid: 02b-04-miasma
+      padding: 3
+    }
+    {
+      type: DrawRegion
+      suffix: -mid
+    }   
+    {
+      type: DrawLiquidTile
       drawLiquid: 02b-02-a-purified-elixir
       padLeft: 15.5
       padTop: 15.5
@@ -49,22 +58,13 @@ drawer: {
       padBottom: 15.5
       padTop: 1.5
       padLeft: 1.5
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: 02b-04-miasma
-      padTop: 8
-      padBottom: 8
-      padLeft: 1.5
-      padRight: 1.5
-    }
-    {
-      type: DrawLiquidRegion
-      drawLiquid: 02b-04-miasma
-      suffix: -liquid
     }
     {
       type: DrawCrucibleFlame
+      flameRad: 0.5
+      circleSpace: 0.5
+      particleRad: 8
+      particleSize: 1.5
     }
     {
       type: DrawDefault

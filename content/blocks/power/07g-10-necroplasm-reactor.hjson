@@ -30,24 +30,39 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: 02b-03-necroplasm
       padding: 3
+      alpha: 0.6
     }
     {
-      type: DrawLiquidRegion
+      type: DrawLiquidTile
       drawLiquid: 02b-07-ectoplasm
-      suffix: -liquid
+      padding: 3
+    }
+    {
+      type: DrawRegion
+      suffix: -center
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-03-necroplasm
+      padding: 3
+      alpha: 0.9
+    }
+    {
+      type: DrawRegion
+      suffix: -outer
     }
     {
       type: DrawParticles
-      color: 60c9ad
-      particleSize: 2
-      particleRad: 16
+      color: ffffff
+      particleSize: 1.8
+      particleRad: 20
       particleLife: 60
-      particles: 52
+      particles: 50
       reverse: true
     }
     {
       type: DrawCells
-      color: 60c9ad
+      color: 2a8d91
       particleColorFrom: ffffff
       particleColorTo: 869cbe
       particles: 50
