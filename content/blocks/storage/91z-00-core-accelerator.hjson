@@ -16,6 +16,8 @@ requirements: [
 category: effect
 research: 11k-01-core-apex
 researchCostMultiplier: 0.5
+launchBlock: 11k-04-c-core-ultimatum
+buildDuration: 220
 powerBufferRequirement: 1000000
 hasPower: true
 consumes: {
