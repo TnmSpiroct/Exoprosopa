@@ -14,6 +14,34 @@ research: {
 }
 hasLiquids: true
 drillTime: 600
+drillEffect: {
+  type: MultiEffect
+  effects: [
+  {
+    type: particleEffect
+    particles: 10
+    length: 6
+    lifetime: 40
+    interp: circleOut
+    sizeInterp: pow5In
+    colorFrom: e194fa
+    colorTo: e2b3e7
+    sizeFrom: 2.2 
+    sizeTo: 0.1
+    region: exoprosopa-spark-drill
+  }
+  {
+    type: WaveEffect
+    sizeFrom: 0.1
+    sizeTo: 20
+    strokeFrom: 2
+    strokeTo: 0.1
+    colorFrom: f5c2fa
+    colorTo: ad6767
+    lifetime: 16
+  }
+ ]
+}
 tier: 2
 shake: 2
 arrows: 1

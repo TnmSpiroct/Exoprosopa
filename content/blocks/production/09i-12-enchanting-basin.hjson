@@ -24,18 +24,16 @@ craftEffect: {
   amount: 1
   effect: {
     type: ParticleEffect
-    particles: 6
-    lifetime: 30
-    sizeFrom: 4.5
-    sizeTo: 0.5
+    particles: 5
+    lifetime: 26
+    sizeFrom: 2.5
+    sizeTo: 0.2
     colorFrom: ffc2d6
     colorTo: fe97ba
     region: exoprosopa-enchanting
-    strokeFrom: 3
-    strokeTo: 1.5
     length: 6
-    interp: pow3Out
-    sizeInterp: pow2In
+    interp: circleOut
+    sizeInterp: pow5In
   }
 }
 outputItems: [

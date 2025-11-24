@@ -12,25 +12,25 @@ drillEffect: {
   {
     type: particleEffect
     particles: 16
-    length: 8
+    length: 10
     lifetime: 40
     interp: circleOut
     sizeInterp: pow5In
-    colorFrom: 5ea1f2
-    colorTo: ffffff
-    sizeFrom: 2
-    sizeTo: 0
+    colorFrom: edc787
+    colorTo: fbf0c0
+    sizeFrom: 2.2 
+    sizeTo: 0.1
     region: exoprosopa-spark-drill
   }
   {
     type: WaveEffect
     sizeFrom: 0.1
-    sizeTo: 34
-    strokeFrom: 3.1
-    strokeTo: 0.7
-    colorFrom: 594e6b
-    colorTo: 2e293a
-    lifetime: 20
+    sizeTo: 32
+    strokeFrom: 2.6
+    strokeTo: 0.1
+    colorFrom: fbf0c0
+    colorTo: 8c67ad
+    lifetime: 22
   }
  ]
 }
