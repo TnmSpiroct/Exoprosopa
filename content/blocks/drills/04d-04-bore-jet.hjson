@@ -24,8 +24,6 @@ drillEffect: {
     lifetime: 40
     interp: circleOut
     sizeInterp: pow5In
-    colorFrom: e194fa
-    colorTo: e2b3e7
     sizeFrom: 2.2 
     sizeTo: 0.1
     region: exoprosopa-spark-drill
