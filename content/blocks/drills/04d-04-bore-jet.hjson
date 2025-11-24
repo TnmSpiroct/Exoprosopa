@@ -16,6 +16,7 @@ hasLiquids: true
 drillTime: 600
 tier: 2
 shake: 2
+arrows: 1
 squareSprite: false
 itemCapacity: 40
 researchCost: [

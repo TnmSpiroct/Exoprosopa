@@ -42,20 +42,28 @@ drawer: {
     }
     {
       type: DrawLiquidTile
+      drawLiquid: 02b-01-bioliquid
+      padding: 3
+    }
+    {
+      type: DrawLiquidTile
       drawLiquid: 02b-02-ichor
       padding: 3
     }
     {
-      type: DrawLiquidRegion
-      drawLiquid: 02b-01-bioliquid
-      suffix: -liquid
-    }
+      type: DrawRegion
+      suffix: -mid
     {
       type: DrawDefault
     }
     {
       type: DrawRegion
       suffix: -top
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      color: b979bd
     }
   ]
 }
