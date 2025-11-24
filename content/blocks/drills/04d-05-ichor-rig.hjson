@@ -53,6 +53,7 @@ drawer: {
     {
       type: DrawRegion
       suffix: -mid
+    }
     {
       type: DrawDefault
     }
