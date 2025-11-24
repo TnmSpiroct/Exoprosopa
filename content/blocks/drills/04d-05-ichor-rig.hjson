@@ -64,7 +64,8 @@ drawer: {
     {
       type: DrawGlowRegion
       suffix: -glow
-      color: b979bd
+      color: fbf0c0
+      glowIntensity: 0.6
     }
   ]
 }

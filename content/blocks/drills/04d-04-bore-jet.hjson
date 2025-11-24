@@ -33,7 +33,7 @@ drillEffect: {
   {
     type: WaveEffect
     sizeFrom: 0.1
-    sizeTo: 20
+    sizeTo: 24
     strokeFrom: 2
     strokeTo: 0.1
     colorFrom: f5c2fa
