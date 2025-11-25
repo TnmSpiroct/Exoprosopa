@@ -16,14 +16,14 @@ requirements: [
 category: effect
 research: 11k-01-core-apex
 researchCostMultiplier: 0.5
-launchBlock: 11k-04-c-core-ultimatum
+launchBlock: 11k-03-core-apeirogon
 buildDuration: 220
+chargeRings: 5
 powerBufferRequirement: 1000000
 hasPower: true
 consumes: {
   power: 100
   liquids: [
-  02b-02-a-purified-elixir/1.666666
+  02b-02-a-purified-elixir/5.5
   ]
 }
-buildCostMultiplier: 0.5
