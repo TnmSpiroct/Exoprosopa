@@ -55,11 +55,6 @@ drawer: {
       padding: 3
     }
     {
-      type: DrawLiquidRegion
-      drawLiquid: 02b-02-ichor
-      suffix: -liquid
-    }
-    {
       type: DrawDefault
     }
     {
