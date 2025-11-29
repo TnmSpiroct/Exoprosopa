@@ -3,11 +3,11 @@ difficulty: 10
 planet: frostnova
 sector: 99
 research: {
-  parent: 19s-13-marshlands
+  parent: 19s-14-trekker-campsite
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-13-marshlands
+      preset: 19s-14-trekker-campsite
     }
   ]
 }

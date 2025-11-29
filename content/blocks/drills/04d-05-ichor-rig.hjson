@@ -46,13 +46,18 @@ drawer: {
       padding: 3
     }
     {
+      type: DrawRegion
+      suffix: -mid
+    }
+    {
       type: DrawLiquidTile
       drawLiquid: 02b-02-ichor
       padding: 3
     }
     {
-      type: DrawRegion
-      suffix: -mid
+      type: DrawLiquidRegion
+      drawLiquid: 02b-02-ichor
+      suffix: -liquid
     }
     {
       type: DrawDefault
@@ -60,12 +65,6 @@ drawer: {
     {
       type: DrawRegion
       suffix: -top
-    }
-    {
-      type: DrawGlowRegion
-      suffix: -glow
-      color: fbf0c0
-      glowIntensity: 0.6
     }
   ]
 }

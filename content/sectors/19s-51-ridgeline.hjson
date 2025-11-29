@@ -1,7 +1,6 @@
-captureWave: 2
-difficulty: 1
+difficulty: 8
 planet: frostnova
-sector: 132
+sector: 1
 research: {
   parent: 19s-23-eridanus
   objectives: [
