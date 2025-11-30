@@ -42,7 +42,7 @@ drawer: {
     {
       type: DrawShape
       color: 8eceec
-      radius: 4.5
+      radius: 4
       useWarmupRadius: true
       timeScl: 2
     }
@@ -51,7 +51,5 @@ drawer: {
 liquidCapacity: 20
 consumes: {
   power: 2
-  liquids: [
-    02b-02-a-purified-elixir/0.08333333333
-    ]
+  liquid: 02b-02-a-purified-elixir/0.08333333333
 }
