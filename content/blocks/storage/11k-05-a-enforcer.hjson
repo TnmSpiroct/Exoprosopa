@@ -33,7 +33,5 @@ drawer: {
 liquidCapacity: 60
 consumes: {
   power: 2.5
-  liquids: [
-    02b-03-necroplasm/0.25
-  ]
+  liquid: 02b-03-necroplasm/0.25
 }
