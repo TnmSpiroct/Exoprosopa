@@ -28,9 +28,7 @@ requirements: [
 ]
 consumes: {
   power: 4
-  liquids: [
-  02b-02-a-purified-elixir/0.08333333333
-  ]
+  liquid: 02b-02-a-purified-elixir/0.08333333333
 }
 armor: 5
 researchCostMultiplier: 0.5
