@@ -9,6 +9,7 @@ rotateDraw: false
 craftTime: 60
 liquidCapacity: 60
 hasLiquids: true
+lightLiquid: 02b-02-a-purified-elixir
 drawer: [
   {
     type: DrawRegion
@@ -65,6 +66,8 @@ requirements: [
   01a-02-item-nickel/60
   01a-05-item-aluminium/30
 ]
+ambientSound: electricHum
+ambientSoundVolume: 0.2
 squareSprite: false
 research: {
   parent: 09i-01-aluminium-furnace

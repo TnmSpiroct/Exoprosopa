@@ -58,8 +58,8 @@ drawer: {
     }
   ]
 }
-ambientSound: smelter
-ambientSoundVolume: 0.6
+ambientSound: none
+ambientSoundVolume: 0.5
 squareSprite: false
 research: {
   parent: 09i-04-u-aquanite-filter

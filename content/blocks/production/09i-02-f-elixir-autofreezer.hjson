@@ -6,6 +6,7 @@ rotate: true
 quickRotate: true
 rotateDraw: false
 hasLiquids: true
+lightLiquid: 02b-02-a-purified-elixir
 category: crafting
 consumes: {
   items :[
@@ -69,6 +70,8 @@ drawer: {
   ]
 }
 squareSprite: false
+ambientSound: electricHum
+ambientSoundVolume: 0.3
 research: 09i-02-elixir-converter
 researchCost: [
   01a-01-item-cobalt/1400

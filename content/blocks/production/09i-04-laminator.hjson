@@ -53,13 +53,13 @@ drawer: {
       type: DrawRegion
       suffix: -rotator
       spinSprite: true
-      rotateSpeed: 1.25
+      rotateSpeed: 1.35
     }
     {
       type: DrawRegion
     }
   ]
 }
-ambientSound: smelter
+ambientSound: none
 ambientSoundVolume: 0.6
 squareSprite: false

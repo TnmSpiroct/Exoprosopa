@@ -31,7 +31,7 @@ requirements: [
   01a-06-item-chromium/220
 ]
 craftTime: 120
-craftEffect: none
+craftEffect: formsmoke
 outputItems: [
   01a-07-item-clevorite/4
   01a-01-item-cobalt/1.5555555555
@@ -106,6 +106,6 @@ drawer: {
     }
   ]
 }
-ambientSound: smelter
+ambientSound: none
 ambientSoundVolume: 0.6
 squareSprite: false

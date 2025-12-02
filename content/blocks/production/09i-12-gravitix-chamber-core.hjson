@@ -119,6 +119,7 @@ drawer: {
     }
   ]
 }
+fogRadius: 4
 ambientSound: smelter
 ambientSoundVolume: 0.6
 squareSprite: false

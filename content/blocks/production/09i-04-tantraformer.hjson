@@ -74,5 +74,7 @@ drawer: {
     }
   ]
 }
-ambientSoundVolume: 0.6
+fogRadius: 3
+ambientSound: none
+ambientSoundVolume: 0.2
 squareSprite: false

@@ -14,6 +14,7 @@ consumes: {
   power: 2.5
 }
 outputLiquid: 02b-02-ichor/0.25
+lightLiquid: 02b-02-ichor
 liquidCapacity: 60
 researchCostMultiplier: 0.5
 requirements: [
@@ -55,3 +56,6 @@ drawer: {
     }
   ]
 }
+ambientSound: none
+ambientSoundVolume: 0.2
+squareSprite: false

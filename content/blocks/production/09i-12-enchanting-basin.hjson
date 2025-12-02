@@ -86,6 +86,6 @@ drawer: {
     }
   ]
 }
-ambientSound: smelter
-ambientSoundVolume: 0.6
+ambientSound: extractLoop
+ambientSoundVolume: 0.08
 squareSprite: false

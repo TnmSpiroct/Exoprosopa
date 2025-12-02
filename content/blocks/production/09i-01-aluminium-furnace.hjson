@@ -64,6 +64,8 @@ drawer: {
     }
   ]
 }
+# Fog of War Radius
+fogRadius: 3
 # Sound when operated
 ambientSound: smelter
 ambientSoundVolume: 0.6
