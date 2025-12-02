@@ -33,13 +33,13 @@ craftEffect: {
   effect: {
     type: ParticleEffect
     particles: 5
-    lifetime: 26
-    sizeFrom: 2.5
+    lifetime: 25
+    sizeFrom: 2.4
     sizeTo: 0.2
     colorFrom: ffc2d6
     colorTo: fe97ba
     region: exoprosopa-enchanting
-    length: 6
+    length: 7
     interp: circleOut
     sizeInterp: pow5In
   }
