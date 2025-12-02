@@ -31,5 +31,3 @@ drawer: {
   ]
 }
 group: liquids
-ambientSound: pressure-generator
-ambientSoundVolume: 0.02
