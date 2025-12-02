@@ -12,7 +12,7 @@ drillEffect: {
   {
     type: particleEffect
     particles: 16
-    length: 20
+    length: 18
     lifetime: 40
     interp: circleOut
     sizeInterp: pow5In

@@ -46,10 +46,6 @@ drawer: {
       padding: 3
     }
     {
-      type: DrawRegion
-      suffix: -mid
-    }
-    {
       type: DrawBubbles
       color: edc787
       sides: 10
@@ -57,6 +53,10 @@ drawer: {
       spread: 8
       radius: 1.8
       amount: 26
+    }
+    {
+      type: DrawRegion
+      suffix: -mid
     }
     {
       type: DrawLiquidTile

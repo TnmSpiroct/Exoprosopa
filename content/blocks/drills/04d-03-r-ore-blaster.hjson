@@ -6,7 +6,7 @@ size: 4
 optionalBoostIntensity: 1.5
 drillTime: 60
 ambientSound: mineBeam
-ambientSoundVolume: 0.08
+ambientSoundVolume: 0.8
 hasLiquids: true
 consumes: {
   liquid: 02b-02-a-purified-elixir/0.0833333333
