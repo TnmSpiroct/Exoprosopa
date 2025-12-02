@@ -17,7 +17,7 @@ outputLiquid: 02b-07-ectoplasm/1.3333333333333
 powerProduction: 105
 explodeOnFull: true
 generateEffect: generatespark
-ambientSound: necroplasm
+ambientSound: bioLoop
 ambientSoundVolume: 0.75
 drawer: {
   type: DrawMulti
