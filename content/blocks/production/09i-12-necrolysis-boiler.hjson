@@ -132,6 +132,6 @@ drawer: {
     }
   ]
 }
-ambientSound: necroplasm-reactor
-ambientSoundVolume: 0.4
+ambientSound: extractLoop
+ambientSoundVolume: 0.2
 squareSprite: false

@@ -59,7 +59,7 @@ drawer: {
   ]
 }
 ambientSound: none
-ambientSoundVolume: 0.5
+ambientSoundVolume: 0
 squareSprite: false
 research: {
   parent: 09i-04-u-aquanite-filter

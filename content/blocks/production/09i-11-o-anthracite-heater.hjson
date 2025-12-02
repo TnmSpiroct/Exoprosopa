@@ -21,7 +21,7 @@ consumes: {
   ]
 }
 ambientSound: hum
-ambientSoundVolume: 0.08
+ambientSoundVolume: 0.06
 category: crafting
 research: 09i-11-o-radiative-heater
 requirements: [

@@ -68,7 +68,7 @@ drawer: {
 fogRadius: 3
 # Sound when operated
 ambientSound: smelter
-ambientSoundVolume: 0.6
+ambientSoundVolume: 0.5
 # Is the sprite touching all of the edges?
 squareSprite: false
 # Research tree

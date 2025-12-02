@@ -61,5 +61,5 @@ drawer: {
   ]
 }
 ambientSound: none
-ambientSoundVolume: 0.6
+ambientSoundVolume: 0
 squareSprite: false
