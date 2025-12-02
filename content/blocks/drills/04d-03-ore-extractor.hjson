@@ -5,7 +5,7 @@ tier: 1
 size: 3
 optionalBoostIntensity: 2.5
 drillTime: 180
-ambientSound: mineBeam
+ambientSound: minebeam
 ambientSoundVolume: 0.6
 hasLiquids: true
 consumes: {
