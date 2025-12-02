@@ -16,5 +16,5 @@ drillTime: 70
 output: 01a-08-item-nucrid
 attribute: nucrid
 ambientSound: drill
-ambientSoundVolume: 0.08
+ambientSoundVolume: 0.06
 fogRadius: 2

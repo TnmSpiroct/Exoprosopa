@@ -25,5 +25,5 @@ drillTime: 80
 output: 01a-03-item-aquashard
 attribute: aqua
 ambientSound: drill
-ambientSoundVolume: 0.08
+ambientSoundVolume: 0.06
 fogRadius: 2

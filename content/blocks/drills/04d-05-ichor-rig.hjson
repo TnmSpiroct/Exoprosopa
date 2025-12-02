@@ -73,6 +73,6 @@ drawer: {
   ]
 }
 ambientSound: onsen
-ambientSoundVolume: 0.5
+ambientSoundVolume: 0.08
 squareSprite: false
 fogRadius: 4
