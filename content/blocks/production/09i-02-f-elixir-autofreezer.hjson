@@ -71,7 +71,7 @@ drawer: {
 }
 squareSprite: false
 ambientSound: electricHum
-ambientSoundVolume: 0.08
+ambientSoundVolume: 0.06
 research: 09i-02-elixir-converter
 researchCost: [
   01a-01-item-cobalt/1400

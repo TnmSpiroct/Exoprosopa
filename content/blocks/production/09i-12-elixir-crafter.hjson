@@ -48,5 +48,5 @@ consumes: {
 outputLiquid: 02b-01-bioliquid/0.5
 squareSprite: false
 ambientSound: techloop
-ambientSoundVolume: 0.2
+ambientSoundVolume: 0.04
 category: crafting
