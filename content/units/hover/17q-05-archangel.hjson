@@ -47,15 +47,27 @@ engines: [{
     }]
 itemCapacity: 80
 lowAltitude: false
-abilities: [{
+abilities: [
+  {
     type: ForceFieldAbility
     radius: 80
     sides: 6
     cooldown: 1500
     regen: 1.7
     max: 4000
-}]
-// abilities code from betterrusty
+  }
+  {
+    type: SuppressionFieldAbility
+    reload: 600
+    range: 230
+    orbRadius: 5.6
+    orbSinScl: 7
+    y: 4.5
+    color: d7f08bda
+    particleColor: 92b25890
+    effectColor: 92b25890
+  }
+]
 weapons: [
     {
     x: 0
