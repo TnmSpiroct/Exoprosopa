@@ -20,7 +20,7 @@ powerProduction: 15
 itemDuration: 180
 generateEffect: generatespark
 ambientSound: smelter
-ambientSoundVolume: 0.03
+ambientSoundVolume: 0.06
 drawer: {
   type: DrawMulti
   drawers: [
