@@ -28,6 +28,7 @@ craftEffect: none
 outputItems: [
   01a-03-item-aquashard/1
 ]
+lightLiquid: 02b-05-hydrowater
 consumes: {
   liquids: [
     02b-05-hydrowater/0.083333333
@@ -60,6 +61,6 @@ drawer: {
     }
   ]
 }
-ambientSound: smelter
-ambientSoundVolume: 0.6
+ambientSound: none
+ambientSoundVolume: 0.2
 squareSprite: false

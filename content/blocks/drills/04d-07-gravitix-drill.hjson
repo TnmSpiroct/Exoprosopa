@@ -12,7 +12,7 @@ drillEffect: {
   {
     type: particleEffect
     particles: 16
-    length: 10
+    length: 20
     lifetime: 40
     interp: circleOut
     sizeInterp: pow5In
@@ -38,6 +38,7 @@ tier: 3
 shake: 4
 arrows: 1
 squareSprite: false
+fogRadius: 5
 itemCapacity: 80
 researchCostMultiplier: 0.5
 consumes: {

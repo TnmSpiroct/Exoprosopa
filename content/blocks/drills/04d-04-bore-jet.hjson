@@ -19,8 +19,8 @@ drillEffect: {
   effects: [
   {
     type: particleEffect
-    particles: 10
-    length: 6
+    particles: 12
+    length: 10
     lifetime: 40
     interp: circleOut
     sizeInterp: pow5In
@@ -44,6 +44,7 @@ tier: 2
 shake: 2
 arrows: 1
 squareSprite: false
+fogRadius: 4
 itemCapacity: 40
 researchCost: [
   01a-01-item-cobalt/400

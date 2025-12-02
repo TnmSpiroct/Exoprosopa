@@ -19,6 +19,7 @@ consumes: {
     booster: true
   }
 }
+fogRadius: 4
 buildCostMultiplier: 2
 category: production
 research: 0004-drill

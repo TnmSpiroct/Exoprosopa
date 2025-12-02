@@ -1,7 +1,7 @@
 type: ThermalGenerator
 size: 3
 health: 450
-fogRadius: 2
+fogRadius: 3
 attribute: steam
 displayEfficiencyScale: 0.11111111111
 displayEfficiency: false
@@ -31,3 +31,5 @@ drawer: {
   ]
 }
 group: liquids
+ambientSound: pressure-generator
+ambientSoundVolume: 0.02

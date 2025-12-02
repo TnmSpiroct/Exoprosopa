@@ -5,7 +5,7 @@ tier: 3
 size: 4
 optionalBoostIntensity: 1.5
 drillTime: 60
-ambientSound: drill
+ambientSound: mineBeam
 ambientSoundVolume: 0.08
 hasLiquids: true
 consumes: {
@@ -19,6 +19,7 @@ consumes: {
     booster: true
   }
 }
+fogRadius: 5
 category: production
 research: 04d-03-ore-extractor
 researchCostMultiplier: 0.5

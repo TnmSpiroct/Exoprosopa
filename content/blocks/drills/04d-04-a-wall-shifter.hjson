@@ -24,3 +24,4 @@ attribute: tantra
 ambientSound: drill
 ambientSoundVolume: 0.08
 itemCapacity: 30
+fogRadius: 3

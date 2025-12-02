@@ -27,3 +27,4 @@ output: 01a-04-item-tantra-sand
 attribute: tantra
 ambientSound: drill
 ambientSoundVolume: 0.08
+fogRadius: 2

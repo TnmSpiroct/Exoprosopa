@@ -50,6 +50,15 @@ drawer: {
       suffix: -mid
     }
     {
+      type: DrawBubbles
+      color: edc787
+      sides: 10
+      recurrence: 3
+      spread: 8
+      radius: 1.8
+      amount: 26
+    }
+    {
       type: DrawLiquidTile
       drawLiquid: 02b-02-ichor
       padding: 3
@@ -64,5 +73,6 @@ drawer: {
   ]
 }
 ambientSound: onsen
-ambientSoundVolume: 0.6
+ambientSoundVolume: 0.5
 squareSprite: false
+fogRadius: 4
