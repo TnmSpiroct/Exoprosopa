@@ -66,6 +66,6 @@ drawer: {
     }
   ]
 }
-ambientSound: none
-ambientSoundVolume: 0.6
+ambientSound: elixir
+ambientSoundVolume: 0.06
 squareSprite: false
