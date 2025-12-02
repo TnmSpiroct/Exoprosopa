@@ -87,3 +87,5 @@ requirements: [
   01a-06-item-chromium/90
   01a-07-item-clevorite/50
 ]
+ambientSound: hum
+ambientSoundVolume: 0.24
