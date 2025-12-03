@@ -50,7 +50,7 @@ weapons: [
     mirror: true
     rotate: false
     alternate: false
-    shootSound: missile
+    shootSound: lasershoot
     shootSoundVolume: 1.7
     layerOffset: -0.002
       bullet: { 
@@ -79,37 +79,19 @@ weapons: [
           colorTo: d8f18c
           sizeFrom: 3
           sizeTo: 0
-          lifetime: 9
+          lifetime: 11
           strokeFrom: 2
+          strokeTo: 0.8
         }
         {
           type: WaveEffect
           colorFrom: d8f18c
           colorTo: d8f18c
           sizeFrom: 0
-          sizeTo: 17
-          lifetime: 10
-          strokeFrom: 2
-        }
-      ]
-      despawnEffect: [
-        {
-          type: hitSquaresColor
-          colorFrom: d8f18c
-          colorTo: d8f18c
-          sizeFrom: 3
-          sizeTo: 0
-          lifetime: 9
-          strokeFrom: 2
-        }
-        {
-          type: WaveEffect
-          colorFrom: d8f18c
-          colorTo: d8f18c
-          sizeFrom: 0
-          sizeTo: 15
-          lifetime: 10
-          strokeFrom: 2
+          sizeTo: 13
+          lifetime: 13
+          strokeFrom: 1.2
+          strokeTo: 0.4
         }
       ]
       despawnSound: dullExplosion

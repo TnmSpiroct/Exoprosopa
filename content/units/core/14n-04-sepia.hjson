@@ -50,7 +50,7 @@ weapons: [
     mirror: true
     rotate: false
     alternate: false
-    shootSound: blaster
+    shootSound: lasershoot
     shootSoundVolume: 1.1
     layerOffset: -0.002
       bullet: { 
