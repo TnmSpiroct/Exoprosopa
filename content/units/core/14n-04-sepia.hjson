@@ -51,13 +51,14 @@ weapons: [
     rotate: false
     alternate: false
     shootSound: blaster
+    shootSoundVolume: 1.1
     layerOffset: -0.002
       bullet: { 
       type: BasicBulletType
       width: 4
       splashDamageRadius: 20
       splashDamage: 60
-      lifetime: 30
+      lifetime: 35
       speed: 4
       smokeEffect:shootSmokeSquare
       trailColor: D8F18C
