@@ -64,6 +64,7 @@ weapons: [
     rotate: true
     mirror: false
     shootSound: electric-discharge
+    shootSoundVolume: 0.4
     rotateSpeed: 2.5
     bullet: {
     type: LightningBulletType
