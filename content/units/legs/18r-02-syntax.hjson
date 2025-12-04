@@ -15,10 +15,12 @@ weapons: [
     x: 10
     y: 0
     name: syntax
-    reload: 55
+    reload: 50
     mirror: true
     alternate: true
     rotate: false
+    shootSound: shootDuo
+    shootSoundVolume: 1.1
     bullet: {
       type: BasicBulletType
       sprite: large-orb
@@ -36,6 +38,8 @@ weapons: [
         lightningLengthRand: 3
         status: 13m-07-stunned
         statusDuration: 15
+        hitSound: sparkMedium
+        despawnSound: sparkMedium
       }
     }
   }

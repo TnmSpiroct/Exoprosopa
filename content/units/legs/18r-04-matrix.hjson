@@ -45,7 +45,7 @@ weapons: [
       width: 12
       height: 12
       speed: 8
-      lifetime: 50
+      lifetime: 40
       pierce: true
       pierceCap: 2
       trailChance: -1

@@ -39,6 +39,8 @@ weapons: [
     mirror: true
     alternate: true
     rotate: false
+    shootSound: shootDagger
+    shootSoundVolume: 1.1
     bullet: {
       type: BasicBulletType
       speed: 2.5
@@ -53,6 +55,8 @@ weapons: [
         damage: 2
         lightningLength: 1.25
         lightningLengthRand: 3
+        hitSound: sparkSmall
+        despawnSound: sparkSmall
       }
     }
   }
