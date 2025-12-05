@@ -42,7 +42,7 @@ weapons: [
     rotationLimit: 50
     rotateSpeed: 1.3
     reload: 45
-    shootSound: shoot-small-flame
+    shootSound: missileLong
     name: sender-weapon
     shootStatus: slow
     shootStatusDuration: 45
