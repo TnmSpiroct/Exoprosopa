@@ -30,14 +30,14 @@ weapons: [
       width: 16
       height: 16
       shootEffect: colorSpark
-      bulletInterval: 6
+      bulletInterval: 0.655
       intervalBullet: {
         type: LightningBulletType
         damage: 17.5
         lightningLength: 1.5
         lightningLengthRand: 3
         status: 13m-07-stunned
-        statusDuration: 15
+        statusDuration: 10
         hitSound: sparkMedium
         despawnSound: sparkMedium
       }

@@ -49,12 +49,15 @@ weapons: [
       width: 8
       height: 8
       shootEffect: shootSmall
-      bulletInterval: 12
+      bulletInterval: 0.555
       intervalBullet: {
-        type: LightningBulletType
+        type: ShrapnelBulletType
+        lifetime: 2.4
         damage: 2
-        lightningLength: 1.25
-        lightningLengthRand: 3
+        lightOpacity: 0.5
+        length: 4
+        width: 2
+        serrations: 0
         hitSound: sparkSmall
         despawnSound: sparkSmall
       }
