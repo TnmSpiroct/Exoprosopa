@@ -43,19 +43,41 @@ engines: [
 ]
 itemCapacity: 30
 lowAltitude: false
+parts: [
+ {
+  name: exoprosopa-syntaxe-blade
+  type: RegionPart
+  moveRot: 0
+  moveX: 0
+  moves: [
+   {
+    type: PartMove
+    progress: reload
+    x: 0.9
+    y: 0.7
+    rot: -3
+   }
+  ]
+  progress: warmup
+  mirror: true
+ }
+]
 weapons: [
   {
     x: 0
     y: 1
-    reload: 85
+    reload: 95
     rotate: false
     mirror: false
+    minWarmup: 0.55
     shootY: -1
     shoot: {
       type: ShootHelix
       mag: 1
       scl: 3
     }
+    shootStatus: unmoving
+    shootStatusDuration: 0.5
     shootSound: shockBlast
     bullet: {
     type: BasicBulletType
@@ -65,25 +87,26 @@ weapons: [
         height: 15
         hitSize: 6
         speed: 7
-        shootEffect: shootSmokeTitan
-        smokeEffect: shootBigSmoke
-        lifetime: 18
+        shootEffect: shootTitan
+        smokeEffect: shootSmokeTitan
+        lifetime: 22
         pierce: false
         pierceCap: 2
         pierceBuilding: false
-        hitColor: D8F18C
-        trailColor: D8F18C
-        backColor: D8F18C
-        frontColor: D8F18C
-        trailLength: 11
+        despawnSound: sparkMedium
+        hitColor: d8f18c
+        trailColor: d8f18c
+        backColor: d8f18c
+        frontColor: d8f18c
+        trailLength: 10
         trailWidth: 3
-        fragBullets: 1
+        fragBullets: 2
         fragBullet: {
           type: LightningBulletType
           damage: 24.5
           lightningLength: 2.5
-          lightningLengthRand: 4
-          lightningColor: D8F18C
+          lightningLengthRand: 4.5
+          lightningColor: d8f18c
         }
      }
   }
