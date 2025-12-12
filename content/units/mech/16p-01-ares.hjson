@@ -24,6 +24,8 @@ drag: 0.1
 itemCapacity: 0
 outlineColor: 26262F
 alwaysShootWhenMoving: true
+stepSound: walkerStepTiny
+stepSoundVolume: 0.7
 research: {
   parent: 0010-fabricator
   objectives: [
@@ -45,7 +47,7 @@ weapons: [
     ejectEffect: none
     continuous: true
     alwaysContinuous: true
-    shootSound: firewall
+    shootSound: shootBeam
     shootStatus: slow
     shootStatusDuration: 16
     shootY: -3.5

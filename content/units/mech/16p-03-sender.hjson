@@ -23,6 +23,8 @@ drag: 0.1
 rotateSpeed: 1.8
 itemCapacity: 20
 outlineColor: 26262F
+stepSound: walkerStepSmall
+stepSoundPitch: 0.7
 research: {
   parent: 16p-02-rhitle
   objectives: [
@@ -42,7 +44,8 @@ weapons: [
     rotationLimit: 50
     rotateSpeed: 1.3
     reload: 45
-    shootSound: missileLong
+    shootSound: shootMissileLong
+    shootSoundVolume: 0.9
     name: sender-weapon
     shootStatus: slow
     shootStatusDuration: 45
@@ -91,7 +94,7 @@ weapons: [
     {
     x: 12
     y: -6
-    reload: 12
+    reload: 8
     mirror: true
     alternate: true
     targetInterval: 9
@@ -102,7 +105,7 @@ weapons: [
     type: PointDefenseWeapon
     bullet: {
       type: BulletType
-      shootSound: lasershoot
+      shootSound: shootSegment
       shootEffect: sparkShoot
       hitEffect: pointHit
       maxRange: 100
