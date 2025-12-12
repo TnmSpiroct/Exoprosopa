@@ -20,7 +20,7 @@ aimDst: 4
 drawCell: false
 missileAccelTime: 50
 range: 5
-loopSound: missileTrail
+loopSound: loopMissileTrail
 loopSoundVolume: 0.65
 hidden: true
 trailColor: redLight

@@ -15,13 +15,12 @@ weapons: [
         alwaysShooting: true   
         ignoreRotation: true
         shootCone: 360
-        shootSound: rhodes-land
+        shootSound: coreEnemyLand
         shake: 20
         bullet: {
             killShooter: true
             type: BasicBulletType
-            splashDamageRadius: 10
-            splashDamage: 10
+            splashDamageRadius: 12000
             splashDamagePierce: false
             width: 0.000001
             height: 0.000001
@@ -30,6 +29,8 @@ weapons: [
             collides: false
             lightRadius: 0
             lightOpacity: 0
+            status: 13m-07-stunned
+            statusDuration: 500
             despawnEffect: {
             type: MultiEffect
                 lifetime: 2000
