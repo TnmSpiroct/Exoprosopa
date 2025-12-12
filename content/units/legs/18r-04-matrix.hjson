@@ -8,8 +8,15 @@ rotateSpeed: 2.1
 itemCapacity: 75
 outlineColor: 26262F
 mechLegColor: 26262F
-research: 18r-02-syntax
+research: 18r-03-decode
 researchCostMultiplier: 1
+mechStepParticles: true
+stepShake: 0.15
+singleTarget: true
+drownTimeMultiplier: 1.5
+stepSound: mechStep
+stepSoundPitch: 0.9
+stepSoundVolume: 0.35
 abilities: [
   {
     type: ShieldRegenFieldAbility
@@ -29,7 +36,7 @@ weapons: [
     alternate: true
     rotate: false
     shootCone: 5
-    shootSound: matrix-shoot
+    shootSound: shootMatrix
     shootSoundVolume: 0.2
     shake: 1
     shoot: {
@@ -37,6 +44,7 @@ weapons: [
     shotDelay: 12
     shots: 2
       }
+    ejectEffect: casing3
     bullet: {
       type: BasicBulletType
       damage: 225

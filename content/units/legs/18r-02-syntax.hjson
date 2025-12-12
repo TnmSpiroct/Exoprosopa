@@ -9,6 +9,7 @@ itemCapacity: 45
 outlineColor: 26262F
 mechLegColor: 26262F
 research: 18r-01-byte
+stepSound: mechStepSmall
 researchCostMultiplier: 1
 weapons: [
   {
@@ -21,6 +22,7 @@ weapons: [
     rotate: false
     shootSound: shootDuo
     shootSoundVolume: 1.1
+    ejectEffect: casing2
     bullet: {
       type: BasicBulletType
       sprite: large-orb
@@ -38,8 +40,7 @@ weapons: [
         lightningLengthRand: 3
         status: 13m-07-stunned
         statusDuration: 10
-        hitSound: sparkMedium
-        despawnSound: sparkMedium
+        despawnSound: shockBulletSyntax
       }
     }
   }

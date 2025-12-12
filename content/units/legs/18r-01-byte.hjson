@@ -8,6 +8,7 @@ rotateSpeed: 4.75
 itemCapacity: 25
 outlineColor: 26262F
 mechLegColor: 26262F
+stepSoundVolume: 0.8
 research: {
   parent: 0010-fabricator
   objectives: [
@@ -28,7 +29,7 @@ abilities: [
     cooldown: 750
     regen: 0.5
     max: 120
-}
+  }
 ]
 weapons: [
   {
@@ -39,8 +40,7 @@ weapons: [
     mirror: true
     alternate: true
     rotate: false
-    shootSound: shootDagger
-    shootSoundVolume: 1.1
+    ejectEffect: casing1
     bullet: {
       type: BasicBulletType
       speed: 2.5
@@ -58,8 +58,7 @@ weapons: [
         length: 4
         width: 2
         serrations: 0
-        hitSound: sparkSmall
-        despawnSound: sparkSmall
+        despawnSound: shockBulletByte
       }
     }
   }

@@ -3,13 +3,17 @@ flying: false
 hitSize: 8
 health: 4150
 armor: 9
-speed: 0.4
+speed: 0.38
 rotateSpeed: 2.5
 itemCapacity: 50
 outlineColor: 26262F
 mechLegColor: 26262F
 research: 18r-02-syntax
 researchCostMultiplier: 1
+stepSoundPitch: 0.8
+stepSoundVolume: 0.65
+riseSpeed: 0.05
+mechFrontSway: 0.55
 abilities: [
   {
     type: ShieldRegenFieldAbility
@@ -39,7 +43,7 @@ weapons: [
     alternate: true
     rotate: false
     shootCone: 5
-    shootSound: laser-beam
+    shootSound: shootLaserBeam
     shootSoundVolume: 0.2
     shake: 1
     bullet: {
@@ -53,7 +57,7 @@ weapons: [
       pierceCap: 4
       pierceBuilding: true
       status: 13m-07-stunned
-      statusDuration: 15
+      statusDuration: 10
       bulletInterval: 6
       intervalBullet: {
         type: LightningBulletType
