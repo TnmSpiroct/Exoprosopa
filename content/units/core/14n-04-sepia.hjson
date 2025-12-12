@@ -32,6 +32,7 @@ outlineColor: 26262f
 fogRadius: 18
 range: 120
 stepSound: walkerStepSmall
+stepSoundVolume: 0.6
 abilities: [
   {
     type: ShieldRegenFieldAbility
