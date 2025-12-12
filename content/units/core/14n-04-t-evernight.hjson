@@ -50,8 +50,8 @@ weapons: [
     mirror: true
     rotate: false
     alternate: false
-    shootSound: lasershoot
-    shootSoundVolume: 1.7
+    shootSound: shootLaser
+    shootSoundVolume: 1.2
     layerOffset: -0.002
       bullet: { 
       type: BasicBulletType
@@ -72,6 +72,7 @@ weapons: [
       buildingDamageMultiplier: 0.01
       collidesTeam: true
       healPercent: 2.25
+      despawnSound: explosion
       hitEffect: [
         {
           type: hitSquaresColor
@@ -94,7 +95,6 @@ weapons: [
           strokeTo: 0.4
         }
       ]
-      despawnSound: dullExplosion
     }
   }
   {
@@ -104,7 +104,7 @@ weapons: [
     reload: 52.5
     rotate: true
     mirror: false
-    shootSound: electric-discharge
+    shootSound: shootElectric
     shootSoundVolume: 0.2
     rotateSpeed: 3.15
     bullet: {
