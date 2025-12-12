@@ -24,7 +24,8 @@ weapons: [
     y: -3.25
     reload: 48
     recoil: 1.3
-    shootSound: normal-shot
+    shootSound: shootSalvo
+    shootSoundVolume: 1.2
     bullet: {
       type: BasicBulletType
       sprite: missile-large

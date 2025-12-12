@@ -21,7 +21,8 @@ weapons: [
     y: -1
     reload: 15
     recoil: 0
-    shootSound: normal-shot
+    shootSound: shootMissileShort
+    shootSoundVolume: 1.2
     bullet: {
       type: MissileBulletType
       width: 7
