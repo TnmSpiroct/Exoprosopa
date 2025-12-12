@@ -45,21 +45,22 @@ itemCapacity: 30
 lowAltitude: false
 parts: [
  {
-  name: exoprosopa-syntaxe-blade
+  suffix: -blade
   type: RegionPart
   moveRot: 0
   moveX: 0
+  moveY: 0
+  mirror: true
+  heatProgress: reload
   moves: [
    {
     type: PartMove
     progress: reload
     x: 0.9
-    y: 0.7
-    rot: -3
+    y: 0.5
+    rot: -2
    }
   ]
-  progress: warmup
-  mirror: true
  }
 ]
 weapons: [
@@ -77,37 +78,37 @@ weapons: [
       scl: 3
     }
     shootStatus: unmoving
-    shootStatusDuration: 0.5
-    shootSound: shockBlast
+    shootStatusDuration: 0.8
+    shootSound: explosionObviate
     bullet: {
     type: BasicBulletType
-        damage: 52.5
-        recoil: 0.4
-        width: 10
-        height: 15
-        hitSize: 6
-        speed: 7
-        shootEffect: shootTitan
-        smokeEffect: shootSmokeTitan
-        lifetime: 22
-        pierce: false
-        pierceCap: 2
-        pierceBuilding: false
-        despawnSound: sparkMedium
-        hitColor: d8f18c
-        trailColor: d8f18c
-        backColor: d8f18c
-        frontColor: d8f18c
-        trailLength: 10
-        trailWidth: 3
-        fragBullets: 2
-        fragBullet: {
-          type: LightningBulletType
-          damage: 24.5
-          lightningLength: 2.5
-          lightningLengthRand: 4.5
-          lightningColor: d8f18c
-        }
-     }
+      damage: 52.5
+      recoil: 0.4
+      width: 10
+      height: 15
+      hitSize: 6
+      speed: 7
+      shootEffect: shootTitan
+      smokeEffect: shootSmokeTitan
+      lifetime: 26
+      pierce: false
+      pierceCap: 2
+      pierceBuilding: false
+      despawnSound: artilleryShockExplosion
+      hitColor: d8f18c
+      trailColor: d8f18c
+      backColor: d8f18c
+      frontColor: d8f18c
+      trailLength: 10
+      trailWidth: 3
+      fragBullets: 2
+      fragBullet: {
+        type: LightningBulletType
+        damage: 24.5
+        lightningLength: 2.5
+        lightningLengthRand: 4.5
+        lightningColor: d8f18c
+      }
+    }
   }
 ]

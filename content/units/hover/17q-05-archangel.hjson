@@ -65,7 +65,7 @@ abilities: [
     range: 230
     orbRadius: 5.6
     orbSinScl: 7
-    y: 4.5
+    y: 4.8
     color: d7f08bda
     particleColor: 92b25890
     effectColor: 92b25890
@@ -79,8 +79,8 @@ weapons: [
     reload: 550
     rotate: false
     mirror: false
-    shootSound: weapon-emp-discharge
-    chargeSound: weapon-emp-charging
+    shootSound: shootEmp
+    chargeSound: chargeEmp
     shootStatus: unmoving
     shootStatusDuration: 210
     shoot: {
@@ -152,12 +152,12 @@ weapons: [
       despawnEffect: [
        scatheExplosion, spawnShockwave
       ]
-      hitSound: shoot-mortar
+      hitSound: explosionMortar
       pierce: true
       damage: 1600
       splashDamage: 920
       splashDamageRadius: 65
-      despawnSound: shoot-mortar
+      despawnSound: explosionMortar
       trailChance: -1
       trailEffect: shootSmokeTitan
       trailInterval: 3
@@ -171,7 +171,7 @@ weapons: [
       intervalSpread: 90
       intervalBullet: {
         type: LaserBulletType
-        despawnSound: spark
+        despawnSound: shootArc
         colors: [
         d8f18c, ffffff
        ]
@@ -193,7 +193,7 @@ weapons: [
     rotate: true
     mirror: true
     alternate: true
-    shootSound: firewall
+    shootSound: shootBeam
     layerOffset: -20
     shootSoundVolume: 0.2
     shake: 3

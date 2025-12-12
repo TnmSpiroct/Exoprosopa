@@ -53,9 +53,8 @@ abilities: [
     cooldown: 900
     regen: 0.85
     max: 1200
-}
+  }
 ]
-// abilities code from betterrusty
 weapons: [
   {
     x: 0
@@ -63,7 +62,7 @@ weapons: [
     reload: 180
     rotate: false
     mirror: false
-    shootSound: weapon-emp-discharge
+    shootSound: shootEmp
     shake: 5
     bullet: {
     type: BasicBulletType
@@ -92,19 +91,20 @@ weapons: [
     rotate: false
     mirror: true
     alternative: true
-    shootSound: laser-beam
+    shootSound: shootLaserBeam
     shootSoundVolume: 0.2
     shake: 1
     name: noya-weapon
     bullet: {
     type: LaserBulletType
-        damage: 70.25
-        sideAngle: 45
-        sideLength: 30
-        sideWidth: 1
-        pierce: false
-        pierceCap: 5
-        pierceBuilding: true
-        }
+      layer: 116
+      damage: 70.25
+      sideAngle: 45
+      sideLength: 35
+      sideWidth: 1
+      pierce: false
+      pierceCap: 5
+      pierceBuilding: true
+    }
   }
 ]
