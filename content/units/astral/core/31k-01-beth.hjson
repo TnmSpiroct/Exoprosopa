@@ -73,7 +73,6 @@ abilities: [
     layer: 1
     maxTargets: 8
     range: 80
-    shootSound: shockBullet
     useAmmo: false
     x: 0
     y: 0
