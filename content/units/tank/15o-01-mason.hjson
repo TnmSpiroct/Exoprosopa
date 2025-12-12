@@ -11,6 +11,9 @@ speed: 0.95
 rotateSpeed: 2.2
 itemCapacity: 0
 outlineColor: 26262F
+tankMoveVolume: 0.6
+tankMoveSound: tankMoveSmall
+floorMultiplier: 0.95
 treadFrames: 12
 treadRects: [
   {
@@ -39,7 +42,7 @@ weapons: [
     mirror: false
     rotate: true
     rotateSpeed: 2
-    shootSound: exoripple
+    shootSound: shootArtillerySmall
     bullet: {
       type: ArtilleryBulletType
       frontColor: 6BBDCB

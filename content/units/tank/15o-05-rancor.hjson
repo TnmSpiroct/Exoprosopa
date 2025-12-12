@@ -10,6 +10,9 @@ speed: 0.475
 rotateSpeed: 0.6
 itemCapacity: 110
 outlineColor: 26262F
+tankMoveVolume: 1.5
+tankMoveSound:tankMoveHeavy
+floorMultiplier: 0.3
 treadFrames: 32
 treadRects: [
   {
@@ -35,7 +38,8 @@ weapons: [
     shake: 6
     rotate: true
     rotateSpeed: 0.75
-    shootSound: rancor-shoot
+    shootSound: shootRancor
+    shootSoundVolume: 0.5
     parts: [
       {
         y: -12
@@ -96,7 +100,7 @@ weapons: [
         sparkLen: 4
         sparkStroke: 2
       }
-      despawnSound: plasmaboom
+      despawnSound: explosionPlasmaSmall
       despawnShake: 6
       despawnEffect: [
         titanExplosionSmall,
@@ -105,7 +109,7 @@ weapons: [
       hitEffect: massiveExplosion
       splashDamage: 775
       splashDamageRadius: 50
-      hitSound: titanExplosion
+      hitSound: explosionPlasmaSmall
       fragOnHit: true
       fragBullets: 8
       fragRandomSpread: 0
@@ -130,6 +134,7 @@ weapons: [
         splashDamageRadius: 25
         despawnShake: 2
         despawnEffect: hitBulletColor
+        despawnSound: explosionNavanax
         hitEffect: titanExplosionFrag
         pierce: true
         pierceArmor: true
@@ -144,7 +149,8 @@ weapons: [
   mirror: true
   rotate: true
   rotateSpeed: 1.5
-  shootSound: normal-shot
+  shootSound: shootPierce
+  shootSoundVolume: 0.41
   bullet: {
     type: BasicBulletType
     speed: 8
