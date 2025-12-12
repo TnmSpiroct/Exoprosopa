@@ -79,6 +79,7 @@ weapons: [
     recoil: 1.25
     shootSound: shootSalvo
     shootSoundVolume: 1.2
+    ejectEffect: casing2
     bullet: {
       type: BasicBulletType
       sprite: missile-large
