@@ -36,7 +36,7 @@ weapons: [
     mirror: true
     rotate: false
     alternate: false
-    shootSound: blaster
+    shootSound: shootLaser
     layerOffset: -0.002
       bullet: { 
       type: BasicBulletType
@@ -73,7 +73,7 @@ abilities: [
     layer: 1
     maxTargets: 8
     range: 80
-    shootSound: spark
+    shootSound: shockBullet
     useAmmo: false
     x: 0
     y: 0
