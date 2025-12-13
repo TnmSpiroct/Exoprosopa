@@ -32,6 +32,7 @@ research: {
   ]
 }
 stepSound: walkerStepSmall
+stepSoundVolume: 0.4
 stepSoundPitch: 1
 researchCostMultiplier: 1.5
 weapons: [

@@ -30,7 +30,7 @@ itemCapacity: 60
 outlineColor: 26262F
 rotateSpeed: 1.2
 stepSound: walkerStep
-stepSoundVolume: 1.1
+stepSoundVolume: 1
 weapons: [
   {
     x: 17.25

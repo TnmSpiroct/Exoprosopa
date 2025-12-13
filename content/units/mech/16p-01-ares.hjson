@@ -25,7 +25,7 @@ itemCapacity: 0
 outlineColor: 26262F
 alwaysShootWhenMoving: true
 stepSound: walkerStepTiny
-stepSoundVolume: 0.7
+stepSoundVolume: 0.4
 research: {
   parent: 0010-fabricator
   objectives: [
