@@ -94,7 +94,7 @@ weapons: [
       pierce: false
       pierceCap: 2
       pierceBuilding: false
-      despawnSound: artilleryShockExplosion
+      despawnSound: explosionArtilleryShock
       hitColor: d8f18c
       trailColor: d8f18c
       backColor: d8f18c
