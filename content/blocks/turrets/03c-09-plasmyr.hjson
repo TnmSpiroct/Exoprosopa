@@ -11,7 +11,8 @@ maxHeatEfficiency: 1.25
 # Turret health & armor
 health: 10750
 armor: 15
-# Sound played when shooting
+loopSound: loopGlow
+loopSoundVolume: 0.8
 shootSound: shootSmite
 # Block requirements, more cost = more build time
 requirements: [
@@ -39,9 +40,9 @@ category: turret
 # Turret recoil
 recoil: 3
 # Minimum warmup before automatically attack
-minWarmup: 0.75
+minWarmup: 0.99
 # Warmup maintain time
-warmupMaintainTime: 40
+warmupMaintainTime: 120
 shootWarmupSpeed: 0.05
 # Outline color of the turret
 outlineColor: 2C2A36
@@ -51,7 +52,7 @@ targetGround: true
 # Turret rotation speed
 rotateSpeed: 1.1
 # Fire of rate, in tick
-reload: 165
+reload: 125
 # Turret range, speed x lifetime
 range: 522
 # Bullet starting position, range unaffected
@@ -110,6 +111,7 @@ ammoTypes: {
     fragBullets: 12
     # Shake power when despawn
     despawnShake: 5
+    despawnSound: explosionDull
     fragBullet: {
       type: ArtilleryBulletType
       hitColor: 51c59c
@@ -126,12 +128,11 @@ ammoTypes: {
       lifetime: 37.5
       # Splash damage
       splashDamage: 110.5
-      # Sound generated when hit
-      hitSound: none
       # Effect created when despawns
       despawnEffect: titanExplosionFrag
       # Effect created when hitEffect
       hitEffect: hitBulletColor
+      despawnSound: explosion
       }
     }
   }
@@ -168,9 +169,8 @@ drawer: {
       heatProgress: warmup
       # For mirrored sprite
       mirror: true
-      # Move X
-      moveX: 12
-      moveY: -1
+      moveX: 13
+      moveY: 1
       # Move Rotation
       moveRot: -10
       heatColor: D1EFFF45
@@ -185,7 +185,7 @@ drawer: {
         progress: recoil
         # moves
         y: 2
-        rot: 50
+        rot: 40
         }]
     }
     {
@@ -194,30 +194,9 @@ drawer: {
       progress: warmup
       heatProgress: warmup
       mirror: true
-      moveX: 12
-      moveY: -5
+      moveX: 14
+      moveY: -3
       moveRot: -45
-      heatColor: D1EFFF45
-      turretHeatLayer: 49.9
-      under: true
-      outlineColor: 8CA9E8
-      layerOffset: -0.3
-      moves: [{
-        type: PartMove
-        progress: recoil
-        y: 2
-        rot: 40
-        }]
-    }
-    {
-      type: RegionPart
-      suffix: -bladec
-      progress: warmup
-      heatProgress: warmup
-      mirror: true
-      moveX: 12
-      moveY: -9
-      moveRot: -80
       heatColor: D1EFFF45
       turretHeatLayer: 49.9
       under: true
@@ -232,13 +211,13 @@ drawer: {
     }
     {
       type: RegionPart
-      suffix: -bladed
+      suffix: -bladec
       progress: warmup
       heatProgress: warmup
       mirror: true
-      moveX: 12
-      moveY: -13
-      moveRot: -115
+      moveX: 15
+      moveY: -7
+      moveRot: -80
       heatColor: D1EFFF45
       turretHeatLayer: 49.9
       under: true
@@ -249,6 +228,27 @@ drawer: {
         progress: recoil
         y: 2
         rot: 20
+        }]
+    }
+    {
+      type: RegionPart
+      suffix: -bladed
+      progress: warmup
+      heatProgress: warmup
+      mirror: true
+      moveX: 16
+      moveY: -10
+      moveRot: -115
+      heatColor: D1EFFF45
+      turretHeatLayer: 49.9
+      under: true
+      outlineColor: 8CA9E8
+      layerOffset: -0.3
+      moves: [{
+        type: PartMove
+        progress: recoil
+        y: 2
+        rot: 10
         }]
     }
     {

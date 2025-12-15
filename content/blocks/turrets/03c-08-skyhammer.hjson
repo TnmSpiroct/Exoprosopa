@@ -3,7 +3,10 @@ size: 4
 squareSprite: false
 health: 6500
 armor: 15
-shootSound: laser
+shootSound: shootMissilePlasma
+shootSoundVolume: 2.2
+loopSound: loopGlow
+loopSoundVolume: 0.6
 requirements: [
   01a-01-item-cobalt/950
   01a-05-item-aluminium/600
@@ -15,8 +18,8 @@ category: turret
 consumes: {
   power: 12
 }
-minWarmup: 0.999
-warmupMaintainTime: 90
+minWarmup: 0.90
+warmupMaintainTime: 100
 shootWarmupSpeed: 0.05
 heatRequirement: 12
 maxEffeciency: 3
@@ -25,9 +28,9 @@ outlineColor: 2C2A36
 targetAir: true
 targetGround: true
 rotateSpeed: 1.5
-reload: 145
+reload: 100
 range: 435
-shootY: 6
+shootY: 6.2
 shootType: {
   type: ArtilleryBulletType
   buildingDamageMultiplier: 0.1
@@ -51,7 +54,7 @@ shootType: {
   speed: 6
   lifetime: 72.5
   damage: 850
-  despawnSound: plasmaboom
+  despawnSound: explosionQuad
   despawnEffect: greenBomb
   hitEffect: massiveExplosion
   splashDamage: 3150
@@ -78,6 +81,7 @@ shootType: {
     splashDamage: 525
     splashDamageRadius: 25
     pierce: true
+    despawnSound: explosion
   }
 }
 drawer: {

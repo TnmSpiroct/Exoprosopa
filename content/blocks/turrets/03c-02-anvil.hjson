@@ -2,7 +2,7 @@ type: ItemTurret
 size: 3
 squareSprite: false
 health: 1650
-shootSound: shootAltLong
+shootSound: shootDiffuse
 requirements: [
   01a-01-item-cobalt/125
   01a-02-item-nickel/275

@@ -4,6 +4,8 @@ squareSprite: false
 health: 4000
 armor: 10
 shootSound: shootSmite
+loopSound: loopGlow
+loopSoundVolume: 0.6
 requirements: [
   01a-01-item-cobalt/600
   01a-05-item-aluminium/300
@@ -24,14 +26,14 @@ consumes: {
 }
 category: turret
 recoil: 1.5
-minWarmup: 0.999
+minWarmup: 0.99
 warmupMaintainTime: 30
 shootWarmupSpeed: 0.05
 outlineColor: 2C2A36
 targetAir: true
 targetGround: true
 rotateSpeed: 1.4
-reload: 37.5
+reload: 40
 range: 315
 shootY: 9
 shake: 8

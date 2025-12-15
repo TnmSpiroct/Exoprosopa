@@ -2,7 +2,7 @@ type: ItemTurret
 size: 3
 squareSprite: false
 health: 1580
-shootSound: exoripple
+shootSound: shootImpale
 requirements: [
   01a-01-item-cobalt/125
   01a-02-item-nickel/150
@@ -205,10 +205,10 @@ ammoTypes: {
       lifetime: 6
       damage: 7.5
       fragBullets: 1
-      hitSound: none
+      despawnSound: explosionArtilleryShock
       fragBullet: {
         type: LightningBulletType
-        hitSound: electric-discharge
+        despawnSound: shockBulletSyntax
         damage: 17.5
         lightningLength: 3
         lightningLengthRand: 3

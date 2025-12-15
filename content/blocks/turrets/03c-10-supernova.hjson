@@ -5,10 +5,11 @@ health: 16500
 armor: 20
 warmupMaintainTime: 25
 shootWarmupSpeed: 0.05
+shootDuration: 230
 minWarmup: 0.999
 heatRequirement: 30
-shootSound: continuum-shot
-loopSound: continuum-shot
+shootDuration: 250
+shootSound: shootSuperNova
 requirements: [
   01a-05-item-aluminium/1200
   01a-07-item-clevorite/750

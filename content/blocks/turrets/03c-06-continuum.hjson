@@ -4,7 +4,9 @@ health: 4000
 armor: 10
 shootWarmupSpeed: 0.1
 shootCone: 360
-loopSound: firewall
+shootSound: none
+loopSound: beamLustre
+loopSoundVolume: 1
 consumes: {
   liquid: 02b-06-morphitix-plasma/0.33333333333
   power: 9

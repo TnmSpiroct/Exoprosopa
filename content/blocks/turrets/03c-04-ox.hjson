@@ -2,6 +2,7 @@ type: ItemTurret
 size: 3
 health: 3000
 armor: 5
+shootSound: shootBreach
 requirements: [
   01a-02-item-nickel/340
   01a-05-item-aluminium/240
@@ -76,6 +77,7 @@ ammoTypes: {
       hitColor: 51C59C
       status: shocked
       statusDuration: 60
+      shootSound: shootBreachCarbide
       despawnEffect: {
         type: WaveEffect
         rotWithParent: true
