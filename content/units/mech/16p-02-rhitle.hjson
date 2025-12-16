@@ -31,6 +31,7 @@ research: {
     }
   ]
 }
+stepSound: walkerStepSmall
 researchCostMultiplier: 1.5
 weapons: [
   {
@@ -43,12 +44,14 @@ weapons: [
     shootStatusDuration: 36
     name: rhitle-weapon
     ejectEffect: none
-    shootSound: missile-launch-a
+    shootSound: shootMissiles
+    shootSoundVolume: 0.2
     shootY: 1
     bullet: {
       instantDisappear: true
       damage: 0
       spawnUnit: rhitle-missile
+      despawnSound: explosion
     }
   }
 ]

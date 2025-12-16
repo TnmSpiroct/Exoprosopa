@@ -58,8 +58,8 @@ drawer: {
     }
   ]
 }
-ambientSound: none
-ambientSoundVolume: 0
+ambientSound: loopCultivator
+ambientSoundVolume: 0.065
 squareSprite: false
 research: {
   parent: 09i-04-u-aquanite-filter

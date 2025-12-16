@@ -14,7 +14,8 @@ size: 3
 # Health Blocks
 health: 1650
 # Shoot created when firing
-shootSound: missile-launch-a
+shootSound: shootBeamPlasmaSmall
+shootSoundVolume: 0.58
 # Block Cost
 requirements: [
   01a-01-item-cobalt/225
@@ -53,7 +54,7 @@ coolant: {
 }
 coolantMultiplier: 2.4
 # Charging sound
-chargeSound: target
+chargeSound: chargeTarget
 # Ammo types
 ammoTypes: {
   # Name of items
@@ -110,6 +111,7 @@ ammoTypes: {
     fragVelocityMin: 1
     fragVelocityMax: 1
     fragBullets: 8
+    despawnSound: explosionArtillery
       fragBullet: {
         # Explosion, mostly didnt have lifetime and speed
         type: ExplosionBulletType
@@ -190,6 +192,7 @@ ammoTypes: {
     fragVelocityMax: 1
     fragBullets: 8
     knockback: 2
+    despawnSound: explosionArtillery
       fragBullet: {
         type: ExplosionBulletType
         splashDamageRadius: 20
@@ -268,6 +271,7 @@ ammoTypes: {
     fragVelocityMax: 1
     fragBullets: 8
     knockback: 2
+    despawnSound: explosionArtillery
     fragBullet: {
       type: ArtilleryBulletType
       speed: 2

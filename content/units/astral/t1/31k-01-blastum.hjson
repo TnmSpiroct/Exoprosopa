@@ -26,6 +26,8 @@ outlineColor: 26262F
 research: 00004-metamorphosis
 researchCostMultiplier: 0.5
 controller: HugAI
+stepSound: walkerStepTiny
+stepSoundVolume: 0.3
 weapons: [
   {
     shootOnDeath: true

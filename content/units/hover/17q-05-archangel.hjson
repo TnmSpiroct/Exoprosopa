@@ -1,5 +1,6 @@
 type: flying
-immunities: [burning, shocked
+immunities: [
+  burning, shocked
 ]
 flying: true
 faceTarget: true
@@ -14,37 +15,41 @@ health: 35000
 armor: 25
 hitSize: 35
 researchCostMultiplier: 3
+loopSound: loopHover
+loopSoundVolume: 0.8
 research: 17q-04-noya
-engines: [{
-    x: 0
-    y: -21
-    radius: 8
-    rotation: -90
-    }
-    {
-        x: 8
-        y: -25
-        radius: 3.25
-        rotation: -90
-    }
-    {
-        x: -8
-        y: -25
-        radius: 3.25
-        rotation: -90
-    }
-    {
-        x: -19
-        y: -23
-        radius: 4.75
-        rotation: -135
-    }
-    {
-        x: 19
-        y: -23
-        radius: 4.75
-        rotation: -45
-    }]
+engines: [
+  {
+  x: 0
+  y: -21
+  radius: 8
+  rotation: -90
+  }
+  {
+  x: 8
+  y: -25
+  radius: 3.25
+  rotation: -90
+  }
+  {
+  x: -8
+  y: -25
+  radius: 3.25
+  rotation: -90
+  }
+  {
+  x: -19
+  y: -23
+  radius: 4.75
+  rotation: -135
+  }
+  {
+  x: 19
+  y: -23
+  radius: 4.75
+  rotation: -45
+  }
+]
 itemCapacity: 80
 lowAltitude: false
 abilities: [
@@ -62,107 +67,163 @@ abilities: [
     range: 230
     orbRadius: 5.6
     orbSinScl: 7
-    y: 4.5
+    y: 4.8
     color: d7f08bda
     particleColor: 92b25890
     effectColor: 92b25890
   }
 ]
 weapons: [
-    {
+   {
+    useAttackRange: true
     x: 0
     y: 4
-    reload: 410
+    reload: 550
     rotate: false
     mirror: false
-    shootSound: weapon-emp-discharge
-    chargeSound: weapon-emp-charging
+    shootSound: shootEmp
+    chargeSound: chargeEmp
+    shootStatus: unmoving
+    shootStatusDuration: 210
     shoot: {
-        firstShotDelay: 210
+      firstShotDelay: 210
     }
     shake: 10
     bullet: {
-        type: BasicBulletType
-        status: blasted
-        speed: 5
-        lifetime: 96.1
-        width: 10
-        height: 18
-        hitEffect: [scatheExplosion, spawnShockwave
+      chargeEffect: {
+        type: MultiEffect
+        top: true
+        effects: [
+          {
+            type: WaveEffect
+            y: 4.3
+            sizeFrom: 62
+            sizeTo: 0
+            interp: pow3In
+            sizeInterp: pow5Out
+            strokeFrom: 0
+            strokeTo: 2
+            colorFrom: 92b25890
+            colorTo: d7f08b60
+            lifetime: 210
+          }
+          {
+            type: ParticleEffect
+            y: 4.3
+            particles: 40
+            offset: 120
+            lightOpacity: 0
+            length: 50
+            baseLength: -50
+            interp: pow3In
+            sizeInterp: pow5Out
+            lifetime: 210
+            sizeFrom: 1
+            sizeTo: 4
+            colorFrom: 92b25890
+            colorTo: d7f08b60
+          }
+          {
+            type: ParticleEffect
+            y: 4.3
+            particles: 20
+            offset: 180
+            lightOpacity: 0
+            length: 40
+            baseLength: -40
+            interp: pow3In
+            sizeInterp: pow5Out
+            lifetime: 200
+            sizeFrom: 1
+            sizeTo: 4
+            colorFrom: 92b25890
+            colorTo: d7f08b60
+          }
         ]
-        hitColor: D8F18C
-        despawnEffect: [scatheExplosion, spawnShockwave
-        ]
-        hitSound: shoot-mortar
-        pierce: true
-        damage: 1600
-        splashDamage: 920
-        splashDamageRadius: 65
-        despawnSound: shoot-mortar
-        trailChance: -1
-        trailEffect: shootSmokeTitan
-        trailInterval: 3
-        trailRotation: true
-        trailLength: 18
-        trailWidth: 4
-        trailColor: D8F18C
-        bulletInterval: 6
-        intervalRandomSpread: 0
-        intervalBullets: 2
-        intervalSpread: 90
-        intervalBullet: {
-           type: LaserBulletType
-          despawnSound: spark
-         colors: [D8F18C, ffffff
-          ]
-         sideWidth: 2
-         sideLength: 16
-         sideAngle: 45
-         length: 60
-         width: 4
-         damage: 125
-         status: electrified
-         statusDuration: 300
-         }
+      }
+      type: BasicBulletType
+      status: blasted
+      speed: 5
+      lifetime: 96
+      width: 10
+      height: 18
+      hitEffect: [
+       scatheExplosion, spawnShockwave
+      ]
+      hitColor: d8f18c
+      despawnEffect: [
+       scatheExplosion, spawnShockwave
+      ]
+      hitSound: explosionMortar
+      pierce: true
+      damage: 1600
+      splashDamage: 920
+      splashDamageRadius: 65
+      despawnSound: explosionMortar
+      trailChance: -1
+      trailEffect: shootSmokeTitan
+      trailInterval: 3
+      trailRotation: true
+      trailLength: 18
+      trailWidth: 4
+      trailColor: d8f18c
+      bulletInterval: 6
+      intervalRandomSpread: 0
+      intervalBullets: 2
+      intervalSpread: 90
+      intervalBullet: {
+        type: LaserBulletType
+        despawnSound: shootArc
+        colors: [
+        d8f18c, ffffff
+       ]
+        sideWidth: 2
+        sideLength: 16
+        sideAngle: 45
+        length: 60
+        width: 4
+        damage: 125
+        status: electrified
+        statusDuration: 300
+      }
     }
+  }
+  {
+    x: 18
+    y: 0
+    reload: 210
+    rotate: true
+    mirror: true
+    alternate: true
+    shootSound: shootBeam
+    layerOffset: -20
+    shootSoundVolume: 0.2
+    shake: 3
+    targetSwitchInterval: 35
+    targetInterval: 20
+    cooldownTime: 190
+    continuous: true
+    rotationLimit: 16
+    name: archangel-weapon
+    bullet: {
+      type: ContinuousLaserBulletType
+      largeHit: false
+      drawSize: 170
+      maxRange: 240
+      length: 220
+      width: 3
+      lifetime: 100
+      damage: 35
+      incendChance: 0.03
+      incendSpread: 5
+      incendAmount: 1
+      smokeEffect: none
+      colors: [d8f18c, ffffff
+       ]
+      pierce: true
+      pierceBuilding: true
+      status: 13m-03-hsos6
+      statusDuration: 60
     }
-    {
-        x: 18
-        y: 0
-        reload: 210
-        rotate: true
-        mirror: true
-        alternate: true
-        shootSound: none
-        loopSound: fire-wall
-        layerOffset: -20
-        shootSoundVolume: 0.2
-        shake: 3
-        targetSwitchInterval: 35
-        targetInterval: 20
-        cooldownTime: 190
-        continuous: true
-        rotationLimit: 16
-        name: archangel-weapon
-        bullet: {
-            type: ContinuousLaserBulletType
-            largeHit: false
-            drawSize: 170
-            maxRange: 240
-            length: 220
-            width: 3
-            lifetime: 100
-            damage: 35
-            incendChance: 0.03
-            incendSpread: 5
-            incendAmount: 1
-            smokeEffect: none
-            colors: [D8F18C, ffffff
-            ]
-            pierce: true
-            pierceBuilding: true
-            status: 13m-03-hsos6
-            statusDuration: 60
-        }
-    }
+  }
 ]

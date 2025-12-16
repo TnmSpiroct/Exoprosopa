@@ -36,8 +36,8 @@ consumes: {
     02b-08-nucliogen/0.125
   ]
 }
-ambientSound: hum
-ambientSoundVolume: 0.06
+ambientSound: loopHum
+ambientSoundVolume: 0.04
 category: crafting
 research: 09i-12-enchanting-basin
 requirements: [

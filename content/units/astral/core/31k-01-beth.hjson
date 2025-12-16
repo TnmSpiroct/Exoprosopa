@@ -18,6 +18,10 @@ rotateSpeed: 10
 itemCapacity: 50
 outlineColor: 26262f
 fogRadius: 50
+moveSound: loopThruster
+moveSoundPitchMin: 0.2
+moveSoundPitchMax: 1.5
+moveSoundVolume: 0.3
 engines: [
    {
     x: 0
@@ -36,7 +40,7 @@ weapons: [
     mirror: true
     rotate: false
     alternate: false
-    shootSound: blaster
+    shootSound: shootLaser
     layerOffset: -0.002
       bullet: { 
       type: BasicBulletType
@@ -73,7 +77,6 @@ abilities: [
     layer: 1
     maxTargets: 8
     range: 80
-    shootSound: spark
     useAmmo: false
     x: 0
     y: 0

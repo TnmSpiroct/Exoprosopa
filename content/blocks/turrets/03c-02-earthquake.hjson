@@ -3,7 +3,8 @@ size: 3
 squareSprite: false
 health: 1800
 armor: 5
-shootSound: exoripple
+shootSound: earthquake
+shootSoundVolume: 0.8
 requirements: [
   01a-02-item-nickel/300
   01a-05-item-aluminium/120

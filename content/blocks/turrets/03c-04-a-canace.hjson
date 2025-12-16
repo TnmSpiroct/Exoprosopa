@@ -3,7 +3,8 @@ size: 3
 squareSprite: false
 health: 2300
 armor: 5
-shootSound: mediumCannon
+shootSound: shootArtillerySmall
+shootSoundVolume: 1.6
 requirements: [
   01a-01-item-cobalt/170
   01a-02-item-nickel/335
@@ -57,7 +58,6 @@ ammoTypes: {
       collidesAir: false
       shrinkY: 0
       hitEffect: explosion
-      hitSound: explosion
       fragBullets: 1
       fragBullet: {
         type: LiquidBulletType
@@ -68,7 +68,7 @@ ammoTypes: {
         buildingDamageMultiplier: 0.4
         puddleSize: 45
         despawnHit: true
-        despawnSound: splash
+        despawnSound: shootRetusa
         speed: 0
         lifetime: 0
         splashDamage: 60
@@ -96,6 +96,7 @@ ammoTypes: {
     collidesTiles: true
     collides: true
     ammoMultiplier: 2
+    despawnSound: shockBulletSyntax
     fragBullet: {
       speed: 3
       damage: 50
@@ -109,7 +110,6 @@ ammoTypes: {
       collidesAir: false
       shrinkY: 0
       hitEffect: explosion
-      hitSound: explosion
       fragBullets: 1
       fragBullet: {
         type: LiquidBulletType
@@ -120,7 +120,7 @@ ammoTypes: {
         buildingDamageMultiplier: 0.25
         puddleSize: 40
         despawnHit: true
-        despawnSound: splash
+        despawnSound: shootRetusa
         speed: 0
         lifetime: 0
         splashDamage: 75

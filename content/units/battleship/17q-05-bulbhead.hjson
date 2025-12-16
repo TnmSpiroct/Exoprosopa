@@ -10,6 +10,8 @@ hitSize: 10
 rotateSpeed: 2.5
 trailLength: 15
 outlineColor: 0C0E29
+moveSoundVolume: 0.34
+moveSound: shipMove
 weapons: [
 {
     mirror: false
@@ -20,7 +22,8 @@ weapons: [
     y: -2
     reload: 35
     recoil: 1.25
-    shootSound: plasma-shot
+    shootSound: shootPlasma
+    shootSoundVolume: 0.09
     bullet: {
       type: BasicBulletType
       sprite: missile-large

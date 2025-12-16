@@ -2,7 +2,8 @@ type: ContinuousLiquidTurret
 size: 3
 health: 2000
 armor: 5
-shootSound: none
+shootSound: shootVulcanPlasma
+shootSoundVolume: 0.3
 shootWarmupSpeed: 0.1
 shootCone: 360
 requirements: [
@@ -22,7 +23,8 @@ targetAir: true
 targetGround: true
 rotateSpeed: 1.4
 range: 190
-loopSound: firewall
+loopSound: shootBeam
+loopSoundVolume: 1
 ammoTypes: {
 02b-04-miasma: {
   type: ContinuousLaserBulletType
@@ -41,7 +43,7 @@ ammoTypes: {
   knockback: 2
   intervalBullet: {
     type: LightningBulletType
-    hitSound: electric-discharge
+    despawnSound: shockBulletSyntax
     damage: 35
     lightningLength: 17
     lightningLengthRand: 4
@@ -69,7 +71,7 @@ ammoTypes: {
   knockback: 4
   intervalBullet: {
     type: LightningBulletType
-    hitSound: electric-discharge
+    despawnSound: shockBulletSyntax
     damage: 90
     lightningLength: 25
     lightningLengthRand: 5

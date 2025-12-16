@@ -1,17 +1,18 @@
 type: legs
 legCount: 6
 lockLegBase: true
-legExtension: -2
-legBaseOffset: 3
+legExtension: -4
+legBaseOffset: 5
 legLength: 26
 legMaxLength: 1.1
-legMinLength: 0.2
-legSpeed: 0.2
 legGroupSize: 3
-legForwardScl: 1.05
-legLengthScl: 0.95
+legForwardScl: 0.95
 legPhysicsLayer: false
-legStraightness: 0.3
+legStraightness: 0.4
+baseLegStraightness: 0.5
+rippleScale: 2
+stepShake: 0.5
+drownTimeMultiplier: 0.5
 hovering: true
 groundLayer: 60
 health: 9800
@@ -23,7 +24,10 @@ speed: 0.65
 hitSize: 20
 drag: 0.1
 itemCapacity: 20
-outlineColor: 26262F
+outlineColor: 26262f
+stepSound: walkerStep
+stepSoundVolume: 0.85
+stepSoundPitch: 1.1
 research: {
   parent: 16p-03-sender
   objectives: [
@@ -52,7 +56,8 @@ weapons: [
     mirror: true
     alternate: true
     reload: 45
-    shootSound: shotgun
+    shootSound: shootToxopidShotgun
+    shootSoundVolume: 0.8
     name: carragher-weapon
     shootStatusDuration: 60
     bullet: {

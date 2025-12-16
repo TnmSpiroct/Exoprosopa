@@ -14,8 +14,8 @@ range: 230
 minWarmup: 0.4
 moveWhileCharging: false
 outlineColor: 00000000
-shootSound: taser
-chargeSound: laser-charge
+shootSound: shootSubsonic
+chargeSound: chargeSubsonic
 researchCost: [
   01a-01-item-cobalt/6000
   01a-02-item-nickel/8000
@@ -25,14 +25,15 @@ researchCost: [
 ]
 shootType: {
   type: LightningBulletType
-  hitSound: electric-discharge
+  hitSound: shootElectric
   damage: 87
   lightningLength: 27
   lightningLengthRand: 7
   lightningColor: 51C59C
   status: 13m-03-hsos6
   statusDuration: 145
-  chargeEffect: lightningCharge
+  chargeEffect: [lancerLaserCharge, lancerLaserChargeBegin
+  ]
   buildingDamageMultiplier: 0.25
 }
 category: turret
@@ -60,7 +61,7 @@ drawer: {
       mirror: false
       under: false
       outline: false
-      heatColor: 8DF9D1
+      heatColor: 8df9d1
     }
   ]
 }

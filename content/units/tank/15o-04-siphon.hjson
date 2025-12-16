@@ -10,6 +10,10 @@ speed: 0.615
 rotateSpeed: 0.9
 itemCapacity: 70
 outlineColor: 26262F
+tankMoveVolume: 1.25
+tankMoveSound: tankMoveHeavy
+floorMultiplier: 0.5
+drownTimeMultiplier: 1.25
 treadFrames: 24
 treadRects: [
   {
@@ -35,7 +39,8 @@ weapons: [
     shake: 5
     rotate: true
     rotateSpeed: 1.4
-    shootSound: mediumCannon
+    shootSound: shootMortar
+    shootSoundVolume: 0.58
     bullet: {
     type: ArtilleryBulletType
     damage: 145.25
@@ -73,7 +78,7 @@ weapons: [
         damage: 45.5
         puddleSize: 48
         despawnHit: true
-        despawnSound: splash
+        despawnSound: shootRetusa
         speed: 0
         lifetime: 0
         splashDamage: 60

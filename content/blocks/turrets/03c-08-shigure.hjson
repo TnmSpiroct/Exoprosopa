@@ -3,33 +3,35 @@ size: 4
 squareSprite: false
 health: 4500
 armor: 10
-shootSound: machinegun-shot
+shootSound: shootMachinegun
+shootSoundVolume: 0.85
 requirements: [
   01a-06-item-chromium/175
   01a-07-item-clevorite/75
   01a-08-item-petal/325
   01a-10-item-bethine/85
 ]
-minWarmup: 0.999
-warmupMaintainTime: 18
+minWarmup: 0.90
+warmupMaintainTime: 20
 shootWarmupSpeed: 0.04
 researchCostMultiplier: 0.5
 research: 03c-04-preject
 category: turret
-recoil: 1.5
+recoil: 1.4
 outlineColor: 2C2A36
 targetAir: true
 targetGround: true
 rotateSpeed: 1.4
-reload: 3.25
+reload: 5.80
 range: 280
 shootY: 9
-shake: 2
+shake: 1.6
 shoot: {
   type: ShootAlternate
   spread: 12
-  shotDelay: 3
+  shotDelay: 5
 }
+ammoUseEffect: casing2
 ammoTypes: {
   01a-06-item-chromium: {
     buildingDamageMultiplier: 0.4
@@ -66,6 +68,7 @@ ammoTypes: {
     weaveScale: 4
     weaveMag: 4
     homingPower: 0.015
+    despawnSound: shockBulletSyntax
   }
   01a-08-item-petal: {
     buildingDamageMultiplier: 0.25
@@ -138,6 +141,7 @@ ammoTypes: {
     }
   }
 }
+recoils: 2
 drawer: {
   type: DrawTurret
   basePrefix: shigure-
@@ -151,10 +155,33 @@ drawer: {
     }
     {
       type: RegionPart
-      suffix: -arm
-      mirror: true
-      progress: warmup
-      moveY: -6
+      suffix: -barrel-l
+      mirror: false
+      progress: recoil
+      recoilIndex: 0
+      moveY: -2
+      moves: [
+       {
+        type: PartMove
+        progress: warmup
+        y: -2
+       }
+     ]
+    }
+    {
+      type: RegionPart
+      suffix: -barrel-r
+      mirror: false
+      progress: recoil
+      recoilIndex: 1
+      moveY: -2
+      moves: [
+       {
+        type: PartMove
+        progress: warmup
+        y: -2
+       }
+     ]
     }
   ]
 }

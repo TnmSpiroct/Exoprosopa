@@ -28,9 +28,11 @@ groundLayer: 60
 shadowElevation: 0.1
 rotateSpeed: 4
 itemCapacity: 15
-outlineColor: 26262F
+outlineColor: 26262f
 fogRadius: 15
 range: 105
+stepSound: walkerStepSmall
+stepSoundVolume: 0.4
 abilities: [
   {
     type: ShieldRegenFieldAbility
@@ -38,6 +40,7 @@ abilities: [
     range: 40
     amount: 15
     max: 60
+    soundVolume: 0.2
   }
 ]
 weapons: [
@@ -50,7 +53,7 @@ weapons: [
     mirror: true
     rotate: false
     alternate: false
-    shootSound: blaster
+    shootSound: shootLaser
     layerOffset: -0.002
       bullet: { 
       type: BasicBulletType
@@ -60,14 +63,14 @@ weapons: [
       lifetime: 30
       speed: 3.5
       smokeEffect:shootSmokeSquare
-      trailColor: D8F18C
+      trailColor: d8f18c
       trailWidth: 2
       trailLength: 3
       trailParam: 1.6
       trailInterval: 6
       trailEffect: missileTrail
-      backColor: D8F18C
-      hitColor: D8F18C
+      backColor: d8f18c
+      hitColor: d8f18c
       buildingDamageMultiplier: 0.01
       collidesTeam: true
       healPercent: 2
@@ -79,7 +82,7 @@ weapons: [
         damage: 3
         pierce: false
         pierceBuilding: false
-        lightningColor: D8F18C
+        lightningColor: d8f18c
       }
     }
   }

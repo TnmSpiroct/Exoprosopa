@@ -36,8 +36,8 @@ consumes: {
     02b-04-miasma/0.25
   ]
 }
-ambientSound: hum
-ambientSoundVolume: 0.06
+ambientSound: loopHum
+ambientSoundVolume: 0.04
 category: crafting
 research: 09i-11-o-anthracite-heater
 requirements: [

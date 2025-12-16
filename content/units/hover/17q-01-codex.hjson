@@ -7,7 +7,7 @@ mechFrontSway: 0
 mechSideSway: 0
 mechStride: 0
 drag: 0.075
-outlineColor: 26262F
+outlineColor: 26262f
 speed: 1.75
 rotateSpeed: 4.5
 accel: 0.1
@@ -19,6 +19,10 @@ itemCapacity: 0
 useEngineElevation: false
 lowAltitude: false
 canDrown: false
+moveSound: loopExtract
+moveSoundVolume: 0.15
+moveSoundPitchMin: 0.5
+moveSoundPitchMax: 1.2
 parts: [
   {
     type: HoverPart
@@ -29,7 +33,7 @@ parts: [
     phase: 90
     stroke: 2
     layerOffset: -0.001
-    color: D8F18C
+    color: d8f18c
   }
   {
     type: HoverPart
@@ -40,11 +44,11 @@ parts: [
     phase: 90
     stroke: 2
     layerOffset: -0.001
-    color: D8F18C
+    color: d8f18c
   }
 ]
 abilities: [
-    {
+  {
     type: MoveEffectAbility
     effect: missileTrailShort
     minVelocity: 0.1
@@ -53,7 +57,7 @@ abilities: [
     interval: 3
     x: 0
     y: -4
-}
+  }
 ]
 weapons: [
   {
@@ -63,19 +67,20 @@ weapons: [
     reload: 25
     rotate: true
     mirror: false
-    shootSound: electric-discharge
+    shootSound: shootElectric
+    shootSoundVolume: 0.3
     rotateSpeed: 2.5
     bullet: {
-    type: LightningBulletType
-        lightningLength: 12
-        damage: 13.25
-        pierce: false
-        pierceBuilding: false
-        lightningColor: e9c574
-        }
+      type: LightningBulletType
+      lightningLength: 12
+      damage: 13.25
+      pierce: false
+      pierceBuilding: false
+      lightningColor: e9c574
+    }
   }
 ]
-trailColor: D8F18C
+trailColor: d8f18c
 trailLength: 12
 research: {
   parent: 0010-fabricator

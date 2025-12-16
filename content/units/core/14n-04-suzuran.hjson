@@ -23,7 +23,7 @@ rotateSpeed: 15
 itemCapacity: 150
 outlineColor: 26262F
 waveTrailY: -3.0
-trailColor: D8F18C
+trailColor: d8f18c
 trailLength: 12
 fogRadius: 15
 engines: [
@@ -39,7 +39,7 @@ engines: [
   widthSinMag: 0.1
     x: 0
     y: 5
-    laserColor: D8F18C
+    laserColor: d8f18c
     mirror: false
     type: RepairBeamWeapon
     rotate: false

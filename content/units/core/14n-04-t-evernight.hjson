@@ -31,6 +31,9 @@ itemCapacity: 25
 outlineColor: 26262F
 fogRadius: 20
 range: 175
+stepSound: walkerStepSmall
+stepSoundVolume: 0.8
+stepSoundPitch: 0.75
 abilities: [
   {
     type: ShieldRegenFieldAbility
@@ -38,6 +41,7 @@ abilities: [
     range: 85
     amount: 15
     max: 850
+    soundVolume: 0.2
   }
 ]
 weapons: [
@@ -45,32 +49,56 @@ weapons: [
     x: -9
     y: 7.75
     name: evernight-blade
-    reload: 17.5
+    reload: 28
     recoil: 1.5
     mirror: true
     rotate: false
     alternate: false
-    shootSound: blaster
+    shootSound: shootLaser
+    shootSoundVolume: 1.2
     layerOffset: -0.002
       bullet: { 
       type: BasicBulletType
       width: 5
       splashDamageRadius: 15
       splashDamage: 105
-      lifetime: 35
+      lifetime: 40
       speed: 5
       smokeEffect:shootSmokeSquare
-      trailColor: D8F18C
+      trailColor: d8f18c
       trailWidth: 3
       trailLength: 4
       trailParam: 1.75
       trailInterval: 6
       trailEffect: missileTrail
-      backColor: D8F18C
-      hitColor: D8F18C
+      backColor: d8f18c
+      hitColor: d8f18c
       buildingDamageMultiplier: 0.01
       collidesTeam: true
       healPercent: 2.25
+      despawnSound: explosion
+      hitEffect: [
+        {
+          type: hitSquaresColor
+          colorFrom: d8f18c
+          colorTo: d8f18c
+          sizeFrom: 3
+          sizeTo: 0
+          lifetime: 11
+          strokeFrom: 2
+          strokeTo: 0.8
+        }
+        {
+          type: WaveEffect
+          colorFrom: d8f18c
+          colorTo: d8f18c
+          sizeFrom: 0
+          sizeTo: 13
+          lifetime: 13
+          strokeFrom: 1.2
+          strokeTo: 0.4
+        }
+      ]
     }
   }
   {
@@ -80,7 +108,8 @@ weapons: [
     reload: 52.5
     rotate: true
     mirror: false
-    shootSound: electric-discharge
+    shootSound: shootElectric
+    shootSoundVolume: 0.2
     rotateSpeed: 3.15
     bullet: {
     type: LightningBulletType

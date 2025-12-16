@@ -20,6 +20,10 @@ hitSize: 25
 rotateSpeed: 1.7
 trailLength: 15
 outlineColor: 0C0E29
+moveSoundVolume: 0.9
+moveSoundPitchMin: 0.95
+moveSoundPitchMax: 0.95
+moveSound: shipMoveBig
 weapons: [
 {
     mirror: true
@@ -34,7 +38,8 @@ weapons: [
     y: 7
     reload: 50
     recoil: 1.25
-    shootSound: normal-shot
+    shootSound: shootPlasma
+    shootSoundVolume: 0.09
     bullet: {
       type: BasicBulletType
       sprite: missile-large
@@ -76,7 +81,9 @@ weapons: [
     y: -10.5
     reload: 70
     recoil: 1.25
-    shootSound: plasma-shot
+    shootSound: shootSalvo
+    shootSoundVolume: 1.2
+    ejectEffect: casing2
     bullet: {
       type: BasicBulletType
       sprite: missile-large

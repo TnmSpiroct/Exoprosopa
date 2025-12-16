@@ -23,7 +23,7 @@ weapons: [
     ejectEffect: none
     continuous: true
     alwaysContinuous: true
-    shootSound: firewall
+    shootSound: shootBeam
     shootStatus: 13m-08-doom
     shootStatusDuration: 16
     shootY: 4

@@ -10,7 +10,8 @@ coolant: {
 }
 coolantMultiplier: 2.4
 fogRadiusMultiplier: 0.6
-shootSound: missileLaunch
+shootSound: shootSnowWhite
+shootSoundVolume: 1.5
 requirements: [
   01a-05-item-aluminium/425
   01a-06-item-chromium/500
@@ -31,9 +32,9 @@ minWarmup: 0.95
 newTargetInterval: 40
 unitSort: strongest
 shootWarmupSpeed: 0.03
-reload: 720
+reload: 750
 range: 1365
-shootY: -1
+shootY: 1
 shake: 6
 ammoPerShot: 15
 maxAmmo: 45
@@ -49,9 +50,28 @@ drawer: {
     parts: [
     {
       type: RegionPart
+      suffix: -rudal
+      under: true
+      mirror: false
+      colorTo: 00000000
+      color: ffffff
+      outline: false
+      progress: reload
+      Interp: pow2In
+      y: 0
+      moves: [
+       {
+        type: PartMove
+        progress: warmup
+        y: 4
+       }
+     ]
+    }
+    {
+      type: RegionPart
       suffix: -body
-      progress: warmup
-      moveY: 0
+      progress: recoil
+      moveY: -4.8
       under: true
     }
     {
@@ -60,7 +80,7 @@ drawer: {
       mirror: true
       progress: warmup
       moveY: -3
-      moveRot: -10
+      moveRot: -12
     }
   ]
 }

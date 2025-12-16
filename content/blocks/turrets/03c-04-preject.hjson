@@ -2,7 +2,8 @@ type: ItemTurret
 size: 4
 health: 3750
 armor: 10
-shootSound: exoripple
+shootSound: shootReign
+shootSoundVolume: 1.65
 requirements: [
   01a-05-item-aluminium/450
   01a-06-item-chromium/275
@@ -48,6 +49,7 @@ ammoTypes: {
     despawnHit: true
     despawnEffect: titanSmoke
     hitEffect: titanExplosionFrag
+    hitSound: explosionTitan
     pierceCap: 2
     pierce: true
     collidesAir: false
@@ -78,6 +80,7 @@ ammoTypes: {
     despawnHit: true
     despawnEffect: titanSmoke
     hitEffect: titanExplosionFrag
+    hitSound: explosionTitan
     pierceCap: 5
     pierce: true
     collidesAir: false
@@ -100,7 +103,7 @@ ammoTypes: {
     fragBullets: 4
     fragBullet: {
       type: LightningBulletType
-      hitSound: electric-discharge
+      despawnSound: shockBulletSyntax
       damage: 40
       lightningLength: 10
       lightningLengthRand: 4

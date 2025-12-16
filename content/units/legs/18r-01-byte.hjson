@@ -8,6 +8,8 @@ rotateSpeed: 4.75
 itemCapacity: 25
 outlineColor: 26262F
 mechLegColor: 26262F
+stepSound: mechStepSmall
+stepSoundVolume: 0.4
 research: {
   parent: 0010-fabricator
   objectives: [
@@ -28,7 +30,7 @@ abilities: [
     cooldown: 750
     regen: 0.5
     max: 120
-}
+  }
 ]
 weapons: [
   {
@@ -39,6 +41,7 @@ weapons: [
     mirror: true
     alternate: true
     rotate: false
+    ejectEffect: casing1
     bullet: {
       type: BasicBulletType
       speed: 2.5
@@ -47,12 +50,16 @@ weapons: [
       width: 8
       height: 8
       shootEffect: shootSmall
-      bulletInterval: 12
+      bulletInterval: 0.555
       intervalBullet: {
-        type: LightningBulletType
+        type: ShrapnelBulletType
+        lifetime: 2.4
         damage: 2
-        lightningLength: 1.25
-        lightningLengthRand: 3
+        lightOpacity: 0.5
+        length: 4
+        width: 2
+        serrations: 0
+        despawnSound: shockBulletByte
       }
     }
   }

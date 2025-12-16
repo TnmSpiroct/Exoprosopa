@@ -9,6 +9,10 @@ speed: 0.65
 rotateSpeed: 1.4
 itemCapacity: 40
 outlineColor: 26262F
+floorMultiplier: 0.65
+drownTimeMultiplier: 1.2
+tankMoveVolume: 0.65
+tankMoveSound: tankMove
 treadFrames: 12
 treadRects: [
   {
@@ -27,7 +31,8 @@ weapons: [
     mirror: false
     rotate: true
     rotateSpeed: 1.8
-    shootSound: bulk-shot
+    shootSound: shootBulwark
+    shootSoundVolume: 0.5
     shootY: 5
     bullet: {
       type: BasicBulletType
@@ -104,6 +109,7 @@ weapons: [
         weaveScale: 2
         weaveMag: 3
         pierceBuilding: true
+        despawnSound: explosion
         despawnEffect: {
           type: ExplosionEffect
           lifetime: 15

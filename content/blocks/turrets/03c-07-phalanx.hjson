@@ -2,7 +2,7 @@ type: ItemTurret
 size: 4
 health: 3500
 armor: 10
-shootSound: machinegun-shot
+shootSound: shootDisperse
 requirements: [
   01a-01-item-cobalt/450
   01a-05-item-aluminium/250
@@ -23,7 +23,7 @@ targetGround: false
 rotateSpeed: 1.45
 reload: 6.25
 range: 336
-shootY: 4
+shootY: 4.2
 ammoTypes: {
     01a-06-item-chromium: {
     reloadMultiplier: 1.1
@@ -205,7 +205,7 @@ ammoTypes: {
     fragLifeMin: 0.5
     fragBullet: {
       type: LightningBulletType
-      hitSound: electric-discharge
+      hitSound: shockBulletSyntax
       damage: 32.5
       lightningLength: 6
       lightningLengthRand: 3

@@ -20,7 +20,7 @@ aimDst: 4
 drawCell: false
 missileAccelTime: 50
 range: 5
-loopSound: missileTrail
+loopSound: loopMissileTrail
 loopSoundVolume: 0.65
 hidden: true
 trailColor: redLight
@@ -28,7 +28,7 @@ engineColor: redLight
 engineSize: 3.25
 engineOffset: 10
 trailLength: 18
-deathSound: largeExplosion
+deathSound: explosionMissile
 abilities: [{
     type: MoveEffectAbility
     effect: missileTrailSmoke
