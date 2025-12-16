@@ -4,7 +4,7 @@ squareSprite: false
 health: 2300
 armor: 5
 shootSound: shootArtillerySmall
-shootSoundVolume: 1.4
+shootSoundVolume: 1.6
 requirements: [
   01a-01-item-cobalt/170
   01a-02-item-nickel/335

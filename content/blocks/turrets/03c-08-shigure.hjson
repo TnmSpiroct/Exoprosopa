@@ -4,6 +4,7 @@ squareSprite: false
 health: 4500
 armor: 10
 shootSound: shootMachinegun
+shootSoundVolume: 0.85
 requirements: [
   01a-06-item-chromium/175
   01a-07-item-clevorite/75

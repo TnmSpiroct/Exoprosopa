@@ -15,7 +15,7 @@ size: 3
 health: 1650
 # Shoot created when firing
 shootSound: shootBeamPlasmaSmall
-shootSoundVolume: 0.7
+shootSoundVolume: 0.58
 # Block Cost
 requirements: [
   01a-01-item-cobalt/225
