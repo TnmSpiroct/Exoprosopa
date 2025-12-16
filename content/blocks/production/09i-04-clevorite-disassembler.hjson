@@ -81,6 +81,6 @@ drawer: {
   ]
 }
 fogRadius: 4
-ambientSound: smelter
-ambientSoundVolume: 0.2
+ambientSound: loopSmelter
+ambientSoundVolume: 0.14
 squareSprite: false

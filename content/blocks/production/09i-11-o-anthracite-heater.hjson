@@ -20,8 +20,8 @@ consumes: {
     01a-03-item-anthracite/1
   ]
 }
-ambientSound: hum
-ambientSoundVolume: 0.06
+ambientSound: loopHum
+ambientSoundVolume: 0.04
 category: crafting
 research: 09i-11-o-radiative-heater
 requirements: [

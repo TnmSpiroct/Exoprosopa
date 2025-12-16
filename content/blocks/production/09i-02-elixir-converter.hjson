@@ -66,8 +66,8 @@ requirements: [
   01a-02-item-nickel/60
   01a-05-item-aluminium/30
 ]
-ambientSound: electricHum
-ambientSoundVolume: 0.06
+ambientSound: loopCultivator
+ambientSoundVolume: 0.085
 squareSprite: false
 research: {
   parent: 09i-01-aluminium-furnace

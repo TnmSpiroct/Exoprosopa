@@ -106,6 +106,6 @@ drawer: {
     }
   ]
 }
-ambientSound: none
-ambientSoundVolume: 0
+ambientSound: loopMachineSpin
+ambientSoundVolume: 0.14
 squareSprite: false
