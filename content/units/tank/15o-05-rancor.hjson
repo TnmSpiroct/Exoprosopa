@@ -150,7 +150,7 @@ weapons: [
   rotate: true
   rotateSpeed: 1.5
   shootSound: shootPierce
-  shootSoundVolume: 0.41
+  shootSoundVolume: 0.4
   bullet: {
     type: BasicBulletType
     speed: 8

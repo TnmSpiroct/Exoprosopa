@@ -18,6 +18,10 @@ rotateSpeed: 10
 itemCapacity: 50
 outlineColor: 26262f
 fogRadius: 50
+moveSound: loopThruster
+moveSoundPitchMin: 0.2
+moveSoundPitchMax: 1.5
+moveSoundVolume: 0.3
 engines: [
    {
     x: 0

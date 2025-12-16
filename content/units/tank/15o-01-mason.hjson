@@ -11,7 +11,7 @@ speed: 0.95
 rotateSpeed: 2.2
 itemCapacity: 0
 outlineColor: 26262F
-tankMoveVolume: 0.6
+tankMoveVolume: 0.3
 tankMoveSound: tankMoveSmall
 floorMultiplier: 0.95
 treadFrames: 12

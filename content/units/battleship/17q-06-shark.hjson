@@ -9,7 +9,11 @@ accel: 0.8
 hitSize: 15
 rotateSpeed: 2.25
 trailLength: 15
-outlineColor: 0C0E29
+outlineColor: 0c0e29
+moveSoundVolume: 0.55
+moveSoundPitchMin: 0.9
+moveSoundPitchMax: 0.9
+moveSound: shipMove
 weapons: [
 {
     mirror: true

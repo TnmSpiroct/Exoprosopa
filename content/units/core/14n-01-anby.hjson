@@ -6,7 +6,8 @@ coreFleeRange: 500
 faceTarget: true
 targetPriority: -2
 targetAir: false
-commands: [rebuild]
+commands: [rebuild
+]
 health: 400
 armor: 2
 speed: 4
@@ -32,6 +33,8 @@ fogRadius: 0
 payloadCapacity: 2
 pickupUnits: false
 vulnerableWithPayloads: true
+wreckSoundVolume: 0.7
+deathSoundVolume: 0.7
 engines: [
    {
     x: 0

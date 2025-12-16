@@ -11,7 +11,7 @@ itemCapacity: 40
 outlineColor: 26262F
 floorMultiplier: 0.65
 drownTimeMultiplier: 1.2
-tankMoveVolume: 0.75
+tankMoveVolume: 0.65
 tankMoveSound: tankMove
 treadFrames: 12
 treadRects: [
@@ -86,7 +86,6 @@ weapons: [
         sparkRad: 15
         sparkLen: 3
         sparkStroke: 1.5
-        despawnSound: explosion
       }
       bulletInterval: 8
       intervalRandomSpread: 0
@@ -110,6 +109,7 @@ weapons: [
         weaveScale: 2
         weaveMag: 3
         pierceBuilding: true
+        despawnSound: explosion
         despawnEffect: {
           type: ExplosionEffect
           lifetime: 15
@@ -126,7 +126,6 @@ weapons: [
           sparkRad: 10
           sparkLen: 2
           sparkStroke: 1
-          despawnSound: explosion
         }
       }
     }

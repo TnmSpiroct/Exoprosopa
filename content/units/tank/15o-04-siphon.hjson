@@ -40,7 +40,7 @@ weapons: [
     rotate: true
     rotateSpeed: 1.4
     shootSound: shootMortar
-    shootSoundVolume: 0.7
+    shootSoundVolume: 0.58
     bullet: {
     type: ArtilleryBulletType
     damage: 145.25

@@ -12,6 +12,8 @@ health: 2150
 armor: 6
 hitSize: 21
 researchCostMultiplier: 2
+loopSound: loopHover
+loopSoundVolume: 0.38
 research: {
   parent: 17q-02-calaust
   objectives: [

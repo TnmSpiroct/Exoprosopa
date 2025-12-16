@@ -28,7 +28,7 @@ engineColor: redLight
 engineSize: 3.25
 engineOffset: 10
 trailLength: 18
-deathSound: largeExplosion
+deathSound: explosionMissile
 abilities: [{
     type: MoveEffectAbility
     effect: missileTrailSmoke

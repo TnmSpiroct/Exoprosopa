@@ -39,7 +39,7 @@ engines: [
   widthSinMag: 0.1
     x: 0
     y: 5
-    laserColor: D8F18C
+    laserColor: d8f18c
     mirror: false
     type: RepairBeamWeapon
     rotate: false

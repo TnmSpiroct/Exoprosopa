@@ -19,6 +19,10 @@ itemCapacity: 0
 useEngineElevation: false
 lowAltitude: false
 canDrown: false
+moveSound: loopExtract
+moveSoundVolume: 0.15
+moveSoundPitchMin: 0.5
+moveSoundPitchMax: 1.2
 parts: [
   {
     type: HoverPart

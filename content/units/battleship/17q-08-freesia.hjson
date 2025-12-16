@@ -20,6 +20,10 @@ hitSize: 25
 rotateSpeed: 1.7
 trailLength: 15
 outlineColor: 0C0E29
+moveSoundVolume: 0.9
+moveSoundPitchMin: 0.95
+moveSoundPitchMax: 0.95
+moveSound: shipMoveBig
 weapons: [
 {
     mirror: true

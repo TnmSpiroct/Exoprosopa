@@ -32,7 +32,7 @@ outlineColor: 26262f
 fogRadius: 18
 range: 120
 stepSound: walkerStepSmall
-stepSoundVolume: 0.6
+stepSoundVolume: 0.55
 abilities: [
   {
     type: ShieldRegenFieldAbility
@@ -40,6 +40,7 @@ abilities: [
     range: 50
     amount: 15
     max: 140
+    soundVolume: 0.2
   }
 ]
 weapons: [

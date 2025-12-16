@@ -30,7 +30,7 @@ weapons: [
             lightRadius: 0
             lightOpacity: 0
             status: 13m-07-stunned
-            statusDuration: 500
+            statusDuration: 2000
             despawnEffect: {
             type: MultiEffect
                 lifetime: 2000

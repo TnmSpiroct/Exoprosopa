@@ -17,6 +17,10 @@ armor: 3
 hitSize: 15
 canDrown: false
 researchCostMultiplier: 1
+moveSound: loopExtract
+moveSoundVolume: 0.25
+moveSoundPitchMin: 0.7
+moveSoundPitchMax: 1.5
 research: {
   parent: 17q-01-codex
   objectives: [

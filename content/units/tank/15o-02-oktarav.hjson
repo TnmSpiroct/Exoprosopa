@@ -12,7 +12,7 @@ itemCapacity: 0
 outlineColor: 26262F
 treadFrames: 12
 floorMultiplier: 0.8
-tankMoveVolume: 0.65
+tankMoveVolume: 0.55
 tankMoveSound: tankMove
 treadRects: [
   {

@@ -12,6 +12,8 @@ health: 8000
 armor: 9
 hitSize: 28
 researchCostMultiplier: 2.5
+loopSound: loopHover
+loopSoundVolume: 0.5
 research: {
   parent: 17q-03-syntaxe
   objectives: [

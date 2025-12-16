@@ -8,7 +8,8 @@ rotateSpeed: 4.75
 itemCapacity: 25
 outlineColor: 26262F
 mechLegColor: 26262F
-stepSoundVolume: 0.8
+stepSound: mechStepSmall
+stepSoundVolume: 0.4
 research: {
   parent: 0010-fabricator
   objectives: [

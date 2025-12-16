@@ -33,6 +33,7 @@ fogRadius: 20
 range: 175
 stepSound: walkerStepSmall
 stepSoundVolume: 0.8
+stepSoundPitch: 0.75
 abilities: [
   {
     type: ShieldRegenFieldAbility
@@ -40,6 +41,7 @@ abilities: [
     range: 85
     amount: 15
     max: 850
+    soundVolume: 0.2
   }
 ]
 weapons: [
