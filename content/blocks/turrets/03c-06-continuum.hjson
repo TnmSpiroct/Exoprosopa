@@ -2,11 +2,12 @@ type: ContinuousTurret
 size: 4
 health: 4000
 armor: 10
-shootWarmupSpeed: 0.1
+shootWarmupSpeed: 0.05
 shootCone: 360
 shootSound: none
 loopSound: beamLustre
 loopSoundVolume: 1
+scaleDamageEfficiency: true
 consumes: {
   liquid: 02b-06-morphitix-plasma/0.33333333333
   power: 9

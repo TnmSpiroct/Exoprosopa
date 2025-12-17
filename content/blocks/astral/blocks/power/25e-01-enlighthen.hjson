@@ -26,12 +26,13 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: 02b-03-necroplasm
       padding: 2
+      alpha: 0.9
     }
     {
       type: DrawDefault
     }
   ]
 }
-ambientSound: extractLoop
-ambientSoundVolume: 0.01
+ambientSound: loopNecroplasm
+ambientSoundVolume: 0.06
 researchCostMultiplier: 0.5

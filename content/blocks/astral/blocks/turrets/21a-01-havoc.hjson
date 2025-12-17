@@ -3,7 +3,7 @@ size: 2
 squareSprite: false
 health: 800
 armor: 10
-shootSound: exoripple
+shootSound: shoot
 requirements: [
   01a-21-item-gryphic/65
   01a-02-item-nickel/25

@@ -18,7 +18,7 @@ category: turret
 consumes: {
   power: 12
 }
-minWarmup: 0.90
+minWarmup: 0.95
 warmupMaintainTime: 100
 shootWarmupSpeed: 0.05
 heatRequirement: 12
