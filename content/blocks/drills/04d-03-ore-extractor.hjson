@@ -5,8 +5,8 @@ tier: 1
 size: 3
 optionalBoostIntensity: 2.5
 drillTime: 180
-ambientSound: minebeam
-ambientSoundVolume: 0.2
+ambientSound: loopMineBeam
+ambientSoundVolume: 0.04
 hasLiquids: true
 consumes: {
   liquid: 02b-01-bioliquid/0.25

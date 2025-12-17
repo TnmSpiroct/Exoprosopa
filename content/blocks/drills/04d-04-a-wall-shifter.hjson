@@ -21,7 +21,7 @@ researchCost: [
 drillTime: 30
 output: 01a-04-item-tantra-sand
 attribute: tantra
-ambientSound: drill
-ambientSoundVolume: 0.04
+ambientSound: loopDrill
+ambientSoundVolume: 0.06
 itemCapacity: 30
 fogRadius: 3

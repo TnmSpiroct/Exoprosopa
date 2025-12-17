@@ -15,6 +15,6 @@ researchCostMultiplier: 0.5
 drillTime: 70
 output: 01a-08-item-nucrid
 attribute: nucrid
-ambientSound: drill
+ambientSound: loopDrill
 ambientSoundVolume: 0.04
 fogRadius: 2

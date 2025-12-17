@@ -13,8 +13,8 @@ consumes: {
 category: effect
 outlineColor: 2c2a36
 fogRadius: 40
-ambientSound: radar-pulsing
-ambientSoundVolume: 0.5
+ambientSound: loopRadarPulse
+ambientSoundVolume: 0.1
 glowColor: 496d2f
 research: {
   parent: 0011-effect

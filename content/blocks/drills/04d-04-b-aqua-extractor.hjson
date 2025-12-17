@@ -61,6 +61,6 @@ drawer: {
     }
   ]
 }
-ambientSound: none
-ambientSoundVolume: 0
+ambientSound: loopCultivator
+ambientSoundVolume: 0.055
 squareSprite: false

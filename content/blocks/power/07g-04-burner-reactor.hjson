@@ -19,8 +19,8 @@ consumes: {
 powerProduction: 15
 itemDuration: 180
 generateEffect: generatespark
-ambientSound: smelter
-ambientSoundVolume: 0.06
+ambientSound: loopSmelter
+ambientSoundVolume: 0.03
 drawer: {
   type: DrawMulti
   drawers: [

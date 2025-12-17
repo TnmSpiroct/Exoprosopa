@@ -45,6 +45,6 @@ drawer: {
   ]
 }
 buildCostMultiplier: 1.5
-ambientSound: elixir
-ambientSoundVolume: 0.06
+ambientSound: loopElixir
+ambientSoundVolume: 0.02
 group: liquids

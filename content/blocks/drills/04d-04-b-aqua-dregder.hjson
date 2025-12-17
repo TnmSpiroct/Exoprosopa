@@ -24,6 +24,6 @@ researchCostMultiplier: 0.5
 drillTime: 80
 output: 01a-03-item-aquashard
 attribute: aqua
-ambientSound: drill
+ambientSound: loopDrill
 ambientSoundVolume: 0.04
 fogRadius: 2

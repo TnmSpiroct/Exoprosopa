@@ -72,7 +72,7 @@ drawer: {
     }
   ]
 }
-ambientSound: onsen
-ambientSoundVolume: 0.08
+ambientSound: loopIchor
+ambientSoundVolume: 0.02
 squareSprite: false
 fogRadius: 4

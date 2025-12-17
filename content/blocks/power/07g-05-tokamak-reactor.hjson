@@ -30,8 +30,8 @@ fuelItem: 01a-08-item-petal
 powerProduction: 56
 itemDuration: 360
 generateEffect: generatespark
-ambientSound: onsen
-ambientSoundVolume: 0.12
+ambientSound: none
+ambientSoundVolume: 0
 drawer: {
   type: DrawMulti
   drawers: [

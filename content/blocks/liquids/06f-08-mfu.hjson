@@ -66,6 +66,6 @@ drawer: {
     }
   ]
 }
-ambientSound: elixir
-ambientSoundVolume: 0.06
+ambientSound: loopCultivator
+ambientSoundVolume: 0.055
 squareSprite: false

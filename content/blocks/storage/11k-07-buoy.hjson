@@ -11,8 +11,8 @@ placeableLiquid: true
 category: effect
 outlineColor: 2c2a36
 fogRadius: 30
-ambientSound: radar-pulsing
-ambientSoundVolume: 0.2
+ambientSound: loopRadarPulse
+ambientSoundVolume: 0.1
 glowColor: 496d2f
 research: {
   parent: 11k-06-illuminator
