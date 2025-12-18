@@ -30,10 +30,10 @@ ammoTypes: {
     width: 16
     height: 16
     buildingDamageMultiplier: 0.5
-    hitColor: A3BBEB
-    backColor: A3BBEB
-    frontColor: A3BBEB
-    lightColor: A3BBEB
+    hitColor: a3bbeb
+    backColor: a3bbeb
+    frontColor: a3bbeb
+    lightColor: a3bbeb
     damage: 55
     speed: 6.4
     lifetime: 32.5
@@ -46,20 +46,21 @@ ammoTypes: {
         lifetime: 12
         sizeFrom: 0
         sizeTo: 12
-        colorFrom: A3BBEB
-        colorTo: A3BBEB
+        colorFrom: a3bbeb
+        colorTo: a3bbeb
     }
     ]
     pierceCap: 3
     pierce: true
     pierceBuilding: true  
-    trailColor: A3BBEB
+    trailColor: a3bbeb
     trailInterval: 3
     trailRotation: true
     trailLength: 18
     trailWidth: 2.2
     trailEffect: colorSpark
-    shootEffect: shootSmokeTitan
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
     shrinkX: 0
     shrinkY: 0
   }
@@ -69,10 +70,10 @@ ammoTypes: {
     width: 16
     height: 16
     buildingDamageMultiplier: 0.5
-    hitColor: B1CBD8
-    backColor: B1CBD8
-    frontColor: B1CBD8
-    lightColor: B1CBD8
+    hitColor: b1cbd8
+    backColor: b1cbd8
+    frontColor: b1cbd8
+    lightColor: b1cbd8
     damage: 70.5
     splashDamage: 10
     splashDamageRadius: 18
@@ -87,20 +88,21 @@ ammoTypes: {
         lifetime: 12
         sizeFrom: 0
         sizeTo: 12
-        colorFrom: B1CBD8
-        colorTo: B1CBD8
+        colorFrom: b1cbd8
+        colorTo: b1cbd8
     }
     ]
     pierceCap: 5
     pierce: true
     pierceBuilding: true  
-    trailColor: B1CBD8
+    trailColor: b1cbd8
     trailInterval: 3
     trailRotation: true
     trailLength: 18
     trailWidth: 2.2
     trailEffect: colorSpark
-    shootEffect: shootSmokeTitan
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
     shrinkX: 0
     shrinkY: 0
   }
@@ -110,10 +112,10 @@ ammoTypes: {
     sprite: exoprosopa-impale-arrow
     width: 16
     height: 16
-    hitColor: BCA49F
-    backColor: BCA49F
-    frontColor: BCA49F
-    lightColor: BCA49F
+    hitColor: bca49f
+    backColor: bca49f
+    frontColor: bca49f
+    lightColor: bca49f
     damage: 85.5
     splashDamage: 10
     splashDamageRadius: 28
@@ -128,20 +130,21 @@ ammoTypes: {
         lifetime: 12
         sizeFrom: 0
         sizeTo: 12
-        colorFrom: BCA49F
-        colorTo: BCA49F
+        colorFrom: bca49f
+        colorTo: bca49f
     }
     ]
     pierceCap: 6
     pierce: true
     pierceBuilding: true  
-    trailColor: BCA49F
+    trailColor: bca49f
     trailInterval: 3
     trailRotation: true
     trailLength: 18
     trailWidth: 2.2
     trailEffect: colorSpark
-    shootEffect: shootSmokeTitan
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
     shrinkX: 0
     shrinkY: 0
     rangeChange: 42
@@ -165,9 +168,9 @@ ammoTypes: {
         type: WaveEffect
         rotWithParent: true
         followParent: true
-        lifetime: 12
+        lifetime: 10
         sizeFrom: 0
-        sizeTo: 12
+        sizeTo: 8
         colorFrom: 51c59c
         colorTo: 51c59c
     }
@@ -181,7 +184,8 @@ ammoTypes: {
     trailLength: 18
     trailWidth: 2.2
     trailEffect: colorSpark
-    shootEffect: shootSmokeTitan
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
     shrinkX: 0
     shrinkY: 0
     rangeChange: 172
