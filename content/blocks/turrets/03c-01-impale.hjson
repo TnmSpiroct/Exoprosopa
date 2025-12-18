@@ -168,9 +168,9 @@ ammoTypes: {
         type: WaveEffect
         rotWithParent: true
         followParent: true
-        lifetime: 10
+        lifetime: 12
         sizeFrom: 0
-        sizeTo: 8
+        sizeTo: 12
         colorFrom: 51c59c
         colorTo: 51c59c
     }
