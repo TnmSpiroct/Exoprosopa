@@ -1,37 +1,29 @@
-type: NuclearReactor
-size: 4
-health: 2000
+type: VariableReactor
+size: 5
+health: 3500
 category: power
 squareSprite: false
 requirements: [
-  01a-01-item-cobalt/750
-  01a-05-item-aluminium/550
-  01a-06-item-chromium/350
-  01a-07-item-clevorite/135
-  01a-08-item-petal/235
+  01a-01-item-cobalt/1850
+  01a-05-item-aluminium/850
+  01a-06-item-chromium/600
+  01a-09-item-morphite/125
+  01a-08-item-petal/350
 ]
 consumes: {
   liquids: [
-  02b-04-miasma/1.66666666666666
-  ]
-  items: [
-  01a-08-item-petal/2
+    02b-02-ichor/0.5
+    02b-06-morphitix-plasma/0.33333333
   ]
 }
-explodeSound: reactor-explosion
-explosionShake: 8
-explosionMinWarmup: 0.5
-explosionRadius: 35
-explosionDamage: 1200
-smokeThreshold: 0.4
-flashThreshold: 0.6
-fuelItem: 01a-08-item-petal
-// 15 seconds
-powerProduction: 56
-itemDuration: 360
+maxHeat: 24
+explodeSound: explosionReactor
+explosionRadius: 22
+explosionDamage: 2200
+powerProduction: 112
 generateEffect: generatespark
-ambientSound: none
-ambientSoundVolume: 0
+ambientSound: loopFlux
+ambientSoundVolume: 0.18
 drawer: {
   type: DrawMulti
   drawers: [
@@ -41,13 +33,60 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: 02b-04-miasma
-      padding: 1.5
+      drawLiquid: 02b-06-morphitix-plasma
+      padLeft: 15.25
+      padTop: 8.75
+      padBottom: 8.75
+      padRight: 15.25
     }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-06-morphitix-plasma
+      padLeft: 8.75
+      padTop: 15.25
+      padBottom: 15.25
+      padRight: 8.75
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padLeft: 28.5
+      padTop: 1.5
+      padBottom: 1.5
+      padRight: 1.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padLeft: 1.5
+      padTop: 28.5
+      padBottom: 1.5
+      padRight: 1.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padLeft: 1.5
+      padTop: 1.5
+      padBottom: 28.5
+      padRight: 1.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padLeft: 1.5
+      padTop: 1.5
+      padBottom: 1.5
+      padRight: 28.5
+    }
+
     {
       type: DrawDefault
     }
+    {
+      type: DrawHeatInput
+      heatColor: FD898C
+    }
   ]
-} 
-researchCostMultiplier: 0.5
-parent: 07g-05-a-geogenerator
+}
+researchCostMultiplier: 1

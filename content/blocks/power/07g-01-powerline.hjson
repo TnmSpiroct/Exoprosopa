@@ -10,7 +10,7 @@ researchCost: [
 category: power
 research: 04d-01-pressure-generator
 requirements: [
-  01a-01-item-cobalt/6
+  01a-01-item-cobalt/5
 ]
 laserColor1: CEADEEFF
 laserColor2: 6A4291FF
