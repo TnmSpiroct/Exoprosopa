@@ -17,6 +17,7 @@ recoil: 1.5
 consumes: {
   power: 4
 }
+minWarmup: 0.60
 liquidConsumed: 0.25
 outlineColor: 2C2A36
 targetAir: true
@@ -83,9 +84,43 @@ ammoTypes: {
   }
 }
 shootY: 2.5
+heatColor: 844cff88
 drawer: {
   type: DrawTurret
   basePrefix: vulcan-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -back
+      mirror: true
+      progress: warmup
+      moveRot: -20
+      y: -0.2
+      moveY: 0.5
+      moveX: 1.6
+      under: true
+      heatColor: 844cff88
+    }
+    {
+      type: RegionPart
+      suffix: -front
+      mirror: true
+      progress: warmup
+      moveRot: -20
+      y: -0.2
+      moveY: 0.5
+      moveX: 1.8
+      heatColor: 844cff88
+    }
+    {
+      type: RegionPart
+      suffix: -nozzle
+      mirror: true
+      progress: warmup
+      moveX: 1.6
+      heatColor: 844cff88
+    }
+  ]
 }
 research: 03c-03-a-spewer
 researchCost: [

@@ -4,7 +4,7 @@ squareSprite: false
 health: 2300
 armor: 5
 shootSound: shootArtillerySmall
-shootSoundVolume: 1.6
+shootSoundVolume: 1.75
 requirements: [
   01a-01-item-cobalt/170
   01a-02-item-nickel/335
@@ -18,7 +18,10 @@ coolant: {
   amount: 0.25
 }
 coolantMultiplier: 2.4
-recoil: 2.5
+recoil: 1
+minWarmup: 0.70
+shootWarmupSpeed: 0.08
+warmupMaintainTime: 50
 outlineColor: 2C2A36
 targetAir: false
 targetGround: true
@@ -131,23 +134,31 @@ ammoTypes: {
     }
   }
 }
+heatColor: d8f18c77
 drawer: {
   type: DrawTurret
   basePrefix: canace-
     parts: [
     {
       type: RegionPart
-      suffix: -body
-      under: true
+      suffix: -barrel
       mirror: false
-      outline: true
+      moveY: -2.35
       progress: recoil
-      moveY: -3.5
+      heatColor: d8f18c77
     }
     {
       type: RegionPart
       suffix: -side
+      mirror: true
+      y: -0.1
+      moveX: 0
+      moveY: 0
+      progress: warmup
+      heatProgress: warmup
+      moveRot: 0
       under: false
+      heatColor: d8f18c77
     }
   ]
 }

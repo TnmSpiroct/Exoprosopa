@@ -25,7 +25,8 @@ rotateSpeed: 0
 reload: 90
 range: 150
 shootCone: 360
-shootY: -4
+shootY: 0
+shootX: 0
 shake: 7
 ammoTypes: {
   01a-06-item-chromium: {
@@ -54,52 +55,57 @@ drawer: {
       {
       type: RegionPart
       suffix: -body
-      progress: recoil
+      progress: warmup
       under: false
+      heatColor: 6d5559
       }
       {
       type: RegionPart
       suffix: -a
-      x: 7
-      y: 7
+      x: 7.5
+      y: 7.5
       rotation: -45
       progress: warmup
       moveY: -0.75
       moveX: -0.75
       under: true
+      heatColor: 6d5559
       }
       {
       type: RegionPart
       suffix: -a
-      x: -7
-      y: -7
+      x: -7.5
+      y: -7.5
       progress: warmup
       rotation: 135
       moveY: 0.75
       moveX: 0.75
       under: true
+      heatColor: 6d5559
       }
       {
       type: RegionPart
       suffix: -a
       rotation: -135
-      x: -7
-      y: 7
+      x: -7.5
+      y: 7.5
       progress: warmup
       moveY: -0.75
       moveX: 0.75
       under: true
+      heatColor: 6d5559
       }
       {
       type: RegionPart
       suffix: -a
       rotation: 45
-      x: 7
-      y: -7
+      x: 7.5
+      y: -7.5
       progress: warmup
       moveY: 0.75
       moveX: -0.75
       under: true
+      heatColor: 6d5559
     }
   ]
 }

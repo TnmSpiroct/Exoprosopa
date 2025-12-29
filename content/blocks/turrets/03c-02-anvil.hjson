@@ -95,7 +95,7 @@ drawer: {
       type: RegionPart
       suffix: -cannon
       progress: warmup
-      moveRot: -5
+      moveRot: -6.5
       moves: [
        {
         type: PartMove
@@ -106,6 +106,7 @@ drawer: {
       ]
       under: true
       mirror: true
+      heatColor: a65d36
     }
   ]
 }
