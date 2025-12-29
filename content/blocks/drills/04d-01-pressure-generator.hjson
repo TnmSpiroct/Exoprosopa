@@ -12,10 +12,10 @@ category: power
 research: 0007-power
 buildCostMultiplier: 2
 requirements: [
-  01a-01-item-cobalt/40
+  01a-01-item-cobalt/30
 ]
 researchCost: [
-  01a-01-item-cobalt/6
+  01a-01-item-cobalt/5
 ]
 drawer: {
   type: DrawMulti
