@@ -1,6 +1,6 @@
-# Type of crafter
+# Block type, GenericCrafter for basic factory blocks
 type: GenericCrafter
-# Size of blocks
+# Block size
 size: 3
 # Health point
 health: 650
@@ -10,18 +10,21 @@ category: crafting
 itemCapacity: 20
 # Build cost
 requirements: [
-  01a-01-item-cobalt/110
-  01a-02-item-nickel/60
+  01a-01-item-cobalt/100
+  01a-02-item-nickel/65
 ]
 # Crafting time
 # This blocks has a craftTime of 100 ticks, that means it will produces 5 aluminium every 1.66 seconds.
 craftTime: 100
+# Effect created each crafting
 craftEffect: none
+# Item output
 outputItems: [
   01a-05-item-aluminium/5
 ]
 # Crafting requirements
 consumes: {
+  # Use array for multiple items
   items: [
     01a-03-item-anthracite/2
     01a-01-item-cobalt/1
@@ -29,11 +32,11 @@ consumes: {
   power: 3
 }
 # Drawers
-# I usually uses drawMulti because most of my blocks includes liquids which mostly use bottom sprites.
+# I usually use drawMulti because most of the blocks includes liquids which uses multiple sprites.
 drawer: {
   type: DrawMulti
   drawers: [
-    # Start from the bottom one, i use -bottom sprite for a base
+    # Start from the bottom, I use -bottom syntax as a base.
     {
       type: DrawRegion
       suffix: -bottom
@@ -71,9 +74,7 @@ ambientSound: loopSmelter
 ambientSoundVolume: 0.12
 # Is the sprite touching all of the edges?
 squareSprite: false
-# Research tree
 research: 0003-factory
-# Research cost
 researchCost: [
   01a-01-item-cobalt/30
   01a-02-item-nickel/15

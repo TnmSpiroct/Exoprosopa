@@ -1,0 +1,62 @@
+type: GenericCrafter
+size: 4
+health: 2000
+liquidOutputDirections: [0]
+rotate: true
+quickRotate: true
+rotateDraw: false
+hasLiquids: true
+category: crafting
+consumes: {
+  items :[
+  01a-08-item-nucrid/6
+  01a-04-item-tantra-sand/2
+  ]
+  liquid: 02b-01-bioliquid/6
+  power: 6
+}
+outputLiquid: 02b-02-a-purified-elixir/6
+liquidCapacity: 720
+requirements: [
+  01a-01-item-cobalt/475
+  01a-05-item-aluminium/350
+  01a-06-item-chromium/250
+  01a-08-item-petal/200
+  01a-10-item-bethine/40
+]
+craftTime: 20
+craftEffect: none
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: 02b-01-bioliquid
+    padding: 3
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: 02b-02-a-purified-elixir
+    padding: 3
+  }
+  {
+    type: DrawCrucibleFlame
+  }
+  {
+    type: DrawRegion
+  }
+  {
+    type: DrawSideRegion
+  }
+  ]
+}
+squareSprite: false
+research: 09i-02-f-elixir-autofreezer
+researchCostMultiplier: 2
+ambientSound: loopCultivator
+ambientSoundVolume: 0.4
+itemCapacity: 30
