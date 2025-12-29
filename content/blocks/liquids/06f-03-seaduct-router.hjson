@@ -9,8 +9,9 @@ category: liquid
 squareSprite: false
 research: 06f-02-seaduct-junction
 requirements: [
-  01a-01-item-cobalt/10
+  01a-01-item-cobalt/5
 ]
+buildCostMultiplier: 2
 researchCost: [
-  01a-01-item-cobalt/25
+  01a-01-item-cobalt/20
 ]

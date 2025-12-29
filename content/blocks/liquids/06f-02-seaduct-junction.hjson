@@ -7,8 +7,9 @@ squareSprite: false
 research: 06f-01-a-sea-conduit
 health: 65
 requirements: [
-  01a-01-item-cobalt/5
+  01a-01-item-cobalt/3
 ]
+buildCostMultiplier: 2
 researchCost: [
   01a-01-item-cobalt/15
 ]

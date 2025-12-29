@@ -1,17 +1,17 @@
 type: ArmoredConduit
 category: liquid
 requirements: [
-  01a-01-item-cobalt/1
-  01a-07-item-clevorite/1
+  01a-05-item-aluminium/1
+  01a-10-item-bethine/1
 ]
 health: 500
+armor: 5
 junctionReplacement: 06f-02-seaduct-junction
 rotBridgeReplacement: 06f-04-m-clevoritebridge
 solid: false
-research: 06f-03-seaduct-router
-researchCost: [
-  01a-01-item-cobalt/750
-  01a-07-item-clevorite/75
-]
+research: 06f-01-b-aqua-conduit
+researchCostMultiplier: 1
 leaks: false
 underBullets: true
+liquidCapacity: 50
+liquidPressure: 1.5
