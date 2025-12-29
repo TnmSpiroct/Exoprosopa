@@ -1,10 +1,13 @@
 type: SwitchBlock
 size: 1
-health: 60
+health: 65
 category: logic
 research: 0015-logic
 requirements: [
-  01a-01-item-cobalt/10
-  01a-02-item-nickel/10
+  01a-01-item-cobalt/5
+  01a-02-item-nickel/5
 ]
-researchCostMultiplier: 0.1
+researchCost: [
+  01a-01-item-cobalt/50
+  01a-02-item-nickel/50
+]
