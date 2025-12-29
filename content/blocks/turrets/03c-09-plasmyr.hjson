@@ -40,9 +40,9 @@ category: turret
 # Turret recoil
 recoil: 3
 # Minimum warmup before automatically attack
-minWarmup: 0.99
+minWarmup: 0.75
 # Warmup maintain time
-warmupMaintainTime: 120
+warmupMaintainTime: 40
 shootWarmupSpeed: 0.05
 # Outline color of the turret
 outlineColor: 2C2A36
@@ -52,7 +52,7 @@ targetGround: true
 # Turret rotation speed
 rotateSpeed: 1.1
 # Fire of rate, in tick
-reload: 125
+reload: 165
 # Turret range, speed x lifetime
 range: 522
 # Bullet starting position, range unaffected

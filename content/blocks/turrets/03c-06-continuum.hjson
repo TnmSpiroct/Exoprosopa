@@ -10,28 +10,27 @@ loopSoundVolume: 1
 scaleDamageEfficiency: true
 consumes: {
   liquid: 02b-06-morphitix-plasma/0.33333333333
-  power: 9
+  power: 8
 }
 requirements: [
   01a-02-item-nickel/650
   01a-05-item-aluminium/500
-  01a-06-item-chromium/350
-  01a-07-item-clevorite/150
-  01a-10-item-bethine/80
+  01a-07-item-clevorite/210
+  01a-10-item-bethine/100
 ]
 category: turret
 outlineColor: 2C2A36
 targetAir: true
 targetGround: true
-rotateSpeed: 0.9
-aimChangeSpeed: 0.9
+rotateSpeed: 0.8
+aimChangeSpeed: 0.8
 reload: 60
-range: 350
+range: 322
 shootY: -0.5
 shootType: {
   type: PointLaserBulletType
   buildingDamageMultiplier: 0.15
-  damage: 192.5
+  damage: 135
   hitColor: DCC6C6
 }
 drawer: {
@@ -63,7 +62,6 @@ research: 03c-03-a-spewer
 researchCost: [
   01a-02-item-nickel/15000
   01a-05-item-aluminium/11000
-  01a-06-item-chromium/8000
   01a-07-item-clevorite/4000
-  01a-10-item-bethine/300
+  01a-10-item-bethine/500
 ]
