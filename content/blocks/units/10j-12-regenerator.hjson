@@ -3,6 +3,7 @@ size: 2
 health: 450
 squareSprite: false
 category: units
+liquidCapacity: 60
 requirements: [
   01a-01-item-cobalt/80
   01a-02-item-nickel/80
