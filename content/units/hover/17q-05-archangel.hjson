@@ -1,56 +1,77 @@
 type: flying
-immunities: [
-  burning, shocked
+immunities: [burning, shocked
 ]
 flying: true
 faceTarget: true
-groundLayer: 40
-shadowElevation: 0.1
+shadowElevation: 0.15
 drag: 0.07
 outlineColor: 26262F
 speed: 0.35
 rotateSpeed: 1.7
 accel: 0.1
-health: 35000
-armor: 25
+health: 27000
+armor: 20
 hitSize: 35
 researchCostMultiplier: 3
 loopSound: loopHover
 loopSoundVolume: 0.8
 research: 17q-04-noya
+engineOffset: 8
+engineSize: 0
 engines: [
   {
-  x: 0
-  y: -21
-  radius: 8
-  rotation: -90
+    x: 0
+    y: -24
+    radius: 8
+    rotation: -90
   }
   {
-  x: 8
-  y: -25
-  radius: 3.25
-  rotation: -90
+    x: 8
+    y: -28
+    radius: 3.25
+    rotation: -90
   }
   {
-  x: -8
-  y: -25
-  radius: 3.25
-  rotation: -90
+    x: -8
+    y: -28
+    radius: 3.25
+    rotation: -90
   }
   {
-  x: -19
-  y: -23
-  radius: 4.75
-  rotation: -135
+    x: -19
+    y: -26
+    radius: 4.75
+    rotation: -135
   }
   {
-  x: 19
-  y: -23
-  radius: 4.75
-  rotation: -45
+    x: 19
+    y: -26
+    radius: 4.75
+    rotation: -45
   }
 ]
-itemCapacity: 80
+parts: [
+  {
+    type: RegionPart
+    suffix: -blade
+    heatProgress: recoil
+    mirror: true
+    moveY: -0.25
+    heatColor: F8B684CC
+    layerOffset: -2
+    under: true
+    moves: [
+      {
+      type: PartMove
+      progress: recoil
+      x: 1.25
+      y: -1.25
+      rot: -5
+      }
+    ]
+  }
+]
+itemCapacity: 650
 lowAltitude: false
 abilities: [
   {
@@ -74,11 +95,10 @@ abilities: [
   }
 ]
 weapons: [
-   {
-    useAttackRange: true
+  {
     x: 0
     y: 4
-    reload: 550
+    reload: 630
     rotate: false
     mirror: false
     shootSound: shootEmp
@@ -88,77 +108,55 @@ weapons: [
     shoot: {
       firstShotDelay: 210
     }
-    shake: 10
+    shake: 15
+    shootY: -9
     bullet: {
       chargeEffect: {
-        type: MultiEffect
-        top: true
+        type: SeqEffect
         effects: [
           {
-            type: WaveEffect
-            y: 4.3
-            sizeFrom: 62
+            type: ParticleEffect
+            layer: 100
+            length: 30
+            baseLength: 25
+            cone: 360
+            particles: 22
+            sizeFrom: 7
+            colorFrom: D7F08B90
+            colorTo: 92B25890
             sizeTo: 0
-            interp: pow3In
-            sizeInterp: pow5Out
-            strokeFrom: 0
-            strokeTo: 2
-            colorFrom: 92b25890
-            colorTo: d7f08b60
-            lifetime: 210
+            lifetime: 180
           }
           {
-            type: ParticleEffect
-            y: 4.3
-            particles: 40
-            offset: 120
-            lightOpacity: 0
-            length: 50
-            baseLength: -50
-            interp: pow3In
-            sizeInterp: pow5Out
-            lifetime: 210
-            sizeFrom: 1
-            sizeTo: 4
-            colorFrom: 92b25890
-            colorTo: d7f08b60
-          }
-          {
-            type: ParticleEffect
-            y: 4.3
-            particles: 20
-            offset: 180
-            lightOpacity: 0
-            length: 40
-            baseLength: -40
-            interp: pow3In
-            sizeInterp: pow5Out
-            lifetime: 200
-            sizeFrom: 1
-            sizeTo: 4
-            colorFrom: 92b25890
-            colorTo: d7f08b60
+            type: WaveEffect
+            layer: 100
+            sizeFrom: 64
+            sizeTo: 0
+            strokeFrom: 3
+            strokeTo: 0
+            colorFrom: D7F08B90
+            colorTo: 92B25890
+            lifetime: 30
           }
         ]
       }
-      type: BasicBulletType
+      smokeEffect: none
+      type: ArtilleryBulletType
+      collidesAir: true
       status: blasted
+      recoil: 4
       speed: 5
-      lifetime: 96
+      lifetime: 96.1
       width: 10
       height: 18
-      hitEffect: [
-       scatheExplosion, spawnShockwave
-      ]
-      hitColor: d8f18c
-      despawnEffect: [
-       scatheExplosion, spawnShockwave
+      hitColor: D8F18C
+      despawnEffect: [scatheExplosion, spawnShockwave
       ]
       hitSound: explosionMortar
-      pierce: true
-      damage: 1600
-      splashDamage: 920
-      splashDamageRadius: 65
+      pierceArmor: true
+      damage: 750
+      splashDamage: 2650
+      splashDamageRadius: 75
       despawnSound: explosionMortar
       trailChance: -1
       trailEffect: shootSmokeTitan
@@ -166,7 +164,7 @@ weapons: [
       trailRotation: true
       trailLength: 18
       trailWidth: 4
-      trailColor: d8f18c
+      trailColor: D8F18C
       bulletInterval: 6
       intervalRandomSpread: 0
       intervalBullets: 2
@@ -174,9 +172,8 @@ weapons: [
       intervalBullet: {
         type: LaserBulletType
         despawnSound: shootArc
-        colors: [
-        d8f18c, ffffff
-       ]
+        colors: [D8F18C, ffffff
+        ]
         sideWidth: 2
         sideLength: 16
         sideAngle: 45
@@ -189,41 +186,40 @@ weapons: [
     }
   }
   {
-    x: 18
-    y: 0
-    reload: 210
+    x: 16.25
+    y: -16.25
+    reload: 280
     rotate: true
     mirror: true
     alternate: true
-    shootSound: shootBeam
-    layerOffset: -20
+    drawCell: false
+    shootSound: shootMissiles
     shootSoundVolume: 0.2
-    shake: 3
-    targetSwitchInterval: 35
-    targetInterval: 20
-    cooldownTime: 190
-    continuous: true
-    rotationLimit: 16
-    name: archangel-weapon
+    shake: 5
+    rotationLimit: 45
+    shoot: {
+      barrels: [
+        -3.25, 0.5, 0,
+        0, 0.5, 0,
+        3.25, 0.5, 0,
+        -3.25, -1, 0,
+        0, -1, 0,
+        3.25, -1, 0,
+      ]
+      type: ShootBarrel
+      shots: 16
+      shotDelay: 2.25
+    }
+    name: archangel-missile-mount
+    drawOutline: true
+    outlineColor: 26262F
     bullet: {
-      type: ContinuousLaserBulletType
-      largeHit: false
-      drawSize: 170
-      maxRange: 240
-      length: 220
-      width: 3
-      lifetime: 100
-      damage: 35
-      incendChance: 0.03
-      incendSpread: 5
-      incendAmount: 1
-      smokeEffect: none
-      colors: [d8f18c, ffffff
-       ]
-      pierce: true
-      pierceBuilding: true
-      status: 13m-03-hsos6
-      statusDuration: 60
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
+      instantDisappear: true
+      damage: 0
+      spawnUnit: exoprosopa-arc-missile
+      despawnSound: explosion
     }
   }
 ]

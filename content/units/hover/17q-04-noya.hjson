@@ -1,7 +1,8 @@
 type: flying
+immunities: [burning, shocked
+]
 flying: true
 faceTarget: true
-groundLayer: 40
 shadowElevation: 0.1
 drag: 0.07
 outlineColor: 26262F
@@ -23,6 +24,7 @@ research: {
     }
   ]
 }
+engineOffset: 8
 engines: [
   {
     x: 0
@@ -32,13 +34,13 @@ engines: [
   }
   {
     x: 10
-    y: -17
+    y: -15
     radius: 3.5
     rotation: -90
   }
   {
     x: -10
-    y: -17
+    y: -15
     radius: 3.5
     rotation: -90
   }
@@ -60,52 +62,60 @@ abilities: [
 weapons: [
   {
     x: 0
-    y: 1
+    y: -4
     reload: 180
     rotate: false
     mirror: false
     shootSound: shootEmp
     shake: 5
     bullet: {
-    type: BasicBulletType
-        damage: 625
-        recoil: 1.5
-        splashDamage: 80.75
-        splashDamageRadius: 30
-        speed: 10
-        lifetime: 35
-        pierce: true
-        pierceCap: 5
-        trailEffect: shootSmokeTitan
-        trailColor: D8F18C
-        trailChance: -1
-        trailParam: 4
-        trailInterval: 4
-        trailRotation: true
-        trailLength: 8
-        trailWidth: 4
-        }
+      type: BasicBulletType
+      damage: 625
+      recoil: 1.65
+      splashDamage: 80.75
+      splashDamageRadius: 30
+      speed: 10
+      lifetime: 35
+      pierce: true
+      pierceCap: 5
+      trailEffect: shootSmokeTitan
+      trailColor: D8F18C
+      trailChance: -1
+      trailParam: 4
+      trailInterval: 2.5
+      trailRotation: true
+      trailLength: 8
+      trailWidth: 4
+    }
   }
   {
-    x: 10
+    x: 10.25
     y: 0
     reload: 60
-    rotate: false
+    rotate: true
+    rotateSpeed: 0.75
+    rotationLimit: 40
     mirror: true
     alternative: true
     shootSound: shootLaserBeam
     shootSoundVolume: 0.2
     shake: 1
+    shootY: -3.5
+    recoil: 2
     name: noya-weapon
     bullet: {
-    type: LaserBulletType
+      # Changes the bullet layer position
       layer: 116
-      damage: 70.25
+      type: LaserBulletType
+      # Laser buffed
+      damage: 77.5
       sideAngle: 45
+      # Buff range
       sideLength: 35
       sideWidth: 1
       pierce: false
-      pierceCap: 5
+      # Nerf pierce
+      pierceCap: 4
       pierceBuilding: true
     }
   }
