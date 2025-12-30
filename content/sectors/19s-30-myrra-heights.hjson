@@ -1,7 +1,6 @@
-captureWave: 2
-difficulty: 1
+difficulty: 10
 planet: frostnova
-sector: 212
+sector: 136
 research: {
   parent: 19s-30-myrra-heights
   objectives: [
