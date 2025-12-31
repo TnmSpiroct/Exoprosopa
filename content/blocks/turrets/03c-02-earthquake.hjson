@@ -48,17 +48,11 @@ ammoTypes: {
      }
   }
 }
+heatColor: 6d5559
 drawer: {
   type: DrawTurret
   basePrefix: earthquake-
   parts: [
-      {
-      type: RegionPart
-      suffix: -body
-      progress: warmup
-      under: false
-      heatColor: 6d5559
-      }
       {
       type: RegionPart
       suffix: -a

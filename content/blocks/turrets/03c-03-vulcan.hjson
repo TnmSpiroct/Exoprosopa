@@ -94,6 +94,7 @@ drawer: {
       suffix: -back
       mirror: true
       progress: warmup
+      heatProgress: warmup
       moveRot: -20
       y: -0.2
       moveY: 0.5
@@ -106,6 +107,7 @@ drawer: {
       suffix: -front
       mirror: true
       progress: warmup
+      heatProgress: warmup
       moveRot: -20
       y: -0.2
       moveY: 0.5
@@ -118,6 +120,13 @@ drawer: {
       mirror: true
       progress: warmup
       moveX: 1.6
+    }
+    {
+      type: RegionPart
+      suffix: -nozzle-glow
+      mirror: true
+      drawRegion: false
+      progress: warmup
       heatColor: 844cff88
     }
   ]

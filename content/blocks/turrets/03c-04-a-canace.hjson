@@ -18,7 +18,7 @@ coolant: {
   amount: 0.25
 }
 coolantMultiplier: 2.4
-recoil: 1
+recoil: 0.5
 minWarmup: 0.70
 shootWarmupSpeed: 0.08
 warmupMaintainTime: 50
@@ -141,23 +141,36 @@ drawer: {
     parts: [
     {
       type: RegionPart
-      suffix: -barrel
-      mirror: false
-      moveY: -2.35
+      suffix: -glow
       progress: recoil
+      heatProgress: warmup
+      drawRegion: false
       heatColor: d8f18c77
     }
     {
       type: RegionPart
-      suffix: -side
-      mirror: true
-      y: -0.1
-      moveX: 0
-      moveY: 0
-      progress: warmup
+      suffix: -barrel
+      mirror: false
+      moveY: -2.35
+      progress: recoil
+      under: true
+    }
+    {
+      type: RegionPart
+      suffix: -barrel-glow
+      progress: recoil
       heatProgress: warmup
-      moveRot: 0
-      under: false
+      drawRegion: false
+      moveY: -2.35
+      heatColor: d8f18c77
+    }
+    {
+      type: RegionPart
+      suffix: -back-glow
+      progress: recoil
+      heatProgress: warmup
+      drawRegion: false
+      moveY: -2.35
       heatColor: d8f18c77
     }
   ]

@@ -49,19 +49,30 @@ requirements: [
 consumes: {
   power: 11
 }
+heatColor: 8df9d1
 drawer: {
   type: DrawTurret
   basePrefix: subsonic-
   parts: [
-      {
+    {
       type: RegionPart
-      suffix: -body
+      suffix: -glow
       progress: recoil
-      heatProgress: recoil
-      mirror: false
-      under: false
-      outline: false
-      heatColor: 8df9d1
+      heatProgress: warmup
+      drawRegion: false
+      heatColor: 479075
+    }
+    {
+      type: RegionPart
+      suffix: -back
+      mirror: true
+      progress: warmup
+      heatProgress: warmup
+      heatColor: 479075
+      moveX: -0.5
+      moveY: -0.5
+      moveRot: -8
+      under: true
     }
   ]
 }

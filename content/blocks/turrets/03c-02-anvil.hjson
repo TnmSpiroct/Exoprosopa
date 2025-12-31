@@ -95,7 +95,7 @@ drawer: {
       type: RegionPart
       suffix: -cannon
       progress: warmup
-      moveRot: -6.5
+      moveRot: -7.5
       moves: [
        {
         type: PartMove
