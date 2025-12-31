@@ -1,12 +1,12 @@
 difficulty: 8
 planet: frostnova
-sector: 270
+sector: 132
 research: {
-  parent: 19s-16-bioproject-core
+  parent: 19s-23-eridanus
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-16-bioproject-core
+      preset: 19s-23-eridanus
     }
   ]
 }

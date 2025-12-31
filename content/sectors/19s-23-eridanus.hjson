@@ -1,13 +1,13 @@
 captureWave: 50
 difficulty: 8
 planet: frostnova
-sector: 132
+sector: 270
 research: {
-  parent: 19s-18-clover-springs
+  parent: 19s-16-bioproject-core
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-18-clover-springs
+      preset: 19s-16-bioproject-core
     }
   ]
 }
