@@ -2,11 +2,11 @@ difficulty: 10
 planet: frostnova
 sector: 136
 research: {
-  parent: 19s-30-myrra-heights
+  parent: 19s-24-clover-springs
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-30-myrra-heights
+      preset: 19s-24-clover-springs
     }
   ]
 }
