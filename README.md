@@ -43,8 +43,10 @@ This mod requires newest mindustry build to be played (Beta 153)
   - Sealed Outpost > Encampment ☑
   - Reservoir - Abandoned Reservoir [Remake] ☑
   - Botanical Garden [Remake] ☑
-  - Eridanus [Published - WIP] ☑
+  - Eridanus [WIP] ☑
   - Bioproject Core ☑
+  - Clover Springs [WIP] ☑
+  - Myrra Heights [WIP] ☑
   - Military Junkyard [WIP]
   - Polarstation [WIP]
   - Antarstar [WIP]
@@ -55,62 +57,34 @@ This mod requires newest mindustry build to be played (Beta 153)
   - H.S.O.S.6
   - Horizon's Edge
   - Alpha Frontier
-- Custom Map: 
-  - Ridgeline [noClearPurpose]
+- Optional Map: 
+  - Ridgeline
   - Aeroplex Fort
-- New 2 Midgame Turrets
-  - Snow White
-  - Phantasm
-- Revamp 2 Endgame Turrets
-  - Identity > Plasmyr
-  - Supernova
-- Revamped Turrets:
-  - Impale Shoot Effect
-  - Phalanx
-  - Continuum
-- Resprited Blocks
-  - All Walls
-  - Calamity Turret
-  - Morphite Accelerator
-  - Incinerator
-- New Resource: Lamine
-  - Laminator
-  - Blast Chamber
-  - Lamine Landmine
-- New Heat Blocks
-  - Heat Conductor
-  - Heat Splitter
-  - Anthracite Heater
-  - Miasma Heater
-  - Radiative Heater
+  - Novaris Facility
 - Finalized Cores Block & Units
 - New Effect Block: Enforcer [Shockwave Tower]
 - Enemy Core Landing Effect - Rhodes Core Land VFX
-- Rework Weapon of Units
+- Rework Weapon of Units:
   - T5 Tank - Rancor
   - T3 Tank - Bulwark
-- Resprited All Liquids
 - New Ichor Tiles & Mesa Biome
-- Fixed Building Damage Multiplier on All Turrets
-- New Cobalt Biome Props
-- Adjusted All Vents Extract Percentage
 - Implement Turret Pre-Rotation Feature
 - Fixed Inconsistency Ambient Light Color
 - Production Blocks VFX Overhaul
-- Added Cryogenics Synthetis Chamber
-- Added Nucrid Scrapper
-- Added Hybrid Reactor
+- Added New Blocks:
+  - Cryogenics Synthetis Chamber
+  - Nucrid Scrapper
+  - Hybrid Reactor
+  - Heavy Ichor Infuser
+  - Large Material Disassembler
+  - Large Block Fabricator
+  - Hoverducts
+  - Prime Regenerator
 - Resprited Overboosted Status
-- More Liquid Ammo in Spewer Turret
-- Rename several cryogenics factory
-- Added Heavy Ichor Infuser
-- Translation to several ichor blocks
-- Added Large Material Disassembler
-- Added Large Block Fabricator
-- Added Hoverducts
-- Balancing to Radiative Heater
-- Balancing to Blast Chamber
-- Cobalt reduction to several blocks
+- Balancing:
+  - Radiative Heater
+  - Blast Chamber
+- Cobalt Cost Reduction
   - Powerline 6 > 5
   - Pressure Gen 40 > 30
   - Elixir Coll. 40 > 30
@@ -127,37 +101,15 @@ This mod requires newest mindustry build to be played (Beta 153)
   - Chromium Pipe 1 > 0
   - Cargo Bay 90 > 0
   - Block Regenerator 150 > 100
-- Block Regenerator Nerf 0.035 > 0.03
-- Burner Generator Cost Nerf
 - Less Weather Effects
-- Significant Nerf to Phantasm
+- Nerf Turrets
+  - Phantasm
+  - Skyhammer
+  - Continuum
 - Various Bug Fix and Improvement to Snow White
-  - Fixes Rocket exploding too early even when against enemy in range
-  - Fixes Rocket always misses due to wrong prediction
-  - Fixes Rocket deals very high damage to building
-  - Fixes Rocket not dealing frag bullets
-  - Fixes Rocket not creating death sound
-  - Fixes Rocket not showing the real BuildingDamageMultiplier
-  - Fixes Rocket's loopSound that are not playing
-  - Added Morphite Ammo, with forcefield ability.
-  - Adjustment to Snow White's range
-  - Small Adjustment to build cost, accelerate time, etc.
 - Archangel Revamp
-  - Changing the continous laser to barrages of missiles
-  - Reduced Health, Increased main reload time and damage.
-  - Added Various Parts and Heat Part
-  - Engine Reposition
-- Added Myrra Heights In Campaign
-- Added Clover Springs In Campaign
-- Added Novaris Facility In Costum Map
-- Added Aeroplex Fort In Costum Map
-- Nerf Skyhammer
-- Nerf Continuum
 - Fixes Suzuran Kit's Body Sprite
-- Rename Feronucrium to Bloodstone
-- Rename Nucrid to Nucridscrap
-- Added Animaton to Bloodstone
-- Added Prime Regenerator
+- Item Bloodstone Animaton
 <br>
 
 ![Banner]
