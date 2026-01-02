@@ -15,7 +15,7 @@ consumes: {
   power: 0.166666666666
 }
 requirements: [
-  01a-01-item-cobalt/20
+  01a-01-item-cobalt/15
   01a-02-item-nickel/30
 ]
 researchCost: [

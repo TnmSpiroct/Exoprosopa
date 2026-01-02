@@ -320,6 +320,27 @@ ammoTypes: {
 drawer: {
   type: DrawTurret
   basePrefix: calamity-
+  parts: [
+    {
+     type: RegionPart
+     suffix: -back
+     mirror: true
+     under: true
+     progress: recoil
+     heatProgress: warmup
+     moveX: -0.35
+     moveY: 0.35
+     heatColor: 8a313775
+    }
+    {
+     type: RegionPart
+     suffix: -glow
+     progress: recoil
+     heatProgress: warmup
+     drawRegion: false
+     heatColor: 8a313780
+    }
+  ]
 }
 research: 03c-02-anvil
 researchCost: [

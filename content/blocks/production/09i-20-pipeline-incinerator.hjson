@@ -9,7 +9,7 @@ consumes: {
 }
 category: crafting
 research: {
-  parent: 09i-02-f-elixir-autofreezer
+  parent: 09i-01-aluminium-furnace
   objectives: [
     {
       type: OnSector

@@ -1,0 +1,48 @@
+type: Constructor
+size: 5
+health: 1500
+category: units
+requirements: [
+  01a-05-item-aluminium/400
+  01a-06-item-chromium/300
+  01a-08-item-petal/250
+] 
+hasPower: true
+consumes: {
+  power: 4
+  liquid: 02b-01-bioliquid/0.5
+}
+buildSpeed: 2.5
+filter: [
+  09i-01-aluminium-furnace,
+  09i-02-a-aluminium-refinery-forge,
+  09i-02-elixir-converter,
+  09i-02-f-elixir-autofreezer,
+  09i-03-cryo-synthetis-chamber,
+  09i-04-a-terra-basin,
+  09i-04-b-mini-basin,
+  09i-04-clevorite-disassembler,
+  09i-04-heavy-ichor-mixer,
+  09i-04-ichor-regulator,
+  09i-04-laminator,
+  09i-04-lamine-chamber,
+  09i-04-tantraformer,
+  09i-04-u-aquafilter,
+  09i-04-v-elemental-separator,
+  09i-11-morphifier-crystallizer,
+  09i-11-n-morphite-liquidfier,
+  09i-11-o-anthracite-heater,
+  09i-11-o-miasma-heater,
+  09i-11-o-radiative-heater,
+  09i-11-p-heat-redirector,
+  09i-11-q-heat-router,
+  09i-12-elixir-crafter,
+  09i-12-enchanting-basin,
+  09i-12-gravitix-chamber-core,
+  09i-12-necrolysis-boiler,
+  09i-15-pyroforge
+]
+research: 10j-16-block-fabricator
+squareSprite: false
+maxBlockSize: 4
+researchCostMultiplier: 2

@@ -1,6 +1,6 @@
 type: DirectionLiquidBridge
 size: 1
-health: 100
+health: 250
 range: 5
 requirements: [
   01a-01-item-cobalt/20
@@ -10,3 +10,5 @@ category: liquid
 squareSprite: false
 research: 06f-04-liquidbridge
 researchCostMultiplier: 0.5
+liquidCapacity: 100
+liquidPressure: 1.5

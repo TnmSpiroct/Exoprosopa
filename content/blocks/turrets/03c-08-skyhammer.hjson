@@ -8,11 +8,11 @@ shootSoundVolume: 2.2
 loopSound: loopGlow
 loopSoundVolume: 0.6
 requirements: [
-  01a-01-item-cobalt/950
-  01a-05-item-aluminium/600
-  01a-08-item-petal/350
-  01a-10-item-bethine/90
-  01a-11-item-pyroxene/65
+  01a-01-item-cobalt/1000
+  01a-05-item-aluminium/675
+  01a-08-item-petal/450
+  01a-10-item-bethine/150
+  01a-11-item-pyroxene/75
 ]
 category: turret
 consumes: {
@@ -28,9 +28,9 @@ outlineColor: 2C2A36
 targetAir: true
 targetGround: true
 rotateSpeed: 1.5
-reload: 100
+reload: 165
 range: 435
-shootY: 6.2
+shootY: 6
 shootType: {
   type: ArtilleryBulletType
   buildingDamageMultiplier: 0.1
@@ -57,7 +57,7 @@ shootType: {
   despawnSound: explosionQuad
   despawnEffect: greenBomb
   hitEffect: massiveExplosion
-  splashDamage: 3150
+  splashDamage: 1950
   splashDamageRadius: 60
   fragOnHit: true
   fragBullets: 8
@@ -77,8 +77,8 @@ shootType: {
     speed: 2
     lifetime: 10
     pierceCap: 2
-    damage: 175
-    splashDamage: 525
+    damage: 75
+    splashDamage: 165
     splashDamageRadius: 25
     pierce: true
     despawnSound: explosion
@@ -88,12 +88,6 @@ drawer: {
   type: DrawTurret
   basePrefix: skyhammer-
   parts: [
-     {
-      type: RegionPart
-      suffix: -main
-      progress: warmup
-      under: true
-    }
     {
       type: RegionPart
       suffix: -arm

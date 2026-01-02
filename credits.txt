@@ -23,7 +23,7 @@ jab005 the honored one, inspired me making this mod
 
 # Credits [ Audio Experience / Assets ]
 
-SoundEffect: onsen, normal-shot, firewall, electric-discharge, weapon-emp-charging, weapon-emp-discharge, pressure-generator, machinegun-shot, laser-charge, elixir
+SoundEffect: loopIchor, shootPierce, shootBeam, shootElectric, chargeEmp, shootEmp, loopPressureGenerator, shootMachinegun, chargeSubsonic, loopElixir
 Source: https://bluearchive.wiki/wiki/Category:Sound_effects
 Author: Blue Archive
 
@@ -31,14 +31,14 @@ Music: Ep Yanagi Rest Awhile
 Source: https://youtu.be/TZvfPRf1-i4?si=uuc_Wi_X9KEtsEq1
 Author: Zenless Zone Zero
 
-SoundEffect: laser-beam, mortar
+SoundEffect: shootLaserBeam, shootMortar
 Source: 101soundboards.com
 
-SoundEffect: radar-pulsing
+SoundEffect: loopRadarPulse
 Source: 101soundboards.com
 Author: Factorio
 
-SoundEffect: target, continuum-shot
+SoundEffect: chargeTarget, shootSuperNova
 Author: Terraria Calamity Mod
 
 Music: World 15: Queenship Ost
@@ -49,7 +49,7 @@ Music: Frontier
 Source: https://youtu.be/ZmYYiD4g6dA?si=BemPdvvvuRDjjp_w
 Author: Cris Velasco, Carrion
 
-SoundEffect: plasma-shot
+SoundEffect: shootPlasma
 Author: Carrion
 
 Other than said above, the sound is free to use or unknown author.

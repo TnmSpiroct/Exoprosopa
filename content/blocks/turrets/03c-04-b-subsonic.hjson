@@ -2,7 +2,7 @@ type: PowerTurret
 size: 3
 health: 3000
 armor: 5
-reload: 115
+reload: 120
 shoot: {
   firstShotDelay: 115
   shots: 9
@@ -13,7 +13,7 @@ recoil: 2.5
 range: 230
 minWarmup: 0.4
 moveWhileCharging: false
-outlineColor: 00000000
+outlineColor: 2c2a36
 shootSound: shootSubsonic
 chargeSound: chargeSubsonic
 researchCost: [
@@ -49,19 +49,29 @@ requirements: [
 consumes: {
   power: 11
 }
+heatColor: 8df9d1
 drawer: {
   type: DrawTurret
   basePrefix: subsonic-
   parts: [
-      {
+    {
       type: RegionPart
-      suffix: -body
+      suffix: -glow
       progress: recoil
-      heatProgress: recoil
-      mirror: false
-      under: false
-      outline: false
-      heatColor: 8df9d1
+      heatProgress: warmup
+      drawRegion: false
+      heatColor: 47907590
+    }
+    {
+      type: RegionPart
+      suffix: -back
+      mirror: true
+      progress: warmup
+      heatProgress: warmup
+      moveX: -0.5
+      moveY: -0.5
+      under: true
+      heatColor: 47907590
     }
   ]
 }

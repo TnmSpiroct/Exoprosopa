@@ -4,10 +4,10 @@ noiseColor: D8E0FD
 drawNoise: true
 particleRegion: particle
 useWindVector: true
-sizeMax: 8
+sizeMax: 13
 sizeMin: 5
-baseSpeed: 6
-density: 850
-opacityMultiplier: 0.5
+baseSpeed: 7.5
+density: 950
+opacityMultiplier: 0.3
 sound: windhowl
 soundVol: 0.3

@@ -1,4 +1,5 @@
 type: ItemTurret
+predictTarget: false
 size: 4
 squareSprite: false
 health: 4500
@@ -8,15 +9,14 @@ coolant: {
   liquid: 02b-02-a-purified-elixir
   amount: 0.5
 }
-coolantMultiplier: 2.4
-fogRadiusMultiplier: 0.6
-shootSound: shootSnowWhite
-shootSoundVolume: 1.5
+coolantMultiplier: 1.2
+fogRadiusMultiplier: 0.45
+shootSound: shootScathe
 requirements: [
-  01a-05-item-aluminium/425
-  01a-06-item-chromium/500
-  01a-07-item-clevorite/185
-  01a-10-item-bethine/220
+  01a-05-item-aluminium/450
+  01a-06-item-chromium/600
+  01a-07-item-clevorite/200
+  01a-10-item-bethine/225
 ]
 researchCostMultiplier: 0.5
 research: 03c-07-phalanx
@@ -28,20 +28,32 @@ targetUnderBlocks: false
 targetGround: true
 shootCone: 1
 rotateSpeed: 0.75
-minWarmup: 0.95
+minWarmup: 0.9
 newTargetInterval: 40
 unitSort: strongest
 shootWarmupSpeed: 0.03
-reload: 750
-range: 1365
-shootY: 1
+reload: 720
+range: 1280
+shootY: -1
 shake: 6
 ammoPerShot: 15
 maxAmmo: 45
 ammoTypes: {
   01a-10-item-bethine: {
+    type: BulletType
+    shootEffect: shootBig
+    smokeEffect: shootSmokeMissileColor
+    hitColor: FFD37F
     instantDisappear: true
     spawnUnit: exoprosopa-scathe-rudal
+  }
+  01a-09-item-morphite: {
+    type: BulletType
+    shootEffect: shootBig
+    smokeEffect: shootSmokeMissileColor
+    hitColor: 6EEFC0
+    instantDisappear: true
+    spawnUnit: exoprosopa-morphite-rudal
   }
 }
 drawer: {
@@ -50,37 +62,132 @@ drawer: {
     parts: [
     {
       type: RegionPart
-      suffix: -rudal
-      under: true
-      mirror: false
-      colorTo: 00000000
-      color: ffffff
-      outline: false
-      progress: reload
-      Interp: pow2In
-      y: 0
-      moves: [
-       {
-        type: PartMove
-        progress: warmup
-        y: 4
-       }
-     ]
+      suffix: -body
+      heatProgress: recoil
+      heatColor: ff0000
     }
     {
       type: RegionPart
-      suffix: -body
-      progress: recoil
-      moveY: -4.8
+      suffix: -missile
+      y: -5.5
+      moveY: 3
+      layerOffset: -0.01
+      outline: false
       under: true
+      progress: warmup
+      moves: [
+        {
+         type: PartMove
+         # Moves when recoil
+         progress: recoil
+         # moves
+         y: -4
+        }
+      ]
     }
     {
       type: RegionPart
       suffix: -arm
       mirror: true
       progress: warmup
+      heatProgress: warmup
       moveY: -3
-      moveRot: -12
+      moveRot: -10
+      heatColor: ff000045
+    }
+    {
+      type: HaloPart
+      layer: 110
+      color: FDB27F
+      y: -3
+      # Halo angle to center
+      haloRotation: 155
+      # Num of shapes
+      shapes: 1
+      # Halo radius
+      haloRadius: 16
+      # Halo size
+      radius: 3
+      hollow: false
+      # Triangle height
+      triLength: 0
+      triLengthTo: 15
+      # Triangle
+      tri: true
+    }
+    {
+      type: HaloPart
+      layer: 110
+      color: FDB27F
+      y: -3
+      haloRotation: 155
+      shapes: 1
+      haloRadius: 16
+      radius: 3
+      hollow: false
+      triLength: 0
+      triLengthTo: 4
+      tri: true
+      #Halo angle
+      shapeRotation: 180
+    }
+    {
+      type: HaloPart
+      layer: 110
+      color: FDB27F
+      y: -3
+      haloRotation: 180
+      shapes: 1
+      haloRadius: 16
+      radius: 4
+      hollow: false
+      triLength: 0
+      triLengthTo: 22
+      tri: true
+    }
+    {
+      type: HaloPart
+      layer: 110
+      color: FDB27F
+      y: -3
+      haloRotation: 180
+      shapes: 1
+      haloRadius: 16
+      radius: 4
+      hollow: false
+      triLength: 0
+      triLengthTo: 5.5
+      tri: true
+      shapeRotation: 180
+    }
+    {
+      type: HaloPart
+      layer: 110
+      color: FDB27F
+      y: -3
+      haloRotation: 205
+      shapes: 1
+      haloRadius: 16
+      radius: 3
+      hollow: false
+      triLength: 0
+      triLengthTo: 15
+      tri: true
+    }
+    {
+      type: HaloPart
+      layer: 110
+      color: FDB27F
+      y: -3
+      haloRotation: 205
+      shapes: 1
+      haloRadius: 16
+      radius: 3
+      hollow: false
+      triLength: 0
+      triLengthTo: 4
+      tri: true
+      shapeRotation: 180
     }
   ]
 }

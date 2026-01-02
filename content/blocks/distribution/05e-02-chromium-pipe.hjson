@@ -4,12 +4,10 @@ health: 100
 speed: 4
 requirements: [
   01a-06-item-chromium/1
-  01a-01-item-cobalt/1
 ]
 research: 05e-02-a-aluminium-pipe
 researchCost: [
-  01a-01-item-cobalt/100
-  01a-06-item-chromium/10
+  01a-06-item-chromium/70
 ]
 category: distribution
 bridgeReplacement: 05e-07-mechanical-bridge

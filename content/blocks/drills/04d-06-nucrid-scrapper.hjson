@@ -1,0 +1,22 @@
+type: WallCrafter
+health: 1250
+size: 3
+category: production
+research: 04d-06-nucrid-crusher
+consumes: {
+  power: 0.75
+  liquid: 02b-01-bioliquid/0.25
+}
+requirements: [
+  01a-06-item-chromium/105
+  01a-07-item-clevorite/30
+  01a-08-item-petal/80
+  01a-09-item-morphite/20
+]
+researchCostMultiplier: 0.5
+drillTime: 21
+output: 01a-08-item-nucrid
+attribute: nucrid
+ambientSound: loopDrill
+ambientSoundVolume: 0.06
+fogRadius: 3

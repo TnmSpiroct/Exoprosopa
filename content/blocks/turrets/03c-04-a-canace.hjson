@@ -4,7 +4,7 @@ squareSprite: false
 health: 2300
 armor: 5
 shootSound: shootArtillerySmall
-shootSoundVolume: 1.6
+shootSoundVolume: 1.75
 requirements: [
   01a-01-item-cobalt/170
   01a-02-item-nickel/335
@@ -18,8 +18,11 @@ coolant: {
   amount: 0.25
 }
 coolantMultiplier: 2.4
-recoil: 2.5
-outlineColor: 2C2A36
+recoil: 1.5
+minWarmup: 0.70
+shootWarmupSpeed: 0.08
+warmupMaintainTime: 50
+outlineColor: 2c2a36
 targetAir: false
 targetGround: true
 rotateSpeed: 1.5
@@ -137,17 +140,19 @@ drawer: {
     parts: [
     {
       type: RegionPart
-      suffix: -body
-      under: true
-      mirror: false
-      outline: true
+      suffix: -glow
       progress: recoil
-      moveY: -3.5
+      heatProgress: warmup
+      drawRegion: false
+      heatColor: 92b25850
     }
     {
       type: RegionPart
-      suffix: -side
-      under: false
+      suffix: -barrel
+      mirror: false
+      moveY: -2.35
+      progress: recoil
+      under: true
     }
   ]
 }

@@ -25,7 +25,7 @@ shots: 3
 shotDelay: 8
 }
 shake: 8
-recoil: 3.5
+recoil: 2.5
 outlineColor: 2C2A36
 targetAir: false
 targetGround: true
@@ -103,7 +103,7 @@ ammoTypes: {
     fragBullets: 4
     fragBullet: {
       type: LightningBulletType
-      despawnSound: shockBulletSyntax
+      despawnSound: shockBullet
       damage: 40
       lightningLength: 10
       lightningLengthRand: 4
@@ -122,29 +122,42 @@ drawer: {
       suffix: -side
       mirror: true
       progress: warmup
-      moveY: -2
-      moveX: 1.5
-      moveRot: -5
+      heatProgress: warmup
+      moveY: -1.5
+      moveX: 0.5
+      moveRot: -1.5
       under: false
+      heatColor: bc496790
     }
     {
       type: RegionPart
       suffix: -barrel
       mirror: false
-      progress: warmup
-      heatProgress: warmup
-      moveY: -1
+      progress: recoil
+      heatProgress: recoil
+      moveY: -1.75
       under: true
+    }
+    {
+      type: RegionPart
+      suffix: -barrel-glow
+      progress: recoil
+      heatProgress: recoil
+      moveY: -1.75
+      drawRegion: false
+      heatColor: bc4967aa
     }
     {
       type: RegionPart
       suffix: -hand
       progress: warmup
-      moveY: -4
-      moveX: 2
-      moveRot: -15
+      heatProgress: warmup
+      moveX: 4.5
+      moveY: -0.25
+      moveRot: -45
       mirror: true
       under: false
+      heatColor: bc496790
     }
   ]
 }

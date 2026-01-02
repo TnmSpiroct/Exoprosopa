@@ -4,8 +4,8 @@ health: 450
 category: power
 squareSprite: false
 requirements: [
-  01a-01-item-cobalt/60
-  01a-02-item-nickel/40
+  01a-01-item-cobalt/75
+  01a-02-item-nickel/50
 ]
 consumes: {
   itemFlammable: {}

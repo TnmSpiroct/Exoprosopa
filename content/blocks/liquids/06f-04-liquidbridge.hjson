@@ -3,11 +3,12 @@ size: 1
 health: 65
 range: 2
 requirements: [
-  01a-01-item-cobalt/10
+  01a-01-item-cobalt/8
 ]
 category: liquid
 squareSprite: false
+buildCostMultiplier: 1.5
 research: 06f-03-seaduct-router
 researchCost: [
-  01a-01-item-cobalt/10
+  01a-01-item-cobalt/15
 ]

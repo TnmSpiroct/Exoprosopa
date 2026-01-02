@@ -1,0 +1,79 @@
+type: HeaterGenerator
+name: Hybrid Reactor
+description: Uses various fluids to diffuse Pyroxene.
+size: 8
+health: 12500
+armor: 15
+category: power
+squareSprite: false
+requirements: [
+  01a-06-item-chromium/1250
+  01a-07-item-clevorite/1000
+  01a-08-item-petal/750
+  01a-10-item-bethine/400
+  01a-11-item-pyroxene/500
+]
+consumes: {
+  liquids: [
+    02b-02-ichor/0.5
+    02b-06-morphitix-plasma/0.6666666666
+    02b-04-miasma/5.33333333333
+    02b-03-necroplasm/1
+    02b-05-hydrowater/12
+  ]
+  items: [
+    01a-11-item-pyroxene/1
+  ]
+}
+hasLiquids: true
+heatOutput: 40
+explodeSound: explosionReactor2
+explosionRadius: 22
+explosionDamage: 2200
+powerProduction: 112
+generateEffect: generatespark
+ambientSound: loopFlux
+ambientSoundVolume: 0.18
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidRegion
+      drawLiquid: 02b-06-morphitix-plasma
+      suffix: -morphplasm
+    }
+    {
+      type: DrawLiquidRegion
+      drawLiquid: 02b-02-ichor
+      suffix: -ichor
+    }
+    {
+      type: DrawLiquidRegion
+      drawLiquid: 02b-03-necroplasm
+      suffix: -necroplasm
+    }
+    {
+      type: DrawLiquidRegion
+      drawLiquid: 02b-04-miasma
+      suffix: -miasma
+    }
+    {
+      type: DrawLiquidRegion
+      drawLiquid: 02b-05-hydrowater
+      suffix: -hydriyte
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+      heatColor: FD898C
+    }
+  ]
+}
+researchCostMultiplier: 1
+research: 07g-10-necroplasm-reactor

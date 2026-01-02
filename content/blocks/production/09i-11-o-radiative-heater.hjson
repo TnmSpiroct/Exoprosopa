@@ -1,6 +1,6 @@
 type: HeatProducer
 size: 3
-heatOutput: 10
+heatOutput: 12
 health: 650
 craftTime: 180
 researchCostMultiplier: 0.5

@@ -1,0 +1,12 @@
+difficulty: 10
+planet: frostnova
+sector: 136
+research: {
+  parent: 19s-24-clover-springs
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-24-clover-springs
+    }
+  ]
+}

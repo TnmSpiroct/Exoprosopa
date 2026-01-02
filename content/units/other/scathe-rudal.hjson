@@ -2,30 +2,28 @@ type: missile
 template: MissileUnitType
 flying: true
 speed: 6
-maxRange: 6
 outlineColor: 26262F
 drag: 0.075
 physics: false
-lifetime: 240
+lifetime: 280
 lowAltitude: true
 rotateSpeed: 0.325
 homingDelay: 3
 hitSize: 5
 useUnitCap: false
-health: 325
+health: 300
 autoFindTarget: true
 circleTarget: false
 faceTarget: true
 aimDst: 4
 drawCell: false
 missileAccelTime: 50
-range: 5
 loopSound: loopMissileTrail
 loopSoundVolume: 0.65
 hidden: true
-trailColor: redLight
-engineColor: redLight
-engineSize: 3.25
+trailColor: FFD37F
+engineColor: FFD37F
+engineSize: 4
 engineOffset: 10
 trailLength: 18
 deathSound: explosionMissile
@@ -34,8 +32,8 @@ abilities: [{
     effect: missileTrailSmoke
     rotation: 180
     y: -9
-    interval: 5
-    color: 36353A75
+    interval: 4
+    color: FFD37F45
 }]
 weapons: [
   {
@@ -47,36 +45,36 @@ weapons: [
     despawnExplosionEffect: massiveExplosion
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 1650
-      splashDamageRadius: 90
+      splashDamage: 1700
+      splashDamageRadius: 70
       despawnEffect: scatheExplosion
-    }
-    fragLifeMin: 0.1
-    fragBullets: 8
-    collidesAir: false
-    buildingDamageMultiplier: 0.1
-    fragBullet: {
-      type: ArtilleryBulletType
-      buildingDamageMultiplier: 0.1
-      drag: 0.02
-      hitEffect: massiveExplosion
-      despawnEffect: scatheSlash
-      knockback: 0.8
-      lifetime: 18
-      width: 18
-      height: 18
-      collidesTiles: false
-      splashDamage: 50
-      splashDamageRadius: 40
-      backColor: redLight
-      trailColor: redLight
-      hitColor: redLight
-      lightColor: redLight
-      frontColor: FFFFFF
-      smokeEffect: shootBigSmoke2
-      despawnShake: 7
-      lightRadius: 30
-      lightOpacity: 0.65
+      fragLifeMin: 0.1
+      fragBullets: 6
+      collidesAir: false
+      buildingDamageMultiplier: 0.25
+      fragBullet: {
+        type: ArtilleryBulletType
+        buildingDamageMultiplier: 0.25
+        drag: 0.02
+        hitEffect: massiveExplosion
+        despawnEffect: scatheSlash
+        knockback: 0.8
+        lifetime: 18
+        width: 18
+        height: 18
+        collidesTiles: false
+        splashDamage: 100
+        splashDamageRadius: 40
+        backColor: FFD37F
+        trailColor: FFD37F
+        hitColor: FFD37F
+        lightColor: FFD37F
+        frontColor: FFFFFF
+        smokeEffect: shootBigSmoke2
+        despawnShake: 7
+        lightRadius: 30
+        lightOpacity: 0.65
       }
-  } 
+    }
+  }
 ]

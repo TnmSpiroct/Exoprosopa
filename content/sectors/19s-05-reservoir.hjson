@@ -1,6 +1,6 @@
 difficulty: 4
 planet: frostnova
-sector: 164
+sector: 97
 research: {
   parent: 19s-04-foggy-fields
   objectives: [

@@ -1,5 +1,5 @@
 type: PayloadDeconstructor
-itemCapacity: 100
+itemCapacity: 150
 health: 650
 size: 3
 category: units
@@ -14,6 +14,6 @@ squareSprite: false
 deconstructSpeed: 1.5
 consumes: {
   power: 2
-  liquid: 02b-01-bioliquid/0.5
+  liquid: 02b-01-bioliquid/0.25
 }
 researchCostMultiplier: 0.5

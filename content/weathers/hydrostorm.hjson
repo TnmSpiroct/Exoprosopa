@@ -1,10 +1,10 @@
 type: RainWeather
 color: 53A999
 liquid: 02b-05-hydrowater
-padding: 20
+padding: 15
 sizeMax: 40
 sizeMin: 25
-density: 300
+density: 350
 sound: rain
 soundVol: 0.3
 yspeed: 5

@@ -1,12 +1,12 @@
 difficulty: 8
 planet: frostnova
-sector: 1
+sector: 38
 research: {
-  parent: 19s-23-eridanus
+  parent: 19s-14-u-pier
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-23-eridanus
+      preset: 19s-14-u-pier
     }
   ]
 }

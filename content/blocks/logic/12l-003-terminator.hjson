@@ -2,15 +2,12 @@ type: LogicBlock
 category: logic
 research: 0015-logic
 requirements: [
-  01a-01-item-cobalt/80
-  01a-02-item-nickel/100
-  01a-05-item-aluminium/30
+  01a-02-item-nickel/150
+  01a-05-item-aluminium/75
+  01a-06-item-chromium/75
+  01a-12-item-techno-plating/75
 ]
 instructionsPerTick: 10
 size: 2
-health: 100
-researchCost: [
-  01a-01-item-cobalt/100
-  01a-02-item-nickel/120
-  01a-05-item-aluminium/60
-]
+health: 600
+researchCostMultiplier: 0.5

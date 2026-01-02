@@ -1,5 +1,5 @@
 type: AttributeCrafter
-attribute: steam
+attribute: elixir
 size: 3
 health: 750
 hasLiquids: true
@@ -8,7 +8,7 @@ outputLiquid: 02b-01-bioliquid/3
 displayEfficiencyScale: 1
 baseEfficiency: 0
 squareSprite: false
-minEfficiency: 9
+minEfficiency: 0.9
 category: production
 consumes: {
   power: 1.25

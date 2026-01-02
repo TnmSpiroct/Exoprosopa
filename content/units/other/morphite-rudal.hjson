@@ -1,0 +1,93 @@
+type: missile
+template: MissileUnitType
+flying: true
+speed: 6
+outlineColor: 26262F
+drag: 0.075
+physics: false
+lifetime: 285
+lowAltitude: true
+rotateSpeed: 0.325
+homingDelay: 3
+hitSize: 5
+useUnitCap: false
+health: 250
+autoFindTarget: true
+circleTarget: false
+faceTarget: true
+aimDst: 4
+drawCell: false
+missileAccelTime: 90
+loopSound: loopMissileTrail
+loopSoundVolume: 0.65
+hidden: true
+trailColor: 6EEFC0
+engineColor: 6EEFC0
+engineSize: 4
+engineOffset: 10
+trailLength: 18
+deathSound: explosionMissile
+abilities: [
+  {
+    type: MoveEffectAbility
+    effect: missileTrailSmoke
+    rotation: 180
+    y: -9
+    interval: 4
+    color: 6EEFC045
+  }
+  {
+    type: ForceFieldAbility
+    radius: 55
+    sides: 6
+    cooldown: 2000
+    regen: 1.5
+    max: 325
+  }]
+weapons: [
+  {
+    reload: 1
+    shootOnDeath: true
+    mirror: true
+    shootCone: 360
+    shake: 10
+    despawnExplosionEffect: massiveExplosion
+    bullet: {
+      type: ExplosionBulletType
+      status: shocked
+      splashDamage: 1400
+      buildingDamageMultiplier: 0.5
+      splashDamageRadius: 50
+      despawnEffect: scatheExplosion
+      fragLifeMin: 0.1
+      fragBullets: 6
+      collidesAir: false
+      buildingDamageMultiplier: 0.25
+      fragBullet: {
+        type: ArtilleryBulletType
+        buildingDamageMultiplier: 0.25
+        drag: 0.02
+        hitEffect: massiveExplosion
+        despawnEffect: scatheSlash
+        damage: 100
+        status: shocked
+        knockback: 0.8
+        lifetime: 18
+        width: 18
+        height: 18
+        collidesTiles: false
+        splashDamage: 85
+        splashDamageRadius: 30
+        backColor: 6EEFC0
+        trailColor: 6EEFC0
+        hitColor: 6EEFC0
+        lightColor: 6EEFC0
+        frontColor: FFFFFF
+        smokeEffect: shootBigSmoke2
+        despawnShake: 7
+        lightRadius: 30
+        lightOpacity: 0.65
+      }
+    }
+  } 
+]

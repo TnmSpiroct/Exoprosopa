@@ -5,12 +5,12 @@ drawNoise: true
 particleRegion: particle
 useWindVector: true
 sizeMax: 120
-sizeMin: 50
+sizeMin: 40
 minAlpha: 0.0
-maxAlpha: 0.2
-density: 900
-baseSpeed: 1.5
-opacityMultiplier: 0.35
+maxAlpha: 0.18
+density: 1050
+baseSpeed: 1.35
+opacityMultiplier: 0.3
 sound: wind
 soundVol: 0.3
 force: 0

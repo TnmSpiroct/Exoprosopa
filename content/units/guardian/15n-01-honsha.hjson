@@ -1,0 +1,103 @@
+type: tank
+hitSize: 19
+singleTarget: false
+omniMovement: false
+faceTarget: false
+health: 2500
+armor: 8
+template: TankUnitType
+speed: 0.625
+rotateSpeed: 1.5
+itemCapacity: 0
+outlineColor: 26262F
+treadFrames: 16
+floorMultiplier: 0.65
+drownTimeMultiplier: 1.2
+tankMoveVolume: 0.6
+tankMoveSound: tankMove
+treadRects: [
+  {
+    x: -33
+    y: -47
+    width: 66
+    height: 91
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: -4
+    name: honsha-mountmissile
+    reload: 230
+    recoil: 2
+    mirror: false
+    rotate: true
+    targetSwitchInterval: 35
+    targetInterval: 20
+    rotateSpeed: 0.95
+    shootStatus: slow
+    shootStatusDuration: 231
+    rotationLimit: 120
+    shoot: {
+      barrels: [
+      -3, -0.75, 0,
+      -1, 0.75, 0 
+      1, 0.75, 0, 
+      3, -0.75, 0
+      ]
+      type: ShootBarrel
+      shots: 20
+      shotDelay: 7.5
+    }
+    shootSound: shootMissileLong
+    shootSoundVolume: 0.9
+    bullet: {
+      frontColor: 93E2EE
+      trailColor: 93E2EE
+      backColor: 93E2EE
+      hitColor: 93E2EE
+      pierceArmor: true
+      type: MissileBulletType
+      width: 7
+      height: 9
+      homingPower: 0.03
+      homingDelay: 20
+      homingRange: 240
+      speed: 3.5
+      lifetime: 80
+      hitEffect: blastExplosion
+      despawnHit: true
+      damage: 8
+      splashDamage: 40
+      splashDamageRadius: 25
+    }
+  }
+  {
+    x: 10
+    y: 3
+    name: honsha-12mm
+    reload: 20
+    recoil: 1.25
+    mirror: true
+    rotate: true
+    alternate: true
+    rotateSpeed: 1.4
+    shootSound: shootPierce
+    bullet: {
+      type: BasicBulletType
+      height: 8
+      width: 5
+      lifetime: 40
+      damage: 30
+      speed: 5
+      smokeEffect: colorSpark
+      trailColor: 93E2EE
+      trailWidth: 1.5
+      trailLength: 2
+      backColor: 93E2EE
+      hitColor: 93E2EE
+    }
+  }
+]
+researchCostMultiplier: 1.5
+research: 15o-01-mason

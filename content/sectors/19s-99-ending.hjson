@@ -1,13 +1,13 @@
 captureWave: 2
 difficulty: 1
 planet: frostnova
-sector: 132
+sector: 212
 research: {
-  parent: 19s-23-eridanus
+  parent: 19s-30-myrra-heights
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-23-eridanus
+      preset: 19s-30-myrra-heights
     }
   ]
 }
