@@ -64,7 +64,7 @@ drawer: {
       type: RegionPart
       suffix: -body
       heatProgress: recoil
-      heatColor: a65d36
+      heatColor: ff0000
     }
     {
       type: RegionPart
@@ -93,7 +93,7 @@ drawer: {
       heatProgress: warmup
       moveY: -3
       moveRot: -10
-      heatColor: a65d36
+      heatColor: ff000045
     }
     {
       type: HaloPart
