@@ -40,9 +40,9 @@ category: turret
 # Turret recoil
 recoil: 3
 # Minimum warmup before automatically attack
-minWarmup: 0.75
+minWarmup: 0.95
 # Warmup maintain time
-warmupMaintainTime: 40
+warmupMaintainTime: 80
 shootWarmupSpeed: 0.05
 # Outline color of the turret
 outlineColor: 2C2A36

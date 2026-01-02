@@ -55,8 +55,8 @@ drawer: {
     mirror: true
     progress: warmup
     heatProgress: warmup
-    moveX: 1.25
-    moveY: 0.75
+    moveX: 1.35
+    moveY: 1.5
     under: false
     heatColor: 5b6980
     }

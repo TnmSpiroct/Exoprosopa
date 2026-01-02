@@ -26,7 +26,7 @@ consumes: {
 }
 category: turret
 recoil: 1.5
-minWarmup: 0.99
+minWarmup: 0.95
 warmupMaintainTime: 30
 shootWarmupSpeed: 0.05
 outlineColor: 2C2A36

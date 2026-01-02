@@ -161,6 +161,7 @@ drawer: {
        {
         type: PartMove
         progress: warmup
+        heatProgress: recoil
         y: -2
        }
      ]
@@ -178,6 +179,7 @@ drawer: {
        {
         type: PartMove
         progress: warmup
+        heatProgress: recoil
         y: -2
        }
      ]

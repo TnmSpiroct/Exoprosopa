@@ -88,7 +88,7 @@ abilities: [
     range: 230
     orbRadius: 5.6
     orbSinScl: 7
-    y: 4
+    y: 2
     color: d7f08bda
     particleColor: 92b25890
     effectColor: 92b25890
