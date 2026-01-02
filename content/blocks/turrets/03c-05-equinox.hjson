@@ -91,41 +91,30 @@ drawer: {
     parts: [
     {
       type: RegionPart
-      suffix: -back
-      progress: warmup
-      moveY: -2
-      under: true
-    }
-    {
-      type: RegionPart
       suffix: -barrel
-      progress: warmup
+      progress: recoil
       heatProgress: warmup
-      moveY: -3
-      under: true
-      heatColor: 8DF9D1
+      moveY: -2
+      heatColor: 47907590
     }
     {
       type: RegionPart
       suffix: -side
-      mirror: true
       progress: warmup
       heatProgress: warmup
-      moveY: -1
-      moveRot: 5
-      under: true
-      heatColor: 8DF9D1
+      mirror: true
+      moveX: 1.5
+      heatColor: 47907590
     }
     {
       type: RegionPart
       suffix: -corner
       progress: warmup
       heatProgress: warmup
-      moveRot: -5
-      moveX: 1
+      moveX: 2.5
+      moveY: -0.5
       mirror: true
-      under: false
-      heatColor: 8DF9D1
+      heatColor: 479075aa
     }
     {
       type: ShapePart

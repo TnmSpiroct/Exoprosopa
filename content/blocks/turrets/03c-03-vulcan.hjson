@@ -84,11 +84,18 @@ ammoTypes: {
   }
 }
 shootY: 2.5
-heatColor: 844cff88
 drawer: {
   type: DrawTurret
   basePrefix: vulcan-
   parts: [
+    {
+      type: RegionPart
+      suffix: -glow
+      progress: recoil
+      heatProgress: recoil
+      heatColor: 844cff88
+      drawRegion: false
+    }
     {
       type: RegionPart
       suffix: -back

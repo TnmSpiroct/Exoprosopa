@@ -18,11 +18,11 @@ coolant: {
   amount: 0.25
 }
 coolantMultiplier: 2.4
-recoil: 0.5
+recoil: 1.5
 minWarmup: 0.70
 shootWarmupSpeed: 0.08
 warmupMaintainTime: 50
-outlineColor: 2C2A36
+outlineColor: 2c2a36
 targetAir: false
 targetGround: true
 rotateSpeed: 1.5
@@ -134,7 +134,6 @@ ammoTypes: {
     }
   }
 }
-heatColor: d8f18c77
 drawer: {
   type: DrawTurret
   basePrefix: canace-
@@ -145,7 +144,7 @@ drawer: {
       progress: recoil
       heatProgress: warmup
       drawRegion: false
-      heatColor: d8f18c77
+      heatColor: 92b25850
     }
     {
       type: RegionPart
@@ -154,24 +153,6 @@ drawer: {
       moveY: -2.35
       progress: recoil
       under: true
-    }
-    {
-      type: RegionPart
-      suffix: -barrel-glow
-      progress: recoil
-      heatProgress: warmup
-      drawRegion: false
-      moveY: -2.35
-      heatColor: d8f18c77
-    }
-    {
-      type: RegionPart
-      suffix: -back-glow
-      progress: recoil
-      heatProgress: warmup
-      drawRegion: false
-      moveY: -2.35
-      heatColor: d8f18c77
     }
   ]
 }

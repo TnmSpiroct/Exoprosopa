@@ -56,24 +56,20 @@ ammoTypes: {
     spawnUnit: exoprosopa-morphite-rudal
   }
 }
+heatColor: bb5351
 drawer: {
   type: DrawTurret
   basePrefix: scathe-
     parts: [
     {
       type: RegionPart
-      suffix: -body
-      progress: warmup
-      moveY: 0
-      under: true
-    }
-    {
-      type: RegionPart
       suffix: -arm
       mirror: true
       progress: warmup
+      heatProgress: warmup
       moveY: -3
       moveRot: -10
+      heatColor: bb5351
     }
     {
       type: RegionPart

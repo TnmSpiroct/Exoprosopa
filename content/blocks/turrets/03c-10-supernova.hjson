@@ -9,7 +9,8 @@ shootDuration: 230
 minWarmup: 0.999
 heatRequirement: 30
 shootDuration: 250
-shootSound: shootSuperNova
+shootSound: shootSupernova
+shootSoundVolume: 0.5
 requirements: [
   01a-05-item-aluminium/1200
   01a-07-item-clevorite/750

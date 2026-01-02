@@ -173,7 +173,7 @@ drawer: {
       moveY: 1
       # Move Rotation
       moveRot: -10
-      heatColor: D1EFFF45
+      heatColor: d1efff45
       turretHeatLayer: 49.9
       under: true
       outlineColor: 8CA9E8

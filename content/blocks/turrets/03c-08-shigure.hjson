@@ -143,22 +143,18 @@ ammoTypes: {
   }
 }
 recoils: 2
+heatColor: 483966
 drawer: {
   type: DrawTurret
   basePrefix: shigure-
     parts: [
     {
       type: RegionPart
-      suffix: -body
-      progress: warmup
-      moveY: 0
-      under: true
-    }
-    {
-      type: RegionPart
       suffix: -barrel-l
       mirror: false
       progress: recoil
+      heatProgress: recoil
+      heatColor: 483966
       recoilIndex: 0
       moveY: -2
       moves: [
@@ -174,6 +170,8 @@ drawer: {
       suffix: -barrel-r
       mirror: false
       progress: recoil
+      heatProgress: recoil
+      heatColor: 483966
       recoilIndex: 1
       moveY: -2
       moves: [

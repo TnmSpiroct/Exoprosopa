@@ -2,7 +2,7 @@ type: PowerTurret
 size: 3
 health: 3000
 armor: 5
-reload: 115
+reload: 120
 shoot: {
   firstShotDelay: 115
   shots: 9
@@ -13,7 +13,7 @@ recoil: 2.5
 range: 230
 minWarmup: 0.4
 moveWhileCharging: false
-outlineColor: 00000000
+outlineColor: 2c2a36
 shootSound: shootSubsonic
 chargeSound: chargeSubsonic
 researchCost: [
@@ -60,7 +60,7 @@ drawer: {
       progress: recoil
       heatProgress: warmup
       drawRegion: false
-      heatColor: 479075
+      heatColor: 47907590
     }
     {
       type: RegionPart
@@ -68,11 +68,10 @@ drawer: {
       mirror: true
       progress: warmup
       heatProgress: warmup
-      heatColor: 479075
       moveX: -0.5
       moveY: -0.5
-      moveRot: -8
       under: true
+      heatColor: 47907590
     }
   ]
 }

@@ -42,19 +42,23 @@ drawer: {
     suffix: -hand
     mirror: true
     progress: warmup
+    heatProgress: warmup
     moveY: -2.5
     moveX: 1.5
-    moveRot: -25
+    moveRot: -20
     under: false
+    heatColor: 5b6980
     }
     {
     type: RegionPart
     suffix: -main
-    mirror: false
+    mirror: true
     progress: warmup
     heatProgress: warmup
-    moveY: -1.5
-    under: true
+    moveX: 1.25
+    moveY: 0.75
+    under: false
+    heatColor: 5b6980
     }
   ]
 }

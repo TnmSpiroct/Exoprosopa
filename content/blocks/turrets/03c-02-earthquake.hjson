@@ -48,7 +48,7 @@ ammoTypes: {
      }
   }
 }
-heatColor: 6d5559
+heatColor: 6d555980
 drawer: {
   type: DrawTurret
   basePrefix: earthquake-
@@ -59,23 +59,25 @@ drawer: {
       x: 7.5
       y: 7.5
       rotation: -45
-      progress: warmup
+      progress: recoil
+      heatProgress: warmup
       moveY: -0.75
       moveX: -0.75
       under: true
-      heatColor: 6d5559
+      heatColor: 6d555990
       }
       {
       type: RegionPart
       suffix: -a
       x: -7.5
       y: -7.5
-      progress: warmup
+      progress: recoil
+      heatProgress: warmup
       rotation: 135
       moveY: 0.75
       moveX: 0.75
       under: true
-      heatColor: 6d5559
+      heatColor: 6d555990
       }
       {
       type: RegionPart
@@ -83,11 +85,12 @@ drawer: {
       rotation: -135
       x: -7.5
       y: 7.5
-      progress: warmup
+      progress: recoil
+      heatProgress: warmup
       moveY: -0.75
       moveX: 0.75
       under: true
-      heatColor: 6d5559
+      heatColor: 6d555990
       }
       {
       type: RegionPart
@@ -95,11 +98,12 @@ drawer: {
       rotation: 45
       x: 7.5
       y: -7.5
-      progress: warmup
+      progress: recoil
+      heatProgress: warmup
       moveY: 0.75
       moveX: -0.75
       under: true
-      heatColor: 6d5559
+      heatColor: 6d555990
     }
   ]
 }

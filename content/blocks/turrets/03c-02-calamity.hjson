@@ -328,9 +328,9 @@ drawer: {
      under: true
      progress: recoil
      heatProgress: warmup
-     moveX: 0.2
-     moveY: -0.2
-     heatColor: 8a3137
+     moveX: -0.35
+     moveY: 0.35
+     heatColor: 8a313775
     }
     {
      type: RegionPart
@@ -338,7 +338,7 @@ drawer: {
      progress: recoil
      heatProgress: warmup
      drawRegion: false
-     heatColor: 8a3137
+     heatColor: 8a313780
     }
   ]
 }

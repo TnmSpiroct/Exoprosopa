@@ -23,7 +23,7 @@ targetGround: true
 rotateSpeed: 1.95
 reload: 135
 range: 250
-shootY: 10
+shootY: 6
 shoot: {
   firstShotDelay: 35
   shotDelay: 5
@@ -90,10 +90,58 @@ ammoTypes: {
     }
   }
 }
+heatColor: bc4967aa
 drawer: {
   type: DrawTurret
   basePrefix: ox-
-  }
+  parts: [
+    {
+      type: RegionPart
+      suffix: -ammo
+      mirror: true
+      progress: warmup
+      moveY: 0.5
+      moveX: -0.5
+      under: true
+    }
+    {
+      type: RegionPart
+      suffix: -case
+      mirror: false
+      progress: warmup
+      moveY: -5
+      under: true
+    }
+    {
+      type: RegionPart
+      suffix: -arm
+      mirror: true
+      progress: warmup
+      heatProgress: recoil
+      moveX: -0.3
+      moveY: -0.3
+      under: true
+    }
+    {
+      type: RegionPart
+      suffix: -arm-glow
+      mirror: true
+      progress: warmup
+      heatProgress: recoil
+      moveY: -0.3
+      moveX: -0.3
+      drawRegion: false
+      heatColor: bc496790
+    }
+    {
+      type: RegionPart
+      suffix: -glow
+      heatProgress: warmup
+      drawRegion: false
+      heatColor: bc496790
+    }
+  ]
+}
 research: 03c-04-a-canace
 researchCost: [
   01a-02-item-nickel/8000

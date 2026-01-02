@@ -88,12 +88,6 @@ drawer: {
   type: DrawTurret
   basePrefix: skyhammer-
   parts: [
-     {
-      type: RegionPart
-      suffix: -main
-      progress: warmup
-      under: true
-    }
     {
       type: RegionPart
       suffix: -arm
