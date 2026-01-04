@@ -101,8 +101,8 @@ drawer: {
        {
         type: PartMove
         progress: recoil
-        x: 1
-        rot: -10
+        x: 0.5
+        rot: -15
        }
       ]
       under: true

@@ -242,7 +242,7 @@ drawer: {
   progress: warmup
   heatProgress: recoil
   moveX: 1
-  moveY: -2.7
+  moveY: -2.6
   heatColor: 5b6980
   }
  ]
