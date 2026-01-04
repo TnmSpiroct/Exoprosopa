@@ -9,7 +9,7 @@ shoot: {
   shotDelay: 0
 }
 rotateSpeed: 1.35
-recoil: 2.5
+recoil: 2
 range: 230
 minWarmup: 0.4
 moveWhileCharging: false

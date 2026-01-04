@@ -13,7 +13,6 @@ requirements: [
   01a-10-item-bethine/140
 ]
 minWarmup: 0.90
-warmupMaintainTime: 20
 shootWarmupSpeed: 0.04
 researchCostMultiplier: 0.5
 research: 03c-04-preject
@@ -23,14 +22,14 @@ outlineColor: 2C2A36
 targetAir: true
 targetGround: true
 rotateSpeed: 1.4
-reload: 3.25
+reload: 3.5
 range: 280
 shootY: 9
 shake: 2
 shoot: {
   type: ShootAlternate
   spread: 12
-  shotDelay: 3
+  shotDelay: 3.5
 }
 ammoUseEffect: casing2
 ammoTypes: {
@@ -142,47 +141,40 @@ ammoTypes: {
     }
   }
 }
-recoils: 2
 heatColor: 483966
+recoils: 2
 drawer: {
   type: DrawTurret
   basePrefix: shigure-
     parts: [
     {
       type: RegionPart
+      suffix: -hand
+      mirror: true
+      progress: warmup
+      heatProgress: warmup
+      heatColor: 483966
+      moveY: -0.5
+    }
+    {
+      type: RegionPart
       suffix: -barrel-l
       mirror: false
       progress: recoil
-      heatProgress: recoil
-      heatColor: 483966
       recoilIndex: 0
-      moveY: -2
-      moves: [
-       {
-        type: PartMove
-        progress: warmup
-        heatProgress: recoil
-        y: -2
-       }
-     ]
+      x: -1
+      moveY: -1
+      moveX: -1
     }
     {
       type: RegionPart
       suffix: -barrel-r
       mirror: false
       progress: recoil
-      heatProgress: recoil
-      heatColor: 483966
       recoilIndex: 1
-      moveY: -2
-      moves: [
-       {
-        type: PartMove
-        progress: warmup
-        heatProgress: recoil
-        y: -2
-       }
-     ]
+      x: -1
+      moveY: -1
+      moveX: -1
     }
   ]
 }

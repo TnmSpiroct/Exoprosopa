@@ -7,7 +7,8 @@ inaccuracy: 6
 hasLiquids: true
 liquidCapacity: 60
 outlineColor: 2C2A36
-recoil: 0.55
+recoil: 2.5
+shake: 2
 category: turret
 research: 03c-02-earthquake
 researchCost: [

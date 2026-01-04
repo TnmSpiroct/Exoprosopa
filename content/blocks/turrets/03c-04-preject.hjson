@@ -157,7 +157,7 @@ drawer: {
       moveRot: -45
       mirror: true
       under: false
-      heatColor: bc496790
+      heatColor: bc496799
     }
   ]
 }

@@ -23,7 +23,7 @@ warmupMaintainTime: 100
 shootWarmupSpeed: 0.05
 heatRequirement: 12
 maxEffeciency: 3
-recoil: 2.5
+recoil: 2
 outlineColor: 2C2A36
 targetAir: true
 targetGround: true

@@ -28,7 +28,8 @@ coolant: {
   amount: 0.25
 }
 category: turret
-recoil: 1.5
+recoil: 2
+shake: 1
 outlineColor: 2C2A36
 targetAir: true
 targetGround: true
@@ -95,13 +96,13 @@ drawer: {
       type: RegionPart
       suffix: -cannon
       progress: warmup
-      moveRot: -7.5
+      moveRot: -10
       moves: [
        {
         type: PartMove
         progress: recoil
-        x: 2
-        rot: -15
+        x: 1
+        rot: -10
        }
       ]
       under: true

@@ -15,7 +15,7 @@ coolant: {
   liquid: 02b-02-a-purified-elixir
   amount: 0.333333
 }
-recoil: 0.75
+recoil: 0.5
 inaccuracy: 5
 outlineColor: 2C2A36
 targetAir: true
@@ -23,7 +23,7 @@ targetGround: false
 rotateSpeed: 1.45
 reload: 6.25
 range: 336
-shootY: 4.2
+shootY: 6
 ammoTypes: {
     01a-06-item-chromium: {
     reloadMultiplier: 1.1
@@ -218,27 +218,34 @@ ammoTypes: {
 drawer: {
   type: DrawTurret
   basePrefix: phalanx-
-  parts: [{
-  type: RegionPart
-  suffix: -barrel
-  progress: warmup
-  moveY: -4.5
-  }
+  parts: [
   {
   type: RegionPart
   suffix: -main
   progress: warmup
-  moveY: -3
+  heatProgress: recoil
+  moveY: -2
+  heatColor: 5b6980
+  }
+  {
+  type: RegionPart
+  suffix: -barrel
+  progress: recoil
+  heatProgress: recoil
+  moveY: -2
+  heatColor: 5b6980
   }
   {
   type: RegionPart
   suffix: -side
   mirror: true
   progress: warmup
-  moveX: 1
-  moveRot: 7
-  moveY: -3
-  }]
+  heatProgress: recoil
+  moveX: 1.05
+  moveY: -2.8
+  heatColor: 5b6980
+  }
+ ]
 }
 research: 03c-04-ox
 researchCost: [

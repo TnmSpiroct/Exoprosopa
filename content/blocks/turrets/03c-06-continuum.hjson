@@ -33,6 +33,7 @@ shootType: {
   damage: 135
   hitColor: DCC6C6
 }
+heatColor: 5b6980
 drawer: {
   type: DrawTurret
   basePrefix: continuum-
@@ -43,10 +44,9 @@ drawer: {
     mirror: true
     progress: warmup
     heatProgress: warmup
-    moveY: -2.5
-    moveX: 1.5
-    moveRot: -20
-    under: false
+    moveY: -2
+    moveX: -0.5
+    moveRot: -10
     heatColor: 5b6980
     }
     {
@@ -55,8 +55,8 @@ drawer: {
     mirror: true
     progress: warmup
     heatProgress: warmup
-    moveX: 1.35
-    moveY: 1.5
+    moveX: 1.6
+    moveY: -0.5
     under: false
     heatColor: 5b6980
     }

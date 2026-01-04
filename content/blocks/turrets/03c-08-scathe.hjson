@@ -28,7 +28,7 @@ targetUnderBlocks: false
 targetGround: true
 shootCone: 1
 rotateSpeed: 0.75
-minWarmup: 0.9
+minWarmup: 0.19
 newTargetInterval: 40
 unitSort: strongest
 shootWarmupSpeed: 0.03

@@ -16,7 +16,8 @@ coolant: {
   amount: 0.5
 }
 coolantMultiplier: 1.6
-recoil: 1.5
+recoil: 1
+shake: 1
 outlineColor: 2C2A36
 targetAir: true
 targetGround: true

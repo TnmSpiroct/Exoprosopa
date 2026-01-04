@@ -38,11 +38,11 @@ consumes: {
 # Tab category
 category: turret
 # Turret recoil
-recoil: 3
+recoil: 2
 # Minimum warmup before automatically attack
-minWarmup: 0.95
+minWarmup: 0.99
 # Warmup maintain time
-warmupMaintainTime: 80
+warmupMaintainTime: 120
 shootWarmupSpeed: 0.05
 # Outline color of the turret
 outlineColor: 2C2A36
