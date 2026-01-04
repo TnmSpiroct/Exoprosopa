@@ -162,9 +162,9 @@ drawer: {
       mirror: false
       progress: recoil
       recoilIndex: 0
-      x: -1
-      moveY: -1
-      moveX: -1
+      x: -0.5
+      moveY: -0.1
+      moveX: -0.1
     }
     {
       type: RegionPart
@@ -172,9 +172,9 @@ drawer: {
       mirror: false
       progress: recoil
       recoilIndex: 1
-      x: -1
-      moveY: -1
-      moveX: -1
+      x: 0.5
+      moveY: -0.1
+      moveX: -0.1
     }
   ]
 }

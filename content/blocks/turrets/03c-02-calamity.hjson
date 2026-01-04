@@ -320,12 +320,6 @@ ammoTypes: {
 drawer: {
   type: DrawTurret
   basePrefix: calamity-
-  parts: [
-   {
-    type: RegionPart
-    suffix: -body
-   }
- ]
 }
 research: 03c-02-anvil
 researchCost: [

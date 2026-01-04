@@ -23,7 +23,7 @@ targetGround: false
 rotateSpeed: 1.45
 reload: 6.25
 range: 336
-shootY: 6
+shootY: 5
 ammoTypes: {
     01a-06-item-chromium: {
     reloadMultiplier: 1.1
