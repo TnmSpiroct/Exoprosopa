@@ -23,7 +23,7 @@ targetGround: false
 rotateSpeed: 1.45
 reload: 6.25
 range: 336
-shootY: 5
+shootY: 4
 ammoTypes: {
     01a-06-item-chromium: {
     reloadMultiplier: 1.1
@@ -241,8 +241,8 @@ drawer: {
   mirror: true
   progress: warmup
   heatProgress: recoil
-  moveX: 1.05
-  moveY: -2.8
+  moveX: 1
+  moveY: -2.7
   heatColor: 5b6980
   }
  ]

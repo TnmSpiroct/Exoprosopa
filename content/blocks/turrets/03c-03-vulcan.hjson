@@ -128,6 +128,7 @@ drawer: {
       progress: warmup
       heatProgress: recoil
       moveX: 1.6
+      moveY: 0.5
     }
     {
       type: RegionPart
