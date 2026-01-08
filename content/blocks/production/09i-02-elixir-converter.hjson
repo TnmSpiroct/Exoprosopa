@@ -61,7 +61,6 @@ consumes: {
 outputLiquid: 02b-02-a-purified-elixir/0.166666666666
 category: crafting
 requirements: [
-  01a-01-item-cobalt/30
   01a-01-item-cobalt/20
   01a-02-item-nickel/60
   01a-05-item-aluminium/30
