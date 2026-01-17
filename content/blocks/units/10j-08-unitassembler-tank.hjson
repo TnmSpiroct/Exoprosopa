@@ -18,7 +18,7 @@ plans: [
     unit: 15o-03-vicient
     requirements: [
       exoprosopa-08h-12-petal-wall-large/4
-      exoprosopa-15o-01-mason/2
+      exoprosopa-15o-01-mason/1
     ]
     time: 3000
   }

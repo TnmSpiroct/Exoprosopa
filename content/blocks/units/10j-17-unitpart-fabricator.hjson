@@ -7,18 +7,19 @@ requirements: [
   01a-06-item-chromium/150
   01a-07-item-clevorite/80
   01a-08-item-petal/150
-  01a-10-item-bethine/35
+  01a-10-item-bethine/55
 ] 
 hasPower: true
 consumes: {
-  power: 3
-  liquid: 02b-03-necroplasm/0.25
+  power: 2.5
+  liquid: 02b-03-necroplasm/1
 }
-buildSpeed: 0.5
+buildSpeed: 0.25
 filter: [
   90z-01-heavy-armored-treads, 
   90z-02-hyperspace-engine, 
-  90z-03-geopowered-mechlegs
+  90z-03-geopowered-mechlegs,
+  90z-04-multi-joint
 ]
 research: 10j-11-a-basic-module
 squareSprite: false

@@ -1,0 +1,63 @@
+type: GenericCrafter
+size: 4
+liquidCapacity: 180
+hasLiquids: true
+health: 1500
+category: crafting
+research: 09i-04-a-terra-basin
+itemCapacity: 40
+researchCostMultiplier: 1
+requirements: [
+  01a-01-item-cobalt/335
+  01a-02-item-nickel/210
+  01a-05-item-aluminium/95
+  01a-06-item-chromium/170
+  01a-07-item-clevorite/80
+]
+craftTime: 60
+craftEffect: none
+outputItems: [
+  01a-12-item-techno-plating/4
+]
+consumes: {
+  items: [
+    01a-11-item-technoscrap/1
+    01a-03-item-anthracite/2
+  ]
+  liquids: [
+    02b-02-a-purified-elixir/0.6666666666
+    02b-01-bioliquid/2
+  ]
+  power: 6
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-a-purified-elixir
+      padLeft: 1.5
+      padTop: 1.5
+      padBottom: 18
+      padRight: 1.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-01-bioliquid
+      padLeft: 1.5
+      padTop: 1.5
+      padBottom: 18
+      padRight: 1.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+ambientSound: hum
+ambientSoundVolume: 0.6
+squareSprite: false

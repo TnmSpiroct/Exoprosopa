@@ -1,0 +1,13 @@
+type: MemoryBlock
+memoryCapacity: 2048
+category: logic
+research: 12l-004-cell-data
+requirements: [
+  01a-01-item-cobalt/450
+  01a-05-item-aluminium/200
+  01a-12-item-techno-plating/350
+  01a-06-item-chromium/150
+]
+size: 4
+health: 1250
+researchCostMultiplier: 1
