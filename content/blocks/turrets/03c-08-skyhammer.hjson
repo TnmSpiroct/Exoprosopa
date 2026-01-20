@@ -4,7 +4,7 @@ squareSprite: false
 health: 6500
 armor: 15
 shootSound: shootMissilePlasma
-shootSoundVolume: 2.2
+shootSoundVolume: 2.3
 loopSound: loopGlow
 loopSoundVolume: 0.6
 requirements: [
@@ -22,7 +22,7 @@ minWarmup: 0.95
 warmupMaintainTime: 100
 shootWarmupSpeed: 0.05
 heatRequirement: 12
-maxEffeciency: 3
+maxHeatEfficiency: 2
 recoil: 2
 outlineColor: 2C2A36
 targetAir: true
@@ -53,7 +53,7 @@ shootType: {
   trailInterval: 3
   speed: 6
   lifetime: 72.5
-  damage: 850
+  damage: 800
   despawnSound: explosionQuad
   despawnEffect: greenBomb
   hitEffect: massiveExplosion
@@ -100,20 +100,7 @@ drawer: {
     {
       type: ShapePart
       y: -3.5
-      radius: 0
-      radiusTo: 4
-      stroke: 0
-      strokeTo: 1
-      layer: 110
-      circle: true
-      hollow: true
-      color: FFD27E
-    }
-    {
-      type: ShapePart
-      y: -3.5
-      radius: 0
-      radiusTo: 6
+      radius: 5
       stroke: 0
       strokeTo: 1
       layer: 110
@@ -126,14 +113,27 @@ drawer: {
       layer: 110
       color: FFD27E
       y: -3.5
-      sides: 3
+      tri: true
+      triLength: 0
+      triLengthTo: 6
       shapes: 2
-      haloRotateSpeed: 0.5
-      haloRadius: 2
-      haloRadiusTo: 7.85
-      radius: 0
-      radiusTo: 3.5
+      haloRotateSpeed: 1
+      haloRadius: 5
+      radius: 3
       hollow: false
+    }
+    {
+      type: ShapePart
+      rotateSpeed: 1.5
+      color: FFD27E
+      hollow: true
+      sides: 6
+      stroke: 0
+      strokeTo: 0.8
+      radius: 0
+      radiusTo: 2.75
+      layer: 110
+      y: -3.5
     }
   ]
 }

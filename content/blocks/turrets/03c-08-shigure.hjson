@@ -4,7 +4,7 @@ squareSprite: false
 health: 4500
 armor: 10
 shootSound: shootMachinegun
-shootSoundVolume: 0.85
+shootSoundVolume: 0.7
 requirements: [
   01a-01-item-cobalt/600
   01a-06-item-chromium/550
@@ -17,7 +17,7 @@ shootWarmupSpeed: 0.04
 researchCostMultiplier: 0.5
 research: 03c-04-preject
 category: turret
-recoil: 1.5
+recoil: 0.1
 outlineColor: 2C2A36
 targetAir: true
 targetGround: true
@@ -149,32 +149,35 @@ drawer: {
     parts: [
     {
       type: RegionPart
-      suffix: -hand
-      mirror: true
-      progress: warmup
-      heatProgress: warmup
-      heatColor: 483966
-      moveY: -0.5
-    }
-    {
-      type: RegionPart
-      suffix: -barrel-l
+      suffix: -arm-l
       mirror: false
+      moves: [
+       {
+        type: PartMove
+        progress: warmup
+        y: -1
+       }
+      ]
       progress: recoil
+      heatProgress: recoil
       recoilIndex: 0
-      x: -0.5
-      moveY: -0.1
-      moveX: -0.1
+      moveY: -1
     }
     {
       type: RegionPart
-      suffix: -barrel-r
+      suffix: -arm-r
       mirror: false
+      moves: [
+       {
+        type: PartMove
+        progress: warmup
+        y: -1
+       }
+      ]
       progress: recoil
+      heatProgress: recoil
       recoilIndex: 1
-      x: 0.5
-      moveY: -0.1
-      moveX: -0.1
+      moveY: -1
     }
   ]
 }

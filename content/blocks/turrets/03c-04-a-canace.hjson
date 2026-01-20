@@ -4,7 +4,7 @@ squareSprite: false
 health: 2300
 armor: 5
 shootSound: shootArtillerySmall
-shootSoundVolume: 1.75
+shootSoundVolume: 1.85
 requirements: [
   01a-01-item-cobalt/170
   01a-02-item-nickel/335
@@ -134,11 +134,18 @@ ammoTypes: {
     }
   }
 }
-heatProgress: warmup
 drawer: {
   type: DrawTurret
   basePrefix: canace-
     parts: [
+    {
+      type: RegionPart
+      suffix: -glow
+      heatColor: 92B25850
+      drawRegion: false
+      progress: warmup
+      heatProgress: warmup
+    }
     {
       type: RegionPart
       suffix: -barrel

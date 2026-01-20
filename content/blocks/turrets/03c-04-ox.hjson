@@ -3,6 +3,7 @@ size: 3
 health: 3000
 armor: 5
 shootSound: shootBreach
+shootSoundVolume: 0.9
 requirements: [
   01a-02-item-nickel/340
   01a-05-item-aluminium/240
@@ -79,6 +80,7 @@ ammoTypes: {
       status: shocked
       statusDuration: 60
       shootSound: shootBreachCarbide
+      shootSoundVolume: 0.9
       despawnEffect: {
         type: WaveEffect
         rotWithParent: true

@@ -118,7 +118,7 @@ drawer: {
     }
     {
       type: ShapePart
-      y: -10.5
+      y: -9.5
       radius: 0
       radiusTo: 4
       stroke: 0
@@ -132,15 +132,28 @@ drawer: {
       type: HaloPart
       layer: 110
       color: 6EEFC0
-      y: -10.5
-      haloRotateSpeed: 0.75
+      y: -9.5
+      haloRotateSpeed: 1
       sides: 3
-      shapes: 6
+      shapes: 5
       haloRadius: 2
       haloRadiusTo: 8
       radius: 0
       radiusTo: 3.5
       hollow: false
+    }
+    {
+      type: ShapePart
+      rotation: 270
+      color: 6EEFC0
+      sides: 3
+      hollow: true
+      stroke: 0
+      strokeTo: 0.8
+      radius: 0
+      radiusTo: 1.5
+      layer: 110
+      y: -9.5
     }
   ]
 }

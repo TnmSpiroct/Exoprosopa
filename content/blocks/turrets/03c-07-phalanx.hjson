@@ -3,6 +3,7 @@ size: 4
 health: 3500
 armor: 10
 shootSound: shootDisperse
+shootSoundVolume: 0.9
 requirements: [
   01a-01-item-cobalt/450
   01a-05-item-aluminium/250
@@ -241,8 +242,8 @@ drawer: {
   mirror: true
   progress: warmup
   heatProgress: recoil
-  moveX: 1
-  moveY: -2.6
+  moveX: 0.8
+  moveY: -2.8
   heatColor: 5b6980
   }
  ]

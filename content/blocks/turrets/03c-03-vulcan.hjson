@@ -3,7 +3,7 @@ size: 3
 health: 2000
 armor: 5
 shootSound: shootVulcanPlasma
-shootSoundVolume: 0.3
+shootSoundVolume: 0.4
 shootWarmupSpeed: 0.1
 shootCone: 360
 requirements: [
@@ -25,7 +25,7 @@ targetGround: true
 rotateSpeed: 1.4
 range: 190
 loopSound: shootBeam
-loopSoundVolume: 1
+loopSoundVolume: 1.1
 ammoTypes: {
 02b-04-miasma: {
   type: ContinuousLaserBulletType
@@ -102,10 +102,10 @@ drawer: {
       mirror: true
       progress: warmup
       heatProgress: recoil
-      moveRot: -20
-      y: -0.2
+      moveRot: -15
       moveY: 0.5
-      moveX: 1.6
+      moveX: 1.25
+      y: 0.1
       under: true
       heatColor: 844cff88
     }
@@ -115,10 +115,9 @@ drawer: {
       mirror: true
       progress: warmup
       heatProgress: recoil
-      moveRot: -20
-      y: -0.2
+      moveRot: -15
       moveY: 0.5
-      moveX: 1.8
+      moveX: 1.25
       heatColor: 844cff88
     }
     {
@@ -127,16 +126,18 @@ drawer: {
       mirror: true
       progress: warmup
       heatProgress: recoil
-      moveX: 1.6
-      moveY: 0.5
+      moveX: 1.25
+      moveY: 1.25
     }
     {
       type: RegionPart
       suffix: -nozzle-glow
-      mirror: true
       drawRegion: false
+      mirror: true
       progress: warmup
       heatProgress: recoil
+      moveX: 1.25
+      moveY: 1.25
       heatColor: 844cff88
     }
   ]
