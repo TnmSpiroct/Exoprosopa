@@ -3,7 +3,7 @@ size: 5
 health: 1500
 category: units
 droneType: 18r-01-amber
-areaSize: 9
+areaSize: 11
 research: 10j-04-unitreconstructor-tank
 requirements: [
   01a-01-item-cobalt/250
