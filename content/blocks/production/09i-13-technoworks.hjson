@@ -4,7 +4,7 @@ liquidCapacity: 180
 hasLiquids: true
 health: 1500
 category: crafting
-research: 09i-02-f-elixir-autofreezer
+research: 09i-04-a-terra-basin
 itemCapacity: 40
 researchCostMultiplier: 1
 requirements: [
@@ -39,25 +39,71 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: 02b-02-a-purified-elixir
-      padLeft: 1.5
-      padTop: 1.5
-      padBottom: 18
-      padRight: 1.5
+      drawLiquid: 02b-01-bioliquid
+      padding: 1
+    }
+    {
+      type: DrawFrames
+      sine: false
+      frames: 35
+      interval: 1.75
+    }
+    {
+      type: DrawRegion
+      suffix: -mid
     }
     {
       type: DrawLiquidTile
-      drawLiquid: 02b-01-bioliquid
+      drawLiquid: 02b-02-a-purified-elixir
       padLeft: 1.5
-      padTop: 1.5
-      padBottom: 18
-      padRight: 1.5
+      padTop: 14
+      padBottom: 11
+      padRight: 14
+    }
+    {
+      type: DrawPistons
+      suffix: -piston-up
+      sinMag: 7
+      sinScl: 5.011
+      sides: 1
+      sinOffset: 0
+      lenOffset: 0
+    }
+    {
+      type: DrawPistons
+      suffix: -piston-mid
+      sinMag: 7
+      sinScl: 5.012
+      sides: 1
+      sinOffset: 0
+      lenOffset: 0
+    }
+    {
+      type: DrawPistons
+      suffix: -piston-down
+      sinMag: 7
+      sinScl: 5.013
+      sides: 1
+      sinOffset: 0
+      lenOffset: 0
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-a-purified-elixir
+      padLeft: 12
+      padTop: 18
+      padBottom: 2
+      padRight: 12
     }
     {
       type: DrawDefault
     }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+    }
   ]
 }
-ambientSound: hum
-ambientSoundVolume: 0.6
+ambientSound: loopMachine2
+ambientSoundVolume: 0.12
 squareSprite: false
