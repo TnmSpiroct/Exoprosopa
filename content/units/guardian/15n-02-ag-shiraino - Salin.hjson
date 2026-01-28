@@ -14,7 +14,6 @@ health: 22800
 armor: 22
 hitSize: 32
 researchCostMultiplier: 1.5
-research: 17q-02-calaust
 research: 17q-04-noya
 loopSound: loopDifferential
 loopSoundVolume: 0.8
@@ -40,7 +39,7 @@ abilities: [
   {
     type: ForceFieldAbility
     radius: 65
-    sides: 10
+    sides: 9
     cooldown: 1200
     regen: 2
     max: 2500
@@ -54,7 +53,7 @@ abilities: [
     maxTargets: 20
     damage: 35
     reload: 155
-    range: 110
+    range: 120
     layer: 115
     effectRadius: 2.5
     y: -23.4
@@ -144,8 +143,8 @@ weapons: [
   }
   {
     name: ag-rotor
-    reload: 20
-    x: 0
+    reload: 15
+    x: 25.5
     y: -16
     shootX: 0
     shootY: 0
@@ -166,8 +165,8 @@ weapons: [
     rotate: false
     hidden: true
     bullet: {
-      splashDamage: 15
-      splashDamageRadius: 45
+      splashDamage: 25
+      splashDamageRadius: 50
       pierceBuilding: true
       hidden: true
       hitEffect: none
@@ -176,15 +175,24 @@ weapons: [
       smokeEffect: none
       instantDissapear: true
       hittable: false
-      knockback: 0.5
-      lifetime: 1
-      damage: 10
+      knockback: 0.4
+      lifetime: 0
       }
     parts: [
       {
-        x: 25.5
+        x: 0
         y: 0
         moveRot: -9180
+        type: regionPart
+        progress: reload
+        outline: false
+        suffix: -blur
+        layer: 116
+      }
+        {
+        x: 0
+        y: 0
+        moveRot: 9180
         type: regionPart
         progress: reload
         outline: false
