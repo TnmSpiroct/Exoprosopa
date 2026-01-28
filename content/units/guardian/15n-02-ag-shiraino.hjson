@@ -14,7 +14,6 @@ health: 22800
 armor: 22
 hitSize: 32
 researchCostMultiplier: 1.5
-research: 17q-02-calaust
 research: 17q-04-noya
 loopSound: loopDifferential
 loopSoundVolume: 0.8
