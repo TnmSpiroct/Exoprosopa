@@ -24,6 +24,12 @@ abilities: [
     range: 35
     amount: 15
     max: 2450
+    soundVolume: 0.2
+  }
+  {
+    type: SpawnDeathAbility
+    unit: mine-bomb
+    amount: 3
   }
 ]
 weapons: [
@@ -53,7 +59,7 @@ weapons: [
       width: 12
       height: 12
       speed: 8
-      lifetime: 40
+      lifetime: 35
       pierce: true
       pierceCap: 2
       trailChance: -1
@@ -62,17 +68,34 @@ weapons: [
       trailWidth: 3
     }
   }
+  {
+    x: 7
+    y: -3
+    name: matrix-mount
+    reload: 60
+    mirror: true
+    alternate: true
+    rotate: true
+    rotateSpeed: 1
+    bullet: {
+      type: BasicBulletType
+      speed: 6
+      lifetime: 25
+      damage: 20
+      width: 8
+      height: 8
+      shootEffect: shootSmall
+      bulletInterval: 0.555
+      intervalBullet: {
+        type: ShrapnelBulletType
+        lifetime: 2.4
+        damage: 5
+        lightOpacity: 0.5
+        length: 4
+        width: 2
+        serrations: 0
+        despawnSound: shockBulletByte
+      }
+    }
+  }
 ]
-destroyBulletSameTeam: true
-destroyBullet: {
-	instantDisappear: true
-	absorbable: false
-	collides: false
-	hittable: false
-	hitEffect: false
-	despawnEffect: false
-	fragBullets: 3
-	fragBullet: {
-		spawnUnit: 18r-03-mine-bomb
-	}
-}

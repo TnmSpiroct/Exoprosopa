@@ -37,7 +37,7 @@ weapons: [
     rotateSpeed: 0.95
     shootStatus: slow
     shootStatusDuration: 231
-    rotationLimit: 120
+    rotationLimit: 80
     shoot: {
       barrels: [
       -3, -0.75, 0,
@@ -46,11 +46,11 @@ weapons: [
       3, -0.75, 0
       ]
       type: ShootBarrel
-      shots: 20
+      shots: 18
       shotDelay: 7.5
     }
     shootSound: shootMissileLong
-    shootSoundVolume: 0.9
+    shootSoundVolume: 1
     bullet: {
       frontColor: 93E2EE
       trailColor: 93E2EE
@@ -83,6 +83,7 @@ weapons: [
     alternate: true
     rotateSpeed: 1.4
     shootSound: shootPierce
+    shootSoundVolume: 0.8
     bullet: {
       type: BasicBulletType
       height: 8
@@ -100,4 +101,4 @@ weapons: [
   }
 ]
 researchCostMultiplier: 1.5
-research: 15o-01-mason
+research: 15o-02-oktarav

@@ -74,15 +74,15 @@ weapons: [
     shootSound: shootAvert
     shootSoundVolume: 1.5
     shoot: {
-      shots: 36
-      shotDelay: 2
+      shots: 30
+      shotDelay: 2.5
       }
     bullet: {
       type: BasicBulletType
       height: 8
       width: 5
       lifetime: 50
-      damage: 85.5
+      damage: 85
       speed: 5
       smokeEffect: colorSpark
       trailColor: D8F18C

@@ -22,6 +22,7 @@ abilities: [
     range: 35
     amount: 15
     max: 350
+    soundVolume: 0.2
   }
   {
     type: ShieldArcAbility
