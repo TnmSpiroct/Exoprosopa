@@ -28,11 +28,11 @@ targetUnderBlocks: false
 targetGround: true
 shootCone: 1
 rotateSpeed: 0.75
-minWarmup: 0.19
+minWarmup: 0.20
 newTargetInterval: 40
 unitSort: strongest
-shootWarmupSpeed: 0.03
-reload: 720
+shootWarmupSpeed: 0.02
+reload: 780
 range: 1280
 shootY: -1
 shake: 6

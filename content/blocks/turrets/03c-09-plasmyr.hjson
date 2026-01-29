@@ -12,8 +12,8 @@ maxHeatEfficiency: 1.50
 health: 10750
 armor: 15
 loopSound: loopGlow
-loopSoundVolume: 0.8
-shootSound: shootPlasmyr
+loopSoundVolume: 0.75
+shootSound: shootArtillerySapBig
 shootSoundVolume: 1.25
 # Block requirements, more cost = more build time
 requirements: [
