@@ -36,6 +36,8 @@ weapons: [
   {
     x: 14
     y: 0
+    shootY: 5
+    shootX: 1.2
     name: matrix
     reload: 45
     mirror: true
@@ -69,18 +71,18 @@ weapons: [
     }
   }
   {
-    x: 7
+    x: 6.8
     y: -3
     name: matrix-mount
-    reload: 60
+    reload: 35
     mirror: true
     alternate: true
     rotate: true
-    rotateSpeed: 1
+    rotateSpeed: 4
     bullet: {
       type: BasicBulletType
       speed: 6
-      lifetime: 25
+      lifetime: 35
       damage: 20
       width: 8
       height: 8

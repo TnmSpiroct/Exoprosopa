@@ -16,6 +16,7 @@ weapons: [
   {
     x: 10
     y: 0
+    shootY: 4
     name: syntax
     reload: 50
     mirror: true
