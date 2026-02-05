@@ -28,21 +28,22 @@ requirements: [
 ]
 craftTime: 120
 craftEffect: {
-  type: RadialEffect
-  amount: 1
-  effect: {
-    type: ParticleEffect
-    particles: 5
-    lifetime: 25
-    sizeFrom: 2.4
-    sizeTo: 0.2
-    colorFrom: ffc2d6
-    colorTo: fe97ba
-    region: exoprosopa-enchanting
+  type: MultiEffect
+  effects: [
+  {
+    type: particleEffect
+    particles: 6
     length: 7
+    lifetime: 25
     interp: circleOut
     sizeInterp: pow5In
+    sizeFrom: 2.2 
+    sizeTo: 0.1
+    colorFrom: ffc2d6
+    colorTo: fe97ba
+    region: exoprosopa-spark-drill
   }
+ ]
 }
 outputItems: [
   01a-08-item-petal/4
@@ -78,11 +79,6 @@ drawer: {
     }
     {
       type: DrawRegion
-    }
-    {
-      type: DrawGlowRegion
-      suffix: -glow
-      color: fe97ba
     }
   ]
 }
