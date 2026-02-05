@@ -7,13 +7,14 @@ size: 5
 squareSprite: false
 # Heat requirements
 heatRequirement: 12
-maxHeatEfficiency: 1.25
+maxHeatEfficiency: 1.50
 # Turret health & armor
 health: 10750
 armor: 15
 loopSound: loopGlow
-loopSoundVolume: 0.8
-shootSound: shootSmite
+loopSoundVolume: 0.75
+shootSound: shootArtillerySapBig
+shootSoundVolume: 1.25
 # Block requirements, more cost = more build time
 requirements: [
   01a-05-item-aluminium/900
@@ -334,15 +335,15 @@ drawer: {
       type: HaloPart
       layer: 110
       color: D1EFFF
-      y: -10.5
+      y: -10
       # Halo angle to center
-      haloRotation: 155
+      haloRotation: 135
       # Num of shapes
       shapes: 1
       # Halo radius
-      haloRadius: 16
+      haloRadius: 17
       # Halo size
-      radius: 3
+      radius: 3.5
       hollow: false
       # Triangle height
       triLength: 0
@@ -355,11 +356,11 @@ drawer: {
       type: HaloPart
       layer: 110
       color: D1EFFF
-      y: -10.5
-      haloRotation: 155
+      y: -10
+      haloRotation: 135
       shapes: 1
-      haloRadius: 16
-      radius: 3
+      haloRadius: 17
+      radius: 3.5
       hollow: false
       triLength: 0
       triLengthTo: 4
@@ -403,11 +404,11 @@ drawer: {
       type: HaloPart
       layer: 110
       color: D1EFFF
-      y: -10.5
-      haloRotation: 205
+      y: -10
+      haloRotation: 225
       shapes: 1
-      haloRadius: 16
-      radius: 3
+      haloRadius: 17
+      radius: 3.5
       hollow: false
       triLength: 0
       triLengthTo: 15
@@ -418,11 +419,11 @@ drawer: {
       type: HaloPart
       layer: 110
       color: D1EFFF
-      y: -10.5
-      haloRotation: 205
+      y: -10
+      haloRotation: 225
       shapes: 1
-      haloRadius: 16
-      radius: 3
+      haloRadius: 17
+      radius: 3.5
       hollow: false
       triLength: 0
       triLengthTo: 4

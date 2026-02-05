@@ -46,6 +46,7 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: 02b-05-hydrowater
       padding: 3
+      alpha: 0.9
     }
     {
     type: DrawBubbles

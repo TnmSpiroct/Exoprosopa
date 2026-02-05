@@ -22,6 +22,7 @@ treadRects: [
     height: 109
   }
 ]
+crushFragile: true
 weapons: [
   {
     x: 0

@@ -33,59 +33,32 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: 02b-06-morphitix-plasma
-      padLeft: 15.25
-      padTop: 8.75
-      padBottom: 8.75
-      padRight: 15.25
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: 02b-06-morphitix-plasma
-      padLeft: 8.75
-      padTop: 15.25
-      padBottom: 15.25
-      padRight: 8.75
-    }
-    {
-      type: DrawLiquidTile
       drawLiquid: 02b-02-ichor
-      padLeft: 28.5
-      padTop: 1.5
-      padBottom: 1.5
-      padRight: 1.5
+      padding: 1.5
     }
     {
-      type: DrawLiquidTile
-      drawLiquid: 02b-02-ichor
-      padLeft: 1.5
-      padTop: 28.5
-      padBottom: 1.5
-      padRight: 1.5
+      type: DrawCells
+      color: 60c9ad
+      particleColorFrom: 479075
+      particleColorTo: 51c59c
+      particles: 50
+      range: 8
     }
     {
-      type: DrawLiquidTile
-      drawLiquid: 02b-02-ichor
-      padLeft: 1.5
-      padTop: 1.5
-      padBottom: 28.5
-      padRight: 1.5
+      type: DrawParticles
+      color: 60c9ad
+      particleSize: 1.5
+      particleRad: 20
+      particleLife: 60
+      particles: 50
+      reverse: true
     }
-    {
-      type: DrawLiquidTile
-      drawLiquid: 02b-02-ichor
-      padLeft: 1.5
-      padTop: 1.5
-      padBottom: 1.5
-      padRight: 28.5
-    }
-
     {
       type: DrawDefault
     }
     {
       type: DrawHeatInput
-      heatColor: FD898C
+      suffix: -heat
     }
   ]
 }

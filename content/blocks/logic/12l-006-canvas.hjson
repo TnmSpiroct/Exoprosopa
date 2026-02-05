@@ -1,0 +1,20 @@
+type: CanvasBlock
+size: 2
+health: 325
+padding: 2
+# Padding unit = px / 4 * 2
+# 4 / 4 * 2
+# 1 * 2
+# 2
+canvasSize: 12
+category: logic
+research: 12l-001-message-chip
+researchCost: [
+  01a-01-item-cobalt/300
+  01a-05-item-aluminium/400
+]
+requirements: [
+  01a-01-item-cobalt/15
+  01a-05-item-aluminium/20
+]
+buildCostMultiplier: 0.75

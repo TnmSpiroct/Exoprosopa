@@ -1,0 +1,10 @@
+type: Junction
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  01a-06-item-chromium/85
+  01a-10-item-bethine/25
+]
+research: 10j-17-unitpart-fabricator
+researchCostMultiplier: 1

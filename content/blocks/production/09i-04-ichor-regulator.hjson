@@ -38,27 +38,36 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: 02b-02-a-purified-elixir
-      padding: 3
+      padding: 2
+    }
+    {
+      type: DrawRegion
+      suffix: -mid
     }
     {
       type: DrawLiquidTile
       drawLiquid: 02b-02-ichor
-      padding: 3
+      padding: 2
     }
     {
       type: DrawBubbles
       color: edc787
       sides: 10
       recurrence: 3
-      spread: 8
+      spread: 9
       radius: 1.5
-      amount: 24
+      amount: 32
+    }
+    {
+      type: DrawCrucibleFlame
+      particleRad: 12
     }
     {
       type: DrawDefault
     }
     {
-      type: DrawCrucibleFlame
+      type: DrawHeatInput
+      suffix: -heat
     }
   ]
 }

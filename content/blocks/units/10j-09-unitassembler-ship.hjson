@@ -2,8 +2,8 @@ type: UnitAssembler
 size: 5
 health: 1500
 category: units
-droneType: 18r-01-amber
-areaSize: 9
+droneType: 19r-01-amber
+areaSize: 11
 research: 10j-05-unitreconstructor-ship
 requirements: [
   01a-01-item-cobalt/350
@@ -18,8 +18,8 @@ plans: [
     unit: 17q-03-syntaxe
     requirements: [
       exoprosopa-08h-12-petal-wall-large/4
-      exoprosopa-08h-05-a-aluminium-gate/2
-      exoprosopa-17q-01-codex/2
+      exoprosopa-08h-05-a-aluminium-gate/1
+      exoprosopa-17q-01-codex/1
     ]
     time: 3300
   }
@@ -27,8 +27,8 @@ plans: [
     type: AssemblerUnitPlan
     unit: 17q-04-noya
     requirements: [
-      exoprosopa-08h-05-a-aluminium-gate/5
-      exoprosopa-08h-02-cobalt-wall-large/4
+      exoprosopa-08h-05-a-aluminium-gate/4
+      exoprosopa-08h-02-cobalt-wall-large/6
       exoprosopa-17q-01-codex/4
       exoprosopa-90z-02-hyperspace-engine/3
     ]

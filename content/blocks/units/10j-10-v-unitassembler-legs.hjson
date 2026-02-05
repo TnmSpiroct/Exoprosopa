@@ -2,7 +2,7 @@ type: UnitAssembler
 size: 5
 health: 1500
 category: units
-droneType: 18r-01-amber
+droneType: 19r-01-amber
 areaSize: 11
 research: 10j-06-v-unitreconstructor-legs
 requirements: [
@@ -18,8 +18,8 @@ plans: [
     unit: 18r-03-decode
     requirements: [
       exoprosopa-08h-12-petal-wall-large/4
-      exoprosopa-08h-03-chromium-wall-small/4
-      exoprosopa-18r-01-byte/2
+      exoprosopa-08h-03-chromium-wall-small/2
+      exoprosopa-18r-01-byte/1
     ]
     time: 3300
   }
@@ -27,9 +27,9 @@ plans: [
     type: AssemblerUnitPlan
     unit: 18r-04-matrix
     requirements: [
-      exoprosopa-08h-06-clevorite-wall-large/6
+      exoprosopa-08h-06-clevorite-wall-large/8
       exoprosopa-18r-01-byte/4
-      exoprosopa-90z-03-geopowered-mechlegs/2
+      exoprosopa-90z-04-multi-joint/2
     ]
     time: 3900
   }
@@ -40,7 +40,7 @@ plans: [
       exoprosopa-08h-14-bethine-wall-large/12
       exoprosopa-08h-16-pyroxene-wall-large/6
       exoprosopa-18r-02-syntax/4
-      exoprosopa-90z-03-geopowered-mechlegs/2
+      exoprosopa-90z-04-multi-joint/2
     ]
     time: 15000
   }

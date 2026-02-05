@@ -3,8 +3,8 @@ size: 3
 customShadow: true
 placeablePlayer: false
 requirements: [
-  01a-06-item-chromium/35
-  01a-07-item-clevorite/20
+  01a-06-item-chromium/60
+  01a-07-item-clevorite/35
 ]
 research: 10j-17-unitpart-fabricator
 researchCostMultiplier: 1

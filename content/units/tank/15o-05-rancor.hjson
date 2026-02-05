@@ -10,6 +10,7 @@ speed: 0.475
 rotateSpeed: 0.6
 itemCapacity: 110
 outlineColor: 26262F
+crushFragile: true
 tankMoveVolume: 1.5
 tankMoveSound:tankMoveHeavy
 floorMultiplier: 0.3

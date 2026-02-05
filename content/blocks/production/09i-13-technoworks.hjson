@@ -1,0 +1,109 @@
+type: GenericCrafter
+size: 4
+liquidCapacity: 180
+hasLiquids: true
+health: 1500
+category: crafting
+research: 09i-02-f-elixir-autofreezer
+itemCapacity: 40
+researchCostMultiplier: 1
+requirements: [
+  01a-01-item-cobalt/335
+  01a-02-item-nickel/210
+  01a-05-item-aluminium/95
+  01a-06-item-chromium/170
+  01a-07-item-clevorite/80
+]
+craftTime: 60
+craftEffect: none
+outputItems: [
+  01a-12-item-techno-plating/4
+]
+consumes: {
+  items: [
+    01a-11-item-technoscrap/1
+    01a-03-item-anthracite/2
+  ]
+  liquids: [
+    02b-02-a-purified-elixir/0.6666666666
+    02b-01-bioliquid/2
+  ]
+  power: 6
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-01-bioliquid
+      padding: 1
+    }
+    {
+      type: DrawFrames
+      sine: false
+      frames: 35
+      interval: 1.75
+    }
+    {
+      type: DrawRegion
+      suffix: -mid
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-a-purified-elixir
+      padLeft: 1.5
+      padTop: 14
+      padBottom: 11
+      padRight: 14
+    }
+    {
+      type: DrawPistons
+      suffix: -piston-up
+      sinMag: 7
+      sinScl: 5.011
+      sides: 1
+      sinOffset: 0
+      lenOffset: 0
+    }
+    {
+      type: DrawPistons
+      suffix: -piston-mid
+      sinMag: 7
+      sinScl: 5.012
+      sides: 1
+      sinOffset: 0
+      lenOffset: 0
+    }
+    {
+      type: DrawPistons
+      suffix: -piston-down
+      sinMag: 7
+      sinScl: 5.013
+      sides: 1
+      sinOffset: 0
+      lenOffset: 0
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-a-purified-elixir
+      padLeft: 12
+      padTop: 18
+      padBottom: 2
+      padRight: 12
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+    }
+  ]
+}
+ambientSound: loopMachine2
+ambientSoundVolume: 0.12
+squareSprite: false

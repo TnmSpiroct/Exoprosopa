@@ -1,7 +1,7 @@
 type: UnitCargoLoader
 size: 3
 health: 1000
-unitType: 18r-02-iris
+unitType: 19r-02-iris
 buildTime: 600
 consumes: {
   power: 6

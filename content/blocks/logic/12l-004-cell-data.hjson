@@ -1,7 +1,7 @@
 type: MemoryBlock
 memoryCapacity: 64
 category: logic
-research: 12l-003-terminator
+research: 12l-001-message-chip
 requirements: [
   01a-01-item-cobalt/150
   01a-05-item-aluminium/100

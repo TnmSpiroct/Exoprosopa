@@ -95,16 +95,16 @@ drawer: {
     {
       type: RegionPart
       suffix: -cannon
-      progress: warmup
-      moveRot: -10
       moves: [
        {
-        type: PartMove
         progress: recoil
-        x: 0.5
-        rot: -15
+        rot: -25
+        x: 1.5
+        y: 1
        }
       ]
+      progress: warmup
+      moveRot: -5
       under: true
       mirror: true
       heatColor: a65d36

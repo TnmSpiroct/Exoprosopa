@@ -2,7 +2,7 @@ type: SwitchBlock
 size: 1
 health: 65
 category: logic
-research: 0015-logic
+research: 12l-003-terminator
 requirements: [
   01a-01-item-cobalt/5
   01a-02-item-nickel/5

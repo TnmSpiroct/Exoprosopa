@@ -2,7 +2,7 @@ type: UnitAssembler
 size: 5
 health: 1500
 category: units
-droneType: 18r-01-amber
+droneType: 19r-01-amber
 areaSize: 11
 research: 10j-06-unitreconstructor-mech
 requirements: [
@@ -18,8 +18,8 @@ plans: [
     unit: 16p-03-sender
     requirements: [
       exoprosopa-08h-12-petal-wall-large/4
-      exoprosopa-08h-03-chromium-wall-small/4
-      exoprosopa-16p-01-ares/2
+      exoprosopa-08h-03-chromium-wall-small/2
+      exoprosopa-16p-01-ares/1
     ]
     time: 3300
   }

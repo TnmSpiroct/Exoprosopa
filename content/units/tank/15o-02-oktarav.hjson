@@ -14,6 +14,7 @@ treadFrames: 12
 floorMultiplier: 0.8
 tankMoveVolume: 0.55
 tankMoveSound: tankMove
+crushFragile: true
 treadRects: [
   {
     x: 8

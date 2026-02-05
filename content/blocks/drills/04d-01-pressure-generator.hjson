@@ -21,6 +21,10 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
       type: DrawBlurSpin
       suffix: -rotator
       rotateSpeed: 5
