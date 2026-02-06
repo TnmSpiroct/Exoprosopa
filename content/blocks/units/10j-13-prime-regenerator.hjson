@@ -19,6 +19,8 @@ research: {
     }
   ]
 }
+glowColor: c68f577f
+squareRad: 3.5
 range: 180
 healAmount: 5
 consumes: {
