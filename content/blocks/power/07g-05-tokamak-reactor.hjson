@@ -21,7 +21,44 @@ explodeSound: explosionReactor
 explosionRadius: 22
 explosionDamage: 2200
 powerProduction: 112
-generateEffect: generatespark
+effect: {
+  type: MultiEffect
+  effects: [
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 88
+      rotationOffset: 40
+      lengthOffset: 15
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 88
+      rotationOffset: 45
+      lengthOffset: 15
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 88
+      rotationOffset: 50
+      lengthOffset: 15
+      effect: surgeCruciSmoke
+    }
+    {
+      type: RadialEffect
+      amount: 4
+      rotationSpacing: 88
+      rotationOffset: 55
+      lengthOffset: 15
+      effect: surgeCruciSmoke
+    }
+  ]
+}
+effectChance: 0.025
 ambientSound: loopFlux
 ambientSoundVolume: 0.18
 drawer: {
@@ -35,22 +72,52 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: 02b-02-ichor
       padding: 1.5
+      alpha: 0.8
     }
     {
-      type: DrawCells
-      color: 60c9ad
-      particleColorFrom: 479075
-      particleColorTo: 51c59c
-      particles: 50
-      range: 8
+      type: DrawRegion
+      suffix: -cover
+    }
+    {
+      type: DrawCrucibleFlame
+      flameRad: 0.15
+      circleSpace: 0.15
+      particleSize: 1.2
+      particleRad: 10
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padding: 1.5
+      alpha: 0.5
+    }
+    {
+      type: DrawBubbles
+      color: 51c59c
+      sides: 10
+      recurrence: 3
+      spread: 9
+      radius: 1.5
+      amount: 32
     }
     {
       type: DrawParticles
-      color: 60c9ad
+      color: 51c59c
+      alpha: 0.85
       particleSize: 1.5
-      particleRad: 20
+      particles: 12
+      particleRad: 15
       particleLife: 60
-      particles: 50
+      reverse: true
+    }
+    {
+      type: DrawParticles
+      color: 479075
+      alpha: 0.85
+      particleSize: 1.2
+      particles: 10
+      particleRad: 10
+      particleLife: 60
       reverse: true
     }
     {
@@ -59,6 +126,11 @@ drawer: {
     {
       type: DrawHeatInput
       suffix: -heat
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      color: c68f57
     }
   ]
 }
