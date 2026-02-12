@@ -1,6 +1,7 @@
 type: tank
 hitSize: 28
 singleTarget: false
+targetAir: false
 omniMovement: false
 faceTarget: false
 health: 12500

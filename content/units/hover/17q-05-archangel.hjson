@@ -3,6 +3,7 @@ immunities: [burning, shocked
 ]
 flying: true
 faceTarget: true
+targetAir: false
 shadowElevation: 0.15
 drag: 0.07
 outlineColor: 26262F
