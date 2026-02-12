@@ -13,7 +13,8 @@ requirements: [
 research: 0011-effect
 range: 100
 healAmount: 1.5
-glowColor: 8c67ad
+glowColor: 59467e
+squareRad: 2.75
 consumes: {
   power: 2
   liquid: 02b-01-bioliquid/0.5

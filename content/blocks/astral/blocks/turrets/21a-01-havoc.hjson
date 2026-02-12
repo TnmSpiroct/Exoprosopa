@@ -49,16 +49,3 @@ drawer: {
 }
 research: 000021-defence
 researchCostMultiplier: 0.5
-destroyBulletSameTeam: true
-destroyBullet: {
-	instantDisappear: true
-	absorbable: false
-	collides: false
-	hittable: false
-	hitEffect: false
-	despawnEffect: false
-	fragBullets: 3
-	fragBullet: {
-		spawnUnit: 16p-01-ares
-	}
-}
