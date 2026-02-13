@@ -79,46 +79,18 @@ drawer: {
       suffix: -cover
     }
     {
-      type: DrawCrucibleFlame
-      flameRad: 0.15
-      circleSpace: 0.15
-      particleSize: 1.2
-      particleRad: 10
-    }
-    {
       type: DrawLiquidTile
       drawLiquid: 02b-02-ichor
       padding: 1.5
       alpha: 0.5
     }
     {
-      type: DrawBubbles
+      type: DrawCrucibleFlame
       color: 51c59c
-      sides: 10
-      recurrence: 3
-      spread: 9
-      radius: 1.5
-      amount: 32
-    }
-    {
-      type: DrawParticles
-      color: 51c59c
-      alpha: 0.85
-      particleSize: 1.5
-      particles: 12
-      particleRad: 15
-      particleLife: 60
-      reverse: true
-    }
-    {
-      type: DrawParticles
-      color: 479075
-      alpha: 0.85
+      flameRad: 0.1
+      circleSpace: 0.1
       particleSize: 1.2
-      particles: 10
       particleRad: 10
-      particleLife: 60
-      reverse: true
     }
     {
       type: DrawDefault

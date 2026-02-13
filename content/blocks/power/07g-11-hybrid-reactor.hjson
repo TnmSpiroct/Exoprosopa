@@ -1,8 +1,6 @@
 type: HeaterGenerator
-name: Hybrid Reactor
-description: Uses various fluids to diffuse Pyroxene.
 size: 8
-health: 12500
+health: 13000
 armor: 15
 category: power
 squareSprite: false
@@ -31,7 +29,7 @@ explodeSound: explosionReactor2
 explosionRadius: 22
 explosionDamage: 2200
 powerProduction: 112
-generateEffect: generatespark
+generateEffect: none
 ambientSound: loopFlux
 ambientSoundVolume: 0.18
 drawer: {
@@ -42,36 +40,91 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawLiquidRegion
-      drawLiquid: 02b-06-morphitix-plasma
-      suffix: -morphplasm
-    }
-    {
-      type: DrawLiquidRegion
-      drawLiquid: 02b-02-ichor
-      suffix: -ichor
-    }
-    {
-      type: DrawLiquidRegion
-      drawLiquid: 02b-03-necroplasm
-      suffix: -necroplasm
-    }
-    {
-      type: DrawLiquidRegion
-      drawLiquid: 02b-04-miasma
-      suffix: -miasma
-    }
-    {
-      type: DrawLiquidRegion
+      type: DrawLiquidTile
       drawLiquid: 02b-05-hydrowater
-      suffix: -hydriyte
+      padding: 1.5
+    }
+    {
+      type: DrawRegion
+      suffix: -cover
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padLeft: 1.5
+      padTop: 1.5
+      padBottom: 45
+      padRight: 45
+    }
+    {
+      type: DrawCrucibleFlame
+      y: 19
+      x: -19
+      flameRad: 0.1
+      circleSpace: 0.1
+      particleSize: 1
+      particleRad: 10
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-03-necroplasm
+      padLeft: 1.5
+      padTop: 45
+      padBottom: 1.5
+      padRight: 45
+    }
+    {
+      type: DrawCrucibleFlame
+      y: -19
+      x: -19
+      flameRad: 0.1
+      circleSpace: 0.1
+      particleSize: 1
+      particleRad: 10
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-04-miasma
+      padLeft: 45
+      padTop: 1.5
+      padBottom: 45
+      padRight: 1.5
+    }
+    {
+      type: DrawCrucibleFlame
+      y: 19
+      x: 19
+      flameRad: 0.1
+      circleSpace: 0.1
+      particleSize: 1
+      particleRad: 10
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-06-morphitix-plasma
+      padLeft: 45
+      padTop: 45
+      padBottom: 1.5
+      padRight: 1.5
+    }
+    {
+      type: DrawCrucibleFlame
+      y: -19
+      x: 19
+      flameRad: 0.1
+      circleSpace: 0.1
+      particleSize: 1
+      particleRad: 10
+    }
+    {
+      type: DrawPlasma
     }
     {
       type: DrawDefault
     }
     {
       type: DrawHeatOutput
-      heatColor: FD898C
+      suffix: -heat
     }
   ]
 }
