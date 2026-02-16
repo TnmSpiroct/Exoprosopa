@@ -8,6 +8,7 @@ requirements: [
   01a-02-item-nickel/150
   01a-05-item-aluminium/120
   01a-06-item-chromium/100
+  01a-07-item-clevorite/25
 ]
 research: {
   parent: 10j-12-regenerator
@@ -15,7 +16,7 @@ research: {
     02b-02-ichor,
     {
       type: OnSector
-      preset:19s-12-hazardous-wasteland
+      preset: 19s-12-hazardous-wasteland
     }
   ]
 }

@@ -10,7 +10,15 @@ requirements: [
   01a-05-item-aluminium/60
   01a-06-item-chromium/60
 ]
-research: 0011-effect
+research: {
+  parent: 0011-effect
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-06-crest
+    }
+  ]
+}
 range: 100
 healAmount: 1.5
 glowColor: 59467e
