@@ -10,12 +10,12 @@ research: 10j-12-regenerator
 bullet: {
   type: LightningBulletType
   hitSound: shockBullet
-  damage: 28
+  damage: 30
   lightningLength: 3
   lightningLengthRand: 4
   lightningColor: BC3443
   status: 13m-03-hsos6
-  statusDuration: 80
+  statusDuration: 75
   killShooter: true
 }
 requirements: [
