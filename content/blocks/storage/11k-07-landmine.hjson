@@ -1,10 +1,10 @@
 type: ShockMine
 hasShadow: false
 health: 125
-damage: 50
+damage: 45
 tileDamage: 18
 length: 24
-tendrils: 6
+tendrils: 5
 category: effect
 research: 10j-12-regenerator
 bullet: {
