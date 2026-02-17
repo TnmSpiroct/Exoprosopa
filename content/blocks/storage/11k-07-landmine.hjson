@@ -1,9 +1,9 @@
 type: ShockMine
 hasShadow: false
 health: 125
-damage: 45
-tileDamage: 18
-length: 24
+damage: 40
+tileDamage: 15
+length: 20
 tendrils: 5
 category: effect
 research: 10j-12-regenerator
@@ -15,7 +15,7 @@ bullet: {
   lightningLengthRand: 4
   lightningColor: BC3443
   status: 13m-03-hsos6
-  statusDuration: 75
+  statusDuration: 70
   killShooter: true
 }
 requirements: [
