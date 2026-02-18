@@ -1,4 +1,4 @@
-# Exoprosopa V0.8: Endgame Update
+# Exoprosopa V0.9: Pre-Finalize Update
 <div align = center>
 
 <br>
@@ -18,8 +18,8 @@
 </div>
 
 - Polished content & linear campaign progression.<br>
-- Capture and conquer with over 20 campaign maps.<br>
-- Over 21 items to be discovered, 196 blocks to be researched. and 30 different units to build!<br>
+- Capture and conquer with over 22 campaign maps.<br>
+- Over 21 items to be discovered, 246 blocks to be researched. and 30 different units to build!<br>
 - Harvest the planet with your technology before Astral Infection awaken and conquer the entire planet.
 
 <div align = center>
@@ -36,7 +36,7 @@ This mod requires newest mindustry build to be played (Beta 153)
 
 <div align = center>
 
-## Changelogs - V0.8 Endgame Udpate
+## Changelogs - V0.9 Pre-Finalize Udpate
 </div>
 
 - Campaign Sectors [onGoing]:
@@ -61,16 +61,14 @@ This mod requires newest mindustry build to be played (Beta 153)
   - Ridgeline
   - Aeroplex Fort
   - Novaris Facility
-- Finalized Cores Block & Units
-- New Effect Block: Enforcer [Shockwave Tower]
+- Added 2 Ne Guardian Unit [Specialized]
+  - Honsha [Tank Unit]
+  - Huntress [Flying Unit]
 - Enemy Core Landing Effect - Rhodes Core Land VFX
 - Rework Weapon of Units:
   - T5 Tank - Rancor
   - T3 Tank - Bulwark
 - New Ichor Tiles & Mesa Biome
-- Implement Turret Pre-Rotation Feature
-- Fixed Inconsistency Ambient Light Color
-- Production Blocks VFX Overhaul
 - Added New Blocks:
   - Cryogenics Synthetis Chamber
   - Nucrid Scrapper
@@ -80,10 +78,7 @@ This mod requires newest mindustry build to be played (Beta 153)
   - Large Block Fabricator
   - Hoverducts
   - Prime Regenerator
-- Resprited Overboosted Status
-- Balancing:
-  - Radiative Heater
-  - Blast Chamber
+  - Technoworks
 - Cobalt Cost Reduction
   - Powerline 6 > 5
   - Pressure Gen 40 > 30
@@ -110,6 +105,9 @@ This mod requires newest mindustry build to be played (Beta 153)
 - Archangel Revamp
 - Fixes Suzuran Kit's Body Sprite
 - Item Bloodstone Animaton
+- Various Sprite Changes
+- Unitpart & Fabricator Cost Balancing
+- Added Leg Parts
 <br>
 
 ![Banner]
@@ -123,4 +121,6 @@ This mod requires newest mindustry build to be played (Beta 153)
 [Banner]: banner.png
 [Discord]: https://discord.gg/E3N63nvCSc
 [Commits]: https://github.com/TnmSpiroct/exoprosopa/commits/main
+
+
 
