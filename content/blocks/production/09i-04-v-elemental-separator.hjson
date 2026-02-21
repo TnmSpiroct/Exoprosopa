@@ -62,7 +62,7 @@ ambientSound: loopCultivator
 ambientSoundVolume: 0.065
 squareSprite: false
 research: {
-  parent: 09i-04-u-aquanite-filter
+  parent: 09i-04-u-aquafilter
   objectives: [
     {
       type: OnSector
