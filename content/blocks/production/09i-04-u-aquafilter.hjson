@@ -24,7 +24,7 @@ craftTime: 60
 craftEffect: none
 outputItems: [
   01a-05-item-raw-nichrome/4
-  01a-01-item-cobalt/3
+  01a-01-item-cobalt/4
 ]
 consumes: {
   items: [

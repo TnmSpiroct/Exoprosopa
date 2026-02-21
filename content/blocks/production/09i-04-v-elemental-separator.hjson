@@ -4,7 +4,7 @@ health: 650
 category: crafting
 itemCapacity: 20
 requirements: [
-  01a-02-item-nickel/50
+  01a-02-item-nickel/40
   01a-05-item-aluminium/80
   01a-06-item-chromium/40
 ]
@@ -12,7 +12,7 @@ craftTime: 60
 craftEffect: none
 outputItems: [
   01a-06-item-chromium/2
-  01a-02-item-nickel/3
+  01a-02-item-nickel/2
 ]
 consumes: {
   items: [
