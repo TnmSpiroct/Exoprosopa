@@ -141,7 +141,7 @@ drawer: {
     {
       type: RegionPart
       suffix: -glow
-      heatColor: 92B25850
+      heatColor: a55c3565
       drawRegion: false
       progress: warmup
       heatProgress: warmup

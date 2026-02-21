@@ -16,14 +16,15 @@ coolant: {
   liquid: 02b-02-a-purified-elixir
   amount: 0.5
 }
-coolantMultiplier: 1.6
-minWarmup: 0.4
+coolantMultiplier: 1.5
+minWarmup: 0.55
 warmupMaintainTime: 160
-shootWarmupSpeed: 0.05
+shootWarmupSpeed: 0.08
 shoot: {
 shots: 3
 shotDelay: 8
 }
+newTargetInterval: 40
 shake: 8
 recoil: 2.5
 outlineColor: 2C2A36
