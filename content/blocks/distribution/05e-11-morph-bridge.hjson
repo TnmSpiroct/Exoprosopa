@@ -6,6 +6,8 @@ pulse: true
 transportTime: 2
 arrowPeriod: 0.9
 arrowTimeScl: 2.75
+hasPower: false
+outputsPower: false
 requirements: [
   01a-05-item-aluminium/15
   01a-09-item-morphite/4
