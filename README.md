@@ -43,7 +43,7 @@ This mod requires newest mindustry build to be played (Beta 153)
   - Sealed Outpost > Encampment ☑
   - Reservoir - Abandoned Reservoir [Remake] ☑
   - Botanical Garden [Remake] ☑
-  - Eridanus [WIP] ☑
+  - Eridanus ☑
   - Bioproject Core ☑
   - Clover Springs [WIP] ☑
   - Myrra Heights [WIP] ☑
@@ -120,6 +120,7 @@ This mod requires newest mindustry build to be played (Beta 153)
 [Banner]: banner.png
 [Discord]: https://discord.gg/E3N63nvCSc
 [Commits]: https://github.com/TnmSpiroct/exoprosopa/commits/main
+
 
 
 
