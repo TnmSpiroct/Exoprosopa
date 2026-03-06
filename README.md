@@ -95,7 +95,6 @@ This mod requires newest mindustry build to be played (Beta 153)
   - Chromium Pipe 1 > 0
   - Cargo Bay 90 > 0
   - Block Regenerator 150 > 100
-- Less Weather Effects
 - Nerf Turrets
   - Phantasm
   - Skyhammer
@@ -120,6 +119,7 @@ This mod requires newest mindustry build to be played (Beta 153)
 [Banner]: banner.png
 [Discord]: https://discord.gg/E3N63nvCSc
 [Commits]: https://github.com/TnmSpiroct/exoprosopa/commits/main
+
 
 
 
