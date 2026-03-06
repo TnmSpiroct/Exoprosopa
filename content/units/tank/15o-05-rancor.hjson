@@ -31,8 +31,44 @@ treadRects: [
 ]
 weapons: [
   {
+  x: 18.25
+  y: 8.5
+  name: rancor-minigun
+  reload: 6
+  mirror: true
+  rotate: true
+  rotateSpeed: 1.5
+  shootSound: shootPierce
+  shootSoundVolume: 0.4
+  bullet: {
+    type: BasicBulletType
+    speed: 8
+    backColor: 93E2EE
+    frontColor: 93E2EE
+    hitColor: 93E2EE
+    width: 10
+    height: 14
+    lifetime: 20
+    damage: 55
+    trailColor: 93E2EE
+    trailLength: 4
+    trailWidth: 1.25
+    shootEffect: colorSpark
+    despawnEffect: {
+      type: WaveEffect
+      rotWithParent: true
+      followParent: true
+      lifetime: 9
+      sizeFrom: 0
+      sizeTo: 20
+      colorFrom: ffffff
+      colorTo: feb380
+      }
+    }
+  }
+  {
     x: 0
-    y: 0
+    y: 1.35
     name: rancor-weapon
     reload: 125
     mirror: false
@@ -139,42 +175,6 @@ weapons: [
         hitEffect: titanExplosionFrag
         pierce: true
         pierceArmor: true
-      }
-    }
-  }
-  {
-  x: 18.25
-  y: 0
-  name: rancor-minigun
-  reload: 6
-  mirror: true
-  rotate: true
-  rotateSpeed: 1.5
-  shootSound: shootPierce
-  shootSoundVolume: 0.4
-  bullet: {
-    type: BasicBulletType
-    speed: 8
-    backColor: 93E2EE
-    frontColor: 93E2EE
-    hitColor: 93E2EE
-    width: 10
-    height: 14
-    lifetime: 20
-    damage: 55
-    trailColor: 93E2EE
-    trailLength: 4
-    trailWidth: 1.25
-    shootEffect: colorSpark
-    despawnEffect: {
-      type: WaveEffect
-      rotWithParent: true
-      followParent: true
-      lifetime: 9
-      sizeFrom: 0
-      sizeTo: 20
-      colorFrom: ffffff
-      colorTo: feb380
       }
     }
   }

@@ -1,7 +1,7 @@
 captureWave: 20
 difficulty: 10
 planet: frostnova
-sector: 99
+sector: 39
 research: {
   parent: 19s-14-trekker-campsite
   objectives: [

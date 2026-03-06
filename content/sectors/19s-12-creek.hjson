@@ -1,13 +1,13 @@
 captureWave: 25
-difficulty: 6
+difficulty: 8
 planet: frostnova
-sector: 218
+sector: 40
 research: {
-  parent: 19s-08-botanical-garden
+  parent: 19s-11-precipice
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-08-botanical-garden
+      preset: 19s-11-precipice
     }
   ]
 }

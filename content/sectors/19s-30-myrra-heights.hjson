@@ -1,6 +1,6 @@
 difficulty: 10
 planet: frostnova
-sector: 136
+sector: 144
 research: {
   parent: 19s-24-clover-springs
   objectives: [

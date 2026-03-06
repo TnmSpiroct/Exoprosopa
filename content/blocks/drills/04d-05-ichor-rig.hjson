@@ -22,7 +22,7 @@ requirements: [
   01a-06-item-chromium/140
   01a-07-item-clevorite/80
 ]
-craftTime: 150
+craftTime: 240
 craftEffect: none
 outputLiquids: [
   02b-02-ichor/0.5

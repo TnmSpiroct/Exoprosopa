@@ -1,9 +1,9 @@
 type: missile
 template: MissileUnitType
 flying: true
-speed: 5.5
+speed: 6
 physics: false
-lifetime: 56
+lifetime: 60
 rotateSpeed: 8
 homingDelay: 3
 trailLength: 0
@@ -41,8 +41,13 @@ weapons: [
     shake: 1
     bullet: {
       type: ExplosionBulletType
+      collidesAir: false
       splashDamage: 90
       splashDamageRadius: 28
+      suppressionRange: 120
+      suppressionDuration: 300
+      suppressionEffectChance: 40
+      suppressColor: 92b25890
     }
   } 
 ]

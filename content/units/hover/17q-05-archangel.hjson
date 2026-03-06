@@ -3,7 +3,6 @@ immunities: [burning, shocked
 ]
 flying: true
 faceTarget: true
-targetAir: false
 shadowElevation: 0.15
 drag: 0.07
 outlineColor: 26262F
@@ -57,19 +56,7 @@ parts: [
     suffix: -blade
     heatProgress: recoil
     mirror: true
-    moveY: -0.25
-    heatColor: F8B684CC
-    layerOffset: -2
     under: true
-    moves: [
-      {
-      type: PartMove
-      progress: recoil
-      x: 1.25
-      y: -1.25
-      rot: -5
-      }
-    ]
   }
 ]
 itemCapacity: 650
@@ -80,13 +67,13 @@ abilities: [
     radius: 80
     sides: 6
     cooldown: 1500
-    regen: 1.7
+    regen: 2
     max: 4000
   }
   {
     type: SuppressionFieldAbility
-    reload: 600
-    range: 230
+    reload: 900
+    range: 280
     orbRadius: 5.6
     orbSinScl: 7
     y: 2
@@ -147,7 +134,7 @@ weapons: [
       status: blasted
       recoil: 4
       speed: 5
-      lifetime: 96.1
+      lifetime: 100
       width: 10
       height: 18
       hitColor: D8F18C

@@ -3,11 +3,11 @@ difficulty: 8
 planet: frostnova
 sector: 216
 research: {
-  parent: 19s-12-hazardous-wasteland
+  parent: 19s-12-creek
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-12-hazardous-wasteland
+      preset: 19s-12-creek
     }
   ]
 }
