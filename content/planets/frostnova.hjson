@@ -62,8 +62,6 @@ landCloudColor: e2effc60
 hasAtmosphere: true
 bloom: false
 
-teams: blue
-waveTeam: blue
 placeRangeCheck: false
 showSpawns: true
 fog: true
@@ -76,8 +74,6 @@ rules.staticFog: true
 rules.fog: true
 rules.showSpawns: true
 rules.randomWaveAI: false
-rules.teams: blue
-rules.waveTeam: blue
 rules.coreDestroyClear: true
 
 showRtsAIRule: true
