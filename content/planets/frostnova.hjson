@@ -62,11 +62,35 @@ landCloudColor: e2effc60
 hasAtmosphere: true
 bloom: false
 
-fog: true
+waveTeam: blue
+placeRangeCheck: false
 showSpawns: true
+fog: true
+staticFog: true
+lighting: false
+coreDestroyClear: true
+onlyDepositCore: true
+
+rules.staticFog: true
+rules.fog: true
+rules.showSpawns: true
+rules.randomWaveAI: false
+rules.teams: blue
+rules.waveTeam: blue
+rules.coreDestroyClear: true
+
+showRtsAIRule: true
+
+campaignRules.fog: true
+campaignRules.showSpawns: true
+campaignRules.rtsAI: true
+
 campaignRuleDefaults.fog: true
 campaignRuleDefaults.showSpawns: true
+campaignRuleDefaults.rtsAI: true
 
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.3
 startSector: 0
 sectorSize: 3
 parent: sun
