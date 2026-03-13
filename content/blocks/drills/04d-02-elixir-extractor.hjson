@@ -1,6 +1,7 @@
 type: AttributeCrafter
 attribute: elixir
 size: 3
+fogRadius: 3
 health: 750
 hasLiquids: true
 squareSprite: false
