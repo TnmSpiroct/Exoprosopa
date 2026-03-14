@@ -22,7 +22,7 @@ researchCost: [
   01a-01-item-cobalt/10
   01a-02-item-nickel/15
 ]
-drillTime: 95
+drillTime: 96
 output: 01a-04-item-tantra-sand
 attribute: tantra
 ambientSound: loopDrill
