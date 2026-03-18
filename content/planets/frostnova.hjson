@@ -76,8 +76,6 @@ rules.showSpawns: true
 rules.randomWaveAI: false
 rules.coreDestroyClear: true
 
-showRtsAIRule: true
-
 campaignRules.fog: true
 campaignRules.showSpawns: true
 campaignRules.rtsAI: true
@@ -98,8 +96,11 @@ orbitTime: 3000
 orbitSpacing: 1
 radius: 1.2
 
+showRtsAIRule: true
 prebuildBase: true
 clearSectorOnLose: true
+coreDestroyClear: true
+onlyDepositCore: true
 defaultCore: 11k-01-core-apex
 enemyBuildSpeedMultiplier: 0.2
 enemyCoreSpawnReplace: false
