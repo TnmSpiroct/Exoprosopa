@@ -1,8 +1,8 @@
 type: mech
 flying: false
 hitSize: 8
-health: 4150
-armor: 9
+health: 4800
+armor: 8
 speed: 0.38
 rotateSpeed: 2.5
 itemCapacity: 50
@@ -18,21 +18,22 @@ mechFrontSway: 0.55
 abilities: [
   {
     type: ShieldRegenFieldAbility
-    reload: 750
-    range: 35
-    amount: 15
-    max: 350
+    reload: 120
+    range: 32
+    amount: 25
+    max: 450
     soundVolume: 0.2
   }
   {
     type: ShieldArcAbility
-    radius: 8
-    angle: 160
-    width: 2.75
-    y: 2.5
+    radius: 36
+    angle: 50
+    width: 2
+    y: -26
     cooldown: 750
     regen: 0.75
-    max: 275
+    max: 380
+    chanceDeflect: 0.5
   }
 ]
 weapons: [
@@ -40,7 +41,7 @@ weapons: [
     x: 10
     y: 0
     name: decode
-    reload: 45
+    reload: 54
     mirror: true
     alternate: true
     rotate: false
@@ -51,21 +52,22 @@ weapons: [
     bullet: {
       type: LaserBulletType
       recoil: 0.5
-      damage: 95.5
+      damage: 90.85
       sideAngle: 45
-      sideLength: 25
+      sideLength: 28
       sideWidth: 1
       pierce: false
       pierceCap: 4
       pierceBuilding: true
       status: 13m-07-stunned
-      statusDuration: 10
+      statusDuration: 30
       bulletInterval: 6
       intervalBullet: {
         type: LightningBulletType
-        damage: 35.5
+        damage: 34.15
         lightningLength: 1.5
         lightningLengthRand: 3
+        status: shocked
       }
     }
   }

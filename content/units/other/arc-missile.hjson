@@ -1,11 +1,16 @@
 type: missile
 template: MissileUnitType
 flying: true
+health: 55
+hitSize: 0.5
 speed: 6
 physics: false
 lifetime: 60
 rotateSpeed: 8
-homingDelay: 3
+targetAir: false
+homingDelay: 4
+maxRange: 5
+hidden: true
 trailLength: 0
 useUnitCap: false
 drawCell: false
@@ -33,8 +38,6 @@ outlines: false
 weapons: [
   {
     reload: 1
-    predictTarget: false 
-    useAttackRange: false
     shootOnDeath: true
     mirror: true
     shootCone: 360

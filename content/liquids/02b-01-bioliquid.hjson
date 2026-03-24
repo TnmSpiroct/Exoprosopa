@@ -6,7 +6,7 @@ color: d488ea
 # Research tree
 research: {
   # position in the techtree
-  parent: 0002-liquid
+  parent: 0014-liquid
   objectives: [
     # research .... first to unlock this liquid.
     04d-02-elixir-collector,

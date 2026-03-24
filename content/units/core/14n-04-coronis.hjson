@@ -17,7 +17,7 @@ hovering: true
 faceTarget: true
 health: 300
 armor: 2
-speed: 1.15
+speed: 1.2
 mineWalls: true
 mineSpeed: 12
 mineTier: 1
@@ -30,16 +30,17 @@ rotateSpeed: 4
 itemCapacity: 15
 outlineColor: 26262f
 fogRadius: 15
-range: 105
+isEnemy: false
+range: 104
 stepSound: walkerStepSmall
 stepSoundVolume: 0.4
 abilities: [
   {
     type: ShieldRegenFieldAbility
     reload: 300
-    range: 40
-    amount: 15
-    max: 60
+    range: 20
+    amount: 20
+    max: 200
     soundVolume: 0.2
   }
 ]
@@ -57,9 +58,10 @@ weapons: [
     layerOffset: -0.002
       bullet: { 
       type: BasicBulletType
+      damage: 10
       width: 4
-      splashDamageRadius: 20
-      splashDamage: 35
+      splashDamageRadius: 8
+      splashDamage: 10
       lifetime: 30
       speed: 3.5
       smokeEffect:shootSmokeSquare
@@ -73,22 +75,34 @@ weapons: [
       hitColor: d8f18c
       buildingDamageMultiplier: 0.01
       collidesTeam: true
-      healPercent: 2
-      fragbullets: 1
-      fragRandomSpread: 0
-        fragBullet: {
-        type: LightningBulletType
-        lightningLength: 2
-        damage: 3
-        pierce: false
-        pierceBuilding: false
-        lightningColor: d8f18c
-      }
+      healPercent: 4.5
+      hitEffect: [
+        {
+          type: hitSquaresColor
+          colorFrom: d8f18c
+          colorTo: d8f18c
+          sizeFrom: 1.8
+          sizeTo: 0
+          lifetime: 8
+          strokeFrom: 1.6
+          strokeTo: 0.4
+        }
+        {
+          type: WaveEffect
+          colorFrom: d8f18c
+          colorTo: d8f18c
+          sizeFrom: 0
+          sizeTo: 9
+          lifetime: 9
+          strokeFrom: 0.8
+          strokeTo: 0.2
+        }
+      ]
     }
   }
 ]
 research: {
-  parent: 0016-unit
+  parent: 0012-unit
   objectives: [
     {
       type: OnSector

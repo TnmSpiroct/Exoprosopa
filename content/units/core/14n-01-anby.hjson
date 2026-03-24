@@ -1,38 +1,43 @@
-type: flying
+type: payload
 flying: true
+template: ErekirUnitType
 coreUnitDock: true
 controller: BuilderAI
 coreFleeRange: 500
-faceTarget: true
-targetPriority: -2
-targetAir: false
 commands: [rebuild
 ]
+targetAir: false
+range: 60
+faceTarget: true
+targetPriority: -2
+lowAltitude: false
+mineWalls: true
+mineFloor: false
+mineHardnessScaling: false
+mineSpeed: 6.5
+mineTier: 1
+buildSpeed: 1.2
+drag: 0.08
+speed: 5
+rotateSpeed: 8
+accel: 0.09
+itemCapacity: 50
 health: 400
 armor: 2
-speed: 4
-mineWalls: true
+hitSize: 9
+payloadCapacity: 256
+pickupUnits: false
+vulnerableWithPayloads: true
+fogRadius: 0
 isEnemy: false
 hittable: false
 targetable: false
-mineSpeed: 6
-mineTier: 1
-buildSpeed: 1.1
-accel: 0.09
-drag: 0.08
-lowAltitude: false
 groundLayer: 40
 shadowElevation: 0.1
-rotateSpeed: 10
-itemCapacity: 50
 outlineColor: 26262f
 waveTrailY: -3.0
 trailColor: d8f18c
 trailLength: 12
-fogRadius: 0
-payloadCapacity: 2
-pickupUnits: false
-vulnerableWithPayloads: true
 wreckSoundVolume: 0.7
 deathSoundVolume: 0.7
 engines: [
@@ -64,12 +69,12 @@ engines: [
     fractionRepairSpeed: 0.06
     bullet: {
       type: BulletType
-      maxRange: 40
+      maxRange: 45
       }
     }
 ]
 research: {
-  parent: 0016-unit
+  parent: 0012-unit
   objectives: [
     {
       type: OnSector

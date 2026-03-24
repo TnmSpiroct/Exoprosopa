@@ -4,6 +4,6 @@ hardness: 1
 # More cost = more build time
 cost: 0.5
 # Research tree
-research: 0001-item
+research: 0013-item
 # Must apply on campaign mod
 shownPlanets: [frostnova, teresa]

@@ -1,5 +1,5 @@
 type: flying
-immunities: [burning, shocked
+immunities: [shocked
 ]
 flying: true
 faceTarget: true
@@ -55,7 +55,7 @@ abilities: [
     width: 6
     y: 2
     cooldown: 900
-    regen: 0.85
+    regen: 6
     max: 1200
   }
 ]
@@ -63,7 +63,7 @@ weapons: [
   {
     x: 0
     y: -4
-    reload: 180
+    reload: 170
     rotate: false
     mirror: false
     shootSound: shootEmp
@@ -73,9 +73,9 @@ weapons: [
       damage: 625
       recoil: 1.65
       splashDamage: 80.75
-      splashDamageRadius: 30
+      splashDamageRadius: 28
       speed: 10
-      lifetime: 35
+      lifetime: 36
       pierce: true
       pierceCap: 5
       trailEffect: shootSmokeTitan
@@ -112,9 +112,7 @@ weapons: [
       # Buff range
       sideLength: 35
       sideWidth: 1
-      pierce: false
-      # Nerf pierce
-      pierceCap: 4
+      pierce: true
       pierceBuilding: true
     }
   }

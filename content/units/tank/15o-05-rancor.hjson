@@ -6,7 +6,7 @@ faceTarget: false
 health: 38550
 crushDamage: 6
 armor: 36
-speed: 0.475
+speed: 0.46
 rotateSpeed: 0.6
 itemCapacity: 110
 outlineColor: 26262F
@@ -50,6 +50,8 @@ weapons: [
     height: 14
     lifetime: 20
     damage: 55
+    pierce: true
+    pierceCap: 5
     trailColor: 93E2EE
     trailLength: 4
     trailWidth: 1.25
@@ -70,7 +72,7 @@ weapons: [
     x: 0
     y: 1.35
     name: rancor-weapon
-    reload: 125
+    reload: 120
     mirror: false
     shake: 6
     rotate: true
@@ -113,9 +115,9 @@ weapons: [
       shrinkY: 0
       shrinkX: 0
       trailInterval: 3
-      speed: 5
-      lifetime: 57.5
-      damage: 155
+      speed: 5.5
+      lifetime: 52.4
+      damage: 280
       hitEffect: [
         titanExplosionSmall,
         titanSmokeSmall
@@ -145,7 +147,7 @@ weapons: [
       ]
       hitEffect: massiveExplosion
       splashDamage: 775
-      splashDamageRadius: 50
+      splashDamageRadius: 48
       hitSound: explosionPlasmaSmall
       fragOnHit: true
       fragBullets: 8
@@ -166,9 +168,8 @@ weapons: [
         height: 0
         speed: 0.3
         lifetime: 40
-        pierceCap: 2
         splashDamage: 165
-        splashDamageRadius: 25
+        splashDamageRadius: 24
         despawnShake: 2
         despawnEffect: hitBulletColor
         despawnSound: explosionNavanax

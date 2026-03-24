@@ -19,8 +19,8 @@ health: 600
 armor: 4
 speed: 1.7
 mineWalls: true
-mineSpeed: 14.5
-mineTier: 2
+mineSpeed: 16
+mineTier: 1
 buildSpeed: 2.75
 accel: 0.1
 drag: 0.075
@@ -30,17 +30,18 @@ rotateSpeed: 5.75
 itemCapacity: 25
 outlineColor: 26262F
 fogRadius: 20
-range: 175
+isEnemy: false
+range: 160
 stepSound: walkerStepSmall
 stepSoundVolume: 0.8
 stepSoundPitch: 0.75
 abilities: [
   {
     type: ShieldRegenFieldAbility
-    reload: 540
-    range: 85
-    amount: 15
-    max: 850
+    reload: 300
+    range: 60
+    amount: 30
+    max: 600
     soundVolume: 0.2
   }
 ]
@@ -49,7 +50,7 @@ weapons: [
     x: -9
     y: 7.75
     name: evernight-blade
-    reload: 28
+    reload: 30
     recoil: 1.5
     mirror: true
     rotate: false
@@ -59,9 +60,10 @@ weapons: [
     layerOffset: -0.002
       bullet: { 
       type: BasicBulletType
+      damage: 10
       width: 5
-      splashDamageRadius: 15
-      splashDamage: 105
+      splashDamageRadius: 16
+      splashDamage: 20
       lifetime: 40
       speed: 5
       smokeEffect:shootSmokeSquare
@@ -75,14 +77,14 @@ weapons: [
       hitColor: d8f18c
       buildingDamageMultiplier: 0.01
       collidesTeam: true
-      healPercent: 2.25
+      healPercent: 7.5
       despawnSound: explosion
       hitEffect: [
         {
           type: hitSquaresColor
           colorFrom: d8f18c
           colorTo: d8f18c
-          sizeFrom: 3
+          sizeFrom: 2.8
           sizeTo: 0
           lifetime: 11
           strokeFrom: 2
@@ -93,8 +95,8 @@ weapons: [
           colorFrom: d8f18c
           colorTo: d8f18c
           sizeFrom: 0
-          sizeTo: 13
-          lifetime: 13
+          sizeTo: 12
+          lifetime: 12
           strokeFrom: 1.2
           strokeTo: 0.4
         }
@@ -105,20 +107,20 @@ weapons: [
     x: 0
     y: -4.5
     name: evernight-mount
-    reload: 52.5
+    reload: 48
     rotate: true
     mirror: false
     shootSound: shootElectric
     shootSoundVolume: 0.2
-    rotateSpeed: 3.15
+    rotateSpeed: 3
     bullet: {
     type: LightningBulletType
-        lightningLength: 16
-        damage: 37.5
-        pierce: false
-        pierceBuilding: false
-        lightningColor: D8F18C
-        }
+     lightningLength: 16
+     damage: 35
+     pierce: false
+     pierceBuilding: false
+     lightningColor: D8F18C
+    }
   }
 ]
 parent: 14n-04-sepia

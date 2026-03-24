@@ -1,9 +1,14 @@
 type: flying
 flying: true
+template: ErekirUnitType
+coreUnitDock: true
 controller: BuilderAI
+coreFleeRange: 500
+commands: [rebuild
+]
 faceTarget: true
 targetPriority: -2
-health: 100
+health: 1000
 armor: 1
 speed: 5
 mineFloor: true
@@ -13,7 +18,7 @@ hittable: false
 targetable: false
 mineSpeed: 15
 mineTier: 1
-buildSpeed: 1.1
+buildSpeed: 2
 accel: 0.1
 drag: 0.08
 lowAltitude: false

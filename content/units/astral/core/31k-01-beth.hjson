@@ -21,7 +21,7 @@ fogRadius: 50
 moveSound: loopThruster
 moveSoundPitchMin: 0.2
 moveSoundPitchMax: 1.5
-moveSoundVolume: 0.3
+moveSoundVolume: 0.25
 engines: [
    {
     x: 0
@@ -35,7 +35,7 @@ weapons: [
     x: -3.5
     y: 6.5
     name: beth-weapon
-    reload: 25
+    reload: 24
     recoil: 1.5
     mirror: true
     rotate: false
@@ -45,9 +45,10 @@ weapons: [
       bullet: { 
       type: BasicBulletType
       width: 4
+      damage: 5
       splashDamageRadius: 20
-      splashDamage: 45
-      lifetime: 30
+      splashDamage: 10
+      lifetime: 32
       speed: 4.5
       smokeEffect:shootSmokeSquare
       trailColor: D8F18C
@@ -60,7 +61,7 @@ weapons: [
       hitColor: 60C9AD
       buildingDamageMultiplier: 0.01
       collidesTeam: true
-      healPercent: 1
+      healPercent: 5
     }
   }
 ]
@@ -71,7 +72,7 @@ abilities: [
     blinkSize: 0.0001
     damage: 5
     reload: 80
-    healPercent: 1.2
+    healPercent: 5
     hitUnits: true
     hitBuildings: true
     layer: 1

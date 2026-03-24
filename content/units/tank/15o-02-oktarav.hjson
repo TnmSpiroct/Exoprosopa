@@ -3,10 +3,10 @@ hitSize: 17
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 2000
-armor: 7
+health: 2200
+armor: 6
 template: TankUnitType
-speed: 0.825
+speed: 0.83
 rotateSpeed: 1.7
 itemCapacity: 0
 outlineColor: 26262F
@@ -39,9 +39,9 @@ weapons: [
       type: BasicBulletType
       sprite: missile-large
       width: 6
-      splashDamageRadius: 15.5
-      splashDamage: 10
-      pierceCap: 1
+      splashDamageRadius: 16
+      splashDamage: 7.5
+      pierce: true
       lifetime: 32
       damage: 42.5
       speed: 6

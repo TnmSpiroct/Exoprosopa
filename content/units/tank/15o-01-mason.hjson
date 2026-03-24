@@ -4,7 +4,7 @@ singleTarget: false
 omniMovement: false
 faceTarget: false
 targetAir: false
-health: 850
+health: 950
 armor: 4
 template: TankUnitType
 speed: 0.95
@@ -24,7 +24,7 @@ treadRects: [
   }
 ]
 research: {
-  parent: 0010-fabricator
+  parent: 0008-fabricator
   objectives: [
     {
       type: Research
@@ -49,7 +49,7 @@ weapons: [
       backColor: 377A86
       sprite: shell
       speed: 2.5
-      lifetime: 60
+      lifetime: 59.4
       splashDamage: 55
       splashDamageRadius: 20
       width: 15

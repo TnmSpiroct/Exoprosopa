@@ -5,7 +5,7 @@ speed: 10
 requirements: [
   01a-01-item-cobalt/1
 ]
-research: 0005-transport
+research: 0001-transport
 researchCost: [
   01a-01-item-cobalt/4
 ]

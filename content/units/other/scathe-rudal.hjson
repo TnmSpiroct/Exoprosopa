@@ -27,14 +27,16 @@ engineSize: 4
 engineOffset: 10
 trailLength: 18
 deathSound: explosionMissile
-abilities: [{
+abilities: [
+  {
     type: MoveEffectAbility
     effect: missileTrailSmoke
     rotation: 180
     y: -9
     interval: 4
     color: FFD37F45
-}]
+  }
+]
 weapons: [
   {
     reload: 1

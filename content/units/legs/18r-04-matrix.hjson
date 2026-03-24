@@ -1,7 +1,7 @@
 type: mech
 flying: false
 hitSize: 18
-health: 12000
+health: 11000
 armor: 18
 speed: 0.35
 rotateSpeed: 2.1
@@ -20,9 +20,9 @@ stepSoundVolume: 0.35
 abilities: [
   {
     type: ShieldRegenFieldAbility
-    reload: 2500
-    range: 35
-    amount: 15
+    reload: 60
+    range: 36
+    amount: 50
     max: 2450
     soundVolume: 0.2
   }
@@ -39,7 +39,7 @@ weapons: [
     shootY: 5
     shootX: 1.2
     name: matrix
-    reload: 45
+    reload: 60
     mirror: true
     alternate: true
     rotate: false
@@ -56,8 +56,8 @@ weapons: [
     bullet: {
       type: BasicBulletType
       damage: 225
-      splashDamage: 80.75
-      splashDamageRadius: 30
+      splashDamage: 70.5
+      splashDamageRadius: 28
       width: 12
       height: 12
       speed: 8
@@ -74,20 +74,20 @@ weapons: [
     x: 6.8
     y: -3
     name: matrix-mount
-    reload: 35
+    reload: 24
     mirror: true
     alternate: true
     rotate: true
     rotateSpeed: 4
     bullet: {
       type: BasicBulletType
-      speed: 6
+      speed: 5
       lifetime: 35
       damage: 20
       width: 8
       height: 8
       shootEffect: shootSmall
-      bulletInterval: 0.555
+      bulletInterval: 12
       intervalBullet: {
         type: ShrapnelBulletType
         lifetime: 2.4
@@ -97,6 +97,7 @@ weapons: [
         width: 2
         serrations: 0
         despawnSound: shockBulletByte
+        status: shocked
       }
     }
   }

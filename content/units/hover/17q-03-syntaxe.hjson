@@ -69,7 +69,7 @@ weapons: [
   {
     x: 0
     y: 1
-    reload: 95
+    reload: 109
     rotate: false
     mirror: false
     minWarmup: 0.55
@@ -79,22 +79,18 @@ weapons: [
       mag: 1
       scl: 3
     }
-    shootStatus: unmoving
-    shootStatusDuration: 0.8
     shootSound: explosionObviate
     bullet: {
     type: BasicBulletType
-      damage: 52.5
-      recoil: 0.4
+      damage: 54.15
       width: 10
       height: 15
       hitSize: 6
-      speed: 7
+      speed: 6
       shootEffect: shootTitan
       smokeEffect: shootSmokeTitan
-      lifetime: 26
-      pierce: false
-      pierceCap: 2
+      lifetime: 32
+      pierce: true
       pierceBuilding: false
       despawnSound: explosionArtilleryShock
       hitColor: d8f18c
@@ -106,10 +102,11 @@ weapons: [
       fragBullets: 2
       fragBullet: {
         type: LightningBulletType
-        damage: 24.5
+        damage: 15.85
         lightningLength: 2.5
         lightningLengthRand: 4.5
         lightningColor: d8f18c
+        status: shocked
       }
     }
   }

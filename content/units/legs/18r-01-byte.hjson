@@ -1,8 +1,8 @@
 type: mech
 flying: false
 hitSize: 8
-health: 750
-armor: 3
+health: 850
+armor: 2
 speed: 0.65
 rotateSpeed: 4.75
 itemCapacity: 25
@@ -11,7 +11,7 @@ mechLegColor: 26262F
 stepSound: mechStepSmall
 stepSoundVolume: 0.4
 research: {
-  parent: 0010-fabricator
+  parent: 0008-fabricator
   objectives: [
     {
       type: Research
@@ -23,13 +23,14 @@ researchCostMultiplier: 1
 abilities: [
     {
     type: ShieldArcAbility
-    radius: 8
-    angle: 110
+    radius: 25.5
+    angle: 50
     width: 2
-    y: 2
-    cooldown: 750
-    regen: 0.5
+    y: -18
+    cooldown: 300
+    regen: 0.33333333
     max: 120
+    chanceDeflect: 0.5
   }
 ]
 weapons: [
@@ -45,12 +46,12 @@ weapons: [
     bullet: {
       type: BasicBulletType
       speed: 2.5
-      lifetime: 55
-      damage: 17.5
+      lifetime: 60.8
+      damage: 19
       width: 8
       height: 8
       shootEffect: shootSmall
-      bulletInterval: 0.555
+      bulletInterval: 12
       intervalBullet: {
         type: ShrapnelBulletType
         lifetime: 2.4
@@ -59,6 +60,7 @@ weapons: [
         length: 4
         width: 2
         serrations: 0
+        status: shocked
         despawnSound: shockBulletByte
       }
     }

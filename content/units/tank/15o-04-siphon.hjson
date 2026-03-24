@@ -1,17 +1,17 @@
 type: tank
 hitSize: 28
 singleTarget: false
-targetAir: false
 omniMovement: false
 faceTarget: false
 health: 12500
 crushDamage: 3
 armor: 19
-speed: 0.615
+speed: 0.614
 rotateSpeed: 0.9
 itemCapacity: 70
 outlineColor: 26262F
 crushFragile: true
+targetAir: false
 tankMoveVolume: 1.25
 tankMoveSound: tankMoveHeavy
 floorMultiplier: 0.5
@@ -36,7 +36,7 @@ weapons: [
     x: 0
     y: 0
     name: siphon-weapon
-    reload: 90
+    reload: 91
     mirror: false
     shake: 5
     rotate: true
@@ -44,49 +44,47 @@ weapons: [
     shootSound: shootMortar
     shootSoundVolume: 0.58
     bullet: {
-    type: ArtilleryBulletType
-    damage: 145.25
-    lifetime: 60
-    speed: 4
-    width: 18
-    height: 23
-    fragLifeMin: 0.4
-    fragVelocityMin: 0.5
-    fragBullets: 6
-    hitEffect: blastExplosion
-    hitShake: 1.5
-    collidesTiles: true
-    collides: true
-    ammoMultiplier: 1
-    fragBullet: {
-      speed: 3.5
-      damage: 45.5
-      lifetime: 10
-      width: 11
-      height: 14
-      splashDamage: 20
-      splashDamageRadius: 15
-      hitEffect: none
-      collidesAir: false
-      shrinkY: 0
-      hitEffect: explosion
-      hitSound: explosion
-      fragBullets: 1
+      type: ArtilleryBulletType
+      damage: 145.25
+      lifetime: 60
+      speed: 4
+      width: 18
+      height: 23
+      fragLifeMin: 0.4
+      fragVelocityMin: 0.5
+      fragBullets: 6
+      hitEffect: blastExplosion
+      hitShake: 1.5
+      collidesTiles: true
+      collides: true
       fragBullet: {
-        type: LiquidBulletType
-        liquid: slag
-        status: melting
-        statusDuration: 180
-        damage: 45.5
-        puddleSize: 48
-        despawnHit: true
-        despawnSound: shootRetusa
-        speed: 0
-        lifetime: 0
-        splashDamage: 60
-        splashDamageRadius: 3.5
-        hitEffect: none
+        speed: 3.5
+        damage: 35.5
+        lifetime: 10
+        width: 11
+        height: 14
+        splashDamage: 20
+        splashDamageRadius: 16
         collidesAir: false
+        shrinkY: 0
+        hitEffect: explosion
+        hitSound: explosion
+        fragBullets: 4
+        fragBullet: {
+          type: LiquidBulletType
+          liquid: slag
+          status: melting
+          statusDuration: 180
+          damage: 15.5
+          puddleSize: 48
+          despawnHit: true
+          despawnSound: shootRetusa
+          speed: 0
+          lifetime: 0
+          splashDamage: 10
+          splashDamageRadius: 4
+          hitEffect: none
+          collidesAir: false
         }
       }
     }

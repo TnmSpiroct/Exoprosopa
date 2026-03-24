@@ -3,7 +3,7 @@ hitSize: 22
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 4750
+health: 5300
 armor: 10
 speed: 0.65
 rotateSpeed: 1.4
@@ -28,7 +28,7 @@ weapons: [
     x: 0
     y: 0
     name: vicient-weapon
-    reload: 110
+    reload: 109
     mirror: false
     rotate: true
     rotateSpeed: 1.8
@@ -40,11 +40,11 @@ weapons: [
       frontColor: 6BBDCB
       backColor: 377A86
       sprite: missile-large
-      speed: 5.75
+      speed: 5.74
       drag: 0.018
-      lifetime: 40
+      lifetime: 47.5
       damage: 85
-      splashDamage: 57.5
+      splashDamage: 55
       splashDamageRadius: 20
       width: 0
       height: 0
@@ -53,7 +53,7 @@ weapons: [
       trailEffect: colorSpark
       trailLength: 16
       trailWidth: 3
-      pierceCap: 3
+      pierce: true
       shootEffect: {
         type: ExplosionEffect
         lifetime: 25
@@ -99,8 +99,9 @@ weapons: [
         speed: 2.5
         drag: 0.01
         lifetime: 15
-        splashDamage: 25
-        splashDamageRadius: 15
+        damage: 5
+        splashDamage: 20
+        splashDamageRadius: 16
         width: 6
         height: 6
         trailChance: -1
@@ -109,6 +110,7 @@ weapons: [
         trailWidth: 2
         weaveScale: 2
         weaveMag: 3
+        pierceArmor: false
         pierceBuilding: true
         despawnSound: explosion
         despawnEffect: {

@@ -19,6 +19,7 @@ itemCapacity: 0
 useEngineElevation: false
 lowAltitude: false
 canDrown: false
+targetAir: false
 moveSound: loopExtract
 moveSoundVolume: 0.15
 moveSoundPitchMin: 0.5
@@ -64,7 +65,7 @@ weapons: [
     x: 0
     y: 1
     name: codex-weapon
-    reload: 25
+    reload: 24
     rotate: true
     mirror: false
     shootSound: shootElectric
@@ -77,13 +78,14 @@ weapons: [
       pierce: false
       pierceBuilding: false
       lightningColor: e9c574
+      status: shocked
     }
   }
 ]
 trailColor: d8f18c
 trailLength: 12
 research: {
-  parent: 0010-fabricator
+  parent: 0008-fabricator
   objectives: [
     {
       type: Research

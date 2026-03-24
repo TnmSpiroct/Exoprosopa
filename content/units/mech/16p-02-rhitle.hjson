@@ -22,6 +22,8 @@ hitSize: 15
 drag: 0.1
 itemCapacity: 5
 outlineColor: 26262F
+alwaysShootWhenMoving: true
+targetAir: false
 research: {
   parent: 16p-01-ares
   objectives: [
@@ -37,17 +39,19 @@ weapons: [
   {
     x: 5
     y: 0
-    reload: 35
+    reload: 40
     mirror: true
     alternate: true
     shootStatus: slow
-    shootStatusDuration: 36
+    shootStatusDuration: 45
     name: rhitle-weapon
     ejectEffect: none
     shootSound: shootMissiles
     shootSoundVolume: 0.2
     shootY: 1
     bullet: {
+      keepVelocity: false
+      collidesAir: false
       instantDisappear: true
       damage: 0
       spawnUnit: rhitle-missile

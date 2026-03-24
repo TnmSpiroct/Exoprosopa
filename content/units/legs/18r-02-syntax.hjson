@@ -1,9 +1,9 @@
 type: mech
 flying: false
 hitSize: 8
-health: 1970
-armor: 6
-speed: 0.475
+health: 1950
+armor: 4
+speed: 0.474
 rotateSpeed: 3
 itemCapacity: 45
 outlineColor: 26262F
@@ -12,13 +12,26 @@ research: 18r-01-byte
 stepSound: mechStepSmall
 stepSoundVolume: 0.5
 researchCostMultiplier: 1
+abilities: [
+    {
+    type: ShieldArcAbility
+    radius: 34
+    angle: 50
+    width: 2
+    y: -26
+    cooldown: 450
+    regen: 0.666666667
+    max: 250
+    chanceDeflect: 0.5
+  }
+]
 weapons: [
   {
     x: 10
     y: 0
     shootY: 4
     name: syntax
-    reload: 50
+    reload: 45.5
     mirror: true
     alternate: true
     rotate: false
@@ -28,20 +41,21 @@ weapons: [
     bullet: {
       type: BasicBulletType
       sprite: large-orb
-      speed: 1.7
+      speed: 1.75
       lifetime: 110
-      damage: 95
-      width: 16
-      height: 16
+      damage: 60.35
+      width: 15
+      height: 15
       shootEffect: colorSpark
-      bulletInterval: 0.655
+      status: 13m-07-stunned
+      statusDuration: 30
+      bulletInterval: 4
       intervalBullet: {
         type: LightningBulletType
-        damage: 17.5
+        damage: 14.65
         lightningLength: 1.5
         lightningLengthRand: 3
-        status: 13m-07-stunned
-        statusDuration: 10
+        status: shocked
         despawnSound: shockBulletSyntax
       }
     }

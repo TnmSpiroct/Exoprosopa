@@ -16,6 +16,7 @@ health: 1200
 armor: 3
 hitSize: 15
 canDrown: false
+targetAir: false
 researchCostMultiplier: 1
 moveSound: loopExtract
 moveSoundVolume: 0.25
@@ -81,37 +82,21 @@ weapons: [
     x: 0
     y: 1
     name: calaust-weapon
-    reload: 22
+    reload: 21.8
     rotate: true
     mirror: false
     shootSound: shootElectric
     shootSoundVolume: 0.3
     bullet: {
-      type: LaserBulletType
-      pierce: true
-      colors: [
-        b3934c, e9c574, ffffff
-      ]
+      type: LightningBulletType
+      lightningColor: e9c574
       pierceBuilding: false
-      length: 60
-      width: 2.5
-      sideAngle: 90
-      sideWidth: 1.4
+      lightningLength: 14
       pierce: true
-      pierceCap: 1
-      damage: 16
+      pierceBuilding: false
+      damage: 17.35
       hitSound: none
-      fragBullets: 1
-      fragRandomSpread: 0
-      fragBullet: {
-        type: LightningBulletType
-        lightningLength: 10
-        damage: 12
-        pierce: false
-        hitSound: shockBullet
-        pierceBuilding: false
-        lightningColor: e9c574
-      }
+      status: shocked
     }
   }
 ]

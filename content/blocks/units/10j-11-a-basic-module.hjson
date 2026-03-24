@@ -2,7 +2,7 @@ type: UnitAssemblerModule
 size: 3
 health: 1000
 category: units
-research: 0010-fabricator
+research: 0008-fabricator
 requirements: [
   01a-02-item-nickel/1000
   01a-05-item-aluminium/750

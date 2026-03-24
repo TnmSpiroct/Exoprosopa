@@ -17,9 +17,9 @@ hovering: true
 faceTarget: true
 health: 450
 armor: 3
-speed: 1.3
+speed: 1.45
 mineWalls: true
-mineSpeed: 13.5
+mineSpeed: 14
 mineTier: 1
 buildSpeed: 2.25
 accel: 0.09
@@ -30,6 +30,7 @@ rotateSpeed: 4.5
 itemCapacity: 20
 outlineColor: 26262f
 fogRadius: 18
+isEnemy: false
 range: 120
 stepSound: walkerStepSmall
 stepSoundVolume: 0.55
@@ -37,9 +38,9 @@ abilities: [
   {
     type: ShieldRegenFieldAbility
     reload: 300
-    range: 50
-    amount: 15
-    max: 140
+    range: 40
+    amount: 25
+    max: 450
     soundVolume: 0.2
   }
 ]
@@ -57,9 +58,10 @@ weapons: [
     layerOffset: -0.002
       bullet: { 
       type: BasicBulletType
+      damage: 10
       width: 4
-      splashDamageRadius: 20
-      splashDamage: 60
+      splashDamageRadius: 8
+      splashDamage: 15
       lifetime: 35
       speed: 4
       smokeEffect:shootSmokeSquare
@@ -73,17 +75,29 @@ weapons: [
       hitColor: d8f18c
       buildingDamageMultiplier: 0.01
       collidesTeam: true
-      healPercent: 2
-      fragbullets: 1
-      fragRandomSpread: 0
-        fragBullet: {
-        type: LightningBulletType
-        lightningLength: 2
-        damage: 6
-        pierce: false
-        pierceBuilding: false
-        lightningColor: d8f18c
-      }
+      healPercent: 6
+      hitEffect: [
+        {
+          type: hitSquaresColor
+          colorFrom: d8f18c
+          colorTo: d8f18c
+          sizeFrom: 2.2
+          sizeTo: 0
+          lifetime: 10
+          strokeFrom: 1.8
+          strokeTo: 0.6
+        }
+        {
+          type: WaveEffect
+          colorFrom: d8f18c
+          colorTo: d8f18c
+          sizeFrom: 0
+          sizeTo: 10
+          lifetime: 10
+          strokeFrom: 1
+          strokeTo: 0.3
+        }
+      ]
     }
   }
 ]

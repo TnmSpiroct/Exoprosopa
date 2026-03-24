@@ -17,17 +17,18 @@ groundLayer: 60
 health: 740
 armor: 3
 allowLegStep: true
-speed: 0.7732
+speed: 0.7734
 rotateSpeed: 3.5
 hitSize: 8
 drag: 0.1
 itemCapacity: 0
 outlineColor: 26262F
 alwaysShootWhenMoving: true
+targetAir: false
 stepSound: walkerStepTiny
 stepSoundVolume: 0.3
 research: {
-  parent: 0010-fabricator
+  parent: 0008-fabricator
   objectives: [
     {
       type: Research
@@ -55,9 +56,9 @@ weapons: [
       type: ContinuousFlameBulletType
       flareLength: 0
       length: 70
-      width: 1.6
+      width: 1.75
       damage: 7.5
-      pierceCap: 2
+      pierce: true
       hitEffect: none
       despawnEffect: none
       hitColor: E67676

@@ -1,8 +1,9 @@
 type: flying
-immunities: [burning, shocked
+immunities: [shocked
 ]
 flying: true
 faceTarget: true
+targetAir: false
 shadowElevation: 0.15
 drag: 0.07
 outlineColor: 26262F
@@ -11,7 +12,7 @@ rotateSpeed: 1.7
 accel: 0.1
 health: 27000
 armor: 20
-hitSize: 35
+hitSize: 42
 researchCostMultiplier: 3
 loopSound: loopHover
 loopSoundVolume: 0.8
@@ -59,7 +60,7 @@ parts: [
     under: true
   }
 ]
-itemCapacity: 650
+itemCapacity: 120
 lowAltitude: false
 abilities: [
   {
@@ -86,7 +87,7 @@ weapons: [
   {
     x: 0
     y: 4
-    reload: 630
+    reload: 600
     rotate: false
     mirror: false
     shootSound: shootEmp
@@ -104,26 +105,29 @@ weapons: [
         effects: [
           {
             type: ParticleEffect
+            y: 4.3
             layer: 100
-            length: 30
-            baseLength: 25
+            length: 32.5
+            baseLength: 27.5
             cone: 360
-            particles: 22
-            sizeFrom: 7
-            colorFrom: D7F08B90
-            colorTo: 92B25890
-            sizeTo: 0
-            lifetime: 180
+            particles: 24
+            offset: 120
+            sizeFrom: 5
+            colorFrom: d7f08b90
+            colorTo: 92b25890
+            sizeTo: 0.5
+            lifetime: 190
           }
           {
             type: WaveEffect
+            y: 4.3
             layer: 100
             sizeFrom: 64
             sizeTo: 0
             strokeFrom: 3
             strokeTo: 0
-            colorFrom: D7F08B90
-            colorTo: 92B25890
+            colorFrom: d7f08b90
+            colorTo: 92b25890
             lifetime: 30
           }
         ]
@@ -144,7 +148,7 @@ weapons: [
       pierceArmor: true
       damage: 750
       splashDamage: 2650
-      splashDamageRadius: 75
+      splashDamageRadius: 76
       despawnSound: explosionMortar
       trailChance: -1
       trailEffect: shootSmokeTitan
@@ -176,7 +180,7 @@ weapons: [
   {
     x: 16.25
     y: -16.25
-    reload: 280
+    reload: 288
     rotate: true
     mirror: true
     alternate: true
@@ -184,7 +188,7 @@ weapons: [
     shootSound: shootMissiles
     shootSoundVolume: 0.2
     shake: 5
-    rotationLimit: 45
+    rotationLimit: 30
     shoot: {
       barrels: [
         -3.25, 0.5, 0,
@@ -195,8 +199,8 @@ weapons: [
         3.25, -1, 0,
       ]
       type: ShootBarrel
-      shots: 16
-      shotDelay: 2.25
+      shots: 12
+      shotDelay: 2.5
     }
     name: archangel-missile-mount
     drawOutline: true
@@ -204,6 +208,8 @@ weapons: [
     bullet: {
       shootEffect: shootBig
       smokeEffect: shootBigSmoke
+      keepVelocity: false
+      collidesAir: false
       instantDisappear: true
       damage: 0
       spawnUnit: exoprosopa-arc-missile
