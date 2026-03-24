@@ -23,7 +23,7 @@ consumes: {
   power: 2
   liquid: 02b-01-bioliquid/0.75
 }
-research: 0008-fabricator
+research: 0010-fabricator
 researchCost: [
   01a-01-item-cobalt/120
   01a-02-item-nickel/60

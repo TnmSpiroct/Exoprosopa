@@ -2,7 +2,7 @@ type: PayloadConveyor
 health: 450
 category: units
 research: {
-  parent: 0008-fabricator
+  parent: 0010-fabricator
   objectives: [
     {
       type: OnSector

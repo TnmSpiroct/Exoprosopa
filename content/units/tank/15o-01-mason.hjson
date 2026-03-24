@@ -24,7 +24,7 @@ treadRects: [
   }
 ]
 research: {
-  parent: 0008-fabricator
+  parent: 0010-fabricator
   objectives: [
     {
       type: Research

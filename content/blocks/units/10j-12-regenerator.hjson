@@ -11,7 +11,7 @@ requirements: [
   01a-06-item-chromium/60
 ]
 research: {
-  parent: 0009-effect
+  parent: 0011-effect
   objectives: [
     {
       type: OnSector
