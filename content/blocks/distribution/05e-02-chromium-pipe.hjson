@@ -5,7 +5,7 @@ speed: 4
 requirements: [
   01a-06-item-chromium/1
 ]
-research: 05e-02-a-aluminium-pipe
+research: 05e-07-mechanical-bridge
 researchCost: [
   01a-06-item-chromium/70
 ]

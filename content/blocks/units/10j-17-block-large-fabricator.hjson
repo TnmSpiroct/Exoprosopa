@@ -40,9 +40,10 @@ filter: [
   09i-12-enchanting-basin,
   09i-12-gravitix-chamber-core,
   09i-12-necrolysis-boiler,
+  09i-13-technoworks,
   09i-15-pyroforge
 ]
-research: 10j-16-block-fabricator
+research: 10j-18-block-deconstructor
 squareSprite: false
 maxBlockSize: 4
 researchCostMultiplier: 2

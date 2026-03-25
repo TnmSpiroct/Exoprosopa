@@ -7,7 +7,7 @@ hasPower: true
 consumesPower: true
 conductivePower: true
 category: distribution
-research: 05e-03-armored-pipe
+research: 05e-07-mechanical-bridge
 requirements: [
   01a-05-item-aluminium/2
   01a-09-item-morphite/1

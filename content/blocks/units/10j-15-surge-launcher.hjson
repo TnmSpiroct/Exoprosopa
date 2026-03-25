@@ -5,7 +5,7 @@ consumes: {
 health: 650
 category: units
 research: {
-  parent: 10j-15-payload-router
+  parent: 10j-14-payload-conveyor
   objectives: [
     {
       type: OnSector

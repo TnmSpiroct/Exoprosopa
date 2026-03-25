@@ -102,7 +102,7 @@ weapons: [
   }
 ]
 research: {
-  parent: 0012-unit
+  parent: 0015-unit
   objectives: [
     {
       type: OnSector

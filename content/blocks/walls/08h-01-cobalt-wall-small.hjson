@@ -8,8 +8,8 @@ health: 450
 requirements: [
   01a-01-item-cobalt/6
 ]
-# Research ...... first to unlocking
-research: 0006-defence
+# Research tree
+research: 0007-defence
 # Research cost
 researchCost: [
   01a-01-item-cobalt/300
