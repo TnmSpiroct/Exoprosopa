@@ -1,7 +1,7 @@
 captureWave: 50
 difficulty: 8
 planet: frostnova
-sector: 20
+sector: 84
 research: {
   parent: 19s-16-bioproject-core
   objectives: [

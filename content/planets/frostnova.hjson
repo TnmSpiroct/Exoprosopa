@@ -86,7 +86,7 @@ campaignRuleDefaults.rtsAI: true
 
 atmosphereRadIn: 0.02
 atmosphereRadOut: 0.3
-startSector: 0
+startSector: 1
 sectorSize: 3
 parent: sun
 solarSystem: sun
