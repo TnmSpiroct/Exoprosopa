@@ -1,6 +1,6 @@
 difficulty: 8
 planet: frostnova
-sector: 143
+sector: 200
 research: {
   parent: 19s-23-eridanus
   objectives: [

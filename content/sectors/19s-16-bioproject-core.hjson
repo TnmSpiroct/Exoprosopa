@@ -1,13 +1,13 @@
 captureWave: 25
 difficulty: 7
 planet: frostnova
-sector: 214
+sector: 204
 research: {
-  parent: 19s-14-trekker-campsite
+  parent: 19s-14-u-pier
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-14-trekker-campsite
+      preset: 19s-14-u-pier
     }
   ]
 }
