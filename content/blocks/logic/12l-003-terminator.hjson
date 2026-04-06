@@ -11,3 +11,4 @@ instructionsPerTick: 10
 size: 2
 health: 600
 researchCostMultiplier: 0.5
+range: 200

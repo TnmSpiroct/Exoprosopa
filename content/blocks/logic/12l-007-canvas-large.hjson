@@ -1,0 +1,33 @@
+type: CanvasBlock
+size: 3
+health: 700
+padding: 2
+canvasSize: 24
+category: logic
+research: 12l-006-canvas
+researchCostMultiplier: 1
+requirements: [
+  01a-01-item-cobalt/30
+  01a-05-item-aluminium/40
+  01a-08-item-petal/30
+]
+buildCostMultiplier: 0.8
+# turn the hex color into decimal twin
+palette: [
+  1160527871
+  2321040895
+  3767357951
+  4206846463
+  4126060799
+  744373247
+  1620856831
+  3335279871
+  2026034943
+  1417261311
+  1448374015
+  2208278271
+  3771975935
+  4032519167
+  2402443263
+  39497628158
+]

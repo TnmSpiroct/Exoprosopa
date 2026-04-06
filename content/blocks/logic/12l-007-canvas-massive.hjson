@@ -1,0 +1,33 @@
+type: CanvasBlock
+size: 6
+health: 1500
+padding: 2
+canvasSize: 96
+category: logic
+research: 12l-007-canvas-large
+researchCostMultiplier: 1
+requirements: [
+  01a-05-item-aluminium/120
+  01a-08-item-petal/100
+  01a-09-item-morphite/20
+]
+buildCostMultiplier: 1.25
+palette: [
+  1160527871
+  2321040895
+  3767357951
+  4206846463
+  4126060799
+  744373247
+  1620856831
+  3335279871
+  2026034943
+  1417261311
+  1448374015
+  2208278271
+  3771975935
+  4032519167
+  2402443263
+  39497628158
+]
+# Woodspark Pallete
