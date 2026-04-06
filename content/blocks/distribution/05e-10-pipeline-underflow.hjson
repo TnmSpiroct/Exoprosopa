@@ -1,0 +1,15 @@
+type: OverflowGate
+size: 1
+health: 65
+requirements: [
+  01a-01-item-cobalt/4
+  01a-02-item-nickel/8
+]
+invert: true
+category: distribution
+squareSprite: false
+research: 05e-10-pipeline-overflow
+researchCost: [
+  01a-01-item-cobalt/20
+  01a-02-item-nickel/40
+]
