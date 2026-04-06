@@ -17,7 +17,7 @@ groundLayer: 60
 health: 740
 armor: 3
 allowLegStep: true
-speed: 0.7734
+speed: 0.7794
 rotateSpeed: 3.5
 hitSize: 8
 drag: 0.1
@@ -42,6 +42,7 @@ weapons: [
   {
     x: 0
     y: 0
+    shootY: 1.5
     reload: 15
     mirror: false
     name: ares-weapon
@@ -55,7 +56,7 @@ weapons: [
     bullet: {
       type: ContinuousFlameBulletType
       flareLength: 0
-      length: 70
+      length: 68.5
       width: 1.75
       damage: 7.5
       pierce: true

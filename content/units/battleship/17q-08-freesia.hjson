@@ -1,19 +1,24 @@
 type: naval
 abilities: [
-{
+   {
     type: ForceFieldAbility
-    radius: 80
+    radius: 70
     sides: 6
     cooldown: 1500
     regen: 1.5
     max: 3000
-    }
+   }
+   {
+    type: RepairFieldAbility
+    amount: 125
+    reload: 80
+    range: 60
+   }
 ]
 speed: 0.5
 health: 15000
 armor: 12
 aimDst: 10
-range: 90
 drag: 0.1
 accel: 0.8
 hitSize: 25
@@ -24,6 +29,7 @@ moveSoundVolume: 0.9
 moveSoundPitchMin: 0.95
 moveSoundPitchMax: 0.95
 moveSound: shipMoveBig
+itemCapacity: 50
 weapons: [
 {
     mirror: true
@@ -36,7 +42,7 @@ weapons: [
     rotateSpeed: 1.75
     x: 6.75
     y: 7
-    reload: 50
+    reload: 51.2
     recoil: 1.25
     shootSound: shootPlasma
     shootSoundVolume: 0.09
@@ -46,8 +52,7 @@ weapons: [
       width: 5
       splashDamageRadius: 20
       splashDamage: 35
-      pierceCap: 1
-      lifetime: 45
+      lifetime: 50
       damage: 95
       speed: 4.5
       smokeEffect: colorSpark
@@ -79,7 +84,7 @@ weapons: [
     rotateSpeed: 1.75
     x: 8
     y: -10.5
-    reload: 70
+    reload: 66.5
     recoil: 1.25
     shootSound: shootSalvo
     shootSoundVolume: 1.2
@@ -90,16 +95,17 @@ weapons: [
       width: 5
       splashDamageRadius: 20
       splashDamage: 50
-      pierceCap: 1
-      lifetime: 30
+      pierce: true
+      lifetime: 42.5
       damage: 150
-      speed: 7
+      speed: 6.5
       smokeEffect: colorSpark
       trailColor: E3EBFB
       trailWidth: 1.5
       trailLength: 5
       backColor: E3EBFB
       hitColor: E3EBFB
+      status: shocked
       despawnEffect: {
         type: WaveEffect
         rotWithParent: true
@@ -114,7 +120,7 @@ weapons: [
 }
 ]
 immunities: [
-  13m-01-breached
+  13m-06-contaminated
 ]
 research: 17q-07-narhwal
 researchCostMultiplier: 0.5
