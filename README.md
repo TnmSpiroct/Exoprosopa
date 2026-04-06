@@ -117,7 +117,7 @@ This mod requires newest mindustry build to be played (Beta 153)
 <!----------------------------------[ Links ]--------------------------------->
 [Logo]: sprites-override/ui/logo.png
 [Banner]: banner-new.png
-[Discord]: https://discord.gg/zQq4eKJ9pg
+[Discord]: https://discord.gg/Cg8PfYtJS
 [Commits]: https://github.com/TnmSpiroct/exoprosopa/commits/main
 
 
