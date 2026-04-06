@@ -1,6 +1,6 @@
 type: HeaterGenerator
 size: 8
-health: 13000
+health: 12500
 armor: 15
 category: power
 squareSprite: false
@@ -28,7 +28,7 @@ heatOutput: 40
 explodeSound: explosionReactor2
 explosionRadius: 22
 explosionDamage: 2200
-powerProduction: 112
+powerProduction: 1220
 generateEffect: none
 ambientSound: loopFlux
 ambientSoundVolume: 0.18
