@@ -1,0 +1,45 @@
+type: HeatProducer
+size: 3
+heatOutput: 24
+health: 1000
+craftTime: 60
+squareSprite: false
+researchCostMultiplier: 0.5
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-03-necroplasm
+      padding: 1
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+  ]
+}
+consumes: {
+  liquids: [
+    02b-03-necroplasm/0.25
+  ]
+}
+ambientSound: hum
+ambientSoundVolume: 0.1
+category: crafting
+research: 09i-11-o-miasma-heater
+requirements: [
+  01a-06-item-chromium/90
+  01a-07-item-clevorite/75
+  01a-10-item-bethine/5
+  01a-11-item-pyroxene/20
+]
