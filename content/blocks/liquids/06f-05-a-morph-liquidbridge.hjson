@@ -7,6 +7,7 @@ pulse: true
 transportTime: 2
 arrowPeriod: 0.9
 arrowTimeScl: 2.75
+hasPower: true
 outputsPower: false
 requirements: [
   01a-05-item-aluminium/10
@@ -19,3 +20,4 @@ researchCost: [
   01a-05-item-aluminium/750
   01a-09-item-morphite/50
 ]
+consumePower: 0.166666666667
