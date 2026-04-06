@@ -15,3 +15,4 @@ researchCost: [
 ]
 leaks: false
 underBullets: true
+liquidPressure: 1.075
