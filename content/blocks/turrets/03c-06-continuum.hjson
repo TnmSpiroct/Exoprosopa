@@ -2,7 +2,7 @@ type: ContinuousTurret
 size: 4
 health: 4000
 armor: 10
-shootWarmupSpeed: 0.05
+shootWarmupSpeed: 0.1
 shootCone: 360
 shootSound: none
 loopSound: beamLustre
@@ -30,7 +30,7 @@ shootY: -0.5
 shootType: {
   type: PointLaserBulletType
   buildingDamageMultiplier: 0.15
-  damage: 135
+  damage: 116
   hitColor: DCC6C6
 }
 heatColor: 5b6980

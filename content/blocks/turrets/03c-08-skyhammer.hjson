@@ -8,7 +8,7 @@ shootSoundVolume: 2.3
 loopSound: loopMalign
 loopSoundVolume: 1.5
 requirements: [
-  01a-01-item-cobalt/1000
+  01a-01-item-cobalt/1100
   01a-05-item-aluminium/675
   01a-08-item-petal/450
   01a-10-item-bethine/150
@@ -22,7 +22,7 @@ minWarmup: 0.95
 warmupMaintainTime: 100
 shootWarmupSpeed: 0.05
 heatRequirement: 12
-maxHeatEfficiency: 2
+maxHeatEfficiency: 3
 recoil: 2
 outlineColor: 2C2A36
 targetAir: true
@@ -53,12 +53,12 @@ shootType: {
   trailInterval: 3
   speed: 6
   lifetime: 72.5
-  damage: 800
+  damage: 750
   despawnSound: explosionQuad
   despawnEffect: greenBomb
   hitEffect: massiveExplosion
-  splashDamage: 1950
-  splashDamageRadius: 60
+  splashDamage: 1550
+  splashDamageRadius: 55
   fragOnHit: true
   fragBullets: 8
   fragRandomSpread: 0
@@ -77,8 +77,7 @@ shootType: {
     speed: 2
     lifetime: 10
     pierceCap: 2
-    damage: 75
-    splashDamage: 165
+    splashDamage: 170
     splashDamageRadius: 25
     pierce: true
     despawnSound: explosion

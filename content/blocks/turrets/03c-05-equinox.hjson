@@ -22,7 +22,7 @@ researchCost: [
 ]
 research: 03c-04-b-subsonic
 consumes: {
-  power: 10
+  power: 11
 }
 category: turret
 recoil: 1.5
@@ -58,7 +58,7 @@ ammoTypes: {
     sprite: large-orb
     buildingDamageMultiplier: 0.2
     hitColor: 6EEFC0
-    damage: 120
+    damage: 110
     width: 8
     height: 14
     hitSize: 6
