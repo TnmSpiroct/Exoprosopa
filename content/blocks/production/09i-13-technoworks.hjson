@@ -9,7 +9,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-15-bioproject-core
+      preset: 19s-16-bioproject-core
     }
   ]
 }
