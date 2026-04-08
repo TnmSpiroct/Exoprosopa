@@ -58,7 +58,7 @@ shootType: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     despawnHit: true
-    damage: 225
+    damage: 195
     splashDamage: 65
     splashDamageRadius: 9
   }
