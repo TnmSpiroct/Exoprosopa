@@ -92,6 +92,7 @@ ammoTypes: {
     homingPower: 0.05
     homingRange: 20
     despawnShake: 3
+    despawnSound: explosionDull
     despawnEffect: [
       {
       type: ExplosionEffect
