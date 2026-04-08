@@ -28,15 +28,11 @@ research: 03c-08-scathe
 consumes: {
   power: 12
 }
-# Tab category
 category: turret
-# Turret recoil
 recoil: 3
-# Minimum warmup before automatically attack
-minWarmup: 0.75
-# Warmup maintain time
-warmupMaintainTime: 45
-shootWarmupSpeed: 0.04
+minWarmup: 0.99
+warmupMaintainTime: 120
+shootWarmupSpeed: 0.05
 # Outline color of the turret
 outlineColor: 2C2A36
 # Targets
