@@ -43,7 +43,7 @@ ammoTypes: {
       damage: 2
       puddleSize: 15
       despawnHit: true
-      despawnSound: splash
+      despawnSound: shootRetusa
       speed: 0
       lifetime: 0
       splashDamage: 3
@@ -74,7 +74,7 @@ ammoTypes: {
       damage: 14
       puddleSize: 15
       despawnHit: true
-      despawnSound: splash
+      despawnSound: shootRetusa
       speed: 0
       lifetime: 0
       splashDamage: 6
@@ -105,7 +105,7 @@ ammoTypes: {
       damage: 0.5
       puddleSize: 15
       despawnHit: true
-      despawnSound: splash
+      despawnSound: shootRetusa
       speed: 0
       lifetime: 0
       hitEffect: none
@@ -136,7 +136,7 @@ ammoTypes: {
       damage: 8
       puddleSize: 19
       despawnHit: true
-      despawnSound: splash
+      despawnSound: shootRetusa
       speed: 0
       lifetime: 0
       hitEffect: none
@@ -165,7 +165,7 @@ ammoTypes: {
       damage: 25
       puddleSize: 15
       despawnHit: true
-      despawnSound: splash
+      despawnSound: shootRetusa
       speed: 0
       lifetime: 0
       hitEffect: none
@@ -196,7 +196,7 @@ ammoTypes: {
       damage: 4
       puddleSize: 21
       despawnHit: true
-      despawnSound: splash
+      despawnSound: shootRetusa
       speed: 0
       lifetime: 0
       splashDamage: 6
