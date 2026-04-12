@@ -230,6 +230,9 @@ block.exoprosopa-05e-08-pipeline-sorter.description =
 block.exoprosopa-05e-10-pipeline-overflow.name = 
 block.exoprosopa-05e-10-pipeline-overflow.description = 
 
+block.exoprosopa-05e-10-pipeline-underflow.name = 
+block.exoprosopa-05e-10-pipeline-underflow.description = 
+
 block.exoprosopa-05e-11-morph-bridge.name = 
 block.exoprosopa-05e-11-morph-bridge.description = 
 
