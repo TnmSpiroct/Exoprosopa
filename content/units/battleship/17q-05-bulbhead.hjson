@@ -12,15 +12,16 @@ trailLength: 15
 outlineColor: 0C0E29
 moveSoundVolume: 0.34
 moveSound: shipMove
+itemCapacity: 10
 weapons: [
-{
+  {
     mirror: false
     rotate: true
     name: freesia-autocannon
     rotateSpeed: 2
     x: 0
     y: -2
-    reload: 35
+    reload: 34.2
     recoil: 1.25
     shootSound: shootPlasma
     shootSoundVolume: 0.09
@@ -30,8 +31,7 @@ weapons: [
       width: 5
       splashDamageRadius: 20
       splashDamage: 15
-      pierceCap: 1
-      lifetime: 30
+      lifetime: 32
       damage: 45
       speed: 3
       smokeEffect: colorSpark
@@ -51,10 +51,10 @@ weapons: [
         colorTo: feb380
         }
       }
-}
+  }
 ]
 immunities: [
-  13m-01-breached
+  13m-06-contaminated
 ]
 research: 000012-anchor
 researchCostMultiplier: 0.5

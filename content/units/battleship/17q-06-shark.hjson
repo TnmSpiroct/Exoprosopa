@@ -14,6 +14,7 @@ moveSoundVolume: 0.55
 moveSoundPitchMin: 0.9
 moveSoundPitchMax: 0.9
 moveSound: shipMove
+itemCapacity: 20
 weapons: [
 {
     mirror: true
@@ -34,19 +35,19 @@ weapons: [
       homingPower: 0.05
       homingDelay: 30
       homingRange: 120
-      speed: 2.5
+      speed: 2.6
       lifetime: 60
       hitEffect: blastExplosion
       despawnHit: true
       damage: 45
       splashDamage: 15
-      splashDamageRadius: 25
+      splashDamageRadius: 24
       despawnEffect: blastExplosion
       }
 }
 ]
 immunities: [
-  13m-01-breached
+  13m-06-contaminated
 ]
 research: 17q-05-bulbhead
 researchCostMultiplier: 0.5

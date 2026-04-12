@@ -55,34 +55,23 @@ allowLaunchToNumbered: false
 allowLegacyLaunchPads: false
 allowSectorInvasion: false
 allowSelfSectorLaunch: false
-allowWaveSimulation: false
 
 iconColor: 98c1f5
 landCloudColor: e2effc60
 hasAtmosphere: true
 bloom: false
 
+waveTeam: blue
 placeRangeCheck: false
-showSpawns: true
-fog: true
-staticFog: true
 lighting: false
 coreDestroyClear: true
 onlyDepositCore: true
 
-rules.staticFog: true
-rules.fog: true
-rules.showSpawns: true
-rules.randomWaveAI: false
-rules.coreDestroyClear: true
-
-campaignRules.fog: true
-campaignRules.showSpawns: true
-campaignRules.rtsAI: true
-
-campaignRuleDefaults.fog: true
-campaignRuleDefaults.showSpawns: true
-campaignRuleDefaults.rtsAI: true
+campaignRuleDefaults: {
+ fog: true
+ showSpawns: true
+ rtsAI: true
+}
 
 atmosphereRadIn: 0.02
 atmosphereRadOut: 0.3
@@ -99,8 +88,6 @@ radius: 1.2
 showRtsAIRule: true
 prebuildBase: true
 clearSectorOnLose: true
-coreDestroyClear: true
-onlyDepositCore: true
 defaultCore: 11k-01-core-apex
 enemyBuildSpeedMultiplier: 0.2
 enemyCoreSpawnReplace: false
