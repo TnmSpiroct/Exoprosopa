@@ -2,7 +2,7 @@ type: MessageBlock
 size: 1
 health: 65
 requirements: [
-  01a-02-item-nickel/10
+  01a-02-item-nickel/5
 ]
 category: logic
 research: 12l-002-switch

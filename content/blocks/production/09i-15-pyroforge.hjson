@@ -2,7 +2,6 @@ type: GenericCrafter
 size: 4
 health: 1250
 category: crafting
-research: 09i-12-necrolysis-boiler
 consumes: {
   items: [
     01a-04-item-tantra-sand/24
@@ -15,12 +14,21 @@ outputItems: [
   01a-11-item-pyroxene/4
 ]
 itemCapacity: 50
-researchCostMultiplier: 0.5
+researchCostMultiplier: 2
+research: {
+  parent: 09i-12-necrolysis-boiler
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-23-eridanus
+    }
+  ]
+}
 requirements: [
-  01a-06-item-chromium/350
-  01a-07-item-clevorite/175
-  01a-08-item-petal/285
-  01a-10-item-bethine/75
+  01a-06-item-chromium/375
+  01a-07-item-clevorite/180
+  01a-08-item-petal/300
+  01a-10-item-bethine/85
 ]
 craftTime: 180
 craftEffect: none
@@ -48,7 +56,6 @@ drawer: {
     {
      type: DrawCrucibleFlame
      particleRad: 12
-
     }
     {
       type: DrawDefault

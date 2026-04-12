@@ -34,6 +34,7 @@ filter: [
   09i-11-o-anthracite-heater,
   09i-11-o-miasma-heater,
   09i-11-o-radiative-heater,
+  09i-11-o-sunlit-heater,
   09i-11-p-heat-redirector,
   09i-11-q-heat-router,
   09i-12-elixir-crafter,

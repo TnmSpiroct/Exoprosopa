@@ -1,7 +1,7 @@
 type: ConsumeGenerator
 health: 650
 size: 3
-powerProduction: 12
+powerProduction: 11
 squareSprite: false
 researchCostMultiplier: 0.5
 hasLiquids: true

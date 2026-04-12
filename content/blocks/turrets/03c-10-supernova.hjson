@@ -35,7 +35,7 @@ shootType: {
   type: ContinuousLaserBulletType
   buildingDamageMultiplier: 10
   length: 395
-  damage: 720
+  damage: 645
   width: 8
   incendChance: 0
   incendAmount: 0
@@ -58,7 +58,7 @@ shootType: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     despawnHit: true
-    damage: 225
+    damage: 195
     splashDamage: 65
     splashDamageRadius: 9
   }

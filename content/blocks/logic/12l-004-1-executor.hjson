@@ -1,0 +1,14 @@
+type: LogicBlock
+category: logic
+research: 12l-003-terminator
+requirements: [
+  01a-05-item-aluminium/200
+  01a-06-item-chromium/150
+  01a-12-item-techno-plating/200
+  01a-10-item-bethine/30
+]
+instructionsPerTick: 20
+size: 3
+health: 1750
+researchCostMultiplier: 1
+range: 425
