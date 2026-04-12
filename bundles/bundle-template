@@ -4,8 +4,142 @@ mod.exoprosopa.author =
 mod.exoprosopa.description = 
 mod.exoprosopa.subtitle = 
 
+# < Campaign Objectives Region >
+newgrounds.welcome = [cyan]Welcome to [blue]Exoprosopa[].\n\nYour mission is to conquer the planet and fight against the Astral Infection.\n\n[accent]Good luck!
+newgrounds.move = [cyan]Press [accent][WASD][] or [accent]Drag[] the screen to move the core unit.\n[accent]Scroll[] or [accent]Pinch[] the screen to zoom in and out.\n\[accent]Left Click[] or [accent]Tap[] on [#647cc2]cobalt[] ore to mine it.
+newgrounds.mining = [cyan]Mine [#647cc2]Cobalt[] from the wall.\nThis resource is used in many buildings. 
+newgrounds.generator = [cyan]Research the [accent]Pressure Generator[] from the \ue875 tech tree.\n\nPlace it on the vent to generate \ue810 power.
+newgrounds.extractor = [cyan]Research the [accent]Ore Extractor[] from the \ue875 tech tree.\n\nPlace the [accent]Ore Extractor[] facing directly to [#647cc2]cobalt[] wall.
+newgrounds.elixir = [cyan]Research the [accent]Elixir Collector[] from the \ue875 tech tree.\n\nPlace it on the vent to extract [#d488ea]Elixir[].
+newgrounds.powerline = [cyan]Research and place 3 [accent]Powerlines[] to distribute power\nto other blocks orthogonally.
+newgrounds.cobalt = [cyan]Transport the mined [#647cc2]Cobalt[] into the core with [accent]Transport Pipes[].
+newgrounds.conduit = [cyan]Supply the [accent]Ore Extractor[] with [#d488ea]Elixir[] from the [accent]Elixir Collector[] with [accent]Sea Conduit[].
+newgrounds.pipe = [cyan]Connect the [accent]Ore Extractor[] to your core\nby placing several [accent]Transport Pipes[].
+newgrounds.nickel = [#e1cf9a]Nickel[cyan] is required for most factories in Exoprosopa.\n\nExpand the mining area.
+newgrounds.vent = [cyan]Place more [accent]Elixir Collectors[]\nto operate more [accent]Ore Extractors[].
+newgrounds.furnace = [cyan]Research the [accent]Aluminium Furnace[]\n\nThis factory requires [#647cc2]Cobalt[], Anthracite, and [accent]power[]\nto produce [#729aaf]Aluminium[].\n\n\ue804 Move up a bit to mine [accent]Anthracite[].
+newgrounds.aluminium = [cyan]Expand the production chain.\nCollect [accent]250 Aluminium[] to build a [accent]Unit Factory[].
+newgrounds.anthracite = [accent]Anthracite[cyan] functions as a fuel for [accent]Aluminium Furnaces[cyan]\nThe core [red]wont accept [cyan]anthracite as a material.
+newgrounds.shipbay = [cyan]Research the [accent]Shipbay[] from the \ue875 tech tree.\n\nFullfill the requirements to produce your first unit.
+newgrounds.codex = [cyan]Produce Unit: Spark\n\nShipbay Requirements:\n[#e1cf9a]Nickel[], [#729aaf]Aluminium[], [#d488ea] Elixir[], and [accent]Power[].
+newgrounds.command = [cyan]Command Units:\n\nUse [accent]Shift + Left Click[] or press [accent]Command Mode[] button to select a unit, drag to select multiple units.\nThen [accent]Shift + Right Click[] or [accent]Tap[] to a random location to move the selected unit to a location.\n\nControl Units:\n\nUse [accent]Ctrl + Left Click[] or [accent]Tap[] the unit twice to control a unit.\nPress [accent][V][] or [accent]Tap[] the unit icon on the health bar to respawn.\nYou can also control the [accent]Turrets[] and especially the [accent]Router[].
+newgrounds.impale = [cyan]Open the \ue875 tech tree and research [accent]Impale[]\nSupply the turret with [#647cc2]Cobalt[] or [#729aaf]Aluminium[] as ammunition.\n\nThis turret fires a piercing bullet towards enemies.
+newgrounds.wall = [cyan]Research [accent]Cobalt Wall[] from the tech tree \ue875\nto protect your structures from enemy projectiles.
+newgrounds.enemy = [cyan]Claim this sector by capturing the [accent]enemy core[].\n[red]The enemy is vulnerable now, launch a counterattack!
+
+attack.timer = [red]Prepare for an enemy attack!
+objective.warn = [red]Warning !!!
+objective.news = [accent]Reinforcements\nhas arrived !!!
+objective.t1 = [accent]Enemy Tier 1 Production starting in [lightgray]{0}
+objective.t2 = [accent]Enemy Tier 2 Production starting in [lightgray]{0}
+objective.t3 = [accent]Enemy Tier 3 Production starting in [lightgray]{0}
+objective.t4 = [accent]Enemy Tier 4 Production starting in [lightgray]{0}
+objective.t5 = [accent]Enemy Tier 5 Production starting in [lightgray]{0}
+
+mountainridge.tantrium = [cyan]This sector is rich in [#90bdd8]Tantrium[]\n\nExtract [#90bdd8]Tantrium[] from tantrium walls using [accent]Tantrium Crushers[].
+mountainridge.purify = [cyan]Use the [accent]Elixir Purifier[] to purify the [#d488ea]elixir[]\nby using [#90bdd8]tantrium[] to produce [#76c9e5]Cryogenics[].\n\nThis can be used to cool your turrets and boost [accent]Ore Extractors[].
+
+luminary.burnergenerator = [cyan]Vents are a good source of power, but they are limited.\nSet up [accent]Burner Generators[] to produce extra power for production and defense.
+
+sealedoutpost.borejet = [cyan]This sector has a lot of anthracite and cobalt in the ground.\nResearch the [accent]Bore Jet[] from the \ue875 tech tree to mine resources from the ground.
+
+foggyfields.guardian = [cyan]The enemy will send a backup force after 8 minutes.\nCapture this sector before the guardian arrives.
+
+reservoir.miasma = [cyan]This sector is filled with [#b979bd]miasma[].\nIts very reactive to [#d488ea]elixir[], keep your factory safe from it.
+
+crest.mech = [cyan]This sector is filled with rough terrain.\nUse [accent]Mech[] units to attack the enemy base.
+
+cliffside.borejet = [cyan]Place a [accent]Bore Jet[] on [#9d7f7f]Chromium[] ore to start mining,\nExpand your factory and defense using chromium tech.
+cliffside.chromium = [cyan]This sector contains deposits of [#9d7f7f]Chromium[].\n[accent]Bore Jets[] are required to mine this resource.
+
+bgard.sdriver = [cyan]Research [accent]Surge Driver[cyan] from the \ue875 tech tree.\nPlace two [accent]Surge Drivers[] in the designated locations.\n\nSet up the [accent]Surge Driver[] by clicking one of them, then selecting the other one\nto transport resources from the other side of the mountain.
+bgard.chromium = [cyan]Collect additional [#9d7f7f]Chromium[] by transporting it via [accent]Surge Drivers[].
+
+cornerstone.mountain = [cyan]The enemy base is protected with strong defences.\nConstruct tier 2 tank units to break through the enemy defences.
+
+escarpment.tantrium = [#90bdd8]Tantrium[cyan] is a very scarce resource in this sector.\n\nResearch and place a [#90bdd8]Tantraformer[cyan] to create [#90bdd8]Tantrium[cyan] utilizing the surrounding environment.
+
+hazardouswasteland.miasma = [cyan]Research [#afe986]Clevorite[] and the [accent]Geothermal Generator[] from the \ue875 tech tree.\nPlace 2 [accent]Geothermal Generators[] and supply them with [#b979bd]Miasma[] and [#76c9e5]Cryogenics[] to generate power.
+
+trekker.nuclearlaunch = [accent]⚠ Nuclear launch detected: [lightgray]{0}
+trekker.warning = [red]⚠ NUCLEAR STRIKE INBOUND ⚠\n[lightgray]Construct backup cores immediately!
+
+pier.aircraft = [red]⚠ Unidentified Aircraft Incoming ⚠
+
+erid.alu = [cyan]You feel the incoming danger arounds you...
+erid.chro = [cyan]The sky darkens...
+erid.clev = [cyan]The natives has awakened...
+erid.mor = [cyan]The storm is coming...
+erid.petal = [cyan]The enemy notices your presences...
+erid.grav1 = [cyan]The Rhodes you have know...
+erid.grav2 = [salmon]Its here to take you down
+erid.prepare = [scarlet]Prepare yourself!
+
+# < Myrra Objectives Region >
+myra.south = [cyan]Move to south west to receive further instructions
+myra.station = [cyan]This is your [accent]Signal Transmission Station[].\n\nIt would contact closer base and send reinforcements to aid you in your operation.\n\nPower the [accent]Signal Navigator[] attached to it to turn it on. Do not let it get turned off after you booted it.\n\n[salmon]DO NOT DECONSTRUCT NOR LET ANY COMPONENTS BE DAMAGED AT ALL COSTS!
+myra.proc.errorcode = [salmon]ERROR CODE : 67-251\nINSUFFICIENT OR UNSTABLE POWER INPUT\nPLEASE RESOLVE ISSUE TO ACTIVATE SIGNAL TRANSMISSION STATION
+
+myra.int = [accent]Enemy production intializing in [lightgray]{0}
+myra.tier2 = [accent]Enemy production escalating\nto [#ffb266]Tier 2[]\nwithin [lightgray]{0}
+myra.tier3 = [accent]Enemy production escalating\nto [#ff9933]Tier 3[]\nwithin [lightgray]{0}
+myra.tier4 = [accent]Enemy production escalating\nto [#ff8000]Tier 4[]\nwithin [lightgray]{0}
+myra.rancor = [accent]Enemy production of [#00ffff]Rancor[] starting in [lightgray]{0}
+myra.monarch = [accent]Enemy production of [#ff8000]Monarch[] starting in [lightgray]{0}
+myra.archangel = [accent]Enemy production of [#ffff00]Archangel[] starting in [lightgray]{0}
+
+myra.nuke = [red]⚠ NUCLEAR STRIKE INCOMING ⚠
+myra.passage = [red]⚠ THE PASSAGE HAS COLLAPSED ⚠
+myra.exosphere = [red]Warning![]\n[accent]Large [cyan]Frost Storm[] is coming ahead!
+myra.wave = [lightgray]You hear the movement of an army approaching.
+myra.stationdead = [cyan]Our [accent]Signal Transmission Station[] has been destroyed!\nWe [red]cannot[] contact outside bases for any reinforcements anymore.
+myra.message.relayed = [cyan]New message has been relayed at your [accent]Signal Transmission Station!
+
+# < Pop-up Texts >
+myra.power = [salmon]< [accent]\ue810[] UNSTABLE POWER [accent]\ue810[] >
+myra.boot = [lightgray]< BOOTING >
+myra.diag = [lightgray]< RUNNING DIAGNOSTICS >
+myra.link = [lightgray]< LINKING DATA CELL CHIP TO TERMINAL >
+myra.adjust = [lightgray]< ADJUSTING SIGNAL CHANNELS >
+myra.on = [accent]< ONLINE >\n< WELCOME :] >
+myra.hold = [lightgray]< PLEASE HOLD >\n< LOCATING SIGNAL OF NEARBY OUTPOSTS >
+myra.signalfound = [accent]< SIGNAL FOUND !!! >
+myra.send = [accent]< SENDING UNIT >\n[lightgray]< ETA : 900 >
+myra.ship.arrived = [accent] < REINFORCEMENT HAS ARRIVED !!! >\n < ASSIGNING MECH UNITS >
+myra.mech.arrived = [accent] < REINFORCEMENT HAS ARRIVED !!! >\n < ASSIGNING GROUND UNITS >
+myra.ground.arrived = [accent] < REINFORCEMENT HAS ARRIVED !!! >\n < ASSIGNING SHIP UNITS >
+
+# STS Relayed Message
+myra.message.player = [lightgray] It appears that these [accent]Signal Transmission Station[] can execute special functions.\nBe careful, as though it allow us to gain insight of the area, it also becoming an advantageous for the enemy.
+myra.message.passage = [lightgray]It appears the enemy has set up demolition charges to collapse the narrow passage to one of the bases.\nInspect the explosion site, maybe it is still possible to march some units through.\nScanners Indicate that the enemy attempting to hesten their construction of a special missile within their base.
+myra.south.west = [lightgray]It appears that the enemy has build a heavy blockage of high end turrets and long range cruise missiles around the south west area.
+
+# Toast Destroyed Enemies STS
+mrya.sts1 = [lightgray]You feel a sense of shrouded dread as these [accent]Signal Trasmission Station[] are destroyed.
+myra.sts2 = [lightgray]You feel the enemies rage grow even more stronger.
+myra.sts3 = [lightgray]You see the sky light up with auroras and a railgun shells.
+
+# < Custom Objectives Region >
+novaris.alert = [red]⚠ Alerting All Nearby Bases ⚠
+novaris.bridge1 = [red]⚠ Enemy Reinforcement approaching Bridge 1 ⚠
+
+militaryjunkyard.exovents = [cyan]These are [accent]Exovents[]\nThe [accent]Exovents[] can generate more power and resources!
+
+ending.thanks = [cyan]You have reached the end of the campaign for now.\nAt this point, you should have researched [#bf97d6]gravitix[] and ready for upcoming update.\n\nYou can make your own maps and send it on [accent]My Exoprosopa Server[].\nIf its good, I will add it to the campaign.\n\nYou can do anything in here, this sector is automatically captured after 5 minutes.\n\n[accent]Thankyou for playing!
+
+# Locale Bundle - Lores via Message Chip
+# en:
+bio.chip1 = [salmon]High Radiation Area\nOnly Nikkes Allowed
+bio.chip2 = [accent]Miasma Capacity = [salmon]88%\n[accent]Status = [salmon]Danger
+bio.chip3 = [salmon]All defense point has been destroyed.\nAll remaining personel units evacuate to\n[accent]Armored Warfare Facility[] immediately!
+bio.chip4 = -- - -- -- --- -- -
+bio.chip5 = - - --- - -- -- ---
+
+# < Campaign Objectives Region >
+
 # Planet
 planet.exoprosopa-frostnova.name = 
+planet.exoprosopa-teresa.name =
 
 # Infection Team [ Keep it in mind that TnmSpiroct planned an infection mass thingy in frostnova so uh... leave it there ]
 # team.custom-blue.name = Astral
@@ -42,20 +176,20 @@ sector.exoprosopa-19s-07-cliffside.description =
 sector.exoprosopa-19s-08-botanical-garden.name = 
 sector.exoprosopa-19s-08-botanical-garden.description = 
 
-sector.exoprosopa-19s-08-precipice.name = 
-sector.exoprosopa-19s-08-precipice.description = 
-
 sector.exoprosopa-19s-09-escarpment.name = 
 sector.exoprosopa-19s-09-escarpment.description = 
 
 sector.exoprosopa-19s-10-cornerstone.name = 
 sector.exoprosopa-19s-10-cornerstone.description = 
 
-sector.exoprosopa-19s-12-hazardous-wasteland.name = 
-sector.exoprosopa-19s-12-hazardous-wasteland.description = 
+sector.exoprosopa-19s-11-hazardous-wasteland.name = 
+sector.exoprosopa-19s-11-hazardous-wasteland.description = 
 
-sector.exoprosopa-19s-12-i-creek.name = 
-sector.exoprosopa-19s-12-i-creek.description = 
+sector.exoprosopa-19s-11-precipice.name = 
+sector.exoprosopa-19s-11-precipice.description = 
+
+sector.exoprosopa-19s-12-creek.name = 
+sector.exoprosopa-19s-12-creek.description = 
 
 sector.exoprosopa-19s-13-marshlands.name = 
 sector.exoprosopa-19s-13-marshlands.description = 
@@ -72,8 +206,15 @@ sector.exoprosopa-19s-16-bioproject-core.description =
 sector.exoprosopa-19s-23-eridanus.name = 
 sector.exoprosopa-19s-23-eridanus.description = 
 
-# sector.exoprosopa-19s-51-ridgeline.name = 
-# sector.exoprosopa-19s-51-ridgeline.description = 
+sector.exoprosopa-19s-24-clover-springs.name = 
+sector.exoprosopa-19s-24-clover-springs.description = 
+
+sector.exoprosopa-19s-30-myrra-heights.name = 
+sector.exoprosopa-19s-30-myrra-heights.description = 
+
+# Optional Sectors
+sector.exoprosopa-19s-51-ridgeline.name = 
+sector.exoprosopa-19s-51-ridgeline.description = 
 
 sector.exoprosopa-19s-99-ending.name = 
 sector.exoprosopa-19s-99-ending.description = 
@@ -260,13 +401,12 @@ block.exoprosopa-04d-04-bore-jet.description =
 
 block.exoprosopa-04d-05-ichor-rig.name = 
 block.exoprosopa-04d-05-ichor-rig.description = 
-block.exoprosopa-04d-05-ichor-rig.details =
-
-block.exoprosopa-04d-06-neutralizer.name = 
-block.exoprosopa-04d-06-neutralizer.description = 
 
 block.exoprosopa-04d-06-nucrid-crusher.name = 
 block.exoprosopa-04d-06-nucrid-crusher.description = 
+
+block.exoprosopa-04d-06-nucrid-scrapper.name = 
+block.exoprosopa-04d-06-nucrid-scrapper.description = 
 
 block.exoprosopa-04d-07-gravitix-drill.name = 
 block.exoprosopa-04d-07-gravitix-drill.description = 
@@ -277,6 +417,9 @@ block.exoprosopa-06f-01-a-sea-conduit.description =
 
 block.exoprosopa-06f-01-b-aqua-conduit.name = 
 block.exoprosopa-06f-01-b-aqua-conduit.description = 
+
+block.exoprosopa-06f-02-hoverducts.name = 
+block.exoprosopa-06f-02-hoverducts.description = 
 
 block.exoprosopa-06f-02-seaduct-junction.name = 
 block.exoprosopa-06f-02-seaduct-junction.description = 
@@ -314,7 +457,7 @@ block.exoprosopa-06f-08-mfu.description =
 block.exoprosopa-06f-09-nullifier.name = 
 block.exoprosopa-06f-09-nullifier.description = 
 
-# Logic - Music
+# Logic
 block.exoprosopa-12l-001-message-chip.name = 
 block.exoprosopa-12l-001-message-chip.description = 
 
@@ -324,31 +467,29 @@ block.exoprosopa-12l-002-switch.description =
 block.exoprosopa-12l-003-terminator.name = 
 block.exoprosopa-12l-003-terminator.description = 
 
+block.exoprosopa-12l-004-1-executor.name = 
+block.exoprosopa-12l-004-1-executor.description = 
+
 block.exoprosopa-12l-004-cell-data.name = 
 block.exoprosopa-12l-004-cell-data.description = 
+
+block.exoprosopa-12l-005-cell-data-large.name = 
+block.exoprosopa-12l-005-cell-data-large.description = 
+
+block.exoprosopa-12l-005-mini-projector.name = 
+block.exoprosopa-12l-005-mini-projector.description = 
 
 block.exoprosopa-12l-005-projector.name = 
 block.exoprosopa-12l-005-projector.description = 
 
-# Trophy [ Tnm says this would get removed so i just left these strings empty ]
+block.exoprosopa-12l-006-canvas.name = 
+block.exoprosopa-12l-006-canvas.description = 
 
-# block.exoprosopa-12l-01-absolutan-trophy.name = 
-# block.exoprosopa-12l-01-absolutan-trophy.description = 
+block.exoprosopa-12l-007-canvas-large.name = 
+block.exoprosopa-12l-007-canvas-large.description = 
 
-# block.exoprosopa-12l-02-sh1penfire-trophy.name = 
-# block.exoprosopa-12l-02-sh1penfire-trophy.description = 
-
-# block.exoprosopa-12l-03-nameless-trophy.name = 
-# block.exoprosopa-12l-03-nameless-trophy.description = 
-
-# block.exoprosopa-12l-04-twcash-trophy.name
-# block.exoprosopa-12l-04-twcash-trophy.description = 
-
-# block.exoprosopa-12l-05-catana-trophy.name = 
-# block.exoprosopa-12l-05-catana-trophy.description = 
-
-# block.exoprosopa-12l-06-axoxium-trophy.name = 
-# block.exoprosopa-12l-06-axoxium-trophy.description = 
+block.exoprosopa-12l-007-canvas-massive.name = 
+block.exoprosopa-12l-007-canvas-massive.description = 
 
 # Power Blocks
 block.exoprosopa-07g-01-powerline.name = 
@@ -393,6 +534,9 @@ block.exoprosopa-07g-05-tokamak-reactor.description =
 block.exoprosopa-07g-10-necroplasm-reactor.name = 
 block.exoprosopa-07g-10-necroplasm-reactor.description = 
 
+block.exoprosopa-07g-11-hybrid-reactor.name = 
+block.exoprosopa-07g-11-hybrid-reactor.description = 
+
 # Production - Blocks
 block.exoprosopa-09i-01-aluminium-furnace.name = 
 block.exoprosopa-09i-01-aluminium-furnace.description = 
@@ -406,6 +550,9 @@ block.exoprosopa-09i-02-elixir-converter.description =
 block.exoprosopa-09i-02-f-elixir-autofreezer.name = 
 block.exoprosopa-09i-02-f-elixir-autofreezer.description = 
 
+block.exoprosopa-09i-03-cryo-synthetis-chamber.name = 
+block.exoprosopa-09i-03-cryo-synthetis-chamber.description = 
+
 block.exoprosopa-09i-04-a-terra-basin.name = 
 block.exoprosopa-09i-04-a-terra-basin.description = 
 
@@ -417,6 +564,9 @@ block.exoprosopa-09i-04-clevorite-disassembler.description =
 
 block.exoprosopa-09i-04-heavy-ichor-mixer.name = 
 block.exoprosopa-09i-04-heavy-ichor-mixer.description = 
+
+block.exoprosopa-09i-04-ichor-regulator.name = 
+block.exoprosopa-09i-04-ichor-regulator.description = 
 
 block.exoprosopa-09i-04-laminator.name = 
 block.exoprosopa-09i-04-laminator.description = 
@@ -448,6 +598,9 @@ block.exoprosopa-09i-11-o-miasma-heater.description =
 block.exoprosopa-09i-11-o-radiative-heater.name = 
 block.exoprosopa-09i-11-o-radiative-heater.description = 
 
+block.exoprosopa-09i-11-o-sunlit-heater.name = 
+block.exoprosopa-09i-11-o-sunlit-heater.description = 
+
 block.exoprosopa-09i-11-p-heat-redirector.name = 
 block.exoprosopa-09i-11-p-heat-redirector.description = 
 
@@ -466,6 +619,9 @@ block.exoprosopa-09i-12-gravitix-chamber-core.description =
 block.exoprosopa-09i-12-necrolysis-boiler.name = 
 block.exoprosopa-09i-12-necrolysis-boiler.description = 
 
+block.exoprosopa-09i-13-technoworks.name = 
+block.exoprosopa-09i-13-technoworks.description = 
+
 block.exoprosopa-09i-15-pyroforge.name = 
 block.exoprosopa-09i-15-pyroforge.description = 
 
@@ -473,11 +629,12 @@ block.exoprosopa-09i-20-pipeline-incinerator.name =
 block.exoprosopa-09i-20-pipeline-incinerator.description = 
 
 # Tech Tree - Research
-block.exoprosopa-0001-item.name = 
-block.exoprosopa-0001-item.description = 
 
-block.exoprosopa-0002-liquid.name = 
-block.exoprosopa-0002-liquid.description = 
+block.exoprosopa-0001-transport.name = 
+block.exoprosopa-0001-transport.description = 
+
+block.exoprosopa-0002-conduit.name = 
+block.exoprosopa-0002-conduit.description = 
 
 block.exoprosopa-0003-factory.name = 
 block.exoprosopa-0003-factory.description = 
@@ -485,20 +642,17 @@ block.exoprosopa-0003-factory.description =
 block.exoprosopa-0004-drill.name = 
 block.exoprosopa-0004-drill.description = 
 
-block.exoprosopa-0005-transport.name = 
-block.exoprosopa-0005-transport.description = 
+block.exoprosopa-0005-power.name = 
+block.exoprosopa-0005-power.description = 
 
-block.exoprosopa-0006-conduit.name = 
-block.exoprosopa-0006-conduit.description = 
+block.exoprosopa-0006-logic.name = 
+block.exoprosopa-0006-logic.description = 
 
-block.exoprosopa-0007-power.name = 
-block.exoprosopa-0007-power.description = 
+block.exoprosopa-0007-defence.name = 
+block.exoprosopa-0007-defence.description = 
 
-block.exoprosopa-0008-defence.name = 
-block.exoprosopa-0008-defence.description = 
-
-block.exoprosopa-0009-turret.name = 
-block.exoprosopa-0009-turret.description = 
+block.exoprosopa-0008-turret.name = 
+block.exoprosopa-0008-turret.description = 
 
 block.exoprosopa-0010-fabricator.name = 
 block.exoprosopa-0010-fabricator.description = 
@@ -506,20 +660,17 @@ block.exoprosopa-0010-fabricator.description =
 block.exoprosopa-0011-effect.name = 
 block.exoprosopa-0011-effect.description = 
 
-block.exoprosopa-0012-music.name = 
-block.exoprosopa-0012-music.description = 
+block.exoprosopa-0012-sector.name = 
+block.exoprosopa-0012-sector.description = 
 
-block.exoprosopa-0013-trophy.name = 
-block.exoprosopa-.description = 
+block.exoprosopa-0013-item.name = 
+block.exoprosopa-0013-item.description = 
 
-block.exoprosopa-0014-sector.name = 
-block.exoprosopa-.description = 
+block.exoprosopa-0014-liquid.name = 
+block.exoprosopa-0014-liquid.description = 
 
-block.exoprosopa-0016-unit.name = 
-block.exoprosopa-0016-unit.description = 
-
-block.exoprosopa-0017-trophy.name = 
-block.exoprosopa-0017-trophy.description = 
+block.exoprosopa-0015-unit.name = 
+block.exoprosopa-0015-unit.description = 
 
 # Storage - Cores - Effects
 block.exoprosopa-11k-00-core-suzuran-kit.name = 
@@ -579,9 +730,6 @@ block.exoprosopa-11k-10-fog-blocks.description =
 block.exoprosopa-11k-11-global-radar.name = 
 block.exoprosopa-11k-11-global-radar.description = 
 
-block.exoprosopa-11k-07-buoy.name = 
-block.exoprosopa-11k-07-buoy.description = 
-
 block.exoprosopa-91z-00-core-accelerator.name = 
 block.exoprosopa-91z-00-core-accelerator.description = 
 
@@ -616,9 +764,6 @@ block.exoprosopa-03c-04-ox.description =
 block.exoprosopa-03c-04-preject.name = 
 block.exoprosopa-03c-04-preject.description = 
 
-block.exoprosopa-03c-04-sprayer.name = 
-block.exoprosopa-03c-04-sprayer.description =
-
 block.exoprosopa-03c-05-equinox.name = 
 block.exoprosopa-03c-05-equinox.description = 
 
@@ -640,8 +785,17 @@ block.exoprosopa-03c-08-skyhammer.description =
 block.exoprosopa-03c-09-plasmyr.name = 
 block.exoprosopa-03c-09-plasmyr.description = 
 
-block.exoprosopa-03c-10-supernova.name = 
-block.exoprosopa-03c-10-supernova.description = 
+# block.exoprosopa-03c-10-supernova.name = 
+# block.exoprosopa-03c-10-supernova.description = 
+
+# block.exoprosopa-03c-08-webber.name = Fusillade
+# block.exoprosopa-03c-08-webber.description = Fires bursts of shrapnel at enemy targets. Does huge knockback.
+
+# block.exoprosopa-03c-09-identity.name = Identity
+# block.exoprosopa-03c-09-identity.description = Reconstruct Tachyon energy to fires piercing railgun at enemies.
+
+# block.exoprosopa-03c-10-supernova.name = Supernova
+# block.exoprosopa-03c-10-supernova.description = Cooldown and fires Exolaser continously, pierces through armor and enemies within range.
 
 # Unit Blocks
 block.exoprosopa-10j-01-unitconstructor-tank.name = 
@@ -689,6 +843,9 @@ block.exoprosopa-10j-11-advanced-module-a.description =
 block.exoprosopa-10j-12-regenerator.name = 
 block.exoprosopa-10j-12-regenerator.description = 
 
+block.exoprosopa-10j-13-prime-regenerator.name = 
+block.exoprosopa-10j-13-prime-regenerator.description = 
+
 block.exoprosopa-10j-14-payload-conveyor.name = 
 block.exoprosopa-10j-14-payload-conveyor.description = 
 
@@ -699,13 +856,19 @@ block.exoprosopa-10j-15-surge-launcher.name =
 block.exoprosopa-10j-15-surge-launcher.description = 
 
 block.exoprosopa-10j-16-block-fabricator.name = 
-block.exoprosopa-10j-16-block-fabricator.description = 
+block.exoprosopa-10j-16-block-fabricator.description =
+
+block.exoprosopa-10j-17-block-large-fabricator.name = 
+block.exoprosopa-10j-17-block-large-fabricator.description = 
 
 block.exoprosopa-10j-17-unitpart-fabricator.name = 
 block.exoprosopa-10j-17-unitpart-fabricator.description = 
 
 block.exoprosopa-10j-18-block-deconstructor.name = 
 block.exoprosopa-10j-18-block-deconstructor.description = 
+
+block.exoprosopa-10j-19-block-large-deconstructor.name = 
+block.exoprosopa-10j-19-block-large-deconstructor.description = 
 
 block.exoprosopa-90z-01-heavy-armored-treads.name = 
 block.exoprosopa-90z-01-heavy-armored-treads.description = 
@@ -715,6 +878,9 @@ block.exoprosopa-90z-02-hyperspace-engine.description =
 
 block.exoprosopa-90z-03-geopowered-mechlegs.name = 
 block.exoprosopa-90z-03-geopowered-mechlegs.description = 
+
+block.exoprosopa-90z-04-multi-joint.name = Multi Joint
+block.exoprosopa-90z-04-multi-joint.description = 
 
 # Walls
 block.exoprosopa-08h-01-cobalt-wall-small.name = 
@@ -842,19 +1008,6 @@ unit.exoprosopa-16p-04-carragher.description =
 unit.exoprosopa-16p-05-xenoct.name = 
 unit.exoprosopa-16p-05-xenoct.description = 
 
-# Ship Units
-# unit.exoprosopa-17q-05-bulbhead.name = 
-# unit.exoprosopa-17q-05-bulbhead.description = 
-
-# unit.exoprosopa-17q-06-shark.name = 
-# unit.exoprosopa-17q-06-shark.description = 
-
-# unit.exoprosopa-17q-07-narhwal.name = 
-# unit.exoprosopa-17q-07-narhwal.description = 
-
-# unit.exoprosopa-17q-08-freesia.name = 
-# unit.exoprosopa-17q-08-freesia.description = 
-
 # Tank Units
 unit.exoprosopa-15o-01-mason.name = 
 unit.exoprosopa-15o-01-mason.description = 
@@ -878,6 +1031,15 @@ unit.exoprosopa-18r-02-amber.description =
 unit.exoprosopa-18r-02-iris.name = 
 unit.exoprosopa-18r-02-iris.description = 
 
+unit.exoprosopa-rhodes-core-land.name = Rhodes Core Land VFX
+
+# Guardian Units
+unit.exoprosopa-15n-01-honsha.name = 
+unit.exoprosopa-15n-01-honsha.description = 
+
+unit.exoprosopa-15n-02-ag-shiraino.name = 
+unit.exoprosopa-15n-02-ag-shiraino.description = 
+
 # Weather
 weather.exoprosopa-blizzard.name = 
 weather.exoprosopa-exosphere.name = 
@@ -886,14 +1048,12 @@ weather.exoprosopa-hydrostorm.name =
 # Status Effects
 status.exoprosopa-13m-01-breached.name = 
 status.exoprosopa-13m-01-breached.description = 
-status.exoprosopa-13m-01-breached.details = 
 
 status.exoprosopa-13m-02-immunity.name = 
 status.exoprosopa-13m-02-immunity.description = 
 
 status.exoprosopa-13m-03-hsos6.name = 
 status.exoprosopa-13m-03-hsos6.description = 
-sratus.exoprosopa-13m-03-hsos6.details = 
 
 status.exoprosopa-13m-04-boosted.name = 
 status.exoprosopa-13m-04-boosted.description = 
@@ -903,7 +1063,6 @@ status.exoprosopa-13m-05-overboosted.description =
 
 status.exoprosopa-13m-06-contaminated.name = 
 status.exoprosopa-13m-06-contaminated.description = 
-status.exoprosopa-13m-06-contaminated.details = 
 
 status.exoprosopa-13m-07-shock.name = 
 status.exoprosopa-13m-07-shock.description = 
@@ -913,6 +1072,27 @@ status.exoprosopa-13m-07-stunned.description =
 
 status.exoprosopa-13m-08-doom.name = 
 status.exoprosopa-13m-08-doom.description = 
+
+# Vanilla Overrides [ up to you guys ]
+research = Analyze
+researched = [lightgray]{0}% Analyzed
+research.progress = [lightgray]{0}% Analyzed
+
+complete = [lightgray]Analysis Pending[]
+requirement.research = Analyze: {0}
+requirement.produce = Extract: {0}
+requirement.capture = Conquer: {0}
+requirement.onsector = Encroach on: {0}
+
+threat.low = Normal
+threat.medium = Hard
+threat.high = Insane
+threat.extreme = [scarlet]Torment[]
+threat.eradication = [cyan]Legendary[]
+
+sectors.enemybase = [scarlet]Enemy Headquarters[]
+sectors.underattack.nodamage = [scarlet]Conquering...
+details = Fix this!
 
 # < Astral Region >
 # Core Blocks & Units
@@ -961,12 +1141,30 @@ block.exoprosopa-27g-01-toxocida.description =
 block.exoprosopa-21a-01-havoc.name = 
 block.exoprosopa-21a-01-havoc.description = 
 
+# Astral Ship Units
+unit.exoprosopa-17q-05-bulbhead.name = 
+unit.exoprosopa-17q-05-bulbhead.description = 
+
+unit.exoprosopa-17q-06-shark.name = 
+unit.exoprosopa-17q-06-shark.description = 
+
+unit.exoprosopa-17q-07-narhwal.name = 
+unit.exoprosopa-17q-07-narhwal.description = 
+
+unit.exoprosopa-17q-08-freesia.name = 
+unit.exoprosopa-17q-08-freesia.description = 
+unit.exoprosopa-17q-08-freesia.details = 
+
 # Unit Tier 1
 unit.exoprosopa-31k-01-blastum.name = 
 unit.exoprosopa-31k-01-blastum.description = 
 
 unit.exoprosopa-31k-02-scorcher.name = 
 unit.exoprosopa-31k-02-scorcher.description = 
+
+# Offensive
+unit.exoprosopa-exploding-bomb.name = 
+unit.exoprosopa-mine-bomb.name = 
 
 # Walls
 block.exoprosopa-26f-01-gryphic-wall-small.name = 
