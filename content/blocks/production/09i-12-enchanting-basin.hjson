@@ -33,12 +33,12 @@ craftEffect: {
   {
     type: particleEffect
     particles: 6
-    length: 7
-    lifetime: 25
-    interp: circleOut
+    length: 10
+    lifetime: 30
+    interp: pow2Out
     sizeInterp: pow5In
-    sizeFrom: 2.2 
-    sizeTo: 0.1
+    sizeFrom: 3
+    sizeTo: 0
     colorFrom: ffc2d6
     colorTo: fe97ba
     region: exoprosopa-spark-drill

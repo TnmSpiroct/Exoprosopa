@@ -59,8 +59,29 @@ drawer: {
       amount: 32
     }
     {
+      type: DrawParticles
+      color: ffc2d6
+      alpha: 0.85
+      particleSize: 1.5
+      particles: 12
+      particleRad: 15
+      particleLife: 60
+    }
+    {
+      type: DrawParticles
+      color: fe97ba
+      alpha: 0.85
+      particleSize: 1.2
+      particles: 10
+      particleRad: 10
+      particleLife: 60
+    }
+    {
       type: DrawCrucibleFlame
-      particleRad: 12
+      flameRad: 0.15
+      circleSpace: 0.15
+      particleSize: 1.2
+      particleRad: 10
     }
     {
       type: DrawDefault

@@ -39,12 +39,52 @@ drawer: {
     padding: 3
   }
   {
+    type: DrawBubbles
+    color: 8eceec
+    sides: 10
+    recurrence: 3
+    spread: 8
+    radius: 1.5
+    amount: 24
+  }
+  {
     type: DrawLiquidTile
     drawLiquid: 02b-02-a-purified-elixir
     padding: 3
   }
   {
+    type: DrawBubbles
+    color: d487ed
+    sides: 10
+    recurrence: 3
+    spread: 8
+    radius: 1.5
+    amount: 12
+  }
+  {
+    type: DrawParticles
+    color: ffc2d6
+    alpha: 0.85
+    particleSize: 1.5
+    particles: 12
+    particleRad: 15
+    particleLife: 60
+  }
+  {
+    type: DrawParticles
+    color: fe97ba
+    alpha: 0.85
+    particleSize: 1.2
+    particles: 10
+    particleRad: 10
+    particleLife: 60
+  }
+  {
     type: DrawCrucibleFlame
+    flameRad: 0.15
+    circleSpace: 0.15
+    particleSize: 1.2
+    particleRad: 10
   }
   {
     type: DrawRegion

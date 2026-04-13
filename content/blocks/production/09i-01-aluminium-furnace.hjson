@@ -44,7 +44,6 @@ drawer: {
     # You can add effect on your blocks to prevent repetitive looking factory.
     {
      type: DrawFlame
-     suffix: -top
      lightRadius: 0
      lightAlpha: 0
      lightSinScl: 0

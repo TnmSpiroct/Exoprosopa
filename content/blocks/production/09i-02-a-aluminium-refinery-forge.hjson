@@ -33,7 +33,6 @@ drawer: {
     }
     {
      type: DrawFlame
-     suffix: -top
      lightRadius: 0
      lightAlpha: 0
      lightSinScl: 0

@@ -15,10 +15,14 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: 02b-03-necroplasm
-      padding: 1
+      alpha: 0.9
+      padding: 2
     }
     {
       type: DrawCrucibleFlame
+      flameRad: 0.5
+      circleSpace: 0.5
+      particleSize: 1.2
     }
     {
       type: DrawDefault
@@ -33,8 +37,8 @@ consumes: {
     02b-03-necroplasm/0.25
   ]
 }
-ambientSound: hum
-ambientSoundVolume: 0.1
+ambientSound: loopHum
+ambientSoundVolume: 0.04
 category: crafting
 research: 09i-11-o-miasma-heater
 requirements: [
