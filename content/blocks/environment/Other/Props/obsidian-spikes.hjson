@@ -2,4 +2,3 @@ type: TallBlock
 name: Obsidian Spikes
 variants: 1
 clipSize: 96
-costumShadow: true

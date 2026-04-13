@@ -79,30 +79,34 @@ weapons: [
       collidesTeam: true
       healPercent: 7.5
       despawnSound: explosion
-      hitEffect: [
-        {
-          type: hitSquaresColor
-          colorFrom: d8f18c
-          colorTo: d8f18c
-          sizeFrom: 2.8
-          sizeTo: 0
-          lifetime: 11
-          strokeFrom: 2
-          strokeTo: 0.8
-        }
-        {
-          type: WaveEffect
-          colorFrom: d8f18c
-          colorTo: d8f18c
-          sizeFrom: 0
-          sizeTo: 12
-          lifetime: 12
-          strokeFrom: 1.2
-          strokeTo: 0.4
-        }
-      ]
+      hitEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: hitSquaresColor
+            colorFrom: d8f18c
+            colorTo: d8f18c
+            sizeFrom: 1.8
+            sizeTo: 0
+            lifetime: 8
+            strokeFrom: 1.6
+            strokeTo: 0.4
+          }
+          {
+            type: WaveEffect
+            colorFrom: d8f18c
+            colorTo: d8f18c
+            sizeFrom: 0
+            sizeTo: 9
+            lifetime: 9
+            strokeFrom: 0.8
+            strokeTo: 0.2
+          }
+        ]
+      }
     }
   }
+]
   {
     x: 0
     y: -4.5
@@ -123,4 +127,12 @@ weapons: [
     }
   }
 ]
-parent: 14n-04-sepia
+research: {
+  parent: 14n-04-sepia
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-99-ending
+    }
+  ]
+}

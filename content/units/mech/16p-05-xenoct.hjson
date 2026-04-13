@@ -10,7 +10,7 @@ legSplashDamage: 150
 legSplashRange: 60
 legPairOffset: 3
 # Experimental
-legContinousMove: true
+legContinuousMove: true
 lockLegBase: true
 legGroupSize: 3
 # ---
@@ -37,7 +37,7 @@ weapons: [
     x: 17.25
     y: 4.25
     mirror: true
-    alternative: true
+    alternate: true
     layerOffset: -0.01
     reload: 45
     shootSound: shootToxopidShotgun

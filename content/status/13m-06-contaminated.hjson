@@ -19,4 +19,4 @@ effect: {
     spin: 6
     baseRotation: 32.5
 }
-effectSpacing: 25
+effectChance: 0.25

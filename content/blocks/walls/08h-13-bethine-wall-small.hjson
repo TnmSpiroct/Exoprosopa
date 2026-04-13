@@ -4,7 +4,6 @@ health: 900
 armor: 12
 outputsPower: false
 hasPower: true
-consumePower: true
 conductivePower: true
 chanceDeflect: 15
 shieldHealth: 200

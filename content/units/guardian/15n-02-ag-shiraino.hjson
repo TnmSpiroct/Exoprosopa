@@ -44,7 +44,6 @@ abilities: [
     cooldown: 900
     regen: 2
     max: 2500
-    y: -11
   }
   {
     type: EnergyFieldAbility
@@ -66,7 +65,7 @@ weapons: [
   {
     x: 0
     y: 20
-    innacurracy: 5
+    inaccuracy: 5
     reload: 240
     recoil: 1.25
     mirror: false
@@ -108,7 +107,7 @@ weapons: [
     reload: 40
     shootSound: shootMissile
     shootSoundVolume: 1.3
-    innacurracy: 18
+    inaccuracy: 18 
     shoot: {
       shots: 5
       shotDelay: 5
@@ -140,8 +139,6 @@ weapons: [
     shootY: 0
     recoil: 0
     shootSound: none
-    smokeEffect: none
-    shootEffect: none
     ejectEffect: none
     alwaysShooting: true
     controllable: false
@@ -150,20 +147,18 @@ weapons: [
     predictTarget: false
     useAttackRange: false
     alternate: false
+    showStatSprite: false
+    display: false
     top: true
     mirror: true
     rotate: false
-    hidden: true
     bullet: {
       splashDamage: 15
       splashDamageRadius: 44
       pierceBuilding: true
-      hidden: true
       hitEffect: none
-      explodeEffect: none
       despawnEffect: none
       smokeEffect: none
-      instantDissapear: true
       hittable: false
       knockback: 0.5
       lifetime: 1

@@ -26,10 +26,10 @@ outlineColor: 26262F
 research: 00004-metamorphosis
 researchCostMultiplier: 0.5
 controller: HugAI
+targetUnderBlocks: false
 weapons: [
   {
     shootOnDeath: true
-    targetUnderBlocks: false
     reload: 120
     shootCone: 180
     ejectEffect: none

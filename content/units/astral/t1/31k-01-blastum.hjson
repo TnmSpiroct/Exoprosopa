@@ -28,10 +28,10 @@ researchCostMultiplier: 0.5
 controller: HugAI
 stepSound: walkerStepTiny
 stepSoundVolume: 0.3
+targetUnderBlocks: false
 weapons: [
   {
     shootOnDeath: true
-    targetUnderBlocks: false
     reload: 24
     shootCone: 180
     ejectEffect: none

@@ -4,4 +4,3 @@ variants: 2
 clipSize: 96
 emitLight: true
 lightColor: 8BCEEA
-costumShadow: true

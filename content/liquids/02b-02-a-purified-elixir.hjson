@@ -4,7 +4,7 @@ research: {
   parent: 02b-01-bioliquid
   objectives: [
     {
-      type: OnComplete
+      type: SectorComplete
       preset: 19s-02-mountain-ridge
     }
   ]

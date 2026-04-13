@@ -6,7 +6,7 @@ research: {
   parent: 02b-04-miasma
   objectives: [
     {
-      type: OnComplete
+      type: SectorComplete
       preset: 19s-14-u-pier
     }
   ]

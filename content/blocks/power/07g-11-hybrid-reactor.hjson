@@ -124,7 +124,6 @@ drawer: {
     }
     {
       type: DrawHeatOutput
-      suffix: -heat
     }
   ]
 }

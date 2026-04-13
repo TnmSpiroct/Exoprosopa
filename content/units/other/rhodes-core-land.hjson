@@ -40,7 +40,6 @@ weapons: [
                         strokeFrom: 6
                         strokeTo: 1
                         interp: circleOut
-                        lightRadius: 0
                         lightOpacity: 0
                         startDelay: 60
                         lifetime: 120
@@ -54,7 +53,6 @@ weapons: [
                         strokeFrom: 6
                         strokeTo: 64
                         interp: exp5Out
-                        lightRadius: 0
                         lightOpacity: 0
                         startDelay: 160
                         lifetime: 7000
