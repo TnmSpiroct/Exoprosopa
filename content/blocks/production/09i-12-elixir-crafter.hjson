@@ -11,8 +11,8 @@ requirements: [
 craftTime: 60
 craftEffect: smeltsmoke
 attribute: nucridfl
-baseEffeciency: 0
-minEffeciency: 0.5
+baseEfficiency: 0
+minEfficiency: 0.5
 maxBoost: 1.5
 drawer: {
   type: DrawMulti
