@@ -61,11 +61,13 @@ landCloudColor: e2effc60
 hasAtmosphere: true
 bloom: false
 
-waveTeam: blue
-placeRangeCheck: false
-lighting: false
-coreDestroyClear: true
-onlyDepositCore: true
+rules: {
+ waveTeam: blue
+ placeRangeCheck: false
+ lighting: false
+ coreDestroyClear: true
+ onlyDepositCore: true
+}
 
 campaignRuleDefaults: {
  fog: true
