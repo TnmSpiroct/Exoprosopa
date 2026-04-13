@@ -102,6 +102,7 @@ weapons: [
     shootY: -3.5
     recoil: 2
     name: noya-weapon
+    parentizeEffects: true
     bullet: {
       # Changes the bullet layer position
       layer: 116

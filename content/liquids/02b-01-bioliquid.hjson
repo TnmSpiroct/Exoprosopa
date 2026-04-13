@@ -12,7 +12,7 @@ research: {
     04d-02-elixir-collector,
     {
         # complete sector .... first to unlock this liquid.
-      type: OnComplete
+      type: SectorComplete
       preset: 19s-01-newgrounds
     }
   ]

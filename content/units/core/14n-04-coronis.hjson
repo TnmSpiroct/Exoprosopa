@@ -76,28 +76,31 @@ weapons: [
       buildingDamageMultiplier: 0.01
       collidesTeam: true
       healPercent: 4.5
-      hitEffect: [
-        {
-          type: hitSquaresColor
-          colorFrom: d8f18c
-          colorTo: d8f18c
-          sizeFrom: 1.8
-          sizeTo: 0
-          lifetime: 8
-          strokeFrom: 1.6
-          strokeTo: 0.4
-        }
-        {
-          type: WaveEffect
-          colorFrom: d8f18c
-          colorTo: d8f18c
-          sizeFrom: 0
-          sizeTo: 9
-          lifetime: 9
-          strokeFrom: 0.8
-          strokeTo: 0.2
-        }
-      ]
+      hitEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: hitSquaresColor
+            colorFrom: d8f18c
+            colorTo: d8f18c
+            sizeFrom: 1.8
+            sizeTo: 0
+            lifetime: 8
+            strokeFrom: 1.6
+            strokeTo: 0.4
+          }
+          {
+            type: WaveEffect
+            colorFrom: d8f18c
+            colorTo: d8f18c
+            sizeFrom: 0
+            sizeTo: 9
+            lifetime: 9
+            strokeFrom: 0.8
+            strokeTo: 0.2
+          }
+        ]
+      }
     }
   }
 ]

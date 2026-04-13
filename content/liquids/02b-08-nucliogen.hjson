@@ -5,7 +5,7 @@ research: {
   parent: 02b-02-a-purified-elixir
   objectives: [
     {
-      type: OnComplete
+      type: SectorComplete
       preset: 19s-99-ending
     }
   ]

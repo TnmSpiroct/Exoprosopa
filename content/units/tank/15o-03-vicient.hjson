@@ -60,10 +60,9 @@ weapons: [
         waveStroke: 3
         waveColor: 6BBDCB
         sparkColor: 6BBDCB
-        trailColor: 6BBDCB
         smokeColor: 6BBDCB
         waveRad: 15
-        smokesSize: 6
+        smokeSize: 6
         smokes: 7
         smokeSizeBase: 0
         sparks: 4
@@ -77,10 +76,9 @@ weapons: [
         waveStroke: 3
         waveColor: 6BBDCB
         sparkColor: 6BBDCB
-        trailColor: 6BBDCB
         smokeColor: 6BBDCB
         waveRad: 12
-        smokesSize: 5
+        smokeSize: 5
         smokes: 4
         smokeSizeBase: 0
         sparks: 3
@@ -119,10 +117,9 @@ weapons: [
           waveStroke: 2.5
           waveColor: 6BBDCB
           sparkColor: 6BBDCB
-          trailColor: 6BBDCB
           smokeColor: 6BBDCB
           waveRad: 8
-          smokesSize: 3
+          smokeSize: 3
           smokes: 2
           smokeSizeBase: 0
           sparks: 2

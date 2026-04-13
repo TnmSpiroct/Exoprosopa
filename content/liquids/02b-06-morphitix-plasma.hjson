@@ -7,7 +7,7 @@ research: {
   parent: 02b-02-ichor
   objectives: [
     {
-      type: OnComplete
+      type: SectorComplete
       preset: 19s-99-ending
     }
   ]

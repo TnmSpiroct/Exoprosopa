@@ -7,7 +7,6 @@ range: 0.01
 healPercent: 0.015
 outputsPower: false
 hasPower: true
-consumePower: true
 conductivePower: true
 absorbLasers: true
 requirements: [

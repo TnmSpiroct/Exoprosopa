@@ -11,6 +11,7 @@ placeableLiquid: true
 forceDark: true
 drawer: []
 drawTeamOverlay: false
+clipSize: 220
 updateEffectSpread: 40
 updateEffect: {
   particles: 3
@@ -22,5 +23,4 @@ updateEffect: {
   colorFrom: 72CCBDff
   colorTo: 1D777009
   layer: 80.1
-  clipSize: 220
 }

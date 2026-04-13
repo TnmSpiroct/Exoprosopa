@@ -51,7 +51,6 @@ weapons: [
     mirror: true
     shootCone: 360
     shake: 10
-    despawnExplosionEffect: massiveExplosion
     bullet: {
       type: ExplosionBulletType
       status: shocked

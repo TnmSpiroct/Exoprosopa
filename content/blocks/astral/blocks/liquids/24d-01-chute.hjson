@@ -1,4 +1,4 @@
-type: Conduit
+type: ArmoredConduit
 category: liquid
 requirements: [
   01a-21-item-gryphic/2
@@ -11,4 +11,3 @@ research: 00002-logistic
 researchCost: [
   01a-21-item-gryphic/75
 ]
-armored: true

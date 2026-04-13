@@ -92,7 +92,6 @@ weapons: [
         haloRadius: 0
         haloRadiusTo: 6.5
         haloRotateSpeed: 0.5
-        followRotation: true
       }
     ]
     bullet: {
@@ -128,10 +127,9 @@ weapons: [
         waveStroke: 4
         waveColor: 6BBDCB
         sparkColor: 6BBDCB
-        trailColor: 6BBDCB
         smokeColor: 6BBDCB
         waveRad: 25
-        smokesSize: 9
+        smokeSize: 9
         smokes: 10
         smokeSizeBase: 0
         sparks: 7

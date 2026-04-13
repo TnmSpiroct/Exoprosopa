@@ -13,23 +13,6 @@ requirements: [
 squareSprite: false
 category: effect
 research: 11k-08-build-tower
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: 02b-03-necroplasm
-      padding: 3
-    }
-    {
-      type: DrawDefault
-    }
-  ]
-}
 liquidCapacity: 60
 consumes: {
   power: 2.5

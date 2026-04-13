@@ -57,7 +57,7 @@ weapons: [
     shootX: -1
     mirror: true
     alternate: true
-    under:true
+    under: true
     reload: 45.5
     shootSound: shootToxopidShotgun
     shootSoundVolume: 0.8
