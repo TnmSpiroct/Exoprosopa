@@ -79,7 +79,7 @@ weapons: [
       collidesTeam: true
       healPercent: 7.5
       despawnSound: explosion
-      hitEffect: {
+      despawnEffect: {
         type: MultiEffect
         effects: [
           {

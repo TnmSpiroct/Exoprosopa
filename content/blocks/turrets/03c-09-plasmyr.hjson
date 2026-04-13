@@ -232,7 +232,6 @@ drawer: {
       heatColor: d1efff45
       turretHeatLayer: 49.9
       under: true
-      outlineColor: 8CA9E8
       layerOffset: -0.3
       # Additional moves
       moves: [{
@@ -256,7 +255,6 @@ drawer: {
       heatColor: D1EFFF45
       turretHeatLayer: 49.9
       under: true
-      outlineColor: 8CA9E8
       layerOffset: -0.3
       moves: [{
         type: PartMove
@@ -277,7 +275,6 @@ drawer: {
       heatColor: D1EFFF45
       turretHeatLayer: 49.9
       under: true
-      outlineColor: 8CA9E8
       layerOffset: -0.3
       moves: [{
         type: PartMove
@@ -298,7 +295,6 @@ drawer: {
       heatColor: D1EFFF45
       turretHeatLayer: 49.9
       under: true
-      outlineColor: 8CA9E8
       layerOffset: -0.3
       moves: [{
         type: PartMove

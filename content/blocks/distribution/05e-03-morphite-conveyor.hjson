@@ -4,7 +4,6 @@ itemCapacity: 15
 health: 200
 outputRouter: false
 hasPower: true
-consumesPower: true
 conductivePower: true
 category: distribution
 research: 05e-07-mechanical-bridge

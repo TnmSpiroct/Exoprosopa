@@ -43,8 +43,7 @@ ammoTypes: {
       sizeTo: 150
       strokeFrom: 3
       strokeTo: 0
-      colors: [BCA49F
-      ]
+      color: BCA49F
      }
   }
 }

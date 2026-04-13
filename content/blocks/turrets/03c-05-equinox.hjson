@@ -41,7 +41,7 @@ shoot: {
   type: ShootMulti
   source: {
     type: ShootAlternate
-    barrel: 3
+    barrels: 3
     shots: 3
     }
   dest: [

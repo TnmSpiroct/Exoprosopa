@@ -86,7 +86,8 @@ drawer: {
     }
     {
       type: DrawCrucibleFlame
-      color: 51c59c
+      flameColor: 51c59c
+      midColor: 51c59c
       flameRad: 0.1
       circleSpace: 0.1
       particleSize: 1.2

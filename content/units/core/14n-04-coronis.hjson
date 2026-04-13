@@ -64,7 +64,7 @@ weapons: [
       splashDamage: 10
       lifetime: 30
       speed: 3.5
-      smokeEffect:shootSmokeSquare
+      smokeEffect: shootSmokeSquare
       trailColor: d8f18c
       trailWidth: 2
       trailLength: 3
@@ -76,7 +76,7 @@ weapons: [
       buildingDamageMultiplier: 0.01
       collidesTeam: true
       healPercent: 4.5
-      hitEffect: {
+      despawnEffect: {
         type: MultiEffect
         effects: [
           {

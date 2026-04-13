@@ -8,7 +8,6 @@ shootWarmupSpeed: 0.05
 shootDuration: 230
 minWarmup: 0.999
 heatRequirement: 30
-shootDuration: 250
 shootSound: shootSupernova
 shootSoundVolume: 0.5
 requirements: [

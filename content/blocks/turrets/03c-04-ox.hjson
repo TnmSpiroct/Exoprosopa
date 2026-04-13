@@ -80,7 +80,6 @@ ammoTypes: {
       status: shocked
       statusDuration: 60
       shootSound: shootBreachCarbide
-      shootSoundVolume: 0.9
       despawnEffect: {
         type: WaveEffect
         rotWithParent: true
