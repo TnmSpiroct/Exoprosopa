@@ -105,7 +105,7 @@ weapons: [
         effects: [
           {
             type: ParticleEffect
-            offsetY: -4.3
+            offsetX: 4.5
             layer: 100
             length: 32.5
             baseLength: 27.5
@@ -120,7 +120,7 @@ weapons: [
           }
           {
             type: WaveEffect
-            offsetY: -4.3
+            offsetX: 4.5
             layer: 100
             sizeFrom: 64
             sizeTo: 0
