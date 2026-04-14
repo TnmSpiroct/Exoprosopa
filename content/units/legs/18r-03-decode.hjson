@@ -1,6 +1,6 @@
 type: mech
 flying: false
-hitSize: 14
+hitSize: 15
 health: 4800
 armor: 8
 speed: 0.38

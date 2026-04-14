@@ -16,6 +16,7 @@ legStraightness: 0.3
 hovering: true
 faceTarget: true
 health: 600
+hitSize: 18
 armor: 4
 speed: 1.7
 mineWalls: true

@@ -24,7 +24,7 @@ health: 33700
 armor: 27
 allowLegStep: true
 speed: 0.425
-hitSize: 35
+hitSize: 32
 drag: 0.07
 itemCapacity: 60
 outlineColor: 26262F

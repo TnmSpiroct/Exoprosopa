@@ -13,7 +13,7 @@ rotateSpeed: 1.65
 accel: 0.06
 health: 22800
 armor: 22
-hitSize: 32
+hitSize: 34
 researchCostMultiplier: 1.5
 research: 17q-04-noya
 loopSound: loopDifferential

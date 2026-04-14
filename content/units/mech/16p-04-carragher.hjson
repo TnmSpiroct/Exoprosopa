@@ -21,7 +21,7 @@ allowLegStep: true
 legSplashDamage: 30
 legSplashRange: 20
 speed: 0.65
-hitSize: 20
+hitSize: 21
 drag: 0.1
 itemCapacity: 20
 outlineColor: 26262f

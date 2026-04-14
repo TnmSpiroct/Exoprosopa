@@ -11,7 +11,7 @@ rotateSpeed: 1.7
 accel: 0.1
 health: 8000
 armor: 9
-hitSize: 28
+hitSize: 27
 researchCostMultiplier: 2.5
 loopSound: loopHover
 loopSoundVolume: 0.5
