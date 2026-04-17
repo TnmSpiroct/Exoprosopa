@@ -28,6 +28,7 @@ shootCone: 360
 shootY: 0
 shootX: 0
 shake: 7
+maxAmmo: 15
 ammoTypes: {
   01a-06-item-chromium: {
     instantDisappear: true
