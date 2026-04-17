@@ -42,15 +42,17 @@ shoot: {
   shots: 5
   spread: 17
 }
+maxAmmo: 30
+ammoPerShot: 3
 ammoTypes: {
   01a-02-item-nickel: {
     type: BasicBulletType
     sprite: large-orb
-    buildingDamageMultiplier: 0.25
+    buildingDamageMultiplier: 0.3
     hitColor: f6b08a
     frontColor: f6b08a
     backColor: f6b08a
-    damage: 32.5
+    damage: 33.5
     width: 8
     height: 14
     hitSize: 6
@@ -68,7 +70,7 @@ ammoTypes: {
   01a-06-item-chromium: {
     type: BasicBulletType
     sprite: large-orb
-    buildingDamageMultiplier: 0.4
+    buildingDamageMultiplier: 0.2
     hitColor: bca49f
     frontColor: bca49f
     backColor: bca49f

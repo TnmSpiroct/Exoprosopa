@@ -1,6 +1,11 @@
-boilPoint: 2
 color: ebcf73
-heatCapacity: 0.3
+flammability: 0
+temperature: 0.2
+heatCapacity: 0.2
+viscosity: 0.5
+explosiveness: 0
+boilPoint: 0.5
+effect: exoprosopa-13m-02-immunity
 gasColor: d9e1e6E6
 research: {
   parent: 02b-01-bioliquid

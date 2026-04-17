@@ -24,13 +24,15 @@ rotateSpeed: 1.5
 reload: 45
 range: 208
 shootY: 1
+ammoPerShot: 2
 ammoTypes: {
   01a-01-item-cobalt: {
     type: BasicBulletType
     sprite: exoprosopa-impale-arrow
+    ammoMultiplier: 1
     width: 16
     height: 16
-    buildingDamageMultiplier: 0.5
+    buildingDamageMultiplier: 0.3
     hitColor: a3bbeb
     backColor: a3bbeb
     frontColor: a3bbeb
@@ -68,16 +70,17 @@ ammoTypes: {
   01a-05-item-aluminium: {
     type: BasicBulletType
     sprite: exoprosopa-impale-arrow
+    ammoMultiplier: 2
     width: 16
     height: 16
-    buildingDamageMultiplier: 0.5
+    buildingDamageMultiplier: 0.3
     hitColor: b1cbd8
     backColor: b1cbd8
     frontColor: b1cbd8
     lightColor: b1cbd8
     damage: 70.5
     splashDamage: 10
-    splashDamageRadius: 18
+    splashDamageRadius: 16
     speed: 6.4
     lifetime: 32.5
     despawnEffect: [
@@ -109,8 +112,9 @@ ammoTypes: {
   }
   01a-06-item-chromium: {
     type: BasicBulletType
-    buildingDamageMultiplier: 0.65
+    buildingDamageMultiplier: 0.3
     sprite: exoprosopa-impale-arrow
+    ammoMultiplier: 2
     width: 16
     height: 16
     hitColor: bca49f
@@ -148,12 +152,13 @@ ammoTypes: {
     smokeEffect: shootBigSmoke
     shrinkX: 0
     shrinkY: 0
-    rangeChange: 42
+    rangeChange: 40
   }
   01a-09-item-morphite: {
     type: BasicBulletType
-    buildingDamageMultiplier: 0.75
+    buildingDamageMultiplier: 0.3
     sprite: exoprosopa-impale-arrow
+    ammoMultiplier: 2
     width: 16
     height: 16
     hitColor: 51c59c
@@ -162,7 +167,7 @@ ammoTypes: {
     lightColor: 51c59c
     damage: 145
     speed: 9.5
-    lifetime: 40
+    lifetime: 31
     despawnEffect: [
     colorSpark,
     {
@@ -189,17 +194,20 @@ ammoTypes: {
     smokeEffect: shootBigSmoke
     shrinkX: 0
     shrinkY: 0
-    rangeChange: 172
-    status: shocked
+    rangeChange: 80
     fragRandomSpread: 0
-    fragSpread: 120
+    fragSpread: 40
     fragLifeMin: 1
     fragLifeMax: 1
     fragVelocityMin: 1
     fragVelocityMax: 1
     fragBullets: 3
     fragBullet: {
-      type: ArtilleryBulletType
+      type: LightningBulletType
+      lightningLength: 3
+      lightningLengthRand: 3
+      lightningColor: 51c59c
+      status: shocked
       hitColor: 51c59c
       backColor: 51c59c
       frontColor: 51c59c
@@ -209,18 +217,7 @@ ammoTypes: {
       speed: 1
       lifetime: 6
       damage: 7.5
-      fragBullets: 1
       despawnSound: explosionArtilleryShock
-      fragBullet: {
-        type: LightningBulletType
-        despawnSound: shockBulletSyntax
-        damage: 17.5
-        lightningLength: 3
-        lightningLengthRand: 3
-        lightningColor: 51c59c
-        status: shocked
-        buildingDamageMultiplier: 0.75
-      }
     }
   }
 }

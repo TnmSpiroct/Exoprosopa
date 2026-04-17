@@ -1,8 +1,12 @@
+flammability: 0
+temperature: 1
+heatCapacity: 0.8
+viscosity: 0.8
+explosiveness: 4
 boilPoint: 0.5
+effect: exoprosopa-13m-03-hsos6
 color: 51c59c
-heatCapacity: 0.3
 gasColor: d9e1e6E6
-explosiveness: 5
 research: {
   parent: 02b-02-ichor
   objectives: [

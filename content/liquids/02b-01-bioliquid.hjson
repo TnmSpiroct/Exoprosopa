@@ -1,6 +1,10 @@
 # Statistic
+flammability: 0
+temperature: 0.5
+heatCapacity: 0.2
+viscosity: 0.5
+explosiveness: 0
 boilPoint: 0.5
-heatCapacity: 0.3
 # Color
 color: d488ea
 # Research tree

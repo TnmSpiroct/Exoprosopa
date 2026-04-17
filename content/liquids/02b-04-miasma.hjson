@@ -1,10 +1,12 @@
 colorFrom: b979bd
 colorTo: a865b4
 color: b979bd
-heatCapacity: 0.35
+flammability: 0
 temperature: 0.7
-viscosity: 0.95
-explosiveness: 0.6
+heatCapacity: 0.4
+viscosity: 0.9
+explosiveness: 0.5
+boilPoint: 0.5
 capPuddles: false
 spreadTarget: 02b-01-bioliquid
 blockReactive: false

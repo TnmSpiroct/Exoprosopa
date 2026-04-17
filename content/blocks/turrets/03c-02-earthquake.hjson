@@ -31,21 +31,42 @@ shake: 7
 ammoTypes: {
   01a-06-item-chromium: {
     instantDisappear: true
-    splashDamage: 25
-    splashDamageRadius: 150
-    status: 13m-01-breached
+    damage: 5
+    splashDamage: 20
+    splashDamageRadius: 148
+    status: slow
     statusDuration: 300
     despawnEffect: none
     hitEffect: none
     shootEffect: {
       type: WaveEffect
       sizeFrom: 0
-      sizeTo: 150
+      sizeTo: 152
       strokeFrom: 3
       strokeTo: 0
       colorFrom: BCA49F
       colorTo: BCA49F
      }
+  }
+  01a-03-item-lamine: {
+    instantDisappear: true
+    damage: 7.5
+    splashDamage: 42.5
+    splashDamageRadius: 220
+    status: blasted
+    statusDuration: 300
+    despawnEffect: none
+    hitEffect: none
+    rangeChange: 40
+    shootEffect: {
+      type: WaveEffect
+      sizeFrom: 0
+      sizeTo: 202
+      strokeFrom: 3
+      strokeTo: 0
+      colorFrom: ff8167
+      colorTo: ff8167
+    }
   }
 }
 heatColor: 6d555980

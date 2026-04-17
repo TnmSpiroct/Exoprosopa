@@ -1,6 +1,10 @@
+flammability: 0
+temperature: 0.5
+heatCapacity: 0.5
+viscosity: 0.5
+explosiveness: 0
 boilPoint: 0.5
 color: C63B64
-heatCapacity: 0.5
 research: {
   parent: 02b-02-a-purified-elixir
   objectives: [
