@@ -5,7 +5,6 @@ health: 16500
 armor: 20
 warmupMaintainTime: 25
 shootWarmupSpeed: 0.05
-shootDuration: 230
 minWarmup: 0.999
 heatRequirement: 30
 shootSound: shootSupernova

@@ -56,7 +56,7 @@ ammoTypes: {
     type: BasicBulletType
     # Bullet sprite
     sprite: large-orb
-    buildingDamageMultiplier: 0.25
+    buildingDamageMultiplier: 0.2
     hitColor: 96E3FC
     frontColor: FFFFFF
     backColor: 96E3FC
@@ -70,8 +70,9 @@ ammoTypes: {
     shrinkY: 0
     speed: 9
     lifetime: 58
-    pierceCap: 3
-    pierce: true
+    ammoMultiplier: 1
+    pierceCap: 5
+    pierceArmor: true
     trailColor: 96E3FC
     trailInterval: 1.25
     trailLength: 11
@@ -80,7 +81,7 @@ ammoTypes: {
     trailEffect: colorSpark
     trailRotation: true
     fragOnHit: false
-    fragBullets: 13
+    fragBullets: 15
     fragLifeMin: 0.5
     fragVelocityMin: 0.55
     fragVelocityMax: 1.25
@@ -88,8 +89,8 @@ ammoTypes: {
     intervalAngle: 180
     intervalSpread: 300
     intervalRandomSpread: 20
-    bulletInterval: 6.5
-    homingPower: 0.05
+    bulletInterval: 8
+    homingPower: 0.055
     homingRange: 20
     despawnShake: 3
     despawnSound: explosionDull

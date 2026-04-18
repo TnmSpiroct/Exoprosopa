@@ -57,31 +57,10 @@ shootType: {
   despawnSound: explosionQuad
   despawnEffect: greenBomb
   hitEffect: massiveExplosion
-  splashDamage: 1550
-  splashDamageRadius: 55
-  fragOnHit: true
-  fragBullets: 8
-  fragRandomSpread: 0
-  fragLifeMin: 1
-  fragLifeMax: 1
-  fragVelocityMin: 1
-  fragVelocityMax: 1
-  fragSpread: 45
-  fragAngle: 45
-  fragOnAbsorb: true
-  fragBullet: {
-    type: ArtilleryBulletType
-    buildingDamageMultiplier: 0.1
-    width: 0
-    height: 0
-    speed: 2
-    lifetime: 10
-    pierceCap: 2
-    splashDamage: 170
-    splashDamageRadius: 25
-    pierce: true
-    despawnSound: explosion
-  }
+  splashDamage: 1650
+  splashDamageRadius: 56
+  ammoMultiplier: 1
+  pierceArmor: true
 }
 drawer: {
   type: DrawTurret
