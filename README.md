@@ -19,7 +19,7 @@
 
 - Polished content & linear campaign progression.<br>
 - Capture and conquer with over 22 campaign maps.<br>
-- Over 21 items to be discovered, 246 blocks to be researched. and 30 different units to build!<br>
+- Over 21 items to be discovered, 265 blocks to be researched. and 30 different units to build!<br>
 - Harvest the planet with your technology before Astral Infection awaken and conquer the entire planet.
 
 <div align = center>
@@ -28,9 +28,9 @@
 </div>
 Thankyou for playing this mod!<br>
 You can contributes maps or gives suggestions by join Exoprosopa Discord Server!<br>
-Check it on my profile. My username is TnmSpiroct.<br><br>
+Check it on my profile. My username is RennTanami.<br><br>
 
-This mod requires newest mindustry build to be played (Beta 153)
+This mod requires newest mindustry build to be played (Stable Release 157)
 <br>
 <br>
 
@@ -43,9 +43,10 @@ This mod requires newest mindustry build to be played (Beta 153)
   - Sealed Outpost > Encampment ☑
   - Reservoir - Abandoned Reservoir [Remake] ☑
   - Botanical Garden [Remake] ☑
+  - Crest [Remake - onGoing]
   - Eridanus ☑
   - Bioproject Core ☑
-  - Clover Springs [WIP] ☑
+  - Clover Springs ☑
   - Myrra Heights [WIP] ☑
   - Military Junkyard [WIP]
   - Polarstation [WIP]
@@ -59,7 +60,7 @@ This mod requires newest mindustry build to be played (Beta 153)
   - Alpha Frontier
 - Optional Map: 
   - Ridgeline
-  - Aeroplex Fort
+  - Aeroplex Fort [Broken]
   - Novaris Facility
 - Added 2 Ne Guardian Unit [Specialized]
   - Honsha [Tank Unit]
@@ -78,6 +79,8 @@ This mod requires newest mindustry build to be played (Beta 153)
   - Hoverducts
   - Prime Regenerator
   - Technoworks
+  - Sunlit Heater
+  - Underflow Gate
 - Cobalt Cost Reduction
   - Powerline 6 > 5
   - Pressure Gen 40 > 30
@@ -101,11 +104,10 @@ This mod requires newest mindustry build to be played (Beta 153)
   - Continuum
 - Various Bug Fix and Improvement to Snow White
 - Archangel Revamp
-- Fixes Suzuran Kit's Body Sprite
-- Item Bloodstone Animaton
 - Various Sprite Changes
-- Unitpart & Fabricator Cost Balancing
-- Added Leg Parts
+- Units & Turrets Balancing
+- Added Canvas
+- Removed Trophy Contents
 <br>
 
 ![Banner]
