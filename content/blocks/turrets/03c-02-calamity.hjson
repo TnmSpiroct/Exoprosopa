@@ -1,9 +1,9 @@
 type: ItemTurret
 # Is this turret has liquids
 hasLiquids: true
-# MinWarmup : how much warmup animation before automatically fires.
+# MinWarmup : how much warmup animation before automatically fires
 # Example, really long recoil new horizon turret takes 20 sec to shoot, with minWarmup 0.1 you just hold the target for 2 sec and it will automatically fires in the next 18 seconds
-# While on that 18 seconds, the turret's position is locked. Just like corvus charging.
+# While on that 18 seconds, the turret's position is locked. Just like corvus charging
 minWarmup: 0.99
 # How much warmup time
 warmupMaintainTime: 90
@@ -13,7 +13,7 @@ shootWarmupSpeed: 0.1
 size: 3
 # Health Blocks
 health: 1650
-# Shoot created when firing
+# Sound created when firing
 shootSound: shootBeamPlasmaSmall
 shootSoundVolume: 0.58
 # Block Cost
@@ -52,8 +52,9 @@ coolant: {
   liquid: 02b-02-a-purified-elixir
   amount: 0.25
 }
+# Max ammo capacity
 maxAmmo: 20
-coolantMultiplier: 2.4
+coolantMultiplier: 2.5
 # Charging sound
 chargeSound: chargeTarget
 # Ammo types
@@ -62,6 +63,7 @@ ammoTypes: {
   01a-05-item-aluminium: {
     # Bullet Type, BasicBulletType creates a basic bullet like duo and salvo
     type: BasicBulletType
+    ammoMultiplier: 1
     # Building damage mult
     buildingDamageMultiplier: 0.3
     # Effect created when charging
@@ -152,6 +154,7 @@ ammoTypes: {
   01a-06-item-chromium: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.3
+    ammoMultiplier: 2
     chargeEffect: [{
     type: WaveEffect
     rotWithParent: true
@@ -272,7 +275,7 @@ ammoTypes: {
     fragVelocityMin: 1
     fragVelocityMax: 1
     fragBullets: 8
-    knockback: 2
+    knockback: 5
     despawnSound: explosionArtillery
     fragBullet: {
       type: ArtilleryBulletType

@@ -27,23 +27,20 @@ range: 336
 shootY: 4
 ammoTypes: {
     01a-06-item-chromium: {
-    reloadMultiplier: 1.1
     hitEffect: flakExplosion
     weaveScale: 3
     weaveMag: 3
     type: BasicBulletType
     collidesGround: false
     speed: 8
+    ammoMultiplier: 3
     backColor: BCA49F
     frontColor: BCA49F
     hitColor: BCA49F
     width: 12
     height: 14
-    lifetime: 42
-    pierce: true
-    pierceCap: 3
-    damage: 47.5
-    ammoMultiplier: 2
+    lifetime: 43
+    damage: 65
     trailColor: BCA49F
     trailChance: -1
     trailEffect: [disperseTrail, colorSpark
@@ -53,46 +50,25 @@ ammoTypes: {
     trailRotation: true
     trailLength: 6
     trailWidth: 4
-    fragBullets: 3
-    fragRandomSpread: 0
-    fragSpread: 120
-    fragVelocityMin: 0.5
-    fragLifeMin: 0.5
-    fragBullet: {
-      type: BasicBulletType
-      collidesGround: false
-      backColor: BCA49F
-      frontColor: BCA49F
-      hitColor: BCA49F
-      pierceArmor: true
-      speed: 4
-      lifetime: 6
-      width: 6
-      height: 8
-      pierce: true
-      pierceCap: 1
-      damage: 22.5
-    }
+    extraRangeMargin: 32
   }
     01a-07-item-clevorite: {
-    reloadMultiplier: 1.15
     hitEffect: flakExplosion
-    rangeChange: 24
+    homingPower: 0.045
+    rangeChange: 40
     weaveScale: 3
     weaveMag: 3
     type: BasicBulletType
     collidesGround: false
     speed: 10
+    ammoMultiplier: 4
     backColor: D8F18C
     frontColor: D8F18C
     hitColor: D8F18C
     width: 14
     height: 17
-    lifetime: 36
-    pierce: true
-    pierceCap: 3
-    damage: 52.5
-    ammoMultiplier: 2
+    lifetime: 37
+    damage: 37
     trailColor: D8F18C
     trailChance: -1
     trailEffect: [disperseTrail, colorSpark
@@ -102,28 +78,11 @@ ammoTypes: {
     trailRotation: true
     trailLength: 6
     trailWidth: 4
-    fragBullets: 6
-    fragRandomSpread: 0
-    fragSpread: 60
-    fragVelocityMin: 0.5
-    fragLifeMin: 0.5
-    fragBullet: {
-      type: BasicBulletType
-      collidesGround: false
-      pierceArmor: true
-      speed: 5
-      lifetime: 8
-      width: 6
-      height: 8
-      pierce: true
-      pierceCap: 1
-      damage: 27.5
-    }
+    extraRangeMargin: 32
   }
     01a-08-item-petal: {
-    pierceArmor: true
-    rangeChange: -105
-    reloadMultiplier: 1.1
+    rangeChange: -80
+    reloadMultiplier: 0.9
     hitEffect: flakExplosion
     weaveScale: 3
     weaveMag: 3
@@ -135,11 +94,11 @@ ammoTypes: {
     hitColor: FE97BA
     width: 14
     height: 17
-    lifetime: 24
+    lifetime: 25
     pierce: true
-    pierceCap: 3
-    damage: 57.5
-    ammoMultiplier: 2
+    pierceCap: 2
+    damage: 80
+    ammoMultiplier: 1
     trailColor: FE97BA
     trailChance: -1
     trailEffect: [disperseTrail, colorSpark
@@ -149,31 +108,10 @@ ammoTypes: {
     trailRotation: true
     trailLength: 6
     trailWidth: 4
-    fragBullets: 6
-    fragRandomSpread: 0
-    fragSpread: 60
-    fragVelocityMin: 0.5
-    fragLifeMin: 0.5
-    fragBullet: {
-      type: BasicBulletType
-      collidesGround: false
-      backColor: FE97BA
-      frontColor: FE97BA
-      hitColor: FE97BA
-      pierceArmor: true
-      speed: 5
-      lifetime: 8
-      width: 6
-      height: 8
-      pierce: true
-      pierceCap: 1
-      damage: 17.5
-      }
     }
     01a-09-item-morphite: {
-    pierceArmor: true
-    rangeChange: -139
-    reloadMultiplier: 1.25
+    rangeChange: -40
+    reloadMultiplier: 0.75
     hitEffect: flakExplosion
     weaveScale: 3
     weaveMag: 3
@@ -185,11 +123,12 @@ ammoTypes: {
     hitColor: 51C59C
     width: 14
     height: 17
-    lifetime: 29
+    lifetime: 33
     pierce: true
-    pierceCap: 3
-    damage: 72.5
-    ammoMultiplier: 2
+    pierceCap: 4
+    damage: 110
+    ammoMultiplier: 3
+    extraRangeMargin: 32
     trailColor: 51C59C
     trailChance: -1
     trailEffect: [disperseTrail, colorSpark
@@ -206,13 +145,12 @@ ammoTypes: {
     fragLifeMin: 0.5
     fragBullet: {
       type: LightningBulletType
-      hitSound: shockBulletSyntax
-      damage: 32.5
+      despawnSound: explosionArtilleryShock
+      damage: 12.5
       lightningLength: 6
       lightningLengthRand: 3
-      lightningColor: ffffff
-      status: 13m-03-hsos6
-      statusDuration: 15
+      lightningColor: 51C59C
+      status: shocked
     }
   }
 }

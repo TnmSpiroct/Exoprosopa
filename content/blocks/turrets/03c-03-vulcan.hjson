@@ -17,6 +17,8 @@ recoil: 1
 consumes: {
   power: 4
 }
+hasLiquids: true
+liquidCapacity: 50
 minWarmup: 0.60
 liquidConsumed: 0.25
 outlineColor: 2C2A36
@@ -24,62 +26,59 @@ targetAir: true
 targetGround: true
 rotateSpeed: 1.4
 range: 190
+targetUnderBlocks: false
+targetInterval: 5
+newTargetInterval: 30
 loopSound: shootBeam
 loopSoundVolume: 1.1
 ammoTypes: {
 02b-04-miasma: {
   type: ContinuousLaserBulletType
   length: 190
-  damage: 29
-  buildingDamageMultiplier: 0.25
+  damage: 65
+  buildingDamageMultiplier: 0.1
   width: 2.5
   incendChance: 0
   incendAmount: 0
   incendSpread: 0
   colors: [5A4B67, 726081, 8E789F, AC98BB, CCBCD9
   ]
-  intervalBullets: 1
-  bulletInterval: 15
-  intervalRandomSpread: 0
+  status: 13m-06-contaminated
+  statusDuration: 60
   knockback: 2
-  intervalBullet: {
-    type: LightningBulletType
-    despawnSound: shockBulletSyntax
-    damage: 35
-    lightningLength: 17
-    lightningLengthRand: 4
-    lightningColor: ffffff
-    status: 13m-03-hsos6
-    statusDuration: 55
-    buildingDamageMultiplier: 0.4
-    }
-  }
+  pierceCap: 2
+  timescaleDamage: true
+}
   02b-06-morphitix-plasma: {
   type: ContinuousLaserBulletType
   length: 300
-  rangeChange: 110
-  damage: 68
-  buildingDamageMultiplier: 0.15
+  rangeChange: 112
+  damage: 90
+  buildingDamageMultiplier: 0.1
   width: 3.25
   incendChance: 0
   incendAmount: 0
   incendSpread: 0
   colors: [58977E, 7AB69E, 8BD9BA, AEECD3, D0FAE9
   ]
-  intervalBullets: 1
+  intervalBullets: 5
   bulletInterval: 8
   intervalRandomSpread: 0
   knockback: 4
+  ammoMultiplier: 1.5
+  timescaleDamage: true
+  pierceCap: 4
+  status: 13m-03-hsos6
+  statusDuration: 120
   intervalBullet: {
     type: LightningBulletType
     despawnSound: shockBulletSyntax
-    damage: 90
-    lightningLength: 25
-    lightningLengthRand: 5
-    lightningColor: ffffff
-    status: 13m-03-hsos6
-    statusDuration: 135
-    buildingDamageMultiplier: 0.4
+    damage: 30
+    lightningLength: 20
+    lightningLengthRand: 4
+    lightningColor: 51c59c
+    status: shocked
+    buildingDamageMultiplier: 0.1
     }
   }
 }

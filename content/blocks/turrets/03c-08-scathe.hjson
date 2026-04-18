@@ -9,7 +9,7 @@ coolant: {
   liquid: 02b-02-a-purified-elixir
   amount: 0.5
 }
-coolantMultiplier: 1.2
+coolantMultiplier: 1.25
 fogRadiusMultiplier: 0.45
 shootSound: shootScathe
 requirements: [

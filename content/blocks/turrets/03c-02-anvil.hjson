@@ -27,6 +27,7 @@ coolant: {
   liquid: 02b-02-a-purified-elixir
   amount: 0.25
 }
+coolantMultiplier: 2.5
 category: turret
 recoil: 2
 shake: 1
@@ -42,17 +43,18 @@ shoot: {
   shots: 5
   spread: 17
 }
-maxAmmo: 30
-ammoPerShot: 3
+maxAmmo: 15
 ammoTypes: {
   01a-02-item-nickel: {
     type: BasicBulletType
     sprite: large-orb
     buildingDamageMultiplier: 0.3
+    ammoMultiplier: 5
     hitColor: f6b08a
     frontColor: f6b08a
     backColor: f6b08a
     damage: 33.5
+    knockback: 3
     width: 8
     height: 14
     hitSize: 6
@@ -71,10 +73,12 @@ ammoTypes: {
     type: BasicBulletType
     sprite: large-orb
     buildingDamageMultiplier: 0.2
+    ammoMultiplier: 5
     hitColor: bca49f
     frontColor: bca49f
     backColor: bca49f
     damage: 52.5
+    knockback: 4
     width: 8
     height: 14
     hitSize: 6

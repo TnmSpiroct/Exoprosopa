@@ -16,7 +16,7 @@ coolant: {
   liquid: 02b-02-a-purified-elixir
   amount: 0.25
 }
-coolantMultiplier: 2.4
+coolantMultiplier: 2.5
 recoil: 0
 outlineColor: 2C2A36
 targetAir: false
@@ -32,6 +32,7 @@ maxAmmo: 15
 ammoTypes: {
   01a-06-item-chromium: {
     instantDisappear: true
+    ammoMultiplier: 1
     damage: 5
     splashDamage: 20
     splashDamageRadius: 148
@@ -51,6 +52,7 @@ ammoTypes: {
   }
   01a-03-item-lamine: {
     instantDisappear: true
+    ammoMultiplier: 1
     damage: 7.5
     splashDamage: 42.5
     splashDamageRadius: 220

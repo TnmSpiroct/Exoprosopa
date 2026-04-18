@@ -52,13 +52,15 @@ shoot: {
     }
   ]
 }
+ammoPerShot: 2
 ammoTypes: {
   01a-09-item-morphite: {
     type: BasicBulletType
     sprite: large-orb
     buildingDamageMultiplier: 0.2
-    hitColor: 6EEFC0
-    damage: 110
+    ammoMultiplier: 1
+    hitColor: 6eefc0
+    damage: 140
     width: 8
     height: 14
     hitSize: 6
@@ -77,7 +79,7 @@ ammoTypes: {
     trailWidth: 2
     intervalBullet: {
       type: LightningBulletType
-      damage: 18.5
+      damage: 28
       lightningLength: 2
       lightningLengthRand: 4
       lightningColor: 6EEFC0

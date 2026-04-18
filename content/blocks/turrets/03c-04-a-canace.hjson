@@ -17,7 +17,7 @@ coolant: {
   liquid: 02b-02-a-purified-elixir
   amount: 0.25
 }
-coolantMultiplier: 2.4
+coolantMultiplier: 2.5
 recoil: 1
 minWarmup: 0.70
 shootWarmupSpeed: 0.08
@@ -29,18 +29,19 @@ rotateSpeed: 1.5
 reload: 130
 range: 260
 shootY: 7
+ammoPerShot: 2
 ammoTypes: {
   01a-07-item-clevorite: {
     type: ArtilleryBulletType
     damage: 200
-    buildingDamageMultiplier: 0.25
+    buildingDamageMultiplier: 0.1
     lifetime: 65
     speed: 4
     width: 18
     height: 23
     fragLifeMin: 0.4
     fragVelocityMin: 0.5
-    fragBullets: 10
+    fragBullets: 8
     hitEffect: blastExplosion
     hitShake: 1.5
     collidesGround: true
@@ -49,49 +50,35 @@ ammoTypes: {
     collides: true
     ammoMultiplier: 1
     fragBullet: {
+      type: LiquidBulletType
+      liquid: slag
+      status: melting
+      statusDuration: 120
+      puddleSize: 40
+      despawnHit: true
+      despawnSound: shootRetusa
       speed: 3.5
       damage: 50
-      buildingDamageMultiplier: 0.25
+      buildingDamageMultiplier: 0.1
       lifetime: 12
-      width: 11
-      height: 14
-      splashDamage: 20
-      splashDamageRadius: 15
+      splashDamage: 30
+      splashDamageRadius: 16
       hitEffect: none
       collidesAir: false
-      shrinkY: 0
       hitEffect: explosion
-      fragBullets: 1
-      fragBullet: {
-        type: LiquidBulletType
-        liquid: slag
-        status: melting
-        statusDuration: 300
-        damage: 50
-        buildingDamageMultiplier: 0.4
-        puddleSize: 45
-        despawnHit: true
-        despawnSound: shootRetusa
-        speed: 0
-        lifetime: 0
-        splashDamage: 60
-        splashDamageRadius: 3.5
-        hitEffect: none
-        collidesAir: false
-      }
     }
   }
 01a-09-item-morphite: {
     type: ArtilleryBulletType
     damage: 350
-    buildingDamageMultiplier: 0.15
+    buildingDamageMultiplier: 0.1
     lifetime: 65
     speed: 4
     width: 18
     height: 23
     fragLifeMin: 0.4
     fragVelocityMin: 0.5
-    fragBullets: 15
+    fragBullets: 12
     hitEffect: blastExplosion
     hitShake: 1.5
     collidesGround: true
@@ -101,35 +88,37 @@ ammoTypes: {
     ammoMultiplier: 2
     despawnSound: shockBulletSyntax
     fragBullet: {
+      type: LiquidBulletType
+      liquid: 02b-06-morphitix-plasma
+      status: 13m-03-hsos6
+      statusDuration: 240
+      puddleSize: 40
+      despawnHit: true
+      despawnSound: shootRetusa
       speed: 3
-      damage: 50
-      buildingDamageMultiplier: 0.4
+      damage: 75
+      buildingDamageMultiplier: 0.1
       lifetime: 10
-      width: 11
-      height: 14
       splashDamage: 25
-      splashDamageRadius: 15
+      splashDamageRadius: 16
       hitEffect: none
       collidesAir: false
-      shrinkY: 0
       hitEffect: explosion
-      fragBullets: 1
+      fragBullets: 4
       fragBullet: {
-        type: LiquidBulletType
-        liquid: 02b-06-morphitix-plasma
-        status: 13m-03-hsos6
-        statusDuration: 180
-        damage: 75
-        buildingDamageMultiplier: 0.25
-        puddleSize: 40
+        type: LightningBulletType
+        status: shocked
+        damage: 15
+        buildingDamageMultiplier: 0.1
+        lightningLength: 2
+        lightningLengthRand: 2
+        lightningColor: 51c59c
+        hitColor: 51c59c
+        lightColor: 51c59c
         despawnHit: true
-        despawnSound: shootRetusa
-        speed: 0
-        lifetime: 0
-        splashDamage: 75
-        splashDamageRadius: 3.5
-        hitEffect: none
-        collidesAir: false
+        despawnSound: explosionArtilleryShock
+        speed: 1
+        lifetime: 6
       }
     }
   }

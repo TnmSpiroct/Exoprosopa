@@ -16,7 +16,7 @@ coolant: {
   liquid: 02b-02-a-purified-elixir
   amount: 0.5
 }
-coolantMultiplier: 1.6
+coolantMultiplier: 1.5
 recoil: 1
 shake: 1
 outlineColor: 2C2A36
@@ -31,6 +31,8 @@ shoot: {
   shotDelay: 5
   shots: 12
 }
+maxAmmo: 60
+ammoPerShot: 6
 ammoTypes: {
   01a-08-item-petal: {
       type: BasicBulletType
@@ -39,9 +41,9 @@ ammoTypes: {
       height: 12
       pierceCap: 3
       lifetime: 40
-      damage: 63.25
+      damage: 64.85
       speed: 7
-      ammoMultiplier: 3
+      ammoMultiplier: 2
       shootEffect: colorSpark
       smokeEffect: colorSpark
       trailColor: FF91B3
@@ -53,9 +55,9 @@ ammoTypes: {
         type: WaveEffect
         rotWithParent: true
         followParent: true
-        lifetime: 9
+        lifetime: 8
         sizeFrom: 0
-        sizeTo: 20
+        sizeTo: 18
         colorFrom: ffffff
         colorTo: feb380
     }
@@ -67,7 +69,7 @@ ammoTypes: {
       height: 12
       pierceCap: 7
       lifetime: 39
-      damage: 52.5
+      damage: 57.5
       speed: 8
       ammoMultiplier: 4
       shootEffect: colorSpark
@@ -77,16 +79,30 @@ ammoTypes: {
       trailLength: 8
       backColor: 51C59C
       hitColor: 51C59C
-      status: shocked
-      statusDuration: 60
       shootSound: shootBreachCarbide
+      fragRandomSpread: 0
+      fragSpread: 90
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragBullets: 4
+      fragBullet: {
+        type: LightningBulletType
+        lightningLength: 6
+        lightningLengthRand: 3
+        lightningColor: 51c59c
+        status: shocked
+        damage: 17.5
+        despawnSound: explosionArtilleryShock
+      }
       despawnEffect: {
         type: WaveEffect
         rotWithParent: true
         followParent: true
-        lifetime: 9
+        lifetime: 8
         sizeFrom: 0
-        sizeTo: 20
+        sizeTo: 18
         colorFrom: ffffff
         colorTo: feb380
     }

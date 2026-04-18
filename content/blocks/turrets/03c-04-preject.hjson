@@ -22,7 +22,8 @@ warmupMaintainTime: 160
 shootWarmupSpeed: 0.08
 shoot: {
 shots: 3
-shotDelay: 8
+shotDelay: 10
+firstShotDelay: 15
 }
 newTargetInterval: 40
 shake: 8
@@ -31,18 +32,20 @@ outlineColor: 2C2A36
 targetAir: false
 targetGround: true
 rotateSpeed: 1.25
-reload: 175
+reload: 185
 range: 390
 shootY: 7
+ammoPerShot: 3
 ammoTypes: {
   01a-08-item-petal: {
     type: BasicBulletType
-    buildingDamageMultiplier: 0.25
+    buildingDamageMultiplier: 0.2
     despawnShake: 8
+    ammoMultiplier: 1
     hitColor: FF91B3
-    damage: 40
-    splashDamage: 245
-    splashDamageRadius: 65
+    damage: 70
+    splashDamage: 240
+    splashDamageRadius: 64
     width: 14
     height: 12
     speed: 8
@@ -70,10 +73,11 @@ ammoTypes: {
     rangeChange: -80
     buildingDamageMultiplier: 0.2
     despawnShake: 8
+    ammoMultiplier: 1
     hitColor: 51C59C
-    damage: 30
-    splashDamage: 370
-    splashDamageRadius: 65
+    damage: 55
+    splashDamage: 390
+    splashDamageRadius: 64
     width: 14
     height: 12
     speed: 8
@@ -82,13 +86,15 @@ ammoTypes: {
     despawnEffect: titanSmoke
     hitEffect: titanExplosionFrag
     hitSound: explosionTitan
+    status: 13m-03-hsos6
+    statusDuration: 240
     pierceCap: 5
     pierce: true
     collidesAir: false
     collidesGround: true
     collides: true
     collidesTiles: true
-    trailColor: 51C59C
+    trailColor: 51c59c
     trailEffect: none
     trailChance: 0.6
     trailInterval: 1
@@ -96,7 +102,7 @@ ammoTypes: {
     trailLength: 18
     trailWidth: 2.8
     fragRandomSpread: 0
-    fragSpread: 0
+    fragSpread: 90
     fragLifeMin: 1
     fragLifeMax: 1
     fragVelocityMin: 1
@@ -105,12 +111,11 @@ ammoTypes: {
     fragBullet: {
       type: LightningBulletType
       despawnSound: shockBullet
-      damage: 40
+      damage: 50
       lightningLength: 10
       lightningLengthRand: 4
-      lightningColor: ffffff
-      status: 13m-03-hsos6
-      statusDuration: 60
+      lightningColor: 51c59c
+      status: shocked
       }
   }
 }

@@ -32,9 +32,10 @@ shoot: {
   shotDelay: 3.5
 }
 ammoUseEffect: casing2
+ammoPerShot: 2
 ammoTypes: {
   01a-06-item-chromium: {
-    buildingDamageMultiplier: 0.4
+    buildingDamageMultiplier: 0.2
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -46,12 +47,16 @@ ammoTypes: {
     damage: 35
     splashDamage: 15
     splashDamageRadius: 16
-    ammoMultiplier: 8
+    ammoMultiplier: 4
     weaveScale: 4
     weaveMag: 4
+    frontColor: BCA49F
+    backColor: BCA49F50
+    hitColor: BCA49F
+    lightColor: BCA49F
   }
   01a-09-item-morphite: {
-    buildingDamageMultiplier: 0.3
+    buildingDamageMultiplier: 0.2
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -61,17 +66,32 @@ ammoTypes: {
     lifetime: 70
     pierce: false
     damage: 70
-    status: shocked
     splashDamage: 25
     splashDamageRadius: 16
-    ammoMultiplier: 8
+    ammoMultiplier: 4
     weaveScale: 4
     weaveMag: 4
-    homingPower: 0.015
-    despawnSound: shockBulletSyntax
+    backColor: 51C59C
+    frontColor: 51C59C50
+    hitColor: 51C59C
+    lightColor: 51C59C
+    fragBullets: 4
+    fragRandomSpread: 0
+    fragSpread: 90
+    fragVelocityMin: 0.5
+    fragLifeMin: 0.5
+    fragBullet: {
+      type: LightningBulletType
+      despawnSound: explosionArtilleryShock
+      damage: 12.5
+      lightningLength: 6
+      lightningLengthRand: 3
+      lightningColor: 51C59C
+      status: shocked
+    }
   }
   01a-08-item-petal: {
-    buildingDamageMultiplier: 0.25
+    buildingDamageMultiplier: 0.2
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -83,23 +103,25 @@ ammoTypes: {
     damage: 50
     splashDamage: 22.5
     splashDamageRadius: 16
-    ammoMultiplier: 8
+    ammoMultiplier: 4
     weaveScale: 4
     weaveMag: 4
-    homingPower: 0.015
+    backColor: FE97BA
+    frontColor: FE97BA50
+    hitColor: FE97BA
+    lightColor: FE97BA
     fragBullets: 6
     fragVelocityMin: 0.4
     fragLifeMin: 0.45
     fragBullet: {
       type: BasicBulletType
-      buildingDamageMultiplier: 0.25
-      pierceArmor: true
+      buildingDamageMultiplier: 0.2
+      frontColor: FE97BA
+      lightColor: FE97BA
       speed: 2
       lifetime: 30
       width: 6
       height: 9
-      pierce: true
-      pierceCap: 1
       damage: 15
       splashDamage: 12.5
       splashDamageRadius: 4
@@ -118,24 +140,27 @@ ammoTypes: {
     damage: 70
     splashDamage: 35
     splashDamageRadius: 16
-    ammoMultiplier: 12
+    backColor: BF97D6
+    frontColor: BF97D650
+    hitColor: BF97D6
+    lightColor: BF97D6
+    ammoMultiplier: 6
     weaveScale: 4
     weaveMag: 4
-    homingPower: 0.015
+    homingPower: 0.045
     fragBullets: 6
     fragVelocityMin: 0.4
     fragLifeMin: 0.45
     fragBullet: {
       type: BasicBulletType
       buildingDamageMultiplier: 0.1
-      pierceArmor: true
       speed: 2
       lifetime: 30
       width: 6
       height: 9
-      pierce: true
-      pierceCap: 1
       damage: 20
+      lightColor: BF97D6
+      frontColor: BF97D6
       splashDamage: 15
       splashDamageRadius: 4
     }

@@ -26,15 +26,16 @@ researchCost: [
 shootType: {
   type: LightningBulletType
   hitSound: shootElectric
-  damage: 87
+  damage: 120
   lightningLength: 27
   lightningLengthRand: 7
   lightningColor: 51C59C
   status: 13m-03-hsos6
-  statusDuration: 145
+  statusDuration: 120
   chargeEffect: [lancerLaserCharge, lancerLaserChargeBegin
   ]
-  buildingDamageMultiplier: 0.25
+  buildingDamageMultiplier: 0.2
+  ammoMultiplier: 1
 }
 category: turret
 squareSprite: false
