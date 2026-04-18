@@ -36,7 +36,7 @@ ammoTypes: {
     damage: 5
     splashDamage: 20
     splashDamageRadius: 148
-    status: slow
+    status: 13m-01-breached
     statusDuration: 300
     despawnEffect: none
     hitEffect: none
