@@ -47,12 +47,13 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       splashDamage: 1700
-      splashDamageRadius: 70
+      splashDamageRadius: 72
       despawnEffect: scatheExplosion
       fragLifeMin: 0.1
       fragBullets: 6
       collidesAir: false
-      buildingDamageMultiplier: 0.25
+      buildingDamageMultiplier: 0.1
+      ammoMultiplier: 1
       fragBullet: {
         type: ArtilleryBulletType
         buildingDamageMultiplier: 0.25
