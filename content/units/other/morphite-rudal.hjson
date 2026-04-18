@@ -1,21 +1,21 @@
 type: missile
 template: MissileUnitType
 flying: true
-speed: 6
+speed: 3.5
 outlineColor: 26262F
-drag: 0.075
 physics: false
-lifetime: 285
+lifetime: 425
 lowAltitude: true
-rotateSpeed: 0.325
+rotateSpeed: 0.2
 homingDelay: 3
-hitSize: 5
+hitSize: 8
 useUnitCap: false
-health: 250
+health: 450
 autoFindTarget: true
 circleTarget: false
 faceTarget: true
-aimDst: 4
+targetAir: false
+targetUnderBlocks: false
 drawCell: false
 missileAccelTime: 90
 loopSound: loopMissileTrail
@@ -26,6 +26,7 @@ engineColor: 6EEFC0
 engineSize: 4
 engineOffset: 10
 trailLength: 18
+fogRadius: 6
 deathSound: explosionMissile
 abilities: [
   {
@@ -38,11 +39,11 @@ abilities: [
   }
   {
     type: ForceFieldAbility
-    radius: 60
+    radius: 80
     sides: 6
     cooldown: 99999999
     regen: 0
-    max: 2500
+    max: 3500
   }]
 weapons: [
   {

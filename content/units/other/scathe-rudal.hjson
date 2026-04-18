@@ -1,21 +1,21 @@
 type: missile
 template: MissileUnitType
 flying: true
-speed: 6
+speed: 4.7
 outlineColor: 26262F
-drag: 0.075
 physics: false
-lifetime: 280
+lifetime: 310
 lowAltitude: true
 rotateSpeed: 0.325
 homingDelay: 3
-hitSize: 5
+hitSize: 8
 useUnitCap: false
 health: 300
 autoFindTarget: true
 circleTarget: false
 faceTarget: true
-aimDst: 4
+targetAir: false
+targetUnderBlocks: false
 drawCell: false
 missileAccelTime: 50
 loopSound: loopMissileTrail
@@ -26,6 +26,7 @@ engineColor: FFD37F
 engineSize: 4
 engineOffset: 10
 trailLength: 18
+fogRadius: 6
 deathSound: explosionMissile
 abilities: [
   {
