@@ -54,7 +54,7 @@ ammoTypes: {
     instantDisappear: true
     ammoMultiplier: 1
     damage: 7.5
-    splashDamage: 42.5
+    splashDamage: 57.5
     splashDamageRadius: 220
     status: blasted
     statusDuration: 300
