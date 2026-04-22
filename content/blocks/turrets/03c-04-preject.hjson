@@ -43,8 +43,8 @@ ammoTypes: {
     despawnShake: 8
     ammoMultiplier: 1
     hitColor: FF91B3
-    damage: 70
-    splashDamage: 240
+    damage: 80
+    splashDamage: 270
     splashDamageRadius: 64
     width: 14
     height: 12
@@ -76,7 +76,7 @@ ammoTypes: {
     ammoMultiplier: 1
     hitColor: 51C59C
     damage: 55
-    splashDamage: 390
+    splashDamage: 370
     splashDamageRadius: 64
     width: 14
     height: 12
@@ -111,7 +111,7 @@ ammoTypes: {
     fragBullet: {
       type: LightningBulletType
       despawnSound: shockBullet
-      damage: 50
+      damage: 25
       lightningLength: 10
       lightningLengthRand: 4
       lightningColor: 51c59c

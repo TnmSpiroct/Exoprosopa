@@ -53,8 +53,8 @@ ammoTypes: {
   01a-03-item-lamine: {
     instantDisappear: true
     ammoMultiplier: 1
-    damage: 7.5
-    splashDamage: 57.5
+    damage: 8
+    splashDamage: 56
     splashDamageRadius: 220
     status: blasted
     statusDuration: 300

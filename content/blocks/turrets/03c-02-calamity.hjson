@@ -251,7 +251,7 @@ ammoTypes: {
     frontColor: feb380
     backColor: feb380
     lightColor: feb380
-    damage: 35
+    damage: 38
     width: 12
     height: 12
     speed: 6
@@ -281,7 +281,7 @@ ammoTypes: {
       type: ArtilleryBulletType
       speed: 2
       lifetime: 12
-      damage: 27.5
+      damage: 25
       buildingDamageMultiplier: 0.2
       fragRandomSpread: 0
       fragAngle: 90
@@ -303,7 +303,7 @@ ammoTypes: {
           type: ArtilleryBulletType
           speed: 2
           lifetime: 12
-          damage: 7
+          damage: 8
           buildingDamageMultiplier: 0.2
           fragRandomSpread: 0
           fragAngle: 90

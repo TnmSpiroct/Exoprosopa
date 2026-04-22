@@ -53,11 +53,11 @@ shootType: {
   trailInterval: 3
   speed: 6
   lifetime: 72.5
-  damage: 750
+  damage: 850
   despawnSound: explosionQuad
   despawnEffect: greenBomb
   hitEffect: massiveExplosion
-  splashDamage: 1650
+  splashDamage: 1700
   splashDamageRadius: 56
   ammoMultiplier: 1
   pierceArmor: true

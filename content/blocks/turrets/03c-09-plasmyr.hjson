@@ -142,7 +142,7 @@ ammoTypes: {
       backColor: 96E3FC
       frontColor: FFFFFF
       lightColor: 96E3FC
-      homingPower: 0.1
+      homingPower: 0.55
       width: 16
       height: 17
       speed: 3

@@ -33,7 +33,7 @@ ammoPerShot: 2
 ammoTypes: {
   01a-07-item-clevorite: {
     type: ArtilleryBulletType
-    damage: 200
+    damage: 180
     buildingDamageMultiplier: 0.1
     lifetime: 65
     speed: 4
@@ -58,10 +58,10 @@ ammoTypes: {
       despawnHit: true
       despawnSound: shootRetusa
       speed: 3.5
-      damage: 50
+      damage: 40
       buildingDamageMultiplier: 0.1
       lifetime: 12
-      splashDamage: 30
+      splashDamage: 20
       splashDamageRadius: 16
       hitEffect: none
       collidesAir: false
@@ -70,7 +70,7 @@ ammoTypes: {
   }
 01a-09-item-morphite: {
     type: ArtilleryBulletType
-    damage: 350
+    damage: 300
     buildingDamageMultiplier: 0.1
     lifetime: 65
     speed: 4
@@ -96,10 +96,10 @@ ammoTypes: {
       despawnHit: true
       despawnSound: shootRetusa
       speed: 3
-      damage: 75
+      damage: 65
       buildingDamageMultiplier: 0.1
       lifetime: 10
-      splashDamage: 25
+      splashDamage: 15
       splashDamageRadius: 16
       hitEffect: none
       collidesAir: false
@@ -108,7 +108,7 @@ ammoTypes: {
       fragBullet: {
         type: LightningBulletType
         status: shocked
-        damage: 15
+        damage: 5
         buildingDamageMultiplier: 0.1
         lightningLength: 2
         lightningLengthRand: 2

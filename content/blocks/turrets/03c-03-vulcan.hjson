@@ -53,7 +53,7 @@ ammoTypes: {
   type: ContinuousLaserBulletType
   length: 300
   rangeChange: 112
-  damage: 90
+  damage: 85
   buildingDamageMultiplier: 0.1
   width: 3.25
   incendChance: 0
@@ -73,7 +73,7 @@ ammoTypes: {
   intervalBullet: {
     type: LightningBulletType
     despawnSound: shockBulletSyntax
-    damage: 30
+    damage: 25
     lightningLength: 20
     lightningLengthRand: 4
     lightningColor: 51c59c

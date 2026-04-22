@@ -28,6 +28,7 @@ shootY: 4
 ammoTypes: {
     01a-06-item-chromium: {
     hitEffect: flakExplosion
+    reloadMultiplier: 1.05
     weaveScale: 3
     weaveMag: 3
     type: BasicBulletType
@@ -40,7 +41,7 @@ ammoTypes: {
     width: 12
     height: 14
     lifetime: 43
-    damage: 65
+    damage: 68
     trailColor: BCA49F
     trailChance: -1
     trailEffect: [disperseTrail, colorSpark
@@ -54,21 +55,21 @@ ammoTypes: {
   }
     01a-07-item-clevorite: {
     hitEffect: flakExplosion
-    homingPower: 0.045
+    homingPower: 0.055
     rangeChange: 40
     weaveScale: 3
     weaveMag: 3
     type: BasicBulletType
     collidesGround: false
     speed: 10
-    ammoMultiplier: 4
+    ammoMultiplier: 3
     backColor: D8F18C
     frontColor: D8F18C
     hitColor: D8F18C
     width: 14
     height: 17
     lifetime: 37
-    damage: 37
+    damage: 38
     trailColor: D8F18C
     trailChance: -1
     trailEffect: [disperseTrail, colorSpark
@@ -96,9 +97,9 @@ ammoTypes: {
     height: 17
     lifetime: 25
     pierce: true
-    pierceCap: 2
+    pierceCap: 5
     damage: 80
-    ammoMultiplier: 1
+    ammoMultiplier: 3
     trailColor: FE97BA
     trailChance: -1
     trailEffect: [disperseTrail, colorSpark
@@ -124,8 +125,6 @@ ammoTypes: {
     width: 14
     height: 17
     lifetime: 33
-    pierce: true
-    pierceCap: 4
     damage: 110
     ammoMultiplier: 3
     extraRangeMargin: 32
@@ -146,7 +145,7 @@ ammoTypes: {
     fragBullet: {
       type: LightningBulletType
       despawnSound: explosionArtilleryShock
-      damage: 12.5
+      damage: 20
       lightningLength: 6
       lightningLengthRand: 3
       lightningColor: 51C59C
