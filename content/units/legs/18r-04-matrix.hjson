@@ -53,6 +53,8 @@ weapons: [
     shots: 2
       }
     ejectEffect: casing3
+    status: 13m-07-stunned
+    statusDuration: 15
     bullet: {
       type: BasicBulletType
       damage: 225
