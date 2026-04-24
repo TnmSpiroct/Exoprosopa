@@ -119,7 +119,7 @@ This mod requires newest mindustry build to be played (Stable Release 157)
 <!----------------------------------[ Links ]--------------------------------->
 [Logo]: sprites-override/ui/logo.png
 [Banner]: banner-new.png
-[Discord]: https://discord.gg/XmfGAxmwfJ
+[Discord]: https://discord.gg/GyxBXYrpNC
 [Commits]: https://github.com/TnmSpiroct/exoprosopa/commits/main
 
 
