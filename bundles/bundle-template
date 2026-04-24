@@ -6,9 +6,9 @@ mod.exoprosopa.subtitle =
 
 # Locale Bundle - Lores via Message Chip [ see 'locale-bundle' file ]
 # en:
-bio.chip1 = 
-bio.chip2 = 
-bio.chip3 = 
+bio.chip1 = [salmon]High Radiation Area\nOnly Nikkes Allowed
+bio.chip2 = [accent]Miasma Capacity = [salmon]88%\n[accent]Status = [salmon]Danger
+bio.chip3 = [salmon]All defense point has been destroyed.\nAll remaining personel units evacuate to\n[accent]Armored Warfare Facility[] immediately!
 bio.chip4 = -- - -- -- --- -- -
 bio.chip5 = - - --- - -- -- ---
 
@@ -665,9 +665,6 @@ block.exoprosopa-03c-08-skyhammer.description =
 block.exoprosopa-03c-09-plasmyr.name = 
 block.exoprosopa-03c-09-plasmyr.description = 
 
-# block.exoprosopa-03c-10-supernova.name = 
-# block.exoprosopa-03c-10-supernova.description = 
-
 # block.exoprosopa-03c-08-webber.name = Fusillade
 # block.exoprosopa-03c-08-webber.description = Fires bursts of shrapnel at enemy targets. Does huge knockback.
 
@@ -838,7 +835,6 @@ unit.exoprosopa-14n-04-t-evernight.description =
 
 unit.exoprosopa-14n-04-suzuran.name = 
 unit.exoprosopa-14n-04-suzuran.description = 
-unit.exoprosopa-14n-04-suzuran.details = 
 
 # Hover Units
 unit.exoprosopa-17q-01-codex.name = 
@@ -906,10 +902,8 @@ unit.exoprosopa-15o-05-rancor.description =
 
 # Others Units
 unit.exoprosopa-18r-01-amber.name = 
-unit.exoprosopa-18r-02-amber.description = 
 
 unit.exoprosopa-18r-02-iris.name = 
-unit.exoprosopa-18r-02-iris.description = 
 
 unit.exoprosopa-rhodes-core-land.name = Rhodes Core Land VFX
 
