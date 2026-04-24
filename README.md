@@ -108,7 +108,6 @@ This mod requires newest mindustry build to be played (Stable Release 157)
 - Units & Turrets Balancing
 - Added Canvas
 - Removed Trophy Contents
-- Rename Turrets
 <br>
 
 ![Banner]
