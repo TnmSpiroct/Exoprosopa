@@ -23,8 +23,8 @@ requirements: [
 ]
 ammoTypes: {
   02b-02-a-purified-elixir: {
-    despawnEffect: none
-    hitEffect: none
+    despawnEffect: shootLiquid
+    hitEffect: shootLiquid
     type: LiquidBulletType
     liquid: 02b-02-a-purified-elixir
     speed: 2.5

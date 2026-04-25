@@ -53,8 +53,6 @@ weapons: [
     shots: 2
       }
     ejectEffect: casing3
-    status: 13m-07-stunned
-    statusDuration: 15
     bullet: {
       type: BasicBulletType
       damage: 225
@@ -70,6 +68,8 @@ weapons: [
       trailRotation: true
       trailLength: 4
       trailWidth: 3
+      status: 13m-07-stunned
+      statusDuration: 15
     }
   }
   {
