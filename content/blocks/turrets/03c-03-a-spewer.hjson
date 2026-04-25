@@ -40,8 +40,8 @@ ammoTypes: {
     ammoMultiplier: 0.4
   }
   02b-04-miasma: {
-    despawnEffect: none
-    hitEffect: none
+    despawnEffect: shootLiquid
+    hitEffect: shootLiquid
     type: LiquidBulletType
     liquid: 02b-04-miasma
     speed: 3
@@ -58,8 +58,8 @@ ammoTypes: {
     ammoMultiplier: 0.4
   }
   02b-05-hydrowater: {
-    despawnEffect: none
-    hitEffect: none
+    despawnEffect: shootLiquid
+    hitEffect: shootLiquid
     type: LiquidBulletType
     liquid: 02b-05-hydrowater
     speed: 5
@@ -74,8 +74,8 @@ ammoTypes: {
     ammoMultiplier: 0.4
   }
   02b-02-ichor: {
-    despawnEffect: none
-    hitEffect: none
+    despawnEffect: shootLiquid
+    hitEffect: shootLiquid
     type: LiquidBulletType
     liquid: 02b-02-ichor
     speed: 3.5
@@ -93,8 +93,8 @@ ammoTypes: {
     ammoMultiplier: 0.4
   }
   02b-06-morphitix-plasma: {
-    despawnEffect: none
-    hitEffect: none
+    despawnEffect: shootLiquid
+    hitEffect: shootLiquid
     type: LiquidBulletType
     liquid: 02b-06-morphitix-plasma
     speed: 5
@@ -111,8 +111,8 @@ ammoTypes: {
     ammoMultiplier: 0.4
   }
   02b-08-nucliogen: {
-    despawnEffect: none
-    hitEffect: none
+    despawnEffect: shootLiquid
+    hitEffect: shootLiquid
     type: LiquidBulletType
     liquid: 02b-08-nucliogen
     speed: 4

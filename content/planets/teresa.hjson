@@ -58,7 +58,8 @@ hasAtmosphere: true
 bloom: false
 
 rules: {
- waveTeam: blue
+ fog: true
+ staticFog: true
  coreDestroyClear: true
  onlyDepositCore: true
 }
@@ -81,7 +82,6 @@ minZoom: 1.6
 
 showRtsAIRule: true
 prebuildBase: true
-onlyDepositCore: true
 defaultCore: 29i-01-core-astral
 enemyBuildSpeedMultiplier: 0.2
 enemyCoreSpawnReplace: false

@@ -62,7 +62,8 @@ hasAtmosphere: true
 bloom: false
 
 rules: {
- waveTeam: blue
+ fog: true
+ staticFog: true
  coreDestroyClear: true
  onlyDepositCore: true
 }
