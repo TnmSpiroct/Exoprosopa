@@ -14,8 +14,8 @@ effect:{
             baseLength: 4
             sizeFrom: 3
             sizeTo: 5
-            colorFrom: 561F2260
-            colorTo: 561F2260
+            colorFrom: 561F2280
+            colorTo: 561F2200
             layer: 61.8
             cone: 35
             baseRotation: 30
@@ -28,8 +28,8 @@ effect:{
             baseLength: 4
             sizeFrom: 2
             sizeTo: 4
-            colorFrom: 561F2260
-            colorTo: 561F2260
+            colorFrom: 561F2280
+            colorTo: 561F2200
             layer: 61.8
             baseRotation: 30
         }
