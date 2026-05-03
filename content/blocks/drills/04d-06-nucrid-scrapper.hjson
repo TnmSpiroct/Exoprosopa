@@ -13,6 +13,7 @@ requirements: [
   01a-08-item-petal/80
   01a-09-item-morphite/20
 ]
+itemCapacity: 30
 researchCostMultiplier: 0.5
 drillTime: 25
 output: 01a-08-item-nucrid
