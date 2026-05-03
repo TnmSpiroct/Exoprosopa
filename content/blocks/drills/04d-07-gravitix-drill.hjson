@@ -4,7 +4,7 @@ health: 1750
 category: production
 research: 04d-04-bore-jet
 hasLiquids: true
-drillTime: 250
+drillTime: 180
 drillEffect: {
   type: MultiEffect
   effects: [
@@ -51,7 +51,7 @@ consumes: {
     booster: true
   }
 }
-liquidBoostIntensity: 1.6
+liquidBoostIntensity: 1.65
 liquidCapacity: 60
 requirements: [
   01a-01-item-cobalt/350

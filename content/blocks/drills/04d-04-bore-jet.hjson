@@ -12,7 +12,7 @@ research: {
   ]
 }
 hasLiquids: true
-drillTime: 600
+drillTime: 578
 drillEffect: {
   type: MultiEffect
   effects: [
@@ -61,7 +61,7 @@ consumes: {
     booster: true
   }
 }
-liquidBoostIntensity: 1.6
+liquidBoostIntensity: 1.67
 liquidCapacity: 30
 requirements: [
   01a-01-item-cobalt/90

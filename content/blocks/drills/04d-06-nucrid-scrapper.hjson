@@ -14,7 +14,7 @@ requirements: [
   01a-09-item-morphite/20
 ]
 researchCostMultiplier: 0.5
-drillTime: 21
+drillTime: 25
 output: 01a-08-item-nucrid
 attribute: nucrid
 ambientSound: loopDrill
