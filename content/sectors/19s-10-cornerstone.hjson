@@ -4,6 +4,7 @@ sector: 223
 research: {
   parent: 19s-09-escarpment
   objectives: [
+    10j-06-v-unitreconstructor-legs,
     {
       type: SectorComplete
       preset: 19s-09-escarpment
