@@ -1,6 +1,6 @@
 type: StackConveyor
-speed: 0.075
-itemCapacity: 15
+speed: 0.0833333333
+itemCapacity: 20
 health: 200
 outputRouter: false
 hasPower: true
@@ -22,3 +22,25 @@ baseEfficiency: 1
 underBullets: true
 solid: false
 squareSprite: false
+loadEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 4
+  strokeFrom: 1.2
+  strokeTo: 0
+  colorFrom: 4ab994
+  colorTo: 4ab994
+  lifetime: 14
+  sides: 4
+}
+unloadEffect: {
+  type: WaveEffect
+  sizeFrom: 0.2
+  sizeTo: 4
+  strokeFrom: 1.2
+  strokeTo: 0
+  colorFrom: 4ab994
+  colorTo: 4ab994
+  lifetime: 14
+  sides: 4
+}
