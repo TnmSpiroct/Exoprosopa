@@ -11,6 +11,9 @@ research: {
     }
   ]
 }
+drillMultipliers: {
+  01a-03-item-anthracite: 1.1
+}
 hasLiquids: true
 drillTime: 578
 drillEffect: {

@@ -5,6 +5,9 @@ category: production
 research: 04d-04-bore-jet
 hasLiquids: true
 drillTime: 180
+drillMultipliers: {
+  01a-03-item-anthracite: 1.1
+}
 drillEffect: {
   type: MultiEffect
   effects: [
