@@ -39,8 +39,8 @@ weapons: [
       type: BasicBulletType
       sprite: missile-large
       width: 6
-      splashDamageRadius: 12
-      splashDamage: 7.5
+      splashDamageRadius: 16
+      splashDamage: 4
       pierce: true
       lifetime: 32
       damage: 42
