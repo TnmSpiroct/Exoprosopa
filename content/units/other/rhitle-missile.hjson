@@ -10,7 +10,7 @@ homingDelay: 10
 hitSize: 5
 trailLength: 0
 useUnitCap: false
-health: 125
+health: 120
 trailColor: 7a7564
 trailLength: 5
 aimDst: 4
@@ -28,7 +28,7 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       collidesAir: false
-      splashDamage: 45.5
+      splashDamage: 40
       splashDamageRadius: 32
     }
   } 
