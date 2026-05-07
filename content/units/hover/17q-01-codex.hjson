@@ -74,7 +74,7 @@ weapons: [
     bullet: {
       type: LightningBulletType
       lightningLength: 12
-      damage: 13.25
+      damage: 12
       pierce: false
       pierceBuilding: false
       lightningColor: e9c574
@@ -93,4 +93,3 @@ research: {
     }
   ]
 }
-researchCostMultiplier: 1
