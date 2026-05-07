@@ -24,7 +24,6 @@ research: {
     }
   ]
 }
-requireUnlock: false
 loopSound: loopDifferential
 loopSoundVolume: 0.8
 parts: [
