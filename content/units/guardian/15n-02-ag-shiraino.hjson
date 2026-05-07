@@ -15,7 +15,16 @@ health: 22800
 armor: 22
 hitSize: 34
 researchCostMultiplier: 1.5
-research: 17q-04-noya
+research: {
+  parent: 17q-04-noya
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-14-u-pier
+    }
+  ]
+}
+requireUnlock: false
 loopSound: loopDifferential
 loopSoundVolume: 0.8
 parts: [
