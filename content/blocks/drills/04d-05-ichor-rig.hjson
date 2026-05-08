@@ -25,7 +25,7 @@ requirements: [
 craftTime: 240
 craftEffect: none
 outputLiquids: [
-  02b-02-ichor/0.5
+  02b-02-ichor/1
 ]
 consumes: {
   liquids: [

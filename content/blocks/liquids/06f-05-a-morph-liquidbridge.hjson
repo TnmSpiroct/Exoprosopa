@@ -4,7 +4,7 @@ health: 300
 canOverdrive: false
 range: 10
 pulse: true
-transportTime: 2
+liquidCapacity: 100
 arrowPeriod: 0.9
 arrowTimeScl: 2.75
 hasPower: true
@@ -14,6 +14,7 @@ requirements: [
   01a-09-item-morphite/6
 ]
 category: liquid
+floating: true
 squareSprite: false
 research: 06f-04-m-clevoritebridge
 researchCost: [

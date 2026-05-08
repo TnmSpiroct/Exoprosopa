@@ -6,6 +6,7 @@ requirements: [
   01a-01-item-cobalt/8
 ]
 category: liquid
+floating: true
 squareSprite: false
 buildCostMultiplier: 1.5
 research: 06f-03-seaduct-router

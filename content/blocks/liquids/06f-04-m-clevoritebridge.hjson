@@ -7,6 +7,7 @@ requirements: [
   01a-07-item-clevorite/5
 ]
 category: liquid
+floating: true
 squareSprite: false
 research: 06f-04-liquidbridge
 researchCostMultiplier: 0.5
