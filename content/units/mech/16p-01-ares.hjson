@@ -60,7 +60,7 @@ weapons: [
       width: 1.75
       damage: 7.5
       pierce: true
-      armorPierce: false
+      pierceArmor: false
       hitEffect: none
       despawnEffect: none
       hitColor: E67676
