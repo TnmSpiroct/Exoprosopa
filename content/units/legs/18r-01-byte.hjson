@@ -19,7 +19,7 @@ research: {
     }
   ]
 }
-researchCostMultiplier: 1
+researchCostMultiplier: 0
 abilities: [
     {
     type: ShieldArcAbility

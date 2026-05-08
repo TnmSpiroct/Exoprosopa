@@ -9,7 +9,7 @@ itemCapacity: 50
 outlineColor: 26262F
 mechLegColor: 26262F
 research: 18r-02-syntax
-researchCostMultiplier: 1
+researchCostMultiplier: 2
 stepSound: mechStepSmall
 stepSoundPitch: 0.8
 stepSoundVolume: 0.65

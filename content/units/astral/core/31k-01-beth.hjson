@@ -4,7 +4,7 @@ controller: BuilderAI
 faceTarget: true
 health: 175
 armor: 1
-speed: 2.5
+speed: 3
 mineWalls: true
 mineSpeed: 7.5
 mineTier: 1

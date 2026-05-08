@@ -12,7 +12,8 @@ drag: 0.06
 speed: 5
 rotateSpeed: 9
 accel: 0.1
-engineSize: 0
+engineOffset: 6.2
+engineSize: 2.7
 itemCapacity: 100
 health: 300
 hitSize: 8

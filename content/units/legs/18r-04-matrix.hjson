@@ -9,7 +9,7 @@ itemCapacity: 75
 outlineColor: 26262F
 mechLegColor: 26262F
 research: 18r-03-decode
-researchCostMultiplier: 1
+researchCostMultiplier: 2.5
 mechStepParticles: true
 stepShake: 0.15
 singleTarget: true

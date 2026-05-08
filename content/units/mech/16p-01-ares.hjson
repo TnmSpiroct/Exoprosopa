@@ -36,7 +36,7 @@ research: {
     }
   ]
 }
-researchCostMultiplier: 1
+researchCostMultiplier: 0
 controller: HugAI
 weapons: [
   {
@@ -60,6 +60,7 @@ weapons: [
       width: 1.75
       damage: 7.5
       pierce: true
+      armorPierce: false
       hitEffect: none
       despawnEffect: none
       hitColor: E67676

@@ -34,7 +34,7 @@ research: {
   ]
 }
 stepSound: walkerStepSmall
-researchCostMultiplier: 1.5
+researchCostMultiplier: 0
 weapons: [
   {
     x: 5

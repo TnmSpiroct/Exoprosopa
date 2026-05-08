@@ -14,7 +14,7 @@ accel: 0.06
 health: 22800
 armor: 22
 hitSize: 34
-researchCostMultiplier: 1.5
+researchCostMultiplier: 0
 research: {
   parent: 17q-04-noya
   objectives: [

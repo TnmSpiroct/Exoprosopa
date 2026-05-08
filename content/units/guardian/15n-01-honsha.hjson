@@ -101,7 +101,7 @@ weapons: [
     }
   }
 ]
-researchCostMultiplier: 1.5
+researchCostMultiplier: 0
 research: {
   parent: 15o-02-oktarav
   objectives: [
