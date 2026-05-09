@@ -17,7 +17,7 @@ research: {
   parent: 03c-01-impale
   objectives: [
     {
-      type: SectorComplete
+      type: OnSector
       preset: 19s-02-mountain-ridge
     }
   ]

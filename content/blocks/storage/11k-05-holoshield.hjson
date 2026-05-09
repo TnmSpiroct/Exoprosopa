@@ -15,7 +15,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-13-marshlands
+      preset: 19s-11-precipice
     }
   ]
 }

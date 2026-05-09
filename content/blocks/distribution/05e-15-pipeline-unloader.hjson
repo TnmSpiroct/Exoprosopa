@@ -2,7 +2,15 @@ type: DirectionalUnloader
 size: 1
 health: 100
 category: distribution
-research: 11k-04-clip
+research: {
+  parent: 11k-04-clip
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-02-mountain-ridge
+    }
+  ]
+}
 requirements: [
   01a-05-item-aluminium/20
   01a-06-item-chromium/40
