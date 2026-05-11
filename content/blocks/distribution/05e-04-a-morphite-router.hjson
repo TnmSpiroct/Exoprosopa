@@ -22,3 +22,5 @@ researchCost: [
 consumes: {
   power: 0.0833333333333333
 }
+glowColor: 4ab994ff
+glowAlpha: 0.8

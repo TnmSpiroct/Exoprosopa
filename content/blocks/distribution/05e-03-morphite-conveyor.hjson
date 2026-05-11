@@ -18,6 +18,8 @@ researchCost: [
 consumes: {
   power: 0.0833333333333333
 }
+glowColor: 4ab994ff
+glowAlpha: 0.8
 baseEfficiency: 1
 underBullets: true
 solid: false
@@ -26,7 +28,7 @@ loadEffect: {
   type: WaveEffect
   sizeFrom: 0.1
   sizeTo: 4
-  strokeFrom: 1.2
+  strokeFrom: 1.3
   strokeTo: 0
   colorFrom: 4ab994
   colorTo: 4ab994
@@ -37,7 +39,7 @@ unloadEffect: {
   type: WaveEffect
   sizeFrom: 0.2
   sizeTo: 4
-  strokeFrom: 1.2
+  strokeFrom: 1.3
   strokeTo: 0
   colorFrom: 4ab994
   colorTo: 4ab994
