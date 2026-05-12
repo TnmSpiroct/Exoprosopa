@@ -1,6 +1,6 @@
 type: UnitFactory
 size: 3
-health: 450
+health: 680
 configurable: false
 requirements: [
   01a-01-item-cobalt/350

@@ -1,16 +1,16 @@
 type: UnitAssembler
 size: 5
-health: 1500
+health: 3500
 category: units
 droneType: 19r-01-amber
 areaSize: 11
 research: 10j-04-unitreconstructor-tank
 requirements: [
-  01a-01-item-cobalt/250
-  01a-05-item-aluminium/500
+  01a-01-item-cobalt/450
+  01a-05-item-aluminium/600
   01a-06-item-chromium/350
-  01a-07-item-clevorite/150
-  01a-08-item-petal/300
+  01a-07-item-clevorite/250
+  01a-08-item-petal/350
 ]
 plans: [
   {
