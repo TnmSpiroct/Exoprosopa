@@ -1,7 +1,7 @@
 color: FF8167
 hardness: 1
 cost: 1.5
-flammability: 2.5
+flammability: 3
 explosiveness: 1
 research: 01a-03-item-anthracite
 shownPlanets: [frostnova, teresa]

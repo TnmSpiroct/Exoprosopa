@@ -7,6 +7,7 @@ requirements: [
   01a-05-item-aluminium/250
   01a-06-item-chromium/150
 ]
+liquidCapacity: 60
 constructTime: 2400
 category: units
 upgrades: [

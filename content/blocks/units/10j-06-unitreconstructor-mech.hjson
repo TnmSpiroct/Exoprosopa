@@ -8,6 +8,7 @@ requirements: [
   01a-06-item-chromium/150
   01a-07-item-clevorite/50
 ]
+liquidCapacity: 60
 constructTime: 2700
 category: units
 upgrades: [
