@@ -4,7 +4,7 @@ solid: false
 underBullets: true
 health: 65
 liquidPadding: 2
-liquidCapacity: 30
+liquidCapacity: 120
 category: liquid
 squareSprite: false
 research: 06f-02-seaduct-junction

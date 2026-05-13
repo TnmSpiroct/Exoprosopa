@@ -16,6 +16,7 @@ consumes: {
     02b-06-morphitix-plasma/0.33333333
   ]
 }
+liquidCapacity: 180
 maxHeat: 24
 explodeSound: explosionReactor
 explosionRadius: 22

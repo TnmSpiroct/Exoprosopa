@@ -1,6 +1,6 @@
 type: GenericCrafter
 size: 3
-liquidCapacity: 240
+liquidCapacity: 180
 hasLiquids: true
 health: 850
 category: liquid

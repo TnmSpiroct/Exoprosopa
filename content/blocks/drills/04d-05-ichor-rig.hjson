@@ -4,7 +4,7 @@ attribute: ichor
 baseEfficiency: 0
 minEfficiency: 1
 boostScale: 0.04
-liquidCapacity: 120
+liquidCapacity: 200
 hasLiquids: true
 health: 1000
 category: production

@@ -12,6 +12,7 @@ consumes: {
   power: 4
   liquid: 02b-01-bioliquid/0.5
 }
+liquidCapacity: 60
 buildSpeed: 2.5
 filter: [
   09i-01-aluminium-furnace,

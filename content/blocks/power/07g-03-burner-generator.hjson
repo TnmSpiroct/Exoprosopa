@@ -11,6 +11,7 @@ consumes: {
   itemFlammable: {}
   liquid: 02b-01-bioliquid/0.5
 }
+liquidCapacity: 60
 powerProduction: 2
 itemDuration: 240
 generateEffect: generatespark

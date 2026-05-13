@@ -32,6 +32,7 @@ powerProduction: 1220
 generateEffect: none
 ambientSound: loopFlux
 ambientSoundVolume: 0.18
+liquidCapacity: 800
 drawer: {
   type: DrawMulti
   drawers: [

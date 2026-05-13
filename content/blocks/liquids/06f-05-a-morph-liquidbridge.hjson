@@ -4,7 +4,7 @@ health: 300
 canOverdrive: false
 range: 10
 pulse: true
-liquidCapacity: 100
+liquidCapacity: 125
 arrowPeriod: 0.9
 arrowTimeScl: 2.75
 hasPower: true

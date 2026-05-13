@@ -13,6 +13,7 @@ consumes: {
     02b-02-ichor/0.125
   ]
 }
+liquidCapacity: 60
 buildSpeed: 2
 range: 175
 category: effect

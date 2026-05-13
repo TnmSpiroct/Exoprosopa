@@ -17,3 +17,4 @@ consumes: {
   liquid: 02b-01-bioliquid/0.25
 }
 researchCostMultiplier: 0.5
+liquidCapacity: 60

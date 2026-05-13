@@ -37,6 +37,7 @@ consumes: {
     02b-03-necroplasm/0.25
   ]
 }
+liquidCapacity: 60
 ambientSound: loopHum
 ambientSoundVolume: 0.04
 category: crafting

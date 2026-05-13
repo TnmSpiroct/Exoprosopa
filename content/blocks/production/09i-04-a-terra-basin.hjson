@@ -4,7 +4,7 @@ liquidOutputDirections: [0]
 rotate: true
 quickRotate: true
 rotateDraw: false
-liquidCapacity: 180
+liquidCapacity: 120
 hasLiquids: true
 health: 1000
 category: crafting

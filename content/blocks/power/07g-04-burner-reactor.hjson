@@ -17,6 +17,7 @@ consumes: {
   liquid: 02b-02-a-purified-elixir/0.5
 }
 powerProduction: 15
+liquidCapacity: 60
 itemDuration: 180
 generateEffect: none
 ambientSound: loopSmelter

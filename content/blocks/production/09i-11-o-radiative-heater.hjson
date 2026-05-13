@@ -36,6 +36,7 @@ consumes: {
     02b-08-nucliogen/0.125
   ]
 }
+liquidCapacity: 60
 ambientSound: loopHum
 ambientSoundVolume: 0.04
 category: crafting

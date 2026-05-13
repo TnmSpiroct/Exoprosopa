@@ -14,7 +14,7 @@ category: production
 consumes: {
   power: 1.25
 }
-liquidCapacity: 300
+liquidCapacity: 240
 research: 04d-02-elixir-collector
 requirements: [
   01a-01-item-cobalt/85

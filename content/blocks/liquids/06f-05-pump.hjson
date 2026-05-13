@@ -13,5 +13,6 @@ pumpAmount: 0.08888888889
 consumes: {
   power: 2
 }
+liquidCapacity: 120
 researchCostMultiplier: 1
 research: 06f-05-jet-pump

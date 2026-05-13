@@ -71,6 +71,7 @@ drawer: {
     }
   ]
 }
+liquidCapacity: 60
 category: power
 research: {
   parent: 07g-04-burner-reactor

@@ -1,4 +1,5 @@
 type: GenericCrafter
+liquidCapacity: 180
 size: 4
 health: 1250
 category: crafting

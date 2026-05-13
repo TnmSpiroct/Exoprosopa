@@ -2,7 +2,7 @@ type: HeatCrafter
 heatRequirement: 6
 maxEfficiency: 4
 size: 3
-liquidCapacity: 90
+liquidCapacity: 120
 hasLiquids: true
 health: 1000
 category: crafting

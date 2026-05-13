@@ -14,6 +14,7 @@ attribute: nucridfl
 baseEfficiency: 0
 minEfficiency: 0.5
 maxBoost: 1.5
+liquidCapacity: 60
 drawer: {
   type: DrawMulti
   drawers: [

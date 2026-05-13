@@ -19,6 +19,7 @@ consumes: {
     booster: true
   }
 }
+liquidCapacity: 60
 itemCapacity: 30
 fogRadius: 5
 category: production

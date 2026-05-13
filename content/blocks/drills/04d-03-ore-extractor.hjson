@@ -19,6 +19,7 @@ consumes: {
     booster: true
   }
 }
+liquidCapacity: 120
 fogRadius: 4
 buildCostMultiplier: 2
 category: production

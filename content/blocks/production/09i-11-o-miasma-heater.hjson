@@ -36,6 +36,7 @@ consumes: {
     02b-04-miasma/0.25
   ]
 }
+liquidCapacity: 60
 ambientSound: loopHum
 ambientSoundVolume: 0.04
 category: crafting

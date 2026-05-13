@@ -8,6 +8,7 @@ requirements: [
   01a-05-item-aluminium/40
   01a-06-item-chromium/30
 ]
+liquidCapacity: 40
 pumpAmount: 0.1
 consumes: {
   liquids: [

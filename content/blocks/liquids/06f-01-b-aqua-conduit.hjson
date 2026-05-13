@@ -4,6 +4,7 @@ requirements: [
   01a-01-item-cobalt/1
   01a-07-item-clevorite/1
 ]
+liquidCapacity: 40
 health: 500
 junctionReplacement: 06f-02-seaduct-junction
 rotBridgeReplacement: 06f-04-m-clevoritebridge

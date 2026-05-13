@@ -25,3 +25,4 @@ research: 10j-11-a-basic-module
 squareSprite: false
 maxBlockSize: 3
 researchCostMultiplier: 0.5
+liquidCapacity: 180

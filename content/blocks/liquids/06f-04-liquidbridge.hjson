@@ -7,6 +7,7 @@ requirements: [
 ]
 category: liquid
 floating: true
+liquidCapacity: 100
 squareSprite: false
 buildCostMultiplier: 1.5
 research: 06f-03-seaduct-router

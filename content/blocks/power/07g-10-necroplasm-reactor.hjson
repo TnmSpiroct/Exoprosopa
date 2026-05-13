@@ -70,7 +70,7 @@ drawer: {
 }
 research: 07g-05-a-geogenerator
 researchCostMultiplier: 0.75
-liquidCapacity: 80
+liquidCapacity: 160
 explosionRadius: 45
 explosionDamage: 2000
 explosionPuddles: 15

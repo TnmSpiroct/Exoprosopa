@@ -41,7 +41,7 @@ ambientSound: loopSmelter
 ambientSoundVolume: 0.12
 squareSprite: false
 itemCapacity: 20
-liquidCapacity: 60
+liquidCapacity: 120
 craftTime: 120
 craftEffect: none
 drawer: {

@@ -3,7 +3,7 @@ size: 2
 attribute: aquanite
 baseEfficiency: 0
 minEfficiency: 1
-liquidCapacity: 60
+liquidCapacity: 30
 hasLiquids: true
 health: 450
 category: production

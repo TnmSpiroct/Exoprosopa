@@ -13,6 +13,7 @@ requirements: [
   01a-05-item-aluminium/50
   01a-06-item-chromium/40
 ]
+liquidCapacity: 60
 buildCostMultiplier: 1.75
 researchCost: [
   01a-05-item-aluminium/250
