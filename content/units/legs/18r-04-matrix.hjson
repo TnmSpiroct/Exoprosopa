@@ -26,11 +26,6 @@ abilities: [
     max: 2450
     soundVolume: 0.2
   }
-  {
-    type: SpawnDeathAbility
-    unit: mine-bomb
-    amount: 3
-  }
 ]
 weapons: [
   {
