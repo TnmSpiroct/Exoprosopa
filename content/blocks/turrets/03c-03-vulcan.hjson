@@ -47,6 +47,7 @@ ammoTypes: {
   statusDuration: 60
   knockback: 2
   pierceCap: 2
+  pierceArmor: true
   timescaleDamage: true
 }
   02b-06-morphitix-plasma: {
@@ -68,6 +69,7 @@ ammoTypes: {
   ammoMultiplier: 1.5
   timescaleDamage: true
   pierceCap: 4
+  pierceArmor: true
   status: 13m-03-hsos6
   statusDuration: 120
   intervalBullet: {
