@@ -59,7 +59,7 @@ ammoTypes: {
 drawer: {
   type: DrawTurret
   basePrefix: scathe-
-    parts: [
+  parts: [
     {
       type: RegionPart
       suffix: -body
@@ -67,23 +67,21 @@ drawer: {
       heatColor: ff0000
     }
     {
-      type: RegionPart
-      suffix: -missile
-      y: -5.5
-      moveY: 3
-      layerOffset: -0.01
-      outline: false
-      under: true
-      progress: warmup
-      moves: [
-        {
-         type: PartMove
-         # Moves when recoil
-         progress: recoil
-         # moves
-         y: -4
-        }
-      ]
+     type: RegionPart
+     suffix: -missile
+     y: -5.5
+     moveY: 3
+     layerOffset: -0.01
+     outline: false
+     under: true
+     progress: warmup
+     moves: [
+       {
+        type: PartMove
+        progress: recoil
+        y: -4
+       }
+     ]
     }
     {
       type: RegionPart
@@ -190,4 +188,44 @@ drawer: {
       shapeRotation: 180
     }
   ]
+  ammoParts: {
+    01a-09-item-morphite: [
+      {
+       type: RegionPart
+       suffix: -missile-morphite
+       y: -5.5
+       moveY: 3
+       layerOffset: -0.01
+       outline: false
+       under: true
+       progress: warmup
+       moves: [
+         {
+          type: PartMove
+          progress: recoil
+          y: -4
+         }
+       ]
+      }
+    ]
+    01a-10-item-bethine: [
+      {
+       type: RegionPart
+       suffix: -missile
+       y: -5.5
+       moveY: 3
+       layerOffset: -0.01
+       outline: false
+       under: true
+       progress: warmup
+       moves: [
+         {
+          type: PartMove
+          progress: recoil
+          y: -4
+         }
+       ]
+      }
+    ]
+  }
 }
