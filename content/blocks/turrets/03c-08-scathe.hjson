@@ -34,7 +34,7 @@ unitSort: strongest
 shootWarmupSpeed: 0.02
 reload: 780
 range: 1280
-shootY: -1
+shootY: 2
 shake: 6
 ammoPerShot: 15
 maxAmmo: 45
@@ -65,23 +65,7 @@ drawer: {
       suffix: -body
       heatProgress: recoil
       heatColor: ff0000
-    }
-    {
-     type: RegionPart
-     suffix: -missile
-     y: -5.5
-     moveY: 3
-     layerOffset: -0.01
-     outline: false
-     under: true
-     progress: warmup
-     moves: [
-       {
-        type: PartMove
-        progress: recoil
-        y: -4
-       }
-     ]
+      progress: recoil
     }
     {
       type: RegionPart
@@ -193,17 +177,23 @@ drawer: {
       {
        type: RegionPart
        suffix: -missile-morphite
-       y: -5.5
-       moveY: 3
+       y: -2
        layerOffset: -0.01
        outline: false
        under: true
-       progress: warmup
+       progress: {
+         type: reload
+         interp: pow2In
+       }
+       colorTo: ffffff00
+       color: ffffffff
+       mixColorTo: ffd37fff
+       mixColor: ffffff00
        moves: [
          {
           type: PartMove
-          progress: recoil
-          y: -4
+          progress: warmup
+          y: 3
          }
        ]
       }
@@ -212,17 +202,23 @@ drawer: {
       {
        type: RegionPart
        suffix: -missile
-       y: -5.5
-       moveY: 3
+       y: -2
        layerOffset: -0.01
        outline: false
        under: true
-       progress: warmup
+       progress: {
+         type: reload
+         interp: pow2In
+       }
+       colorTo: ffffff00
+       color: ffffffff
+       mixColorTo: ffd37fff
+       mixColor: ffffff00
        moves: [
          {
           type: PartMove
-          progress: recoil
-          y: -4
+          progress: warmup
+          y: 3
          }
        ]
       }
