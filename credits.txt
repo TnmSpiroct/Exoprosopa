@@ -51,6 +51,7 @@ Author: Cris Velasco, Carrion
 
 SoundEffect: shootPlasma
 Author: Carrion
+
 Music: World 12 Map
 Source: https://youtu.be/z0rMW1tdpGQ?si=oFbG67C41q0npMl7
 Author: Guardian Tales
