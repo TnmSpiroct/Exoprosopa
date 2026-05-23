@@ -18,7 +18,7 @@ description:
   [salmon[]]This mod requires newest mindustry build to be played (Stable Release 157)
 '''
 version: "0.9"
-minGameVersion: "157"
+minGameVersion: "158"
 subtitle: "[#93e2ee[]]V0.9 Pre-Finalize Update!"
 repo: "TnmSpiroct/Exoprosopa"
 # [[]#93E2EE]Exoprosopa[[]] is waiting to be colonized again after nuclear retaliation across the supercontinent.
