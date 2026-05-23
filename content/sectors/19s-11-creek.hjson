@@ -3,11 +3,11 @@ difficulty: 8
 planet: frostnova
 sector: 215
 research: {
-  parent: 19s-11-precipice
+  parent: 19s-10-precipice
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-11-precipice
+      preset: 19s-10-precipice
     }
   ]
 }

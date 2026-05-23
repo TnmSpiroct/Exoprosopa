@@ -108,10 +108,9 @@ weapons: [
 research: {
   parent: 14n-04-coronis
   objectives: [
-    11k-04-a-core-crest,
     {
       type: SectorComplete
-      preset: 19s-99-ending
+      preset: 20t-99-ending
     }
   ]
 }

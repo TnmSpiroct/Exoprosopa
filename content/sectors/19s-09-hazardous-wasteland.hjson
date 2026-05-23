@@ -2,11 +2,11 @@ difficulty: 6
 planet: frostnova
 sector: 222
 research: {
-  parent: 19s-10-cornerstone
+  parent: 19s-08-cornerstone
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-10-cornerstone
+      preset: 19s-08-cornerstone
     }
   ]
 }

@@ -3,12 +3,12 @@ planet: frostnova
 sector: 64
 # upcoming sector = 124
 research: {
-  parent: 19s-06-crest
+  parent: 19s-05-crest
   objectives: [
     11k-04-a-core-crest,
     {
       type: SectorComplete
-      preset: 19s-06-crest
+      preset: 19s-05-crest
     }
   ]
 }

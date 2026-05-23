@@ -3,11 +3,11 @@ difficulty: 7
 planet: frostnova
 sector: 144
 research: {
-  parent: 19s-14-u-pier
+  parent: 19s-14-pier
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-14-u-pier
+      preset: 19s-14-pier
     }
   ]
 }

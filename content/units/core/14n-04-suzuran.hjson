@@ -1,6 +1,5 @@
 type: flying
 flying: true
-template: ErekirUnitType
 coreUnitDock: true
 controller: BuilderAI
 coreFleeRange: 500

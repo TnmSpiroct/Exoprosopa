@@ -2,11 +2,11 @@ difficulty: 10
 planet: frostnova
 sector: 70
 research: {
-  parent: 19s-24-clover-springs
+  parent: 20t-26-clover-springs
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-24-clover-springs
+      preset: 20t-26-clover-springs
     }
   ]
 }

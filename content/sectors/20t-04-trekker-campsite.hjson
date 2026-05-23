@@ -2,11 +2,11 @@ difficulty: 8
 planet: frostnova
 sector: 142
 research: {
-  parent: 19s-13-marshlands
+  parent: 19s-12-marshlands
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-13-marshlands
+      preset: 19s-12-marshlands
     }
   ]
 }

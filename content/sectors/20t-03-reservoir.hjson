@@ -2,11 +2,11 @@ difficulty: 4
 planet: frostnova
 sector: 96
 research: {
-  parent: 19s-04-foggy-fields
+  parent: 19s-05-crest
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-04-foggy-fields
+      preset: 19s-05-crest
     }
   ]
 }

@@ -3,7 +3,12 @@ health: 850
 size: 3
 hasLiquids: true
 category: crafting
-research: 09i-02-f-elixir-autofreezer
+research: {
+  parent:  09i-02-f-elixir-autofreezer
+  objectives: [
+    04d-05-ichor-rig,
+  ]
+}
 consumes: {
   items: [
     01a-04-item-tantra-sand/3

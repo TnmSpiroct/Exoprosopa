@@ -2,11 +2,11 @@ difficulty: 3
 planet: frostnova
 sector: 173
 research: {
-  parent: 19s-03-a-luminary
+  parent: 19s-02-mountain-ridge
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-03-a-luminary
+      preset: 19s-02-mountain-ridge
     }
   ]
 }

@@ -27,7 +27,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-08-botanical-garden
+      preset: 19s-06-botanical-garden
     }
   ]
 }
