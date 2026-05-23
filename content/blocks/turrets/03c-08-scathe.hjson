@@ -34,7 +34,7 @@ unitSort: strongest
 shootWarmupSpeed: 0.02
 reload: 780
 range: 1280
-shootY: -1
+shootY: 2
 shake: 6
 ammoPerShot: 15
 maxAmmo: 45
@@ -59,31 +59,13 @@ ammoTypes: {
 drawer: {
   type: DrawTurret
   basePrefix: scathe-
-    parts: [
+  parts: [
     {
       type: RegionPart
       suffix: -body
       heatProgress: recoil
       heatColor: ff0000
-    }
-    {
-      type: RegionPart
-      suffix: -missile
-      y: -5.5
-      moveY: 3
-      layerOffset: -0.01
-      outline: false
-      under: true
-      progress: warmup
-      moves: [
-        {
-         type: PartMove
-         # Moves when recoil
-         progress: recoil
-         # moves
-         y: -4
-        }
-      ]
+      progress: recoil
     }
     {
       type: RegionPart
@@ -190,4 +172,56 @@ drawer: {
       shapeRotation: 180
     }
   ]
+  ammoParts: {
+    01a-09-item-morphite: [
+      {
+       type: RegionPart
+       suffix: -missile-morphite
+       y: -2
+       layerOffset: -0.01
+       outline: false
+       under: true
+       progress: {
+         type: reload
+         interp: pow2In
+       }
+       colorTo: ffffff00
+       color: ffffffff
+       mixColorTo: ffd37fff
+       mixColor: ffffff00
+       moves: [
+         {
+          type: PartMove
+          progress: warmup
+          y: 3
+         }
+       ]
+      }
+    ]
+    01a-10-item-bethine: [
+      {
+       type: RegionPart
+       suffix: -missile
+       y: -2
+       layerOffset: -0.01
+       outline: false
+       under: true
+       progress: {
+         type: reload
+         interp: pow2In
+       }
+       colorTo: ffffff00
+       color: ffffffff
+       mixColorTo: ffd37fff
+       mixColor: ffffff00
+       moves: [
+         {
+          type: PartMove
+          progress: warmup
+          y: 3
+         }
+       ]
+      }
+    ]
+  }
 }
