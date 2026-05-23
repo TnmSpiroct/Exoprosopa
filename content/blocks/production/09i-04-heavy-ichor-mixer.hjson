@@ -6,7 +6,10 @@ category: crafting
 research: {
   parent:  09i-02-f-elixir-autofreezer
   objectives: [
-    04d-05-ichor-rig,
+    {
+      type: Research
+      content: 04d-05-ichor-rig
+    }
   ]
 }
 consumes: {

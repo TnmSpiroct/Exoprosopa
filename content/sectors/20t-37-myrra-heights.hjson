@@ -4,6 +4,7 @@ sector: 70
 research: {
   parent: 20t-26-clover-springs
   objectives: [
+    11k-03-core-apeirogon,
     {
       type: SectorComplete
       preset: 20t-26-clover-springs

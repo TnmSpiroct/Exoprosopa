@@ -10,7 +10,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-14-u-pier
+      preset: 19s-14-pier
     }
   ]
 }

@@ -15,7 +15,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-06-crest
+      preset: 19s-05-crest
     }
   ]
 }

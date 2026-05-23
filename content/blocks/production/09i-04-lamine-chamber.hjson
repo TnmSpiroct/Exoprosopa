@@ -7,7 +7,10 @@ category: crafting
 research: {
   parent: 09i-04-laminator
   objectives: [
-    04d-05-ichor-rig,
+    {
+      type: Research
+      content: 04d-05-ichor-rig
+    }
   ]
 }
 itemCapacity: 20
