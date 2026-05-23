@@ -1,7 +1,7 @@
 captureWave: 25
 difficulty: 6
 planet: frostnova
-sector: 221
+sector: 220
 research: {
   parent: 19s-09-hazardous-wasteland
   objectives: [

@@ -1,6 +1,6 @@
 difficulty: 6
 planet: frostnova
-sector: 223
+sector: 218
 research: {
   parent: 19s-07-escarpment
   objectives: [

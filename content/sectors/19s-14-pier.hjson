@@ -1,7 +1,7 @@
 captureWave: 20
 difficulty: 10
 planet: frostnova
-sector: 143
+sector: 22
 research: {
   #TODO - change to sector antarstar
   parent: 19s-12-marshlands

@@ -1,7 +1,6 @@
 difficulty: 4
 planet: frostnova
-sector: 64
-# upcoming sector = 124
+sector: 124
 research: {
   parent: 19s-05-crest
   objectives: [

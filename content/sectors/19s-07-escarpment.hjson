@@ -1,7 +1,7 @@
 captureWave: 30
 difficulty: 6
 planet: frostnova
-sector: 218
+sector: 64
 research: {
   parent: 19s-06-botanical-garden
   objectives: [
