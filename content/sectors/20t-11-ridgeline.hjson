@@ -1,6 +1,6 @@
 difficulty: 8
 planet: frostnova
-sector: 204
+sector: 205
 research: {
   parent: 19s-14-pier
   objectives: [

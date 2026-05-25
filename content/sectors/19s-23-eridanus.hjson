@@ -1,9 +1,9 @@
 captureWave: 50
 difficulty: 8
 planet: frostnova
-sector: 86
+sector: 84
 research: {
-  #TODO - polarStation and tundraPeaks pre-sector
+  #TODO - polarStation and tundraPeaks
   parent: 19s-15-bioproject-core
   objectives: [
     {
