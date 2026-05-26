@@ -12,8 +12,8 @@ research: {
   parent: 06f-06-aqua-container
   objectives: [
     {
-      type: SectorComplete
-      preset: 19s-09-escarpment
+      type: OnSector
+      preset: 19s-08-cornerstone
     }
   ]
 }

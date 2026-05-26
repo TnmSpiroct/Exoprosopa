@@ -20,7 +20,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-06-crest
+      preset: 19s-05-crest
     }
   ]
 }

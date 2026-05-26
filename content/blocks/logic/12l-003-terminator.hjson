@@ -1,6 +1,14 @@
 type: LogicBlock
 category: logic
-research: 0006-logic
+research: {
+  parent: 0006-logic
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-15-bioproject-core
+    }
+  ]
+}
 requirements: [
   01a-02-item-nickel/150
   01a-05-item-aluminium/75

@@ -7,7 +7,15 @@ size: 3
 squareSprite: false
 researchCostMultiplier: 0.5
 category: power
-research: 07g-01-q-powerbeam
+research: {
+  parent: 07g-01-q-powerbeam
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-10-precipice
+    }
+  ]
+}
 requirements: [
   01a-02-item-nickel/80
   01a-07-item-clevorite/15

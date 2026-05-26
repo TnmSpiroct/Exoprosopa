@@ -12,7 +12,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-99-ending
+      preset: 20t-99-ending
     }
   ]
 }

@@ -1,0 +1,12 @@
+difficulty: 3
+planet: frostnova
+sector: 64
+research: {
+  parent: 19s-04-cliffside
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-04-cliffside
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+captureWave: 20
+difficulty: 10
+planet: frostnova
+sector: 82
+research: {
+  #TODO - antarstar
+  parent: 19s-12-marshlands
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-12-marshlands
+    }
+  ]
+}

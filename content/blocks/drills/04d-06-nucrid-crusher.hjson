@@ -2,7 +2,15 @@ type: WallCrafter
 health: 650
 size: 2
 category: production
-research: 04d-03-r-ore-blaster
+research: {
+  parent: 04d-03-r-ore-blaster
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-23-eridanus
+    }
+  ]
+}
 consumes: {
   power: 0.25
 }

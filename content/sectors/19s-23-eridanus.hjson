@@ -3,11 +3,12 @@ difficulty: 8
 planet: frostnova
 sector: 84
 research: {
-  parent: 19s-16-bioproject-core
+  #TODO - polarStation and tundraPeaks
+  parent: 19s-15-bioproject-core
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-16-bioproject-core
+      preset: 19s-15-bioproject-core
     }
   ]
 }

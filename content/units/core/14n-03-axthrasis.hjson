@@ -85,4 +85,12 @@ engines: [
     }
   }
 ]
-parent: 14n-02-nicole
+research: {
+  parent: 14n-02-nicole
+  objectives: [
+    {
+      type: OnSector
+      preset: 20t-99-ending
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+difficulty: 8
+planet: frostnova
+sector: 205
+research: {
+  parent: 19s-14-pier
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-14-pier
+    }
+  ]
+}

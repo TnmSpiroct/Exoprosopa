@@ -54,7 +54,7 @@ ammoTypes: {
     frontColor: f6b08a
     backColor: f6b08a
     damage: 33.5
-    knockback: 3
+    knockback: 2
     width: 8
     height: 14
     hitSize: 6

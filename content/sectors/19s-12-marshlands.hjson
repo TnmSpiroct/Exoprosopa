@@ -1,0 +1,13 @@
+captureWave: 30
+difficulty: 8
+planet: frostnova
+sector: 214
+research: {
+  parent: 19s-11-creek
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-11-creek
+    }
+  ]
+}

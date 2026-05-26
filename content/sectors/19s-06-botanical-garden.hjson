@@ -1,0 +1,13 @@
+difficulty: 4
+planet: frostnova
+sector: 125
+research: {
+  parent: 19s-05-crest
+  objectives: [
+    11k-04-a-core-crest,
+    {
+      type: SectorComplete
+      preset: 19s-05-crest
+    }
+  ]
+}
