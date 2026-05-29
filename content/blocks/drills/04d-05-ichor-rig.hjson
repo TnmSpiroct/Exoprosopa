@@ -8,7 +8,15 @@ liquidCapacity: 200
 hasLiquids: true
 health: 1000
 category: production
-research: 04d-02-elixir-collector
+research: {
+  parent: 04d-02-elixir-collector
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-09-hazardous-wasteland
+    }
+  ]
+}
 itemCapacity: 20
 researchCost: [
   01a-01-item-cobalt/5000
