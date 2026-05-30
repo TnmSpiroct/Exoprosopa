@@ -14,7 +14,15 @@ requirements: [
 ]
 squareSprite: false
 category: effect
-research: 10j-12-regenerator
+research: {
+  parent: 10j-12-regenerator
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-10-precipice
+    }
+  ]
+}
 drawer: {
   type: DrawMulti
   drawers: [
