@@ -86,7 +86,6 @@ orbitTime: 3000
 orbitSpacing: 1
 radius: 1.2
 
-showRtsAIRule: true
 prebuildBase: true
 clearSectorOnLose: true
 defaultCore: 11k-01-core-apex
