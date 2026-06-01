@@ -14,7 +14,15 @@ fogRadius: 30
 ambientSound: loopRadarPulse
 ambientSoundVolume: 0.1
 glowColor: 496d2f
-research: 11k-06-illuminator
+research: {
+  parent: 11k-06-illuminator
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-05-crest
+    }
+  ]
+}
 researchCost: [
   01a-02-item-nickel/250
   01a-05-item-aluminium/400
