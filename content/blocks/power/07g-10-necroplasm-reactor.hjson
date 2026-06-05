@@ -68,7 +68,7 @@ drawer: {
     }
   ]
 }
-research: 07g-05-a-geogenerator
+research: 07g-05-tokamak-reactor
 researchCostMultiplier: 0.75
 liquidCapacity: 160
 explosionRadius: 45
