@@ -491,14 +491,14 @@ block.exoprosopa-12l-005-mini-projector.description =
 block.exoprosopa-12l-005-projector.name = 
 block.exoprosopa-12l-005-projector.description = 
 
-block.exoprosopa-12l-006-canvas.name = 
-block.exoprosopa-12l-006-canvas.description = 
+block.exoprosopa-10i-001-canvas.name = 
+block.exoprosopa-10i-001-canvas.description = 
 
-block.exoprosopa-12l-007-canvas-large.name = 
-block.exoprosopa-12l-007-canvas-large.description = 
+block.exoprosopa-10i-002-canvas-large.name = 
+block.exoprosopa-10i-002-canvas-large.description = 
 
-block.exoprosopa-12l-007-canvas-massive.name = 
-block.exoprosopa-12l-007-canvas-massive.description = 
+block.exoprosopa-10i-003-canvas-massive.name = 
+block.exoprosopa-10i-003-canvas-massive.description = 
 
 # Power Blocks
 block.exoprosopa-07g-01-powerline.name = 

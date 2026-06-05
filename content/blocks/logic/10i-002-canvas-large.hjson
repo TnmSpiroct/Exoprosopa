@@ -4,7 +4,7 @@ health: 700
 padding: 2
 canvasSize: 24
 category: logic
-research: 12l-006-canvas
+research: 10i-001-canvas
 researchCostMultiplier: 1
 requirements: [
   01a-01-item-cobalt/30

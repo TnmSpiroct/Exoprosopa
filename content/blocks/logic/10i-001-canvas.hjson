@@ -9,7 +9,7 @@ padding: 2
 canvasSize: 12
 category: logic
 research: {
-  parent: 12l-001-message-chip
+  parent: 0011-effect
   objectives: [
     {
       type: OnSector

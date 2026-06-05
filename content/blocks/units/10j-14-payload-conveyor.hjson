@@ -2,7 +2,7 @@ type: PayloadConveyor
 health: 450
 category: units
 research: {
-  parent: 0010-fabricator
+  parent: 05e-01-transport-pipe
   objectives: [
     {
       type: OnSector
