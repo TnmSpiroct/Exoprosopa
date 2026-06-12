@@ -29,8 +29,6 @@
 Thankyou for playing this mod!<br>
 You can contributes maps or gives suggestions by join Exoprosopa Discord Server!<br>
 Check it on my profile. My username is RennTanami.<br><br>
-
-This mod requires newest mindustry build to be played (Stable Release 157)
 <br>
 <br>
 
