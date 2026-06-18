@@ -1,6 +1,6 @@
 type: PayloadMassDriver
 consumes: {
-  power: 2
+  power: 1.75
 }
 health: 650
 category: units
@@ -14,9 +14,9 @@ research: {
   ]
 }
 requirements: [
-  01a-02-item-nickel/150
-  01a-05-item-aluminium/200
-  01a-06-item-chromium/120
+  01a-02-item-nickel/90
+  01a-05-item-aluminium/210
+  01a-06-item-chromium/150
 ]
 reload: 120
 chargeTime: 90
