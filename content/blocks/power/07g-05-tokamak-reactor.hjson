@@ -21,7 +21,7 @@ maxHeat: 24
 explodeSound: explosionReactor
 explosionRadius: 22
 explosionDamage: 2200
-powerProduction: 112
+powerProduction: 113.333333
 effect: {
   type: MultiEffect
   effects: [
