@@ -21,8 +21,8 @@ stepSoundVolume: 0.45
 abilities: [
   {
     type: RegenAbility
-    amount: 21.6666667
-    percentAmount: 0.3333333333333333
+    amount: 0
+    percentAmount: 0.0416666667
   }
 ]
 weapons: [
@@ -38,9 +38,9 @@ weapons: [
     rotate: false
     shootCone: 5
     shake: 3
-    recoil: 1.5
+    recoil: 4
     shootSound: shootAfflict
-    shootSoundVolume: 1
+    shootSoundVolume: 0.7
     shoot: {
     firstShotDelay: 35
     shotDelay: 12
@@ -50,7 +50,7 @@ weapons: [
     top: false
     bullet: {
       type: BasicBulletType
-      damage: 530
+      damage: 490
       width: 12
       height: 18
       speed: 10
@@ -89,13 +89,13 @@ weapons: [
       }
     }
     {
-    x: 9.8
-    y: -5.8
-    reload: 10
+    x: 9.7
+    y: -6.3
+    reload: 4
     mirror: true
     alternate: true
-    targetInterval: 13
-    targetSwitchInterval: 17
+    targetInterval: 8
+    targetSwitchInterval: 8
     recoil: 0.5
     name: program-mount
     shootY: 1
@@ -105,7 +105,7 @@ weapons: [
       type: BulletType
       shootEffect: sparkShoot
       hitEffect: pointHit
-      maxRange: 130
+      maxRange: 120
       damage: 80
     }
   }

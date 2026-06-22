@@ -32,6 +32,7 @@ weapons: [
     shootY: 4
     name: syntax
     reload: 45.5
+    recoil: 1.25
     mirror: true
     alternate: true
     rotate: false

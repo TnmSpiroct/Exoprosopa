@@ -36,12 +36,13 @@ weapons: [
     shootX: 1.2
     name: matrix
     reload: 60
+    recoil: 3
     mirror: true
     alternate: true
     rotate: false
     shootCone: 5
     shootSound: shootMatrix
-    shootSoundVolume: 0.2
+    shootSoundVolume: 0.18
     shake: 1
     shoot: {
     firstShotDelay: 35
