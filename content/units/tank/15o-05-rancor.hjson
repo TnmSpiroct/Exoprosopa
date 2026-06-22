@@ -79,6 +79,7 @@ weapons: [
     rotateSpeed: 0.75
     shootSound: shootRancor
     shootSoundVolume: 0.5
+    recoil: 4.5
     parts: [
       {
         y: -12
