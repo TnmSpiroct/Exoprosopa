@@ -22,7 +22,7 @@ weapons: [
     x: 0
     y: -2
     reload: 34.2
-    recoil: 1.25
+    recoil: 1
     shootSound: shootPlasma
     shootSoundVolume: 0.09
     bullet: {
