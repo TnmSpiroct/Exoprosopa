@@ -24,3 +24,11 @@ bio.chip3 = [salmon]Semua titik pertahanan telah hancur.\nSemua unit personel ya
 bio.chip4 = -- - -- -- --- -- -
 bio.chip5 = - - --- - -- -- ---
 bio.chip6 = S--TUS ES__VASI = HA_C_R\nPEN_E_AB = ST__K___ DI T___K __RDA__M  - --4N--- -POT--- -TR/-- --V.--- -----.- - --_
+
+ru:
+bio.chip1 = [salmon]Высокорадиоактивная зона\nДопустимы только Никки
+bio.chip2 = [accent]Вместимость миазмы = [salmon]88%\n[accent]Статус = [salmon]Опасно
+bio.chip3 = [salmon]Все оборонительные точки были уничтожены.\nВесь оставшийся персонал эвакуирован в\n[accent]Предприятие Механизированной Войны[] немедленно!
+bio.chip4 = -- - -- -- --- -- -
+bio.chip5 = - - --- - -- -- ---
+bio.chip6 = СТ--УС ЭКС--ВАЦИИ = УНИ-ТО--Н\nПР-ЧИНА = ДЕ------ П-.-- ---ТР---- - --4Н--- -ПОТ--- -ТР/-- --В.--- -----.- - --_

@@ -20,8 +20,8 @@ researchCostMultiplier: 3
 drownTimeMultiplier: 1.5
 hovering: true
 groundLayer: 60
-health: 33700
-armor: 27
+health: 31200
+armor: 26
 allowLegStep: true
 speed: 0.425
 hitSize: 32
@@ -60,7 +60,7 @@ weapons: [
         type: ShrapnelBulletType
         length: 69
         width: 13
-        damage: 260
+        damage: 360
         pierce: true
         pierceArmor: true
         pierceBuilding: true

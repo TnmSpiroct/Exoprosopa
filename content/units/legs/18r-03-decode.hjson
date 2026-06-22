@@ -5,7 +5,7 @@ health: 4800
 armor: 8
 speed: 0.38
 rotateSpeed: 2.5
-itemCapacity: 50
+itemCapacity: 55
 outlineColor: 26262F
 mechLegColor: 26262F
 research: 18r-02-syntax
@@ -18,8 +18,8 @@ mechFrontSway: 0.55
 abilities: [
   {
     type: ShieldRegenFieldAbility
-    reload: 120
-    range: 32
+    reload: 240
+    range: 28
     amount: 25
     max: 450
     soundVolume: 0.2
@@ -38,8 +38,10 @@ abilities: [
 ]
 weapons: [
   {
-    x: 10
+    x: 11.5
     y: 0
+    shootY: 4
+    shootX: -1
     name: decode
     reload: 54
     mirror: true
@@ -49,6 +51,7 @@ weapons: [
     shootSound: shootLaserBeam
     shootSoundVolume: 0.2
     shake: 1
+    top: false
     bullet: {
       type: LaserBulletType
       recoil: 0.5
@@ -57,7 +60,7 @@ weapons: [
       sideLength: 28
       sideWidth: 1
       pierce: false
-      pierceCap: 4
+      pierceCap: 2
       pierceBuilding: true
       status: 13m-07-stunned
       statusDuration: 30

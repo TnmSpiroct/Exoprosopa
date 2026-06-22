@@ -15,7 +15,7 @@ legStraightness: 0.3
 hovering: true
 groundLayer: 60
 health: 3400
-armor: 8
+armor: 7
 allowLegStep: true
 speed: 0.674
 hitSize: 19
@@ -87,11 +87,11 @@ weapons: [
     targetSwitchInterval: 12
     recoil: 0.5
     name: sender-debuff-weapon
+    shootSound: shootSegment
     shootY: 1
     type: PointDefenseWeapon
     bullet: {
       type: BulletType
-      shootSound: shootSegment
       shootEffect: sparkShoot
       hitEffect: pointHit
       maxRange: 100

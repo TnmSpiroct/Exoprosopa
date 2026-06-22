@@ -3,9 +3,9 @@ hitSize: 35
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 38550
+health: 38500
 crushDamage: 6
-armor: 36
+armor: 38
 speed: 0.46
 rotateSpeed: 0.6
 itemCapacity: 110
@@ -116,7 +116,7 @@ weapons: [
       trailInterval: 3
       speed: 5.5
       lifetime: 52.4
-      damage: 280
+      damage: 380
       hitEffect: [
         titanExplosionSmall,
         titanSmokeSmall

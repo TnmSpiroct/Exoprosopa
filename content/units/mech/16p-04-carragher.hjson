@@ -16,7 +16,7 @@ drownTimeMultiplier: 0.5
 hovering: true
 groundLayer: 60
 health: 9800
-armor: 14
+armor: 13
 allowLegStep: true
 legSplashDamage: 30
 legSplashRange: 20
@@ -57,18 +57,17 @@ weapons: [
     shootX: -1
     mirror: true
     alternate: true
-    under: true
+    top: false
     reload: 45.5
     shootSound: shootToxopidShotgun
     shootSoundVolume: 0.8
     name: carragher-weapon
-    layerOffset: -0.001
     shootStatusDuration: 60
     bullet: {
         type: ShrapnelBulletType
         length: 92
         width: 5.5
-        damage: 300
+        damage: 270
         pierce: true
         pierceBuilding: true
         lifetime: 60
@@ -84,7 +83,7 @@ weapons: [
       display: false
       rotate: false
       mirror: false
-      reload: 90
+      reload: 91
       shootCone: 5
       shootSound: none
       bullet: {
