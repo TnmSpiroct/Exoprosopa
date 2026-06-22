@@ -30,7 +30,6 @@ Thankyou for playing this mod!<br>
 You can contributes maps or gives suggestions by join Exoprosopa Discord Server!<br>
 Check it on my profile. My username is RennTanami.<br><br>
 <br>
-<br>
 
 <div align = center>
 
@@ -60,12 +59,9 @@ Check it on my profile. My username is RennTanami.<br><br>
   - Ridgeline
   - Aeroplex Fort [Broken]
   - Novaris Facility
-- Added 2 Ne Guardian Unit [Specialized]
+- Added 2 New Guardian Unit [Specialized]
   - Honsha [Tank Unit]
   - Huntress [Flying Unit]
-- Rework Weapon of Units:
-  - T5 Tank - Rancor
-  - T3 Tank - Bulwark
 - New Ichor Tiles & Mesa Biome
 - Added New Blocks:
   - Cryogenics Synthetis Chamber
@@ -79,33 +75,19 @@ Check it on my profile. My username is RennTanami.<br><br>
   - Technoworks
   - Sunlit Heater
   - Underflow Gate
-- Cobalt Cost Reduction
-  - Powerline 6 > 5
-  - Pressure Gen 40 > 30
-  - Elixir Coll. 40 > 30
-  - Tantrium Crusher 20 > 15
-  - Tantrium Extractinator 80 > 60
-  - Liquid Junction 5 > 3
-  - Liquid Router 10 > 5
-  - Liquid Bridge 10 > 8
-  - Jet Pump 30 > 0
-  - Aqua Container 40 > 30
-  - Aluminium Furn. 110 > 100
-  - Elixir Convert. 30 > 20
-  - Bore Jet 100 > 90
-  - Chromium Pipe 1 > 0
-  - Cargo Bay 90 > 0
-  - Block Regenerator 150 > 100
-- Nerf Turrets
-  - Phantasm
-  - Skyhammer
-  - Continuum
+  - Large Surge Launher
 - Various Bug Fix and Improvement to Snow White
 - Archangel Revamp
 - Various Sprite Changes
 - Units & Turrets Balancing
 - Added Canvas
 - Removed Trophy Contents
+- Added Tier 5 Walker Unit - Program
+- Re-Sprite
+  - Powerline & Powerbeam
+  - Morphite SolarPanel
+  - Build Tower
+- Power Gen Adjustment
 <br>
 
 ![Banner]
