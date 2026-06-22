@@ -39,8 +39,8 @@ weapons: [
     shootCone: 5
     shake: 3
     recoil: 1.5
-    shootSound: shootScepter
-    shootSoundVolume: 1.4
+    shootSound: shootAfflict
+    shootSoundVolume: 1
     shoot: {
     firstShotDelay: 35
     shotDelay: 12
