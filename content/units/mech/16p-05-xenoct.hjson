@@ -45,8 +45,8 @@ weapons: [
         type: RegionPart
         name: "exoprosopa-xenoct-misl"
         outline: false
-        xScl: 0.5
-        yScl: 0.5
+        xScl: 0.7
+        yScl: 0.7
         color: ffffff
         colorTo: ffffff00
         layerOffset: 0.001
