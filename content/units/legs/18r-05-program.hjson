@@ -89,7 +89,7 @@ weapons: [
       }
     }
     {
-    x: 9.7
+    x: 9.5
     y: -6.3
     reload: 4
     mirror: true
