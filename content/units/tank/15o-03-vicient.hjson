@@ -35,6 +35,7 @@ weapons: [
     shootSound: shootBulwark
     shootSoundVolume: 0.5
     shootY: 5
+    recoil: 2.25
     bullet: {
       type: BasicBulletType
       frontColor: 6BBDCB

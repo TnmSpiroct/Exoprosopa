@@ -1,19 +1,16 @@
 type: legs
-legCount: 6
-legExtension: -11
-legBaseOffset: 6
-legLength: 55
-legLengthScl: 0.75
+shadowElevation: 0.95
+legCount: 8
+legExtension: -20
+legBaseOffset: 8
+legLength: 75
+legLengthScl: 0.93
 legSpeed: 0.2
-legMoveSpace: 1
+legMoveSpace: 0.8
 legSplashDamage: 150
 legSplashRange: 60
 legPairOffset: 3
-# Experimental
-legContinuousMove: true
-lockLegBase: true
-legGroupSize: 3
-# ---
+rippleScale: 3
 stepShake: 2.5
 research: 16p-04-carragher
 researchCostMultiplier: 3
@@ -27,18 +24,92 @@ speed: 0.425
 hitSize: 32
 drag: 0.07
 itemCapacity: 60
+lightRadius: 140
 outlineColor: 26262F
 rotateSpeed: 1.2
 stepSound: walkerStep
 stepSoundVolume: 1.1
 stepSoundPitch: 0.9
 weapons: [
+   {
+    x: 9.25
+    y: -8.5
+    reload: 50
+    mirror: true
+    alternate: true
+    rotate: false
+    shootCone: 360
+    recoil: 0
+    parts: [
+      {
+        type: RegionPart
+        name: "exoprosopa-xenoct-misl"
+        outline: false
+        xScl: 0.5
+        yScl: 0.5
+        color: ffffff
+        colorTo: ffffff00
+        layerOffset: 0.001
+        progress: {
+          type: recoil
+          op: compress
+          start: 0.1
+          end: 0.9
+        }
+      }
+      {
+        type: RegionPart
+        name: "exoprosopa-xenoct-launcher"
+        outline: false
+        moveX: 4.25
+        moveY: -4.25
+        color: ffffff
+        colorTo: ffffff00
+        layerOffset: 0.002
+        progress: {
+          type: warmup
+          op: curve
+          interp: pow2
+        }
+      }
+    ]
+    ejectEffect: none
+    shootSound: shootMissiles
+    shootSoundVolume: 0.2
+    baseRotation: 0
+    name: xenoct-launcher
+    top: false
+    layerOffset: -0.001
+    shoot: {
+      type: ShootBarrel
+      firstShotDelay: 15
+      shots: 2
+      shotDelay: 7.5
+      barrels: [
+        -1, -2, -135,
+        0.75, -3.75, -135
+        ]
+      }
+    bullet: {
+      keepVelocity: false
+      collidesAir: false
+      instantDisappear: true
+      damage: 0
+      spawnUnit: exoprosopa-xenoct-missile
+      despawnSound: explosion
+      shootEffect: sparkShoot
+      smokeEffect: shootBigSmoke
+      hitColor: f4807f
+      trailColor: f4807f
+      backColor: f4807f
+      frontColor: f4807f
+    }
+  }
   {
     x: 17.25
     y: 4.25
     mirror: true
     alternate: true
-    layerOffset: -0.01
     reload: 45
     shootSound: shootToxopidShotgun
     shoot: {
@@ -46,27 +117,17 @@ weapons: [
       shots: 3
       spread: 12
     }
-    parts: [
-      {
-        type: RegionPart
-        name: "exoprosopa-xenoct-arm"
-        progress: recoil
-        moveRot: -15
-        moxeX: 2
-        moveY: -2
-      }
-    ]
     bullet: {
-        type: ShrapnelBulletType
-        length: 69
-        width: 13
-        damage: 360
-        pierce: true
-        pierceArmor: true
-        pierceBuilding: true
-        toColor: d77751
-        status: 13m-01-breached
-        statusDuration: 360
-      }
+      type: ShrapnelBulletType
+      length: 69
+      width: 13
+      damage: 360
+      pierce: true
+      pierceArmor: true
+      pierceBuilding: true
+      toColor: d77751
+      status: 13m-01-breached
+      statusDuration: 360
+    }
   }
 ]

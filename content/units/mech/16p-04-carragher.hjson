@@ -54,10 +54,10 @@ weapons: [
   {
     x: 15.5
     y: 3.5
-    shootX: -1
+    shootX: -1.5
     mirror: true
     alternate: true
-    top: false
+    layerOffset: -0.001
     reload: 45.5
     shootSound: shootToxopidShotgun
     shootSoundVolume: 0.8

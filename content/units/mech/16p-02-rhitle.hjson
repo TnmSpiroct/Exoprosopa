@@ -54,7 +54,7 @@ weapons: [
       collidesAir: false
       instantDisappear: true
       damage: 0
-      spawnUnit: rhitle-missile
+      spawnUnit: exoprosopa-rhitle-missile
       despawnSound: explosion
     }
   }
