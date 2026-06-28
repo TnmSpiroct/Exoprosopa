@@ -39,6 +39,10 @@ ammoTypes: {
     speed: 4
     width: 18
     height: 23
+    backColor: d8f18c
+    frontColor: d8f18c
+    hitColor: d8f18c
+    trailColor: d8f18c
     fragLifeMin: 0.4
     fragVelocityMin: 0.5
     fragBullets: 8
@@ -75,6 +79,10 @@ ammoTypes: {
     speed: 4
     width: 18
     height: 23
+    backColor: 51c59c
+    frontColor: 51c59c
+    hitColor: 51c59c
+    trailColor: 51c59c
     fragLifeMin: 0.4
     fragVelocityMin: 0.5
     fragBullets: 12
@@ -128,6 +136,10 @@ ammoTypes: {
     speed: 3
     width: 18
     height: 23
+    backColor: ff89af
+    frontColor: ff89af
+    hitColor: ff89af
+    trailColor: ff89af
     fragLifeMin: 0.4
     fragVelocityMin: 0.5
     fragBullets: 15
