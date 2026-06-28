@@ -7,7 +7,7 @@ hasLiquids: true
 health: 1250
 category: crafting
 research: {
-  parent: 09i-11-o-radiative-heater
+  parent: 09i-11-o-anthracite-heater
   objectives: [
     {
       type: OnSector

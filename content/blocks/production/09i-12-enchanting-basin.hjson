@@ -5,11 +5,11 @@ hasLiquids: true
 health: 1000
 category: crafting
 research: {
-  parent: 09i-04-a-terra-basin
+  parent: 0004-enchantment
   objectives: [
     {
       type: OnSector
-      preset: 19s-23-eridanus
+      preset: 19s-16-waterfall
     }
   ]
 }

@@ -1,13 +1,12 @@
-captureWave: 25
-difficulty: 7
+difficulty: 8
 planet: frostnova
-sector: 143
+sector: 194
 research: {
-  parent: 19s-14-pier
+  parent: 19s-16-waterfall
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-14-pier
+      preset: 19s-16-waterfall
     }
   ]
 }

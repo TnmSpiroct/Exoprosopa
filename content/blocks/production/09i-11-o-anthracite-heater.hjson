@@ -23,7 +23,7 @@ consumes: {
 ambientSound: loopHum
 ambientSoundVolume: 0.04
 category: crafting
-research: 09i-11-o-radiative-heater
+research: 09i-11-p-heat-redirector
 requirements: [
   01a-06-item-chromium/30
   01a-07-item-clevorite/20

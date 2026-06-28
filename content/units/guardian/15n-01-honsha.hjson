@@ -101,13 +101,3 @@ weapons: [
     }
   }
 ]
-researchCostMultiplier: 0
-research: {
-  parent: 15o-02-oktarav
-  objectives: [
-    {
-      type: SectorComplete
-      preset: 19s-02-mountain-ridge
-    }
-  ]
-}

@@ -2,14 +2,14 @@ attackAfterWaves: true
 captureWave: 50
 difficulty: 8
 planet: frostnova
-sector: 84
+sector: 19
 research: {
   #TODO - polarStation and tundraPeaks
-  parent: 19s-15-bioproject-core
+  parent: 19s-17-isolated-canyon
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-15-bioproject-core
+      preset: 19s-17-isolated-canyon
     }
   ]
 }

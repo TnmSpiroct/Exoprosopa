@@ -17,7 +17,7 @@ outputItems: [
 itemCapacity: 50
 researchCostMultiplier: 2
 research: {
-  parent: 09i-12-necrolysis-boiler
+  parent: 09i-12-gravitix-chamber-core
   objectives: [
     {
       type: OnSector

@@ -1,0 +1,17 @@
+type: LandingPad
+requirements: [
+ 01a-01-item-cobalt/150
+ 01a-05-item-aluminium/100
+ 01a-06-item-chromium/200
+]
+size: 4
+health: 700
+category: effect
+squareSprite: false
+itemCapacity: 100
+liquidCapacity: 3000
+drawLiquid: 02b-05-hydrowater
+coolingEffect: steamCoolSmoke
+consumesLiquid: 02b-05-hydrowater
+consumeLiquidAmount: 1500
+buildVisibility: notLegacyLaunchPadOnly

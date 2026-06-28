@@ -1,0 +1,11 @@
+type: BaseShield
+size: 4
+health: 8000
+armor: 20
+radius: 450
+category: effect
+squareSprite: false
+consumes: {
+  power: 5
+}
+buildVisibility: editorOnly

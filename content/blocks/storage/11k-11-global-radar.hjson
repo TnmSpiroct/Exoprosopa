@@ -7,4 +7,4 @@ outlineColor: 2C2A36
 fogRadius: 2000
 ambientSound: loopRadarPulse
 ambientSoundVolume: 0.1
-buildVisibility: sandboxOnly
+buildVisibility: editorOnly

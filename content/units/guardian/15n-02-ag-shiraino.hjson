@@ -14,16 +14,6 @@ accel: 0.06
 health: 22800
 armor: 22
 hitSize: 34
-researchCostMultiplier: 0
-research: {
-  parent: 17q-04-noya
-  objectives: [
-    {
-      type: SectorComplete
-      preset: 19s-14-pier
-    }
-  ]
-}
 loopSound: loopDifferential
 loopSoundVolume: 0.8
 parts: [

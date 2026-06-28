@@ -23,7 +23,7 @@ liquidCapacity: 120
 fogRadius: 4
 buildCostMultiplier: 2
 category: production
-research: 0004-drill
+research: 0005-drill
 researchCost: [
   01a-01-item-cobalt/8
 ]

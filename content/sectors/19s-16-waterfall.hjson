@@ -1,0 +1,12 @@
+difficulty: 6
+planet: frostnova
+sector: 144
+research: {
+  parent: 19s-15-bioproject-core
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-15-bioproject-core
+    }
+  ]
+}

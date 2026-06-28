@@ -191,11 +191,17 @@ sector.exoprosopa-19s-14-pier.description =
 sector.exoprosopa-19s-15-bioproject-core.name = 
 sector.exoprosopa-19s-15-bioproject-core.description = 
 
-# sector.exoprosopa-19s-16-polar-station.name = 
-# sector.exoprosopa-19s-16-polar-station.description = 
+sector.exoprosopa-19s-16-waterfall.name = 
+sector.exoprosopa-19s-16-waterfall.description = 
 
-# sector.exoprosopa-19s-17-tundra-peaks.name = 
-# sector.exoprosopa-19s-17-tundra-peaks.description = 
+sector.exoprosopa-19s-17-isolated-canyon.name = 
+sector.exoprosopa-19s-17-isolated-canyon.description = 
+
+# sector.exoprosopa-19s-18-polar-station.name = 
+# sector.exoprosopa-19s-18-polar-station.description = 
+
+# sector.exoprosopa-19s-19-tundra-peaks.name = 
+# sector.exoprosopa-19s-19-tundra-peaks.description = 
 
 sector.exoprosopa-19s-23-eridanus.name = 
 sector.exoprosopa-19s-23-eridanus.description = 
@@ -647,20 +653,23 @@ block.exoprosopa-0002-conduit.description =
 block.exoprosopa-0003-factory.name = 
 block.exoprosopa-0003-factory.description = 
 
-block.exoprosopa-0004-drill.name = 
-block.exoprosopa-0004-drill.description = 
+block.exoprosopa-0004-enchantment.name = 
+block.exoprosopa-0004-enchantment.description = 
 
-block.exoprosopa-0005-power.name = 
-block.exoprosopa-0005-power.description = 
+block.exoprosopa-0005-drill.name = 
+block.exoprosopa-0005-drill.description = 
 
-block.exoprosopa-0006-logic.name = 
-block.exoprosopa-0006-logic.description = 
+block.exoprosopa-0006-power.name = 
+block.exoprosopa-0006-power.description = 
 
-block.exoprosopa-0007-defence.name = 
-block.exoprosopa-0007-defence.description = 
+block.exoprosopa-0007-logic.name = 
+block.exoprosopa-0007-logic.description = 
 
-block.exoprosopa-0008-turret.name = 
-block.exoprosopa-0008-turret.description = 
+block.exoprosopa-0008-defence.name = 
+block.exoprosopa-0008-defence.description = 
+
+block.exoprosopa-0009-turret.name = 
+block.exoprosopa-0009-turret.description = 
 
 block.exoprosopa-0010-fabricator.name = 
 block.exoprosopa-0010-fabricator.description = 
@@ -682,6 +691,12 @@ block.exoprosopa-0015-unit.description =
 
 # Custom Database
 database-tag.unitpart = 
+
+# Rhodes-Only
+block.exoprosopa-rh-forcefield-projector.name = 
+block.exoprosopa-rh-large-forcefield-projector.name = 
+block.exoprosopa-rh2-landing-pad.name = 
+block.exoprosopa-rh2-launch-pad.name = 
 
 # Storage - Cores - Effects
 block.exoprosopa-11k-00-core-suzuran-kit.name = 
