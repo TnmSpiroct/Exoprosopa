@@ -8,7 +8,7 @@ outlineColor: 26262F
 speed: 1.8
 rotateSpeed: 2.1
 accel: 0.1
-health: 2150
+health: 2570
 armor: 6
 hitSize: 21
 researchCostMultiplier: 2
@@ -69,7 +69,7 @@ weapons: [
   {
     x: 0
     y: 1
-    reload: 109
+    reload: 91
     rotate: false
     mirror: false
     minWarmup: 0.55
@@ -82,7 +82,7 @@ weapons: [
     shootSound: explosionObviate
     bullet: {
     type: BasicBulletType
-      damage: 54.15
+      damage: 72.5
       width: 10
       height: 15
       hitSize: 6
@@ -102,7 +102,7 @@ weapons: [
       fragBullets: 2
       fragBullet: {
         type: LightningBulletType
-        damage: 15.85
+        damage: 28.5
         lightningLength: 2.5
         lightningLengthRand: 4.5
         lightningColor: d8f18c
