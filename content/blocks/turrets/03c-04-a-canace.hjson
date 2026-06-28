@@ -6,10 +6,10 @@ armor: 5
 shootSound: shootArtillerySmall
 shootSoundVolume: 1.85
 requirements: [
-  01a-01-item-cobalt/170
-  01a-02-item-nickel/335
-  01a-06-item-chromium/280
-  01a-07-item-clevorite/95
+  01a-01-item-cobalt/175
+  01a-02-item-nickel/300
+  01a-06-item-chromium/250
+  01a-07-item-clevorite/90
 ]
 category: turret
 coolant: {
@@ -33,12 +33,16 @@ ammoPerShot: 2
 ammoTypes: {
   01a-07-item-clevorite: {
     type: ArtilleryBulletType
-    damage: 180
+    damage: 240
     buildingDamageMultiplier: 0.1
     lifetime: 65
     speed: 4
     width: 18
     height: 23
+    backColor: d8f18c
+    frontColor: d8f18c
+    hitColor: d8f18c
+    trailColor: d8f18c
     fragLifeMin: 0.4
     fragVelocityMin: 0.5
     fragBullets: 8
@@ -63,7 +67,6 @@ ammoTypes: {
       lifetime: 12
       splashDamage: 20
       splashDamageRadius: 16
-      hitEffect: none
       collidesAir: false
       hitEffect: explosion
     }
@@ -76,6 +79,10 @@ ammoTypes: {
     speed: 4
     width: 18
     height: 23
+    backColor: 51c59c
+    frontColor: 51c59c
+    hitColor: 51c59c
+    trailColor: 51c59c
     fragLifeMin: 0.4
     fragVelocityMin: 0.5
     fragBullets: 12
@@ -101,7 +108,6 @@ ammoTypes: {
       lifetime: 10
       splashDamage: 15
       splashDamageRadius: 16
-      hitEffect: none
       collidesAir: false
       hitEffect: explosion
       fragBullets: 4
@@ -120,6 +126,43 @@ ammoTypes: {
         speed: 1
         lifetime: 6
       }
+    }
+  }
+01a-08-item-petal-flower: {
+    type: ArtilleryBulletType
+    damage: 180
+    buildingDamageMultiplier: 0.2
+    lifetime: 65
+    speed: 3
+    width: 18
+    height: 23
+    backColor: ff89af
+    frontColor: ff89af
+    hitColor: ff89af
+    trailColor: ff89af
+    fragLifeMin: 0.4
+    fragVelocityMin: 0.5
+    fragBullets: 15
+    hitEffect: blastExplosion
+    hitShake: 1.5
+    collidesGround: true
+    collidesAir: false
+    collidesTiles: true
+    collides: true
+    ammoMultiplier: 1
+    fragBullet: {
+      speed: 3.5
+      damage: 40
+      buildingDamageMultiplier: 0.2
+      lifetime: 12
+      width: 11
+      height: 14
+      splashDamage: 20
+      splashDamageRadius: 16
+      collidesAir: false
+      shrinkY: 0
+      hitEffect: explosion
+      despawnSound: explosion
     }
   }
 }

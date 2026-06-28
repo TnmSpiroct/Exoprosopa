@@ -3,9 +3,9 @@ hitSize: 28
 singleTarget: false
 omniMovement: false
 faceTarget: false
-health: 12500
+health: 13500
 crushDamage: 3
-armor: 19
+armor: 21
 speed: 0.614
 rotateSpeed: 0.9
 itemCapacity: 70
@@ -43,6 +43,7 @@ weapons: [
     rotateSpeed: 1.4
     shootSound: shootMortar
     shootSoundVolume: 0.58
+    recoil: 3.5
     bullet: {
       type: ArtilleryBulletType
       damage: 145.25

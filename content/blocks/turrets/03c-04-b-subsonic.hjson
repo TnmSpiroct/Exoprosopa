@@ -2,17 +2,21 @@ type: PowerTurret
 size: 3
 health: 3000
 armor: 5
-reload: 120
+reload: 110
 shoot: {
-  firstShotDelay: 115
+  firstShotDelay: 120
   shots: 9
   shotDelay: 0
 }
 rotateSpeed: 1.35
-recoil: 2
+recoil: 1.5
 range: 230
-minWarmup: 0.4
+minWarmup: 0.5
 moveWhileCharging: false
+reloadWhileCharging: false
+accurateDelay: false
+targetAir: false
+cooldownTime: 125
 outlineColor: 2c2a36
 shootSound: shootSubsonic
 chargeSound: chargeSubsonic
@@ -73,6 +77,90 @@ drawer: {
       moveY: -0.5
       under: true
       heatColor: 47907590
+    }
+    {
+      type: EffectSpawnerPart
+      debugDraw: false
+      x: 0
+      y: 3.75
+      width: 8
+      height: 2
+      effectChance: 0.05
+      effectColor: 47907590
+      mirror: false
+      useProgress: true
+      progress: recoil
+      effect: [
+        {
+          type: ParticleEffect
+          line: true
+          particles: 2
+          length: 0.001
+          lifetime: 10
+          lenFrom: 2
+          lenTo: 3
+          strokeFrom: 0.5
+          strokeTo: 0
+          colorFrom: 6EEFC0
+          colorTo: 6EEFC0
+        }
+      ]
+    }
+    {
+      type: EffectSpawnerPart
+      debugDraw: false
+      x: 0
+      y: 6.75
+      width: 6
+      height: 2
+      effectChance: 0.05
+      effectColor: 47907590
+      mirror: false
+      useProgress: true
+      progress: recoil
+      effect: [
+        {
+          type: ParticleEffect
+          line: true
+          particles: 2
+          length: 0.001
+          lifetime: 10
+          lenFrom: 2
+          lenTo: 3
+          strokeFrom: 0.5
+          strokeTo: 0
+          colorFrom: 6EEFC0
+          colorTo: 6EEFC0
+        }
+      ]
+    }
+    {
+      type: EffectSpawnerPart
+      debugDraw: false
+      x: 0
+      y: 9.75
+      width: 1.5
+      height: 1.5
+      effectChance: 0.05
+      effectColor: 47907590
+      mirror: false
+      useProgress: true
+      progress: recoil
+      effect: [
+        {
+          type: ParticleEffect
+          line: true
+          particles: 2
+          length: 0.001
+          lifetime: 10
+          lenFrom: 2
+          lenTo: 3
+          strokeFrom: 0.5
+          strokeTo: 0
+          colorFrom: 6EEFC0
+          colorTo: 6EEFC0
+        }
+      ]
     }
   ]
 }

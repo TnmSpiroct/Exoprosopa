@@ -2,7 +2,7 @@ type: mech
 flying: false
 hitSize: 9
 health: 850
-armor: 2
+armor: 3
 speed: 0.65
 rotateSpeed: 4.75
 itemCapacity: 25
@@ -43,6 +43,7 @@ weapons: [
     alternate: true
     rotate: false
     ejectEffect: casing1
+    top: false
     bullet: {
       type: BasicBulletType
       speed: 2.5

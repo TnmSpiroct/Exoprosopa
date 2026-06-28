@@ -15,7 +15,7 @@ legStraightness: 0.3
 hovering: true
 groundLayer: 60
 health: 1450
-armor: 5
+armor: 4
 allowLegStep: true
 speed: 1.05
 hitSize: 15
@@ -54,7 +54,7 @@ weapons: [
       collidesAir: false
       instantDisappear: true
       damage: 0
-      spawnUnit: rhitle-missile
+      spawnUnit: exoprosopa-rhitle-missile
       despawnSound: explosion
     }
   }

@@ -1,21 +1,23 @@
 type: missile
 template: MissileUnitType
 flying: true
-health: 55
-hitSize: 0.5
 speed: 6
 physics: false
-lifetime: 60
-rotateSpeed: 7.5
+lifetime: 68
+rotateSpeed: 8
 targetAir: false
-homingDelay: 4
-maxRange: 5
-hidden: true
+homingDelay: 2
+hitSize: 4
 trailLength: 0
 useUnitCap: false
+health: 85
+trailColor: cabb88
 drawCell: false
-engineSize: 1.8
-engineOffset: 3.5
+outlines: false
+maxRange: 5
+hidden: true
+engineSize: 2.5
+engineOffset: 5
 abilities: [
   {
     type: MoveEffectAbility
@@ -30,29 +32,24 @@ abilities: [
       line: true
       strokeFrom: 1
       strokeTo: 0.6
-      colorFrom: d8f18c
-      colorTo: 92b258
+      colorFrom: f4807f
+      colorTo: cc585d
     }
     rotateEffect: true
   }
 ]
-outlines: false  
 weapons: [
   {
     reload: 1
     shootOnDeath: true
-    mirror: true
+    mirror: false
     shootCone: 360
     shake: 1
     bullet: {
       type: ExplosionBulletType
       collidesAir: false
-      splashDamage: 90
+      splashDamage: 70
       splashDamageRadius: 28
-      suppressionRange: 120
-      suppressionDuration: 300
-      suppressionEffectChance: 40
-      suppressColor: 92b25890
     }
   } 
 ]

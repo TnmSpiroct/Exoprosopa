@@ -28,7 +28,7 @@ heatOutput: 40
 explodeSound: explosionReactor2
 explosionRadius: 22
 explosionDamage: 2200
-powerProduction: 1220
+powerProduction: 1233.33333
 generateEffect: none
 ambientSound: loopFlux
 ambientSoundVolume: 0.18

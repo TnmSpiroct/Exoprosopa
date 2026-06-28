@@ -2,7 +2,7 @@ type: mech
 flying: false
 hitSize: 20
 health: 11000
-armor: 18
+armor: 17
 speed: 0.35
 rotateSpeed: 2.1
 itemCapacity: 75
@@ -11,6 +11,7 @@ mechLegColor: 26262F
 research: 18r-03-decode
 researchCostMultiplier: 2.5
 mechStepParticles: true
+mechFrontSway: 1
 stepShake: 0.15
 singleTarget: true
 drownTimeMultiplier: 1.5
@@ -20,27 +21,28 @@ stepSoundVolume: 0.35
 abilities: [
   {
     type: ShieldRegenFieldAbility
-    reload: 60
-    range: 36
+    reload: 120
+    range: 32
     amount: 50
-    max: 2450
+    max: 2200
     soundVolume: 0.2
   }
 ]
 weapons: [
   {
-    x: 14
+    x: 14.5
     y: 0
     shootY: 5
     shootX: 1.2
     name: matrix
     reload: 60
+    recoil: 3
     mirror: true
     alternate: true
     rotate: false
     shootCone: 5
     shootSound: shootMatrix
-    shootSoundVolume: 0.2
+    shootSoundVolume: 0.18
     shake: 1
     shoot: {
     firstShotDelay: 35
@@ -48,6 +50,7 @@ weapons: [
     shots: 2
       }
     ejectEffect: casing3
+    top: false
     bullet: {
       type: BasicBulletType
       damage: 225
@@ -68,8 +71,8 @@ weapons: [
     }
   }
   {
-    x: 6.8
-    y: -3
+    x: 6.75
+    y: -5
     name: matrix-mount
     reload: 24
     mirror: true
@@ -79,7 +82,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       speed: 5
-      lifetime: 35
+      lifetime: 40
       damage: 20
       width: 8
       height: 8

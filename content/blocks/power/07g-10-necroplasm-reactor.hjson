@@ -14,7 +14,7 @@ consumes: {
   liquid: 02b-03-necroplasm/2
 }
 outputLiquid: 02b-07-ectoplasm/1.3333333333333
-powerProduction: 105
+powerProduction: 103.333333
 explodeOnFull: true
 generateEffect: generatespark
 ambientSound: loopNecroplasm

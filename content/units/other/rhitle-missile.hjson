@@ -11,7 +11,7 @@ hitSize: 5
 trailLength: 0
 useUnitCap: false
 health: 120
-trailColor: 7a7564
+trailColor: cabb88
 trailLength: 5
 aimDst: 4
 drawCell: false
@@ -22,7 +22,7 @@ weapons: [
   {
     reload: 1
     shootOnDeath: true
-    mirror: true
+    mirror: false
     shootCone: 360
     shake: 1
     bullet: {

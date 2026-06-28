@@ -786,6 +786,8 @@ block.exoprosopa-03c-07-phalanx.description =
 
 block.exoprosopa-03c-08-scathe.name = 
 block.exoprosopa-03c-08-scathe.description = 
+block.exoprosopa-03c-08-scathe.exoprosopa-01a-10-item-bethine.info = 
+block.exoprosopa-03c-08-scathe.exoprosopa-01a-09-item-morphite.info = 
 
 block.exoprosopa-03c-08-shigure.name = 
 block.exoprosopa-03c-08-shigure.description = 
@@ -862,6 +864,9 @@ block.exoprosopa-10j-15-payload-router.description =
 
 block.exoprosopa-10j-15-surge-launcher.name = 
 block.exoprosopa-10j-15-surge-launcher.description = 
+
+block.exoprosopa-10j-15-t-surge-launcher.name = 
+block.exoprosopa-10j-15-t-surge-launcher.description = 
 
 block.exoprosopa-10j-16-block-fabricator.name = 
 block.exoprosopa-10j-16-block-fabricator.description =
