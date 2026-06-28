@@ -12,6 +12,6 @@ itemCapacity: 100
 liquidCapacity: 3000
 drawLiquid: 02b-05-hydrowater
 coolingEffect: steamCoolSmoke
-consumesLiquid: 02b-05-hydrowater
+consumeLiquid: 02b-05-hydrowater
 consumeLiquidAmount: 1500
 buildVisibility: notLegacyLaunchPadOnly
