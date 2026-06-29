@@ -5,13 +5,20 @@ requirements: [
  01a-06-item-chromium/200
 ]
 size: 4
-health: 700
+health: 2000
 category: effect
 squareSprite: false
 itemCapacity: 100
-liquidCapacity: 3000
-drawLiquid: 02b-05-hydrowater
-coolingEffect: steamCoolSmoke
+liquidCapacity: 60
+coolingEffect: {
+  type: RadialEffect
+  effect: steamCoolSmoke
+  amount: 4
+  rotation: 90
+  length: 9.5
+  baseRotation: 180
+}
+bottomColor: 4b495a
 consumeLiquid: 02b-05-hydrowater
-consumeLiquidAmount: 1500
+consumeLiquidAmount: 20
 buildVisibility: notLegacyLaunchPadOnly
