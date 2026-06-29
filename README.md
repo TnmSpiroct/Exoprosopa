@@ -18,8 +18,8 @@
 </div>
 
 - Polished content & linear campaign progression.<br>
-- Capture and conquer with over 22 campaign maps.<br>
-- Over 21 items to be discovered, 265 blocks to be researched. and 30 different units to build!<br>
+- Capture and conquer with over 24 campaign maps.<br>
+- Over 21 items to be discovered, 188 blocks to be researched. and 20 different units to build!<br>
 - Harvest the planet with your technology before Astral Infection awaken and conquer the entire planet.
 
 <div align = center>
@@ -37,12 +37,11 @@ Check it on my profile. My username is RennTanami.<br><br>
 </div>
 
 - Campaign Sectors [onGoing]:
-  - Sealed Outpost > Encampment ☑
-  - Reservoir - Abandoned Reservoir [Remake] ☑
-  - Botanical Garden [Remake] ☑
   - Crest [Remake - onGoing]
-  - Eridanus ☑
   - Bioproject Core ☑
+  - Waterfall ☑
+  - Isolated Canyon ☑
+  - Eridanus ☑
   - Clover Springs ☑
   - Myrra Heights [WIP] ☑
   - Military Junkyard [WIP]
@@ -59,10 +58,6 @@ Check it on my profile. My username is RennTanami.<br><br>
   - Ridgeline
   - Aeroplex Fort [Broken]
   - Novaris Facility
-- Added 2 New Guardian Unit [Specialized]
-  - Honsha [Tank Unit]
-  - Huntress [Flying Unit]
-- New Ichor Tiles & Mesa Biome
 - Added New Blocks:
   - Cryogenics Synthetis Chamber
   - Nucrid Scrapper
@@ -76,18 +71,20 @@ Check it on my profile. My username is RennTanami.<br><br>
   - Sunlit Heater
   - Underflow Gate
   - Large Surge Launher
-- Various Bug Fix and Improvement to Snow White
-- Archangel Revamp
-- Various Sprite Changes
+- Added T5 Walker & Mech - Program & Monarch
+- Tiny Details for Tantra Floor Edges
 - Units & Turrets Balancing
 - Added Canvas
+- Adjusted Tech Tree with New Enchantment Tech
 - Removed Trophy Contents
-- Added Tier 5 Walker Unit - Program
 - Re-Sprite
   - Powerline & Powerbeam
   - Morphite SolarPanel
   - Build Tower
 - Power Gen Adjustment
+- All Tier 3 Units Balancing
+- Balanced Turret Torrefy + New Ammo: Petal Fragment
+- Revert Permanent Weather + Campaign Difficulty Adjustment
 <br>
 
 ![Banner]
