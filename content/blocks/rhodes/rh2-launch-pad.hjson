@@ -6,17 +6,17 @@ requirements: [
  01a-06-item-chromium/200
 ]
 size: 4
-health: 700
+health: 2000
 category: effect
 squareSprite: false
 hasPower: true
 itemCapacity: 100
 launchTime: 1800
-liquidCapacity: 40
+liquidCapacity: 60
 drawLiquid: 02b-02-ichor
 consumes: {
   liquids: [
-    02b-02-ichor/0.2
+    02b-04-miasma/0.2
   ]
   power: 8
 }
