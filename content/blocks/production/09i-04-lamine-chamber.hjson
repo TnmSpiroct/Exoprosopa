@@ -8,8 +8,8 @@ research: {
   parent: 09i-04-laminator
   objectives: [
     {
-      type: Research
-      content: 04d-05-ichor-rig
+      type: OnSector
+      preset: 19s-16-waterfall
     }
   ]
 }
