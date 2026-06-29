@@ -75,7 +75,7 @@ Check it on my profile. My username is RennTanami.<br><br>
 - Tiny Details for Tantra Floor Edges
 - Units & Turrets Balancing
 - Added Canvas
-- Adjusted Tech Tree with New Enchantment Tech
+- Adjusting Tech Tree with New Enchantment Tech
 - Removed Trophy Contents
 - Re-Sprite
   - Powerline & Powerbeam
