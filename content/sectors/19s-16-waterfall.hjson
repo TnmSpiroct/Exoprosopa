@@ -4,6 +4,7 @@ sector: 144
 research: {
   parent: 19s-15-bioproject-core
   objectives: [
+    11k-02-core-empower,
     {
       type: SectorComplete
       preset: 19s-15-bioproject-core
