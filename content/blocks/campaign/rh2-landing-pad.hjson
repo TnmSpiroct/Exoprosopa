@@ -1,8 +1,8 @@
 type: LandingPad
 requirements: [
- 01a-01-item-cobalt/150
- 01a-05-item-aluminium/100
- 01a-06-item-chromium/200
+ 01a-01-item-cobalt/350
+ 01a-05-item-aluminium/200
+ 01a-06-item-chromium/250
 ]
 size: 4
 health: 2000
@@ -20,5 +20,5 @@ coolingEffect: {
 }
 bottomColor: 4b495a
 consumeLiquid: 02b-05-hydrowater
-consumeLiquidAmount: 20
+consumeLiquidAmount: 4
 buildVisibility: notLegacyLaunchPadOnly
