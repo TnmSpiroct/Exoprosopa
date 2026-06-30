@@ -12,7 +12,7 @@ squareSprite: false
 hasPower: true
 itemCapacity: 100
 launchTime: 1800
-liquidCapacity: 60
+liquidCapacity: 80
 drawLiquid: 02b-04-miasma
 consumes: {
   liquids: [
