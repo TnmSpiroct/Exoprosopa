@@ -1,9 +1,9 @@
 type: LaunchPad
 requirements: [
- 01a-01-item-cobalt/450
- 01a-02-item-nickel/350
- 01a-05-item-aluminium/300
- 01a-06-item-chromium/200
+ 01a-05-item-aluminium/125
+ 01a-06-item-chromium/150
+ 01a-07-item-clevorite/100
+ 01a-09-item-morphite/50
 ]
 size: 4
 health: 2000
@@ -16,8 +16,8 @@ liquidCapacity: 60
 drawLiquid: 02b-04-miasma
 consumes: {
   liquids: [
-    02b-04-miasma/0.2
+    02b-04-miasma/0.666666666667
   ]
-  power: 8
+  power: 6
 }
 buildVisibility: notLegacyLaunchPadOnly
