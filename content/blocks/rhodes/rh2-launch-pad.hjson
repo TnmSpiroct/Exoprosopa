@@ -13,7 +13,7 @@ hasPower: true
 itemCapacity: 100
 launchTime: 1800
 liquidCapacity: 60
-drawLiquid: 02b-02-ichor
+drawLiquid: 02b-04-miasma
 consumes: {
   liquids: [
     02b-04-miasma/0.2

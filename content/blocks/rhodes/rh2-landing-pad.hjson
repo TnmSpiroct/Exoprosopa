@@ -14,9 +14,9 @@ coolingEffect: {
   type: RadialEffect
   effect: steamCoolSmoke
   amount: 4
-  rotation: 90
-  length: 9.5
-  baseRotation: 180
+  rotationSpacing: 90
+  lengthOffset: 9.5
+  effectRotationOffset: 180
 }
 bottomColor: 4b495a
 consumeLiquid: 02b-05-hydrowater
