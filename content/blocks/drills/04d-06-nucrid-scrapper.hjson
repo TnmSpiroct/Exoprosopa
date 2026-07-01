@@ -2,15 +2,7 @@ type: WallCrafter
 health: 1250
 size: 3
 category: production
-research: {
-  parent: 04d-06-nucrid-crusher
-  objectives: [
-    {
-      type: OnSector
-      preset: 19s-23-eridanus
-    }
-  ]
-}
+research: 04d-06-nucrid-crusher
 consumes: {
   power: 0.75
   liquid: 02b-01-bioliquid/0.25

@@ -21,7 +21,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-09-hazardous-wasteland
+      preset: 19s-14-pier
     }
   ]
 }

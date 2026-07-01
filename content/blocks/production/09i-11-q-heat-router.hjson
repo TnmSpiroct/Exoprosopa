@@ -2,7 +2,7 @@ type: HeatConductor
 health: 250
 size: 2
 category: crafting
-research: 09i-11-p-heat-redirector
+research: 09i-11-o-anthracite-heater
 requirements: [
   01a-05-item-aluminium/25
   01a-06-item-chromium/40

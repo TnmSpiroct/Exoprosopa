@@ -1,0 +1,24 @@
+type: LandingPad
+requirements: [
+ 01a-01-item-cobalt/350
+ 01a-05-item-aluminium/200
+ 01a-06-item-chromium/250
+]
+size: 4
+health: 2000
+category: effect
+squareSprite: false
+itemCapacity: 100
+liquidCapacity: 40
+coolingEffect: {
+  type: RadialEffect
+  effect: steamCoolSmoke
+  amount: 4
+  rotationSpacing: 90
+  lengthOffset: 9.5
+  effectRotationOffset: 180
+}
+bottomColor: 4b495a
+consumeLiquid: 02b-05-hydrowater
+consumeLiquidAmount: 4
+buildVisibility: notLegacyLaunchPadOnly

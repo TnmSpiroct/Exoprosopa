@@ -1,0 +1,12 @@
+difficulty: 8
+planet: frostnova
+sector: 194
+research: {
+  parent: 19s-16-waterfall
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-16-waterfall
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 type: LogicBlock
 category: logic
 research: {
-  parent: 0006-logic
+  parent: 0007-logic
   objectives: [
     {
       type: OnSector

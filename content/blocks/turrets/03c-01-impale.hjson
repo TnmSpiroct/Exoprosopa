@@ -217,7 +217,7 @@ drawer: {
   type: DrawTurret
   basePrefix: impale-
 }
-research: 0008-turret
+research: 0009-turret
 researchCost: [
   01a-01-item-cobalt/30
   01a-02-item-nickel/60

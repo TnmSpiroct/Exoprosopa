@@ -1,0 +1,23 @@
+type: LaunchPad
+requirements: [
+ 01a-05-item-aluminium/125
+ 01a-06-item-chromium/150
+ 01a-07-item-clevorite/100
+ 01a-09-item-morphite/50
+]
+size: 4
+health: 2000
+category: effect
+squareSprite: false
+hasPower: true
+itemCapacity: 100
+launchTime: 1800
+liquidCapacity: 80
+drawLiquid: 02b-04-miasma
+consumes: {
+  liquids: [
+    02b-04-miasma/0.666666666667
+  ]
+  power: 6
+}
+buildVisibility: notLegacyLaunchPadOnly
