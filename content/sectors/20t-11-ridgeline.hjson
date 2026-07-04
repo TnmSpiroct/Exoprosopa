@@ -1,13 +1,13 @@
 difficulty: 8
 planet: frostnova
-sector: 205
+sector: 217
 research: {
-  parent: 19s-14-pier
+  parent: 20t-04-trekker-campsite
   objectives: [
     11k-02-core-empower,
     {
       type: SectorComplete
-      preset: 19s-14-pier
+      preset: 20t-04-trekker-campsite
     }
   ]
 }

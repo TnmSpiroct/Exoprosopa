@@ -64,6 +64,12 @@ trekker.warning = [red]⚠ NUCLEAR STRIKE INBOUND ⚠\n[lightgray]Construct back
 
 pier.aircraft = [red]⚠ 2 Unidentified Aircraft Incoming ⚠
 
+wf.destroy = [cyan]Explore further to the east. Destroy the enemy outpost.
+wf.enchanting = [cyan]Research and place the [accent]Enchanting Basin[] to produce [#ff91b3]Bloodstone[].
+wf.flower = [cyan]Extract [#ff89af]Petal Fragment[] from petal flowers using [accent]Ore Extractor[].
+wf.nucrid = [cyan]Extract [#ffd5e2]Nucridscrap[] from nucrid walls using [accent]Nucrid Crusher[].
+wf.nucliogen = [cyan]Supply the [accent]Enchanting Basin[] with [#C63B64]nucliogen[] using [accent]Jet Pump[].
+
 erid.alu = [cyan]You feel the incoming danger arounds you...
 erid.chro = [cyan]The sky darkens...
 erid.clev = [cyan]The natives has awakened...
