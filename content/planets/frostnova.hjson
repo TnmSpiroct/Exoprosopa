@@ -70,7 +70,7 @@ rules: {
 
 campaignRuleDefaults: {
  fog: true
- showSpawns: true
+ hideSpawns: false
  rtsAI: true
 }
 
