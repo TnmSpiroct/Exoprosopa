@@ -28,7 +28,7 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: 02b-02-a-purified-elixir
     speed: 2.5
-    lifetime: 70
+    lifetime: 68
     knockback: 0.8
     status: freezing
     statusDuration: 240
@@ -45,7 +45,7 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: 02b-04-miasma
     speed: 3
-    lifetime: 75
+    lifetime: 70
     knockback: 1.2
     status: 13m-06-contaminated
     statusDuration: 240
@@ -63,7 +63,7 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: 02b-05-hydrowater
     speed: 5
-    lifetime: 56
+    lifetime: 54
     rangeChange: 100
     knockback: 0.8
     damage: 0.4
@@ -79,8 +79,8 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: 02b-02-ichor
     speed: 3.5
-    lifetime: 70
-    rangeChange: 70
+    lifetime: 68
+    rangeChange: 64
     knockback: 0.8
     status: 13m-02-immunity
     statusDuration: 120
@@ -98,8 +98,8 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: 02b-06-morphitix-plasma
     speed: 5
-    lifetime: 70
-    rangeChange: 168
+    lifetime: 68
+    rangeChange: 160
     knockback: 1.4
     status: 13m-03-hsos6
     statusDuration: 240
@@ -116,7 +116,7 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: 02b-08-nucliogen
     speed: 4
-    lifetime: 75
+    lifetime: 72
     rangeChange: 120
     knockback: 1.2
     damage: 8
