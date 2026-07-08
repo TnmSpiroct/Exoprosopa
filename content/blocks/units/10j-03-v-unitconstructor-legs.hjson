@@ -31,6 +31,10 @@ research: {
       type: OnSector
       preset: 19s-03-hostile-outpost
     }
+    {
+      type: Research
+      content: 10j-02-unitconstructor-ship
+    }
   ]
 }
 researchCost: [

@@ -20,7 +20,7 @@ research: {
   parent: 09i-12-gravitix-chamber-core
   objectives: [
     {
-      type: OnSector
+      type: SectorComplete
       preset: 19s-23-eridanus
     }
   ]

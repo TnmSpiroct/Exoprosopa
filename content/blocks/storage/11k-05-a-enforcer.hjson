@@ -12,7 +12,16 @@ requirements: [
 ]
 squareSprite: false
 category: effect
-research: 11k-08-build-tower
+research: {
+  #TODO - must on enemy bases
+  parent: 11k-08-build-tower
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-23-eridanus
+    }
+  ]
+}
 liquidCapacity: 60
 consumes: {
   power: 2.5

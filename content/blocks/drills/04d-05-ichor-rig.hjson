@@ -11,10 +11,7 @@ category: production
 research: {
   parent: 04d-02-elixir-collector
   objectives: [
-    {
-      type: SectorComplete
-      preset: 19s-09-hazardous-wasteland
-    }
+    02b-02-ichor,
   ]
 }
 itemCapacity: 20

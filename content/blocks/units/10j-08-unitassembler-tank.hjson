@@ -4,7 +4,16 @@ health: 3500
 category: units
 droneType: 19r-01-amber
 areaSize: 11
-research: 10j-04-unitreconstructor-tank
+research: {
+  #TODO - change to proper sector
+  parent: 10j-04-unitreconstructor-tank
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-17-isolated-canyon
+    }
+  ]
+}
 requirements: [
   01a-01-item-cobalt/450
   01a-05-item-aluminium/600

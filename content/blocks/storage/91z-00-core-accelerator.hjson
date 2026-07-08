@@ -14,7 +14,16 @@ requirements: [
   01a-11-item-pyroxene/2500
 ]
 category: effect
-research: 11k-01-core-apex
+research: {
+  #TODO - must on final sector
+  parent: 11k-01-core-apex
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 20t-37-myrra-heights
+    }
+  ]
+}
 researchCostMultiplier: 0.5
 launchBlock: 11k-03-core-apeirogon
 buildDuration: 220

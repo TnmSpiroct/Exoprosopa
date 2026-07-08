@@ -13,10 +13,9 @@ requirements: [
 research: {
   parent: 10j-12-regenerator
   objectives: [
-    02b-02-ichor,
     {
       type: OnSector
-      preset: 19s-09-hazardous-wasteland
+      preset: 19s-16-waterfall
     }
   ]
 }

@@ -3,7 +3,15 @@ itemCapacity: 150
 health: 650
 size: 3
 category: units
-research: 10j-16-block-fabricator
+research: research: {
+  parent: 10j-16-block-fabricator
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-10-precipice
+    }
+  ]
+}
 requirements: [
   01a-02-item-nickel/100
   01a-05-item-aluminium/100

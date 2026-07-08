@@ -9,7 +9,15 @@ category: power
 laserScale: 0.4
 laserColor1: CEADEEFF
 laserColor2: 6A4291FF
-research: 07g-02-large-powerline
+research {
+  parent: 07g-02-large-powerline
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-14-pier
+    }
+  ]
+}
 researchCost: [
   01a-02-item-nickel/1000
   01a-07-item-clevorite/500

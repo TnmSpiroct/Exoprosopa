@@ -2,7 +2,15 @@ type: OverdriveProjector
 size: 2
 health: 850
 category: effect
-research: 11k-05-holoshield
+research {
+  parent: 11k-05-holoshield
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-14-pier
+    }
+  ]
+}
 researchCostMultiplier: 1
 requirements: [
   01a-02-item-nickel/275

@@ -4,7 +4,15 @@ health: 3100
 category: units
 droneType: 19r-01-amber
 areaSize: 11
-research: 10j-06-unitreconstructor-mech
+research: {
+  parent: 10j-06-unitreconstructor-mech
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-17-isolated-canyon
+    }
+  ]
+}
 requirements: [
   01a-01-item-cobalt/400
   01a-05-item-aluminium/500
