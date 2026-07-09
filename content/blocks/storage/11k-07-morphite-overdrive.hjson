@@ -2,7 +2,7 @@ type: OverdriveProjector
 size: 2
 health: 850
 category: effect
-research {
+research: {
   parent: 11k-05-holoshield
   objectives: [
     {
