@@ -74,7 +74,7 @@ weapons: [
     bullet: {
       type: LightningBulletType
       lightningLength: 12
-      damage: 16.5
+      damage: 14.5
       pierce: false
       pierceBuilding: false
       lightningColor: e9c574
