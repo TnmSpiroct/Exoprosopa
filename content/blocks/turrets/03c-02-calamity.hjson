@@ -60,12 +60,91 @@ chargeSound: chargeTarget
 # Ammo types
 ammoTypes: {
   # Name of items
+  01a-03-item-lamine: {
+    type: BasicBulletType
+    ammoMultiplier: 1
+    buildingDamageMultiplier: 0.2
+    chargeEffect: [{
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 0
+    lifetime: 30
+    offsetX: 1
+    sizeFrom: 27.5
+    sizeTo: 0
+    colorFrom: ffffff
+    colorTo: ff816780
+    }]
+    sprite: large-orb
+    hitColor: ff8167
+    frontColor: ff8167
+    backColor: ff8167
+    lightColor: ff8167
+    damage: 52
+    width: 12
+    height: 12
+    speed: 6
+    lifetime: 30
+    despawnEffect: [
+    smokePuff,
+    vapor,
+    ]
+    trailColor: ff816780
+    trailChance: -1
+    trailEffect: shootSmokeDisperse
+    trailInterval: 2
+    trailRotation: true
+    trailLength: 2
+    trailWidth: 1.5
+    fragRandomSpread: 0
+    fragSpread: 45
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullets: 6
+    despawnSound: explosionArtillery
+      fragBullet: {
+        type: ExplosionBulletType
+        splashDamageRadius: 20
+        killShooter: false
+        splashDamage: 45
+        buildingDamageMultiplier: 0.2
+        fragRandomSpread: 0
+        fragSpread: 45
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragBullets: 6
+        fragBullet: {
+          type: ArtilleryBulletType
+          speed: 2
+          lifetime: 12
+          damage: 15
+          buildingDamageMultiplier: 0.2
+          fragRandomSpread: 0
+          fragAngle: 90
+          fragBullets: 1
+          fragBullet: {
+            type: ExplosionBulletType
+            splashDamageRadius: 20
+            killShooter: false
+            splashDamage: 15
+            status: 13m-01-breached
+            statusDuration: 30
+            buildingDamageMultiplier: 0.2
+        }
+      }
+    }
+  }
   01a-05-item-aluminium: {
     # Bullet Type, BasicBulletType creates a basic bullet like duo and salvo
     type: BasicBulletType
     ammoMultiplier: 1
     # Building damage mult
-    buildingDamageMultiplier: 0.3
+    buildingDamageMultiplier: 0.2
     # Effect created when charging
     chargeEffect: [{
     type: WaveEffect
@@ -74,7 +153,7 @@ ammoTypes: {
     startDelay: 0
     lifetime: 30
     offsetX: 1
-    sizeFrom: 30
+    sizeFrom: 27.5
     sizeTo: 0
     colorFrom: ffffff
     colorTo: 98BFD3
@@ -121,7 +200,7 @@ ammoTypes: {
         splashDamageRadius: 20
         killShooter: false
         splashDamage: 15
-        buildingDamageMultiplier: 0.3
+        buildingDamageMultiplier: 0.2
         fragRandomSpread: 0
         fragSpread: 45
         fragLifeMin: 1
@@ -135,7 +214,7 @@ ammoTypes: {
           speed: 2
           lifetime: 12
           damage: 5
-          buildingDamageMultiplier: 0.3
+          buildingDamageMultiplier: 0.2
           fragRandomSpread: 0
           fragAngle: 90
           fragBullets: 1
@@ -146,14 +225,14 @@ ammoTypes: {
             splashDamage: 5
             # Status created when this bullet damages enemy. To increase duration, use statusDuration
             status: blasted
-            buildingDamageMultiplier: 0.3
+            buildingDamageMultiplier: 0.2
         }
       }
     }
   }
   01a-06-item-chromium: {
     type: BasicBulletType
-    buildingDamageMultiplier: 0.3
+    buildingDamageMultiplier: 0.2
     ammoMultiplier: 2
     chargeEffect: [{
     type: WaveEffect
@@ -162,7 +241,7 @@ ammoTypes: {
     startDelay: 0
     lifetime: 30
     offsetX: 1
-    sizeFrom: 30
+    sizeFrom: 27.5
     sizeTo: 0
     colorFrom: ffffff
     colorTo: DCC6C6
@@ -202,7 +281,7 @@ ammoTypes: {
         splashDamageRadius: 20
         killShooter: false
         splashDamage: 24
-        buildingDamageMultiplier: 0.3
+        buildingDamageMultiplier: 0.2
         fragRandomSpread: 0
         fragSpread: 45
         fragLifeMin: 1
@@ -215,7 +294,7 @@ ammoTypes: {
           speed: 2
           lifetime: 12
           damage: 10
-          buildingDamageMultiplier: 0.3
+          buildingDamageMultiplier: 0.2
           fragRandomSpread: 0
           fragAngle: 90
           fragBullets: 1
@@ -225,7 +304,7 @@ ammoTypes: {
             killShooter: false
             splashDamage: 5
             status: blasted
-            buildingDamageMultiplier: 0.3
+            buildingDamageMultiplier: 0.2
         }
       }
     }
@@ -241,7 +320,7 @@ ammoTypes: {
       startDelay: 0
       lifetime: 30
       offsetX: 1
-      sizeFrom: 30
+      sizeFrom: 27.5
       sizeTo: 0
       colorFrom: ffffff
       colorTo: DCC6C6
@@ -290,7 +369,7 @@ ammoTypes: {
         type: ExplosionBulletType
         splashDamageRadius: 20
         killShooter: false
-        splashDamage: 14
+        splashDamage: 18
         buildingDamageMultiplier: 0.2
         fragRandomSpread: 0
         fragSpread: 45

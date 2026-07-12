@@ -45,7 +45,7 @@ ammoTypes: {
     trailColor: ff8167
     fragLifeMin: 0.4
     fragVelocityMin: 0.5
-    fragBullets: 8
+    fragBullets: 6
     hitEffect: blastExplosion
     hitShake: 1.5
     collidesGround: true
