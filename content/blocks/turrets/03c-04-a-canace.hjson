@@ -31,6 +31,42 @@ range: 260
 shootY: 7
 ammoPerShot: 2
 ammoTypes: {
+  01a-03-item-lamine: {
+    type: ArtilleryBulletType
+    damage: 205
+    buildingDamageMultiplier: 0.1
+    lifetime: 65
+    speed: 3.8
+    width: 18
+    height: 23
+    backColor: ff8167
+    frontColor: ff8167
+    hitColor: ff8167
+    trailColor: ff8167
+    fragLifeMin: 0.4
+    fragVelocityMin: 0.5
+    fragBullets: 8
+    hitEffect: blastExplosion
+    hitShake: 1.5
+    collidesGround: true
+    collidesAir: false
+    collidesTiles: true
+    collides: true
+    ammoMultiplier: 1
+    fragBullet: {
+      status: 13m-01-breached
+      statusDuration: 30
+      despawnSound: explosion
+      speed: 3.5
+      damage: 50
+      buildingDamageMultiplier: 0.1
+      lifetime: 12
+      splashDamage: 18
+      splashDamageRadius: 16
+      collidesAir: false
+      hitEffect: explosion
+    }
+  }
   01a-07-item-clevorite: {
     type: ArtilleryBulletType
     damage: 240
@@ -71,7 +107,7 @@ ammoTypes: {
       hitEffect: explosion
     }
   }
-01a-09-item-morphite: {
+  01a-09-item-morphite: {
     type: ArtilleryBulletType
     damage: 300
     buildingDamageMultiplier: 0.1
@@ -128,10 +164,10 @@ ammoTypes: {
       }
     }
   }
-01a-08-item-petal-flower: {
+  01a-08-item-petal-flower: {
     type: ArtilleryBulletType
     damage: 180
-    buildingDamageMultiplier: 0.2
+    buildingDamageMultiplier: 0.1
     lifetime: 65
     speed: 3
     width: 18
@@ -153,11 +189,11 @@ ammoTypes: {
     fragBullet: {
       speed: 3.5
       damage: 40
-      buildingDamageMultiplier: 0.2
+      buildingDamageMultiplier: 0.1
       lifetime: 12
       width: 11
       height: 14
-      splashDamage: 20
+      splashDamage: 14
       splashDamageRadius: 16
       collidesAir: false
       shrinkY: 0
