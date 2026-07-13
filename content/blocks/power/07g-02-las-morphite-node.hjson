@@ -9,7 +9,7 @@ category: power
 laserScale: 0.4
 laserColor1: CEADEEFF
 laserColor2: 6A4291FF
-research {
+research: {
   parent: 07g-02-large-powerline
   objectives: [
     {

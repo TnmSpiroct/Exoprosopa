@@ -3,7 +3,7 @@ itemCapacity: 150
 health: 650
 size: 3
 category: units
-research: research: {
+research: {
   parent: 10j-16-block-fabricator
   objectives: [
     {

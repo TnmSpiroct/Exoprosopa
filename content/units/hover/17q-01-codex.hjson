@@ -12,7 +12,7 @@ speed: 1.75
 rotateSpeed: 4.5
 accel: 0.1
 groundLayer: 60
-health: 650
+health: 660
 armor: 1
 hitSize: 8
 itemCapacity: 0
@@ -70,11 +70,11 @@ weapons: [
     mirror: false
     shootSound: shootElectric
     shootSoundVolume: 0.3
-    rotateSpeed: 2.5
+    rotateSpeed: 2.75
     bullet: {
       type: LightningBulletType
       lightningLength: 12
-      damage: 12
+      damage: 14.5
       pierce: false
       pierceBuilding: false
       lightningColor: e9c574
