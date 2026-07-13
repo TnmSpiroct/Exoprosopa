@@ -35,7 +35,7 @@ ammoTypes: {
 02b-04-miasma: {
   type: ContinuousLaserBulletType
   length: 190
-  damage: 65
+  damage: 55
   buildingDamageMultiplier: 0.1
   width: 2.5
   incendChance: 0
@@ -45,16 +45,15 @@ ammoTypes: {
   ]
   status: 13m-06-contaminated
   statusDuration: 60
-  knockback: 2
+  knockback: 1
   pierceCap: 2
-  pierceArmor: true
   timescaleDamage: true
 }
   02b-06-morphitix-plasma: {
   type: ContinuousLaserBulletType
   length: 300
   rangeChange: 112
-  damage: 85
+  damage: 75
   buildingDamageMultiplier: 0.1
   width: 3.25
   incendChance: 0
@@ -65,10 +64,10 @@ ammoTypes: {
   intervalBullets: 5
   bulletInterval: 8
   intervalRandomSpread: 0
-  knockback: 4
+  knockback: 2
   ammoMultiplier: 1.5
   timescaleDamage: true
-  pierceCap: 4
+  pierceCap: 3
   pierceArmor: true
   status: 13m-03-hsos6
   statusDuration: 120
