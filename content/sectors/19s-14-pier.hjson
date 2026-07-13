@@ -3,7 +3,7 @@ difficulty: 10
 planet: frostnova
 sector: 82
 research: {
-  #TODO - antarstar
+  #TODO
   parent: 19s-12-marshlands
   objectives: [
     {

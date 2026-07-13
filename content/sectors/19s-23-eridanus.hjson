@@ -4,7 +4,6 @@ difficulty: 8
 planet: frostnova
 sector: 19
 research: {
-  #TODO - polarStation and tundraPeaks
   parent: 19s-17-isolated-canyon
   objectives: [
     {
