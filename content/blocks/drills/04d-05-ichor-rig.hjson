@@ -11,7 +11,10 @@ category: production
 research: {
   parent: 04d-02-elixir-collector
   objectives: [
-    02b-02-ichor,
+    {
+      type: OnSector
+      preset: 19s-16-waterfall
+    }
   ]
 }
 itemCapacity: 20
