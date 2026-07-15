@@ -78,7 +78,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 20t-99-ending
+      preset: 19s-16-waterfall
     }
   ]
 }

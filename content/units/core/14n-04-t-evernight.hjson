@@ -2,6 +2,7 @@ type: legs
 controller: BuilderAI
 legCount: 6
 lockLegBase: true
+legContinuousMove: true
 legExtension: -3
 legBaseOffset: 3
 legLength: 22
@@ -33,6 +34,7 @@ outlineColor: 26262F
 fogRadius: 20
 isEnemy: false
 range: 160
+stepShake: 0
 stepSound: walkerStepSmall
 stepSoundVolume: 0.8
 stepSoundPitch: 0.75
@@ -80,11 +82,30 @@ weapons: [
       collidesTeam: true
       healPercent: 7.5
       despawnSound: explosion
+      shootEffect: { 
+        type: MultiEffect
+        effects: [
+          {
+            type: WaveEffect
+            colorFrom: d8f18c
+            colorTo: d8f18cf9
+            sizeFrom: 0
+            sizeTo: 5
+            lifetime: 9
+            strokeFrom: 0.2
+            strokeTo: 0.8
+            sides: 4
+            rotation: 0
+            offsetX: 0
+          }
+        ]
+      }
+      hitEffect: hitBulletColor
       despawnEffect: {
         type: MultiEffect
         effects: [
           {
-            type: hitSquaresColor
+            type: particleEffect
             colorFrom: d8f18c
             colorTo: d8f18c
             sizeFrom: 1.8
