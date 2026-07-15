@@ -57,6 +57,9 @@ weapons: [
       lifetime: 36
       pierce: true
       pierceCap: 5
+      backColor: c59ae9
+      frontColor: ffffff
+      trailColor: c59ae9aa
       trailChance: -1
       trailRotation: true
       trailLength: 4

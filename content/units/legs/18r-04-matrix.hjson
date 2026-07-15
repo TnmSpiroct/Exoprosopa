@@ -66,6 +66,9 @@ weapons: [
       trailRotation: true
       trailLength: 4
       trailWidth: 3
+      backColor: c59ae9
+      frontColor: ffffff
+      trailColor: c59ae9aa
       status: 13m-07-stunned
       statusDuration: 15
     }
@@ -87,11 +90,14 @@ weapons: [
       width: 8
       height: 8
       shootEffect: shootSmall
+      backColor: c59ae9
+      frontColor: ffffff
       bulletInterval: 12
       intervalBullet: {
         type: ShrapnelBulletType
         lifetime: 2.4
         damage: 5
+        lightColor: c59ae9aa
         lightOpacity: 0.5
         length: 4
         width: 2

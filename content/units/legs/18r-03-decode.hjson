@@ -65,9 +65,14 @@ weapons: [
       pierceBuilding: true
       status: 13m-07-stunned
       statusDuration: 30
+      colors: [
+       c59ae9,
+       ffffff
+      ]
       bulletInterval: 6
       intervalBullet: {
         type: LightningBulletType
+        lightningColor: c59ae9aa
         damage: 34.15
         lightningLength: 1.5
         lightningLengthRand: 3

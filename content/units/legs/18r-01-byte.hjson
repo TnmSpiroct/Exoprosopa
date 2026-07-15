@@ -52,11 +52,14 @@ weapons: [
       width: 8
       height: 8
       shootEffect: shootSmall
+      backColor: c59ae9
+      frontColor: ffffff
       bulletInterval: 12
       intervalBullet: {
         type: ShrapnelBulletType
         lifetime: 2.4
         damage: 2
+        lightColor: c59ae9aa
         lightOpacity: 0.5
         length: 4
         width: 2

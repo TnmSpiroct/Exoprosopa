@@ -51,9 +51,12 @@ weapons: [
       shootEffect: colorSpark
       status: 13m-07-stunned
       statusDuration: 30
+      backColor: c59ae9
+      frontColor: ffffff
       bulletInterval: 4
       intervalBullet: {
         type: LightningBulletType
+        lightningColor: c59ae9aa
         damage: 14.65
         lightningLength: 1.5
         lightningLengthRand: 3
