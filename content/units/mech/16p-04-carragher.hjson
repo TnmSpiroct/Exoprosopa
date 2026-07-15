@@ -1,6 +1,7 @@
 type: legs
 legCount: 6
 lockLegBase: true
+legContinuousMove: true
 legExtension: -4
 legBaseOffset: 5
 legLength: 26

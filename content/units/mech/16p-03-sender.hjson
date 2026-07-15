@@ -1,6 +1,7 @@
 type: legs
 legCount: 6
 lockLegBase: true
+legContinuousMove: true
 legExtension: -3
 legBaseOffset: 3
 legLength: 22
@@ -23,6 +24,7 @@ drag: 0.1
 rotateSpeed: 1.8
 itemCapacity: 20
 outlineColor: 26262F
+stepShake: 0
 stepSound: walkerStepSmall
 stepSoundPitch: 0.7
 alwaysShootWhenMoving: true

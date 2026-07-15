@@ -13,7 +13,7 @@ legSplashDamage: 150
 legSplashRange: 60
 legPairOffset: 3
 rippleScale: 3
-stepShake: 2.5
+stepShake: 1
 research: 16p-04-carragher
 researchCostMultiplier: 3
 drownTimeMultiplier: 1.5

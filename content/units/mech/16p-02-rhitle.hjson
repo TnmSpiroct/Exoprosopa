@@ -1,6 +1,7 @@
 type: legs
 legCount: 4
 lockLegBase: true
+legContinuousMove: true
 legExtension: -2
 legBaseOffset: 3
 legLength: 15
@@ -33,6 +34,7 @@ research: {
     }
   ]
 }
+stepShake: 0
 stepSound: walkerStepSmall
 researchCostMultiplier: 0
 weapons: [

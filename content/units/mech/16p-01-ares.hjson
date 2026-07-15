@@ -1,6 +1,7 @@
 type: legs
 legCount: 4
 lockLegBase: true
+legContinuousMove: true
 legExtension: -2
 legBaseOffset: 3
 legLength: 9
@@ -12,6 +13,7 @@ legForwardScl: 1.05
 legLengthScl: 0.95
 legPhysicsLayer: false
 legStraightness: 0.3
+rippleScale: 0.2
 hovering: true
 groundLayer: 60
 health: 740
@@ -25,6 +27,7 @@ itemCapacity: 0
 outlineColor: 26262F
 alwaysShootWhenMoving: true
 targetAir: false
+stepShake: 0
 stepSound: walkerStepTiny
 stepSoundVolume: 0.3
 research: {
