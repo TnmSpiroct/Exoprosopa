@@ -7,8 +7,8 @@ research: {
   parent: 0004-enchantment
   objectives: [
     {
-      type: SectorComplete
-      preset: 19s-09-hazardous-wasteland
+      type: OnSector
+      preset: 19s-14-pier
     }
   ]
 }
