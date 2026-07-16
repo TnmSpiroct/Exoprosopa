@@ -81,7 +81,7 @@ ammoTypes: {
     frontColor: ff8167
     backColor: ff8167
     lightColor: ff8167
-    damage: 52
+    damage: 50
     width: 12
     height: 12
     speed: 6
@@ -109,7 +109,7 @@ ammoTypes: {
         type: ExplosionBulletType
         splashDamageRadius: 20
         killShooter: false
-        splashDamage: 45
+        splashDamage: 38
         buildingDamageMultiplier: 0.2
         fragRandomSpread: 0
         fragSpread: 45
@@ -122,7 +122,7 @@ ammoTypes: {
           type: ArtilleryBulletType
           speed: 2
           lifetime: 12
-          damage: 15
+          damage: 10
           buildingDamageMultiplier: 0.2
           fragRandomSpread: 0
           fragAngle: 90
@@ -131,7 +131,7 @@ ammoTypes: {
             type: ExplosionBulletType
             splashDamageRadius: 20
             killShooter: false
-            splashDamage: 15
+            splashDamage: 10
             status: 13m-01-breached
             statusDuration: 30
             buildingDamageMultiplier: 0.2
