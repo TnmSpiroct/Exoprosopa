@@ -55,7 +55,7 @@ cornerstone.mountain = [cyan]The enemy base is protected with strong defences.\n
 
 escarpment.tantrium = [#90bdd8]Tantrium[cyan] is a very scarce resource in this sector.\n\nResearch and place a [accent]Tantraformer[cyan] to create [#90bdd8]Tantrium[cyan] utilizing the surrounding environment.
 
-hazard.clevo = [cyan]Research [accent]Terraformic Basin[] to produce [#afe986]Clevorite[].
+hazard.clevo = [cyan]Research and place the [accent]Terraformic Basin[] to produce [#afe986]Clevorite[].
 hazard.geo = [cyan]Research and place 2 [accent]Geothermal Generators[]\nthen supply it with [#b979bd]Miasma[] and [#76c9e5]Cryogenics[] to generate power.
 hazard.miasma = [#b979bd]Miasma[cyan] is very reactive to [#d488ea]Elixir[], keep your factory safe from it.
 
@@ -187,9 +187,6 @@ sector.exoprosopa-19s-11-creek.description =
 
 sector.exoprosopa-19s-12-marshlands.name = 
 sector.exoprosopa-19s-12-marshlands.description = 
-
-# sector.exoprosopa-19s-13-antarstar.name = 
-# sector.exoprosopa-19s-13-antarstar.description = 
 
 sector.exoprosopa-19s-14-pier.name = 
 sector.exoprosopa-19s-14-pier.description = 
