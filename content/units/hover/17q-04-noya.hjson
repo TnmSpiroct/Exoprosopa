@@ -79,7 +79,7 @@ weapons: [
       pierce: true
       pierceCap: 5
       trailEffect: shootSmokeTitan
-      trailColor: D8F18C
+      trailColor: d8f18c
       trailChance: -1
       trailParam: 4
       trailInterval: 2.5
@@ -107,7 +107,10 @@ weapons: [
       # Changes the bullet layer position
       layer: 116
       type: LaserBulletType
-      # Laser buffed
+      colors: [
+        d8f18c,
+        ffffff
+      ]
       damage: 77.5
       sideAngle: 45
       # Buff range
