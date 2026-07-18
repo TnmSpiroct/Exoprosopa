@@ -14,7 +14,15 @@ legSplashRange: 60
 legPairOffset: 3
 rippleScale: 3
 stepShake: 1
-research: 16p-04-carragher
+research: {
+  parent: 16p-04-carragher
+  objectives: [
+    {
+      type: Research
+      content: 10j-11-advanced-module-a
+    }
+  ]
+}
 researchCostMultiplier: 3
 drownTimeMultiplier: 1.5
 hovering: true

@@ -35,7 +35,7 @@ research: {
   objectives: [
     {
       type: Research
-      content: 10j-11-advanced-module-a
+      content: 10j-11-a-basic-module
     }
   ]
 }
