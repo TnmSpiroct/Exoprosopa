@@ -180,4 +180,12 @@ weapons: [
   }
 ]
 researchCostMultiplier: 3
-research: 15o-04-siphon
+research: {
+  parent: 15o-04-siphon
+  objectives: [
+    {
+      type: Research
+      content: 10j-11-advanced-module-a
+    }
+  ]
+}
