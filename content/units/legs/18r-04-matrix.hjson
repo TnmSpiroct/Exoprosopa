@@ -8,7 +8,15 @@ rotateSpeed: 2.1
 itemCapacity: 75
 outlineColor: 26262F
 mechLegColor: 26262F
-research: 18r-03-decode
+research: {
+  parent: 18r-03-decode
+  objectives: [
+    {
+      type: Research
+      content: 10j-11-a-basic-module
+    }
+  ]
+}
 researchCostMultiplier: 2.5
 mechStepParticles: true
 mechFrontSway: 1

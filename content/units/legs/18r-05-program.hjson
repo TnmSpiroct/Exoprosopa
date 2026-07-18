@@ -8,7 +8,15 @@ rotateSpeed: 1.6
 itemCapacity: 100
 outlineColor: 26262F
 mechLegColor: 26262F
-research: 18r-04-matrix
+research: {
+  parent: 18r-04-matrix
+  objectives: [
+    {
+      type: Research
+      content: 10j-11-advanced-module-a
+    }
+  ]
+}
 researchCostMultiplier: 3
 mechStepParticles: true
 stepShake: 0.75
