@@ -16,7 +16,15 @@ hitSize: 42
 researchCostMultiplier: 3
 loopSound: loopHover
 loopSoundVolume: 0.8
-research: 17q-04-noya
+research: {
+  parent: 17q-04-noya
+  objectives: [
+    {
+      type: Research
+      content: 10j-11-advanced-module-a
+    }
+  ]
+}
 engineOffset: 8
 engineSize: 0
 engines: [
