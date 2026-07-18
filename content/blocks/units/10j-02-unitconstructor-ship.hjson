@@ -26,7 +26,7 @@ consumes: {
 }
 research: 0010-fabricator
 researchCost: [
-  01a-01-item-cobalt/120
-  01a-02-item-nickel/60
-  01a-05-item-aluminium/20
+  01a-01-item-cobalt/100
+  01a-02-item-nickel/75
+  01a-05-item-aluminium/25
 ]

@@ -59,4 +59,4 @@ consumes: {
   power: 4
   liquid: 02b-02-ichor/0.5
 }
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.4
