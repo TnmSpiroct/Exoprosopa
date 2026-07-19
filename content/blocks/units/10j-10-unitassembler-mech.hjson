@@ -57,7 +57,7 @@ plans: [
 squareSprite: false
 consumes: {
   power: 4
-  liquid: 02b-02-ichor/0.5
+  liquid: 02b-02-ichor/0.75
 }
 researchCost: [
   01a-01-item-cobalt/6000

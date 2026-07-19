@@ -58,6 +58,6 @@ plans: [
 squareSprite: false
 consumes: {
   power: 4
-  liquid: 02b-02-ichor/0.5
+  liquid: 02b-02-ichor/0.75
 }
 researchCostMultiplier: 0.4

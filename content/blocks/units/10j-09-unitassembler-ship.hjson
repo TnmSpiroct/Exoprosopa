@@ -58,7 +58,7 @@ plans: [
 squareSprite: false
 consumes: {
   power: 5
-  liquid: 02b-02-ichor/0.4
+  liquid: 02b-02-ichor/0.5
 }
 researchCost: [
   01a-02-item-nickel/6000

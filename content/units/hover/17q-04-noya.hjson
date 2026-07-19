@@ -104,7 +104,6 @@ weapons: [
     name: noya-weapon
     parentizeEffects: true
     bullet: {
-      # Changes the bullet layer position
       layer: 116
       type: LaserBulletType
       colors: [
@@ -113,7 +112,6 @@ weapons: [
       ]
       damage: 77.5
       sideAngle: 45
-      # Buff range
       sideLength: 35
       sideWidth: 1
       pierce: true

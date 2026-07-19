@@ -172,7 +172,9 @@ weapons: [
       intervalBullet: {
         type: LaserBulletType
         despawnSound: shootArc
-        colors: [D8F18C, ffffff
+        colors: [
+          d8f18c,
+          ffffff
         ]
         sideWidth: 2
         sideLength: 16

@@ -22,7 +22,7 @@ plans: [
 ]
 consumes: {
   power: 2
-  liquid: 02b-01-bioliquid/0.583333333
+  liquid: 02b-01-bioliquid/0.5
 }
 research: 0010-fabricator
 researchCost: [
