@@ -13,8 +13,6 @@ shieldBreakEffect: [
     rotation: -15
     sizeFrom: 150
     sizeTo: 150
-    colorFrom: ffd37f
-    colorTo: ffd37f
    }
 ]
 cooldownNormal: 1
