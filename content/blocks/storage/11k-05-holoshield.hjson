@@ -5,6 +5,18 @@ sides: 4
 radius: 150
 shieldRotation: 45
 shieldHealth: 3000
+shieldBreakEffect: [
+  {
+    type: WaveEffect
+    lifetime: 40
+    sides: 4
+    rotation: 15
+    sizeFrom: 150
+    sizeTo: 150
+    colorFrom: ffd37f
+    colorTo: ffd37f
+   }
+]
 cooldownNormal: 1
 cooldownLiquid: 1.2
 cooldownBrokenBase: 1.25
