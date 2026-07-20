@@ -225,7 +225,15 @@ drawer: {
     }
   ]
 }
-research: 03c-02-calamity
+research: {
+  parent: 03c-02-calamity
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-10-precipice
+    }
+  ]
+}
 researchCost: [
   01a-01-item-cobalt/6000
   01a-02-item-nickel/5000

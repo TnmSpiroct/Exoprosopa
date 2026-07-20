@@ -142,7 +142,15 @@ drawer: {
     }
   ]
 }
-research: 03c-02-calamity
+research: {
+  parent: 03c-02-calamity
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-09-hazardous-wasteland
+    }
+  ]
+}
 researchCost: [
   01a-02-item-nickel/6500
   01a-05-item-aluminium/3000

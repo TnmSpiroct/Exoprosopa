@@ -131,7 +131,15 @@ drawer: {
     }
   ]
 }
-research: 03c-02-anvil
+research: {
+  parent: 03c-02-anvil
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-05-crest
+    }
+  ]
+}
 researchCost: [
   01a-02-item-nickel/3000
   01a-05-item-aluminium/1600
