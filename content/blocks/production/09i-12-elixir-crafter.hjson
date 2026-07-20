@@ -1,7 +1,16 @@
 type: AttributeCrafter
 health: 850
 size: 3
-research: 09i-12-enchanting-basin
+research: {
+  #TODO - change to proper sector
+  parent: 09i-12-enchanting-basin
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-17-isolated-canyon
+    }
+  ]
+}
 researchCostMultiplier: 0.5
 requirements: [
   01a-06-item-chromium/95
