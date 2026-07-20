@@ -6,7 +6,7 @@ research: {
   parent: 09i-12-enchanting-basin
   objectives: [
     {
-      type: SectorComplete
+      type: OnSector
       preset: 19s-17-isolated-canyon
     }
   ]
