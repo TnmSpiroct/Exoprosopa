@@ -2,7 +2,6 @@ type: AttributeCrafter
 health: 850
 size: 3
 research: {
-  #TODO - change to proper sector
   parent: 09i-12-enchanting-basin
   objectives: [
     {
