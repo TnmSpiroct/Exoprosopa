@@ -16,7 +16,15 @@ consumes: {
 }
 outputLiquid: 02b-02-ichor/0.5
 liquidCapacity: 120
-research: 09i-04-heavy-ichor-mixer
+research: {
+  parent: 09i-04-heavy-ichor-mixer
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-17-isolated-canyon
+    }
+  ]
+}
 researchCostMultiplier: 2
 requirements: [
   01a-05-item-aluminium/300
