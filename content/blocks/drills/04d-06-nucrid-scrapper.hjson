@@ -2,7 +2,16 @@ type: WallCrafter
 health: 1250
 size: 3
 category: production
-research: 04d-06-nucrid-crusher
+research: {
+  #TODO - change to proper sector
+  parent: 04d-06-nucrid-crusher
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-17-isolated-canyon
+    }
+  ]
+}
 consumes: {
   power: 0.75
   liquid: 02b-01-bioliquid/0.25
