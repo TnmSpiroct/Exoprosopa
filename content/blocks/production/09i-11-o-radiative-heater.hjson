@@ -40,7 +40,15 @@ liquidCapacity: 60
 ambientSound: loopHum
 ambientSoundVolume: 0.04
 category: crafting
-research: 09i-04-laminator
+research: {
+  parent: 09i-04-laminator
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-17-isolated-canyon
+    }
+  ]
+}
 requirements: [
   01a-06-item-chromium/85
   01a-07-item-clevorite/75
