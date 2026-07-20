@@ -23,7 +23,15 @@ consumes: {
 ambientSound: loopHum
 ambientSoundVolume: 0.04
 category: crafting
-research: 09i-11-p-heat-redirector
+research: {
+  parent: 09i-11-p-heat-redirector
+  objectives: [
+    {
+      type: Research
+      content: 07g-05-tokamak-reactor
+    }
+  ]
+}
 requirements: [
   01a-06-item-chromium/30
   01a-07-item-clevorite/20
