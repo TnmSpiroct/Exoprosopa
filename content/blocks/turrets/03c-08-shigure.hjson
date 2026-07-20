@@ -15,7 +15,7 @@ requirements: [
 minWarmup: 0.90
 shootWarmupSpeed: 0.04
 researchCostMultiplier: 0.5
-research: 03c-04-preject
+research: 03c-05-equinox
 category: turret
 recoil: 0.1
 outlineColor: 2C2A36
