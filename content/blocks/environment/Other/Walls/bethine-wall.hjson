@@ -1,3 +1,6 @@
 type: StaticWall
 name: Bethine Wall
-description: "Sometimes including a small amount of Chromium"
+description: "Old, aged wall that decayed from nuke radiation"
+attributes: {
+  tantra: 0.68
+}
