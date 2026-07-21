@@ -12,9 +12,9 @@ category: turret
 coolant: {
   type: ConsumeLiquid
   liquid: 02b-02-a-purified-elixir
-  amount: 0.25
+  amount: 0.166666667
 }
-coolantMultiplier: 2.5
+coolantMultiplier: 7.5
 recoil: 2
 shake: 1
 outlineColor: 2C2A36
@@ -37,7 +37,7 @@ ammoTypes: {
     backColor: a3bbeb
     frontColor: a3bbeb
     lightColor: a3bbeb
-    damage: 55
+    damage: 52.5
     speed: 6.4
     lifetime: 32.5
     despawnEffect: [
@@ -78,7 +78,7 @@ ammoTypes: {
     backColor: b1cbd8
     frontColor: b1cbd8
     lightColor: b1cbd8
-    damage: 70.5
+    damage: 70.75
     splashDamage: 10
     splashDamageRadius: 16
     speed: 6.4
@@ -96,7 +96,7 @@ ammoTypes: {
         colorTo: b1cbd8
     }
     ]
-    pierceCap: 5
+    pierceCap: 4
     pierce: true
     pierceBuilding: true  
     trailColor: b1cbd8
@@ -121,7 +121,7 @@ ammoTypes: {
     backColor: bca49f
     frontColor: bca49f
     lightColor: bca49f
-    damage: 85.5
+    damage: 84.75
     splashDamage: 10
     splashDamageRadius: 28
     speed: 8
@@ -158,6 +158,7 @@ ammoTypes: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.3
     sprite: exoprosopa-impale-arrow
+    reloadMultiplier: 0.2
     ammoMultiplier: 2
     width: 16
     height: 16
@@ -165,7 +166,7 @@ ammoTypes: {
     backColor: 51c59c
     frontColor: 51c59c
     lightColor: 51c59c
-    damage: 145
+    damage: 140
     speed: 9.5
     lifetime: 31
     despawnEffect: [

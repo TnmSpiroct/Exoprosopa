@@ -14,9 +14,9 @@ category: turret
 coolant: {
   type: ConsumeLiquid
   liquid: 02b-02-a-purified-elixir
-  amount: 0.25
+  amount: 0.0833333333
 }
-coolantMultiplier: 2.5
+coolantMultiplier: 7.5
 recoil: 0
 outlineColor: 2C2A36
 targetAir: false
@@ -33,11 +33,11 @@ ammoTypes: {
   01a-06-item-chromium: {
     instantDisappear: true
     ammoMultiplier: 1
-    damage: 5
+    damage: 6
     splashDamage: 20
     splashDamageRadius: 148
     status: slow
-    statusDuration: 300
+    statusDuration: 30
     despawnEffect: none
     hitEffect: none
     shootEffect: {
@@ -57,7 +57,7 @@ ammoTypes: {
     splashDamage: 56
     splashDamageRadius: 220
     status: 13m-01-breached
-    statusDuration: 300
+    statusDuration: 30
     despawnEffect: none
     hitEffect: none
     rangeChange: 40

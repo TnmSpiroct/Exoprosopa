@@ -16,7 +16,7 @@ coolant: {
   liquid: 02b-02-a-purified-elixir
   amount: 0.5
 }
-coolantMultiplier: 1.5
+coolantMultiplier: 1.25
 minWarmup: 0.55
 warmupMaintainTime: 160
 shootWarmupSpeed: 0.08
@@ -44,7 +44,7 @@ ammoTypes: {
     ammoMultiplier: 1
     hitColor: FF91B3
     damage: 80
-    splashDamage: 270
+    splashDamage: 280
     splashDamageRadius: 64
     width: 14
     height: 12
@@ -76,7 +76,7 @@ ammoTypes: {
     ammoMultiplier: 1
     hitColor: 51C59C
     damage: 55
-    splashDamage: 370
+    splashDamage: 400
     splashDamageRadius: 64
     width: 14
     height: 12

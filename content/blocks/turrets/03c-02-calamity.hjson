@@ -34,11 +34,11 @@ targetGround: true
 rotateSpeed: 1.25
 # Reload time, in ticks
 reload: 105
-# Turret range, in unit that i dont know
+# Turret range, in world unit 
 range: 180
 # Position of starting bullets, doesnt affect range
 shootY: 6
-# Other consumption
+# block consumption
 consumes: {
   liquid: 02b-01-bioliquid/0.5
 }
@@ -54,6 +54,7 @@ coolant: {
 }
 # Max ammo capacity
 maxAmmo: 20
+# How much/fast the turret firing with coolant applied
 coolantMultiplier: 2.5
 # Charging sound
 chargeSound: chargeTarget
@@ -69,7 +70,6 @@ ammoTypes: {
     rotWithParent: true
     followParent: true
     startDelay: 0
-    lifetime: 30
     offsetX: 1
     sizeFrom: 27.5
     sizeTo: 0
@@ -81,11 +81,12 @@ ammoTypes: {
     frontColor: ff8167
     backColor: ff8167
     lightColor: ff8167
-    damage: 50
+    damage: 47
     width: 12
     height: 12
     speed: 6
-    lifetime: 30
+    lifetime: 32
+    rangeChange: 16
     despawnEffect: [
     smokePuff,
     vapor,
@@ -109,7 +110,7 @@ ammoTypes: {
         type: ExplosionBulletType
         splashDamageRadius: 20
         killShooter: false
-        splashDamage: 38
+        splashDamage: 33
         buildingDamageMultiplier: 0.2
         fragRandomSpread: 0
         fragSpread: 45
@@ -122,7 +123,7 @@ ammoTypes: {
           type: ArtilleryBulletType
           speed: 2
           lifetime: 12
-          damage: 10
+          damage: 7
           buildingDamageMultiplier: 0.2
           fragRandomSpread: 0
           fragAngle: 90
@@ -131,7 +132,7 @@ ammoTypes: {
             type: ExplosionBulletType
             splashDamageRadius: 20
             killShooter: false
-            splashDamage: 10
+            splashDamage: 5
             status: 13m-01-breached
             statusDuration: 30
             buildingDamageMultiplier: 0.2
@@ -151,7 +152,6 @@ ammoTypes: {
     rotWithParent: true
     followParent: true
     startDelay: 0
-    lifetime: 30
     offsetX: 1
     sizeFrom: 27.5
     sizeTo: 0
@@ -199,7 +199,7 @@ ammoTypes: {
         type: ExplosionBulletType
         splashDamageRadius: 20
         killShooter: false
-        splashDamage: 15
+        splashDamage: 18
         buildingDamageMultiplier: 0.2
         fragRandomSpread: 0
         fragSpread: 45
@@ -239,7 +239,6 @@ ammoTypes: {
     rotWithParent: true
     followParent: true
     startDelay: 0
-    lifetime: 30
     offsetX: 1
     sizeFrom: 27.5
     sizeTo: 0
@@ -280,7 +279,7 @@ ammoTypes: {
         type: ExplosionBulletType
         splashDamageRadius: 20
         killShooter: false
-        splashDamage: 24
+        splashDamage: 25
         buildingDamageMultiplier: 0.2
         fragRandomSpread: 0
         fragSpread: 45
@@ -360,7 +359,7 @@ ammoTypes: {
       type: ArtilleryBulletType
       speed: 2
       lifetime: 12
-      damage: 25
+      damage: 27
       buildingDamageMultiplier: 0.2
       fragRandomSpread: 0
       fragAngle: 90
@@ -369,7 +368,7 @@ ammoTypes: {
         type: ExplosionBulletType
         splashDamageRadius: 20
         killShooter: false
-        splashDamage: 18
+        splashDamage: 20
         buildingDamageMultiplier: 0.2
         fragRandomSpread: 0
         fragSpread: 45
@@ -382,7 +381,7 @@ ammoTypes: {
           type: ArtilleryBulletType
           speed: 2
           lifetime: 12
-          damage: 8
+          damage: 10
           buildingDamageMultiplier: 0.2
           fragRandomSpread: 0
           fragAngle: 90

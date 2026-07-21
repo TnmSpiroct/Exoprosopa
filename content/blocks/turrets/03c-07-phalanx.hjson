@@ -14,8 +14,9 @@ category: turret
 coolant: {
   type: ConsumeLiquid
   liquid: 02b-02-a-purified-elixir
-  amount: 0.333333
+  amount: 0.333333333
 }
+coolantMultiplier: 5.625
 recoil: 0.5
 inaccuracy: 5
 outlineColor: 2C2A36
@@ -41,7 +42,7 @@ ammoTypes: {
     width: 12
     height: 14
     lifetime: 43
-    damage: 68
+    damage: 67.5
     trailColor: BCA49F
     trailChance: -1
     trailEffect: [disperseTrail, colorSpark
@@ -69,7 +70,7 @@ ammoTypes: {
     width: 14
     height: 17
     lifetime: 37
-    damage: 38
+    damage: 37.75
     trailColor: D8F18C
     trailChance: -1
     trailEffect: [disperseTrail, colorSpark
@@ -98,7 +99,7 @@ ammoTypes: {
     lifetime: 25
     pierce: true
     pierceCap: 5
-    damage: 80
+    damage: 80.45
     ammoMultiplier: 3
     trailColor: FE97BA
     trailChance: -1
@@ -125,7 +126,7 @@ ammoTypes: {
     width: 14
     height: 17
     lifetime: 33
-    damage: 110
+    damage: 107.25
     ammoMultiplier: 3
     extraRangeMargin: 32
     trailColor: 51C59C

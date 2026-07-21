@@ -7,9 +7,9 @@ armor: 10
 coolant: {
   type: ConsumeLiquid
   liquid: 02b-02-a-purified-elixir
-  amount: 0.5
+  amount: 0.25
 }
-coolantMultiplier: 1.25
+coolantMultiplier: 2.5
 fogRadiusMultiplier: 0.45
 shootSound: shootScathe
 requirements: [

@@ -53,7 +53,7 @@ ammoTypes: {
   type: ContinuousLaserBulletType
   length: 300
   rangeChange: 112
-  damage: 75
+  damage: 80
   buildingDamageMultiplier: 0.1
   width: 3.25
   incendChance: 0

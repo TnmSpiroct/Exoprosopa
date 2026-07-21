@@ -33,7 +33,7 @@ ammoPerShot: 2
 ammoTypes: {
   01a-03-item-lamine: {
     type: ArtilleryBulletType
-    damage: 205
+    damage: 200
     buildingDamageMultiplier: 0.1
     lifetime: 65
     speed: 3.8
@@ -58,10 +58,10 @@ ammoTypes: {
       statusDuration: 30
       despawnSound: explosion
       speed: 3.5
-      damage: 50
+      damage: 45
       buildingDamageMultiplier: 0.1
       lifetime: 12
-      splashDamage: 18
+      splashDamage: 15
       splashDamageRadius: 16
       collidesAir: false
       hitEffect: explosion
@@ -193,7 +193,7 @@ ammoTypes: {
       lifetime: 12
       width: 11
       height: 14
-      splashDamage: 14
+      splashDamage: 15
       splashDamageRadius: 16
       collidesAir: false
       shrinkY: 0

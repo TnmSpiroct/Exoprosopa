@@ -32,7 +32,7 @@ shootY: -0.5
 shootType: {
   type: PointLaserBulletType
   buildingDamageMultiplier: 0.1
-  damage: 155
+  damage: 160
   hitColor: dcc6c6
 }
 unitSort: strongest

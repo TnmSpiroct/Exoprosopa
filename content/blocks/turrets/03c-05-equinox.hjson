@@ -79,7 +79,7 @@ ammoTypes: {
     trailWidth: 2
     intervalBullet: {
       type: LightningBulletType
-      damage: 28
+      damage: 30.25
       lightningLength: 2
       lightningLengthRand: 4
       lightningColor: 6EEFC0

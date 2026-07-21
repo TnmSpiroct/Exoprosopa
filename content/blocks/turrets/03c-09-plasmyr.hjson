@@ -65,7 +65,7 @@ ammoTypes: {
     shootEffect: shootTitan
     width: 22
     height: 22
-    damage: 1980
+    damage: 2100
     shrinkX: 0
     shrinkY: 0
     speed: 9

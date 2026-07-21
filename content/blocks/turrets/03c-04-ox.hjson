@@ -14,9 +14,9 @@ category: turret
 coolant: {
   type: ConsumeLiquid
   liquid: 02b-02-a-purified-elixir
-  amount: 0.5
+  amount: 0.25
 }
-coolantMultiplier: 1.5
+coolantMultiplier: 2.5
 recoil: 1
 shake: 1
 outlineColor: 2C2A36
@@ -41,7 +41,7 @@ ammoTypes: {
       height: 12
       pierceCap: 3
       lifetime: 40
-      damage: 66
+      damage: 64.75
       speed: 7
       ammoMultiplier: 2
       shootEffect: colorSpark
@@ -69,7 +69,7 @@ ammoTypes: {
       height: 12
       pierceCap: 7
       lifetime: 39
-      damage: 57
+      damage: 57.25
       speed: 8
       ammoMultiplier: 4
       shootEffect: colorSpark
@@ -93,7 +93,7 @@ ammoTypes: {
         lightningLengthRand: 3
         lightningColor: 51c59c
         status: shocked
-        damage: 12
+        damage: 12.5
         despawnSound: explosionArtilleryShock
       }
       despawnEffect: {
