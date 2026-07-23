@@ -42,7 +42,7 @@ ambientSoundVolume: 0.12
 squareSprite: false
 itemCapacity: 20
 liquidCapacity: 120
-craftTime: 120
+craftTime: 144
 craftEffect: none
 drawer: {
   type: DrawMulti

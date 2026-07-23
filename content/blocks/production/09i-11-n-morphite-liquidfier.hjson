@@ -26,7 +26,7 @@ requirements: [
   01a-07-item-clevorite/80
   01a-09-item-morphite/50
 ]
-craftTime: 240
+craftTime: 300
 craftEffect: none
 outputLiquids: [
   02b-06-morphitix-plasma/0.3333333333
