@@ -30,7 +30,7 @@ researchCost: [
 shootType: {
   type: LightningBulletType
   hitSound: shootElectric
-  damage: 120
+  damage: 82
   lightningLength: 27
   lightningLengthRand: 7
   lightningColor: 51C59C
@@ -49,7 +49,7 @@ requirements: [
   01a-02-item-nickel/475
   01a-06-item-chromium/245
   01a-07-item-clevorite/160
-  01a-09-item-morphite/85
+  01a-09-item-morphite/95
 ]
 consumes: {
   power: 11

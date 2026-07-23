@@ -61,27 +61,201 @@ chargeSound: chargeTarget
 # Ammo types
 ammoTypes: {
   # Name of items
+  01a-05-item-aluminium: {
+    # Bullet Type, BasicBulletType creates a basic bullet like duo and salvo
+    type: BasicBulletType
+    ammoMultiplier: 1
+    # Building damage mult
+    buildingDamageMultiplier: 0.2
+    # Effect created when charging
+    chargeEffect: [
+      {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        startDelay: 0
+        offsetX: 1
+        sizeFrom: 27.5
+        sizeTo: 0
+        colorFrom: ffffff
+        colorTo: b1cbd8
+      }
+    ]
+    # Bullet's sprite
+    sprite: large-orb
+    # Bullet colors
+    hitColor: b1cbd8
+    frontColor: feb380
+    backColor: feb380
+    lightColor: feb380
+    damage: 24
+    # Bullet size, to increase hitbox use hitSize instead
+    width: 12
+    height: 12
+    # Speed × Lifetime bullet = Range
+    speed: 6
+    lifetime: 30
+    # Effect created when despawns
+    despawnEffect: [
+    smokePuff,
+    vapor,
+    ]
+    # Trail variety
+    trailColor: 98bfd3
+    trailChance: -1
+    trailEffect: shootSmokeDisperse
+    trailInterval: 2
+    trailRotation: true
+    trailLength: 2
+    trailWidth: 1.5
+    # Fragment of bullet created when the main bullet has the lifetime runs out
+    fragRandomSpread: 0
+    fragSpread: 45
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullets: 8
+    despawnSound: explosionArtillery
+      fragBullet: {
+        # Explosion, mostly didnt have lifetime and speed
+        type: ExplosionBulletType
+        splashDamageRadius: 20
+        killShooter: false
+        splashDamage: 16
+        buildingDamageMultiplier: 0.2
+        fragRandomSpread: 0
+        fragSpread: 45
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragBullets: 8
+        fragBullet: {
+        # A bullet that damages ground only and only damages units where it lands instead of linear
+          type: ArtilleryBulletType
+          speed: 2
+          lifetime: 12
+          damage: 10
+          buildingDamageMultiplier: 0.2
+          fragRandomSpread: 0
+          fragAngle: 90
+          fragBullets: 1
+          fragBullet: {
+            type: ExplosionBulletType
+            splashDamageRadius: 20
+            killShooter: false
+            splashDamage: 5
+            # Status created when this bullet damages enemy. To increase duration, use statusDuration
+            status: blasted
+            buildingDamageMultiplier: 0.2
+        }
+      }
+    }
+  }
+  01a-06-item-chromium: {
+    type: BasicBulletType
+    buildingDamageMultiplier: 0.2
+    ammoMultiplier: 2
+    chargeEffect: [
+      {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        startDelay: 0
+        offsetX: 1
+        sizeFrom: 27.5
+        sizeTo: 0
+        colorFrom: ffffff
+        colorTo: bca49f
+      }
+    ]
+    sprite: large-orb
+    hitColor: feb380
+    frontColor: bca49f
+    backColor: feb380
+    lightColor: feb380
+    damage: 30
+    width: 12
+    height: 12
+    speed: 6
+    lifetime: 30
+    despawnEffect: [
+    smokePuff,
+    vapor,
+    ]
+    trailColor: dcc6c6
+    trailChance: -1
+    trailEffect: shootSmokeDisperse
+    trailInterval: 2
+    trailRotation: true
+    trailLength: 2
+    trailWidth: 1.5
+    fragRandomSpread: 0
+    fragSpread: 45
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullets: 8
+    knockback: 2
+    despawnSound: explosionArtillery
+      fragBullet: {
+        type: ExplosionBulletType
+        splashDamageRadius: 20
+        killShooter: false
+        splashDamage: 25
+        buildingDamageMultiplier: 0.2
+        fragRandomSpread: 0
+        fragSpread: 45
+        fragLifeMin: 1
+        fragLifeMax: 1
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragBullets: 8
+        fragBullet: {
+          type: ArtilleryBulletType
+          speed: 2
+          lifetime: 12
+          damage: 10
+          buildingDamageMultiplier: 0.2
+          fragRandomSpread: 0
+          fragAngle: 90
+          fragBullets: 1
+          fragBullet: {
+            type: ExplosionBulletType
+            splashDamageRadius: 20
+            killShooter: false
+            splashDamage: 5
+            status: blasted
+            buildingDamageMultiplier: 0.2
+        }
+      }
+    }
+  }
   01a-03-item-lamine: {
     type: BasicBulletType
     ammoMultiplier: 1
     buildingDamageMultiplier: 0.2
-    chargeEffect: [{
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    startDelay: 0
-    offsetX: 1
-    sizeFrom: 27.5
-    sizeTo: 0
-    colorFrom: ffffff
-    colorTo: ff816780
-    }]
+    chargeEffect: [
+      {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        startDelay: 0
+        offsetX: 1
+        sizeFrom: 27.5
+        sizeTo: 0
+        colorFrom: ffffff
+        colorTo: ff8167
+      }
+    ]
     sprite: large-orb
     hitColor: ff8167
     frontColor: ff8167
     backColor: ff8167
     lightColor: ff8167
-    damage: 47
+    damage: 38
     width: 12
     height: 12
     speed: 6
@@ -140,196 +314,29 @@ ammoTypes: {
       }
     }
   }
-  01a-05-item-aluminium: {
-    # Bullet Type, BasicBulletType creates a basic bullet like duo and salvo
-    type: BasicBulletType
-    ammoMultiplier: 1
-    # Building damage mult
-    buildingDamageMultiplier: 0.2
-    # Effect created when charging
-    chargeEffect: [{
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    startDelay: 0
-    offsetX: 1
-    sizeFrom: 27.5
-    sizeTo: 0
-    colorFrom: ffffff
-    colorTo: 98BFD3
-    }]
-    # Bullet's sprite
-    sprite: large-orb
-    # Bullet colors
-    hitColor: feb380
-    frontColor: feb380
-    backColor: feb380
-    lightColor: feb380
-    damage: 22
-    # Bullet size, if you want to increase hitbox use hitSize instead
-    width: 12
-    height: 12
-    # Speed × Lifetime bullet = Range
-    speed: 6
-    lifetime: 30
-    # Effect created when despawns
-    despawnEffect: [
-    smokePuff,
-    vapor,
-    ]
-    # Trail variety
-    trailColor: 98BFD3
-    trailChance: -1
-    trailEffect: shootSmokeDisperse
-    trailInterval: 2
-    trailRotation: true
-    trailLength: 2
-    trailWidth: 1.5
-    # Fragment of bullet created when the main bullet has the lifetime runs out
-    fragRandomSpread: 0
-    fragSpread: 45
-    fragLifeMin: 1
-    fragLifeMax: 1
-    fragVelocityMin: 1
-    fragVelocityMax: 1
-    fragBullets: 8
-    despawnSound: explosionArtillery
-      fragBullet: {
-        # Explosion, mostly didnt have lifetime and speed
-        type: ExplosionBulletType
-        splashDamageRadius: 20
-        killShooter: false
-        splashDamage: 18
-        buildingDamageMultiplier: 0.2
-        fragRandomSpread: 0
-        fragSpread: 45
-        fragLifeMin: 1
-        fragLifeMax: 1
-        fragVelocityMin: 1
-        fragVelocityMax: 1
-        fragBullets: 8
-        fragBullet: {
-        # A bullet that damages ground only and only damages units where it lands instead of linear
-          type: ArtilleryBulletType
-          speed: 2
-          lifetime: 12
-          damage: 5
-          buildingDamageMultiplier: 0.2
-          fragRandomSpread: 0
-          fragAngle: 90
-          fragBullets: 1
-          fragBullet: {
-            type: ExplosionBulletType
-            splashDamageRadius: 20
-            killShooter: false
-            splashDamage: 5
-            # Status created when this bullet damages enemy. To increase duration, use statusDuration
-            status: blasted
-            buildingDamageMultiplier: 0.2
-        }
-      }
-    }
-  }
-  01a-06-item-chromium: {
-    type: BasicBulletType
-    buildingDamageMultiplier: 0.2
-    ammoMultiplier: 2
-    chargeEffect: [{
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    startDelay: 0
-    offsetX: 1
-    sizeFrom: 27.5
-    sizeTo: 0
-    colorFrom: ffffff
-    colorTo: DCC6C6
-    }]
-    sprite: large-orb
-    hitColor: feb380
-    frontColor: feb380
-    backColor: feb380
-    lightColor: feb380
-    damage: 30
-    width: 12
-    height: 12
-    speed: 6
-    lifetime: 30
-    despawnEffect: [
-    smokePuff,
-    vapor,
-    ]
-    trailColor: DCC6C6
-    trailChance: -1
-    trailEffect: shootSmokeDisperse
-    trailInterval: 2
-    trailRotation: true
-    trailLength: 2
-    trailWidth: 1.5
-    fragRandomSpread: 0
-    fragSpread: 45
-    fragLifeMin: 1
-    fragLifeMax: 1
-    fragVelocityMin: 1
-    fragVelocityMax: 1
-    fragBullets: 8
-    knockback: 2
-    despawnSound: explosionArtillery
-      fragBullet: {
-        type: ExplosionBulletType
-        splashDamageRadius: 20
-        killShooter: false
-        splashDamage: 25
-        buildingDamageMultiplier: 0.2
-        fragRandomSpread: 0
-        fragSpread: 45
-        fragLifeMin: 1
-        fragLifeMax: 1
-        fragVelocityMin: 1
-        fragVelocityMax: 1
-        fragBullets: 8
-        fragBullet: {
-          type: ArtilleryBulletType
-          speed: 2
-          lifetime: 12
-          damage: 10
-          buildingDamageMultiplier: 0.2
-          fragRandomSpread: 0
-          fragAngle: 90
-          fragBullets: 1
-          fragBullet: {
-            type: ExplosionBulletType
-            splashDamageRadius: 20
-            killShooter: false
-            splashDamage: 5
-            status: blasted
-            buildingDamageMultiplier: 0.2
-        }
-      }
-    }
-  }
   01a-08-item-petal: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.2
     ammoMultiplier: 3
-    chargeEffect: [{
-      type: WaveEffect
-      rotWithParent: true
-      followParent: true
-      startDelay: 0
-      lifetime: 30
-      offsetX: 1
-      sizeFrom: 27.5
-      sizeTo: 0
-      colorFrom: ffffff
-      colorTo: DCC6C6
-    }]
+    chargeEffect: [
+      {
+        type: WaveEffect
+        rotWithParent: true
+        followParent: true
+        startDelay: 0
+        offsetX: 1
+        sizeFrom: 27.5
+        sizeTo: 0
+        colorFrom: ffffff
+        colorTo: ff91b3
+      }
+    ]
     sprite: large-orb
     hitColor: feb380
-    frontColor: feb380
+    frontColor: ff91b3
     backColor: feb380
     lightColor: feb380
-    damage: 38
+    damage: 46
     width: 12
     height: 12
     speed: 6
@@ -339,7 +346,7 @@ ammoTypes: {
     smokePuff,
     vapor,
     ]
-    trailColor: DCC6C6
+    trailColor: dcc6c6
     trailChance: -1
     trailEffect: shootSmokeDisperse
     trailInterval: 2

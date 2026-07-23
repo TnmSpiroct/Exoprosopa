@@ -158,7 +158,7 @@ ammoTypes: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.3
     sprite: exoprosopa-impale-arrow
-    reloadMultiplier: 0.2
+    reloadMultiplier: 0.3
     ammoMultiplier: 2
     width: 16
     height: 16

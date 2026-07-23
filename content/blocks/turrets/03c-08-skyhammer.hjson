@@ -55,7 +55,45 @@ shootType: {
   lifetime: 72.5
   damage: 850
   despawnSound: explosionQuad
-  despawnEffect: greenBomb
+  despawnEffect: {
+    type: MultiEffect
+    effects: [
+      {
+        type: WaveEffect
+        sides: 10
+        sizeFrom: 0
+        sizeTo: 52.5
+        cone: 360
+        colorFrom: edc66c
+        colorTo: baa164
+        lifetime: 12.5
+        strokeFrom: 10
+        strokeTo: 0
+        followParent: true
+      }
+      {
+        type: ParticleEffect
+        region: "mine-bullet"
+        particles: 1
+        randLength: false
+        length: 0
+        baseLength: 0
+        cone: 360
+        colorFrom: edc66c
+        colorTo: baa164
+        lifetime: 25
+        interp: pow2Out
+        sizeInterp: pow5In
+        lenFrom: 0
+        lenTo: 0
+        strokeFrom: 0
+        strokeTo: 0
+        sizeFrom: 30
+        sizeTo: 0
+        followParent: true
+      }
+    ]
+  }
   hitEffect: massiveExplosion
   splashDamage: 1700
   splashDamageRadius: 56

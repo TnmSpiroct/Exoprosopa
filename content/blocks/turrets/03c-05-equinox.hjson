@@ -60,15 +60,17 @@ ammoTypes: {
     buildingDamageMultiplier: 0.2
     ammoMultiplier: 1
     hitColor: 6eefc0
-    damage: 140
+    damage: 130
     width: 8
     height: 14
     hitSize: 6
     speed: 6
     lifetime: 52.5
-    pierceCap: 6
+    pierceCap: 4
     pierce: true
     pierceBuilding: true
+    backColor: 6eefc0
+    frontColor: ffffff
     trailColor: 479075
     trailChance: -1
     trailEffect: [colorSpark, disperseTrail
@@ -79,10 +81,10 @@ ammoTypes: {
     trailWidth: 2
     intervalBullet: {
       type: LightningBulletType
-      damage: 30.25
+      damage: 25.75
       lightningLength: 2
       lightningLengthRand: 4
-      lightningColor: 6EEFC0
+      lightningColor: 6eefc0
     }
     bulletInterval: 5
   }

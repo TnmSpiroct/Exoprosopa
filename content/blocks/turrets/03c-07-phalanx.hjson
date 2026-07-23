@@ -151,6 +151,7 @@ ammoTypes: {
       lightningLengthRand: 3
       lightningColor: 51C59C
       status: shocked
+      collidesGround: false
     }
   }
 }

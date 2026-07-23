@@ -29,10 +29,11 @@ shake: 2
 shoot: {
   type: ShootAlternate
   spread: 12
-  shotDelay: 3.5
+  shotDelay: 3
 }
 ammoUseEffect: casing2
 ammoPerShot: 2
+maxAmmo: 40
 ammoTypes: {
   01a-06-item-chromium: {
     buildingDamageMultiplier: 0.2
@@ -47,13 +48,12 @@ ammoTypes: {
     damage: 34.25
     splashDamage: 15
     splashDamageRadius: 16
-    ammoMultiplier: 4
+    ammoMultiplier: 6
     weaveScale: 4
     weaveMag: 4
-    frontColor: BCA49F
-    backColor: BCA49F50
-    hitColor: BCA49F
-    lightColor: BCA49F
+    frontColor: bca49f
+    backColor: bca49f
+    hitColor: bca49f
   }
   01a-09-item-morphite: {
     buildingDamageMultiplier: 0.2
@@ -68,13 +68,12 @@ ammoTypes: {
     damage: 68.75
     splashDamage: 25
     splashDamageRadius: 16
-    ammoMultiplier: 4
+    ammoMultiplier: 6
     weaveScale: 4
     weaveMag: 4
-    backColor: 51C59C
-    frontColor: 51C59C50
-    hitColor: 51C59C
-    lightColor: 51C59C
+    backColor: 51c59c
+    frontColor: 51c59c
+    hitColor: 51c59c
     fragBullets: 4
     fragRandomSpread: 0
     fragSpread: 90
@@ -86,7 +85,7 @@ ammoTypes: {
       damage: 12.5
       lightningLength: 6
       lightningLengthRand: 3
-      lightningColor: 51C59C
+      lightningColor: 51c59c
       status: shocked
     }
   }
@@ -103,21 +102,20 @@ ammoTypes: {
     damage: 78.45
     splashDamage: 22.5
     splashDamageRadius: 16
-    ammoMultiplier: 4
+    ammoMultiplier: 6
     weaveScale: 4
     weaveMag: 4
-    backColor: FE97BA
-    frontColor: FE97BA50
-    hitColor: FE97BA
-    lightColor: FE97BA
+    backColor: fe97ba
+    frontColor: fe97ba
+    hitColor: fe97ba
     fragBullets: 6
     fragVelocityMin: 0.4
     fragLifeMin: 0.45
     fragBullet: {
       type: BasicBulletType
       buildingDamageMultiplier: 0.2
-      frontColor: FE97BA
-      lightColor: FE97BA
+      frontColor: fe97ba
+      lightColor: fe97ba
       speed: 2
       lifetime: 30
       width: 6
@@ -140,10 +138,9 @@ ammoTypes: {
     damage: 84.25
     splashDamage: 35
     splashDamageRadius: 16
-    backColor: BF97D6
-    frontColor: BF97D650
-    hitColor: BF97D6
-    lightColor: BF97D6
+    backColor: bf97d6
+    frontColor: bf97d6
+    hitColor: bf97d6
     ammoMultiplier: 6
     weaveScale: 4
     weaveMag: 4
@@ -159,8 +156,8 @@ ammoTypes: {
       width: 6
       height: 9
       damage: 20
-      lightColor: BF97D6
-      frontColor: BF97D6
+      lightColor: bf97d6
+      frontColor: bf97d6
       splashDamage: 15
       splashDamageRadius: 4
     }

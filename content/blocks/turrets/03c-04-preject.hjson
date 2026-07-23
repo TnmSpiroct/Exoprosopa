@@ -5,10 +5,10 @@ armor: 10
 shootSound: shootReign
 shootSoundVolume: 1.7
 requirements: [
-  01a-05-item-aluminium/450
-  01a-06-item-chromium/275
+  01a-05-item-aluminium/550
+  01a-06-item-chromium/350
   01a-07-item-clevorite/125
-  01a-08-item-petal/210
+  01a-08-item-petal/280
 ]
 category: turret
 coolant: {
@@ -40,11 +40,11 @@ ammoTypes: {
   01a-08-item-petal: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.2
-    despawnShake: 8
+    despawnShake: 10
     ammoMultiplier: 1
     hitColor: FF91B3
     damage: 80
-    splashDamage: 280
+    splashDamage: 240
     splashDamageRadius: 64
     width: 14
     height: 12
@@ -75,8 +75,8 @@ ammoTypes: {
     despawnShake: 8
     ammoMultiplier: 1
     hitColor: 51C59C
-    damage: 55
-    splashDamage: 400
+    damage: 60
+    splashDamage: 350
     splashDamageRadius: 64
     width: 14
     height: 12
@@ -88,7 +88,7 @@ ammoTypes: {
     hitSound: explosionTitan
     status: 13m-03-hsos6
     statusDuration: 240
-    pierceCap: 5
+    pierceCap: 4
     pierce: true
     collidesAir: false
     collidesGround: true
@@ -116,7 +116,39 @@ ammoTypes: {
       lightningLengthRand: 4
       lightningColor: 51c59c
       status: shocked
+      collidesAir: false
       }
+  }
+  01a-10-item-bethine: {
+    type: BasicBulletType
+    buildingDamageMultiplier: 0.2
+    despawnShake: 10
+    ammoMultiplier: 1
+    hitColor: bf97d6
+    damage: 100
+    splashDamage: 400
+    splashDamageRadius: 96
+    width: 14
+    height: 12
+    speed: 8
+    lifetime: 50
+    despawnHit: true
+    despawnEffect: titanSmoke
+    hitEffect: titanExplosionFrag
+    hitSound: explosionTitan
+    pierceCap: 4
+    pierce: true
+    collidesAir: false
+    collidesGround: true
+    collides: true
+    collidesTiles: true
+    trailColor: bf97d6
+    trailEffect: none
+    trailChance: 0.6
+    trailInterval: 1
+    trailRotation: true
+    trailLength: 18
+    trailWidth: 2.8
   }
 }
 drawer: {

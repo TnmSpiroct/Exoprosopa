@@ -77,7 +77,7 @@ ammoTypes: {
     hitColor: bca49f
     frontColor: bca49f
     backColor: bca49f
-    damage: 57.5
+    damage: 52.75
     homingPower: 0.045
     knockback: 4
     width: 8
