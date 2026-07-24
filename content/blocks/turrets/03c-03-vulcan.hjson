@@ -51,7 +51,7 @@ ammoTypes: {
 }
   02b-06-morphitix-plasma: {
   type: ContinuousLaserBulletType
-  length: 300
+  length: 280
   rangeChange: 92
   damage: 68
   buildingDamageMultiplier: 0.1
