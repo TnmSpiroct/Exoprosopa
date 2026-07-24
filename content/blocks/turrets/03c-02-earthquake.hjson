@@ -40,6 +40,7 @@ ammoTypes: {
     statusDuration: 30
     despawnEffect: none
     hitEffect: none
+    colliderAir: false
     shootEffect: {
       type: WaveEffect
       sizeFrom: 0
@@ -61,6 +62,7 @@ ammoTypes: {
     despawnEffect: none
     hitEffect: none
     rangeChange: 40
+    collidesAir: false
     shootEffect: {
       type: WaveEffect
       sizeFrom: 0
