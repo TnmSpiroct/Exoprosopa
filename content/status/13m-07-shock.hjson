@@ -3,3 +3,4 @@ damageMultiplier: 1.25
 reloadMultiplier: 1.25
 speedMultiplier: 0.33
 dragMultiplier: 1.5
+outline: false

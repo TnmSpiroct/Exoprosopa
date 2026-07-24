@@ -1,3 +1,4 @@
 speedMultiplier: 1.25
 reloadMultiplier: 1.25
 dragMultiplier: 0.75
+outline: false
