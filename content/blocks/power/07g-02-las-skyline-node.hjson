@@ -1,0 +1,23 @@
+type: LongPowerNode
+fogRadius: 10
+laserRange: 500
+health: 1500
+maxNodes: 1
+size: 3
+squareSprite: false
+researchCostMultiplier: 0.5
+category: power
+research: 07g-02-las-morphite-node
+requirements: [
+  01a-05-item-aluminium/150
+  01a-07-item-clevorite/110
+  01a-10-item-bethine/75
+  01a-11-item-pyroxene/25
+]
+laserScale: 0.8
+laserColor1: ceadeeff
+laserColor2: 6a4291ff
+autoLink: false
+useLod: false
+sameBlockConnection: false
+powerLayer: 77
