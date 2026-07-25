@@ -2,7 +2,7 @@ type: PowerNode
 fogRadius: 2
 laserRange: 50
 health: 250
-maxNodes: 2
+maxNodes: 1
 size: 3
 squareSprite: false
 researchCostMultiplier: 0.5
