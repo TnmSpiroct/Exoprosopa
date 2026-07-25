@@ -38,26 +38,27 @@ Check it on my profile. My username is RennTanami.<br><br>
 
 - Campaign Sectors [onGoing]:
   - Crest [Remake - onGoing]
-  - Bioproject Core ☑
   - Waterfall ☑
-  - Isolated Canyon ☑
-  - Eridanus ☑
+  - Antarstars [WIP]
+  - Metropolis [WIP]
+  - Isolated Canyon [ need replacement ]
+  - Eridanus [ need replacement ]
+- Campaign Sectors [TODO]:
+  - Alpha Frontier
+  - Highlands [WIP]
+  - Horizon's Edge
+  - Tundra Peaks
+  - Sunken Farmfields
+- Optional Map: 
   - Clover Springs ☑
   - Myrra Heights [WIP] ☑
-  - Military Junkyard [WIP]
-  - Polarstation [WIP]
-  - Antarstar [WIP]
-  - Highlands [WIP]
-- Campaign Sectors [TODO]:
-  - Hotspring 227
-  - Pilgrim Military Site
-  - H.S.O.S.6
-  - Horizon's Edge
-  - Alpha Frontier
-- Optional Map: 
   - Ridgeline
   - Aeroplex Fort [Broken]
   - Novaris Facility
+  - Tridantel
+- Upcoming:
+  - Military Junkyard [WIP]
+  - Polarstation [WIP]
 - Added New Blocks:
   - Cryogenics Synthetis Chamber
   - Nucrid Scrapper
@@ -73,18 +74,20 @@ Check it on my profile. My username is RennTanami.<br><br>
   - Large Surge Launher
 - Added T5 Walker & Mech - Program & Monarch
 - Tiny Details for Tantra Floor Edges
-- Units & Turrets Balancing
+- New Ammunition
+  - Petal Fragment Torrefy
+  - Lamine Shellcore - Torrefy - Earthmover
+  - Gravitix Deprive
+  - Clevorite Anvil
 - Added Canvas
 - Adjusting Tech Tree with New Enchantment Tech
-- Removed Trophy Contents
 - Re-Sprite
   - Powerline & Powerbeam
   - Morphite SolarPanel
   - Build Tower
-- Power Gen Adjustment
-- All Tier 3 Units Balancing
-- Balanced Turret Torrefy + New Ammo: Petal Fragment
-- Revert Permanent Weather + Campaign Difficulty Adjustment
+- Clevorite & Bloodstone Research Pacing
+- All Tier 3 & 4 Units Balancing
+- Sectors Organizing + Reverts Wproc Weather
 <br>
 
 ![Banner]

@@ -161,11 +161,12 @@ drawer: {
   ]
 }
 research: {
+  #TODO - change to proper sector
   parent: 03c-07-phalanx
   objectives: [
     {
       type: OnSector
-      preset: 19s-16-waterfall
+      preset: 19s-17-isolated-canyon
     }
   ]
 }

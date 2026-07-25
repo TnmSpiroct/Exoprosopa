@@ -3,6 +3,7 @@ size: 2
 health: 850
 category: effect
 research: {
+  #TODO - change to proper sector
   parent: 11k-05-holoshield
   objectives: [
     {

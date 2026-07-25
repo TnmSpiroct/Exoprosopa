@@ -200,6 +200,7 @@ drawer: {
   ]
 }
 research: {
+  #TODO - change to proper sector
   parent: 03c-07-phalanx
   objectives: [
     {

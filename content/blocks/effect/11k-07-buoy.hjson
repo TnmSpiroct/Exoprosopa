@@ -5,7 +5,7 @@ squareSprite: false
 requirements: [
   01a-02-item-nickel/75
   01a-05-item-aluminium/75
-  01a-06-item-chromium/50
+  01a-06-item-chromium/60
 ]
 placeableLiquid: true
 category: effect
@@ -19,7 +19,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-05-crest
+      preset: 19s-06-botanical-garden
     }
   ]
 }
