@@ -8,7 +8,7 @@ research: {
   parent: 09i-04-a-terra-basin
   objectives: [
     {
-      type: SectorComplete
+      type: OnSector
       preset: 19s-10-precipice
     }
   ]
