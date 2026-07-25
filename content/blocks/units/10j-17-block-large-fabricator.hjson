@@ -45,7 +45,15 @@ filter: [
   09i-13-technoworks,
   09i-15-pyroforge
 ]
-research: 10j-18-block-deconstructor
+research: {
+  parent: 10j-18-block-deconstructor
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-16-waterfall
+    }
+  ]
+}
 squareSprite: false
 maxBlockSize: 4
 researchCostMultiplier: 2

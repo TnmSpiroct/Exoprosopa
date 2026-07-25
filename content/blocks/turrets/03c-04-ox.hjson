@@ -165,7 +165,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-17-isolated-canyon
+      preset: 19s-16-waterfall
     }
   ]
 }

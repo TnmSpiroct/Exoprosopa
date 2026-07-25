@@ -32,7 +32,7 @@ newTargetInterval: 30
 loopSound: shootBeam
 loopSoundVolume: 1.1
 ammoTypes: {
-02b-04-miasma: {
+ 02b-04-miasma: {
   type: ContinuousLaserBulletType
   length: 190
   damage: 46
@@ -48,8 +48,8 @@ ammoTypes: {
   knockback: 1
   pierceCap: 2
   timescaleDamage: true
-}
-  02b-06-morphitix-plasma: {
+ }
+ 02b-06-morphitix-plasma: {
   type: ContinuousLaserBulletType
   length: 280
   rangeChange: 92
@@ -81,7 +81,7 @@ ammoTypes: {
     status: shocked
     buildingDamageMultiplier: 0.1
     }
-  }
+ }
 }
 shootY: 4.4
 drawer: {

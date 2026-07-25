@@ -68,7 +68,16 @@ drawer: {
     }
   ]
 }
-research: 07g-05-tokamak-reactor
+research: {
+  #TODO - change to proper sector
+  parent: 07g-05-tokamak-reactor
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-23-eridanus
+    }
+  ]
+}
 researchCostMultiplier: 0.75
 liquidCapacity: 160
 explosionRadius: 45

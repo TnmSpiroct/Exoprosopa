@@ -3,7 +3,15 @@ itemCapacity: 400
 health: 1500
 size: 5
 category: units
-research: 10j-18-block-deconstructor
+research: {
+  parent: 10j-18-block-deconstructor
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-16-waterfall
+    }
+  ]
+}
 requirements: [
   01a-05-item-aluminium/225
   01a-06-item-chromium/185

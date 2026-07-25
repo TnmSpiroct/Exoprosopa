@@ -199,7 +199,15 @@ drawer: {
     }
   ]
 }
-research: 03c-04-ox
+research: {
+  parent: 03c-07-phalanx
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-17-isolated-canyon
+    }
+  ]
+}
 researchCost: [
   01a-05-item-aluminium/8000
   01a-06-item-chromium/4000
