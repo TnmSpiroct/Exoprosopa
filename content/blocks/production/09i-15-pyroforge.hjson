@@ -15,7 +15,7 @@ outputItems: [
   01a-11-item-pyroxene/4
 ]
 itemCapacity: 50
-researchCostMultiplier: 2
+researchCostMultiplier: 1.5
 research: {
   #TODO - change to proper sector
   parent: 09i-12-gravitix-chamber-core
