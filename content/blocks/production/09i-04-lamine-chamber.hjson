@@ -5,11 +5,12 @@ hasLiquids: true
 health: 1000
 category: crafting
 research: {
+  #TODO - change to proper sector
   parent: 09i-04-laminator
   objectives: [
     {
-      type: OnSector
-      preset: 19s-16-waterfall
+      type: SectorComplete
+      preset: 19s-17-isolated-canyon
     }
   ]
 }

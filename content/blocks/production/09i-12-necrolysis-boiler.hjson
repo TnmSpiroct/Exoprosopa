@@ -6,7 +6,16 @@ liquidCapacity: 120
 hasLiquids: true
 health: 1000
 category: crafting
-research: 09i-11-o-anthracite-heater
+research: {
+  #TODO - change to proper sector
+  parent: 09i-11-o-anthracite-heater
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-23-eridanus
+    }
+  ]
+}
 itemCapacity: 30
 researchCost: [
   01a-02-item-nickel/8000

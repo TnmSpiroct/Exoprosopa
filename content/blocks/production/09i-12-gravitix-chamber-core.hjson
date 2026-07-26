@@ -7,6 +7,7 @@ hasLiquids: true
 health: 1250
 category: crafting
 research: {
+  #TODO - change to proper sector
   parent: 09i-11-o-anthracite-heater
   objectives: [
     {

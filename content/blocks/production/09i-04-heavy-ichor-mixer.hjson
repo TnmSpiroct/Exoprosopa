@@ -4,6 +4,7 @@ size: 3
 hasLiquids: true
 category: crafting
 research: {
+  #TODO - change to proper sector
   parent: 0004-enchantment
   objectives: [
     {
