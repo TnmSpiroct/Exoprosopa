@@ -26,7 +26,7 @@ requirements: [
 craftTime: 60
 craftEffect: none
 outputItems: [
-  01a-03-item-aquashard/1
+  01a-03-item-aquashard/2
 ]
 lightLiquid: 02b-05-hydrowater
 consumes: {
@@ -45,7 +45,7 @@ drawer: {
     {
     type: DrawLiquidTile
     drawLiquid: 02b-05-hydrowater
-    padding: 2
+    padding: 1.5
     }
     {
     type: DrawBubbles
