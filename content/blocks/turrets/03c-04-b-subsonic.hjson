@@ -43,7 +43,15 @@ shootType: {
 }
 category: turret
 squareSprite: false
-research: 03c-03-vulcan
+research: {
+  parent: 03c-03-vulcan
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-12-marshlands
+    }
+  ]
+}
 requirements: [
   01a-01-item-cobalt/160
   01a-02-item-nickel/475

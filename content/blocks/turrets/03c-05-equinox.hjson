@@ -20,7 +20,16 @@ researchCost: [
   01a-07-item-clevorite/1000
   01a-09-item-morphite/750
 ]
-research: 03c-04-b-subsonic
+research: {
+  #TODO - change to proper sector
+  parent: 03c-04-b-subsonic
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-14-pier
+    }
+  ]
+}
 consumes: {
   power: 11
 }

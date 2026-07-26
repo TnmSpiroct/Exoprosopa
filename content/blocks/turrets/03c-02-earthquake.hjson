@@ -134,7 +134,7 @@ drawer: {
   ]
 }
 research: {
-  parent: 03c-02-anvil
+  parent: 03c-02-calamity
   objectives: [
     {
       type: OnSector

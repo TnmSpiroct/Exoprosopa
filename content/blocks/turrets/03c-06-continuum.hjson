@@ -65,7 +65,16 @@ drawer: {
     }
   ]
 }
-research: 03c-04-preject
+research: {
+  #TODO - change to proper sector
+  parent: 03c-04-preject
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-23-eridanus
+    }
+  ]
+}
 researchCost: [
   01a-02-item-nickel/15000
   01a-05-item-aluminium/11000

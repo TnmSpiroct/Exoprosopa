@@ -5,9 +5,7 @@ hasLiquids: true
 # Example, really long recoil new horizon turret takes 20 sec to shoot, with minWarmup 0.1 you just hold the target for 2 sec and it will automatically fires in the next 18 seconds
 # While on that 18 seconds, the turret's position is locked. Just like corvus charging
 minWarmup: 0.99
-# How much warmup time
 warmupMaintainTime: 90
-# Warmup speed
 shootWarmupSpeed: 0.1
 # Size Blocks
 size: 3
@@ -108,7 +106,7 @@ ammoTypes: {
     trailRotation: true
     trailLength: 2
     trailWidth: 1.5
-    # Fragment of bullet created when the main bullet has the lifetime runs out
+    # Fragment of bullet created when the main bullet lifetime runs out
     fragRandomSpread: 0
     fragSpread: 45
     fragLifeMin: 1

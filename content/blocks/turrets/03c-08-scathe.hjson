@@ -19,7 +19,16 @@ requirements: [
   01a-10-item-bethine/225
 ]
 researchCostMultiplier: 0.5
-research: 03c-07-phalanx
+research: {
+  #TODO - must on enemy bases - change to proper sector
+  parent: 03c-07-phalanx
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-23-eridanus
+    }
+  ]
+}
 category: turret
 recoil: 1.5
 outlineColor: 2C2A36

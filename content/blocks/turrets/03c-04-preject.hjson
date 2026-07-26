@@ -201,7 +201,7 @@ drawer: {
 }
 research: {
   #TODO - change to proper sector
-  parent: 03c-07-phalanx
+  parent: 03c-04-ox
   objectives: [
     {
       type: OnSector
