@@ -2,6 +2,7 @@ type: StackConveyor
 speed: 0.0833333333
 itemCapacity: 20
 health: 200
+noSideBlend: true
 outputRouter: false
 hasPower: true
 conductivePower: true
