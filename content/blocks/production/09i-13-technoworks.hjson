@@ -5,6 +5,7 @@ hasLiquids: true
 health: 1500
 category: crafting
 research: {
+  #TODO - change to proper sector
   parent: 09i-02-f-elixir-autofreezer
   objectives: [
     {

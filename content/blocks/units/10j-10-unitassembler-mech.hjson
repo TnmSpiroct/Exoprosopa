@@ -5,6 +5,7 @@ category: units
 droneType: 19r-01-amber
 areaSize: 11
 research: {
+  #TODO - change to proper sector
   parent: 10j-06-unitreconstructor-mech
   objectives: [
     {

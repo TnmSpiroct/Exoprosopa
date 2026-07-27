@@ -5,6 +5,7 @@ sector: 146
 research: {
   parent: 19s-09-hazardous-wasteland
   objectives: [
+    10j-15-surge-launcher,
     {
       type: SectorComplete
       preset: 19s-09-hazardous-wasteland

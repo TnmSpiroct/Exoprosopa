@@ -3,7 +3,7 @@ difficulty: 10
 planet: frostnova
 sector: 82
 research: {
-  #TODO
+  #TODO - optional - need replacement
   parent: 19s-12-marshlands
   objectives: [
     {

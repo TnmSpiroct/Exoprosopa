@@ -17,6 +17,7 @@ consumes: {
 outputLiquid: 02b-02-ichor/0.5
 liquidCapacity: 120
 research: {
+  #TODO - change to proper sector
   parent: 09i-04-heavy-ichor-mixer
   objectives: [
     {

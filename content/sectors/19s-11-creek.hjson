@@ -5,6 +5,7 @@ sector: 86
 research: {
   parent: 19s-10-precipice
   objectives: [
+    06f-05-jet-pump,
     {
       type: SectorComplete
       preset: 19s-10-precipice

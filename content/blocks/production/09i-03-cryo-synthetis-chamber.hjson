@@ -95,7 +95,16 @@ drawer: {
   ]
 }
 squareSprite: false
-research: 09i-02-f-elixir-autofreezer
+research: {
+  #TODO - change to proper sector
+  parent: 09i-02-f-elixir-autofreezer
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-23-eridanus
+    }
+  ]
+}
 researchCostMultiplier: 2
 ambientSound: loopCultivator
 ambientSoundVolume: 0.4

@@ -86,11 +86,12 @@ engines: [
   }
 ]
 research: {
+  #TODO - change to proper sector
   parent: 14n-02-nicole
   objectives: [
     {
       type: OnSector
-      preset: 20t-99-ending
+      preset: 20t-37-myrra-heights
     }
   ]
 }

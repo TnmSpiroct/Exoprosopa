@@ -4,7 +4,7 @@ sector: 217
 research: {
   parent: 20t-04-trekker-campsite
   objectives: [
-    11k-02-core-empower,
+    11k-04-b-core-boundless,
     {
       type: SectorComplete
       preset: 20t-04-trekker-campsite

@@ -4,7 +4,15 @@ consumes: {
 }
 health: 1500
 category: units
-research: 10j-15-surge-launcher
+research: {
+  parent: 10j-15-surge-launcher
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-16-waterfall
+    }
+  ]
+}
 requirements: [
   01a-05-item-aluminium/300
   01a-06-item-chromium/310

@@ -4,6 +4,7 @@ sector: 41
 research: {
   parent: 19s-02-mountain-ridge
   objectives: [
+    03c-02-anvil,
     {
       type: SectorComplete
       preset: 19s-02-mountain-ridge

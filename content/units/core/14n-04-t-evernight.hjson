@@ -149,11 +149,12 @@ weapons: [
   }
 ]
 research: {
+  #TODO - change to proper sector
   parent: 14n-04-sepia
   objectives: [
     {
-      type: SectorComplete
-      preset: 20t-99-ending
+      type: OnSector
+      preset: 20t-37-myrra-heights
     }
   ]
 }

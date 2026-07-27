@@ -50,7 +50,15 @@ drawer: {
     }
   ]
 }
-research: 07g-03-burner-generator
+research: {
+  parent: 07g-03-burner-generator
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-04-cliffside
+    }
+  ]
+}
 researchCost: [
   01a-01-item-cobalt/2800
   01a-02-item-nickel/4000

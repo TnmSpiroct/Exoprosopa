@@ -72,7 +72,15 @@ drawer: {
 squareSprite: false
 ambientSound: loopCultivator
 ambientSoundVolume: 0.25
-research: 09i-02-elixir-converter
+research: {
+  parent: 09i-02-elixir-converter
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-04-cliffside
+    }
+  ]
+}
 researchCost: [
   01a-01-item-cobalt/1400
   01a-02-item-nickel/600

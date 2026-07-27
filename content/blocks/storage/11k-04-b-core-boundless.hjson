@@ -17,6 +17,7 @@ squareSprite: false
 itemCapacity: 5500
 unitCapModifier: 15
 research: {
+  #TODO - change to proper sector
   parent: 11k-04-a-core-crest
   objectives: [
     {

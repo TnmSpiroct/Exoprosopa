@@ -4,6 +4,7 @@ difficulty: 8
 planet: frostnova
 sector: 19
 research: {
+  #TODO - optional - need replacement
   parent: 19s-17-isolated-canyon
   objectives: [
     {

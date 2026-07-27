@@ -10,6 +10,7 @@ laserScale: 0.4
 laserColor1: CEADEEFF
 laserColor2: 6A4291FF
 research: {
+  #TODO - change to proper sector
   parent: 07g-02-large-powerline
   objectives: [
     {

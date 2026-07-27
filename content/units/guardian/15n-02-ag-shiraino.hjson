@@ -16,6 +16,17 @@ armor: 22
 hitSize: 34
 loopSound: loopDifferential
 loopSoundVolume: 0.8
+researchCostMultiplier: 0
+research: {
+  #TODO - change to proper sector
+  parent: 0010-fabricator
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-14-pier
+    }
+  ]
+}
 parts: [
  {
   suffix: -cockpit
