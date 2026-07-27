@@ -4,7 +4,7 @@ squareSprite: false
 health: 1580
 shootSound: shootImpale
 requirements: [
-  01a-01-item-cobalt/125
+  01a-01-item-cobalt/120
   01a-02-item-nickel/150
   01a-05-item-aluminium/100
 ]
@@ -37,7 +37,7 @@ ammoTypes: {
     backColor: a3bbeb
     frontColor: a3bbeb
     lightColor: a3bbeb
-    damage: 52.5
+    damage: 52.45
     speed: 6.4
     lifetime: 32.5
     despawnEffect: [
@@ -78,7 +78,7 @@ ammoTypes: {
     backColor: b1cbd8
     frontColor: b1cbd8
     lightColor: b1cbd8
-    damage: 70.75
+    damage: 66.25
     splashDamage: 10
     splashDamageRadius: 16
     speed: 6.4
@@ -96,7 +96,7 @@ ammoTypes: {
         colorTo: b1cbd8
     }
     ]
-    pierceCap: 4
+    pierceCap: 2
     pierce: true
     pierceBuilding: true  
     trailColor: b1cbd8
@@ -114,14 +114,14 @@ ammoTypes: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.3
     sprite: exoprosopa-impale-arrow
-    ammoMultiplier: 2
+    ammoMultiplier: 1
     width: 16
     height: 16
     hitColor: bca49f
     backColor: bca49f
     frontColor: bca49f
     lightColor: bca49f
-    damage: 84.75
+    damage: 82.75
     splashDamage: 10
     splashDamageRadius: 28
     speed: 8
@@ -139,7 +139,7 @@ ammoTypes: {
         colorTo: bca49f
     }
     ]
-    pierceCap: 6
+    pierceCap: 4
     pierce: true
     pierceBuilding: true  
     trailColor: bca49f
@@ -166,7 +166,7 @@ ammoTypes: {
     backColor: 51c59c
     frontColor: 51c59c
     lightColor: 51c59c
-    damage: 140
+    damage: 160
     speed: 9.5
     lifetime: 31
     despawnEffect: [
@@ -182,7 +182,7 @@ ammoTypes: {
         colorTo: 51c59c
     }
     ]
-    pierceCap: 8
+    pierceCap: 6
     pierce: true
     pierceBuilding: true  
     trailColor: 51c59c
@@ -228,7 +228,7 @@ research: {
   ]
 }
 researchCost: [
-  01a-01-item-cobalt/30
+  01a-01-item-cobalt/20
   01a-02-item-nickel/60
   01a-05-item-aluminium/20
 ]
