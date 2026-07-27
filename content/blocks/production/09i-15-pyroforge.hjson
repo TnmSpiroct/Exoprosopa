@@ -5,17 +5,17 @@ health: 1250
 category: crafting
 consumes: {
   items: [
-    01a-04-item-tantra-sand/24
+    01a-04-item-tantra-sand/20
     01a-10-item-bethine/3
   ]
   liquid: 02b-03-necroplasm/1
   power: 12
 }
 outputItems: [
-  01a-11-item-pyroxene/4
+  01a-11-item-pyroxene/5
 ]
-itemCapacity: 50
-researchCostMultiplier: 2
+itemCapacity: 40
+researchCostMultiplier: 1.5
 research: {
   #TODO - change to proper sector
   parent: 09i-12-gravitix-chamber-core
