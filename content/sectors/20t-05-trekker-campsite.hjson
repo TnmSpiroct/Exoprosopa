@@ -1,12 +1,12 @@
 difficulty: 8
 planet: frostnova
-sector: 22
+sector: 228
 research: {
-  parent: 19s-12-marshlands
+  parent: 19s-09-hazardous-wasteland
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-12-marshlands
+      preset: 19s-09-hazardous-wasteland
     }
   ]
 }

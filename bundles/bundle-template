@@ -200,12 +200,6 @@ sector.exoprosopa-19s-16-waterfall.description =
 sector.exoprosopa-19s-17-isolated-canyon.name = 
 sector.exoprosopa-19s-17-isolated-canyon.description = 
 
-# sector.exoprosopa-19s-18-polar-station.name = 
-# sector.exoprosopa-19s-18-polar-station.description = 
-
-# sector.exoprosopa-19s-19-tundra-peaks.name = 
-# sector.exoprosopa-19s-19-tundra-peaks.description = 
-
 sector.exoprosopa-19s-23-eridanus.name = 
 sector.exoprosopa-19s-23-eridanus.description = 
 
@@ -219,8 +213,8 @@ sector.exoprosopa-20t-02-foggy-fields.description =
 sector.exoprosopa-20t-03-reservoir.name = 
 sector.exoprosopa-20t-03-reservoir.description =
 
-sector.exoprosopa-20t-04-trekker-campsite.name = 
-sector.exoprosopa-20t-04-trekker-campsite.description = 
+sector.exoprosopa-20t-05-trekker-campsite.name = 
+sector.exoprosopa-20t-05-trekker-campsite.description = 
 
 sector.exoprosopa-20t-11-ridgeline.name = 
 sector.exoprosopa-20t-11-ridgeline.description = 

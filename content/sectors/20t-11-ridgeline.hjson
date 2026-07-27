@@ -1,13 +1,13 @@
 difficulty: 8
 planet: frostnova
-sector: 217
+sector: 144
 research: {
-  parent: 20t-04-trekker-campsite
+  parent: 19s-14-pier
   objectives: [
     11k-04-b-core-boundless,
     {
       type: SectorComplete
-      preset: 20t-04-trekker-campsite
+      preset: 19s-14-pier
     }
   ]
 }
