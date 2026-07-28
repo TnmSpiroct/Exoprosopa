@@ -8,15 +8,7 @@ requirements: [
 ]
 category: distribution
 squareSprite: false
-research: {
-  parent: 05e-05-crossblock
-  objectives: [
-    {
-      type: OnSector
-      preset: 19s-02-mountain-ridge
-    }
-  ]
-}
+research: 05e-05-crossblock
 researchCost: [
   01a-01-item-cobalt/6
 ]
