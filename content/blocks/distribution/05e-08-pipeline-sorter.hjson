@@ -8,7 +8,15 @@ requirements: [
 ]
 category: distribution
 squareSprite: false
-research: 05e-06-splitter
+research: {
+  parent: 05e-06-splitter
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-02-mountain-ridge
+    }
+  ]
+}
 researchCost: [
   01a-01-item-cobalt/80
   01a-02-item-nickel/40
