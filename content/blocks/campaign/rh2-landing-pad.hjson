@@ -22,3 +22,4 @@ bottomColor: 4b495a
 consumeLiquid: 02b-05-hydrowater
 consumeLiquidAmount: 4
 buildVisibility: notLegacyLaunchPadOnly
+shownPlanets: [frostnova, teresa]

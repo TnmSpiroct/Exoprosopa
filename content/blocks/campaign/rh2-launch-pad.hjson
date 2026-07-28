@@ -21,3 +21,4 @@ consumes: {
   power: 6
 }
 buildVisibility: notLegacyLaunchPadOnly
+shownPlanets: [frostnova, teresa]
