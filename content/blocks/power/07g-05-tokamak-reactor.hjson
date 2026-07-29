@@ -73,26 +73,21 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: 02b-02-ichor
       padding: 1.5
-      alpha: 0.8
+      alpha: 1
     }
     {
       type: DrawRegion
       suffix: -cover
     }
     {
-      type: DrawLiquidTile
-      drawLiquid: 02b-02-ichor
-      padding: 1.5
-      alpha: 0.5
-    }
-    {
-      type: DrawCrucibleFlame
-      flameColor: 51c59c
-      midColor: 51c59c
-      flameRad: 0.1
-      circleSpace: 0.1
-      particleSize: 1.2
-      particleRad: 10
+      type: DrawSoftParticles
+      alpha: 0.35
+      particleRad: 14
+      particleSize: 4
+      particleLife: 120
+      particles: 27
+      color: 51c59c
+      color2: 51c59c
     }
     {
       type: DrawDefault
