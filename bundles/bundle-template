@@ -28,6 +28,7 @@ newgrounds.enemy = [cyan]Claim this sector by capturing the [accent]enemy core[]
 
 attack.timer = [red]Prepare for an enemy attack!
 objective.warn = [red]Warning !!!
+objective.unstable = [salmon]Landing area is unstable, disallowed additional starting blocks[].
 objective.news = [accent]Reinforcements\nhas arrived !!!
 objective.t1 = [accent]Enemy Tier 1 production starting in [lightgray]{0}
 objective.t2 = [accent]Enemy Tier 2 production starting in [lightgray]{0}
