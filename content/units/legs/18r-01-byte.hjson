@@ -38,7 +38,7 @@ weapons: [
     x: 7
     y: 0
     name: byte
-    reload: 12
+    reload: 14
     mirror: true
     alternate: true
     rotate: false
@@ -48,7 +48,7 @@ weapons: [
       type: BasicBulletType
       speed: 2.5
       lifetime: 60.8
-      damage: 19
+      damage: 17
       width: 8
       height: 8
       shootEffect: shootSmall
