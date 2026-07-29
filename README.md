@@ -37,10 +37,12 @@ Check it on my profile. My username is RennTanami.<br><br>
 </div>
 
 - Campaign Sectors [onGoing]:
+  - Encampment [Remake]
   - Crest [Remake - onGoing]
   - Waterfall ☑
   - Antarstars [WIP]
   - Metropolis [WIP]
+  - Pier [ need replacement ]
   - Isolated Canyon [ need replacement ]
   - Eridanus [ need replacement ]
 - Campaign Sectors [TODO]:
