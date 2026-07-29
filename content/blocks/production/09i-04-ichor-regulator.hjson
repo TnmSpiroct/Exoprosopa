@@ -56,34 +56,43 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: 02b-02-ichor
-      padding: 2
+      padTop: 24
+      padBottom: 1.5
+      padLeft: 24
+      padRight: 1.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padTop: 24
+      padBottom: 1.5
+      padLeft: 1.5
+      padRight: 24
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padTop: 1.5
+      padBottom: 24
+      padLeft: 24
+      padRight: 1.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02b-02-ichor
+      padTop: 1.5
+      padBottom: 24
+      padLeft: 1.5
+      padRight: 24
     }
     {
       type: DrawBubbles
       color: edc787
       sides: 10
       recurrence: 3
-      spread: 9
+      spread: 8
       radius: 1.5
       amount: 32
-    }
-    {
-      type: DrawParticles
-      color: ffc2d6
-      alpha: 0.85
-      particleSize: 1.5
-      particles: 12
-      particleRad: 15
-      particleLife: 60
-    }
-    {
-      type: DrawParticles
-      color: fe97ba
-      alpha: 0.85
-      particleSize: 1.2
-      particles: 10
-      particleRad: 10
-      particleLife: 60
     }
     {
       type: DrawCrucibleFlame
@@ -98,6 +107,11 @@ drawer: {
     {
       type: DrawHeatInput
       suffix: -heat
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      color: ffc2d6ff
     }
   ]
 }
