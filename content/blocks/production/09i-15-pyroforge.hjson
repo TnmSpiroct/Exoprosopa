@@ -15,7 +15,12 @@ outputItems: [
   01a-11-item-pyroxene/5
 ]
 itemCapacity: 40
-researchCostMultiplier: 1.5
+researchCost: [
+  01a-06-item-chromium/3500
+  01a-07-item-clevorite/1800
+  01a-08-item-petal/700
+  01a-10-item-bethine/50
+]
 research: {
   #TODO - change to proper sector
   parent: 09i-12-gravitix-chamber-core
