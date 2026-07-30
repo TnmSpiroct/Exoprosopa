@@ -27,3 +27,4 @@ consumes: {
   power: 2.5
   liquid: 02b-03-necroplasm/0.04166666666
 }
+researchCostMultiplier: 0.5

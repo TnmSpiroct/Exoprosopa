@@ -12,4 +12,8 @@ requirements: [
 ]
 research: 06f-07-large-aqua-container
 liquidPadding: 1.8
-researchCostMultiplier: 1
+researchCost: [
+  01a-01-item-cobalt/8000
+  01a-06-item-chromium/3000
+  01a-10-item-bethine/500
+]

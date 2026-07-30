@@ -14,4 +14,10 @@ consumes: {
   power: 12
 }
 tier: 2
-researchCostMultiplier: 0.5
+researchCost: [
+  01a-05-item-aluminium/20000
+  01a-06-item-chromium/38000
+  01a-08-item-petal/15000
+  01a-10-item-bethine/6000
+  01a-11-item-pyroxene/4500
+]

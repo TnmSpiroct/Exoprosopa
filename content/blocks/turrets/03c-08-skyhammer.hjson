@@ -154,4 +154,10 @@ drawer: {
   ]
 }
 research: 03c-06-continuum
-researchCostMultiplier: 0.5
+researchCost: [
+  01a-01-item-cobalt/20000
+  01a-05-item-aluminium/15000
+  01a-08-item-petal/8000
+  01a-10-item-bethine/3000
+  01a-11-item-pyroxene/1200
+]

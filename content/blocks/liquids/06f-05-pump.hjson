@@ -14,5 +14,10 @@ consumes: {
   power: 2
 }
 liquidCapacity: 120
-researchCostMultiplier: 1
+researchCost: [
+  01a-05-item-aluminium/2800
+  01a-06-item-chromium/2000
+  01a-07-item-clevorite/800
+  01a-08-item-petal/1400
+]
 research: 06f-05-jet-pump

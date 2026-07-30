@@ -5,7 +5,11 @@ padding: 2
 canvasSize: 96
 category: logic
 research: 10i-002-canvas-large
-researchCostMultiplier: 1
+researchCost: [
+  01a-05-item-aluminium/4000
+  01a-08-item-petal/3000
+  01a-09-item-morphite/600
+]
 requirements: [
   01a-05-item-aluminium/120
   01a-08-item-petal/100

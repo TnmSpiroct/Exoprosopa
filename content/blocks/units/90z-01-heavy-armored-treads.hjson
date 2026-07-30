@@ -9,4 +9,4 @@ requirements: [
 ]
 databaseTag: unitpart
 research: 90z-02-hyperspace-engine
-researchCostMultiplier: 1
+researchCostMultiplier: 0.5

@@ -8,4 +8,4 @@ requirements: [
 ]
 databaseTag: unitpart
 research: 90z-03-geopowered-mechlegs
-researchCostMultiplier: 1
+researchCostMultiplier: 0.5

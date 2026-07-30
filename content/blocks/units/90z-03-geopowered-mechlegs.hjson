@@ -8,4 +8,4 @@ requirements: [
 ]
 databaseTag: unitpart
 research: 10j-17-unitpart-fabricator
-researchCostMultiplier: 1
+researchCostMultiplier: 0.5

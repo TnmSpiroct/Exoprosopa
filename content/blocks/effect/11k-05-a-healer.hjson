@@ -62,3 +62,4 @@ consumes: {
   liquid: 02b-02-a-purified-elixir/0.08333333333
   power: 2.5
 }
+researchCostMultiplier: 0.5
