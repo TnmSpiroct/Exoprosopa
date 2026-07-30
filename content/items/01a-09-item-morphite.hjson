@@ -3,7 +3,7 @@ cost: 1.3
 research: 01a-07-item-clevorite
 color: 51c59c
 charge: 2
-explosiveness: 0.25
+explosiveness: 0.2
 shownPlanets: [frostnova, teresa]
 frames: 11
 frameTime: 7

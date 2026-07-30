@@ -2,5 +2,5 @@ hardness: 4
 cost: 1.3
 research: 01a-08-item-petal
 color: BF97D6
-charge: 1.25
+radioactivity: 1.25
 shownPlanets: [frostnova, teresa]

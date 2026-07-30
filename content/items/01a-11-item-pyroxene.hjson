@@ -3,7 +3,6 @@ cost: 1.6
 research: 01a-10-item-bethine
 color: 8ff5ff
 charge: 1
-explosiveness: 0.1
 radioactivity: 1
 shownPlanets: [frostnova, teresa]
 frames: 20

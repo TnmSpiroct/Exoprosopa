@@ -3,4 +3,5 @@ hardness: 1
 lowPriority: true
 cost: 0.3
 research: 01a-06-item-chromium
+buildable: false
 shownPlanets: [frostnova, teresa]

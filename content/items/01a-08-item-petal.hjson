@@ -1,7 +1,7 @@
 color: ff91b3
 hardness: 3
 cost: 1.2
-charge: 0.95
+radioactivity: 1
 research: 01a-07-item-clevorite
 shownPlanets: [frostnova, teresa]
 frames: 12

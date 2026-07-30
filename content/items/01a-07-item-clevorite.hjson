@@ -2,6 +2,6 @@ color: afe986
 hardness: 3
 cost: 1.0
 charge: 0.4
-explosiveness: 0.4
+explosiveness: 0.1
 research: 01a-06-item-chromium
 shownPlanets: [frostnova, teresa]
