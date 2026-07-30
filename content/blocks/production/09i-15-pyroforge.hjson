@@ -16,10 +16,10 @@ outputItems: [
 ]
 itemCapacity: 40
 researchCost: [
-  01a-06-item-chromium/3500
-  01a-07-item-clevorite/1800
-  01a-08-item-petal/700
-  01a-10-item-bethine/50
+  01a-06-item-chromium/7500
+  01a-07-item-clevorite/3800
+  01a-08-item-petal/1200
+  01a-10-item-bethine/180
 ]
 research: {
   #TODO - change to proper sector
