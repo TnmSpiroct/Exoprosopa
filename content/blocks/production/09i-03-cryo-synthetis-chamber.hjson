@@ -48,9 +48,40 @@ drawer: {
     amount: 24
   }
   {
+    type: DrawRegion
+    suffix: -mid
+  }
+  {
     type: DrawLiquidTile
     drawLiquid: 02b-02-a-purified-elixir
-    padding: 3
+    padTop: 22.3
+    padBottom: 1.5
+    padLeft: 22.3
+    padRight: 1.5
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: 02b-02-a-purified-elixir
+    padTop: 22.3
+    padBottom: 1.5
+    padLeft: 1.5
+    padRight: 22.3
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: 02b-02-a-purified-elixir
+    padTop: 1.5
+    padBottom: 22.3
+    padLeft: 22.3
+    padRight: 1.5
+  }
+  {
+    type: DrawLiquidTile
+    drawLiquid: 02b-02-a-purified-elixir
+    padTop: 1.5
+    padBottom: 22.3
+    padLeft: 1.5
+    padRight: 22.3
   }
   {
     type: DrawBubbles
@@ -60,31 +91,6 @@ drawer: {
     spread: 8
     radius: 1.5
     amount: 12
-  }
-  {
-    type: DrawParticles
-    color: ffc2d6
-    alpha: 0.85
-    particleSize: 1.5
-    particles: 12
-    particleRad: 15
-    particleLife: 60
-  }
-  {
-    type: DrawParticles
-    color: fe97ba
-    alpha: 0.85
-    particleSize: 1.2
-    particles: 10
-    particleRad: 10
-    particleLife: 60
-  }
-  {
-    type: DrawCrucibleFlame
-    flameRad: 0.15
-    circleSpace: 0.15
-    particleSize: 1.2
-    particleRad: 10
   }
   {
     type: DrawRegion

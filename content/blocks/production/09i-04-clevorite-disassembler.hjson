@@ -52,6 +52,15 @@ drawer: {
       padding: 3
     }
     {
+      type: DrawBubbles
+      color: e1cf9a
+      sides: 10
+      recurrence: 3
+      spread: 12
+      radius: 1.5
+      amount: 46
+    }
+    {
       type: DrawParticles
       color: e1cf9a
       alpha: 0.85
@@ -59,6 +68,7 @@ drawer: {
       particles: 12
       particleRad: 15
       particleLife: 60
+      reverse: true
     }
     {
       type: DrawParticles
@@ -68,13 +78,7 @@ drawer: {
       particles: 10
       particleRad: 10
       particleLife: 60
-    }
-    {
-      type: DrawCrucibleFlame
-      flameRad: 0.15
-      circleSpace: 0.15
-      particleSize: 1.2
-      particleRad: 10
+      reverse: true
     }
     {
       type: DrawDefault
@@ -82,6 +86,6 @@ drawer: {
   ]
 }
 fogRadius: 4
-ambientSound: loopSmelter
+ambientSound: loopCultivator
 ambientSoundVolume: 0.14
 squareSprite: false
