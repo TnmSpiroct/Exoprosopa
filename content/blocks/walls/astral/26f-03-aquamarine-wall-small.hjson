@@ -8,3 +8,4 @@ requirements: [
 research: 000021-defence
 researchCostMultiplier: 0.5
 category: defense
+buuldVisibility: editorOnly
