@@ -5,14 +5,14 @@ health: 1250
 category: crafting
 consumes: {
   items: [
-    01a-04-item-tantra-sand/20
+    01a-04-item-tantra-sand/24
     01a-10-item-bethine/3
   ]
   liquid: 02b-03-necroplasm/1
   power: 12
 }
 outputItems: [
-  01a-11-item-pyroxene/5
+  01a-11-item-pyroxene/6
 ]
 itemCapacity: 40
 researchCost: [
