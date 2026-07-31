@@ -1,0 +1,13 @@
+type: Floor
+name: Morphitix Plasma (PvP Only)
+speedMultiplier: 0.1
+variants: 0
+isLiquid: true
+liquidDrop: 02b-06-morphitix-plasma
+cacheLayer: tar
+supportsOverlay: true
+liquidMultiplier: 0.20833333333333332
+drownTime: 45
+emitLight: true
+lightRadius: 35
+lightColor: B2EBD3AA

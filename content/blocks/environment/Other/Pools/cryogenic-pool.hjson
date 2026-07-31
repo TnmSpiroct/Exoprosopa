@@ -1,0 +1,13 @@
+type: Floor
+name: Cryogen (Pvp Only)
+speedMultiplier: 0.45
+variants: 0
+isLiquid: true
+liquidDrop: 02b-02-a-purified-elixir
+cacheLayer: tar
+supportsOverlay: true
+liquidMultiplier: 0.8333333333
+drownTime: 120
+emitLight: true
+lightRadius: 45
+lightColor: B2CFEBAA

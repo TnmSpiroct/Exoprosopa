@@ -1,0 +1,13 @@
+type: Floor
+name: Ichor (PvP Only)
+speedMultiplier: 0.125
+variants: 0
+isLiquid: true
+liquidDrop: 02b-02-ichor
+cacheLayer: tar
+supportsOverlay: true
+liquidMultiplier: 0.20833333333333332
+drownTime: 45
+emitLight: true
+lightRadius: 20
+lightColor: EBD1B2AA
