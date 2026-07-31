@@ -4,16 +4,12 @@ liquidCapacity: 180
 hasLiquids: true
 health: 1500
 category: crafting
-research: {
-  #TODO - change to proper sector
-  parent: 09i-02-f-elixir-autofreezer
-  objectives: [
-    {
-      type: OnSector
-      preset: 19s-15-bioproject-core
-    }
-  ]
-}
+research: 09i-02-f-elixir-autofreezer
+  #TODO - change to chosen sector
+  #parent: 09i-02-f-elixir-autofreezer
+  #objectives:
+  #    type: OnSector
+  #    preset: 
 itemCapacity: 40
 researchCostMultiplier: 1
 requirements: [

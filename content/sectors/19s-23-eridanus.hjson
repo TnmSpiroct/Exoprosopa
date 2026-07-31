@@ -5,11 +5,11 @@ planet: frostnova
 sector: 111
 research: {
   #TODO - optional - need replacement
-  parent: 19s-17-isolated-canyon
+  parent: 20t-15-isolated-canyon
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-17-isolated-canyon
+      preset: 20t-15-isolated-canyon
     }
   ]
 }

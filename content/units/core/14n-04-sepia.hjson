@@ -131,7 +131,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: 20t-11-ridgeline
+      preset: 20t-12-ridgeline
     }
   ]
 }

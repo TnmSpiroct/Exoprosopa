@@ -1,15 +1,14 @@
-captureWave: 25
+captureWave: 15
 difficulty: 7
 planet: frostnova
-sector: 22
+sector: 214
 research: {
   parent: 19s-10-precipice
   objectives: [
-    06f-05-jet-pump,
+    09i-13-technoworks,
     {
       type: SectorComplete
       preset: 19s-10-precipice
     }
   ]
 }
-outline: false

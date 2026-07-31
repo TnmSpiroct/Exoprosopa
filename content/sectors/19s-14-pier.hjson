@@ -5,11 +5,11 @@ planet: frostnova
 sector: 83
 research: {
   #TODO - optional - need replacement
-  parent: 19s-12-marshlands
+  parent: 19s-13-marshlands
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-12-marshlands
+      preset: 19s-13-marshlands
     }
   ]
 }
