@@ -101,3 +101,13 @@ weapons: [
     }
   }
 ]
+research: {
+  #TODO - change to proper sector
+  parent: 0010-fabricator
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-11-station-annex
+    }
+  ]
+}
