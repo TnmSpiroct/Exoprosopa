@@ -61,6 +61,7 @@ shoot: {
     }
   ]
 }
+ammoCapacity: 24
 ammoPerShot: 2
 ammoTypes: {
   01a-09-item-morphite: {
