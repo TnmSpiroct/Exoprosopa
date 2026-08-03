@@ -14,7 +14,7 @@ consumes: {
 outputItems: [
   01a-11-item-pyroxene/6
 ]
-itemCapacity: 40
+itemCapacity: 50
 researchCost: [
   01a-06-item-chromium/7500
   01a-07-item-clevorite/3800
