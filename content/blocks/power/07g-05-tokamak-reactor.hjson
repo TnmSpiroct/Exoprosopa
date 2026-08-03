@@ -76,10 +76,6 @@ drawer: {
       alpha: 1
     }
     {
-      type: DrawRegion
-      suffix: -cover
-    }
-    {
       type: DrawSoftParticles
       alpha: 0.35
       particleRad: 14
