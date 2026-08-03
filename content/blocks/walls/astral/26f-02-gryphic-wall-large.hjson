@@ -8,4 +8,4 @@ requirements: [
 research: 26f-01-gryphic-wall-small
 researchCostMultiplier: 0.5
 category: defense
-buuldVisibility: editorOnly
+buildVisibility: editorOnly
