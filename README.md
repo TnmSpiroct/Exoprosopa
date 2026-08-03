@@ -18,7 +18,7 @@
 </div>
 
 - Polished content & linear campaign progression.<br>
-- Capture and conquer with over 24 campaign maps.<br>
+- Capture and conquer with over 26 campaign maps.<br>
 - Over 21 items to be discovered, 188 blocks to be researched. and 20 different units to build!<br>
 - Harvest the planet with your technology before Astral Infection awaken and conquer the entire planet.
 
@@ -37,11 +37,15 @@ Check it on my profile. My username is RennTanami.<br><br>
 </div>
 
 - Campaign Sectors [onGoing]:
-  - Encampment [Remake]
+  - Encampment [Remake] ☑
   - Crest [Remake - onGoing]
+  - Technoscrap & Techno Plating Introduction
+    - Station Annex [ need votes ]
+    - Glistening Straits [ need votes ]
   - Waterfall ☑
   - Antarstars [WIP]
   - Metropolis [WIP]
+  - Parallel Gateways [WIP]
   - Pier [ need replacement ]
   - Isolated Canyon [ need replacement ]
   - Eridanus [ need replacement ]
@@ -51,31 +55,18 @@ Check it on my profile. My username is RennTanami.<br><br>
   - Horizon's Edge
   - Tundra Peaks
   - Sunken Farmfields
-- Optional Map: 
+- Optional Map:
   - Clover Springs ☑
   - Myrra Heights [WIP] ☑
   - Ridgeline
+- Custom Map:
   - Aeroplex Fort [Broken]
   - Novaris Facility
   - Tridantel
 - Upcoming:
   - Military Junkyard [WIP]
   - Polarstation [WIP]
-- Added New Blocks:
-  - Cryogenics Synthetis Chamber
-  - Nucrid Scrapper
-  - Hybrid Reactor
-  - Heavy Ichor Infuser
-  - Large Material Disassembler
-  - Large Block Fabricator
-  - Hoverducts
-  - Prime Regenerator
-  - Technoworks
-  - Sunlit Heater
-  - Underflow Gate
-  - Large Surge Launher
 - Added T5 Walker & Mech - Program & Monarch
-- Tiny Details for Tantra Floor Edges
 - New Ammunition
   - Petal Fragment Torrefy
   - Lamine Shellcore - Torrefy - Earthmover
@@ -87,9 +78,11 @@ Check it on my profile. My username is RennTanami.<br><br>
   - Powerline & Powerbeam
   - Morphite SolarPanel
   - Build Tower
+  - Conduits
 - Clevorite & Bloodstone Research Pacing
 - All Tier 3 & 4 Units Balancing
 - Sectors Organizing + Reverts Wproc Weather
+- Added Custom Liquid Tiles
 <br>
 
 ![Banner]
