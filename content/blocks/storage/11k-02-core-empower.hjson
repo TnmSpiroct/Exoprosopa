@@ -14,7 +14,7 @@ requiresCoreZone: true
 incinerateNonBuildable: true
 category: effect
 squareSprite: false
-itemCapacity: 5500
+itemCapacity: 5000
 unitCapModifier: 15
 research: {
   #TODO - change to proper sector
