@@ -4,11 +4,11 @@ health: 1000
 category: power
 research: 07g-05-a-geogenerator
 requirements: [
-  01a-02-item-nickel/125
-  01a-05-item-aluminium/75
-  01a-09-item-morphite/45
+  01a-02-item-nickel/175
+  01a-05-item-aluminium/95
+  01a-09-item-morphite/70
 ]
-powerProduction: 4
+powerProduction: 3
 researchCost: [
   01a-02-item-nickel/6000
   01a-05-item-aluminium/4000
