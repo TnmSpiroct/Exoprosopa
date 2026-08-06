@@ -17,7 +17,7 @@ incinerateNonBuildable: true
 category: effect
 squareSprite: false
 itemCapacity: 7000
-unitCapModifier: 15
+unitCapModifier: 25
 research: 11k-02-core-empower
 researchCost: [
  01a-01-item-cobalt/200000
