@@ -5,7 +5,7 @@ armor: 10
 shootSound: shootReign
 shootSoundVolume: 1.7
 requirements: [
-  01a-05-item-aluminium/550
+  01a-05-item-aluminium/660
   01a-06-item-chromium/350
   01a-07-item-clevorite/125
   01a-08-item-petal/280
@@ -21,7 +21,7 @@ minWarmup: 0.55
 warmupMaintainTime: 160
 shootWarmupSpeed: 0.08
 shoot: {
-shots: 3
+shots: 2
 shotDelay: 10
 firstShotDelay: 15
 }
@@ -32,7 +32,7 @@ outlineColor: 2C2A36
 targetAir: false
 targetGround: true
 rotateSpeed: 1.25
-reload: 185
+reload: 195
 range: 390
 shootY: 7
 ammoPerShot: 3
@@ -44,7 +44,7 @@ ammoTypes: {
     ammoMultiplier: 1
     hitColor: FF91B3
     damage: 80
-    splashDamage: 240
+    splashDamage: 280
     splashDamageRadius: 64
     width: 14
     height: 12
@@ -75,8 +75,8 @@ ammoTypes: {
     despawnShake: 8
     ammoMultiplier: 1
     hitColor: 51C59C
-    damage: 60
-    splashDamage: 350
+    damage: 120
+    splashDamage: 390
     splashDamageRadius: 64
     width: 14
     height: 12
@@ -87,7 +87,7 @@ ammoTypes: {
     hitEffect: titanExplosionFrag
     hitSound: explosionTitan
     status: 13m-03-hsos6
-    statusDuration: 240
+    statusDuration: 75
     pierceCap: 4
     pierce: true
     collidesAir: false
@@ -125,8 +125,8 @@ ammoTypes: {
     despawnShake: 10
     ammoMultiplier: 1
     hitColor: bf97d6
-    damage: 100
-    splashDamage: 400
+    damage: 180
+    splashDamage: 570
     splashDamageRadius: 96
     width: 14
     height: 12
