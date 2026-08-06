@@ -5,10 +5,10 @@ armor: 5
 shootSound: shootBreach
 shootSoundVolume: 0.9
 requirements: [
-  01a-02-item-nickel/340
-  01a-05-item-aluminium/240
+  01a-02-item-nickel/350
+  01a-05-item-aluminium/200
   01a-07-item-clevorite/80
-  01a-08-item-petal/145
+  01a-08-item-petal/120
 ]
 category: turret
 coolant: {
@@ -29,7 +29,7 @@ shootY: 6
 shoot: {
   firstShotDelay: 35
   shotDelay: 5
-  shots: 12
+  shots: 10
 }
 maxAmmo: 60
 ammoPerShot: 6
@@ -41,7 +41,7 @@ ammoTypes: {
       height: 12
       pierceCap: 3
       lifetime: 40
-      damage: 64.75
+      damage: 78
       speed: 7
       ammoMultiplier: 2
       shootEffect: colorSpark
@@ -69,7 +69,7 @@ ammoTypes: {
       height: 12
       pierceCap: 7
       lifetime: 39
-      damage: 57.25
+      damage: 68
       speed: 8
       ammoMultiplier: 4
       shootEffect: colorSpark
