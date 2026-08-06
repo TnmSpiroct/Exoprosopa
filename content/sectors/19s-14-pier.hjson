@@ -1,8 +1,7 @@
 captureWave: 20
 difficulty: 10
 planet: frostnova
-#placeholder for pre-sector pier - 82
-sector: 83
+sector: 19
 research: {
   #TODO - optional - need replacement
   parent: 19s-13-marshlands

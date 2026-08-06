@@ -1,6 +1,7 @@
 difficulty: 4
 planet: frostnova
-sector: 170
+#placeholder - move to 66 once SunkenFarmfields release
+sector: 126
 research: {
   parent: 19s-05-crest
   objectives: [

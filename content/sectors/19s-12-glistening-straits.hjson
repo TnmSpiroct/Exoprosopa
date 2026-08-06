@@ -1,7 +1,7 @@
 captureWave: 15
 difficulty: 7
 planet: frostnova
-sector: 214
+sector: 86
 research: {
   parent: 19s-10-precipice
   objectives: [

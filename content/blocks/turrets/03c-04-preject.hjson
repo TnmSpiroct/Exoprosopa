@@ -87,7 +87,7 @@ ammoTypes: {
     hitEffect: titanExplosionFrag
     hitSound: explosionTitan
     status: 13m-03-hsos6
-    statusDuration: 75
+    statusDuration: 90
     pierceCap: 4
     pierce: true
     collidesAir: false

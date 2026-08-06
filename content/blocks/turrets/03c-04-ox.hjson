@@ -41,7 +41,7 @@ ammoTypes: {
       height: 12
       pierceCap: 3
       lifetime: 40
-      damage: 78
+      damage: 78.45
       speed: 7
       ammoMultiplier: 2
       shootEffect: colorSpark
@@ -69,7 +69,7 @@ ammoTypes: {
       height: 12
       pierceCap: 7
       lifetime: 39
-      damage: 68
+      damage: 67.25
       speed: 8
       ammoMultiplier: 4
       shootEffect: colorSpark

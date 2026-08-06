@@ -1,7 +1,8 @@
 captureWave: 30
 difficulty: 8
 planet: frostnova
-sector: 82
+#placeholder for post-sector - 83
+sector: 143
 research: {
   parent: 19s-11-creek
   objectives: [
