@@ -10,7 +10,7 @@ loopSoundVolume: 1
 scaleDamageEfficiency: true
 consumes: {
   liquid: 02b-06-morphitix-plasma/0.0833333333
-  power: 8
+  power: 9
 }
 hasLiquids: true
 liquidCapacity: 30
@@ -18,7 +18,7 @@ requirements: [
   01a-02-item-nickel/650
   01a-05-item-aluminium/500
   01a-07-item-clevorite/210
-  01a-10-item-bethine/100
+  01a-10-item-bethine/125
 ]
 category: turret
 outlineColor: 2C2A36
@@ -32,7 +32,7 @@ shootY: -0.5
 shootType: {
   type: PointLaserBulletType
   buildingDamageMultiplier: 0.1
-  damage: 160
+  damage: 150
   hitColor: dcc6c6
 }
 unitSort: strongest
