@@ -31,7 +31,7 @@ requirements: [
 craftTime: 120
 craftEffect: none
 outputItems: [
-  01a-04-item-tantra-sand/12
+  01a-04-item-tantra-sand/24
 ]
 consumes: {
   items: [
