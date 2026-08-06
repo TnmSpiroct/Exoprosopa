@@ -22,7 +22,7 @@ weapons: [
   {
     reload: 1
     shootOnDeath: true
-    mirror: false
+    mirror: true
     shootCone: 360
     shake: 1
     bullet: {
