@@ -5,7 +5,6 @@ baseEfficiency: 0
 minEfficiency: 8.9
 boostScale: 0.111111111111111111111111111111111111
 liquidCapacity: 120
-hasLiquids: true
 health: 650
 category: crafting
 research: {
@@ -17,7 +16,7 @@ research: {
     }
   ]
 }
-itemCapacity: 20
+itemCapacity: 30
 researchCost: [
   01a-02-item-nickel/600
   01a-05-item-aluminium/400
@@ -30,9 +29,7 @@ requirements: [
 ]
 craftTime: 120
 craftEffect: none
-outputItems: [
-  01a-04-item-tantra-sand/24
-]
+outputItem: 01a-04-item-tantra-sand/24
 consumes: {
   items: [
     01a-02-item-nickel/2
