@@ -28,7 +28,7 @@
 </div>
 Thankyou for playing this mod!<br>
 You can contributes maps or gives suggestions by join Exoprosopa Discord Server!<br>
-Check it on my profile. My username is RennTanami.<br><br>
+Check it on my profile. My username is TnmSpiroctsub.<br><br>
 <br>
 
 <div align = center>
@@ -43,7 +43,6 @@ Check it on my profile. My username is RennTanami.<br><br>
     - Station Annex [ need votes ]
     - Glistening Straits [ need votes ]
   - Waterfall ☑
-  - Antarstars [WIP]
   - Metropolis [WIP]
   - Parallel Gateways [WIP]
   - Pier [ need replacement ]
