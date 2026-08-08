@@ -34,6 +34,7 @@ shootY: 6
 shootType: {
   type: ArtilleryBulletType
   buildingDamageMultiplier: 0.1
+  ignoreSpawnAngle: true
   collidesAir: true
   width: 16
   height: 16
