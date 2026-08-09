@@ -84,6 +84,7 @@ shootType: {
         colorFrom: edc66c
         colorTo: baa164
         baseRotation: 0
+        useRotation: false
       }
       {
         followParent: false
@@ -98,6 +99,7 @@ shootType: {
         colorFrom: edc66c
         colorTo: baa164
         baseRotation: 90
+        useRotation: false
       }
       {
         followParent: false
@@ -112,6 +114,7 @@ shootType: {
         colorFrom: edc66c
         colorTo: baa164
         baseRotation: -90
+        useRotation: false
       }
       {
         followParent: false
@@ -126,6 +129,7 @@ shootType: {
         colorFrom: edc66c
         colorTo: baa164
         baseRotation: 180
+        useRotation: false
       }
     ]
   }
