@@ -3,7 +3,8 @@ type: SteamVent
 blendGroup: nova-floor
 parent: nova-floor
 attributes: {
-   steam: 2
+   steam: 1.6
+   # default: 2, see if this works
 }
 effectSpacing: 25
 effect:{
