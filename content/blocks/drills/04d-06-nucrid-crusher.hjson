@@ -3,7 +3,7 @@ health: 650
 size: 2
 category: production
 research: {
-  parent: 04d-03-r-ore-blaster
+  parent: 0004-enchantment
   objectives: [
     {
       type: OnSector

@@ -30,6 +30,8 @@ attack.timer = [red]Prepare for an enemy attack!
 objective.warn = [red]Warning !!!
 objective.unstable = [salmon]Landing area is unstable, disallowed additional starting blocks[].
 objective.news = [accent]Reinforcements\nhas arrived !!!
+objective.exovents = [cyan]These are [accent]Exovents[]\nThe [accent]Exovents[] can generate more power and resources!
+wave.naval = [#4fab92]Astral[] naval units have been sighted on the radar, no further data available.\nIt might be stronger than normal units.
 objective.t1 = [accent]Enemy Tier 1 production starting in [lightgray]{0}
 objective.t2 = [accent]Enemy Tier 2 production starting in [lightgray]{0}
 objective.t3 = [accent]Enemy Tier 3 production starting in [lightgray]{0}
@@ -56,7 +58,7 @@ hazard.clevo = [cyan]Research and place the [accent]Terraformic Basin[] to produ
 hazard.geo = [cyan]Research and place 2 [accent]Geothermal Generators[]\nthen supply it with [#b979bd]Miasma[] and [#76c9e5]Cryogenics[] to generate power.
 hazard.miasma = [#b979bd]Miasma[cyan] is very reactive to [#d488ea]Elixir[], keep your factory safe from it.
 
-placeholder.technoscrap = [cyan]Mine this [accent]Technoscrap[] using [accent]Ore Extractor[].\nReseach and place the [accent]Technoworks[] to processing it into [accent]Techno Plating[].
+annex.technoscrap = [cyan]Extract [accent]Technoscrap[] using [accent]Ore Extractor[].\nReseach and place the [accent]Technoworks[] to processing it into [accent]Techno Plating[].
 
 pier.aircraft = [red]⚠ Unidentified Aircraft Incoming ⚠
 
@@ -71,12 +73,15 @@ erid.chro = [cyan]The sky darkens...
 erid.clev = [cyan]The natives has awakened...
 erid.mor = [cyan]The storm is coming...
 erid.petal = [cyan]The enemy notices your presences...
-erid.grav1 = [cyan]The Rhodes you have know...
-erid.grav2 = [salmon]Its here to take you down
+erid.grav = [cyan]Rhodes.. the enemy you have know its here to take you down
 erid.prepare = [scarlet]Prepare yourself!
+erid.query = [salmon] You are now in enemy territory. its best not to build anything around here.
 
 # < Optional Objectives Region >
-myra.south = [cyan]Move to south west to receive further instructions
+trekker.nuclearlaunch = [accent]⚠ Nuclear launch detected: [lightgray]{0}
+trekker.warning = [red]⚠ NUCLEAR STRIKE INBOUND ⚠\n[lightgray]Construct backup cores immediately!
+
+myra.south = [cyan]Move to south east to receive further instructions
 myra.station = [cyan]This is your [accent]Signal Transmission Station[].\n\nIt would contact closer base and send reinforcements to aid you in your operation.\n\nPower the [accent]Signal Navigator[] attached to it to turn it on. Do not let it get turned off after you booted it.\n\n[salmon]DO NOT DECONSTRUCT NOR LET ANY COMPONENTS BE DAMAGED AT ALL COSTS!
 myra.proc.errorcode = [salmon]ERROR CODE : 67-251\nINSUFFICIENT OR UNSTABLE POWER INPUT\nPLEASE RESOLVE ISSUE TO ACTIVATE SIGNAL TRANSMISSION STATION
 
@@ -118,14 +123,9 @@ mrya.sts1 = [lightgray]You feel a sense of shrouded dread as these [accent]Signa
 myra.sts2 = [lightgray]You feel the enemies rage grow even more stronger.
 myra.sts3 = [lightgray]You see the sky light up with auroras and a railgun shells.
 
-trekker.nuclearlaunch = [accent]⚠ Nuclear launch detected: [lightgray]{0}
-trekker.warning = [red]⚠ NUCLEAR STRIKE INBOUND ⚠\n[lightgray]Construct backup cores immediately!
-
 # < Custom Objectives Region >
 novaris.alert = [red]⚠ Alerting All Nearby Bases ⚠
 novaris.bridge1 = [red]⚠ Enemy Reinforcement approaching Bridge 1 ⚠
-
-militaryjunkyard.exovents = [cyan]These are [accent]Exovents[]\nThe [accent]Exovents[] can generate more power and resources!
 
 ending.thanks = [cyan]You have reached the end of the campaign for now.\nAt this point, you should have researched [#bf97d6]gravitix[] and ready for upcoming update.\n\nYou can make your own maps and send it on [accent]My Exoprosopa Server[].\nIf its good, I will add it to the campaign.\n\nYou can do anything in here, this sector is automatically captured after 5 minutes.\n\n[accent]Thankyou for playing!
 
@@ -181,14 +181,14 @@ sector.exoprosopa-19s-09-hazardous-wasteland.description =
 sector.exoprosopa-19s-10-precipice.name = 
 sector.exoprosopa-19s-10-precipice.description = 
 
+sector.exoprosopa-19s-11-glistening-straits.name = 
+sector.exoprosopa-19s-11-glistening-straits.description = 
+
 sector.exoprosopa-19s-11-station-annex.name = 
 sector.exoprosopa-19s-11-station-annex.description = 
 
-sector.exoprosopa-19s-12-glistening-straits.name = 
-sector.exoprosopa-19s-12-glistening-straits.description = 
-
-sector.exoprosopa-19s-11-creek.name = 
-sector.exoprosopa-19s-11-creek.description = 
+sector.exoprosopa-19s-12-creek.name = 
+sector.exoprosopa-19s-12-creek.description = 
 
 sector.exoprosopa-19s-13-marshlands.name = 
 sector.exoprosopa-19s-13-marshlands.description = 
@@ -207,6 +207,9 @@ sector.exoprosopa-19s-16-waterfall.description =
 
 sector.exoprosopa-19s-23-eridanus.name = 
 sector.exoprosopa-19s-23-eridanus.description = 
+
+sector.exoprosopa-19s-24-bisect.name = Bisect
+sector.exoprosopa-19s-24-bisect.description = [cyan]WIP[].
 
 # Optional Sectors
 sector.exoprosopa-20t-01-luminary.name = 
@@ -688,14 +691,17 @@ block.exoprosopa-0011-effect.description =
 block.exoprosopa-0012-sector.name = 
 block.exoprosopa-0012-sector.description = 
 
-block.exoprosopa-0013-item.name = 
-block.exoprosopa-0013-item.description = 
+block.exoprosopa-0013-guardian.name = 
+block.exoprosopa-0013-guardian.description = 
 
-block.exoprosopa-0014-liquid.name = 
-block.exoprosopa-0014-liquid.description = 
+block.exoprosopa-0014-item.name = 
+block.exoprosopa-0014-item.description = 
 
-block.exoprosopa-0015-unit.name = 
-block.exoprosopa-0015-unit.description = 
+block.exoprosopa-0015-liquid.name = 
+block.exoprosopa-0015-liquid.description = 
+
+block.exoprosopa-0016-unit.name = 
+block.exoprosopa-0016-unit.description = 
 
 # Custom Database
 database-tag.unitpart = 
@@ -706,7 +712,7 @@ block.exoprosopa-rh-large-forcefield-projector.name =
 block.exoprosopa-rh2-landing-pad.name = 
 block.exoprosopa-rh2-launch-pad.name = 
 
-# Storage - Cores - Effects
+# Storage - Cores - Effects Blocks
 block.exoprosopa-11k-00-core-suzuran-kit.name = 
 block.exoprosopa-11k-00-core-suzuran-kit.description = 
 

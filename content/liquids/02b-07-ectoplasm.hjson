@@ -6,7 +6,7 @@ explosiveness: 4
 boilPoint: 0.85
 gasColor: d9e1e6E6
 research: {
-  parent: 02b-03-necroplasm
+  parent: 02b-04-miasma
   objectives: [
     {
       type: SectorComplete

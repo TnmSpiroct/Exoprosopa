@@ -3,12 +3,11 @@ difficulty: 7
 planet: frostnova
 sector: 215
 research: {
-  parent: 19s-10-precipice
+  parent: 19s-11-glistening-straits
   objectives: [
-    06f-05-jet-pump,
     {
       type: SectorComplete
-      preset: 19s-10-precipice
+      preset: 19s-11-glistening-straits
     }
   ]
 }

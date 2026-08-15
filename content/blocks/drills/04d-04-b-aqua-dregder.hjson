@@ -3,11 +3,11 @@ health: 450
 size: 2
 category: production
 research: {
-  parent: 04d-03-ore-extractor
+  parent: 0003-factory
   objectives: [
     {
       type: OnSector
-      preset: 19s-11-creek
+      preset: 19s-11-glistening-straits
     }
   ]
 }

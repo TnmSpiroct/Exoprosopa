@@ -10,7 +10,7 @@ floating: true
 liquidCapacity: 100
 squareSprite: false
 buildCostMultiplier: 1.5
-research: 06f-03-seaduct-router
+research: 06f-02-seaduct-junction
 researchCost: [
   01a-01-item-cobalt/15
 ]

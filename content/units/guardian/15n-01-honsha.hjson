@@ -103,7 +103,7 @@ weapons: [
 ]
 research: {
   #TODO - change to proper sector
-  parent: 0010-fabricator
+  parent: 0013-guardian
   objectives: [
     {
       type: SectorComplete

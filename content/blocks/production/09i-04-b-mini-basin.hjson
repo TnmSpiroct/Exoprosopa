@@ -5,11 +5,11 @@ hasLiquids: true
 health: 850
 category: crafting
 research: {
-  parent: 09i-04-a-terra-basin
+  parent: 09i-04-v-elemental-separator
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-11-creek
+      preset: 19s-12-creek
     }
   ]
 }

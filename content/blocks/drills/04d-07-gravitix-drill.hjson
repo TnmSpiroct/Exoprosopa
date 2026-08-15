@@ -2,7 +2,7 @@ type: BurstDrill
 size: 5
 health: 1750
 category: production
-research: 04d-04-bore-jet
+research: 04d-03-r-ore-blaster
 hasLiquids: true
 drillTime: 180
 drillMultipliers: {

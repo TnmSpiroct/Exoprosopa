@@ -5,7 +5,6 @@ sector: 142
 research: {
   parent: 19s-10-precipice
   objectives: [
-    09i-13-technoworks,
     {
       type: SectorComplete
       preset: 19s-10-precipice

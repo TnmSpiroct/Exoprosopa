@@ -7,5 +7,5 @@ requirements: [
   01a-07-item-clevorite/35
 ]
 databaseTag: unitpart
-research: 10j-17-unitpart-fabricator
+research: 10j-09-unitassembler-ship
 researchCostMultiplier: 0.5

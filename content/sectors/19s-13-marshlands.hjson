@@ -4,11 +4,11 @@ planet: frostnova
 #placeholder for post-sector - 83
 sector: 143
 research: {
-  parent: 19s-11-creek
+  parent: 19s-11-station-annex
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-11-creek
+      preset: 19s-11-station-annex
     }
   ]
 }

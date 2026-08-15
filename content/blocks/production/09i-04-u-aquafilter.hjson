@@ -5,11 +5,11 @@ hasLiquids: true
 health: 1000
 category: crafting
 research: {
-  parent: 09i-01-aluminium-furnace
+  parent: 04d-04-b-aqua-dregder
   objectives: [
     {
       type: OnSector
-      preset: 19s-11-creek
+      preset: 19s-11-glistening-straits
     }
   ]
 }

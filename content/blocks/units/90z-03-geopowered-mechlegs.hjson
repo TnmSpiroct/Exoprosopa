@@ -7,5 +7,5 @@ requirements: [
   01a-06-item-chromium/45
 ]
 databaseTag: unitpart
-research: 10j-17-unitpart-fabricator
+research: 10j-10-unitassembler-mech
 researchCostMultiplier: 0.5

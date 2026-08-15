@@ -3,7 +3,7 @@ size: 4
 health: 650
 category: production
 research: {
-  parent: 04d-02-elixir-collector
+  parent: 04d-03-ore-extractor
   objectives: [
     {
       type: OnSector

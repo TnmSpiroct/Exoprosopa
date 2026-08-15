@@ -8,6 +8,7 @@ speed: 0
 physics: false
 lightOpacity: 0
 lightRadius: 0
+outlineColor: ffffff00
 weapons: [
     {
         shootOnDeath: true
