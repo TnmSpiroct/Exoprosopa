@@ -7,15 +7,15 @@ description:
   [[]#93E2EE]Exoprosopa[[]] adds Frostnova as a third planet into the game alongside with its own unique techtree and environment.
 
   Polished content & linear campaign progression.
-  Capture and conquer with over 24 campaign maps.
+  Capture and conquer with over 26 campaign maps.
   Over 21 items to be discovered, 188 blocks to be researched. and 20 different units to build!
   Harvest the planet with your technology before Astral Infection awaken and conquer the entire planet.
 
   [accent[]]Thankyou for playing this mod! 
   You can contributes maps or gives suggestions by join Exoprosopa Discord Server! 
-  Check it on my profile. My username is TnmSpiroct.
+  Check it on my profile. My username is TnmSpiroctsub.
 '''
-version: "0.91"
+version: "0.92"
 minGameVersion: "159"
 subtitle: "[#93e2ee[]]V0.9 Pre-Finalize Update!"
 repo: "TnmSpiroct/Exoprosopa"

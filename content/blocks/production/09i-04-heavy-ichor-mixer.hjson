@@ -5,7 +5,7 @@ hasLiquids: true
 category: crafting
 research: {
   #TODO - change to proper sector
-  parent: 0004-enchantment
+  parent: 04d-05-ichor-rig
   objectives: [
     {
       type: OnSector

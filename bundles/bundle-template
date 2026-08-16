@@ -15,7 +15,6 @@ newgrounds.powerline = [cyan]Research and place 3 [accent]Powerlines[] to distri
 newgrounds.conduit = [cyan]Supply the [accent]Ore Extractor[] with [#d488ea]Elixir[] from the [accent]Elixir Collector[] with [accent]Sea Conduit[].
 newgrounds.pipe = [cyan]Connect the [accent]Ore Extractor[] to your core\nby placing several [accent]Transport Pipes[] to transport the mined [#647cc2]Cobalt[] into the core.
 newgrounds.nickel = [#e1cf9a]Nickel[cyan] is required for most factories in Exoprosopa.\n\nExpand the mining area.
-newgrounds.vent = [cyan]Place more [accent]Elixir Collectors[]\nto operate more [accent]Ore Extractors[].
 newgrounds.furnace = [cyan]Research the [accent]Aluminium Furnace[]\n\nThis factory requires [#647cc2]Cobalt[], [accent]Anthracite[], and [accent]power[]\nto produce [#729aaf]Aluminium[].\n\n\ue804 Mine [accent]Anthracite[] up there \ue804.
 newgrounds.aluminium = [cyan]Expand the production chain.\nCollect [accent]250 Aluminium[] to build a [accent]Unit Factory[].
 newgrounds.anthracite = [accent]Anthracite[cyan] functions as a fuel for [accent]Aluminium Furnaces[cyan]\nThe core [red]wont accept [accent]anthracite[] as a material.
@@ -50,15 +49,11 @@ cliffside.chromium = [cyan]This sector contains deposits of [#9d7f7f]Chromium[].
 bgard.sdriver = [cyan]Research [accent]Surge Driver[cyan] from the \ue875 tech tree.\nPlace two [accent]Surge Drivers[] in the designated locations.\n\nSet up the [accent]Surge Driver[] by clicking one of them, then selecting the other one\nto transport resources from the other side of the island.
 bgard.chromium = [cyan]Collect additional [#9d7f7f]Chromium[] by transporting it via [accent]Surge Drivers[].
 
-cornerstone.mountain = [cyan]The enemy base is protected with strong defences.\nConstruct tier 2 tank units to break through the enemy defences.
-
-escarpment.tantrium = [#90bdd8]Tantrium[cyan] is a very scarce resource in this sector.\n\nResearch and place a [accent]Tantraformer[cyan] to create [#90bdd8]Tantrium[cyan] utilizing the surrounding environment.
-
 hazard.clevo = [cyan]Research and place the [accent]Terraformic Basin[] to produce [#afe986]Clevorite[].
 hazard.geo = [cyan]Research and place 2 [accent]Geothermal Generators[]\nthen supply it with [#b979bd]Miasma[] and [#76c9e5]Cryogenics[] to generate power.
 hazard.miasma = [#b979bd]Miasma[cyan] is very reactive to [#d488ea]Elixir[], keep your factory safe from it.
 
-annex.technoscrap = [cyan]Extract [accent]Technoscrap[] using [accent]Ore Extractor[].\nReseach and place the [accent]Technoworks[] to processing it into [accent]Techno Plating[].
+annex.technoscrap = [cyan]Extract [accent]Technoscrap[] using [accent]Ore Extractor[].\nResearch and place the [accent]Technoworks[] to processing it into [accent]Techno Plating[].
 
 pier.aircraft = [red]⚠ Unidentified Aircraft Incoming ⚠
 
@@ -72,10 +67,10 @@ erid.alu = [cyan]You feel the incoming danger arounds you...
 erid.chro = [cyan]The sky darkens...
 erid.clev = [cyan]The natives has awakened...
 erid.mor = [cyan]The storm is coming...
-erid.petal = [cyan]The enemy notices your presences...
-erid.grav = [cyan]Rhodes.. the enemy you have know its here to take you down
+erid.petal = [cyan]The enemy notices your presences...  
+erid.grav = [cyan]Rhodes.. [salmon]the enemy you know its here to take you down...
 erid.prepare = [scarlet]Prepare yourself!
-erid.query = [salmon] You are now in enemy territory. its best not to build anything around here.
+erid.query = [salmon]You are now in enemy territory. its best not to build anything around here.
 
 # < Optional Objectives Region >
 trekker.nuclearlaunch = [accent]⚠ Nuclear launch detected: [lightgray]{0}
@@ -1139,7 +1134,7 @@ unit.exoprosopa-31k-01-beth.description =
 
 # Drills Blocks
 block.exoprosopa-22b-01-necroplasm-extractor.name = 
-block.exoprosopa-22b-01-necroplasm-extractor..description = 
+block.exoprosopa-22b-01-necroplasm-extractor.description = 
 
 # Liquid Blocks
 block.exoprosopa-24d-01-chute.name = 

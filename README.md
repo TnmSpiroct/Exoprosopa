@@ -39,12 +39,11 @@ Check it on my profile. My username is TnmSpiroctsub.<br><br>
 - Campaign Sectors [onGoing]:
   - Encampment [Remake] ☑
   - Crest [Remake - onGoing]
-  - Technoscrap & Techno Plating Introduction
-    - Station Annex [ need votes ]
-    - Glistening Straits [ need votes ]
+  - Station Annex ☑
+  - Glistening Straits ☑
   - Waterfall ☑
   - Metropolis [WIP]
-  - Parallel Gateways [WIP]
+  - Bisect [WIP]
   - Pier [ need replacement ]
   - Isolated Canyon [ need replacement ]
   - Eridanus [ need replacement ]
@@ -54,6 +53,8 @@ Check it on my profile. My username is TnmSpiroctsub.<br><br>
   - Horizon's Edge
   - Tundra Peaks
   - Sunken Farmfields
+  - Solitary Ridge
+  - Dreary Flats
 - Optional Map:
   - Clover Springs ☑
   - Myrra Heights [WIP] ☑
@@ -65,22 +66,18 @@ Check it on my profile. My username is TnmSpiroctsub.<br><br>
 - Upcoming:
   - Military Junkyard [WIP]
   - Polarstation [WIP]
-- Added T5 Walker & Mech - Program & Monarch
 - New Ammunition
   - Petal Fragment Torrefy
   - Lamine Shellcore - Torrefy - Earthmover
   - Gravitix Deprive
   - Clevorite Anvil
-- Added Canvas
-- Adjusting Tech Tree with New Enchantment Tech
+- Adjusting Tech Tree + 4 New Sectors Additions
 - Re-Sprite
   - Powerline & Powerbeam
   - Morphite SolarPanel
   - Build Tower
   - Conduits
 - Clevorite & Bloodstone Research Pacing
-- All Tier 3 & 4 Units Balancing
-- Sectors Organizing + Reverts Wproc Weather
 - Added Custom Liquid Tiles
 <br>
 

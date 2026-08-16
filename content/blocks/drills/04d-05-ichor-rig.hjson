@@ -10,7 +10,7 @@ health: 1000
 category: production
 research: {
   #TODO - change to proper sector
-  parent: 04d-02-elixir-collector
+  parent: 0004-enchantment
   objectives: [
     {
       type: OnSector
