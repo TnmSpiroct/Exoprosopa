@@ -41,7 +41,7 @@ ammoTypes: {
   incendChance: 0
   incendAmount: 0
   incendSpread: 0
-  colors: [5A4B67, 726081, 8E789F, AC98BB, CCBCD9
+  colors: [5A4B67FF, 726081CC, 8E789F99, AC98BB73, CCBCD959
   ]
   status: 13m-06-contaminated
   statusDuration: 60
@@ -59,7 +59,7 @@ ammoTypes: {
   incendChance: 0
   incendAmount: 0
   incendSpread: 0
-  colors: [58977E, 7AB69E, 8BD9BA, AEECD3, D0FAE9
+  colors: [58977EFF, 7AB69ECC, 8BD9BA99, AEECD373, D0FAE959
   ]
   intervalBullets: 5
   bulletInterval: 8
