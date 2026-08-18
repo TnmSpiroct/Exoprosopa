@@ -68,10 +68,10 @@ weapons: [
       despawnEffect: none
       hitColor: E67676
       colors: [
-               D45050,
-               E67676,
-               EEAAAA,
-               FFC7C7
+               D45050FF,
+               E67676CC,
+               EEAAAA80,
+               FFC7C759
               ]
       lightColor: D45050
     }
