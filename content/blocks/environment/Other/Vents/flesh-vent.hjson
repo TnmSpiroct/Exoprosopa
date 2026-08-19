@@ -36,8 +36,9 @@ effect:{
     ]
 }
 attributes: {
-   steam: 0.95
-   elixir: 0.11111111111
-   # For Astrals, not for sharded.
+   steam: 0.85
+   elixir: 1
+   # For Astral
    flesh: 1.5
+   tantraf: 0.9
 }

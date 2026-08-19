@@ -1,10 +1,12 @@
 type: AttributeCrafter
 size: 4
 attribute: ichor
+displayEfficiency: true
 baseEfficiency: 0
-minEfficiency: 1
-boostScale: 0.04
+minEfficiency: 0.0625
+boostScale: 0.0625
 liquidCapacity: 200
+hasItems: false
 hasLiquids: true
 health: 1000
 category: production
@@ -18,7 +20,6 @@ research: {
     }
   ]
 }
-itemCapacity: 20
 researchCost: [
   01a-01-item-cobalt/5000
   01a-05-item-aluminium/3500
@@ -34,7 +35,7 @@ requirements: [
 craftTime: 240
 craftEffect: none
 outputLiquids: [
-  02b-02-ichor/1
+  02b-02-ichor/1.5
 ]
 consumes: {
   liquids: [

@@ -3,10 +3,10 @@ size: 3
 health: 450
 fogRadius: 3
 attribute: steam
-displayEfficiencyScale: 0.11111111111
+displayEfficiencyScale: 0.1111111111111111
 displayEfficiency: false
-minEfficiency: 8
-powerProduction: 0.2222222223
+minEfficiency: 7.6499
+powerProduction: 0.2222222222222222
 squareSprite: false
 category: power
 research: 0006-power

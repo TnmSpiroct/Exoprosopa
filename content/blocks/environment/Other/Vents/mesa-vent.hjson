@@ -36,6 +36,7 @@ effect:{
     ]
 }
 attributes: {
-   steam: 1.15
-   elixir: 0.10555555555556
+   steam: 1.1
+   elixir: 0.85
+   tantraf: 0.75
 }

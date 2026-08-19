@@ -52,7 +52,7 @@ effect:{
     ]
 }
 attributes: {
-   steam: 1.15
-   miasma: 1
-   elixir: 0.1277777777778
+   steam: 1.1
+   elixir: 1.25
+   tantraf: 0.75
 }

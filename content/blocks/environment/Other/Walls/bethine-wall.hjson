@@ -2,5 +2,5 @@ type: StaticWall
 name: Bethine Wall
 description: "Old, aged wall that decayed from nuke radiation"
 attributes: {
-  tantra: 0.68
+  tantra: 0.6
 }

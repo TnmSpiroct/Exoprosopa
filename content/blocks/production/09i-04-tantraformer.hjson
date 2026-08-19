@@ -1,9 +1,10 @@
 type: AttributeCrafter
 size: 3
-attribute: steam
+attribute: tantraf
 baseEfficiency: 0
-minEfficiency: 8.9
-boostScale: 0.111111111111111111111111111111111111
+minEfficiency: 0.7
+boostScale: 0.1111111111111111
+displayEfficiencyScale: 1
 liquidCapacity: 120
 health: 650
 category: crafting
@@ -29,7 +30,7 @@ requirements: [
 ]
 craftTime: 120
 craftEffect: none
-outputItem: 01a-04-item-tantra-sand/24
+outputItem: 01a-04-item-tantra-sand/18
 consumes: {
   items: [
     01a-02-item-nickel/2
