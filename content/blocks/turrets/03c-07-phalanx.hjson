@@ -5,7 +5,7 @@ armor: 10
 shootSound: shootDisperse
 shootSoundVolume: 0.9
 requirements: [
-  01a-01-item-cobalt/450
+  01a-01-item-cobalt/400
   01a-05-item-aluminium/250
   01a-07-item-clevorite/80
   01a-08-item-petal/150
@@ -42,7 +42,7 @@ ammoTypes: {
     width: 12
     height: 14
     lifetime: 43
-    damage: 47.5
+    damage: 60.5
     trailColor: BCA49F
     trailChance: -1
     trailEffect: [disperseTrail, colorSpark
@@ -70,7 +70,7 @@ ammoTypes: {
     width: 14
     height: 17
     lifetime: 37
-    damage: 67.75
+    damage: 48.75
     trailColor: D8F18C
     trailChance: -1
     trailEffect: [disperseTrail, colorSpark
