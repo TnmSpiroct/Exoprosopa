@@ -25,7 +25,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-10-precipice
+      preset: 19s-12-creek
     }
   ]
 }

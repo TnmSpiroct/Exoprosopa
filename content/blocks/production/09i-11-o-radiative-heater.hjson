@@ -41,6 +41,7 @@ ambientSound: loopHum
 ambientSoundVolume: 0.04
 category: crafting
 research: {
+  #TODO - change to proper sector
   parent: 09i-04-laminator
   objectives: [
     {

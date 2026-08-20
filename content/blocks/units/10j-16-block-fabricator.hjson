@@ -32,7 +32,15 @@ filter: [
   08h-16-pyroxene-wall-large,
   08h-17-pyroxene-gate
 ]
-research: 10j-15-surge-launcher
+research: {
+  parent: 10j-15-surge-launcher
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-10-precipice
+    }
+  ]
+}
 squareSprite: false
 maxBlockSize: 2
 researchCostMultiplier: 0.5
