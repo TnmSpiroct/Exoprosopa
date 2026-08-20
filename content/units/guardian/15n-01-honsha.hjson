@@ -53,10 +53,10 @@ weapons: [
     shootSound: shootMissileLong
     shootSoundVolume: 1
     bullet: {
-      frontColor: 93E2EE
-      trailColor: 93E2EE
-      backColor: 93E2EE
-      hitColor: 93E2EE
+      frontColor: 9EB6EB
+      trailColor: 9EB6EB
+      backColor: 9EB6EB
+      hitColor: 9EB6EB
       type: MissileBulletType
       width: 7
       height: 9
@@ -93,11 +93,11 @@ weapons: [
       speed: 5
       pierce: true
       smokeEffect: colorSpark
-      trailColor: 93E2EE
+      trailColor: 9EB6EB
       trailWidth: 1.5
       trailLength: 2
-      backColor: 93E2EE
-      hitColor: 93E2EE
+      backColor: 9EB6EB
+      hitColor: 9EB6EB
     }
   }
 ]

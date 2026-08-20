@@ -46,11 +46,11 @@ weapons: [
       damage: 42
       speed: 6
       smokeEffect: colorSpark
-      trailColor: 93E2EE
+      trailColor: 9EB6EB
       trailWidth: 1.5
       trailLength: 5
-      backColor: 93E2EE
-      hitColor: 93E2EE
+      backColor: 9EB6EB
+      hitColor: 9EB6EB
       despawnEffect: {
         type: WaveEffect
         rotWithParent: true

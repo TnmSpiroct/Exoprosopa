@@ -38,8 +38,8 @@ weapons: [
     recoil: 2.25
     bullet: {
       type: BasicBulletType
-      frontColor: 6BBDCB
-      backColor: 377A86
+      frontColor: 6B78B0
+      backColor: 4A5381
       sprite: missile-large
       speed: 5.74
       drag: 0.018
@@ -50,7 +50,7 @@ weapons: [
       width: 0
       height: 0
       trailChance: -1
-      trailColor: 93E2EE
+      trailColor: 9EB6EB
       trailEffect: colorSpark
       trailLength: 16
       trailWidth: 3
@@ -59,9 +59,9 @@ weapons: [
         type: ExplosionEffect
         lifetime: 25
         waveStroke: 3
-        waveColor: 6BBDCB
-        sparkColor: 6BBDCB
-        smokeColor: 6BBDCB
+        waveColor: 6B78B0
+        sparkColor: 6B78B0
+        smokeColor: 6B78B0
         waveRad: 15
         smokeSize: 6
         smokes: 7
@@ -75,9 +75,9 @@ weapons: [
         type: ExplosionEffect
         lifetime: 25
         waveStroke: 3
-        waveColor: 6BBDCB
-        sparkColor: 6BBDCB
-        smokeColor: 6BBDCB
+        waveColor: 6B78B0
+        sparkColor: 6B78B0
+        smokeColor: 6B78B0
         waveRad: 12
         smokeSize: 5
         smokes: 4
@@ -93,8 +93,8 @@ weapons: [
       intervalSpread: 35
       intervalBullet: {
         type: BasicBulletType
-        frontColor: 6BBDCB
-        backColor: 377A86
+        frontColor: 6B78B0
+        backColor: 4A5381
         speed: 2.5
         drag: 0.01
         lifetime: 15
@@ -104,7 +104,7 @@ weapons: [
         width: 6
         height: 6
         trailChance: -1
-        trailColor: 93E2EE
+        trailColor: 9EB6EB
         trailLength: 7
         trailWidth: 2
         weaveScale: 2
@@ -116,9 +116,9 @@ weapons: [
           type: ExplosionEffect
           lifetime: 15
           waveStroke: 2.5
-          waveColor: 6BBDCB
-          sparkColor: 6BBDCB
-          smokeColor: 6BBDCB
+          waveColor: 6B78B0
+          sparkColor: 6B78B0
+          smokeColor: 6B78B0
           waveRad: 8
           smokeSize: 3
           smokes: 2

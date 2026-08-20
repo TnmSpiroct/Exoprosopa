@@ -43,16 +43,16 @@ weapons: [
   bullet: {
     type: BasicBulletType
     speed: 8
-    backColor: 93E2EE
-    frontColor: 93E2EE
-    hitColor: 93E2EE
+    backColor: 9EB6EB
+    frontColor: 9EB6EB
+    hitColor: 9EB6EB
     width: 10
     height: 14
     lifetime: 20
     damage: 55
     pierce: true
     pierceCap: 5
-    trailColor: 93E2EE
+    trailColor: 9EB6EB
     trailLength: 4
     trailWidth: 1.25
     shootEffect: colorSpark
@@ -70,7 +70,7 @@ weapons: [
   }
   {
     x: 0
-    y: 1.35
+    y: 1.55
     name: rancor-weapon
     reload: 120
     mirror: false
@@ -84,7 +84,7 @@ weapons: [
       {
         y: -12
         type: HaloPart
-        color: 93E2EE
+        color: 9EB6EB
         layer: 110
         radius: 4
         shapes: 6
@@ -103,10 +103,10 @@ weapons: [
       width: 16
       height: 16
       sprite: large-orb
-      frontColor: 93E2EE
-      backColor: 93E2EE
-      trailColor: 93E2EE
-      hitColor: 93E2EE
+      frontColor: 9EB6EB
+      backColor: 9EB6EB
+      trailColor: 9EB6EB
+      hitColor: 9EB6EB
       trailWidth: 6
       trailLength: 32
       trailRotation: true
@@ -126,9 +126,9 @@ weapons: [
         type: ExplosionEffect
         lifetime: 60
         waveStroke: 4
-        waveColor: 6BBDCB
-        sparkColor: 6BBDCB
-        smokeColor: 6BBDCB
+        waveColor: 6B78B0
+        sparkColor: 6B78B0
+        smokeColor: 6B78B0
         waveRad: 25
         smokeSize: 9
         smokes: 10
@@ -160,9 +160,9 @@ weapons: [
       fragOnAbsorb: true
       fragBullet: {
         type: ArtilleryBulletType
-        frontColor: 93E2EE
-        backColor: 93E2EE
-        hitColor: 93E2EE
+        frontColor: 9EB6EB
+        backColor: 9EB6EB
+        hitColor: 9EB6EB
         width: 0
         height: 0
         speed: 0.3

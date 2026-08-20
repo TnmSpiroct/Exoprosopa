@@ -45,8 +45,8 @@ weapons: [
     shootSound: shootArtillerySmall
     bullet: {
       type: ArtilleryBulletType
-      frontColor: 6BBDCB
-      backColor: 377A86
+      frontColor: 6B78B0
+      backColor: 4A5381
       sprite: shell
       speed: 2.5
       lifetime: 59.4
@@ -57,7 +57,7 @@ weapons: [
       trailChance: -1
       trailInterval: 3
       trailEffect: artilleryTrail
-      trailColor: 7FC4DA
+      trailColor: 9EB6EB
       shootEffect: shootSmall
       trailLength: 0.5
       trailWidth: 0.25
