@@ -6,6 +6,7 @@ requirements: [
 ]
 health: 500
 armor: 5
+placeableLiquid: true
 junctionReplacement: 06f-02-seaduct-junction
 rotBridgeReplacement: 06f-04-m-clevoritebridge
 solid: false
