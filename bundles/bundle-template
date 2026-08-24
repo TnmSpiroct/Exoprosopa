@@ -670,14 +670,14 @@ block.exoprosopa-0009-turret.description =
 block.exoprosopa-0010-fabricator.name = 
 block.exoprosopa-0010-fabricator.description = 
 
-block.exoprosopa-0011-effect.name = 
-block.exoprosopa-0011-effect.description = 
+block.exoprosopa-0011-guardian.name = 
+block.exoprosopa-0011-guardian.description = 
 
-block.exoprosopa-0012-sector.name = 
-block.exoprosopa-0012-sector.description = 
+block.exoprosopa-0012-effect.name = 
+block.exoprosopa-0012-effect.description = 
 
-block.exoprosopa-0013-guardian.name = 
-block.exoprosopa-0013-guardian.description = 
+block.exoprosopa-0013-sector.name = 
+block.exoprosopa-0013-sector.description = 
 
 block.exoprosopa-0014-item.name = 
 block.exoprosopa-0014-item.description = 
@@ -690,6 +690,7 @@ block.exoprosopa-0016-unit.description =
 
 # Custom Database
 database-tag.unitpart = 
+database-tag.guardian = 
 
 # Rhodes-Only
 block.exoprosopa-rh-forcefield-projector.name = 

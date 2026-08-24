@@ -6,7 +6,7 @@ tileDamage: 15
 length: 20
 tendrils: 5
 category: effect
-research: 0011-effect
+research: 0012-effect
 bullet: {
   type: LightningBulletType
   hitSound: shockBullet

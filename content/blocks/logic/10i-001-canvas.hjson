@@ -9,7 +9,7 @@ padding: 2
 canvasSize: 12
 category: logic
 research: {
-  parent: 0011-effect
+  parent: 0012-effect
   objectives: [
     {
       type: OnSector

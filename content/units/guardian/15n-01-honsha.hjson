@@ -101,9 +101,9 @@ weapons: [
     }
   }
 ]
+databaseTag: guardian
 research: {
-  #TODO - change to proper sector
-  parent: 0013-guardian
+  parent: 0011-guardian
   objectives: [
     {
       type: SectorComplete

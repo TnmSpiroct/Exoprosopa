@@ -5,16 +5,16 @@ hasLiquids: true
 health: 850
 category: crafting
 research: {
-  parent: 09i-04-v-elemental-separator
+  parent: 09i-04-a-terra-basin
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-12-creek
+      preset: 19s-11-station-annex
     }
   ]
 }
 itemCapacity: 15
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.4
 requirements: [
   01a-05-item-aluminium/170
   01a-06-item-chromium/115

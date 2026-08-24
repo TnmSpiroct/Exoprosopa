@@ -2,7 +2,7 @@ type: WallCrafter
 health: 1000
 size: 3
 category: production
-research: 04d-04-a-wall-extractor
+research: 09i-04-tantraformer
 consumes: {
   power: 1
 }

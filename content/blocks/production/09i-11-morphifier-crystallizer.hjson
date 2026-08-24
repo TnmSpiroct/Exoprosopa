@@ -3,7 +3,7 @@ size: 4
 health: 1000
 category: crafting
 research: {
-  parent: 09i-04-a-terra-basin
+  parent: 09i-04-b-mini-basin
   objectives: [
     {
       type: OnSector

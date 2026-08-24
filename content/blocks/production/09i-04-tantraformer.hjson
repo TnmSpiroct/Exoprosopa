@@ -7,9 +7,9 @@ boostScale: 0.1111111111111111
 displayEfficiencyScale: 1
 liquidCapacity: 120
 health: 650
-category: crafting
+category: production
 research: {
-  parent: 09i-02-elixir-converter
+  parent: 04d-04-a-wall-extractor
   objectives: [
     {
       type: OnSector
