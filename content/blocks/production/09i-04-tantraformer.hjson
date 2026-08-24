@@ -7,7 +7,7 @@ boostScale: 0.1111111111111111
 displayEfficiencyScale: 1
 liquidCapacity: 120
 health: 650
-category: production
+category: crafting
 research: {
   parent: 04d-04-a-wall-extractor
   objectives: [
