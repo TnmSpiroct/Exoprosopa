@@ -68,8 +68,7 @@ weapons: [
       sideAngle: 45
       sideLength: 28
       sideWidth: 1
-      pierce: false
-      pierceCap: 2
+      pierce: true
       pierceBuilding: true
       status: 13m-07-stunned
       statusDuration: 30
