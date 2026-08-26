@@ -17,7 +17,8 @@ liquidCapacity: 60
 buildSpeed: 2
 range: 175
 category: effect
-outlineColor: 2C2A36
+outlineColor: 2c2a36
+heatColor: ffd27e82
 research: {
   parent: 11k-05-a-healer
   objectives: [
