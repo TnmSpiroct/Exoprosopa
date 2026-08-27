@@ -2,7 +2,6 @@ type: StackConveyor
 speed: 0.0833333333
 itemCapacity: 20
 health: 200
-noSideBlend: true
 outputRouter: false
 hasPower: true
 conductivePower: true
@@ -23,8 +22,6 @@ glowColor: 4ab994ff
 glowAlpha: 0.8
 baseEfficiency: 1
 underBullets: true
-solid: false
-squareSprite: false
 loadEffect: {
   type: WaveEffect
   sizeFrom: 0.1
