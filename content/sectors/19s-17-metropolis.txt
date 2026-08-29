@@ -1,6 +1,6 @@
 difficulty: 8
 planet: frostnova
-sector: 108
+sector: 110
 research: {
   parent: 19s-16-waterfall
   objectives: [

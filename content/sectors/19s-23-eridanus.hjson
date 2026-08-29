@@ -2,7 +2,8 @@ attackAfterWaves: true
 captureWave: 50
 difficulty: 8
 planet: frostnova
-sector: 190
+sector: 109
+#TODO - change to 189
 research: {
   #TODO - optional - need replacement
   parent: 20t-15-isolated-canyon

@@ -1,12 +1,13 @@
 difficulty: 8
 planet: frostnova
-sector: 108
+sector: 190
 research: {
-  parent: 19s-16-waterfall
+  #TODO - change to proper sector
+  parent: 19s-23-eridanus
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-16-waterfall
+      preset: 19s-23-eridanus
     }
   ]
 }
