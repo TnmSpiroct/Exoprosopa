@@ -16,6 +16,7 @@ requirements: [
   01a-10-item-bethine/500
   01a-11-item-pyroxene/350
 ]
+buildVisibility: editorOnly
 category: turret
 recoil: 1
 outlineColor: 2C2A36
