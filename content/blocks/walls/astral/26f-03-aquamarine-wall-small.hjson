@@ -9,3 +9,4 @@ research: 000021-defence
 researchCostMultiplier: 0.5
 category: defense
 buildVisibility: editorOnly
+shownPlanets: [frostnova, teresa]

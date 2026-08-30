@@ -9,3 +9,4 @@ research: 26f-03-aquamarine-wall-small
 researchCostMultiplier: 0.5
 category: defense
 buildVisibility: editorOnly
+shownPlanets: [frostnova, teresa]
