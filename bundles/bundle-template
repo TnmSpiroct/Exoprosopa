@@ -1060,6 +1060,7 @@ unit.exoprosopa-rhodes-core-land.name = Rhodes Core Land VFX
 
 # Guardian Units
 unit.exoprosopa-15n-01-honsha.name = 
+unit.exoprosopa-15n-01-honsha.details = 
 unit.exoprosopa-15n-02-ag-shiraino.name = 
 
 # Weather
