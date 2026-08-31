@@ -9,7 +9,7 @@ health: 2000
 category: effect
 squareSprite: false
 itemCapacity: 100
-liquidCapacity: 40
+liquidCapacity: 500
 coolingEffect: {
   type: RadialEffect
   effect: steamCoolSmoke
