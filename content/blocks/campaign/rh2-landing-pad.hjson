@@ -20,6 +20,6 @@ coolingEffect: {
 }
 bottomColor: 4b495a
 consumeLiquid: 02b-05-hydrowater
-consumeLiquidAmount: 4
+consumeLiquidAmount: 20
 buildVisibility: notLegacyLaunchPadOnly
 shownPlanets: [frostnova, teresa]

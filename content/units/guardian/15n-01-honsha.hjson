@@ -107,7 +107,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-11-station-annex
+      preset: 19s-02-mountain-ridge
     }
   ]
 }
