@@ -9,7 +9,7 @@ health: 2000
 category: effect
 squareSprite: false
 itemCapacity: 100
-liquidCapacity: 500
+liquidCapacity: 400
 coolingEffect: {
   type: RadialEffect
   effect: steamCoolSmoke
@@ -20,6 +20,6 @@ coolingEffect: {
 }
 bottomColor: 4b495a
 consumeLiquid: 02b-05-hydrowater
-consumeLiquidAmount: 240
+consumeLiquidAmount: 200
 buildVisibility: notLegacyLaunchPadOnly
 shownPlanets: [frostnova, teresa]

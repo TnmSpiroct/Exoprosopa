@@ -30,7 +30,7 @@ abilities: [
     cooldown: 300
     regen: 0.33333333
     max: 120
-    chanceDeflect: 0.5
+    chanceDeflect: 0.25
   }
 ]
 weapons: [
@@ -48,7 +48,7 @@ weapons: [
       type: BasicBulletType
       speed: 2.5
       lifetime: 60.8
-      damage: 17
+      damage: 16
       width: 8
       height: 8
       shootEffect: shootSmall
@@ -63,6 +63,8 @@ weapons: [
         lightOpacity: 0.5
         length: 4
         width: 2
+        pierce: false
+        pierceBuilding: false
         serrations: 0
         status: shocked
         despawnSound: shockBulletByte

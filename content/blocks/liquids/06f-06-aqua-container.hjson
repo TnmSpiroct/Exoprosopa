@@ -18,4 +18,7 @@ research: {
   ]
 }
 liquidPadding: 1.8
-researchCostMultiplier: 0.5
+researchCost: [
+  01a-01-item-cobalt/1500
+  01a-05-item-aluminium/500
+]

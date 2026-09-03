@@ -37,7 +37,7 @@ ammoTypes: {
     backColor: a3bbeb
     frontColor: a3bbeb
     lightColor: a3bbeb
-    damage: 52.45
+    damage: 52.75
     speed: 6.4
     lifetime: 32.5
     despawnEffect: [

@@ -11,5 +11,5 @@ requirements: [
 squareSprite: false
 researchCost: [
   01a-01-item-cobalt/700
-  01a-06-item-chromium/1000
+  01a-06-item-chromium/1200
 ]
