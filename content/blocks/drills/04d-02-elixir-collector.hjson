@@ -16,7 +16,7 @@ craftTime: 120
 hasItems: false
 category: production
 consumes: {
-  power: 0.25
+  power: 0.5
 }
 liquidCapacity: 180
 research: 0005-drill

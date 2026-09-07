@@ -2,7 +2,7 @@ type: AttributeCrafter
 size: 3
 attribute: tantraf
 baseEfficiency: 0
-minEfficiency: 0.7
+minEfficiency: 6.7499
 boostScale: 0.1111111111111111
 displayEfficiencyScale: 1
 liquidCapacity: 120

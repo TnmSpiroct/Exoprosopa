@@ -28,9 +28,9 @@ abilities: [
     width: 2
     y: -26
     cooldown: 450
-    regen: 0.666666667
+    regen: 0.5
     max: 250
-    chanceDeflect: 0.5
+    chanceDeflect: 0.25
   }
 ]
 weapons: [

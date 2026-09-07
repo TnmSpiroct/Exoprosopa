@@ -16,7 +16,7 @@ displayEfficiencyScale: 1
 hasItems: false
 category: production
 consumes: {
-  power: 1.25
+  power: 1.5
 }
 liquidCapacity: 240
 research: {

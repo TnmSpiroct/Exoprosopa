@@ -1,7 +1,7 @@
 type: mech
 flying: false
 hitSize: 9
-health: 850
+health: 780
 armor: 3
 speed: 0.65
 rotateSpeed: 4.75
@@ -28,9 +28,9 @@ abilities: [
     width: 2
     y: -18
     cooldown: 300
-    regen: 0.33333333
+    regen: 0.25
     max: 120
-    chanceDeflect: 0.25
+    chanceDeflect: 0
   }
 ]
 weapons: [
