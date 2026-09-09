@@ -1,6 +1,6 @@
 type: LiquidTurret
-health: 1740
-armor: 5
+health: 1600
+armor: 3
 size: 3
 reload: 1.5
 inaccuracy: 6

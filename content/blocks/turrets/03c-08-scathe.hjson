@@ -2,8 +2,8 @@ type: ItemTurret
 predictTarget: false
 size: 4
 squareSprite: false
-health: 4500
-armor: 10
+health: 4100
+armor: 6
 coolant: {
   type: ConsumeLiquid
   liquid: 02b-02-a-purified-elixir

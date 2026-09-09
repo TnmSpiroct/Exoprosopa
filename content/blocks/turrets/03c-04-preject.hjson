@@ -1,7 +1,7 @@
 type: ItemTurret
 size: 4
-health: 3750
-armor: 10
+health: 4150
+armor: 6
 shootSound: shootReign
 shootSoundVolume: 1.7
 requirements: [

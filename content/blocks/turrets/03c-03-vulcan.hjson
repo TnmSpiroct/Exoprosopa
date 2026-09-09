@@ -1,7 +1,7 @@
 type: ContinuousLiquidTurret
 size: 3
 health: 2000
-armor: 5
+armor: 3
 shootSound: shootVulcanPlasma
 shootSoundVolume: 0.4
 shootWarmupSpeed: 0.1

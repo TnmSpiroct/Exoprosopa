@@ -1,7 +1,7 @@
 type: PowerTurret
 size: 3
-health: 3000
-armor: 5
+health: 2600
+armor: 3
 reload: 110
 shoot: {
   firstShotDelay: 120

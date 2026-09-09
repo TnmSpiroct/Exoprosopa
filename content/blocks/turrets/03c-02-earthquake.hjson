@@ -2,7 +2,7 @@ type: ItemTurret
 size: 3
 squareSprite: false
 health: 1800
-armor: 5
+armor: 3
 shootSound: earthquake
 shootSoundVolume: 0.8
 requirements: [

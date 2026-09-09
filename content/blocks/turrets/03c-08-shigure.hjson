@@ -1,8 +1,8 @@
 type: ItemTurret
 size: 4
 squareSprite: false
-health: 4500
-armor: 10
+health: 4350
+armor: 6
 shootSound: shootMachinegun
 shootSoundVolume: 0.7
 requirements: [

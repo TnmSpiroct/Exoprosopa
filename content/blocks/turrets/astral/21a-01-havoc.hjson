@@ -1,8 +1,8 @@
 type: ItemTurret
 size: 2
 squareSprite: false
-health: 800
-armor: 10
+health: 650
+armor: 15
 shootSound: shoot
 requirements: [
   01a-21-item-gryphic/65

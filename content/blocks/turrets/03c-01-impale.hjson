@@ -1,7 +1,7 @@
 type: ItemTurret
 size: 3
 squareSprite: false
-health: 1580
+health: 1550
 shootSound: shootImpale
 requirements: [
   01a-01-item-cobalt/120

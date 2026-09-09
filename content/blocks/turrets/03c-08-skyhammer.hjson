@@ -1,8 +1,8 @@
 type: PowerTurret
 size: 4
 squareSprite: false
-health: 6500
-armor: 15
+health: 6300
+armor: 10
 shootSound: shootMissilePlasma
 shootSoundVolume: 2.3
 loopSound: loopMalign

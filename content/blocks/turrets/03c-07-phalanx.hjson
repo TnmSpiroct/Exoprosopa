@@ -1,7 +1,7 @@
 type: ItemTurret
 size: 4
-health: 3500
-armor: 10
+health: 3800
+armor: 6
 shootSound: shootDisperse
 shootSoundVolume: 0.9
 requirements: [

@@ -1,8 +1,8 @@
 type: ItemTurret
 size: 4
 squareSprite: false
-health: 4000
-armor: 10
+health: 3900
+armor: 6
 shootSound: shootSmite
 loopSound: loopMalign
 loopSoundVolume: 1.5

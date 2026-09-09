@@ -3,8 +3,8 @@ size: 5
 squareSprite: false
 heatRequirement: 12
 maxHeatEfficiency: 1.50
-health: 10750
-armor: 15
+health: 10800
+armor: 10
 loopSound: loopGlow
 loopSoundVolume: 0.75
 shootSound: shootArtillerySapBig
