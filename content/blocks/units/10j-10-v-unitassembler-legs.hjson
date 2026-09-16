@@ -8,8 +8,8 @@ research: {
   parent: 10j-06-v-unitreconstructor-legs
   objectives: [
     {
-      type: SectorComplete
-      preset: 19s-19-bisect
+      type: OnSector
+      preset: 19s-17-metropolis
     }
   ]
 }

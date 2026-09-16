@@ -8,8 +8,8 @@ research: {
   parent: 10j-04-unitreconstructor-tank
   objectives: [
     {
-      type: SectorComplete
-      preset: 19s-19-bisect
+      type: OnSector
+      preset: 19s-17-metropolis
     }
   ]
 }
