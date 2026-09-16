@@ -7,5 +7,13 @@ requirements: [
   01a-06-item-chromium/45
 ]
 databaseTag: unitpart
-research: 10j-10-unitassembler-mech
+research: {
+  parent: 10j-10-unitassembler-mech
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-19-bisect
+    }
+  ]
+}
 researchCostMultiplier: 0.5

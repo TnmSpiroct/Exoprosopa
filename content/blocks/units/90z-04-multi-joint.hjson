@@ -7,5 +7,13 @@ requirements: [
   01a-10-item-bethine/25
 ]
 databaseTag: unitpart
-research: 10j-10-v-unitassembler-legs
+research: {
+  parent: 10j-10-v-unitassembler-legs
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-19-bisect
+    }
+  ]
+}
 researchCostMultiplier: 0.5

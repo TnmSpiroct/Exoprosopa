@@ -9,7 +9,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-17-metropolis
+      preset: 19s-18-dreary-flats
     }
   ]
 }
