@@ -4,7 +4,6 @@ attribute: tantraf
 baseEfficiency: 0
 minEfficiency: 6.7499
 boostScale: 0.1111111111111111
-displayEfficiencyScale: 1
 liquidCapacity: 120
 health: 650
 category: crafting

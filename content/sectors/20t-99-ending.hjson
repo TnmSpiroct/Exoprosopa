@@ -1,13 +1,13 @@
 captureWave: 2
 difficulty: 1
 planet: frostnova
-sector: 0
+sector: 1
 research: {
-  parent: 19s-23-eridanus
+  parent: 19s-19-bisect
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-23-eridanus
+      preset: 19s-19-bisect
     }
   ]
 }

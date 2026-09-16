@@ -17,12 +17,11 @@ squareSprite: false
 itemCapacity: 5000
 unitCapModifier: 15
 research: {
-  #TODO - change to proper sector
   parent: 11k-04-a-core-crest
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-14-pier
+      preset: 19s-14-sear-fronts
     }
   ]
 }

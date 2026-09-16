@@ -1,7 +1,6 @@
 captureWave: 30
 difficulty: 8
 planet: frostnova
-#placeholder for post-sector - 83
 sector: 143
 research: {
   parent: 19s-11-station-annex

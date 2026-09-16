@@ -1,12 +1,13 @@
 difficulty: 8
 planet: frostnova
-sector: 67
+sector: 213
 research: {
-  parent: 19s-19-bisect
+  parent: 20t-07-pier
   objectives: [
+    11k-04-b-core-boundless,
     {
       type: SectorComplete
-      preset: 19s-19-bisect
+      preset: 20t-07-pier
     }
   ]
 }

@@ -69,12 +69,11 @@ drawer: {
   ]
 }
 research: {
-  #TODO - change to proper sector
   parent: 07g-05-tokamak-reactor
   objectives: [
     {
-      type: SectorComplete
-      preset: 19s-23-eridanus
+      type: OnSector
+      preset: 19s-19-bisect
     }
   ]
 }

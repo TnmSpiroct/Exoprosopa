@@ -101,12 +101,11 @@ drawer: {
 }
 researchCostMultiplier: 1
 research: {
-  #TODO - change to proper sector
   parent: 07g-05-a-geogenerator
   objectives: [
     {
       type: OnSector
-      preset: 19s-23-eridanus
+      preset: 19s-17-metropolis
     }
   ]
 }

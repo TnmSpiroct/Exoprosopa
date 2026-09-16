@@ -3,12 +3,11 @@ health: 1250
 size: 3
 category: production
 research: {
-  #TODO - change to proper sector
   parent: 04d-06-nucrid-crusher
   objectives: [
     {
       type: OnSector
-      preset: 20t-15-isolated-canyon
+      preset: 19s-17-metropolis
     }
   ]
 }

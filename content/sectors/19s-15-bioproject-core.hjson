@@ -1,13 +1,13 @@
 captureWave: 25
 difficulty: 8
 planet: frostnova
-sector: 195
+sector: 203
 research: {
-  parent: 19s-14-pier
+  parent: 19s-14-sear-fronts
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-14-pier
+      preset: 19s-14-sear-fronts
     }
   ]
 }

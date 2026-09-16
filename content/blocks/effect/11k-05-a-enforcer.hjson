@@ -13,12 +13,11 @@ requirements: [
 squareSprite: false
 category: effect
 research: {
-  #TODO - must on enemy bases - change to proper sector
   parent: 11k-08-build-tower
   objectives: [
     {
-      type: SectorComplete
-      preset: 19s-23-eridanus
+      type: OnSector
+      preset: 19s-19-bisect
     }
   ]
 }

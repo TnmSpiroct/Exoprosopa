@@ -27,7 +27,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-23-eridanus
+      preset: 19s-19-bisect
     }
   ]
 }

@@ -1,6 +1,6 @@
 difficulty: 7
 planet: frostnova
-sector: 50
+sector: 195
 research: {
   parent: 19s-15-bioproject-core
   objectives: [

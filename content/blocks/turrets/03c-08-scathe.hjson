@@ -20,12 +20,11 @@ requirements: [
 ]
 researchCostMultiplier: 0.5
 research: {
-  #TODO - must on enemy bases - change to proper sector
   parent: 03c-07-phalanx
   objectives: [
     {
-      type: SectorComplete
-      preset: 19s-23-eridanus
+      type: OnSector
+      preset: 19s-19-bisect
     }
   ]
 }

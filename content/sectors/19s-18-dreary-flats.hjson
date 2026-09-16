@@ -1,0 +1,17 @@
+captureWave: 45
+difficulty: 5
+planet: frostnova
+sector: 197
+research: {
+  parent: 19s-17-metropolis
+  objectives: [
+    03c-04-ox,
+    03c-04-preject,
+    03c-07-phalanx,
+    {
+      type: SectorComplete
+      preset: 19s-17-metropolis
+    }
+  ]
+}
+outline: false

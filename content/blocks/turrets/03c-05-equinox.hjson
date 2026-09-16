@@ -21,12 +21,11 @@ researchCost: [
   01a-09-item-morphite/750
 ]
 research: {
-  #TODO - change to proper sector
   parent: 03c-04-b-subsonic
   objectives: [
     {
       type: OnSector
-      preset: 19s-14-pier
+      preset: 19s-14-sear-fronts
     }
   ]
 }

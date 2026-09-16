@@ -102,12 +102,11 @@ drawer: {
 }
 squareSprite: false
 research: {
-  #TODO - change to proper sector
   parent: 09i-02-f-elixir-autofreezer
   objectives: [
     {
       type: OnSector
-      preset: 19s-23-eridanus
+      preset: 19s-18-dreary-flats
     }
   ]
 }

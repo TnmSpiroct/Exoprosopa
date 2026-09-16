@@ -7,5 +7,13 @@ requirements: [
   01a-07-item-clevorite/35
 ]
 databaseTag: unitpart
-research: 10j-09-unitassembler-ship
+research: {
+  parent: 10j-09-unitassembler-ship
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-19-bisect
+    }
+  ]
+}
 researchCostMultiplier: 0.5

@@ -20,12 +20,11 @@ consumes: {
 }
 liquidCapacity: 240
 research: {
-  #TODO - change to proper sector
   parent: 04d-02-elixir-collector
   objectives: [
     {
-      type: SectorComplete
-      preset: 20t-15-isolated-canyon
+      type: OnSector
+      preset: 19s-16-waterfall
     }
   ]
 }

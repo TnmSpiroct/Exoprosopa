@@ -5,12 +5,11 @@ hasLiquids: true
 health: 1000
 category: liquid
 research: {
-  #TODO - change to proper sector
   parent: 06f-08-mfu
   objectives: [
     {
       type: OnSector
-      preset: 20t-15-isolated-canyon
+      preset: 19s-17-metropolis
     }
   ]
 }

@@ -1,13 +1,14 @@
+attackAfterWaves: true
+captureWave: 50
 difficulty: 8
 planet: frostnova
-sector: 190
+sector: 188
 research: {
-  #TODO - change to proper sector
-  parent: 19s-23-eridanus
+  parent: 19s-19-bisect
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-23-eridanus
+      preset: 19s-19-bisect
     }
   ]
 }

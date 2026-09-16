@@ -1,14 +1,13 @@
 captureWave: 20
 difficulty: 10
 planet: frostnova
-sector: 19
+sector: 205
 research: {
-  #TODO - optional - need replacement
-  parent: 19s-13-marshlands
+  parent: 19s-14-sear-fronts
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-13-marshlands
+      preset: 19s-14-sear-fronts
     }
   ]
 }

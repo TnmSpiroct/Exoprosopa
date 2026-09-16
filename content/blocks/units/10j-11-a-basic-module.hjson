@@ -2,7 +2,15 @@ type: UnitAssemblerModule
 size: 3
 health: 1640
 category: units
-research: 0010-fabricator
+research: {
+  parent: 0010-fabricator
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-19-bisect
+    }
+  ]
+}
 requirements: [
   01a-05-item-aluminium/750
   01a-06-item-chromium/1000

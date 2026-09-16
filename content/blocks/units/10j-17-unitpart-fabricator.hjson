@@ -21,7 +21,15 @@ filter: [
   90z-03-geopowered-mechlegs,
   90z-04-multi-joint
 ]
-research: 10j-11-a-basic-module
+research: {
+  parent: 10j-11-a-basic-module
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-19-bisect
+    }
+  ]
+}
 squareSprite: false
 maxBlockSize: 3
 researchCostMultiplier: 0.5

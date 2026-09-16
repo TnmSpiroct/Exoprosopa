@@ -2,7 +2,15 @@ type: BurstDrill
 size: 5
 health: 1750
 category: production
-research: 04d-03-r-ore-blaster
+research: {
+  parent: 04d-03-r-ore-blaster
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-18-dreary-flats
+    }
+  ]
+}
 hasLiquids: true
 drillTime: 180
 drillMultipliers: {

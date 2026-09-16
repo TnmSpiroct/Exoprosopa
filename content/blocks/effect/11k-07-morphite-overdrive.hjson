@@ -3,12 +3,11 @@ size: 2
 health: 850
 category: effect
 research: {
-  #TODO - change to proper sector
   parent: 11k-05-holoshield
   objectives: [
     {
       type: OnSector
-      preset: 19s-14-pier
+      preset: 19s-14-sear-fronts
     }
   ]
 }

@@ -7,12 +7,11 @@ hasLiquids: true
 health: 1000
 category: crafting
 research: {
-  #TODO - change to proper sector
   parent: 09i-11-o-anthracite-heater
   objectives: [
     {
-      type: SectorComplete
-      preset: 19s-23-eridanus
+      type: OnSector
+      preset: 19s-19-bisect
     }
   ]
 }
