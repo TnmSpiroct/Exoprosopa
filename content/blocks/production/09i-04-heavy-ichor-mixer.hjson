@@ -4,7 +4,7 @@ size: 3
 hasLiquids: true
 category: crafting
 research: {
-  parent: 04d-05-ichor-rig
+  parent: 0004-enchantment
   objectives: [
     {
       type: OnSector
