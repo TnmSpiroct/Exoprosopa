@@ -30,7 +30,7 @@ research: {
   ]
 }
 consumes: {
-  power: 11
+  power: 11.6666667
 }
 category: turret
 recoil: 1.5
@@ -77,7 +77,6 @@ ammoTypes: {
     lifetime: 52.5
     pierceCap: 4
     pierce: true
-    pierceBuilding: true
     backColor: 6eefc0
     frontColor: ffffff
     trailColor: 479075
