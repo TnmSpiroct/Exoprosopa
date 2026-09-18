@@ -7,7 +7,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-11-glistening-straits
+      preset: 19s-12-creek
     }
   ]
 }
