@@ -4,7 +4,6 @@ sector: 71
 research: {
   parent: 19s-18-dreary-flats
   objectives: [
-    03c-08-shigure,
     07g-05-tokamak-reactor,
     {
       type: SectorComplete
