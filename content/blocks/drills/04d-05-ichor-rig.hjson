@@ -8,7 +8,7 @@ boostScale: 0.0625
 liquidCapacity: 200
 hasItems: false
 hasLiquids: true
-health: 1000
+health: 2000
 category: production
 research: {
   parent: 09i-04-ichor-regulator
