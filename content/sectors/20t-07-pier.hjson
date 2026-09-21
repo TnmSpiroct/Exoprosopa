@@ -1,13 +1,13 @@
 captureWave: 20
 difficulty: 10
 planet: frostnova
-sector: 205
+sector: 75
 research: {
-  parent: 19s-14-sear-fronts
+  parent: 19s-12-creek
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-14-sear-fronts
+      preset: 19s-12-creek
     }
   ]
 }

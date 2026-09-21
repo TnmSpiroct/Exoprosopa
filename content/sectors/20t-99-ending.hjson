@@ -1,7 +1,7 @@
 captureWave: 2
 difficulty: 1
 planet: frostnova
-sector: 1
+sector: 3
 research: {
   parent: 19s-19-bisect
   objectives: [

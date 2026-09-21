@@ -1,7 +1,6 @@
 difficulty: 5
 planet: frostnova
-sector: 63
-
+sector: 169
 research: {
   parent: 19s-03-hostile-outpost
   objectives: [

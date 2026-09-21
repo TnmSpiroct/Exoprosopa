@@ -1,6 +1,6 @@
 difficulty: 7
 planet: frostnova
-sector: 85
+sector: 221
 research: {
   parent: 19s-08-cornerstone
   objectives: [

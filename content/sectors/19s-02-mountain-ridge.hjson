@@ -1,7 +1,7 @@
 captureWave: 10
 difficulty: 1
 planet: frostnova
-sector: 172
+sector: 165
 research: {
   parent: 19s-01-newgrounds
   objectives: [

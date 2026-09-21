@@ -1,7 +1,7 @@
 captureWave: 24
 difficulty: 7
 planet: frostnova
-sector: 215
+sector: 213
 research: {
   parent: 19s-11-glistening-straits
   objectives: [

@@ -2,7 +2,7 @@ attackAfterWaves: true
 captureWave: 50
 difficulty: 8
 planet: frostnova
-sector: 188
+sector: 127
 research: {
   parent: 19s-19-bisect
   objectives: [

@@ -77,6 +77,7 @@ campaignRuleDefaults: {
 atmosphereRadIn: 0.02
 atmosphereRadOut: 0.3
 startSector: 96
+sectorSeed: 2
 sectorSize: 3
 parent: sun
 solarSystem: sun
@@ -94,23 +95,3 @@ enemyCoreSpawnReplace: false
 updateLighting: false
 
 launchCandidates: []
-itemWhitelist: [
-  "01a-01-item-cobalt",
-  "01a-02-item-nickel",
-  "01a-03-item-anthracite",
-  "01a-03-item-aquashard",
-  "01a-03-item-lamine",
-  "01a-04-item-tantra-sand",
-  "01a-05-item-aluminium",
-  "01a-05-item-raw-nichrome",
-  "01a-06-item-chromium",
-  "01a-07-item-clevorite",
-  "01a-08-item-nucrid",
-  "01a-08-item-petal"
-  "01a-08-item-petal-flower",
-  "01a-09-item-morphite",
-  "01a-10-item-bethine",
-  "01a-11-item-pyroxene",
-  "01a-11-item-technoscrap",
-  "01a-12-item-techno-plating",
-]
