@@ -1,6 +1,6 @@
 difficulty: 3
 planet: frostnova
-sector: 164
+sector: 165
 research: {
   parent: 19s-02-mountain-ridge
   objectives: [

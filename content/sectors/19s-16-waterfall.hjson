@@ -4,6 +4,8 @@ sector: 195
 research: {
   parent: 19s-15-bioproject-core
   objectives: [
+    11k-05-a-healer,
+    11k-05-holoshield,
     11k-02-core-empower,
     {
       type: SectorComplete

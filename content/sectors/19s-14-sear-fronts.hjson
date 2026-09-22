@@ -5,9 +5,11 @@ sector: 204
 research: {
   parent: 19s-13-marshlands
   objectives: [
+    11k-05-a-healer,
+    11k-05-holoshield,
     {
       type: SectorComplete
-      preset: 19s-12-creek
+      preset: 19s-13-marshlands
     }
   ]
 }

@@ -1,12 +1,12 @@
 difficulty: 4
 planet: frostnova
-sector: 223
+sector: 101
 research: {
-  parent: 19s-08-cornerstone
+  parent: 19s-06-botanical-garden
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-08-cornerstone
+      preset: 19s-06-botanical-garden
     }
   ]
 }

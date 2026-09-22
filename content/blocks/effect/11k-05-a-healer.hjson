@@ -15,7 +15,7 @@ requirements: [
 squareSprite: false
 category: effect
 research: {
-  parent: 10j-12-regenerator
+  parent: 0012-effect
   objectives: [
     {
       type: OnSector

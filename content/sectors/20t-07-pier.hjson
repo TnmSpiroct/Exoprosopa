@@ -1,13 +1,13 @@
 captureWave: 20
 difficulty: 10
 planet: frostnova
-sector: 75
+sector: 200
 research: {
-  parent: 19s-12-creek
+  parent: 20t-06-trekker-campsite
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-12-creek
+      preset: 19s-14-sear-fronts
     }
   ]
 }
