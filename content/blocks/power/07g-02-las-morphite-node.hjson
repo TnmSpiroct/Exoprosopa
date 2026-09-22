@@ -14,7 +14,7 @@ research: {
   objectives: [
     {
       type: OnSector
-      preset: 19s-14-sear-fronts
+      preset: 19s-15-bioproject-core
     }
   ]
 }
