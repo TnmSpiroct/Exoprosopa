@@ -1,4 +1,4 @@
-# Exoprosopa V0.9: Pre-Finalize Update
+# Exoprosopa V0.93: Pre-Finalize Update
 <div align = center>
 
 <br>
@@ -12,13 +12,12 @@
   ### Exoprosopa adds Frostnova planet into the game
   ### alongside with its own unique techtree and environment.<br>
 <br>
-<br>
 
 ## Overview
 </div>
 
 - Polished content & linear campaign progression.<br>
-- Capture and conquer with over 26 campaign maps.<br>
+- Capture and conquer with over 30 campaign maps.<br>
 - Over 21 items to be discovered, 188 blocks to be researched. and 20 different units to build!<br>
 - Harvest the planet with your technology before Astral Infection awaken and conquer the entire planet.
 
@@ -41,37 +40,35 @@ Check it on my profile. My username is TnmSpiroctsub.<br><br>
   - Crest [Remake - onGoing]
   - Station Annex ☑
   - Glistening Straits ☑
+  - Sear Fronts ☑
   - Waterfall ☑
-  - Metropolis [WIP]
-  - Bisect [WIP]
-  - Pier [ need replacement ]
-  - Isolated Canyon [ need replacement ]
-  - Eridanus [ need replacement ]
+  - Metropolis ☑
+  - Dreary Flats ☑
+  - Bisect ☑
 - Campaign Sectors [TODO]:
-  - Alpha Frontier
+  - Alpha Frontier [WIP]
   - Highlands [WIP]
   - Horizon's Edge
   - Tundra Peaks
   - Sunken Farmfields
   - Solitary Ridge
-  - Dreary Flats
 - Optional Map:
-  - Clover Springs ☑
-  - Myrra Heights [WIP] ☑
+  - Pier
+  - Eridanus
+  - Isolated Canyon
+  - Clover Springs
+  - Myrra Heights [WIP]
   - Ridgeline
 - Custom Map:
-  - Aeroplex Fort [Broken]
+  - Riverbed Valley
   - Novaris Facility
   - Tridantel
-- Upcoming:
-  - Military Junkyard [WIP]
-  - Polarstation [WIP]
 - New Ammunition
   - Petal Fragment Torrefy
   - Lamine Shellcore - Torrefy - Earthmover
   - Gravitix Deprive
   - Clevorite Anvil
-- Adjusting Tech Tree + 4 New Sectors Additions
+- Adjusting Tech Tree + 7 New Sectors Additions
 - Re-Sprite
   - Powerline & Powerbeam
   - Morphite SolarPanel
