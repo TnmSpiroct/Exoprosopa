@@ -32,7 +32,7 @@ abilities: [
     reload: 120
     range: 32
     amount: 50
-    max: 2200
+    max: 1800
     soundVolume: 0.2
   }
 ]
@@ -61,7 +61,7 @@ weapons: [
     top: false
     bullet: {
       type: BasicBulletType
-      damage: 225
+      damage: 210
       splashDamage: 70.5
       splashDamageRadius: 28
       width: 12
