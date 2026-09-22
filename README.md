@@ -32,7 +32,7 @@ Check it on my profile. My username is TnmSpiroctsub.<br><br>
 
 <div align = center>
 
-## Changelogs - V0.9 Pre-Finalize Udpate
+## Changelogs - V0.93 Pre-Finalize Udpate
 </div>
 
 - Campaign Sectors [onGoing]:
