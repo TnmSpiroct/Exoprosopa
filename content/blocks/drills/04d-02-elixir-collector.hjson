@@ -11,7 +11,6 @@ baseEfficiency: 0
 minEfficiency: 7.6499
 maxBoost: 1.25
 boostScale: 0.1111111111111111
-displayEfficiencyScale: 1
 craftTime: 120
 hasItems: false
 category: production

@@ -5,7 +5,6 @@ health: 225
 hasLiquids: true
 squareSprite: false
 outputLiquid: 02b-03-necroplasm/1
-displayEfficiencyScale: 1
 baseEfficiency: 0
 squareSprite: false
 minEfficiency: 9
