@@ -27,6 +27,7 @@ recoil: 2
 outlineColor: 2C2A36
 targetAir: true
 targetGround: true
+unitSort: grouped
 rotateSpeed: 1.5
 reload: 165
 range: 435
