@@ -27,7 +27,6 @@ recoil: 2
 outlineColor: 2C2A36
 targetAir: true
 targetGround: true
-unitSort: grouped
 rotateSpeed: 1.5
 reload: 165
 range: 435
@@ -55,6 +54,7 @@ shootType: {
   speed: 6
   lifetime: 72.5
   damage: 850
+  unitSort: grouped
   despawnSound: explosionQuad
   despawnEffect: {
     type: MultiEffect
