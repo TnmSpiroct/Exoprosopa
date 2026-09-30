@@ -1,0 +1,13 @@
+difficulty: 9
+planet: frostnova
+# TODO - sector: 197
+research: {
+  parent: 19s-19-bisect
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-19-bisect
+    }
+  ]
+}
+outline: false
