@@ -1,7 +1,7 @@
 type: GenericCrafter
 liquidCapacity: 180
 size: 4
-health: 1250
+health: 1850
 category: crafting
 consumes: {
   items: [

@@ -4,7 +4,7 @@ maxEfficiency: 4
 size: 3
 liquidCapacity: 120
 hasLiquids: true
-health: 1000
+health: 1300
 category: crafting
 research: {
   parent: 09i-11-o-anthracite-heater

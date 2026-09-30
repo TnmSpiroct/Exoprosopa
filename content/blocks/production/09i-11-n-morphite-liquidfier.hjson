@@ -2,7 +2,7 @@ type: GenericCrafter
 size: 3
 liquidCapacity: 120
 hasLiquids: true
-health: 850
+health: 950
 category: crafting
 research: {
   parent: 09i-11-morphifier-crystallizer

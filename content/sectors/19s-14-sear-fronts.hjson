@@ -5,8 +5,9 @@ sector: 204
 research: {
   parent: 19s-13-marshlands
   objectives: [
-    11k-05-a-healer,
-    11k-05-holoshield,
+    04d-04-b-aqua-dregder,
+    09i-04-u-aquafilter,
+    09i-04-v-elemental-separator,
     {
       type: SectorComplete
       preset: 19s-13-marshlands

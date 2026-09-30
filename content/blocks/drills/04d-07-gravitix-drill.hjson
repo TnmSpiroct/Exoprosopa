@@ -1,6 +1,6 @@
 type: BurstDrill
 size: 5
-health: 1750
+health: 1850
 category: production
 research: {
   parent: 04d-03-r-ore-blaster

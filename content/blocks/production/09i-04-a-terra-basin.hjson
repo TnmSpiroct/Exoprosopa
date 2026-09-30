@@ -6,7 +6,7 @@ quickRotate: true
 rotateDraw: false
 liquidCapacity: 120
 hasLiquids: true
-health: 1000
+health: 1250
 category: crafting
 research: {
   parent: 09i-02-elixir-converter

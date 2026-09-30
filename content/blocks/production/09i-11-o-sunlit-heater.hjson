@@ -1,7 +1,7 @@
 type: HeatProducer
 size: 3
 heatOutput: 24
-health: 1000
+health: 900
 craftTime: 60
 squareSprite: false
 researchCostMultiplier: 0.5

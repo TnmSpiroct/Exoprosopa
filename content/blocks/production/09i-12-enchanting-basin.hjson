@@ -2,7 +2,7 @@ type: GenericCrafter
 size: 3
 liquidCapacity: 60
 hasLiquids: true
-health: 1000
+health: 1150
 category: crafting
 research: {
   parent: 04d-06-nucrid-crusher

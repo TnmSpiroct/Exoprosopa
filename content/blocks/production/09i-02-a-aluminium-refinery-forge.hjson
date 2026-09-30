@@ -1,6 +1,6 @@
 type: GenericCrafter
 size: 4
-health: 1000
+health: 1100
 category: crafting
 research: {
   parent: 09i-01-aluminium-furnace
