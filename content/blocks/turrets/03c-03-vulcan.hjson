@@ -20,7 +20,7 @@ consumes: {
 hasLiquids: true
 liquidCapacity: 50
 minWarmup: 0.60
-liquidConsumed: 0.25
+liquidConsumed: 0.333333333
 outlineColor: 2C2A36
 targetAir: true
 targetGround: true
@@ -47,6 +47,7 @@ ammoTypes: {
   statusDuration: 60
   knockback: 1
   pierceCap: 2
+  ammoMultiplier: 1
   timescaleDamage: true
  }
  02b-06-morphitix-plasma: {
@@ -55,7 +56,7 @@ ammoTypes: {
   rangeChange: 72
   damage: 68
   buildingDamageMultiplier: 0.1
-  width: 3.25
+  width: 3
   incendChance: 0
   incendAmount: 0
   incendSpread: 0
@@ -65,7 +66,7 @@ ammoTypes: {
   bulletInterval: 8
   intervalRandomSpread: 0
   knockback: 2
-  ammoMultiplier: 1.5
+  ammoMultiplier: 1.333333333
   timescaleDamage: true
   pierceCap: 4
   pierceArmor: false
