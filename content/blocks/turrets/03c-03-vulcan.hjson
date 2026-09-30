@@ -25,7 +25,7 @@ outlineColor: 2C2A36
 targetAir: true
 targetGround: true
 rotateSpeed: 1.4
-range: 190
+range: 150
 targetUnderBlocks: false
 targetInterval: 5
 newTargetInterval: 30
@@ -34,7 +34,7 @@ loopSoundVolume: 1.1
 ammoTypes: {
  02b-04-miasma: {
   type: ContinuousLaserBulletType
-  length: 190
+  length: 145
   damage: 46
   buildingDamageMultiplier: 0.1
   width: 2.5
@@ -51,8 +51,8 @@ ammoTypes: {
  }
  02b-06-morphitix-plasma: {
   type: ContinuousLaserBulletType
-  length: 280
-  rangeChange: 92
+  length: 220
+  rangeChange: 72
   damage: 68
   buildingDamageMultiplier: 0.1
   width: 3.25
