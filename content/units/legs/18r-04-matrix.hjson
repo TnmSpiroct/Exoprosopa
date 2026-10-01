@@ -21,7 +21,6 @@ researchCostMultiplier: 2.5
 mechStepParticles: true
 mechFrontSway: 1
 stepShake: 0.15
-singleTarget: true
 drownTimeMultiplier: 1.5
 stepSound: mechStep
 stepSoundPitch: 0.9
@@ -108,6 +107,7 @@ weapons: [
   {
     display: false
     shootOnDeath: true
+    controllable: false
     reload: 24
     shootCone: 180
     ejectEffect: none
