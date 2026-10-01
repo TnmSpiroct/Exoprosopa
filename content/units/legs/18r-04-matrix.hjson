@@ -26,16 +26,6 @@ drownTimeMultiplier: 1.5
 stepSound: mechStep
 stepSoundPitch: 0.9
 stepSoundVolume: 0.35
-abilities: [
-  {
-    type: ShieldRegenFieldAbility
-    reload: 120
-    range: 32
-    amount: 50
-    max: 1800
-    soundVolume: 0.2
-  }
-]
 weapons: [
   {
     x: 14.5
@@ -113,6 +103,32 @@ weapons: [
         despawnSound: shockBulletByte
         status: shocked
       }
+    }
+  }
+  {
+    display: false
+    shootOnDeath: true
+    targetUnderBlocks: false
+    reload: 24
+    shootCone: 180
+    ejectEffect: none
+    shootSound: explosionCrawler
+    shootSoundVolume: 1.5
+    shootX: 0
+    shootY: 0
+    mirror: false
+    bullet: {
+      collidesTiles: false
+      collides: false
+      rangeOverride: 25
+      hitEffect: pulverize
+      speed: 0
+      splashDamageRadius: 80
+      instantDisappear: true
+      splashDamage: 1800
+      killShooter: false
+      hittable: false
+      collidesAir: true
     }
   }
 ]
