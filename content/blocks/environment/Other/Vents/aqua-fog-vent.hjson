@@ -1,0 +1,18 @@
+name: Aqua Fog
+type: SteamVent
+parent: aquadeepwater
+blendGroup: aquadeepwater
+effect: {
+    type: ParticleEffect
+    particles: 3
+    length: 28
+    baseLength: 40
+    lifetime: 400
+    sizeFrom: 0
+    sizeTo: 35
+    colorFrom: 72CCBDff
+    colorTo: 1D777009
+    layer: 80.1
+}
+cacheLayer: water
+variants: 4
