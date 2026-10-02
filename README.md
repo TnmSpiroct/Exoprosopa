@@ -76,6 +76,7 @@ Check it on my profile. My username is TnmSpiroctsub.<br><br>
   - Conduits
 - Clevorite & Bloodstone Research Pacing
 - Added Custom Liquid Tiles
+- Improved Aqua Fog System
 <br>
 
 ![Banner]
@@ -86,7 +87,7 @@ Check it on my profile. My username is TnmSpiroctsub.<br><br>
 [Badge Commit]: https://img.shields.io/github/last-commit/TnmSpiroct/exoprosopa?color=8eceec&style=for-the-badge&label=Last%20Commit
 <!----------------------------------[ Links ]--------------------------------->
 [Logo]: sprites-override/ui/logo.png
-[Banner]: banner-new.png
+[Banner]: banner.png
 [Discord]: https://discord.gg/GyxBXYrpNC
 [Commits]: https://github.com/TnmSpiroct/exoprosopa/commits/main
 
