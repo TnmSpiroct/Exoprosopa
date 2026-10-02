@@ -17,12 +17,12 @@ coolant: {
   amount: 0.5
 }
 coolantMultiplier: 1.25
-minWarmup: 0.55
+minWarmup: 0.6
 warmupMaintainTime: 160
-shootWarmupSpeed: 0.08
+shootWarmupSpeed: 0.1
 shoot: {
 shots: 2
-shotDelay: 10
+shotDelay: 20
 firstShotDelay: 15
 }
 newTargetInterval: 40
@@ -32,7 +32,7 @@ outlineColor: 2C2A36
 targetAir: false
 targetGround: true
 rotateSpeed: 1.25
-reload: 195
+reload: 200
 range: 390
 shootY: 7
 ammoPerShot: 3
@@ -43,7 +43,7 @@ ammoTypes: {
     despawnShake: 10
     ammoMultiplier: 1
     hitColor: FF91B3
-    damage: 80
+    damage: 85
     splashDamage: 280
     splashDamageRadius: 64
     width: 14
