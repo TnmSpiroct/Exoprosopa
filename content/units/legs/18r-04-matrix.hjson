@@ -17,6 +17,7 @@ research: {
     }
   ]
 }
+singleTarget: true
 researchCostMultiplier: 2.5
 mechStepParticles: true
 mechFrontSway: 1
@@ -37,7 +38,6 @@ weapons: [
     mirror: true
     alternate: true
     rotate: false
-    shootCone: 5
     shootSound: shootMatrix
     shootSoundVolume: 0.18
     shake: 1

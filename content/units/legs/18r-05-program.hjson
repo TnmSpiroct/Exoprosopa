@@ -17,6 +17,7 @@ research: {
     }
   ]
 }
+singleTarget: true
 researchCostMultiplier: 3
 mechStepParticles: true
 stepShake: 0.75
@@ -44,7 +45,6 @@ weapons: [
     mirror: true
     alternate: true
     rotate: false
-    shootCone: 10
     shake: 3
     recoil: 4
     shootSound: shootAfflict
