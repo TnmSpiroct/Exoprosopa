@@ -44,14 +44,14 @@ weapons: [
     mirror: true
     alternate: true
     rotate: false
-    shootCone: 5
+    shootCone: 10
     shake: 3
     recoil: 4
     shootSound: shootAfflict
     shootSoundVolume: 0.7
     shoot: {
     firstShotDelay: 35
-    shotDelay: 12
+    shotDelay: 15
     shots: 2
       }
     ejectEffect: casing3
