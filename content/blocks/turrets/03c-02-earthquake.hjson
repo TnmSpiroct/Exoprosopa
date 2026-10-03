@@ -99,7 +99,7 @@ ammoTypes: {
       type: WaveEffect
       lifetime: 45
       sizeFrom: 0
-      sizeTo: 152
+      sizeTo: 202
       sides: 64
       strokeFrom: 3
       strokeTo: 0
@@ -110,7 +110,7 @@ ammoTypes: {
       type: WaveEffect
       lifetime: 50
       sizeFrom: 0
-      sizeTo: 152
+      sizeTo: 202
       sides: 64
       strokeFrom: 3
       strokeTo: 0
@@ -121,7 +121,7 @@ ammoTypes: {
       type: WaveEffect
       lifetime: 55
       sizeFrom: 0
-      sizeTo: 152
+      sizeTo: 202
       sides: 64
       strokeFrom: 3
       strokeTo: 0
