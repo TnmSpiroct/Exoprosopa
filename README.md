@@ -9,19 +9,42 @@
 [![Badge Discord]][Discord] <br>
 </p>
 
-  ### Exoprosopa adds Frostnova planet into the game
-  ### alongside with its own unique techtree and environment.<br>
+  ### Exoprosopa, a large campaign mod that adds a new planet, Frostnova.<br>
+  ### Frostnova is a deceptively frozen planet, featuring Erekir-Style gameplay.<br>
+  ### Its volatile and hazardous environment hides a dormant faction, Astral.<br>
+<br>
+<br>
+
+  ### Exoprosopa is pure modded without reuses any vanilla content.<br>
 <br>
 
 ## Overview
 </div>
 
-- Polished content & linear campaign progression.<br>
+- Polished content and linear campaign progression.<br>
 - 19 campaign sectors. Capture this planet for yourself!<br>
 - 10 optional sectors, providing more playtime and new challenges.<br>
 - Over 320 pieces of unique and fresh content, including blocks, units, specialized guardian, and more!<br>
-- Harvest the planet with your technology before Astral Infection awaken and conquer the entire planet.
+<div align = center>
+  
+## Mechanics
+</div>
 
+- Adapt your infrastructure and thermal setups to the harsh conditions on Frostnova.
+- Units are created in Erekir-Style assemblers. 
+- Utilize Elixir for countless appliances and keep it away from Miasma.
+- Experience an improved tips, objectives, and real-time warning.
+<div align = center>
+
+## Languages
+</div>
+
+Exoprosopa is available in multiple languages!
+
+- English
+- Russian
+- Simplified Chinese
+- Indonesian
 <div align = center>
 
 ## Contributors
