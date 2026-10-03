@@ -15,7 +15,7 @@
 <br>
 <br>
 
-  ### Exoprosopa is pure modded without reuses any vanilla content.<br>
+  ### Exoprosopa is pure modded without reuse any vanilla content.<br>
 <br>
 
 ## Overview
