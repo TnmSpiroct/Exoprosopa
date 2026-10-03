@@ -17,8 +17,9 @@
 </div>
 
 - Polished content & linear campaign progression.<br>
-- Capture and conquer with over 30 campaign maps.<br>
-- Over 21 items to be discovered, 188 blocks to be researched. and 20 different units to build!<br>
+- 19 campaign sectors. Capture this planet for yourself!<br>
+- 10 optional sectors, providing more playtime and new challenges.<br>
+- Over 320 pieces of unique and fresh content, including blocks, units, specialized guardian, and more!<br>
 - Harvest the planet with your technology before Astral Infection awaken and conquer the entire planet.
 
 <div align = center>
