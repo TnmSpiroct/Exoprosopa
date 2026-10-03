@@ -2,21 +2,30 @@
 name: "exoprosopa"
 displayName: "[[]#93E2EE]Exoprosopa"
 author: "TnmSpiroct"
-description:
-'''
-  [[]#93E2EE]Exoprosopa[[]] adds Frostnova as a third planet into the game alongside with its own unique techtree and environment.
-
+description: 
+''' 
+  [[]#93E2EE]Exoprosopa[[]] adds a new planet, Frostnova, into the game.
+  Frostnova is a deceptively frozen planet. A volatile and hazardous tundra hides a dormant faction, Astral.
+  It has a fully playable campaign with 19 campaign and 10 optional maps. 
+  
   Polished content & linear campaign progression.
-  Capture and conquer with over 30 campaign maps.
-  Over 21 items to be discovered, 188 blocks to be researched. and 20 different units to build!
-  Harvest the planet with your technology before Astral Infection awaken and conquer the entire planet.
+  Contains over 320 pieces of unique content, including blocks, liquids, items, units and specialized guardian.
+  Pure modded without reuse any vanilla content.
+  
+  [accent[]]If you find any issues or want to gives suggestions
+  feel free to join the Exoprosopa Discord server.
+  Check it on my profile. My username is TnmSpiroctsub.[[]]
+  
+  [[]#93E2EE]Exoprosopa[[]]  is available in the following languages:
+  - English
+  - Indonesian
+  - Russian
+  - Simplified Chinese
 
-  [accent[]]Thankyou for playing this mod! 
-  You can contributes maps or gives suggestions by join Exoprosopa Discord Server! 
-  Check it on my profile. My username is TnmSpiroctsub.
+Enjoy!
 '''
 version: "0.93"
 minGameVersion: "160"
-subtitle: "[#93e2ee[]]V0.9 Pre-Finalize Update!"
+subtitle: "[#93e2ee[]]V0.93 Pre-Finalize Update!"
 repo: "TnmSpiroct/Exoprosopa"
 # [[]#93E2EE]Exoprosopa[[]] is waiting to be colonized again after nuclear retaliation across the supercontinent.
