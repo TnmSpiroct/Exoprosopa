@@ -42,14 +42,43 @@ ammoTypes: {
     hitEffect: none
     collidesAir: false
     shootEffect: {
+      type: MultiEffect
+      effects: [
+      {
       type: WaveEffect
+      lifetime: 45
       sizeFrom: 0
       sizeTo: 152
+      sides: 64
       strokeFrom: 3
       strokeTo: 0
-      colorFrom: BCA49F
-      colorTo: BCA49F
+      colorFrom: bca49f
+      colorTo: bca49f
      }
+     {
+      type: WaveEffect
+      lifetime: 50
+      sizeFrom: 0
+      sizeTo: 152
+      sides: 64
+      strokeFrom: 3
+      strokeTo: 0
+      colorFrom: bca49fbf
+      colorTo: bca49fbf
+     }
+     {
+      type: WaveEffect
+      lifetime: 55
+      sizeFrom: 0
+      sizeTo: 152
+      sides: 64
+      strokeFrom: 3
+      strokeTo: 0
+      colorFrom: bca49f80
+      colorTo: bca49f80
+     }
+    ]
+   }
   }
   01a-03-item-lamine: {
     instantDisappear: true
@@ -64,14 +93,43 @@ ammoTypes: {
     rangeChange: 40
     collidesAir: false
     shootEffect: {
+      type: MultiEffect
+      effects: [
+      {
       type: WaveEffect
+      lifetime: 45
       sizeFrom: 0
-      sizeTo: 202
+      sizeTo: 152
+      sides: 64
       strokeFrom: 3
       strokeTo: 0
       colorFrom: ff8167
       colorTo: ff8167
-    }
+     }
+     {
+      type: WaveEffect
+      lifetime: 50
+      sizeFrom: 0
+      sizeTo: 152
+      sides: 64
+      strokeFrom: 3
+      strokeTo: 0
+      colorFrom: ff8167bf
+      colorTo: ff8167bf
+     }
+     {
+      type: WaveEffect
+      lifetime: 55
+      sizeFrom: 0
+      sizeTo: 152
+      sides: 64
+      strokeFrom: 3
+      strokeTo: 0
+      colorFrom: ff816780
+      colorTo: ff816780
+     }
+    ]
+   }
   }
 }
 heatColor: 6d555980
