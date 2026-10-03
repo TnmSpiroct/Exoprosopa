@@ -30,7 +30,7 @@
 ## Mechanics
 </div>
 
-- Modern units tree with each own strength and counterattack.
+- Modern unit trees with each own strength and counterattack.
 - Units are created in Erekir-Style assemblers. 
 - Utilize Elixir for countless appliances and keep it away from Miasma.
 - Experience an improved tips, objectives, and real-time warning.
