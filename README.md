@@ -30,7 +30,7 @@
 ## Mechanics
 </div>
 
-- Adapt your infrastructure and thermal setups to the harsh conditions on Frostnova.
+- Modern units tree with each own strength and counterattack.
 - Units are created in Erekir-Style assemblers. 
 - Utilize Elixir for countless appliances and keep it away from Miasma.
 - Experience an improved tips, objectives, and real-time warning.
