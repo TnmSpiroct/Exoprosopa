@@ -115,6 +115,8 @@ ammoTypes: {
     fragVelocityMax: 1
     fragBullets: 8
     despawnSound: explosionArtillery
+    status: 13m-b07-thermal-burn
+    statusDuration: 80
       fragBullet: {
         # Explosion, mostly didnt have lifetime and speed
         type: ExplosionBulletType
@@ -145,7 +147,7 @@ ammoTypes: {
             killShooter: false
             splashDamage: 5
             # Status created when this bullet damages enemy. To increase duration, use statusDuration
-            status: blasted
+            status: 13m-e2-gradient-blast
             buildingDamageMultiplier: 0.2
         }
       }
@@ -198,6 +200,8 @@ ammoTypes: {
     fragBullets: 8
     knockback: 2
     despawnSound: explosionArtillery
+    status: 13m-b07-thermal-burn
+    statusDuration: 80
       fragBullet: {
         type: ExplosionBulletType
         splashDamageRadius: 20
@@ -225,7 +229,7 @@ ammoTypes: {
             splashDamageRadius: 20
             killShooter: false
             splashDamage: 5
-            status: blasted
+            status: 13m-e2-gradient-blast
             buildingDamageMultiplier: 0.2
         }
       }
@@ -278,6 +282,8 @@ ammoTypes: {
     fragVelocityMax: 1
     fragBullets: 6
     despawnSound: explosionArtillery
+    status: 13m-b08-concussive-burn
+    statusDuration: 120
       fragBullet: {
         type: ExplosionBulletType
         splashDamageRadius: 20
@@ -305,7 +311,7 @@ ammoTypes: {
             splashDamageRadius: 20
             killShooter: false
             splashDamage: 5
-            status: 13m-01-breached
+            status: 13m-e2-gradient-blast
             statusDuration: 30
             buildingDamageMultiplier: 0.2
         }
@@ -396,7 +402,7 @@ ammoTypes: {
             splashDamageRadius: 20
             killShooter: false
             splashDamage: 5
-            status: blasted
+            status: 13m-e2-gradient-blast
             buildingDamageMultiplier: 0.2
           }
         }

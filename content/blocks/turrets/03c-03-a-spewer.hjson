@@ -71,7 +71,7 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: 02b-05-hydrowater
     status: 13m-c1-drenched
-    statusDuration: 200
+    statusDuration: 180
     speed: 5
     lifetime: 54
     rangeChange: 100
