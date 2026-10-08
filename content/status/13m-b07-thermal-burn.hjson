@@ -1,6 +1,6 @@
 outline: false
 damage: 0.2
-speedMultiplier: 0.96
+speedMultiplier: 0.95
 opposites: [
   exoprosopa-13m-c1-drenched
   exoprosopa-13m-c2-mired
