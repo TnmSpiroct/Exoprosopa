@@ -1,10 +1,10 @@
 outline: false
 damage: 0.8
-damageMultiplier: 0.96
-reloadMultiplier: 0.96
-speedMultiplier: 0.68
-dragMultiplier: 1.24
-healthMultiplier: 0.78
+damageMultiplier: 0.95
+reloadMultiplier: 0.95
+speedMultiplier: 0.7
+dragMultiplier: 1.25
+healthMultiplier: 0.8
 effect: {
   type: ParticleEffect
   region: exoprosopa-swirl
