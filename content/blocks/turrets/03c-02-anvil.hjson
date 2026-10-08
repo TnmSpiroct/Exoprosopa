@@ -65,8 +65,8 @@ ammoTypes: {
     trailEffect: shootSmokeTitan
     trailInterval: 3
     trailRotation: true
-    trailLength: 4
-    trailWidth: 0.5
+    trailLength: 1
+    trailWidth: 0.25
   }
   01a-06-item-chromium: {
     type: BasicBulletType
@@ -77,6 +77,7 @@ ammoTypes: {
     frontColor: bca49f
     backColor: bca49f
     damage: 62.85
+    knockback: 4
     width: 8
     height: 14
     hitSize: 6
@@ -87,8 +88,8 @@ ammoTypes: {
     trailEffect: shootSmokeTitan
     trailInterval: 3
     trailRotation: true
-    trailLength: 4
-    trailWidth: 0.5
+    trailLength: 1
+    trailWidth: 0.25
   }
   01a-07-item-clevorite: {
     type: BasicBulletType
@@ -109,13 +110,13 @@ ammoTypes: {
     trailEffect: shootSmokeTitan
     trailInterval: 3
     trailRotation: true
-    trailLength: 4
-    trailWidth: 0.5
-    fragOnHit: false
-    fragBullets: 5
-    fragLifeMin: 0.5
-    fragVelocityMin: 0.55
-    fragVelocityMax: 1.25
+    trailLength: 1
+    trailWidth: 0.25
+    fragOnHit: true
+    fragSpread: 0 
+    fragRandomSpread: 0
+    intervalRandomSpread: 0
+    fragBullets: 1
     fragBullet: {
       type: BasicBulletType
       hitSize: 5
@@ -129,29 +130,23 @@ ammoTypes: {
         lifetime: 15
         }
       ]
-      despawnEffect: [
-        {
-        type: WaveEffect
-        colorFrom: d8f18c
-        colorTo: d8f18c
-        strokeFrom: 6
-        sizeTo: 6
-        lifetime: 10
-        }
-      ]
+      despawnEffect: none
       hitColor: d8f18c
       backColor: d8f18c
       frontColor: ffffff
       lightColor: d8f18c
       homingPower: 1
-      width: 14
+      width: 10
       height: 15
       speed: 4
       lifetime: 30
-      damage: 25
+      damage: 35
+      trailEffect: colorSpark
+      trailInterval: 3
+      trailRotation: true
       trailColor: d8f18c
-      trailLength: 10
-      trailWidth: 2.75
+      trailLength: 15
+      trailWidth: 2.5
     }
   }
 }
