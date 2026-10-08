@@ -59,6 +59,8 @@ weapons: [
       trailEffect: artilleryTrail
       trailColor: 9EB6EB
       shootEffect: shootSmall
+      status: 13m-a1-sundered1
+      statusDuration: 60
       trailLength: 0.5
       trailWidth: 0.25
       }

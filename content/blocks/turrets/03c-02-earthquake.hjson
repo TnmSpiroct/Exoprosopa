@@ -36,7 +36,7 @@ ammoTypes: {
     damage: 6
     splashDamage: 20
     splashDamageRadius: 148
-    status: slow
+    status: 13m-b01-disrupted1
     statusDuration: 30
     despawnEffect: none
     hitEffect: none
@@ -86,8 +86,8 @@ ammoTypes: {
     damage: 8
     splashDamage: 56
     splashDamageRadius: 220
-    status: 13m-01-breached
-    statusDuration: 30
+    status: 13m-b02-disrupted2
+    statusDuration: 45
     despawnEffect: none
     hitEffect: none
     rangeChange: 40

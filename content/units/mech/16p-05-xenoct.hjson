@@ -141,7 +141,7 @@ weapons: [
       pierceArmor: true
       pierceBuilding: true
       toColor: d77751
-      status: 13m-01-breached
+      status: 13m-a6-breached2
       statusDuration: 360
     }
   }

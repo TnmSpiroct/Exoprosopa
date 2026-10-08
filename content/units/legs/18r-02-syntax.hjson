@@ -57,7 +57,7 @@ weapons: [
       width: 15
       height: 15
       shootEffect: colorSpark
-      status: 13m-07-stunned
+      status: 13m-a7-disarmed1
       statusDuration: 30
       backColor: c59ae9
       frontColor: ffffff

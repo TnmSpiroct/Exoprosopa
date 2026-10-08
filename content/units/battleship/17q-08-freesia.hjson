@@ -120,7 +120,7 @@ weapons: [
 }
 ]
 immunities: [
-  13m-06-contaminated
+  13m-c3-corroded
 ]
 research: 17q-07-narhwal
 researchCostMultiplier: 0.5

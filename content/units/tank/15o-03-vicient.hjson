@@ -55,6 +55,8 @@ weapons: [
       trailLength: 16
       trailWidth: 3
       pierce: true
+      status: 13m-a2-sundered2
+      statusDuration: 75
       shootEffect: {
         type: ExplosionEffect
         lifetime: 25

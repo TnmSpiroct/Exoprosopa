@@ -45,6 +45,7 @@ maxAmmo: 40
 ammoTypes: {
   01a-06-item-chromium: {
     buildingDamageMultiplier: 0.2
+    status: 13m-b10-deamplified1
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -65,6 +66,7 @@ ammoTypes: {
   }
   01a-09-item-morphite: {
     buildingDamageMultiplier: 0.2
+    status: 13m-b10-deamplified1
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -94,11 +96,12 @@ ammoTypes: {
       lightningLength: 6
       lightningLengthRand: 3
       lightningColor: 51c59c
-      status: shocked
+      status: 13m-e1-surges
     }
   }
   01a-08-item-petal: {
     buildingDamageMultiplier: 0.2
+    status: 13m-b10-deamplified1
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -135,6 +138,7 @@ ammoTypes: {
   }
   01a-10-item-bethine: {
     buildingDamageMultiplier: 0.1
+    status: 13m-b11-deamplified2
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType

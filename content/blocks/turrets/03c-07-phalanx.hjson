@@ -150,7 +150,7 @@ ammoTypes: {
       lightningLength: 6
       lightningLengthRand: 3
       lightningColor: 51C59C
-      status: shocked
+      status: 13m-e1-surges
       collidesGround: false
     }
   }

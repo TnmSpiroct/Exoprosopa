@@ -1,0 +1,22 @@
+outline: false
+damage: 0.8
+damageMultiplier: 0.96
+reloadMultiplier: 0.96
+speedMultiplier: 0.68
+dragMultiplier: 1.24
+healthMultiplier: 0.78
+effect: {
+  type: ParticleEffect
+  region: exoprosopa-swirl
+  lifetime: 100
+  sizeInterp: slope
+  length: 10
+  baseLength: 4
+  sizeFrom: 1
+  sizeTo: 3
+  colorFrom: EBB2E28C
+  colorTo: EBB2E28C
+  layer: 61.7
+  spin: 6
+  baseRotation: 32.5
+}

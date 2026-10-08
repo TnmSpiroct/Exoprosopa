@@ -5,6 +5,7 @@ heatCapacity: 0.2
 viscosity: 0.25
 explosiveness: 0
 boilPoint: 0.5
+effect: exoprosopa-13m-c1-drenched
 research: {
   parent: 02b-02-a-purified-elixir
   objectives: [

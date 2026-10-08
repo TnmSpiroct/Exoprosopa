@@ -1,0 +1,5 @@
+outline: false
+damage: 3
+reloadMultiplier: 0.85
+speedMultiplier: 0.85
+dragMultiplier: 1.1

@@ -14,7 +14,7 @@ bullet: {
   lightningLength: 3
   lightningLengthRand: 4
   lightningColor: BC3443
-  status: 13m-03-hsos6
+  status: 13m-e1-surges
   statusDuration: 70
   killShooter: true
 }

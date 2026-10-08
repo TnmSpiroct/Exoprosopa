@@ -1,0 +1,75 @@
+# Removes Vanilla Outline, Boolean
+outline: false
+
+# Damage/s, 1 Unit = 60 Damage
+# damage: 1
+
+# Heal/s, -1 Unit = 60 Heal
+# damage: -0.1
+
+# Multiply Base Damage
+# damageMultiplier: 1
+
+# Multiply Reload Speed
+# reloadMultiplier: 1
+
+# Multiply Unit Speed
+# speedMultiplier: 1
+
+# Multiply Unit Drag
+# dragMultiplier: 1
+
+# Multply Unit Health
+healthMultiplier: 0.88
+
+# Disarm Affected Units, Boolean
+# disarm: true
+
+# Additional Information
+# Affinity & opposite values for stat displays.
+
+# affinities: [
+#   modname-statusname
+# ]
+
+# opposites: [
+#   modname-statusname
+# ]
+
+# Damage dealt upon translation to an affinity.
+# transitionDamage: 2
+
+# If true, this effect will only react with other effects and cannot be applied.
+# reactive: false
+
+# permanent: false
+
+# should the effect given a parent
+# parentizeEffect: false
+
+# Should the apply effect be given a parent.
+# parentizeApplyEffect
+
+# Interval damage application
+# intervalDamage: 5
+# intervalDamageTime: 5
+# intervalDamagePierce: 5
+
+
+# Code example for particle effect to affected units.
+
+# effect: {
+#   type: ParticleEffect
+#   region: exoprosopa-swirl
+#   lifetime: 100
+#   sizeInterp: slope
+#   length: 10
+#   baseLength: 4
+#   sizeFrom: 1
+#   sizeTo: 3
+#   colorFrom: EBB2E28C
+#   colorTo: EBB2E28C
+#   layer: 61.7
+#   spin: 6
+#   baseRotation: 32.5
+# }

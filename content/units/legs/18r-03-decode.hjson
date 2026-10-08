@@ -70,7 +70,7 @@ weapons: [
       sideWidth: 1
       pierce: true
       pierceBuilding: true
-      status: 13m-07-stunned
+      status: 13m-a7-disarmed1
       statusDuration: 30
       colors: [
        c59ae9,
@@ -83,7 +83,8 @@ weapons: [
         damage: 34.15
         lightningLength: 1.5
         lightningLengthRand: 3
-        status: shocked
+        status: 13m-e1-surges
+        statusDuration: 25
       }
     }
   }

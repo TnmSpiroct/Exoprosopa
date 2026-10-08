@@ -106,7 +106,8 @@ weapons: [
         lightningLength: 2.5
         lightningLengthRand: 4.5
         lightningColor: d8f18c
-        status: shocked
+        status: 13m-a3-entropy1
+        statusDuration: 45
       }
     }
   }

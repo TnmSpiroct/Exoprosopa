@@ -76,7 +76,7 @@ weapons: [
       damage: 24.5
       splashDamage: 20
       splashDamageRadius: 20
-      status: blasted
+      status: 13m-e2-gradient-blast
       }
     }
     {

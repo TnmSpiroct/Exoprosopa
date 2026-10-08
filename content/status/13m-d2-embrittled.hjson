@@ -1,0 +1,11 @@
+outline: false
+speedMultiplier: 0.78
+dragMultiplier: 0.35
+transitionDamage: 130
+affinities: [
+  exoprosopa-13m-e2-gradient-blast
+]
+opposites: [
+  exoprosopa-13m-b07-thermal-burn
+  exoprosopa-13m-b08-concussive-burn
+]

@@ -13,7 +13,7 @@ blockReactive: false
 gasColor: d9e1e6E6
 type: cellLiquid
 alwaysUnlocked: false
-effect: exoprosopa-13m-06-contaminated
+effect: exoprosopa-13m-c3-corroded
 research: {
   parent: 02b-02-a-purified-elixir
   objectives: [

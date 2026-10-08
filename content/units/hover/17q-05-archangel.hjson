@@ -143,7 +143,7 @@ weapons: [
       smokeEffect: none
       type: ArtilleryBulletType
       collidesAir: true
-      status: blasted
+      status: 13m-e2-gradient-blast
       recoil: 4
       speed: 5
       lifetime: 100

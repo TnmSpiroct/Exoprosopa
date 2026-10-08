@@ -71,6 +71,8 @@ weapons: [
     bullet: {
       type: BasicBulletType
       damage: 625
+      status: 13m-a4-entropy2
+      statusDuration: 75
       recoil: 1.65
       splashDamage: 80.75
       splashDamageRadius: 28
@@ -116,6 +118,7 @@ weapons: [
       sideWidth: 1
       pierce: true
       pierceBuilding: true
+      status: 13m-e1-surges
     }
   }
 ]

@@ -74,7 +74,7 @@ weapons: [
         lifetime: 60
         fromColor: fca988
         toColor: d77751
-        status: 13m-01-breached
+        status: 13m-a6-breached2
         statusDuration: 180
       }
   }

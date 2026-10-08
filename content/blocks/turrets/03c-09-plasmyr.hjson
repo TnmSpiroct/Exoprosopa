@@ -66,6 +66,8 @@ ammoTypes: {
     width: 22
     height: 22
     damage: 2100
+    status: 13m-b06-electrocuted3
+    statusDuration: 240
     shrinkX: 0
     shrinkY: 0
     speed: 9

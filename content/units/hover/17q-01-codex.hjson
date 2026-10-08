@@ -27,7 +27,7 @@ moveSoundPitchMax: 1.2
 parts: [
   {
     type: HoverPart
-    x: 4
+    x: 3
     y: 3
     mirror: true
     radius: 4
@@ -78,7 +78,8 @@ weapons: [
       pierce: false
       pierceBuilding: false
       lightningColor: e9c574
-      status: shocked
+      status: 13m-a3-entropy1
+      statusDuration: 20
     }
   }
 ]

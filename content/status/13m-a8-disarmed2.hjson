@@ -1,0 +1,4 @@
+outline: false
+speedMultiplier: 0.05
+dragMultiplier: 1.35
+disarm: true
