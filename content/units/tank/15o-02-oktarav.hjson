@@ -51,6 +51,8 @@ weapons: [
       trailLength: 5
       backColor: 9EB6EB
       hitColor: 9EB6EB
+      status: 13m-a1-sundered1
+      statusDuration: 60
       despawnEffect: {
         type: WaveEffect
         rotWithParent: true
