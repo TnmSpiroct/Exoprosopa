@@ -1,4 +1,4 @@
-# Exoprosopa V0.93: Pre-Finalize Update
+# Exoprosopa V0.95 Status Effects Update!
 <div align = center>
 
 <br>
@@ -101,6 +101,10 @@ Check it on my profile. My username is TnmSpiroctsub.<br><br>
 - Clevorite & Bloodstone Research Pacing
 - Added Custom Liquid Tiles
 - Improved Aqua Fog System
+- Removed 8 Old Status Effects - Add 32 New Status Effects
+- Improved Spark & Sora Visual
+- Improved Red Pallete Blocks
+- Improved Base Turret Sprites
 <br>
 
 ![Banner]
