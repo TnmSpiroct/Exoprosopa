@@ -5,6 +5,7 @@ viscosity: 0.5
 explosiveness: 0
 boilPoint: 0.5
 color: C63B64
+effect: exoprosopa-13m-c2-mired
 research: {
   parent: 02b-02-a-purified-elixir
   objectives: [
