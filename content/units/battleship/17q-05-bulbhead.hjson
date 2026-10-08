@@ -13,6 +13,8 @@ outlineColor: 0C0E29
 moveSoundVolume: 0.34
 moveSound: shipMove
 itemCapacity: 10
+immunities: [13m-c1-drenched
+]
 weapons: [
   {
     mirror: false
