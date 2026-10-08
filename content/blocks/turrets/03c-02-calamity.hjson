@@ -116,7 +116,7 @@ ammoTypes: {
     fragBullets: 8
     despawnSound: explosionArtillery
     status: 13m-b07-thermal-burn
-    statusDuration: 80
+    statusDuration: 90
       fragBullet: {
         # Explosion, mostly didnt have lifetime and speed
         type: ExplosionBulletType
@@ -201,7 +201,7 @@ ammoTypes: {
     knockback: 2
     despawnSound: explosionArtillery
     status: 13m-b07-thermal-burn
-    statusDuration: 80
+    statusDuration: 90
       fragBullet: {
         type: ExplosionBulletType
         splashDamageRadius: 20

@@ -88,7 +88,7 @@ ammoTypes: {
     splashDamage: 56
     splashDamageRadius: 200
     status: 13m-b02-disrupted2
-    statusDuration: 48
+    statusDuration: 30
     despawnEffect: none
     hitEffect: none
     rangeChange: 40

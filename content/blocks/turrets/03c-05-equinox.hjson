@@ -77,6 +77,8 @@ ammoTypes: {
     lifetime: 52.5
     pierceCap: 4
     pierce: true
+    status: 13m-b05-electrocuted2
+    statusDuration: 240
     backColor: 6eefc0
     frontColor: ffffff
     trailColor: 479075
@@ -90,7 +92,7 @@ ammoTypes: {
     intervalBullet: {
       type: LightningBulletType
       damage: 25.75
-      status: 13m-b05-electrocuted2
+      status: 13m-e1-surges
       lightningLength: 2
       lightningLengthRand: 4
       lightningColor: 6eefc0

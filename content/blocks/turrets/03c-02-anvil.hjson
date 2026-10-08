@@ -4,9 +4,9 @@ squareSprite: false
 health: 1650
 shootSound: shootDiffuse
 requirements: [
-  01a-01-item-cobalt/125
+  01a-01-item-cobalt/100
   01a-02-item-nickel/275
-  01a-05-item-aluminium/225
+  01a-05-item-aluminium/200
 ]
 researchCost: [
   01a-01-item-cobalt/1000
@@ -77,7 +77,7 @@ ammoTypes: {
     hitColor: bca49f
     frontColor: bca49f
     backColor: bca49f
-    damage: 52.75
+    damage: 62.75
     homingPower: 0.045
     knockback: 4
     width: 8
@@ -101,9 +101,8 @@ ammoTypes: {
     hitColor: d8f18c
     frontColor: d8f18c
     backColor: d8f18c
-    damage: 60.25
-    homingPower: 0.055
-    knockback: 4
+    damage: 48.25
+    homingPower: 0.065
     width: 8
     height: 14
     hitSize: 6
@@ -116,6 +115,48 @@ ammoTypes: {
     trailRotation: true
     trailLength: 4
     trailWidth: 0.5
+    fragOnHit: false
+    fragBullets: 5
+    fragLifeMin: 0.5
+    fragVelocityMin: 0.55
+    fragVelocityMax: 1.25
+    fragBullet: {
+      type: BasicBulletType
+      hitSize: 5
+      hitEffect: [
+        {
+        type: WaveEffect
+        colorFrom: d8f18c
+        colorTo: d8f18c
+        strokeFrom: 5
+        sizeTo: 5
+        lifetime: 15
+        }
+      ]
+      despawnEffect: [
+        {
+        type: WaveEffect
+        colorFrom: d8f18c
+        colorTo: d8f18c
+        strokeFrom: 6
+        sizeTo: 6
+        lifetime: 10
+        }
+      ]
+      hitColor: d8f18c
+      backColor: d8f18c
+      frontColor: ffffff
+      lightColor: d8f18c
+      homingPower: 1
+      width: 14
+      height: 15
+      speed: 4
+      lifetime: 30
+      damage: 25
+      trailColor: d8f18c
+      trailLength: 10
+      trailWidth: 2.75
+    }
   }
 }
 drawer: {

@@ -93,7 +93,7 @@ ammoTypes: {
       type: LiquidBulletType
       liquid: slag
       status: melting
-      statusDuration: 120
+      statusDuration: 90
       puddleSize: 40
       despawnHit: true
       despawnSound: shootRetusa
@@ -134,7 +134,7 @@ ammoTypes: {
       type: LiquidBulletType
       liquid: 02b-06-morphitix-plasma
       status: 13m-b05-electrocuted2
-      statusDuration: 240
+      statusDuration: 180
       puddleSize: 40
       despawnHit: true
       despawnSound: shootRetusa

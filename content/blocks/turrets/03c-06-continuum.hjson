@@ -34,6 +34,7 @@ shootType: {
   buildingDamageMultiplier: 0.1
   damage: 150
   status: 13m-b05-electrocuted2
+  statusDuration: 240
   hitColor: dcc6c6
 }
 unitSort: strongest
