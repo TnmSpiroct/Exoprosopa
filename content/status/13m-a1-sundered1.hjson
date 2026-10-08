@@ -20,7 +20,7 @@ outline: false
 # dragMultiplier: 1
 
 # Multply Unit Health
-healthMultiplier: 0.88
+healthMultiplier: 0.85
 
 # Disarm Affected Units, Boolean
 # disarm: true
