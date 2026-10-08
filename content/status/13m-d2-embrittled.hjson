@@ -1,5 +1,5 @@
 outline: false
-speedMultiplier: 0.78
+speedMultiplier: 0.75
 dragMultiplier: 0.35
 transitionDamage: 130
 affinities: [
