@@ -24,8 +24,6 @@ weapons: [
     continuous: true
     alwaysContinuous: true
     shootSound: shootBeam
-    shootStatus: 13m-08-doom
-    shootStatusDuration: 16
     shootY: 4
     bullet: {
       type: ContinuousFlameBulletType
