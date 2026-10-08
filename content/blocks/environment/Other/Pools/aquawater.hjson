@@ -8,3 +8,5 @@ isLiquid: true
 cacheLayer: water
 albedo: 0.9
 supportsOverlay: true
+status: exoprosopa-13m-c1-drenched
+statusDuration: 180
