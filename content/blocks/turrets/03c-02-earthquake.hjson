@@ -135,6 +135,7 @@ ammoTypes: {
   01a-10-item-bethine: {
     instantDisappear: true
     ammoMultiplier: 1
+    reloadMultiplier: 0.35
     damage: 12
     splashDamage: 320
     splashDamageRadius: 220

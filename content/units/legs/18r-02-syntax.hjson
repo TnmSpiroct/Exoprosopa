@@ -68,7 +68,7 @@ weapons: [
         damage: 14.65
         lightningLength: 1.5
         lightningLengthRand: 3
-        status: shocked
+        status: 13m-e1-surges
         despawnSound: shockBulletSyntax
       }
     }

@@ -1,7 +1,6 @@
 type: flying
 flying: true
-immunities: [
-  13m-e1-surges
+immunities: [13m-e1-surges
 ]
 controller: FlyingFollowAI
 faceTarget: true

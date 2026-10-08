@@ -48,7 +48,7 @@ weapons: [
       trailLength: 8
       backColor: E3EBFB
       hitColor: E3EBFB
-      status: shocked
+      status: 13m-e1-surges
       despawnEffect: {
         type: WaveEffect
         rotWithParent: true

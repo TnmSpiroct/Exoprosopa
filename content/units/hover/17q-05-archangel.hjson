@@ -1,5 +1,5 @@
 type: flying
-immunities: [shocked
+immunities: [13m-e1-surges
 ]
 flying: true
 faceTarget: true
