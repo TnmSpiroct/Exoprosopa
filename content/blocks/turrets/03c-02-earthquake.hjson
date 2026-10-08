@@ -22,20 +22,21 @@ outlineColor: 2C2A36
 targetAir: false
 targetGround: true
 rotateSpeed: 0
-reload: 90
+reload: 85
 range: 150
 shootCone: 360
 shootY: 0
 shootX: 0
-shake: 7
+shake: 8
+ammoPerShot: 2
 maxAmmo: 15
 ammoTypes: {
   01a-06-item-chromium: {
     instantDisappear: true
-    ammoMultiplier: 1
+    ammoMultiplier: 2
     damage: 6
     splashDamage: 20
-    splashDamageRadius: 148
+    splashDamageRadius: 160
     status: 13m-b01-disrupted1
     statusDuration: 30
     despawnEffect: none
@@ -82,12 +83,12 @@ ammoTypes: {
   }
   01a-03-item-lamine: {
     instantDisappear: true
-    ammoMultiplier: 1
+    ammoMultiplier: 2
     damage: 8
     splashDamage: 56
-    splashDamageRadius: 220
+    splashDamageRadius: 200
     status: 13m-b02-disrupted2
-    statusDuration: 45
+    statusDuration: 48
     despawnEffect: none
     hitEffect: none
     rangeChange: 40
@@ -127,6 +128,57 @@ ammoTypes: {
       strokeTo: 0
       colorFrom: ff816780
       colorTo: ff816780
+     }
+    ]
+   }
+  }
+  01a-10-item-bethine: {
+    instantDisappear: true
+    ammoMultiplier: 1
+    damage: 12
+    splashDamage: 320
+    splashDamageRadius: 220
+    status: 13m-b03-disrupted3
+    statusDuration: 60
+    despawnEffect: none
+    hitEffect: none
+    rangeChange: 60
+    collidesAir: false
+    shootEffect: {
+      type: MultiEffect
+      effects: [
+      {
+      type: WaveEffect
+      lifetime: 45
+      sizeFrom: 0
+      sizeTo: 215
+      sides: 64
+      strokeFrom: 3
+      strokeTo: 0
+      colorFrom: bf97d6
+      colorTo: bf97d6
+     }
+     {
+      type: WaveEffect
+      lifetime: 50
+      sizeFrom: 0
+      sizeTo: 215
+      sides: 64
+      strokeFrom: 3
+      strokeTo: 0
+      colorFrom: bf97d6bf
+      colorTo: bf97d6bf
+     }
+     {
+      type: WaveEffect
+      lifetime: 55
+      sizeFrom: 0
+      sizeTo: 215
+      sides: 64
+      strokeFrom: 3
+      strokeTo: 0
+      colorFrom: bf97d680
+      colorTo: bf97d680
      }
     ]
    }
