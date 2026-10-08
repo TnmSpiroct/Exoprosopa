@@ -66,7 +66,7 @@ weapons: [
       backColor: c59ae9
       frontColor: ffffff
       trailColor: c59ae9aa
-      status: 13m-07-stunned
+      status: 13m-a8-disarmed2
       statusDuration: 15
     }
   }
@@ -100,7 +100,8 @@ weapons: [
         width: 2
         serrations: 0
         despawnSound: shockBulletByte
-        status: shocked
+        status: 13m-e1-surges
+        statusDuration: 30
       }
     }
   }

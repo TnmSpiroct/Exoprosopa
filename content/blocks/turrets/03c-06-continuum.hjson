@@ -33,6 +33,7 @@ shootType: {
   type: PointLaserBulletType
   buildingDamageMultiplier: 0.1
   damage: 150
+  status: 13m-b05-electrocuted2
   hitColor: dcc6c6
 }
 unitSort: strongest

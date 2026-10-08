@@ -34,8 +34,8 @@ research: {
 engines: [
   {
     x: 0
-    y: -7
-    radius: 2.3
+    y: -4
+    radius: 1
   }
 ]
 itemCapacity: 0
@@ -44,10 +44,10 @@ lowAltitude: false
 parts: [
   {
     type: HoverPart
-    x: 7
-    y: 6
+    x: 6
+    y: 3.5
     mirror: true
-    radius: 7
+    radius: 5.5
     phase: 90
     stroke: 2
     layerOffset: -0.001
@@ -55,7 +55,7 @@ parts: [
   }
   {
     type: HoverPart
-    x: 7
+    x: 6
     y: -5
     mirror: true
     radius: 7
@@ -87,6 +87,7 @@ weapons: [
     mirror: false
     shootSound: shootElectric
     shootSoundVolume: 0.3
+    shootY: -1.25
     bullet: {
       type: LightningBulletType
       lightningColor: e9c574
@@ -96,7 +97,8 @@ weapons: [
       pierceBuilding: false
       damage: 17.35
       hitSound: none
-      status: shocked
+      status: 13m-a3-entropy1
+      statusDuration: 30
     }
   }
 ]

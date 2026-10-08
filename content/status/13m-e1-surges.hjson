@@ -1,0 +1,4 @@
+outline: false
+reloadMultiplier: 0.8
+speedMultiplier: 0.9
+reactive: true

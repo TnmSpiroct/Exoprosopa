@@ -66,6 +66,8 @@ weapons: [
       pierceArmor: false
       hitEffect: none
       despawnEffect: none
+      status: 13m-a5-breached1
+      statusDuration: 40
       hitColor: E67676
       colors: [
                D45050FF,

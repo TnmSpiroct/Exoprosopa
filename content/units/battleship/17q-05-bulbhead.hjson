@@ -54,7 +54,7 @@ weapons: [
   }
 ]
 immunities: [
-  13m-06-contaminated
+  13m-c3-corroded
 ]
 research: 000012-anchor
 researchCostMultiplier: 0.5

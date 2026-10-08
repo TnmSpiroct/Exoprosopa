@@ -57,7 +57,7 @@ weapons: [
       width: 15
       height: 15
       shootEffect: colorSpark
-      status: 13m-07-stunned
+      status: 13m-a7-disarmed1
       statusDuration: 30
       backColor: c59ae9
       frontColor: ffffff
@@ -68,7 +68,7 @@ weapons: [
         damage: 14.65
         lightningLength: 1.5
         lightningLengthRand: 3
-        status: shocked
+        status: 13m-e1-surges
         despawnSound: shockBulletSyntax
       }
     }

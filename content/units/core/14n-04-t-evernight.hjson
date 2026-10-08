@@ -142,6 +142,7 @@ weapons: [
     type: LightningBulletType
      lightningLength: 16
      damage: 35
+     status: 13m-e1-surges
      pierce: false
      pierceBuilding: false
      lightningColor: D8F18C

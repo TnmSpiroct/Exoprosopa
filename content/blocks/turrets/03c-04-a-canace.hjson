@@ -54,7 +54,7 @@ ammoTypes: {
     collides: true
     ammoMultiplier: 1
     fragBullet: {
-      status: 13m-01-breached
+      status: 13m-e2-gradient-blast
       statusDuration: 30
       despawnSound: explosion
       speed: 3.5
@@ -133,7 +133,7 @@ ammoTypes: {
     fragBullet: {
       type: LiquidBulletType
       liquid: 02b-06-morphitix-plasma
-      status: 13m-03-hsos6
+      status: 13m-b05-electrocuted2
       statusDuration: 240
       puddleSize: 40
       despawnHit: true
@@ -149,7 +149,7 @@ ammoTypes: {
       fragBullets: 4
       fragBullet: {
         type: LightningBulletType
-        status: shocked
+        status: 13m-e1-surges
         damage: 5
         buildingDamageMultiplier: 0.1
         collidesAir: false

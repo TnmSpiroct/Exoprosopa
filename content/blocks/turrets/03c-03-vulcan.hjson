@@ -43,7 +43,7 @@ ammoTypes: {
   incendSpread: 0
   colors: [5A4B67FF, 726081CC, 8E789F99, AC98BB73, CCBCD959
   ]
-  status: 13m-06-contaminated
+  status: 13m-b04-electrocuted1
   statusDuration: 60
   knockback: 1
   pierceCap: 2
@@ -70,7 +70,7 @@ ammoTypes: {
   timescaleDamage: true
   pierceCap: 4
   pierceArmor: false
-  status: 13m-03-hsos6
+  status: 13m-b05-electrocuted2
   statusDuration: 120
   intervalBullet: {
     type: LightningBulletType
@@ -79,7 +79,7 @@ ammoTypes: {
     lightningLength: 20
     lightningLengthRand: 4
     lightningColor: 51c59c
-    status: shocked
+    status: 13m-e1-surges
     buildingDamageMultiplier: 0.1
     }
  }

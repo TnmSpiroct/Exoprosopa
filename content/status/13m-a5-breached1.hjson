@@ -1,0 +1,4 @@
+outline: false
+damage: 0.03333333333
+speedMultiplier: 0.85
+healthMultiplier: 0.9

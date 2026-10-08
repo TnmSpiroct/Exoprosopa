@@ -92,7 +92,7 @@ ammoTypes: {
         lightningLength: 6
         lightningLengthRand: 3
         lightningColor: 51c59c
-        status: shocked
+        status: 13m-b05-electrocuted2
         damage: 12.5
         despawnSound: explosionArtilleryShock
       }
