@@ -53,8 +53,7 @@ ammoTypes: {
     hitColor: f6b08a
     frontColor: f6b08a
     backColor: f6b08a
-    damage: 35.25
-    homingPower: 0.045
+    damage: 35.5
     knockback: 2
     width: 8
     height: 14
@@ -77,9 +76,7 @@ ammoTypes: {
     hitColor: bca49f
     frontColor: bca49f
     backColor: bca49f
-    damage: 62.75
-    homingPower: 0.045
-    knockback: 4
+    damage: 62.85
     width: 8
     height: 14
     hitSize: 6
@@ -102,7 +99,6 @@ ammoTypes: {
     frontColor: d8f18c
     backColor: d8f18c
     damage: 48.25
-    homingPower: 0.065
     width: 8
     height: 14
     hitSize: 6
