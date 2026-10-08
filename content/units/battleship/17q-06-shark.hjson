@@ -15,8 +15,6 @@ moveSoundPitchMin: 0.9
 moveSoundPitchMax: 0.9
 moveSound: shipMove
 itemCapacity: 20
-immunities: [13m-c1-drenched
-]
 weapons: [
 {
     mirror: true
@@ -49,7 +47,8 @@ weapons: [
 }
 ]
 immunities: [
-  13m-c3-corroded
+  13m-c3-corroded,
+  13m-c1-drenched
 ]
 research: 17q-05-bulbhead
 researchCostMultiplier: 0.5

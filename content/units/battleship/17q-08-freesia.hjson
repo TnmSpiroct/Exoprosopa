@@ -15,8 +15,6 @@ abilities: [
     range: 60
    }
 ]
-immunities: [13m-c1-drenched
-]
 speed: 0.5
 health: 15000
 armor: 12
@@ -122,7 +120,8 @@ weapons: [
 }
 ]
 immunities: [
-  13m-c3-corroded
+  13m-c3-corroded,
+  13m-c1-drenched
 ]
 research: 17q-07-narhwal
 researchCostMultiplier: 0.5

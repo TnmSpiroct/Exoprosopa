@@ -13,8 +13,6 @@ outlineColor: 0C0E29
 moveSoundVolume: 0.34
 moveSound: shipMove
 itemCapacity: 10
-immunities: [13m-c1-drenched
-]
 weapons: [
   {
     mirror: false
@@ -56,7 +54,8 @@ weapons: [
   }
 ]
 immunities: [
-  13m-c3-corroded
+  13m-c3-corroded,
+  13m-c1-drenched
 ]
 research: 000012-anchor
 researchCostMultiplier: 0.5

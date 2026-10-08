@@ -15,8 +15,6 @@ moveSoundPitchMin: 0.75
 moveSoundPitchMax: 0.75
 moveSound: shipMove
 itemCapacity: 35
-immunities: [13m-c1-drenched
-]
 weapons: [
 {
     mirror: true
@@ -65,7 +63,8 @@ weapons: [
 }
 ]
 immunities: [
-  13m-c3-corroded
+  13m-c3-corroded,
+  13m-c1-drenched
 ]
 research: 17q-06-shark
 researchCostMultiplier: 0.5
