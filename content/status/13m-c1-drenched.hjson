@@ -1,6 +1,6 @@
 outline: false
-speedMultiplier: 0.94
-dragMultiplier: 1.08
+speedMultiplier: 0.95
+dragMultiplier: 1.1
 transitionDamage: 68
 affinities: [
   exoprosopa-13m-e1-surges
