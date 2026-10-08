@@ -1077,32 +1077,101 @@ weather.exoprosopa-exosphere.name =
 weather.exoprosopa-hydrostorm.name = 
 
 # Status Effects
-status.exoprosopa-13m-01-breached.name = 
-status.exoprosopa-13m-01-breached.description = 
+status.exoprosopa-13m-a1-sundered1.name = 
+status.exoprosopa-13m-a1-sundered1.description = 
 
-status.exoprosopa-13m-02-immunity.name = 
-status.exoprosopa-13m-02-immunity.description = 
+status.exoprosopa-13m-a2-sundered2.name = 
+status.exoprosopa-13m-a2-sundered2.description = 
 
-status.exoprosopa-13m-03-hsos6.name = 
-status.exoprosopa-13m-03-hsos6.description = 
+status.exoprosopa-13m-a3-entropy1.name = 
+status.exoprosopa-13m-a3-entropy1.description = 
 
-status.exoprosopa-13m-04-boosted.name = 
-status.exoprosopa-13m-04-boosted.description = 
+status.exoprosopa-13m-a4-entropy2.name = 
+status.exoprosopa-13m-a4-entropy2.description = 
 
-status.exoprosopa-13m-05-overboosted.name = 
-status.exoprosopa-13m-05-overboosted.description = 
+status.exoprosopa-13m-a5-breached1.name = 
+status.exoprosopa-13m-a5-breached1.description = 
 
-status.exoprosopa-13m-06-contaminated.name = 
-status.exoprosopa-13m-06-contaminated.description = 
+status.exoprosopa-13m-a6-breached2.name = 
+status.exoprosopa-13m-a6-breached2.description = 
 
-status.exoprosopa-13m-07-shock.name = 
-status.exoprosopa-13m-07-shock.description = 
+status.exoprosopa-13m-a7-disarmed1.name = 
+status.exoprosopa-13m-a7-disarmed1.description = 
 
-status.exoprosopa-13m-07-stunned.name = 
-status.exoprosopa-13m-07-stunned.description = 
+status.exoprosopa-13m-a8-disarmed2.name = 
+status.exoprosopa-13m-a8-disarmed2.description = 
 
-status.exoprosopa-13m-08-doom.name = 
-status.exoprosopa-13m-08-doom.description = 
+status.exoprosopa-13m-b01-disrupted1.name = 
+status.exoprosopa-13m-b01-disrupted1.description = 
+
+status.exoprosopa-13m-b02-disrupted2.name = 
+status.exoprosopa-13m-b02-disrupted2.description = 
+
+status.exoprosopa-13m-b03-disrupted3.name = 
+status.exoprosopa-13m-b03-disrupted3.description = 
+
+status.exoprosopa-13m-b04-electrocuted1.name = 
+status.exoprosopa-13m-b04-electrocuted1.description = 
+
+status.exoprosopa-13m-b05-electrocuted2.name = 
+status.exoprosopa-13m-b05-electrocuted2.description = 
+
+status.exoprosopa-13m-b06-electrocuted3.name = 
+status.exoprosopa-13m-b06-electrocuted3.description = 
+
+status.exoprosopa-13m-b07-thermal-burn.name = 
+status.exoprosopa-13m-b07-thermal-burn.description = 
+
+status.exoprosopa-13m-b08-concussive-burn.name = 
+status.exoprosopa-13m-b08-concussive-burn.description = 
+
+status.exoprosopa-13m-b09-gradient-burn.name = 
+status.exoprosopa-13m-b09-gradient-burn.description = 
+
+status.exoprosopa-13m-b10-deamplified1.name = 
+status.exoprosopa-13m-b10-deamplified1.description = 
+
+status.exoprosopa-13m-b11-deamplified2.name = 
+status.exoprosopa-13m-b11-deamplified2.description = 
+
+status.exoprosopa-13m-c1-drenched.name = 
+status.exoprosopa-13m-c1-drenched.description = 
+
+status.exoprosopa-13m-c2-mired.name = 
+status.exoprosopa-13m-c2-mired.description = 
+
+status.exoprosopa-13m-c3-corroded.name = 
+status.exoprosopa-13m-c3-corroded.description = 
+
+status.exoprosopa-13m-d1-emp-shock.name = 
+status.exoprosopa-13m-d1-emp-shock.description = 
+
+status.exoprosopa-13m-d2-embrittled.name = 
+status.exoprosopa-13m-d2-embrittled.description = 
+
+status.exoprosopa-13m-e1-surges.name = 
+status.exoprosopa-13m-e1-surges.description = 
+
+status.exoprosopa-13m-e2-gradient-blast.name = 
+status.exoprosopa-13m-e2-gradient-blast.description = 
+
+status.exoprosopa-13m-f1-empowered1.name = 
+status.exoprosopa-13m-f1-empowered1.description = 
+
+status.exoprosopa-13m-f2-empowered2.name = 
+status.exoprosopa-13m-f2-empowered2.description = 
+
+status.exoprosopa-13m-f3-boosted.name = 
+status.exoprosopa-13m-f3-boosted.description = 
+
+status.exoprosopa-13m-f4-overboosted.name = 
+status.exoprosopa-13m-f4-overboosted.description = 
+
+status.exoprosopa-13m-f5-moral.name = 
+status.exoprosopa-13m-f5-moral.description = 
+
+status.exoprosopa-13m-f6-superior.name = 
+status.exoprosopa-13m-f6-superior.description = 
 
 # Vanilla Overrides
 research = Analyze
