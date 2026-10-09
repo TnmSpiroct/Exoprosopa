@@ -32,9 +32,9 @@ healthMultiplier: 0.85
 #   modname-statusname
 # ]
 
-opposites: [
-  exoprosopa-13m-a2-sundered2
-]
+# opposites: [
+#   modname-statusname
+# ]
 
 # Damage dealt upon translation to an affinity.
 # transitionDamage: 2
