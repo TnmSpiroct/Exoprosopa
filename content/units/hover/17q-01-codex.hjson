@@ -79,6 +79,7 @@ weapons: [
       pierceBuilding: false
       lightningColor: e9c574
       status: 13m-a3-entropy1
+      statusDuration: 30
     }
   }
 ]

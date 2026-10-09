@@ -107,6 +107,7 @@ weapons: [
         lightningLengthRand: 4.5
         lightningColor: d8f18c
         status: 13m-a3-entropy1
+        statusDuration: 30
       }
     }
   }
