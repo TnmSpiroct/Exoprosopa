@@ -1,3 +1,4 @@
 outline: false
 damageMultiplier: 1.55
 healthMultiplier: 1.75
+hideDatabase: true
