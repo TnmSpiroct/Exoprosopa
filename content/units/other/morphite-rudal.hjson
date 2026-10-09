@@ -61,7 +61,7 @@ weapons: [
       fragLifeMin: 0.1
       fragBullets: 6
       lightning: 10
-      status: exoprosopa-13m-e1-surges
+      status: 13m-e1-surges
       lightningDamage: 25
       lightningLength: 12
       lightningColor: 6EEFC0
