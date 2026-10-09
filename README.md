@@ -90,16 +90,9 @@ Check it on my profile. My username is TnmSpiroctsub.<br><br>
 - New Ammunition
   - Petal Fragment Torrefy
   - Lamine Shellcore - Torrefy - Earthmover
-  - Gravitix Deprive
+  - Gravitix Deprive - Earthmover
   - Clevorite Anvil
 - Adjusting Tech Tree + 7 New Sectors Additions
-- Re-Sprite
-  - Powerline & Powerbeam
-  - Morphite SolarPanel
-  - Build Tower
-  - Conduits
-- Clevorite & Bloodstone Research Pacing
-- Added Custom Liquid Tiles
 - Improved Aqua Fog System
 - Removed 8 Old Status Effects - Added 32 New Status Effects
 - Improved Spark & Sora Visual
