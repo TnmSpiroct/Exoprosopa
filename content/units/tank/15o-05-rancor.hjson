@@ -119,7 +119,7 @@ weapons: [
       lifetime: 52.4
       damage: 380
       status: 13m-a2-sundered2
-      statusDuration: 180
+      statusDuration: 240
       hitEffect: [
         titanExplosionSmall,
         titanSmokeSmall

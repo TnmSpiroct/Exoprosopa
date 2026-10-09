@@ -74,8 +74,8 @@ weapons: [
         fragBullet: {
           type: LiquidBulletType
           liquid: slag
-          status: melting
-          statusDuration: 180
+          status: 13m-b08-concussive-burn
+          statusDuration: 240
           damage: 15.5
           puddleSize: 48
           despawnHit: true

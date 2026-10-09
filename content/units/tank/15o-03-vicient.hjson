@@ -56,7 +56,7 @@ weapons: [
       trailWidth: 3
       pierce: true
       status: 13m-a2-sundered2
-      statusDuration: 90
+      statusDuration: 120
       shootEffect: {
         type: ExplosionEffect
         lifetime: 25
@@ -111,6 +111,8 @@ weapons: [
         trailWidth: 2
         weaveScale: 2
         weaveMag: 3
+        status: 13m-a2-sundered2
+        statusDuration: 60
         pierceArmor: false
         pierceBuilding: true
         despawnSound: explosion
