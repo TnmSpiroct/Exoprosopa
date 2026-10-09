@@ -46,6 +46,7 @@ ammoTypes: {
   01a-06-item-chromium: {
     buildingDamageMultiplier: 0.2
     status: 13m-b10-deamplified1
+    statusDuration: 240
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -67,6 +68,7 @@ ammoTypes: {
   01a-09-item-morphite: {
     buildingDamageMultiplier: 0.2
     status: 13m-b10-deamplified1
+    statusDuration: 240
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -102,6 +104,7 @@ ammoTypes: {
   01a-08-item-petal: {
     buildingDamageMultiplier: 0.2
     status: 13m-b10-deamplified1
+    statusDuration: 240
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
@@ -139,6 +142,7 @@ ammoTypes: {
   01a-10-item-bethine: {
     buildingDamageMultiplier: 0.1
     status: 13m-b11-deamplified2
+    statusDuration: 240
     pierceArmor: true
     hitEffect: flakExplosion
     type: BasicBulletType
