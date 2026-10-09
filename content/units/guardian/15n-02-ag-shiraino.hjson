@@ -134,7 +134,7 @@ weapons: [
       hitEffect: blastExplosion
       despawnHit: true
       damage: 68
-      status: blasted
+      status: 13m-e2-gradient-blast
       splashDamage: 12
       splashDamageRadius: 20
     }
