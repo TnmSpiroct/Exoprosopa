@@ -1,4 +1,4 @@
 outline: false
 reloadMultiplier: 1.25
 speedMultiplier: 1.25
-hideDatabase: true
+show: false
