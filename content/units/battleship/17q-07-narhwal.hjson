@@ -63,8 +63,9 @@ weapons: [
 }
 ]
 immunities: [
-  13m-c3-corroded,
-  13m-c1-drenched
+  13m-c1-drenched,
+  13m-c2-mired,
+  13m-c3-corroded
 ]
 research: 17q-06-shark
 researchCostMultiplier: 0.5

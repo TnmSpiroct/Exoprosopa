@@ -105,7 +105,7 @@ weapons: [
       trailLength: 5
       backColor: E3EBFB
       hitColor: E3EBFB
-      status: shocked
+      status: 13m-e1-surges
       despawnEffect: {
         type: WaveEffect
         rotWithParent: true
@@ -120,8 +120,9 @@ weapons: [
 }
 ]
 immunities: [
-  13m-c3-corroded,
-  13m-c1-drenched
+  13m-c1-drenched,
+  13m-c2-mired,
+  13m-c3-corroded
 ]
 research: 17q-07-narhwal
 researchCostMultiplier: 0.5
