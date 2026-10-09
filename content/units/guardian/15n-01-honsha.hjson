@@ -99,6 +99,8 @@ weapons: [
       trailLength: 2
       backColor: 9EB6EB
       hitColor: 9EB6EB
+      status: 13m-a1-sundered1
+      statusDuration: 60
     }
   }
 ]
