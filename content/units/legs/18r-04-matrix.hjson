@@ -67,7 +67,7 @@ weapons: [
       frontColor: ffffff
       trailColor: c59ae9aa
       status: 13m-a8-disarmed2
-      statusDuration: 15
+      statusDuration: 30
     }
   }
   {

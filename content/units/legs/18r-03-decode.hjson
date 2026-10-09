@@ -84,7 +84,6 @@ weapons: [
         lightningLength: 1.5
         lightningLengthRand: 3
         status: 13m-e1-surges
-        statusDuration: 25
       }
     }
   }
