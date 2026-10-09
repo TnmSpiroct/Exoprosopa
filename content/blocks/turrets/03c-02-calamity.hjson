@@ -116,13 +116,14 @@ ammoTypes: {
     fragBullets: 8
     despawnSound: explosionArtillery
     status: 13m-b07-thermal-burn
-    statusDuration: 90
+    statusDuration: 60
       fragBullet: {
         # Explosion, mostly didnt have lifetime and speed
         type: ExplosionBulletType
         splashDamageRadius: 20
         killShooter: false
         splashDamage: 16
+        status: 13m-e2-gradient-blast
         buildingDamageMultiplier: 0.2
         fragRandomSpread: 0
         fragSpread: 45
@@ -137,6 +138,7 @@ ammoTypes: {
           speed: 2
           lifetime: 12
           damage: 10
+          status: 13m-e2-gradient-blast
           buildingDamageMultiplier: 0.2
           fragRandomSpread: 0
           fragAngle: 90
@@ -201,12 +203,13 @@ ammoTypes: {
     knockback: 2
     despawnSound: explosionArtillery
     status: 13m-b07-thermal-burn
-    statusDuration: 90
+    statusDuration: 60
       fragBullet: {
         type: ExplosionBulletType
         splashDamageRadius: 20
         killShooter: false
         splashDamage: 25
+        status: 13m-e2-gradient-blast
         buildingDamageMultiplier: 0.2
         fragRandomSpread: 0
         fragSpread: 45
@@ -220,6 +223,7 @@ ammoTypes: {
           speed: 2
           lifetime: 12
           damage: 10
+          status: 13m-e2-gradient-blast
           buildingDamageMultiplier: 0.2
           fragRandomSpread: 0
           fragAngle: 90
@@ -289,6 +293,7 @@ ammoTypes: {
         splashDamageRadius: 20
         killShooter: false
         splashDamage: 33
+        status: 13m-e2-gradient-blast
         buildingDamageMultiplier: 0.2
         fragRandomSpread: 0
         fragSpread: 45
@@ -302,6 +307,7 @@ ammoTypes: {
           speed: 2
           lifetime: 12
           damage: 7
+          status: 13m-e2-gradient-blast
           buildingDamageMultiplier: 0.2
           fragRandomSpread: 0
           fragAngle: 90
@@ -371,6 +377,7 @@ ammoTypes: {
       speed: 2
       lifetime: 12
       damage: 27
+      status: 13m-e2-gradient-blast
       buildingDamageMultiplier: 0.2
       fragRandomSpread: 0
       fragAngle: 90
@@ -380,6 +387,7 @@ ammoTypes: {
         splashDamageRadius: 20
         killShooter: false
         splashDamage: 20
+        status: 13m-e2-gradient-blast
         buildingDamageMultiplier: 0.2
         fragRandomSpread: 0
         fragSpread: 45
@@ -393,6 +401,7 @@ ammoTypes: {
           speed: 2
           lifetime: 12
           damage: 10
+          status: 13m-e2-gradient-blast
           buildingDamageMultiplier: 0.2
           fragRandomSpread: 0
           fragAngle: 90

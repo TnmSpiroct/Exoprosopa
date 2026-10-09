@@ -138,8 +138,8 @@ ammoTypes: {
       homingPower: 1
       width: 10
       height: 15
-      speed: 4
-      lifetime: 30
+      speed: 8
+      lifetime: 45
       damage: 35
       trailEffect: colorSpark
       trailInterval: 3

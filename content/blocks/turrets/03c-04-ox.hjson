@@ -72,8 +72,6 @@ ammoTypes: {
       damage: 67.25
       speed: 8
       ammoMultiplier: 4
-      status: 13m-b05-electrocuted2
-      statusDuration: 240
       shootEffect: colorSpark
       smokeEffect: colorSpark
       trailColor: 51C59C

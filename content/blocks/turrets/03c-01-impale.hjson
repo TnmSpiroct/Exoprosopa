@@ -209,7 +209,7 @@ ammoTypes: {
       lightningLengthRand: 3
       lightningColor: 51c59c
       status: 13m-e1-surges
-      damage: 7.5
+      damage: 6.5
       despawnSound: explosionArtilleryShock
     }
   }

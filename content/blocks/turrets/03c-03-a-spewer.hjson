@@ -71,32 +71,13 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: 02b-05-hydrowater
     status: 13m-c1-drenched
-    statusDuration: 180
+    statusDuration: 240
     speed: 5
     lifetime: 54
     rangeChange: 100
     knockback: 0.8
     damage: 0.4
     layer: 98
-    puddleSize: 8
-    orbSize: 4
-    drag: 0.001
-    ammoMultiplier: 0.4
-  }
-  02b-02-ichor: {
-    despawnEffect: shootLiquid
-    hitEffect: shootLiquid
-    type: LiquidBulletType
-    liquid: 02b-02-ichor
-    speed: 3.5
-    lifetime: 68
-    rangeChange: 64
-    knockback: 0.8
-    status: 13m-f1-empowered1
-    statusDuration: 120
-    damage: 8
-    layer: 98
-    healPercent: 8
     puddleSize: 8
     orbSize: 4
     drag: 0.001
@@ -126,14 +107,13 @@ ammoTypes: {
     type: LiquidBulletType
     liquid: 02b-08-nucliogen
     status: 13m-c2-mired
-    statusDuration: 180
+    statusDuration: 240
     speed: 4
     lifetime: 72
     rangeChange: 120
     knockback: 1.2
     damage: 8
     layer: 98
-    healPercent: 8
     puddleSize: 8
     orbSize: 4
     drag: 0.001

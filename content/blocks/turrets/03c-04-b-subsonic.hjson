@@ -34,8 +34,7 @@ shootType: {
   lightningLength: 27
   lightningLengthRand: 7
   lightningColor: 51C59C
-  status: 13m-b05-electrocuted2
-  statusDuration: 120
+  status: 13m-e1-surges
   chargeEffect: [lancerLaserCharge, lancerLaserChargeBegin
   ]
   buildingDamageMultiplier: 0.2
