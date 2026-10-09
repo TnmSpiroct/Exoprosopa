@@ -2,3 +2,6 @@ outline: false
 speedMultiplier: 0.05
 dragMultiplier: 1.35
 disarm: true
+opposites: [
+  exoprosopa-13m-a7-disarmed1
+]

@@ -1,3 +1,6 @@
 outline: false
 damageMultiplier: 0.85
 healthMultiplier: 0.85
+opposites: [
+  exoprosopa-13m-b10-deamplified1
+]

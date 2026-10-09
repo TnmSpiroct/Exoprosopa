@@ -1,3 +1,4 @@
 outline: false
 damageMultiplier: 1.1
 healthMultiplier: 1.8
+show: false

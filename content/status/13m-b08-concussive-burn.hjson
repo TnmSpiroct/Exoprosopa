@@ -4,5 +4,7 @@ speedMultiplier: 0.90
 opposites: [
   exoprosopa-13m-c1-drenched
   exoprosopa-13m-c2-mired
+  exoprosopa-13m-c3-corroded
+ 
 ]
 effect: burning

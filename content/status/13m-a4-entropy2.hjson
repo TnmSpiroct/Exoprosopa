@@ -2,3 +2,6 @@ outline: false
 damage: 0.8
 dragMultiplier: 1.15
 speedMultiplier: 0.95
+opposites: [
+  exoprosopa-13m-a3-entropy1
+]

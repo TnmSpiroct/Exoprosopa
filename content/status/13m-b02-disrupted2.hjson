@@ -3,3 +3,6 @@ damage: 1.0833333333333333
 damageMultiplier: 1.05
 reloadMultiplier: 1.05
 speedMultiplier: 0.25
+opposites: [
+  exoprosopa-13m-b01-disrupted1
+]

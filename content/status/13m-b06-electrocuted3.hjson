@@ -1,5 +1,9 @@
 outline: false
-damage: 6
+damage: 0.6
 reloadMultiplier: 0.85
 speedMultiplier: 0.75
 dragMultiplier: 1.15
+opposites: [
+  exoprosopa-13m-b04-electrocuted1
+  exoprosopa-13m-b05-electrocuted2
+]

@@ -1,5 +1,5 @@
 outline: false
-damage: 0.8
+damage: 0.5
 damageMultiplier: 0.95
 reloadMultiplier: 0.95
 speedMultiplier: 0.7
