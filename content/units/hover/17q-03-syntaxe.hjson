@@ -90,6 +90,8 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect: shootSmokeTitan
       lifetime: 32
+      status: 13m-a3-entropy1
+      statusDuration: 60
       pierce: true
       pierceBuilding: false
       despawnSound: explosionArtilleryShock
@@ -106,8 +108,7 @@ weapons: [
         lightningLength: 2.5
         lightningLengthRand: 4.5
         lightningColor: d8f18c
-        status: 13m-a3-entropy1
-        statusDuration: 30
+        status: 13m-e1-surges
       }
     }
   }

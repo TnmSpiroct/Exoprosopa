@@ -118,7 +118,7 @@ weapons: [
             length: 32.5
             baseLength: 27.5
             cone: 360
-            particles: 24
+            particles: 26
             offset: 120
             sizeFrom: 5
             colorFrom: d7f08b90
@@ -182,8 +182,8 @@ weapons: [
         length: 60
         width: 4
         damage: 125
-        status: electrified
-        statusDuration: 300
+        status: 13m-a4-entropy2
+        statusDuration: 240
       }
     }
   }

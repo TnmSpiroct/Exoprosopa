@@ -118,7 +118,6 @@ weapons: [
       sideWidth: 1
       pierce: true
       pierceBuilding: true
-      status: 13m-e1-surges
     }
   }
 ]
