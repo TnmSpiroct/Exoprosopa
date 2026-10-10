@@ -39,6 +39,8 @@ research: {
     }
   ]
 }
+targetFlags: [core
+]
 researchCostMultiplier: 2.5
 abilities: [
   {
