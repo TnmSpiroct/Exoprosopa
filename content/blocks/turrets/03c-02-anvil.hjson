@@ -36,12 +36,12 @@ targetAir: true
 targetGround: true
 rotateSpeed: 2.25
 reload: 50
-range: 140
+range: 145
 shootY: 1
 shoot: {
   type: ShootSpread
   shots: 5
-  spread: 14
+  spread: 15
 }
 maxAmmo: 15
 ammoTypes: {
@@ -67,7 +67,7 @@ ammoTypes: {
     trailRotation: true
     trailLength: 1
     trailWidth: 0.25
-    homingPower: 0.1
+    homingPower: 0.01
   }
   01a-06-item-chromium: {
     type: BasicBulletType
@@ -91,7 +91,7 @@ ammoTypes: {
     trailRotation: true
     trailLength: 1
     trailWidth: 0.25
-    homingPower: 0.1
+    homingPower: 0.01
   }
   01a-07-item-clevorite: {
     type: BasicBulletType
@@ -106,7 +106,7 @@ ammoTypes: {
     height: 14
     hitSize: 6
     speed: 5
-    lifetime: 30
+    lifetime: 35
     trailColor: d8f18c
     trailChance: -1
     trailEffect: shootSmokeTitan
@@ -114,34 +114,11 @@ ammoTypes: {
     trailRotation: true
     trailLength: 1
     trailWidth: 0.25
-    fragOnHit: true
-    fragSpread: 0 
-    fragRandomSpread: 0
-    intervalRandomSpread: 0
-    fragBullets: 1
-    fragBullet: {
-      type: BasicBulletType
-      buildingDamageMultiplier: 0.2
-      sprite: large-orb
-      hitSize: 6
-      hitEffect: none
-      despawnEffect: none
-      hitColor: d8f18c
-      backColor: d8f18c
-      frontColor: d8f18c
-      homingPower: 1
-      width: 8
-      height: 14
-      speed: 8
-      lifetime: 12
-      damage: 35
-      trailEffect: shootSmokeTitan
-      trailInterval: 3
-      trailRotation: true
-      trailColor: d8f18c
-      trailLength: 1
-      trailWidth: 0.5
-    }
+    homingPower: 0.02
+    homingRange: 20
+    shrinkX: 0
+    shrinkY: 0
+    rangeChange: 20
   }
 }
 drawer: {
