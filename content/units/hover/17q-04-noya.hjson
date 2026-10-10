@@ -24,6 +24,8 @@ research: {
     }
   ]
 }
+targetFlags: [core
+]
 engineOffset: 8
 engines: [
   {

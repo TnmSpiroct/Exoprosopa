@@ -23,6 +23,8 @@ research: {
     }
   ]
 }
+targetFlags: [storage
+]
 engines: [
   {
     x: 0
