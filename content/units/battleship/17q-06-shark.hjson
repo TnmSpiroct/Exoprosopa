@@ -53,3 +53,5 @@ immunities: [
 ]
 research: 17q-05-bulbhead
 researchCostMultiplier: 0.5
+faceTarget: false
+forceMultiTarget: true

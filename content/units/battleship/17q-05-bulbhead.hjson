@@ -60,3 +60,5 @@ immunities: [
 ]
 research: 000012-anchor
 researchCostMultiplier: 0.5
+faceTarget: false
+forceMultiTarget: true
