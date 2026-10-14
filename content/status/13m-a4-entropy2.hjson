@@ -5,3 +5,38 @@ speedMultiplier: 0.95
 opposites: [
   exoprosopa-13m-a3-entropy1
 ]
+effectChance: 0.01
+effect: {
+    type: MultiEffect
+    effects: [
+    {
+    type: particleEffect
+    region: exoprosopa-spark-drill
+    particles: 1
+    length: 2
+    baseLength: 1
+    sizeInterp: slope
+    lifetime: 80
+    colorFrom: d7f08b
+    colorTo: d7f08b
+    sizeFrom: 0
+    sizeTo: 2.55
+    offset: 45
+    offsetY: 2
+    }
+    {
+    type: particleEffect
+    region: shell
+    particles: 3
+    length: 2
+    baseLength: 1
+    sizeInterp: slope
+    lifetime: 80
+    colorFrom: d7f08b
+    colorTo: d7f08b
+    sizeFrom: 0
+    sizeTo: 2.55
+    offsetX: 2
+    }
+  ]
+}

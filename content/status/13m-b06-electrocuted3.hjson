@@ -7,3 +7,17 @@ opposites: [
   exoprosopa-13m-b04-electrocuted1
   exoprosopa-13m-b05-electrocuted2
 ]
+effectChance: 0.1
+effect: {
+    type: particleEffect
+    region: exoprosopa-spark-drill
+    particles: 2
+    length: 2
+    baseLength: 1
+    sizeInterp: slope
+    lifetime: 40
+    colorFrom: 85c2ee
+    colorTo: 85c2ee
+    sizeFrom: 0
+    sizeTo: 2.55
+}

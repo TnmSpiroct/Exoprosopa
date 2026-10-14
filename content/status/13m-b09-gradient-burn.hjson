@@ -6,4 +6,16 @@ opposites: [
   exoprosopa-13m-c2-mired
   exoprosopa-13m-c3-corroded
 ]
-effect: burning
+effect: {
+    type: particleEffect
+    particles: 3
+    length: 7
+    baseLength: 2
+    sizeInterp: fade
+    lifetime: 35
+    colorFrom: 60c9ad
+    colorTo: 1e7886
+    sizeFrom: 1.4
+    sizeTo: 0
+    lightScl: 1
+}

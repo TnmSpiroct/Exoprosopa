@@ -5,3 +5,18 @@ transitionDamage: 6
 affinities: [
   exoprosopa-13m-e1-surges
 ]
+effectChance: 0.09
+effect: {
+    type: particleEffect
+    particles: 1
+    length: 2
+    baseLength: 1
+    sizeInterp: fade
+    lifetime: 80
+    colorFrom: 85e1d2bf
+    colorTo: 25858300
+    sizeFrom: 1
+    sizeTo: 0
+    lightScl: 0
+    lightOpacity: 0
+}

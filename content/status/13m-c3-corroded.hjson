@@ -5,18 +5,21 @@ reloadMultiplier: 0.95
 speedMultiplier: 0.7
 dragMultiplier: 1.25
 healthMultiplier: 0.8
+effectChance: 0.07
 effect: {
-  type: ParticleEffect
-  region: exoprosopa-swirl
-  lifetime: 100
-  sizeInterp: slope
-  length: 10
-  baseLength: 4
-  sizeFrom: 1
-  sizeTo: 3
-  colorFrom: EBB2E28C
-  colorTo: EBB2E28C
-  layer: 61.7
-  spin: 6
-  baseRotation: 32.5
+    type: particleEffect
+    region: exoprosopa-swirl
+    particles: 1
+    length: 2
+    baseLength: 1
+    sizeInterp: fade
+    lifetime: 120
+    colorFrom: ebb2e2bf
+    colorTo: a270ab00
+    spin: 5
+    baseRotation: 32.5
+    sizeFrom: 3
+    sizeTo: 0
+    lightScl: 0
+    lightOpacity: 0
 }

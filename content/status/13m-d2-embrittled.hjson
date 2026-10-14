@@ -10,4 +10,15 @@ opposites: [
   exoprosopa-13m-b08-concussive-burn
   exoprosopa-13m-b09-gradient-burn
 ]
-effect: freezing
+effect: {
+    type: particleEffect
+    particles: 2
+    length: 2
+    baseLength: 1
+    sizeInterp: fade
+    lifetime: 40
+    colorFrom: a8d7e7
+    colorTo: 79a9ca
+    sizeFrom: 1.2
+    sizeTo: 0
+}

@@ -5,6 +5,17 @@ opposites: [
   exoprosopa-13m-c1-drenched
   exoprosopa-13m-c2-mired
   exoprosopa-13m-c3-corroded
- 
 ]
-effect: burning
+effect: {
+    type: particleEffect
+    particles: 3
+    length: 7
+    baseLength: 2
+    sizeInterp: fade
+    lifetime: 35
+    colorFrom: fd977d
+    colorTo: ea6763
+    sizeFrom: 1.4
+    sizeTo: 0
+    lightScl: 1
+}

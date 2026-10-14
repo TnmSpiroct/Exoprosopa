@@ -3,3 +3,17 @@ damage: 0.2
 reloadMultiplier: 0.9
 speedMultiplier: 0.9
 dragMultiplier: 1.05
+effectChance: 0.1
+effect: {
+    type: particleEffect
+    region: exoprosopa-spark-drill
+    particles: 2
+    length: 2
+    baseLength: 1
+    sizeInterp: slope
+    lifetime: 40
+    colorFrom: ebb2e2
+    colorTo: ebb2e2
+    sizeFrom: 0
+    sizeTo: 2.55
+}
