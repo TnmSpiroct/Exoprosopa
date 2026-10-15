@@ -56,7 +56,7 @@ Check it on my profile. My username is TnmSpiroctsub.<br><br>
 
 <div align = center>
 
-## Changelogs - V0.93 Pre-Finalize Udpate
+## Changelogs - V0.95 Status Effects Udpate
 </div>
 
 - Campaign Sectors [onGoing]:
