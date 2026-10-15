@@ -109,36 +109,115 @@ weapons: [
     shootY: -9
     bullet: {
       chargeEffect: {
+      type: MultiEffect
+      effects: [
+        {
         type: SeqEffect
         effects: [
-          {
-            type: ParticleEffect
-            offsetX: 4.5
-            layer: 100
-            length: 32.5
-            baseLength: 27.5
-            cone: 360
-            particles: 26
-            offset: 120
-            sizeFrom: 5
-            colorFrom: d7f08b90
-            colorTo: 92b25890
-            sizeTo: 0.5
-            lifetime: 190
-          }
-          {
-            type: WaveEffect
-            offsetX: 4.5
-            layer: 100
-            sizeFrom: 64
-            sizeTo: 0
-            strokeFrom: 3
-            strokeTo: 0
-            colorFrom: d7f08b90
-            colorTo: 92b25890
-            lifetime: 30
-          }
-        ]
+        {
+         type: WaveEffect
+         offsetX: 6.6
+         colorFrom: d7f08b90
+         colorTo: 92b25890
+         sizeFrom: 35
+         sizeTo: 0
+         strokeFrom: 0
+         strokeTo: 2
+         lifetime: 70
+         interp: pow3In
+        }
+        {
+         type: WaveEffect
+         offsetX: 6.6
+         colorFrom: d7f08b90
+         colorTo: 92b25890
+         sizeFrom: 50
+         sizeTo: 0
+         strokeFrom: 0
+         strokeTo: 2.5
+         lifetime: 74
+         interp: pow3In
+        }
+        {
+         type: WaveEffect
+         offsetX: 6.6
+         colorFrom: d7f08b90
+         colorTo: 92b25890
+         sizeFrom: 65
+         sizeTo: 0
+         strokeFrom: 0
+         strokeTo: 3
+         lifetime: 67
+         interp: pow3In
+        }
+       ]
+        }
+        {
+        type: ParticleEffect
+        offsetX: 6.6
+        length: 0
+        colorFrom: d7f08bda
+        colorTo: ffffffff
+        sizeFrom: 0
+        sizeTo: 6
+        lifetime: 210
+        interp: smoother
+        particles: 1
+        }
+        {
+        type: ParticleEffect
+        offsetX: 6.6
+        baseLength: -80
+        length: 80
+        colorFrom: d7f08b90
+        colorTo: 92b25890
+        sizeFrom: 0
+        sizeTo: 4
+        lifetime: 192
+        interp: exp5In
+        particles: 24
+        }
+        {
+        type: ParticleEffect
+        offsetX: 6.6
+        baseLength: -80
+        length: 80
+        colorFrom: d7f08b90
+        colorTo: ffffffff
+        sizeFrom: 0
+        sizeTo: 8
+        lifetime: 192
+        interp: exp5In
+        particles: 38
+        }
+        {
+        type: ParticleEffect
+        offsetX: 6.6
+        baseLength: -50
+        length: 50
+        colorFrom: d7f08b90
+        colorTo: 92b25890
+        sizeFrom: 0
+        sizeTo: 3
+        lifetime: 45
+        interp: pow3In
+        startDelay: 90
+        particles: 32
+        }
+        {
+        type: ParticleEffect
+        offsetX: 6.6
+        baseLength: -40
+        length: 40
+        colorFrom: d7f08b90
+        colorTo: 92b25890
+        sizeFrom: 0
+        sizeTo: 3
+        lifetime: 59
+        interp: pow3In
+        particles: 32
+        }
+       ]
       }
       smokeEffect: none
       type: ArtilleryBulletType
@@ -164,7 +243,7 @@ weapons: [
       trailRotation: true
       trailLength: 18
       trailWidth: 4
-      trailColor: D8F18C
+      trailColor: d8f18c
       bulletInterval: 6
       intervalRandomSpread: 0
       intervalBullets: 2
