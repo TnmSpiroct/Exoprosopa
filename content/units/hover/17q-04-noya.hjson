@@ -48,7 +48,7 @@ engines: [
   }
 ]
 itemCapacity: 80
-lowAltitude: false
+lowAltitude: true
 abilities: [
     {
     type: ShieldArcAbility
