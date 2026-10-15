@@ -2,7 +2,7 @@ outline: false
 damage: 0.3
 dragMultiplier: 1.15
 speedMultiplier: 0.95
-effectChance: 0.01
+effectChance: 0.02
 effect: {
     type: MultiEffect
     effects: [

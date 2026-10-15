@@ -2,3 +2,35 @@ outline: false
 speedMultiplier: 0.35
 dragMultiplier: 1.15
 disarm: true
+effectChance: 0.02
+effect: {
+    type: particleEffect
+    region: shell
+    particles: 2
+    length: 2
+    baseLength: 1
+    sizeInterp: slope
+    lifetime: 80
+    colorFrom: dcb8f1
+    colorTo: b088c9
+    sizeFrom: 0
+    sizeTo: 2.55
+}
+applyEffect: {
+      type: ParticleEffect
+      particles: 3
+      length: 0
+      lifetime: 20
+      colorFrom: ffd3f7ff
+      colorTo: ffd3f700
+      baseRotation: 0
+      randLength: false
+      offsetX: 0
+      offsetY: 0
+      useRotation: false
+      sizeFrom: 0
+      sizeTo: 7
+      region: exoprosopa-disarmed1
+      cone: 0
+      sizeInterp: pow2Out
+}

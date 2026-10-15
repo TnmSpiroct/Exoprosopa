@@ -33,7 +33,7 @@ healthMultiplier: 0.85
 # ]
 
 # opposites: [
-#   modname-statusname
+#  modname-statusname
 # ]
 
 # Damage dealt upon translation to an affinity.
@@ -57,19 +57,17 @@ healthMultiplier: 0.85
 
 
 # Code example for particle effect to affected units.
-
-# effect: {
-#   type: ParticleEffect
-#   region: exoprosopa-swirl
-#   lifetime: 100
-#   sizeInterp: slope
-#   length: 10
-#   baseLength: 4
-#   sizeFrom: 1
-#   sizeTo: 3
-#   colorFrom: EBB2E28C
-#   colorTo: EBB2E28C
-#   layer: 61.7
-#   spin: 6
-#   baseRotation: 32.5
-# }
+effectChance: 0.02
+effect: {
+    type: particleEffect
+    region: shell
+    particles: 2
+    length: 2
+    baseLength: 1
+    sizeInterp: slope
+    lifetime: 80
+    colorFrom: 9db5e9
+    colorTo: 9db5e9
+    sizeFrom: 0
+    sizeTo: 2.55
+}

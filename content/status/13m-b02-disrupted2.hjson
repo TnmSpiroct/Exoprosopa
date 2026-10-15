@@ -6,3 +6,36 @@ speedMultiplier: 0.25
 opposites: [
   exoprosopa-13m-b01-disrupted1
 ]
+effectChance: 0.02
+effect: {
+    type: particleEffect
+    region: shell
+    particles: 2
+    length: 2
+    baseLength: 1
+    sizeInterp: slope
+    lifetime: 80
+    colorFrom: fe987e
+    colorTo: eb6864
+    sizeFrom: 0
+    sizeTo: 2.55
+}
+applyEffect: {
+      type: ParticleEffect
+      particles: 3
+      length: 0
+      startDelay: 5
+      lifetime: 50
+      colorFrom: fe987eff
+      colorTo: fe987e00
+      baseRotation: 0
+      randLength: false
+      offsetX: 0
+      offsetY: 0
+      useRotation: false
+      sizeFrom: 0
+      sizeTo: 7
+      region: exoprosopa-disrupted2
+      cone: 0
+      sizeInterp: pow2Out
+}

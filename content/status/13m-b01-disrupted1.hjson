@@ -2,3 +2,36 @@ outline: false
 damageMultiplier: 1.1
 reloadMultiplier: 1.1
 speedMultiplier: 0.35
+effectChance: 0.02
+effect: {
+    type: particleEffect
+    region: shell
+    particles: 2
+    length: 2
+    baseLength: 1
+    sizeInterp: slope
+    lifetime: 80
+    colorFrom: dcb8f1
+    colorTo: bca49f
+    sizeFrom: 0
+    sizeTo: 2.55
+}
+applyEffect: {
+      type: ParticleEffect
+      particles: 3
+      length: 0
+      startDelay: 5
+      lifetime: 30
+      colorFrom: dcc6c6ff
+      colorTo: dcc6c600
+      baseRotation: 0
+      randLength: false
+      offsetX: 0
+      offsetY: 0
+      useRotation: false
+      sizeFrom: 0
+      sizeTo: 7
+      region: exoprosopa-disrupted1
+      cone: 0
+      sizeInterp: pow2Out
+}

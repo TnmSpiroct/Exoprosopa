@@ -2,3 +2,17 @@ outline: false
 damage: 0.03333333333
 speedMultiplier: 0.85
 healthMultiplier: 0.9
+effectChance: 0.02
+effect: {
+    type: particleEffect
+    region: shell
+    particles: 2
+    length: 2
+    baseLength: 1
+    sizeInterp: slope
+    lifetime: 80
+    colorFrom: f4807f
+    colorTo: cc585d
+    sizeFrom: 0
+    sizeTo: 2.55
+}

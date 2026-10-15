@@ -3,3 +3,17 @@ healthMultiplier: 0.80
 opposites: [
   exoprosopa-13m-a1-sundered1
 ]
+effectChance: 0.02
+effect: {
+    type: particleEffect
+    region: shell
+    particles: 2
+    length: 2
+    baseLength: 1
+    sizeInterp: slope
+    lifetime: 80
+    colorFrom: 798fd4
+    colorTo: 798fd4
+    sizeFrom: 0
+    sizeTo: 2.55
+}

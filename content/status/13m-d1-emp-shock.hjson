@@ -2,7 +2,7 @@ outline: false
 speedMultiplier: 0.95
 dragMultiplier: 0.65
 healthMultiplier: 0.9
-effectChance: 0.07
+effectChance: 0.05
 effect: {
     type: MultiEffect
     effects: [
@@ -14,26 +14,11 @@ effect: {
     baseLength: 1
     sizeInterp: fade
     lifetime: 80
-    colorFrom: 6b78b0
+    colorFrom: 9eb6eb
     colorTo: 6b78b0
     sizeFrom: 2.55
     sizeTo: 0
     offset: 45
-    offsetY: 2
-    }
-    {
-    type: particleEffect
-    region: shell
-    particles: 2
-    length: 2
-    baseLength: 1
-    sizeInterp: fade
-    lifetime: 80
-    colorFrom: 9eb6eb
-    colorTo: 9eb6eb
-    sizeFrom: 2.55
-    sizeTo: 0
-    offsetX: 0
     }
     {
     type: particleEffect
@@ -43,26 +28,10 @@ effect: {
     baseLength: 1
     sizeInterp: fade
     lifetime: 80
-    colorFrom: 6b78b0
+    colorFrom: 9eb6eb
     colorTo: 6b78b0
     sizeFrom: 2.55
     sizeTo: 0
-    offsetX: -2
-    }
-    {
-    type: particleEffect
-    region: exoprosopa-spark-drill
-    particles: 1
-    length: 2
-    baseLength: 1
-    sizeInterp: fade
-    lifetime: 80
-    colorFrom: 9eb6eb
-    colorTo: 9eb6eb
-    sizeFrom: 2.55
-    sizeTo: 0
-    offset: 45
-    offsetY: -2
     }
   ]
 }

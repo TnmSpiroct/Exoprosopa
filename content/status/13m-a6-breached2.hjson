@@ -5,3 +5,17 @@ healthMultiplier: 0.85
 opposites: [
   exoprosopa-13m-a5-breached1
 ]
+effectChance: 0.02
+effect: {
+    type: particleEffect
+    region: shell
+    particles: 3
+    length: 2
+    baseLength: 1
+    sizeInterp: slope
+    lifetime: 80
+    colorFrom: f4807f
+    colorTo: cc585d
+    sizeFrom: 0
+    sizeTo: 2.55
+}
