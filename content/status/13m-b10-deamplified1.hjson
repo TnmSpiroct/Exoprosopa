@@ -1,3 +1,17 @@
 outline: false
 damageMultiplier: 0.9
 healthMultiplier: 0.9
+effect: {
+    type: particleEffect
+    region: exoprosopa-needle
+    particles: 2
+    length: 7
+    baseLength: 2
+    sizeInterp: fade
+    lifetime: 35
+    colorFrom: dcc0f8
+    colorTo: ae8cd4
+    sizeFrom: 7.4
+    sizeTo: 0
+    lightScl: 1
+}

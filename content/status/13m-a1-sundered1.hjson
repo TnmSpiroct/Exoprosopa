@@ -29,7 +29,7 @@ healthMultiplier: 0.85
 # Affinity & opposite values for stat displays.
 
 # affinities: [
-#   modname-statusname
+#  modname-statusname
 # ]
 
 # opposites: [
@@ -57,7 +57,7 @@ healthMultiplier: 0.85
 
 
 # Code example for particle effect to affected units.
-effectChance: 0.02
+effectChance: 0.03
 effect: {
     type: particleEffect
     region: shell

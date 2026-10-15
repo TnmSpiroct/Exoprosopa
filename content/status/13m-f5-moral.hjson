@@ -3,3 +3,17 @@ damageMultiplier: 1.15
 reloadMultiplier: 1.45
 speedMultiplier: 1.45
 show: false
+effectChance: 0.07
+effect: {
+    type: particleEffect
+    region: bullet
+    particles: 1
+    length: 2
+    baseLength: 1
+    sizeInterp: slope
+    lifetime: 50
+    colorFrom: 95e2fb
+    colorTo: 95e2fb
+    sizeFrom: 0
+    sizeTo: 5
+}

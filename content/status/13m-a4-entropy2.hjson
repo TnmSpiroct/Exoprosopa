@@ -5,7 +5,7 @@ speedMultiplier: 0.95
 opposites: [
   exoprosopa-13m-a3-entropy1
 ]
-effectChance: 0.02
+effectChance: 0.03
 effect: {
     type: MultiEffect
     effects: [

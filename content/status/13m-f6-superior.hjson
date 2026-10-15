@@ -2,3 +2,18 @@ outline: false
 damageMultiplier: 1.55
 healthMultiplier: 1.75
 show: false
+permanent: true
+effect: {
+    type: particleEffect
+    region: exoprosopa-spark-drill
+    particles: 1
+    length: 2
+    baseLength: 1
+    sizeInterp: fade
+    lifetime: 40
+    colorFrom: 96e3fc
+    colorTo: 96e3fc
+    sizeFrom: 5
+    sizeTo: 0
+    offset: 45
+}

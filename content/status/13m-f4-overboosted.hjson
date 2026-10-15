@@ -3,3 +3,17 @@ damage: -0.75
 reloadMultiplier: 1.45
 speedMultiplier: 1.55
 show: false
+effectChance: 0.07
+effect: {
+    type: particleEffect
+    region: exoprosopa-spark-drill
+    particles: 1
+    length: 2
+    baseLength: 1
+    sizeInterp: slope
+    lifetime: 50
+    colorFrom: bf97d6
+    colorTo: bf97d6
+    sizeFrom: 0
+    sizeTo: 3.6
+}

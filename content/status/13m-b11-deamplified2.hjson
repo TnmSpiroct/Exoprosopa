@@ -4,3 +4,17 @@ healthMultiplier: 0.85
 opposites: [
   exoprosopa-13m-b10-deamplified1
 ]
+effect: {
+    type: particleEffect
+    region: exoprosopa-needle
+    particles: 2
+    length: 7
+    baseLength: 2
+    sizeInterp: fade
+    lifetime: 35
+    colorFrom: 80e7c3
+    colorTo: 3ea4a7
+    sizeFrom: 7.4
+    sizeTo: 0
+    lightScl: 1
+}

@@ -5,7 +5,7 @@ healthMultiplier: 0.85
 opposites: [
   exoprosopa-13m-a5-breached1
 ]
-effectChance: 0.02
+effectChance: 0.03
 effect: {
     type: particleEffect
     region: shell
