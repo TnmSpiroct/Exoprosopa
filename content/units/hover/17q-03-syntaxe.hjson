@@ -46,7 +46,7 @@ engines: [
   }
 ]
 itemCapacity: 30
-lowAltitude: false
+lowAltitude: true
 parts: [
  {
   suffix: -blade
