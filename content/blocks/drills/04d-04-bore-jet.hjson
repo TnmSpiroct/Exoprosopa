@@ -19,28 +19,43 @@ drillTime: 578
 drillEffect: {
   type: MultiEffect
   effects: [
-  {
-    type: particleEffect
-    particles: 12
-    length: 10
-    lifetime: 40
-    interp: circleOut
-    sizeInterp: pow5In
-    sizeFrom: 2.2 
-    sizeTo: 0.1
-    region: exoprosopa-spark-drill
-  }
-  {
-    type: WaveEffect
-    sizeFrom: 0.1
-    sizeTo: 24
-    strokeFrom: 2
-    strokeTo: 0.1
-    colorFrom: f5c2fa
-    colorTo: ad6767
-    lifetime: 16
-  }
- ]
+    # these are vanilla effects
+    # mineImpact is particles based on resources colors
+    # drillSteam is, basically a steam
+    {
+     type: MultiEffect
+     effects: [
+       mineImpact
+       drillSteam
+     ]
+    }
+    # these are custom mineImpactWave
+    {
+     type: WaveEffect
+     sizeFrom: 0
+     sizeTo: 24
+     strokeFrom: 10
+     strokeTo: 0
+     colorFrom: f5c2fa
+     colorTo: ad6767
+     lifetime: 30
+     interp: pow2Out
+    }
+    {
+     type: ParticleEffect
+     particles: 12
+     line: true
+     length: 35
+     sizeFrom: 10
+     sizeTo: 0
+     strokeFrom: 2
+     strokeTo: 0
+     colorFrom: f5c2fa
+     colorTo: ad6767
+     lifetime: 40
+     interp: pow2Out
+    }
+  ]
 }
 tier: 2
 shake: 4
