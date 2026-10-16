@@ -7,7 +7,7 @@ targetAir: false
 shadowElevation: 0.15
 drag: 0.07
 outlineColor: 26262F
-speed: 0.35
+speed: 0.45
 rotateSpeed: 1.7
 accel: 0.1
 health: 27000
@@ -134,7 +134,7 @@ weapons: [
          sizeFrom: 50
          sizeTo: 0
          strokeFrom: 0
-         strokeTo: 2.5
+         strokeTo: 3
          lifetime: 74
          interp: pow3In
         }
@@ -146,7 +146,7 @@ weapons: [
          sizeFrom: 65
          sizeTo: 0
          strokeFrom: 0
-         strokeTo: 3
+         strokeTo: 4
          lifetime: 67
          interp: pow3In
         }
@@ -223,7 +223,7 @@ weapons: [
       type: ArtilleryBulletType
       collidesAir: true
       status: 13m-e2-gradient-blast
-      recoil: 4
+      recoil: 3.5
       speed: 5
       lifetime: 100
       width: 10
