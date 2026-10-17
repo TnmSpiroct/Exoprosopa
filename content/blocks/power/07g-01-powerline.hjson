@@ -12,5 +12,5 @@ research: 04d-01-pressure-generator
 requirements: [
   01a-01-item-cobalt/5
 ]
-laserColor1: CEADEEFF
-laserColor2: 6A4291FF
+laserColor1: ffffff00
+laserColor2: a485b600
