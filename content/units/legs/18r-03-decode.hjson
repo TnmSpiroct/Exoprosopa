@@ -5,7 +5,7 @@ health: 4800
 armor: 8
 speed: 0.38
 rotateSpeed: 2.5
-itemCapacity: 55
+itemCapacity: 45
 outlineColor: 26262F
 mechLegColor: 26262F
 research: {
@@ -25,14 +25,6 @@ riseSpeed: 0.05
 mechFrontSway: 0.55
 abilities: [
   {
-    type: ShieldRegenFieldAbility
-    reload: 240
-    range: 28
-    amount: 25
-    max: 450
-    soundVolume: 0.2
-  }
-  {
     type: ShieldArcAbility
     radius: 36
     angle: 50
@@ -40,8 +32,9 @@ abilities: [
     y: -26
     cooldown: 750
     regen: 0.75
-    max: 380
+    max: 500
     chanceDeflect: 0.5
+    whenShooting: false
   }
 ]
 weapons: [
@@ -63,8 +56,9 @@ weapons: [
     top: false
     bullet: {
       type: LaserBulletType
+      length: 120
       recoil: 0
-      damage: 90.85
+      damage: 92.85
       sideAngle: 45
       sideLength: 28
       sideWidth: 1
@@ -76,15 +70,6 @@ weapons: [
        c59ae9,
        ffffff
       ]
-      bulletInterval: 6
-      intervalBullet: {
-        type: LightningBulletType
-        lightningColor: c59ae9aa
-        damage: 34.15
-        lightningLength: 1.5
-        lightningLengthRand: 3
-        status: 13m-e1-surges
-      }
     }
   }
 ]

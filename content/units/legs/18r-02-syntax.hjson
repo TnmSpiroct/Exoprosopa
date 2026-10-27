@@ -5,7 +5,7 @@ health: 1950
 armor: 5
 speed: 0.474
 rotateSpeed: 3
-itemCapacity: 40
+itemCapacity: 30
 outlineColor: 26262F
 mechLegColor: 26262F
 research: {
@@ -21,16 +21,13 @@ stepSound: mechStepSmall
 stepSoundVolume: 0.5
 researchCostMultiplier: 0
 abilities: [
-    {
-    type: ShieldArcAbility
-    radius: 34
-    angle: 50
-    width: 2
-    y: -26
-    cooldown: 450
-    regen: 0.5
-    max: 250
-    chanceDeflect: 0.25
+  {
+    type: ShieldRegenFieldAbility
+    reload: 240
+    range: 28
+    amount: 25
+    max: 450
+    soundVolume: 0.2
   }
 ]
 weapons: [
@@ -44,23 +41,25 @@ weapons: [
     mirror: true
     alternate: true
     rotate: false
-    shootSound: shootDuo
-    shootSoundVolume: 1.1
+    shootSound: shootSyntax
+    shootSoundVolume: 0.7
     ejectEffect: casing2
     top: false
     bullet: {
       type: BasicBulletType
       sprite: large-orb
       speed: 1.75
-      lifetime: 110
+      lifetime: 100
       damage: 60.35
-      width: 15
-      height: 15
+      width: 14
+      height: 14
       shootEffect: colorSpark
       status: 13m-a7-disarmed1
       statusDuration: 30
       backColor: c59ae9
       frontColor: ffffff
+      shrinkX: 0.4
+      shrinkY: 0.4
       bulletInterval: 4
       intervalBullet: {
         type: LightningBulletType

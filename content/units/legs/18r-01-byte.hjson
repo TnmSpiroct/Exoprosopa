@@ -5,7 +5,7 @@ health: 780
 armor: 3
 speed: 0.65
 rotateSpeed: 4.75
-itemCapacity: 25
+itemCapacity: 15
 outlineColor: 26262F
 mechLegColor: 26262F
 stepSound: mechStepSmall
@@ -20,35 +20,23 @@ research: {
   ]
 }
 researchCostMultiplier: 0
-abilities: [
-    {
-    type: ShieldArcAbility
-    radius: 25.5
-    angle: 50
-    width: 2
-    y: -18
-    cooldown: 300
-    regen: 0.25
-    max: 120
-    chanceDeflect: 0
-  }
-]
 weapons: [
   {
     x: 7
     y: 0
     name: byte
-    reload: 14
+    reload: 13.6
     mirror: true
     alternate: true
     rotate: false
+    shootSound: shootDuo
     ejectEffect: casing1
     top: false
     bullet: {
       type: BasicBulletType
       speed: 2.5
-      lifetime: 60.8
-      damage: 16
+      lifetime: 60
+      damage: 18
       width: 8
       height: 8
       shootEffect: shootSmall
@@ -67,7 +55,6 @@ weapons: [
         pierceBuilding: false
         serrations: 0
         status: 13m-e1-surges
-        statusDuration: 15
         despawnSound: shockBulletByte
       }
     }

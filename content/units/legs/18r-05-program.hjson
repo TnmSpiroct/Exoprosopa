@@ -5,7 +5,7 @@ health: 33700
 armor: 32
 speed: 0.29
 rotateSpeed: 1.6
-itemCapacity: 100
+itemCapacity: 80
 outlineColor: 26262F
 mechLegColor: 26262F
 research: {
@@ -29,9 +29,10 @@ stepSoundPitch: 0.9
 stepSoundVolume: 0.45
 abilities: [
   {
-    type: RegenAbility
-    amount: 0
-    percentAmount: 0.0416666667
+    type: ArmorPlateAbility
+    healthMultiplier: 0.25
+    drawPlate: false
+    drawShine: false
   }
 ]
 weapons: [

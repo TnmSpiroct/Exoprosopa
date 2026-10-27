@@ -5,7 +5,7 @@ health: 11000
 armor: 17
 speed: 0.35
 rotateSpeed: 2.1
-itemCapacity: 75
+itemCapacity: 60
 outlineColor: 26262F
 mechLegColor: 26262F
 research: {
@@ -101,7 +101,6 @@ weapons: [
         serrations: 0
         despawnSound: shockBulletByte
         status: 13m-e1-surges
-        statusDuration: 30
       }
     }
   }
