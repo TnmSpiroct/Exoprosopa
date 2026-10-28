@@ -27,9 +27,9 @@ SoundEffect: loopIchor, shootPierce, shootBeam, shootElectric, chargeEmp, shootE
 Source: https://bluearchive.wiki/wiki/Category:Sound_effects
 Author: Blue Archive
 
-Music: Ep Yanagi Rest Awhile
-Source: https://youtu.be/TZvfPRf1-i4?si=uuc_Wi_X9KEtsEq1
-Author: Zenless Zone Zero
+Music: Portal Dungeon
+Source: https://www.youtube.com/watch?v=Eq-dvnHaqdk
+Author: Guardian Tales
 
 SoundEffect: shootLaserBeam, shootMortar
 Source: 101soundboards.com
@@ -45,9 +45,9 @@ Music: World 15: Queenship Ost
 Source: https://youtu.be/CqW_T07PbSU?si=IJN6yLGShId7CX5z
 Author: Guardian Tales
 
-Music: Frontier
-Source: https://youtu.be/ZmYYiD4g6dA?si=BemPdvvvuRDjjp_w
-Author: Cris Velasco, Carrion
+Music: Holy Theme
+Source: https://www.youtube.com/watch?v=QLPXZoS3PHQ
+Author: Guardian Tales
 
 SoundEffect: shootPlasma
 Author: Carrion
@@ -56,8 +56,8 @@ Music: World 12 Map
 Source: https://youtu.be/z0rMW1tdpGQ?si=oFbG67C41q0npMl7
 Author: Guardian Tales
 
-Sound: shootSyntax
-Source: Astro Avenger II
+SoundEffect: shootSyntax
+Author: Astro Avenger II
 
 Other than said above, the sound is free to use or unknown author.
 Thank you for all exoprosopa contributor.
