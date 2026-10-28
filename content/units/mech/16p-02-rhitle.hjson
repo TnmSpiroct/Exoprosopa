@@ -58,6 +58,8 @@ weapons: [
       damage: 0
       spawnUnit: exoprosopa-rhitle-missile
       despawnSound: explosion
+      shootEffect: shootBigColor
+      smokeEffect: shootBigSmoke2
     }
   }
 ]
