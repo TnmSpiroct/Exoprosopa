@@ -56,9 +56,9 @@ weapons: [
     top: false
     bullet: {
       type: LaserBulletType
-      length: 120
+      length: 148
       recoil: 0
-      damage: 92.85
+      damage: 93.75
       sideAngle: 45
       sideLength: 28
       sideWidth: 1

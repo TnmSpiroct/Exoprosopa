@@ -27,7 +27,7 @@ abilities: [
     range: 28
     amount: 25
     max: 450
-    soundVolume: 0.2
+    soundVolume: 0
   }
 ]
 weapons: [
@@ -42,17 +42,17 @@ weapons: [
     alternate: true
     rotate: false
     shootSound: shootSyntax
-    shootSoundVolume: 0.7
+    shootSoundVolume: 0.2
     ejectEffect: casing2
     top: false
     bullet: {
       type: BasicBulletType
       sprite: large-orb
       speed: 1.75
-      lifetime: 100
-      damage: 60.35
-      width: 14
-      height: 14
+      lifetime: 110
+      damage: 58.65
+      width: 13
+      height: 13
       shootEffect: colorSpark
       status: 13m-a7-disarmed1
       statusDuration: 30
@@ -60,13 +60,16 @@ weapons: [
       frontColor: ffffff
       shrinkX: 0.4
       shrinkY: 0.4
-      bulletInterval: 4
+      bulletInterval: 2.6666
+      intervalBullets: 2
+      intervalAngle: 360
+      intervalSpread: 360
+      intervalRandomSpread: 360
       intervalBullet: {
         type: LightningBulletType
         lightningColor: c59ae9aa
-        damage: 14.65
-        lightningLength: 1.5
-        lightningLengthRand: 3
+        damage: 12.75
+        lightningLength: 4
         status: 13m-e1-surges
         despawnSound: shockBulletSyntax
       }
