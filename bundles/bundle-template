@@ -236,6 +236,7 @@ sector.exoprosopa-20t-99-ending.description =
 block.exoprosopa-tech-ore.name = 
 block.exoprosopa-bethinecobalt.name = 
 block.exoprosopa-flower-unique.name = 
+block.exoprosopa-flower-unique.description = 
 block.exoprosopa-flower-small.name = 
 block.exoprosopa-flower-large.name = 
 
