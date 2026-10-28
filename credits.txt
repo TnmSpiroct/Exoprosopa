@@ -8,17 +8,17 @@ Marshlands and Precipice map by absolutan
 Luminary, Sealed Outpost, and Foggy Fields map by mrapple
 Cliffside map by itzcraft
 Ridgeline map by noone
-Deprive and Calamity turret visual by Cy4nide (Hyperion)
-Deprive name by thruster
+Deprive and Shellcore turret visual by Cy4nide (Hyperion)
+name 'Deprive' by thruster
 Gameplay and turrets concept helped by Sh1penfire
 Halo exclusive for Mechs and Tanks by willoizcitron, Requires Archivedustry Mod
 Early Code and Sprite concept by ItzMarzu, Zoaranartemwing, noone
 English bundle Improvement by vire
 ID bundles and Github Manager by Kevin
-Minor fix bug helped by InxieRatZey
-Ox Turrets Firing Concept from Rapi, NIKKE
-Ox Turrets Name from The Ox, Balatro
+Minor bug fixes helped by InxieRatZey
+Typhoon Turret Firing Concept from Rapi, NIKKE
 Chinese Translation by LaoHuaJi
+drillEffects by kureiji6699
 jab005 the honored one, inspired me making this mod
 
 # Credits [ Audio Experience / Assets ]
