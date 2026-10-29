@@ -24,6 +24,7 @@ targetGround: true
 rotateSpeed: 0
 reload: 85
 range: 150
+rotate: false
 shootCone: 360
 shootY: 0
 shootX: 0
