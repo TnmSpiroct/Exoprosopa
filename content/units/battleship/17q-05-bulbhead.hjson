@@ -30,9 +30,9 @@ weapons: [
       sprite: missile-large
       width: 5
       splashDamageRadius: 20
-      splashDamage: 15
+      splashDamage: 25
       lifetime: 32
-      damage: 45
+      damage: 55
       speed: 3
       smokeEffect: colorSpark
       trailColor: E3EBFB

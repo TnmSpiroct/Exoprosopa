@@ -39,8 +39,8 @@ weapons: [
       lifetime: 60
       hitEffect: blastExplosion
       despawnHit: true
-      damage: 46
-      splashDamage: 15
+      damage: 58
+      splashDamage: 25
       splashDamageRadius: 24
       despawnEffect: blastExplosion
       }

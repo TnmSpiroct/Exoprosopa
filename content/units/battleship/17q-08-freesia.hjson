@@ -10,7 +10,7 @@ abilities: [
    }
    {
     type: RepairFieldAbility
-    amount: 125
+    amount: 150
     reload: 80
     range: 60
    }
@@ -53,9 +53,9 @@ weapons: [
       sprite: missile-large
       width: 5
       splashDamageRadius: 20
-      splashDamage: 35
+      splashDamage: 45
       lifetime: 50
-      damage: 96
+      damage: 98
       speed: 4.5
       smokeEffect: colorSpark
       trailColor: E3EBFB
@@ -96,7 +96,7 @@ weapons: [
       sprite: missile-large
       width: 5
       splashDamageRadius: 20
-      splashDamage: 50
+      splashDamage: 60
       pierce: true
       lifetime: 42.5
       damage: 150
