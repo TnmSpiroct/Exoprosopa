@@ -6,9 +6,9 @@ squareSprite: false
 laserRange: 12
 maxNodes: 15
 category: power
-laserScale: 0.4
-laserColor1: CEADEEFF
-laserColor2: 6A4291FF
+laserScale: 0.6
+laserColor1: ffffff00
+laserColor2: 8feecbff
 research: {
   parent: 07g-02-large-powerline
   objectives: [
@@ -19,12 +19,12 @@ research: {
   ]
 }
 researchCost: [
-  01a-02-item-nickel/1000
-  01a-07-item-clevorite/500
+  01a-05-item-aluminium/800
+  01a-07-item-clevorite/600
   01a-09-item-morphite/150
 ]
 requirements: [
-  01a-02-item-nickel/30
-  01a-07-item-clevorite/10
+  01a-05-item-aluminium/25
+  01a-07-item-clevorite/25
   01a-09-item-morphite/15
 ]

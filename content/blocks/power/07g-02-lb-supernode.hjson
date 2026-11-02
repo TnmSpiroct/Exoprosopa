@@ -4,5 +4,6 @@ health: 250
 squareSprite: false
 laserRange: 50
 maxNodes: 99
+laserScale: 0.6
 category: power
 buildVisibility: sandboxOnly
