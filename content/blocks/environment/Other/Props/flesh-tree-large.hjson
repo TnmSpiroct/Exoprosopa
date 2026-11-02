@@ -1,0 +1,6 @@
+type: TreeBlock
+name: Autumn Trees
+variants: 0
+emitLight: true
+lightColor: FFB255A3
+lightRadius: 65
