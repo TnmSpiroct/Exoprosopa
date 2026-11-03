@@ -1,6 +1,6 @@
 difficulty: 4
 planet: frostnova
-sector: 101
+sector: 100
 research: {
   parent: 19s-06-botanical-garden
   objectives: [

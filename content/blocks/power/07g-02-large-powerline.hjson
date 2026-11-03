@@ -22,5 +22,5 @@ requirements: [
   01a-06-item-chromium/30
 ]
 laserScale: 1
-laserColor1: CEADEEFF
-laserColor2: 6A4291FF
+laserColor1: ffffff00
+laserColor2: a485b6ff

@@ -1,13 +1,12 @@
-captureWave: 2
-difficulty: 1
+difficulty: 2
 planet: frostnova
-sector: 3
+sector: 41
 research: {
-  parent: 19s-19-bisect
+  parent: 19s-05-crest
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-19-bisect
+      preset: 19s-05-crest
     }
   ]
 }
