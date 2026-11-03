@@ -27,98 +27,123 @@ mechFrontSway: 1.9
 stepSound: mechStepHeavy
 stepSoundPitch: 0.9
 stepSoundVolume: 0.45
-abilities: [
-  {
-    type: ArmorPlateAbility
-    healthMultiplier: 0.25
-    drawPlate: false
-    drawShine: false
-  }
-]
 weapons: [
   {
-    x: 21.3
+    x: 21.2
     y: 0
     shootY: 13
     shootX: -1.5
     name: program
-    reload: 48
+    reload: 100
     mirror: true
     alternate: true
     rotate: false
     shake: 3
     recoil: 4
-    shootSound: shootAfflict
-    shootSoundVolume: 0.7
-    shoot: {
-    firstShotDelay: 35
-    shotDelay: 15
-    shots: 2
-      }
+    shootSound: shootProgram
+    shootSoundVolume: 0.65
     ejectEffect: casing3
     top: false
     bullet: {
       type: BasicBulletType
-      damage: 490
-      width: 12
-      height: 18
+      sprite: exoprosopa-plasmyrbullet
+      damage: 540
+      width: 30
+      height: 36
       speed: 10
       lifetime: 36
+      homingPower: 1
+      homingRange: 60
+      hittable: false
+      reflectable: false
+      lifesteal: 1
+      shootEffect: shootBigColor
+      smokeEffect: shootBigSmoke
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+      trailEffect: {
+       type: MultiEffect
+       effects: [
+        {
+         type: MultiEffect
+         effects: [
+          disperseTrail
+          colorSpark
+         ]
+        }
+        {
+         # custom bulletSparkSmokeTrailSmall without spark
+         type: particleEffect
+         particles: 3
+         length: 10
+         interp: fade
+         lifetime: 28
+         colorFrom: c59ae9aa
+         colorTo: c59ae900
+         sizeFrom: 3.5
+         sizeTo: 1.5
+         cone: 360
+         lenFrom: 0.3
+         lenTo: 0.8
+        }
+       ]
+      }
       pierce: true
+      pierceBuilding: true
       pierceCap: 5
+      hitColor: c59ae9
       backColor: c59ae9
       frontColor: ffffff
-      trailColor: c59ae9aa
-      trailChance: -1
+      trailColor: c59ae9
+      trailInterval: 1.5
+      trailLength: 16
+      trailWidth: 4
       trailRotation: true
-      trailLength: 4
-      trailWidth: 3
-      fragBullets: 10
-      fragRandomSpread: 0
-      fragLifeMin: 1
-      fragLifeMax: 1
-      fragVelocityMin: 1
-      fragVelocityMax: 1
-      fragSpread: 40
-      fragAngle: 40
-      fragOnAbsorb: true
-      fragBullet: {
-        type: BasicBulletType
-        damage: 15
-        width: 0
-        height: 0
-        lifetime: 7
-        speed: 0.2
-        splashDamage: 155
-        splashDamageRadius: 8
-        despawnShake: 2
-        despawnEffect: hitBulletColor
-        despawnSound: none
-        hitEffect: none
-        pierce: true
-        pierceArmor: true
-        }
-      }
     }
-    {
-    x: 9.5
-    y: -6.3
-    reload: 4
+  }
+  {
+    x: 12
+    y: -6.7
+    reload: 130.8
     mirror: true
     alternate: true
-    targetInterval: 8
-    targetSwitchInterval: 8
-    recoil: 0.5
-    name: program-mount
-    shootY: 1
-    shootSound: shootSegment
-    type: PointDefenseWeapon
+    rotate: false
+    recoil: 0
+    name: program-passive
+    baseRotation: 0
+    shootCone: 360
+    shootSound: shootPassive
+    shoot: {
+      barrels: [
+        -0.6, 0.6, -45,
+        1.6, -1.6, -45,
+        3.6, -3.6, -45,
+      ]
+      type: ShootBarrel
+      shots: 24
+      shotDelay: 2.5
+    }
     bullet: {
-      type: BulletType
-      shootEffect: sparkShoot
-      hitEffect: pointHit
-      maxRange: 120
-      damage: 80
+      frontColor: c59ae9
+      trailColor: c59ae9
+      backColor: c59ae9
+      hitColor: c59ae9
+      type: MissileBulletType
+      sprite: exoprosopa-plasmyrbullet
+      width: 5
+      height: 9.5
+      homingPower: 0.1
+      homingDelay: 2.5
+      homingRange: 60
+      speed: 15
+      lifetime: 24
+      shootEffect: none
+      hitEffect: hitBulletColor
+      despawnHit: true
+      damage: 12
+      status: 13m-a8-disarmed2
+      statusDuration: 30
+      pierceArmor: true
     }
   }
 ]
