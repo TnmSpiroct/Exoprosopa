@@ -41,7 +41,7 @@ ammoTypes: {
   incendChance: 0
   incendAmount: 0
   incendSpread: 0
-  colors: [5A4B67FF, 726081CC, 8E789F99, AC98BB73, CCBCD959
+  colors: [5a4b67ff, 726081cc, 8e789f99, ac98bb73, ccbcd959
   ]
   status: 13m-b04-electrocuted1
   statusDuration: 60
@@ -60,7 +60,7 @@ ammoTypes: {
   incendChance: 0
   incendAmount: 0
   incendSpread: 0
-  colors: [58977EFF, 7AB69ECC, 8BD9BA99, AEECD373, D0FAE959
+  colors: [58977eff, 7ab69ecc, 8bd9ba99, aeecd373, d0fae959
   ]
   intervalBullets: 5
   bulletInterval: 8
@@ -76,7 +76,7 @@ ammoTypes: {
     type: LightningBulletType
     despawnSound: shockBulletSyntax
     damage: 25
-    lightningLength: 20
+    lightningLength: 25
     lightningLengthRand: 4
     lightningColor: 51c59c
     status: 13m-e1-surges
@@ -84,30 +84,19 @@ ammoTypes: {
     }
  }
 }
-shootY: 4.4
+shootY: 5
 drawer: {
   type: DrawTurret
   basePrefix: vulcan-
   parts: [
     {
       type: RegionPart
-      suffix: -glow
-      progress: recoil
-      heatProgress: recoil
-      heatColor: 844cff88
-      drawRegion: false
-    }
-    {
-      type: RegionPart
       suffix: -back
       mirror: true
       progress: warmup
       heatProgress: recoil
-      moveRot: -15
       moveY: 0.5
-      moveX: 1.25
-      y: 0.1
-      under: true
+      moveX: -0.25
       heatColor: 844cff88
     }
     {
@@ -116,9 +105,8 @@ drawer: {
       mirror: true
       progress: warmup
       heatProgress: recoil
-      moveRot: -15
-      moveY: 0.5
-      moveX: 1.25
+      moveY: -0.5
+      moveX: -0.25
       heatColor: 844cff88
     }
     {
@@ -127,8 +115,7 @@ drawer: {
       mirror: true
       progress: warmup
       heatProgress: recoil
-      moveX: 1.25
-      moveY: 1.25
+      moveX: 0.5
     }
     {
       type: RegionPart
@@ -137,9 +124,16 @@ drawer: {
       mirror: true
       progress: warmup
       heatProgress: recoil
-      moveX: 1.25
-      moveY: 1.25
+      moveX: 0.5
       heatColor: 844cff88
+    }
+    {
+      type: RegionPart
+      suffix: -glow
+      progress: recoil
+      heatProgress: recoil
+      heatColor: 844cff88
+      drawRegion: false
     }
   ]
 }
