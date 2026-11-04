@@ -1,6 +1,8 @@
 type: missile
 template: MissileUnitType
 flying: true
+immunities: [13m-a3-entropy1, 13m-a4-entropy2, 13m-a5-breached1, 13m-a6-breached2, 13m-a7-disarmed1, 13m-a8-disarmed2, 13m-b01-disrupted1, 13m-b02-disrupted2, 13m-b03-disrupted3, 13m-b04-electrocuted1, 13m-b05-electrocuted2, 13m-b06-electrocuted3, 13m-c1-drenched, 13m-d2-embrittled, 13m-d1-emp-shock
+]
 speed: 4.7
 outlineColor: 26262F
 physics: false

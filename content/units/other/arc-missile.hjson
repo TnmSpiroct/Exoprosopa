@@ -21,17 +21,38 @@ abilities: [
     type: MoveEffectAbility
     interval: 2.8
     effect: {
-      type: ParticleEffect
-      cone: 42.5
-      baseRotation: 180
-      particles: 4
-      length: 2
-      baseLength: 2.4
-      line: true
-      strokeFrom: 1
-      strokeTo: 0.6
-      colorFrom: d8f18c
-      colorTo: 92b258
+     type: MultiEffect
+     effects: [
+      {
+       type: ParticleEffect
+       cone: 0
+       baseRotation: 0
+       particles: 4
+       length: 2
+       baseLength: 2.4
+       line: true
+       strokeFrom: 1
+       strokeTo: 0.4
+       colorFrom: d8f18caa
+       colorTo: 92b25800
+      }
+      {
+       # custom bulletSparkSmokeTrailSmall without spark
+       type: particleEffect
+       layer: 116
+       particles: 3
+       length: 10
+       interp: fade
+       lifetime: 28
+       colorFrom: d8f18caa
+       colorTo: 92b25800
+       sizeFrom: 3.5
+       sizeTo: 1.5
+       cone: 360
+       lenFrom: 0.3
+       lenTo: 0.8
+      }
+     ]
     }
     rotateEffect: true
   }
