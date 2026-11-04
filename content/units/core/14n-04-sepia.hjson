@@ -21,9 +21,9 @@ hitSize: 13
 armor: 3
 speed: 1.45
 mineWalls: true
-mineSpeed: 14
+mineSpeed: 7
 mineTier: 1
-buildSpeed: 2.25
+buildSpeed: 1.4
 accel: 0.09
 drag: 0.08
 groundLayer: 60
@@ -67,7 +67,6 @@ weapons: [
       splashDamage: 15
       lifetime: 35
       speed: 4
-      smokeEffect:shootSmokeSquare
       trailColor: d8f18c
       trailWidth: 2
       trailLength: 3
@@ -78,8 +77,9 @@ weapons: [
       hitColor: d8f18c
       buildingDamageMultiplier: 0.01
       collidesTeam: true
-      healPercent: 6
-      shootEffect: { 
+      healPercent: 5
+      smokeEffect: shootSmokeSquare
+      shootEffect: {
         type: MultiEffect
         effects: [
           {
@@ -88,38 +88,54 @@ weapons: [
             colorTo: d8f18cf9
             sizeFrom: 0
             sizeTo: 4
-            lifetime: 9
-            strokeFrom: 0.2
-            strokeTo: 0.8
+            lifetime: 8
+            strokeFrom: 0
+            strokeTo: 1
             sides: 4
             rotation: 0
             offsetX: 0
           }
         ]
       }
-      hitEffect: hitBulletColor
-      despawnEffect: {
+      hitEffect: {
         type: MultiEffect
         effects: [
           {
-            type: particleEffect
-            colorFrom: d8f18c
-            colorTo: d8f18c
-            sizeFrom: 1.8
-            sizeTo: 0
-            lifetime: 8
-            strokeFrom: 1.6
-            strokeTo: 0.4
+            type: MultiEffect
+            effects: [
+              hitSquaresColor
+            ]
           }
           {
             type: WaveEffect
             colorFrom: d8f18c
             colorTo: d8f18c
             sizeFrom: 0
-            sizeTo: 9
+            sizeTo: 13
             lifetime: 9
-            strokeFrom: 0.8
-            strokeTo: 0.2
+            strokeFrom: 2
+            strokeTo: 0
+          }
+        ]
+      }
+      despawnEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: MultiEffect
+            effects: [
+              hitSquaresColor
+            ]
+          }
+          {
+            type: WaveEffect
+            colorFrom: d8f18c
+            colorTo: d8f18c
+            sizeFrom: 0
+            sizeTo: 13
+            lifetime: 9
+            strokeFrom: 2
+            strokeTo: 0
           }
         ]
       }

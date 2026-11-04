@@ -1,16 +1,15 @@
 type: payload
 flying: true
-template: ErekirUnitType
 coreUnitDock: true
 controller: BuilderAI
-coreFleeRange: 500
 commands: [rebuild
 ]
+canAttack: false
 targetAir: false
 range: 88
 faceTarget: true
 targetPriority: -2
-lowAltitude: false
+lowAltitude: true
 mineWalls: true
 mineFloor: false
 mineHardnessScaling: false
@@ -77,7 +76,7 @@ engines: [
     shootY: 0
     shootCone: 15
     beamWidth: 0.8
-    repairSpeed: 4.5
+    repairSpeed: 4
     fractionRepairSpeed: 0.04
     bullet: {
       type: BulletType

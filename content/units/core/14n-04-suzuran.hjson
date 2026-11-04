@@ -2,7 +2,6 @@ type: flying
 flying: true
 coreUnitDock: true
 controller: BuilderAI
-coreFleeRange: 500
 commands: [rebuild
 ]
 faceTarget: true

@@ -21,9 +21,9 @@ health: 300
 armor: 2
 speed: 1.2
 mineWalls: true
-mineSpeed: 12
+mineSpeed: 6
 mineTier: 1
-buildSpeed: 1.9
+buildSpeed: 1.2
 accel: 0.09
 drag: 0.08
 groundLayer: 60
@@ -67,7 +67,6 @@ weapons: [
       splashDamage: 10
       lifetime: 30
       speed: 3.5
-      smokeEffect: shootSmokeSquare
       trailColor: d8f18c
       trailWidth: 2
       trailLength: 3
@@ -79,6 +78,7 @@ weapons: [
       buildingDamageMultiplier: 0.01
       collidesTeam: true
       healPercent: 4.5
+      smokeEffect: shootSmokeSquare
       shootEffect: { 
         type: MultiEffect
         effects: [
@@ -88,38 +88,54 @@ weapons: [
             colorTo: d8f18cf9
             sizeFrom: 0
             sizeTo: 3.75
-            lifetime: 9
-            strokeFrom: 0.2
-            strokeTo: 0.8
+            lifetime: 8
+            strokeFrom: 0
+            strokeTo: 0.7
             sides: 4
             rotation: 0
             offsetX: -0.25
           }
         ]
       }
-      hitEffect: hitBulletColor
-      despawnEffect: {
+      hitEffect: {
         type: MultiEffect
         effects: [
           {
-            type: particleEffect
-            colorFrom: d8f18c
-            colorTo: d8f18c
-            sizeFrom: 1.8
-            sizeTo: 0
-            lifetime: 8
-            strokeFrom: 1.6
-            strokeTo: 0.4
+            type: MultiEffect
+            effects: [
+              hitSquaresColor
+            ]
           }
           {
             type: WaveEffect
             colorFrom: d8f18c
             colorTo: d8f18c
             sizeFrom: 0
-            sizeTo: 9
+            sizeTo: 12
             lifetime: 9
-            strokeFrom: 0.8
-            strokeTo: 0.2
+            strokeFrom: 2
+            strokeTo: 0
+          }
+        ]
+      }
+      despawnEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: MultiEffect
+            effects: [
+              hitSquaresColor
+            ]
+          }
+          {
+            type: WaveEffect
+            colorFrom: d8f18c
+            colorTo: d8f18c
+            sizeFrom: 0
+            sizeTo: 12
+            lifetime: 9
+            strokeFrom: 2
+            strokeTo: 0
           }
         ]
       }
