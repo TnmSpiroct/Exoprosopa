@@ -1,6 +1,6 @@
 difficulty: 10
 planet: frostnova
-# TODO - sector: 197
+# TODO - sector: 127
 research: {
   parent: 19s-19-bisect
   objectives: [

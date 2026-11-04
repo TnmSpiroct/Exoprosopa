@@ -1,13 +1,13 @@
 difficulty: 4
 planet: frostnova
-sector: 101
+sector: 10
 research: {
-  parent: 19s-06-defile
+  parent: 19s-11-station-annex
   objectives: [
     11k-04-a-core-crest,
     {
       type: SectorComplete
-      preset: 19s-06-defile
+      preset: 19s-11-station-annex
     }
   ]
 }

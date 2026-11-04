@@ -1,6 +1,6 @@
 difficulty: 10
 planet: frostnova
-sector: 128
+sector: 66
 research: {
   parent: 19s-19-bisect
   objectives: [
