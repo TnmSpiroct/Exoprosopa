@@ -66,6 +66,7 @@ weapons: [
       trailRotation: true
       trailLength: 4
       trailWidth: 3
+      hitColor: c59ae9
       backColor: c59ae9
       frontColor: ffffff
       trailColor: c59ae9aa

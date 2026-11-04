@@ -53,9 +53,11 @@ weapons: [
       damage: 58.65
       width: 13
       height: 13
+      hitEffect: hitBulletColor
       shootEffect: colorSpark
       status: 13m-a7-disarmed1
       statusDuration: 30
+      hitColor: c59ae9
       backColor: c59ae9
       frontColor: ffffff
       shrinkX: 0.4

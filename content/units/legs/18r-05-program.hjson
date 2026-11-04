@@ -41,7 +41,7 @@ weapons: [
     shake: 3
     recoil: 4
     shootSound: shootProgram
-    shootSoundVolume: 0.65
+    shootSoundVolume: 0.625
     ejectEffect: casing3
     top: false
     bullet: {
@@ -113,6 +113,7 @@ weapons: [
     baseRotation: 0
     shootCone: 360
     shootSound: shootPassive
+    shootSoundVolume: 0.35
     shoot: {
       barrels: [
         -0.6, 0.6, -45,
