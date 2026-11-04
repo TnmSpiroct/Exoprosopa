@@ -30,38 +30,32 @@ weapons: [
     y: -4
     name: honsha-mountmissile
     reload: 227
-    recoil: 2
+    recoil: 1.5
     mirror: false
-    rotate: true
-    targetSwitchInterval: 35
-    targetInterval: 20
-    rotateSpeed: 0.95
+    rotate: false
     shootStatus: slow
-    shootStatusDuration: 235
-    rotationLimit: 45
+    shootStatusDuration: 180
     shoot: {
       barrels: [
-      -3, -0.75, 0,
-      -1, 0.75, 0 
-      1, 0.75, 0, 
-      3, -0.75, 0
+      -2.3, -0.75, 0,
+      2.3, -0.75, 0
       ]
       type: ShootBarrel
-      shots: 18
+      shots: 20
       shotDelay: 7.5
     }
     shootSound: shootMissileLong
     shootSoundVolume: 1
     bullet: {
-      frontColor: 9EB6EB
-      trailColor: 9EB6EB
-      backColor: 9EB6EB
-      hitColor: 9EB6EB
+      frontColor: 9eb6eb
+      trailColor: 9eb6eb
+      backColor: 9eb6eb
+      hitColor: 9eb6eb
       type: MissileBulletType
       width: 7
       height: 9
-      homingPower: 0.03
-      homingDelay: 20
+      homingPower: 0.05
+      homingDelay: 10
       homingRange: 240
       speed: 3.5
       lifetime: 80
@@ -69,7 +63,7 @@ weapons: [
       despawnHit: true
       damage: 12
       status: 13m-e2-gradient-blast
-      splashDamage: 36
+      splashDamage: 30
       splashDamageRadius: 24
     }
   }
@@ -82,9 +76,9 @@ weapons: [
     mirror: true
     rotate: true
     alternate: true
-    rotateSpeed: 1.4
+    rotateSpeed: 1.5
     shootSound: shootPierce
-    shootSoundVolume: 0.8
+    shootSoundVolume: 0.35
     bullet: {
       type: BasicBulletType
       height: 8
@@ -94,11 +88,12 @@ weapons: [
       speed: 5
       pierce: true
       smokeEffect: colorSpark
-      trailColor: 9EB6EB
+      hitEffect: hitBulletColor
+      trailColor: 9eb6eb
       trailWidth: 1.5
       trailLength: 2
-      backColor: 9EB6EB
-      hitColor: 9EB6EB
+      backColor: 9eb6eb
+      hitColor: 9eb6eb
       status: 13m-a1-sundered1
       statusDuration: 60
     }

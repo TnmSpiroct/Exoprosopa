@@ -48,7 +48,7 @@ engines: [
 abilities: [
   {
     type: ForceFieldAbility
-    radius: 64
+    radius: 66
     sides: 6
     cooldown: 900
     regen: 2
@@ -56,20 +56,21 @@ abilities: [
   }
   {
     type: EnergyFieldAbility
-    sameTypeHealMult: 0.05
-    statusDuration: 60
-    healPercent: 2.5
-    maxTargets: 20
     damage: 35
     reload: 118
     range: 110
+    status: 13m-a4-entropy2
+    statusDuration: 120
+    y: -23.4
+    maxTargets: 20
+    healPercent: 5
+    sameTypeHealMult: 0.25
     layer: 115
     effectRadius: 2.5
-    y: -23.4
   }
 ]
 itemCapacity: 250
-lowAltitude: false
+lowAltitude: true
 weapons: [
   {
     x: 0
@@ -94,11 +95,12 @@ weapons: [
       damage: 75
       speed: 5
       smokeEffect: colorSpark
-      trailColor: D8F18C
+      hitEffect: hitBulletColor
+      trailColor: d8f18c
       trailWidth: 1.5
       trailLength: 5
-      backColor: D8F18C
-      hitColor: D8F18C
+      backColor: d8f18c
+      hitColor: d8f18c
       pierce: true
       pierceBuilding: false
     }
@@ -169,7 +171,7 @@ weapons: [
       despawnEffect: none
       smokeEffect: none
       hittable: false
-      knockback: 0.5
+      knockback: 1.5
       lifetime: 1
       damage: 10
       }
