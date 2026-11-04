@@ -46,9 +46,9 @@ sealedoutpost.borejet = [cyan]This sector has a lot of [accent]anthracite[] and 
 cliffside.borejet = [cyan]Research and place a [accent]Bore Jet[] on [#9d7f7f]Chromium[] ore to start mining.
 cliffside.chromium = [cyan]This sector contains deposits of [#9d7f7f]Chromium[].\n[accent]Bore Jets[] are required to mine this resource.
 
-defile.acquire = [cyan]Acquire some [#9d7f7f]chromium[] to build units.
+defile.acquire = [cyan]Acquire some [#9d7f7f]chromium[] to continue.
 defile.build = [cyan]Units must be transported to the other side of the wall.\nResearch the [accent]Surge Launcher[].\nPlace two [accent]Surge Launcher[], one on each side of the wall.\nSet up the link by pressing one of them, then selecting the other.
-defile.units = [cyan]Place a unit fabricator adjacent to a mass driver to load them,\nthen send them across the wall to attack the enemy base.
+defile.units = [cyan]Place a unit bay adjacent to a mass driver to load them,\nthen send them across the wall to attack the enemy base.
 
 hazard.miasma = [#b979bd]Miasma[cyan] is very reactive to [#d488ea]Elixir[], keep your factory safe from it.
 annex.technoscrap = [cyan]Extract [accent]Techscrap[] using [accent]Ore Extractor[].\nResearch and place the [accent]Technoworks[] to processing it into [accent]Technoplate[].
