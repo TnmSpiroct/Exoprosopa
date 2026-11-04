@@ -270,13 +270,12 @@ weapons: [
     x: 16.25
     y: -16.25
     reload: 288
-    rotate: true
+    rotate: false
     mirror: true
     alternate: true
     shootSound: shootMissiles
     shootSoundVolume: 0.2
     shake: 5
-    rotationLimit: 30
     shoot: {
       barrels: [
         -3.25, 0.5, 0,
@@ -288,7 +287,7 @@ weapons: [
       ]
       type: ShootBarrel
       shots: 12
-      shotDelay: 2.5
+      shotDelay: 10
     }
     name: archangel-missile-mount
     bullet: {
