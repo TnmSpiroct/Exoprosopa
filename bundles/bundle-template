@@ -23,7 +23,6 @@ newgrounds.codex = [cyan]Produce Unit: Spark\n\nShipbay Requirements:\n[#e1cf9a]
 newgrounds.command = [cyan]Command Units:\n\nUse [accent]Shift + Left Click[] or press [accent]Command Mode[] button to select a unit, drag to select multiple units.\nThen [accent]Shift + Right Click[] or [accent]Tap[] to a random location to move the selected unit to a location.\n\nControl Units:\n\nUse [accent]Ctrl + Left Click[] or [accent]Tap[] the unit twice to control a unit.\nPress [accent][V][] or [accent]Tap[] the unit icon on the health bar to respawn.\nYou can also control the [accent]Turrets[] and especially the [accent]Router[].
 newgrounds.impale = [cyan]Open the \ue875 tech tree and research [accent]Impale[]\nSupply the turret with [#647cc2]Cobalt[] or [#729aaf]Aluminium[] as ammunition.\n\nThis turret fires a piercing bullet towards enemies.
 newgrounds.wall = [cyan]Research [accent]Cobalt Wall[] from the tech tree \ue875\nto protect your structures from enemy projectiles.
-newgrounds.enemy = [cyan]Claim this sector by capturing the [accent]enemy core[].\n[red]The enemy is vulnerable now, launch a counterattack!
 
 attack.timer = [red]Prepare for an enemy attack!
 objective.warn = [red]Warning !!!
@@ -43,8 +42,8 @@ mountainridge.burnergen = [cyan]Vents are a good source of power, but they are l
 
 sealedoutpost.borejet = [cyan]This sector has a lot of [accent]anthracite[] and [#647cc2]cobalt[] in the ground.\nResearch the [accent]Bore Jet[] to mine resources from the ground.
 
-cliffside.borejet = [cyan]Research and place a [accent]Bore Jet[] on [#9d7f7f]Chromium[] ore to start mining.
-cliffside.chromium = [cyan]This sector contains deposits of [#9d7f7f]Chromium[].\n[accent]Bore Jets[] are required to mine this resource.
+cliffside.borejet = [cyan]Research and place a [accent]Bore Jet[] on [#9d7f7f]chromium[] ore to start mining.
+cliffside.chromium = [cyan]This sector contains deposits of [#9d7f7f]chromium[].\n[accent]Bore Jets[] are required to mine this resource.
 
 defile.acquire = [cyan]Acquire some [#9d7f7f]chromium[] to continue.
 defile.build = [cyan]Units must be transported to the other side of the wall.\nResearch the [accent]Surge Launcher[].\nPlace two [accent]Surge Launcher[], one on each side of the wall.\nSet up the link by pressing one of them, then selecting the other.
@@ -112,8 +111,6 @@ myra.sts3 = [lightgray]You see the sky light up with auroras and a railgun shell
 # < Custom Objectives Region >
 novaris.alert = [red]⚠ Alerting All Nearby Bases ⚠
 novaris.bridge1 = [red]⚠ Enemy Reinforcement approaching Bridge 1 ⚠
-
-ending.thanks = [cyan]You have reached the end of the campaign for now.\nAt this point, you should have researched [#bf97d6]gravitix[] and ready for upcoming update.\n\nYou can make your own maps and send it on [accent]My Exoprosopa Server[].\nIf its good, I will add it to the campaign.\n\nYou can do anything in here, this sector is automatically captured after 5 minutes.\n\n[accent]Thankyou for playing!
 
 # Locale Bundle - Lores via Message Chip
 bio.chip1 = [salmon]High Radiation Area\nOnly Nikkes Allowed
@@ -232,9 +229,6 @@ sector.exoprosopa-20t-26-clover-springs.description =
 
 sector.exoprosopa-20t-37-myrra-heights.name = 
 sector.exoprosopa-20t-37-myrra-heights.description = 
-
-sector.exoprosopa-20t-99-ending.name = 
-sector.exoprosopa-20t-99-ending.description = 
 
 # Resources - Items
 block.exoprosopa-tech-ore.name = 
@@ -823,12 +817,6 @@ block.exoprosopa-03c-08-skyhammer.description =
 block.exoprosopa-03c-09-plasmyr.name = 
 block.exoprosopa-03c-09-plasmyr.description = 
 
-# block.exoprosopa-03c-08-webber.name = Fusillade
-# block.exoprosopa-03c-08-webber.description = Fires bursts of shrapnel at enemy targets. Does huge knockback.
-
-# block.exoprosopa-03c-09-identity.name = Identity
-# block.exoprosopa-03c-09-identity.description = Reconstruct Tachyon energy to fires piercing railgun at enemies.
-
 # block.exoprosopa-03c-10-supernova.name = Supernova
 # block.exoprosopa-03c-10-supernova.description = Cooldown and fires Exolaser continously, pierces through armor and enemies within range.
 
@@ -1193,7 +1181,7 @@ threat.eradication = [cyan]Legendary[]
 
 sectors.enemybase = [scarlet]Enemy Headquarters[]
 sectors.underattack.nodamage = [scarlet]Conquering...
-details = Fix this!
+details = Click this!
 
 # < Astral Region >
 # Core Blocks & Units

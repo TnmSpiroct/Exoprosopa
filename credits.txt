@@ -27,8 +27,8 @@ SoundEffect: loopIchor, shootPierce, shootBeam, shootElectric, chargeEmp, shootE
 Source: https://bluearchive.wiki/wiki/Category:Sound_effects
 Author: Blue Archive
 
-Music: Portal Dungeon
-Source: https://www.youtube.com/watch?v=Eq-dvnHaqdk
+game1 - Music: Portal Dungeon
+Source: https://youtu.be/Eq-dvnHaqdk?si=n6bU7U-XG-JeUiV8
 Author: Guardian Tales
 
 SoundEffect: shootLaserBeam, shootMortar
@@ -41,23 +41,35 @@ Author: Factorio
 SoundEffect: chargeTarget, shootSuperNova
 Author: Terraria Calamity Mod
 
-Music: World 15: Queenship Ost
+launch - Music: World 15: Queenship Ost
 Source: https://youtu.be/CqW_T07PbSU?si=IJN6yLGShId7CX5z
 Author: Guardian Tales
 
-Music: Holy Theme
-Source: https://www.youtube.com/watch?v=QLPXZoS3PHQ
+game2 - Music: Expedition - Dungeon #3
+Source: https://youtu.be/eype8ePMCdo?si=ph2N_w4Ccv6TFGZF
 Author: Guardian Tales
 
 SoundEffect: shootPlasma
 Author: Carrion
 
-Music: World 12 Map
+menu - Music: World 12 Map
 Source: https://youtu.be/z0rMW1tdpGQ?si=oFbG67C41q0npMl7
 Author: Guardian Tales
 
 SoundEffect: shootSyntax
 Author: Astro Avenger II
+
+SoundEffect: shootProgram, shootPassive
+Source: Hero Obsidia - Skill 1 & Needle Passive
+Author: Mobile Legends Bang Bang
+
+boss1 - Music: Expedition - Main
+Source: https://youtu.be/x2zLilgTOiM?si=SQYptLOXc61kuGCz
+Author: Guardian Tales
+
+game3 - Music: Lobby - Lab
+Source: https://youtu.be/Izb-jml8Q18?si=u9W0jMDvDD4sl0nf
+Author: Guardian Tales
 
 Other than said above, the sound is free to use or unknown author.
 Thank you for all exoprosopa contributor.

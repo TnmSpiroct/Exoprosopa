@@ -1,13 +1,13 @@
 difficulty: 4
 planet: frostnova
-sector: 10
+sector: 1
 research: {
-  parent: 19s-11-station-annex
+  parent: 20t-03-reservoir
   objectives: [
     11k-04-a-core-crest,
     {
       type: SectorComplete
-      preset: 19s-11-station-annex
+      preset: 20t-03-reservoir
     }
   ]
 }

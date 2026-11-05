@@ -1,4 +1,4 @@
-# Exoprosopa V0.95 Status Effects Update!
+# Exoprosopa V0.96 Update!
 <div align = center>
 
 <br>
@@ -23,7 +23,7 @@
 
 - Polished content and linear campaign progression.<br>
 - 19 campaign sectors. Capture this planet for yourself!<br>
-- 10 optional sectors, providing more playtime and new challenges.<br>
+- 11 optional sectors, providing more playtime and new challenges.<br>
 - Over 320 pieces of unique and fresh content, including blocks, units, specialized guardian, and more!<br>
 <div align = center>
   
@@ -56,12 +56,13 @@ Check it on my profile. My username is TnmSpiroctsub.<br><br>
 
 <div align = center>
 
-## Changelogs - V0.95 Status Effects Udpate
+## Changelogs - V0.96 Udpate
 </div>
 
 - Campaign Sectors [onGoing]:
   - Encampment [Remake] ☑
   - Crest [Remake - onGoing]
+  - Defile ☑
   - Station Annex ☑
   - Glistening Straits ☑
   - Sear Fronts ☑
@@ -77,6 +78,7 @@ Check it on my profile. My username is TnmSpiroctsub.<br><br>
   - Sunken Farmfields
   - Solitary Ridge
 - Optional Map:
+  - Botanical Garden
   - Pier
   - Eridanus
   - Isolated Canyon
@@ -92,12 +94,14 @@ Check it on my profile. My username is TnmSpiroctsub.<br><br>
   - Lamine Shellcore - Torrefy - Earthmover
   - Gravitix Deprive - Earthmover
   - Clevorite Anvil
-- Adjusting Tech Tree + 7 New Sectors Additions
-- Improved Aqua Fog System
 - Removed 8 Old Status Effects - Added 32 New Status Effects
 - Improved Spark & Sora Visual
 - Improved Red Pallete Blocks
 - Improved Base Turret Sprites
+- New Program Weapon
+- Resprites Powerlines & Nodes
+- Resprites & Reanimate Vulcan
+- Reanimate Technoworks
 <br>
 
 ![Banner]

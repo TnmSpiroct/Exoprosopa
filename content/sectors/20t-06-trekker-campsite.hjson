@@ -1,12 +1,12 @@
 difficulty: 8
 planet: frostnova
-sector: 75
+sector: 145
 research: {
-  parent: 19s-12-creek
+  parent: 19s-11-station-annex
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-12-creek
+      preset: 19s-11-station-annex
     }
   ]
 }
