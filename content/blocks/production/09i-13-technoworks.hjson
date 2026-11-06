@@ -52,15 +52,10 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawLiquidTile
-      drawLiquid: 02b-01-bioliquid
-      padding: 1
-    }
-    {
-      type: DrawFrames
-      sine: false
-      frames: 35
-      interval: 1.75
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 2
     }
     {
       type: DrawRegion
@@ -72,7 +67,7 @@ drawer: {
       padLeft: 1.5
       padTop: 14
       padBottom: 11
-      padRight: 14
+      padRight: 20
     }
     {
       type: DrawPistons
@@ -103,7 +98,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: 02b-02-a-purified-elixir
+      drawLiquid: 02b-01-bioliquid
       padLeft: 12
       padTop: 18
       padBottom: 2
