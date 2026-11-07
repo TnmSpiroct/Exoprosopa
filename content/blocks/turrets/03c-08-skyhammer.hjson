@@ -61,14 +61,15 @@ shootType: {
     effects: [
       {
         type: WaveEffect
-        sides: 10
+        sides: 180
         sizeFrom: 0
-        sizeTo: 50
+        sizeTo: 60
         cone: 360
+        interp: circleOut
         colorFrom: edc66c
         colorTo: baa164
-        lifetime: 20
-        strokeFrom: 8
+        lifetime: 35
+        strokeFrom: 7
         strokeTo: 0
         followParent: true
       }
@@ -76,7 +77,7 @@ shootType: {
         followParent: false
         randLength: false
         length: 2
-        lifetime: 25
+        lifetime: 35
         particles: 1
         cone: 0
         region: exoprosopa-needle
@@ -91,7 +92,7 @@ shootType: {
         followParent: false
         randLength: false
         length: 2
-        lifetime: 25
+        lifetime: 35
         particles: 1
         cone: 0
         region: exoprosopa-needle
@@ -106,7 +107,7 @@ shootType: {
         followParent: false
         randLength: false
         length: 2
-        lifetime: 25
+        lifetime: 35
         particles: 1
         cone: 0
         region: exoprosopa-needle
@@ -121,7 +122,7 @@ shootType: {
         followParent: false
         randLength: false
         length: 2
-        lifetime: 25
+        lifetime: 35
         particles: 1
         cone: 0
         region: exoprosopa-needle
