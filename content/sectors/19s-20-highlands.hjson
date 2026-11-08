@@ -1,6 +1,7 @@
+captureWave: 45
 difficulty: 10
 planet: frostnova
-# TODO - sector: 127
+sector: 127
 research: {
   parent: 19s-19-bisect
   objectives: [
