@@ -1,4 +1,6 @@
+# TODO - a temporary last sector [ since ending sector wasn't present anymore ]
 difficulty: 10
+isLastSector: true
 planet: frostnova
 sector: 66
 research: {
