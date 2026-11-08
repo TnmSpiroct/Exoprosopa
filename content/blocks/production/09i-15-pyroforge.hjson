@@ -22,12 +22,11 @@ researchCost: [
   01a-10-item-bethine/180
 ]
 research: {
-  #TODO - change to proper sector
   parent: 09i-12-gravitix-chamber-core
   objectives: [
     {
-      type: SectorComplete
-      preset: 19s-19-bisect
+      type: OnSector
+      preset: 19s-20-highlands
     }
   ]
 }
