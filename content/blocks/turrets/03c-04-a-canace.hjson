@@ -7,8 +7,8 @@ shootSound: shootArtillerySmall
 shootSoundVolume: 1.85
 requirements: [
   01a-01-item-cobalt/175
-  01a-02-item-nickel/300
-  01a-06-item-chromium/250
+  01a-02-item-nickel/350
+  01a-06-item-chromium/25
   01a-07-item-clevorite/90
 ]
 category: turret
@@ -210,6 +210,7 @@ drawer: {
     {
       type: RegionPart
       suffix: -glow
+      mirror: false
       heatColor: a55c3565
       drawRegion: false
       progress: warmup
@@ -217,11 +218,32 @@ drawer: {
     }
     {
       type: RegionPart
+      suffix: -barrel-glow
+      heatColor: a55c3565
+      drawRegion: false
+      mirror: false
+      moveY: -1
+      progress: recoil
+      heatProgress: recoil
+    }
+    {
+      type: RegionPart
+      suffix: -side
+      heatColor: a55c3565
+      mirror: true
+      progress: warmup
+      heatProgress: warmup
+      moveX: -1
+      moveY: -0.5
+      under: false
+    }
+    {
+      type: RegionPart
       suffix: -barrel
       mirror: false
-      y: 1.5
-      moveY: -1.5
+      moveY: -1
       progress: recoil
+      heatProgress: recoil
       under: false
     }
   ]

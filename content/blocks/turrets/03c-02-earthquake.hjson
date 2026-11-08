@@ -6,9 +6,9 @@ armor: 3
 shootSound: earthquake
 shootSoundVolume: 0.8
 requirements: [
-  01a-02-item-nickel/300
-  01a-05-item-aluminium/120
-  01a-06-item-chromium/50
+  01a-02-item-nickel/110
+  01a-05-item-aluminium/210
+  01a-06-item-chromium/80
 ]
 category: turret
 coolant: {
@@ -24,7 +24,6 @@ targetGround: true
 rotateSpeed: 0
 reload: 85
 range: 150
-rotate: false
 shootCone: 360
 shootY: 0
 shootX: 0
@@ -40,6 +39,7 @@ ammoTypes: {
     splashDamageRadius: 160
     status: 13m-b01-disrupted1
     statusDuration: 30
+    smokeEffect: none
     despawnEffect: none
     hitEffect: none
     collidesAir: false
@@ -48,7 +48,8 @@ ammoTypes: {
       effects: [
       {
       type: WaveEffect
-      lifetime: 45
+      layer: 29.5
+      lifetime: 12
       sizeFrom: 0
       sizeTo: 152
       sides: 64
@@ -59,25 +60,27 @@ ammoTypes: {
      }
      {
       type: WaveEffect
-      lifetime: 50
+      layer: 29.5
+      lifetime: 14
       sizeFrom: 0
       sizeTo: 152
       sides: 64
       strokeFrom: 3
       strokeTo: 0
-      colorFrom: bca49fbf
-      colorTo: bca49fbf
+      colorFrom: bca49fa6
+      colorTo: bca49fa6
      }
      {
       type: WaveEffect
-      lifetime: 55
+      layer: 29.5
+      lifetime: 16
       sizeFrom: 0
       sizeTo: 152
       sides: 64
       strokeFrom: 3
       strokeTo: 0
-      colorFrom: bca49f80
-      colorTo: bca49f80
+      colorFrom: bca49f4d
+      colorTo: bca49f4d
      }
     ]
    }
@@ -90,6 +93,7 @@ ammoTypes: {
     splashDamageRadius: 200
     status: 13m-b02-disrupted2
     statusDuration: 30
+    smokeEffect: none
     despawnEffect: none
     hitEffect: none
     rangeChange: 40
@@ -99,7 +103,8 @@ ammoTypes: {
       effects: [
       {
       type: WaveEffect
-      lifetime: 45
+      layer: 29.5
+      lifetime: 12
       sizeFrom: 0
       sizeTo: 202
       sides: 64
@@ -110,25 +115,27 @@ ammoTypes: {
      }
      {
       type: WaveEffect
-      lifetime: 50
+      layer: 29.5
+      lifetime: 14
       sizeFrom: 0
       sizeTo: 202
       sides: 64
       strokeFrom: 3
       strokeTo: 0
-      colorFrom: ff8167bf
-      colorTo: ff8167bf
+      colorFrom: ff8167a6
+      colorTo: ff8167a6
      }
      {
       type: WaveEffect
-      lifetime: 55
+      layer: 29.5
+      lifetime: 16
       sizeFrom: 0
       sizeTo: 202
       sides: 64
       strokeFrom: 3
       strokeTo: 0
-      colorFrom: ff816780
-      colorTo: ff816780
+      colorFrom: ff81674d
+      colorTo: ff81674d
      }
     ]
    }
@@ -136,12 +143,13 @@ ammoTypes: {
   01a-10-item-bethine: {
     instantDisappear: true
     ammoMultiplier: 1
-    reloadMultiplier: 0.25
+    reloadMultiplier: 0.55
     damage: 12
     splashDamage: 320
     splashDamageRadius: 220
     status: 13m-b03-disrupted3
-    statusDuration: 60
+    statusDuration: 75
+    smokeEffect: none
     despawnEffect: none
     hitEffect: none
     rangeChange: 60
@@ -151,7 +159,8 @@ ammoTypes: {
       effects: [
       {
       type: WaveEffect
-      lifetime: 45
+      layer: 29.5
+      lifetime: 14
       sizeFrom: 0
       sizeTo: 215
       sides: 64
@@ -162,25 +171,27 @@ ammoTypes: {
      }
      {
       type: WaveEffect
-      lifetime: 50
+      layer: 29.5
+      lifetime: 16
       sizeFrom: 0
       sizeTo: 215
       sides: 64
       strokeFrom: 3
       strokeTo: 0
-      colorFrom: bf97d6bf
-      colorTo: bf97d6bf
+      colorFrom: bf97d6a6
+      colorTo: bf97d6a6
      }
      {
       type: WaveEffect
-      lifetime: 55
+      layer: 29.5
+      lifetime: 18
       sizeFrom: 0
       sizeTo: 215
       sides: 64
       strokeFrom: 3
       strokeTo: 0
-      colorFrom: bf97d680
-      colorTo: bf97d680
+      colorFrom: bf97d64d
+      colorTo: bf97d64d
      }
     ]
    }
