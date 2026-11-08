@@ -8,7 +8,7 @@ shootSoundVolume: 1.85
 requirements: [
   01a-01-item-cobalt/175
   01a-02-item-nickel/350
-  01a-06-item-chromium/25
+  01a-06-item-chromium/250
   01a-07-item-clevorite/90
 ]
 category: turret

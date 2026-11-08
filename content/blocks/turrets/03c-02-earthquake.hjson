@@ -6,8 +6,8 @@ armor: 3
 shootSound: earthquake
 shootSoundVolume: 0.8
 requirements: [
-  01a-02-item-nickel/110
-  01a-05-item-aluminium/210
+  01a-02-item-nickel/125
+  01a-05-item-aluminium/200
   01a-06-item-chromium/80
 ]
 category: turret
@@ -24,6 +24,7 @@ targetGround: true
 rotateSpeed: 0
 reload: 85
 range: 150
+rotate: false
 shootCone: 360
 shootY: 0
 shootX: 0
@@ -49,7 +50,7 @@ ammoTypes: {
       {
       type: WaveEffect
       layer: 29.5
-      lifetime: 12
+      lifetime: 45
       sizeFrom: 0
       sizeTo: 152
       sides: 64
@@ -61,7 +62,7 @@ ammoTypes: {
      {
       type: WaveEffect
       layer: 29.5
-      lifetime: 14
+      lifetime: 50
       sizeFrom: 0
       sizeTo: 152
       sides: 64
@@ -73,7 +74,7 @@ ammoTypes: {
      {
       type: WaveEffect
       layer: 29.5
-      lifetime: 16
+      lifetime: 55
       sizeFrom: 0
       sizeTo: 152
       sides: 64
@@ -104,7 +105,7 @@ ammoTypes: {
       {
       type: WaveEffect
       layer: 29.5
-      lifetime: 12
+      lifetime: 45
       sizeFrom: 0
       sizeTo: 202
       sides: 64
@@ -116,7 +117,7 @@ ammoTypes: {
      {
       type: WaveEffect
       layer: 29.5
-      lifetime: 14
+      lifetime: 50
       sizeFrom: 0
       sizeTo: 202
       sides: 64
@@ -128,7 +129,7 @@ ammoTypes: {
      {
       type: WaveEffect
       layer: 29.5
-      lifetime: 16
+      lifetime: 55
       sizeFrom: 0
       sizeTo: 202
       sides: 64
@@ -148,7 +149,7 @@ ammoTypes: {
     splashDamage: 320
     splashDamageRadius: 220
     status: 13m-b03-disrupted3
-    statusDuration: 75
+    statusDuration: 60
     smokeEffect: none
     despawnEffect: none
     hitEffect: none
@@ -160,7 +161,7 @@ ammoTypes: {
       {
       type: WaveEffect
       layer: 29.5
-      lifetime: 14
+      lifetime: 45
       sizeFrom: 0
       sizeTo: 215
       sides: 64
@@ -172,7 +173,7 @@ ammoTypes: {
      {
       type: WaveEffect
       layer: 29.5
-      lifetime: 16
+      lifetime: 50
       sizeFrom: 0
       sizeTo: 215
       sides: 64
@@ -184,7 +185,7 @@ ammoTypes: {
      {
       type: WaveEffect
       layer: 29.5
-      lifetime: 18
+      lifetime: 55
       sizeFrom: 0
       sizeTo: 215
       sides: 64
