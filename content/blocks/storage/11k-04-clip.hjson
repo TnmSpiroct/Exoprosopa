@@ -1,4 +1,4 @@
-type: StorageBlock
+# type: StorageBlock
 size: 2
 health: 450
 itemCapacity: 150
