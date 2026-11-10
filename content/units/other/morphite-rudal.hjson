@@ -56,7 +56,7 @@ weapons: [
     shake: 10
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 1100
+      splashDamage: 1200
       buildingDamageMultiplier: 0.1
       splashDamageRadius: 48
       despawnEffect: scatheExplosion
@@ -81,7 +81,7 @@ weapons: [
         width: 18
         height: 18
         collidesTiles: false
-        splashDamage: 60
+        splashDamage: 80
         splashDamageRadius: 32
         backColor: 6EEFC0
         trailColor: 6EEFC0
