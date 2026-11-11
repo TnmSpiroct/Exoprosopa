@@ -12,8 +12,8 @@ effect: {
     baseLength: 2
     sizeInterp: fade
     lifetime: 35
-    colorFrom: 80e7c3
-    colorTo: 3ea4a7
+    colorFrom: dcc0f8
+    colorTo: ae8cd4
     sizeFrom: 7.4
     sizeTo: 0
     lightScl: 1
