@@ -1,0 +1,13 @@
+difficulty: 10
+planet: frostnova
+sector: 69
+research: {
+  parent: 19s-20-highland
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 19s-20-highland
+    }
+  ]
+}
+outline: false

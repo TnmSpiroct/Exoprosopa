@@ -70,7 +70,7 @@ weapons: [
       intervalBullet: {
         type: LightningBulletType
         lightningColor: c59ae9aa
-        damage: 12.75
+        damage: 10
         lightningLength: 4
         status: 13m-e1-surges
         despawnSound: shockBulletSyntax

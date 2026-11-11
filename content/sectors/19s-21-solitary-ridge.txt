@@ -1,12 +1,13 @@
+captureWave: 30
 difficulty: 10
 planet: frostnova
-# TODO - sector: 69
+sector: 7
 research: {
-  parent: 19s-20-highland
+  parent: 19s-20-highlands
   objectives: [
     {
       type: SectorComplete
-      preset: 19s-20-highland
+      preset: 19s-20-highlands
     }
   ]
 }

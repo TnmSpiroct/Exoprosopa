@@ -8,6 +8,7 @@ requirements: [
 ]
 databaseTag: unitpart
 research: {
+  #TODO - change to proper sector
   parent: 10j-09-unitassembler-ship
   objectives: [
     {
