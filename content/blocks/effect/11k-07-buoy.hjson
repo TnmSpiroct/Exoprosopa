@@ -1,4 +1,4 @@
-type: Radar
+# type: Radar
 size: 2
 health: 450
 squareSprite: false

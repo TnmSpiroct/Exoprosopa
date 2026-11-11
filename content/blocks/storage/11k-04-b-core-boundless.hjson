@@ -1,4 +1,4 @@
-type: CoreBlock
+# type: CoreBlock
 size: 5
 health: 28500
 armor: 15
