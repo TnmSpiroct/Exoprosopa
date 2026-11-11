@@ -1,0 +1,13 @@
+type: LogicDisplay
+size: 6
+health: 3000
+displaySize: 180
+category: logic
+research: 12l-005-projector
+requirements: [
+  01a-06-item-chromium/225
+  01a-09-item-morphite/45
+  01a-12-item-techno-plating/350
+  01a-10-item-bethine/15
+]
+researchCostMultiplier: 1.2
