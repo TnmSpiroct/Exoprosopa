@@ -51,7 +51,7 @@ Exoprosopa is available in multiple languages!
 </div>
 Thankyou for playing this mod!<br>
 You can contributes maps or gives suggestions by join Exoprosopa Discord Server!<br>
-Check it on my profile. My username is TnmSpiroctsub.<br><br>
+Check it on my profile. My username is tnmspiroctmain.<br><br>
 <br>
 
 <div align = center>
