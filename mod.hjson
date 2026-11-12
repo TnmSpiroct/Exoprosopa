@@ -6,7 +6,7 @@ description:
 ''' 
   [[]#93E2EE]Exoprosopa[[]] adds a new planet, Frostnova, into the game.
   Frostnova is a deceptively frozen planet. A volatile and hazardous tundra hides a dormant faction, Astral.
-  It has a fully playable campaign with 19 campaign and 11 optional maps. 
+  It has a fully playable campaign with 20 campaign and 11 optional maps. 
   
   Polished content & linear campaign progression.
   Contains over 320 pieces of unique content, including blocks, liquids, items, units and specialized guardian.
@@ -24,8 +24,8 @@ description:
 
 Enjoy!
 '''
-version: "0.95"
+version: "0.96"
 minGameVersion: "160"
-subtitle: "[#93e2ee[]]V0.96 Update!"
+subtitle: "[#93e2ee[]]V0.96 Pyroxene Update!"
 repo: "TnmSpiroct/Exoprosopa"
 # [[]#93E2EE]Exoprosopa[[]] is waiting to be colonized again after nuclear retaliation across the supercontinent.
