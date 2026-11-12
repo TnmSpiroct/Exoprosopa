@@ -273,6 +273,7 @@ weapons: [
     rotate: false
     mirror: true
     alternate: true
+    useAttackRange: false
     shootSound: shootMissiles
     shootSoundVolume: 0.2
     shake: 5
