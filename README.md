@@ -1,4 +1,4 @@
-# Exoprosopa V0.96 Update!
+# Exoprosopa V0.96 Pyroxene Update!
 <div align = center>
 
 <br>
@@ -22,7 +22,7 @@
 </div>
 
 - Polished content and linear campaign progression.<br>
-- 19 campaign sectors. Capture this planet for yourself!<br>
+- 20 campaign sectors. Capture this planet for yourself!<br>
 - 11 optional sectors, providing more playtime and new challenges.<br>
 - Over 320 pieces of unique and fresh content, including blocks, units, specialized guardian, and more!<br>
 <div align = center>
@@ -56,27 +56,24 @@ Check it on my profile. My username is TnmSpiroctsub.<br><br>
 
 <div align = center>
 
-## Changelogs - V0.96 Udpate
+## Changelogs - V0.96 Pyroxene Udpate
 </div>
 
 - Campaign Sectors [onGoing]:
-  - Encampment [Remake] ☑
   - Crest [Remake - onGoing]
   - Defile ☑
-  - Station Annex ☑
-  - Glistening Straits ☑
   - Sear Fronts ☑
   - Waterfall ☑
   - Metropolis ☑
   - Dreary Flats ☑
   - Bisect ☑
+  - Highlands ☑
 - Campaign Sectors [TODO]:
   - Alpha Frontier [WIP]
-  - Highlands [WIP]
   - Horizon's Edge
   - Tundra Peaks
   - Sunken Farmfields
-  - Solitary Ridge
+  - Solitary Ridge [WIP]
 - Optional Map:
   - Botanical Garden
   - Pier
@@ -89,19 +86,18 @@ Check it on my profile. My username is TnmSpiroctsub.<br><br>
   - Riverbed Valley
   - Novaris Facility
   - Tridantel
-- New Ammunition
-  - Petal Fragment Torrefy
-  - Lamine Shellcore - Torrefy - Earthmover
-  - Gravitix Deprive - Earthmover
-  - Clevorite Anvil
 - Removed 8 Old Status Effects - Added 32 New Status Effects
 - Improved Spark & Sora Visual
 - Improved Red Pallete Blocks
 - Improved Base Turret Sprites
-- New Program Weapon
+- Program Weapon Revamp
 - Resprites Powerlines & Nodes
-- Resprites & Reanimate Vulcan
+- Resprites & Reanimate:
+  - Vulcan
+  - Torrefy
 - Reanimate Technoworks
+- Added Large Projector
+- Resprites Radar
 <br>
 
 ![Banner]
