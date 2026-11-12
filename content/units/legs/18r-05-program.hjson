@@ -230,7 +230,7 @@ weapons: [
     }
     name: pgram-launcher
     bullet: {
-      shootEffect: shootBig
+      shootEffect: sparkShoot
       smokeEffect: shootBigSmoke
       keepVelocity: false
       collidesAir: false
