@@ -2,62 +2,43 @@ type: missile
 template: MissileUnitType
 flying: true
 health: 55
-hitSize: 0.5
 speed: 6
 physics: false
-lifetime: 60
-rotateSpeed: 7.5
+lifetime: 65
+rotateSpeed: 6
 targetAir: false
-homingDelay: 4
-maxRange: 5
-hidden: true
+homingDelay: 5
+hitSize: 0.5
 trailLength: 0
 useUnitCap: false
+
+aimDst: 4
 drawCell: false
+outlines: false
+maxRange: 4
+hidden: true
 engineSize: 1.8
 engineOffset: 3.5
 abilities: [
   {
     type: MoveEffectAbility
-    interval: 2.8
+    interval: 2.5
+    color:d8f18c
+    rotateEffect: true
     effect: {
      type: MultiEffect
-     effects: [
-      {
-       type: ParticleEffect
-       cone: 0
-       baseRotation: 0
-       particles: 4
-       length: 2
-       baseLength: 2.4
-       line: true
-       strokeFrom: 1
-       strokeTo: 0.4
-       colorFrom: d8f18caa
-       colorTo: 92b25800
-      }
-      {
-       # custom bulletSparkSmokeTrailSmall without spark
-       type: particleEffect
-       layer: 116
-       particles: 3
-       length: 10
-       interp: fade
-       lifetime: 28
-       colorFrom: d8f18caa
-       colorTo: 92b25800
-       sizeFrom: 3.5
-       sizeTo: 1.5
-       cone: 360
-       lenFrom: 0.3
-       lenTo: 0.8
-      }
-     ]
+       effects: [
+        {
+         type: MultiEffect
+         effects: [
+          disperseTrail
+          colorSpark
+         ]
+        }
+      ]
     }
-    rotateEffect: true
   }
 ]
-outlines: false  
 weapons: [
   {
     reload: 1
@@ -68,8 +49,8 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       collidesAir: false
-      splashDamage: 90
-      splashDamageRadius: 28
+      splashDamage: 70
+      splashDamageRadius: 20
       suppressionRange: 120
       suppressionDuration: 300
       suppressionEffectChance: 40
