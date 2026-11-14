@@ -126,11 +126,11 @@ ammoTypes: {
     fragLifeMax: 1
     fragVelocityMin: 1
     fragVelocityMax: 1
-    fragBullets: 4
+    fragBullets: 8
     fragBullet: {
       type: LightningBulletType
-      damage: 25
-      lightningLength: 16
+      damage: 15
+      lightningLength: 12
       lightningLengthRand: 4
       lightningColor: 51c59c
       status: 13m-e1-surges
@@ -184,7 +184,7 @@ ammoTypes: {
      ]
     }
     hitSound: explosionTitan
-    pierceCap: 2
+    pierceCap: 4
     pierce: true
     collidesAir: false
     collidesGround: true
