@@ -138,6 +138,7 @@ shootType: {
   hitEffect: massiveExplosion
   splashDamage: 1700
   splashDamageRadius: 56
+  scaledSplashDamage: true
   ammoMultiplier: 1
   pierceArmor: true
 }
