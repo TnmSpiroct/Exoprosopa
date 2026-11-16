@@ -21,12 +21,13 @@
 ## License & Copyright
 
 **Source Code:**
-The source code in this repository is licensed under the **GNU General Public License v3.0 (GPL-3.0)**<br>
-in compliance with Mindustry's license. See the `LICENSE` file for details.
+The source code in this repository is licensed under the<br>
+**GNU General Public License v3.0 (GPL-3.0)** in compliance with Mindustry's license.<br>
+See the `LICENSE` file for details.
 
 **Assets (Sprites, Audio, Maps, & Contents):**
-Copyright (c) 2023–2026 TnmSpiroct. **All Rights Reserved.**<br>
-See the `credits.txt` file for details. 
+Copyright (c) 2024–2026 TnmSpiroct.<br>
+**All Rights Reserved.** See the `credits.txt` file for details. 
 
 All visual assets (sprites, textures), audio files (sound effects), maps, and original design concepts in this repository are the exclusive property of the author. **You are NOT permitted to copy, modify, redistribute, reupload, or reuse any assets from this mod in other projects or modpacks without explicit written permission from the author.**
 
