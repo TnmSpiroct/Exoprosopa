@@ -26,7 +26,7 @@ abilities: [
     reload: 240
     range: 28
     amount: 25
-    max: 450
+    max: 500
     soundVolume: 0
   }
 ]
@@ -48,9 +48,10 @@ weapons: [
     bullet: {
       type: BasicBulletType
       sprite: large-orb
+      blockArmorMultiplier: 0.5
       speed: 1.75
       lifetime: 110
-      damage: 58.65
+      damage: 48
       width: 13
       height: 13
       hitEffect: hitBulletColor

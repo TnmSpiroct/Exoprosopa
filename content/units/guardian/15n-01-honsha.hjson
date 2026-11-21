@@ -84,7 +84,7 @@ weapons: [
       height: 8
       width: 5
       lifetime: 40
-      damage: 25.55
+      damage: 28
       speed: 5
       pierce: true
       smokeEffect: colorSpark

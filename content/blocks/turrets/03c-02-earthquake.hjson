@@ -30,7 +30,7 @@ shootY: 0
 shootX: 0
 shake: 8
 ammoPerShot: 2
-maxAmmo: 15
+maxAmmo: 20
 ammoTypes: {
   01a-06-item-chromium: {
     instantDisappear: true

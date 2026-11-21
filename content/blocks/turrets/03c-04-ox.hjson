@@ -67,7 +67,7 @@ ammoTypes: {
       buildingDamageMultiplier: 0.3
       width: 12
       height: 12
-      pierceCap: 7
+      pierceCap: 6
       lifetime: 39
       damage: 67.25
       speed: 8
@@ -93,7 +93,7 @@ ammoTypes: {
         lightningLengthRand: 3
         lightningColor: 51c59c
         status: 13m-e1-surges
-        damage: 12.5
+        damage: 12
         despawnSound: explosionArtilleryShock
       }
       despawnEffect: {

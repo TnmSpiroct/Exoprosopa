@@ -49,6 +49,7 @@ shootY: 9
 # Shake power when fires
 shake: 11
 newTargetInterval: 40
+maxAmmo: 20
 # Ammuminion
 ammoTypes: {
   01a-11-item-pyroxene: {

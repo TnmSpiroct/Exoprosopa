@@ -47,7 +47,7 @@ ammoTypes: {
     trailColor: ff91b3
     hitColor: ff91b3
     damage: 85
-    splashDamage: 280
+    splashDamage: 380
     splashDamageRadius: 64
     scaledSplashDamage: true
     knockback: 2
@@ -55,6 +55,7 @@ ammoTypes: {
     width: 17
     speed: 7.5
     lifetime: 55
+    status: 13m-e2-gradient-blast
     despawnShake: 8
     despawnEffect: none
     shootEffect: shootTitan
@@ -89,13 +90,15 @@ ammoTypes: {
     trailColor: 51c59c
     hitColor: 51c59c
     damage: 120
-    splashDamage: 390
-    splashDamageRadius: 64
+    splashDamage: 290
+    splashDamageRadius: 80
     scaledSplashDamage: true
     width: 19
     height: 17
     speed: 7.5
     lifetime: 45
+    status: 13m-b05-electrocuted2
+    statusDuration: 240
     despawnShake: 8
     despawnEffect: none
     hitEffect: titanExplosionFrag
@@ -150,13 +153,14 @@ ammoTypes: {
     hitColor: bf97d6
     damage: 180
     splashDamage: 570
-    splashDamageRadius: 96
+    splashDamageRadius: 48
     scaledSplashDamage: true
     knockback: 4
     height: 28
     width: 15
     speed: 7.5
     lifetime: 55
+    status: 13m-e2-gradient-blast
     despawnShake: 10
     despawnEffect: none
     shootEffect: shootTitan
