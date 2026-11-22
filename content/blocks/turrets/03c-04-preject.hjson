@@ -22,7 +22,7 @@ warmupMaintainTime: 160
 shootWarmupSpeed: 0.1
 shoot: {
 shots: 2
-shotDelay: 35
+shotDelay: 40
 firstShotDelay: 15
 }
 newTargetInterval: 40
@@ -55,6 +55,7 @@ ammoTypes: {
     width: 17
     speed: 7.5
     lifetime: 55
+    unitSort: grouped
     status: 13m-e2-gradient-blast
     despawnShake: 8
     despawnEffect: none
@@ -97,6 +98,7 @@ ammoTypes: {
     height: 17
     speed: 7.5
     lifetime: 45
+    unitSort: grouped
     status: 13m-b05-electrocuted2
     statusDuration: 240
     despawnShake: 8
@@ -160,6 +162,7 @@ ammoTypes: {
     width: 15
     speed: 7.5
     lifetime: 55
+    unitSort: strongest
     status: 13m-e2-gradient-blast
     despawnShake: 10
     despawnEffect: none

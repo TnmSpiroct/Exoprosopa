@@ -35,7 +35,7 @@ ammoTypes: {
  02b-04-miasma: {
   type: ContinuousLaserBulletType
   length: 145
-  damage: 48
+  damage: 50
   buildingDamageMultiplier: 0.1
   width: 2.5
   incendChance: 0

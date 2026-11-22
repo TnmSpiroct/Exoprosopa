@@ -44,6 +44,7 @@ ammoTypes: {
       damage: 78.45
       speed: 7
       ammoMultiplier: 2
+      unitSort: mostShield
       shootEffect: colorSpark
       smokeEffect: colorSpark
       trailColor: FF91B3
@@ -72,6 +73,7 @@ ammoTypes: {
       damage: 67.25
       speed: 8
       ammoMultiplier: 4
+      unitSort: mostArmor
       shootEffect: colorSpark
       smokeEffect: colorSpark
       trailColor: 51C59C

@@ -29,6 +29,7 @@ rotateSpeed: 1.5
 reload: 130
 range: 260
 shootY: 7
+unitSort: grouped
 ammoPerShot: 2
 ammoTypes: {
   01a-03-item-lamine: {

@@ -4,7 +4,7 @@ flying: true
 health: 120
 speed: 4.5
 physics: false
-lifetime: 45.4
+lifetime: 40
 rotateSpeed: 5
 targetAir: false
 homingDelay: 10
