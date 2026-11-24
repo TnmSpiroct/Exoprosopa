@@ -30,7 +30,7 @@ plans: [
       exoprosopa-08h-05-a-aluminium-gate/1
       exoprosopa-17q-01-codex/1
     ]
-    time: 3300
+    time: 3600
   }
   {
     type: AssemblerUnitPlan
@@ -41,7 +41,7 @@ plans: [
       exoprosopa-17q-01-codex/4
       exoprosopa-90z-02-hyperspace-engine/3
     ]
-    time: 4200
+    time: 4500
   }
   {
     type: AssemblerUnitPlan
@@ -52,7 +52,7 @@ plans: [
       exoprosopa-17q-02-calaust/4
       exoprosopa-90z-02-hyperspace-engine/3
     ]
-    time: 15600
+    time: 14400
   }
 ]
 squareSprite: false

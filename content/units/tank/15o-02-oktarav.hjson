@@ -58,7 +58,7 @@ weapons: [
         followParent: true
         lifetime: 9
         sizeFrom: 0
-        sizeTo: 20
+        sizeTo: 15
         colorFrom: ffffff
         colorTo: feb380
       }

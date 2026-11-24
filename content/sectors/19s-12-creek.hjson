@@ -5,6 +5,8 @@ sector: 213
 research: {
   parent: 19s-11-glistening-straits
   objectives: [
+    01a-03-item-aquashard,
+    09i-04-v-elemental-separator,
     {
       type: SectorComplete
       preset: 19s-11-glistening-straits

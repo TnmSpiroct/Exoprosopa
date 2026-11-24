@@ -58,11 +58,12 @@ weapons: [
       type: LaserBulletType
       length: 148
       recoil: 0
-      damage: 93.75
+      damage: 94
       sideAngle: 45
       sideLength: 28
       sideWidth: 1
       pierce: true
+      pierceArmor: true
       pierceBuilding: true
       status: 13m-a7-disarmed1
       statusDuration: 30

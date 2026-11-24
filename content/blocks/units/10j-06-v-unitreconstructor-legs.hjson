@@ -8,7 +8,7 @@ requirements: [
   01a-06-item-chromium/150
 ]
 liquidCapacity: 60
-constructTime: 2400
+constructTime: 3000
 category: units
 upgrades: [
     [

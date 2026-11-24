@@ -51,7 +51,7 @@ weapons: [
       blockArmorMultiplier: 0.5
       speed: 1.75
       lifetime: 110
-      damage: 48
+      damage: 47
       width: 13
       height: 13
       hitEffect: hitBulletColor
@@ -71,7 +71,7 @@ weapons: [
       intervalBullet: {
         type: LightningBulletType
         lightningColor: c59ae9aa
-        damage: 10
+        damage: 6
         lightningLength: 4
         status: 13m-e1-surges
         despawnSound: shockBulletSyntax

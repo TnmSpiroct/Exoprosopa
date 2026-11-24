@@ -51,7 +51,7 @@ plans: [
       exoprosopa-16p-02-rhitle/4
       exoprosopa-90z-03-geopowered-mechlegs/6
     ]
-    time: 15000
+    time: 14400
   }
 ]
 squareSprite: false

@@ -6,7 +6,7 @@ itemCapacity: 80
 reload: 270
 range: 270
 consumes: {
-  power: 1.25
+  power: 1.833333333333333
 }
 category: distribution
 requirements: [

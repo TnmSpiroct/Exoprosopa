@@ -5,6 +5,8 @@ sector: 143
 research: {
   parent: 19s-11-station-annex
   objectives: [
+    01a-12-item-techno-plating,
+    09i-13-technoworks,
     {
       type: SectorComplete
       preset: 19s-11-station-annex

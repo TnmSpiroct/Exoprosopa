@@ -5,6 +5,7 @@ sector: 204
 research: {
   parent: 19s-13-marshlands
   objectives: [
+    01a-03-item-aquashard,
     04d-04-b-aqua-dregder,
     09i-04-u-aquafilter,
     09i-04-v-elemental-separator,

@@ -1,6 +1,6 @@
 type: PayloadMassDriver
 consumes: {
-  power: 1.75
+  power: 1.5
 }
 health: 650
 category: units

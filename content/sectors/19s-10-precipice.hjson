@@ -6,6 +6,7 @@ research: {
   parent: 19s-09-hazardous-wasteland
   objectives: [
     10j-15-surge-launcher,
+    05e-13-a-surge-driver,
     {
       type: SectorComplete
       preset: 19s-09-hazardous-wasteland
