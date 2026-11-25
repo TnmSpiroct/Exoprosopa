@@ -3,8 +3,8 @@ size: 3
 health: 650
 squareSprite: false
 itemCapacity: 80
-reload: 270
-range: 270
+reload: 200
+range: 280
 consumes: {
   power: 1.833333333333333
 }
